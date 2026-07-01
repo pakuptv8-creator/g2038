@@ -21,6 +21,9 @@ end
 local oldUpdateControl = PlayerControl.UpdateControl
 
 function PlayerControl.UpdateControl(frame_time)
+  if Me and Me:isValid() then
+    Me:setProp("moveSpeed", 1.5)
+  end
   local player = Player.CurPlayer
   local control = bm:control()
   if player:isJoinTeam() and not player:isTeamCaptain() then

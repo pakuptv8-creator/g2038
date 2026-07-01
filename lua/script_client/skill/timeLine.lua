@@ -23,9 +23,8 @@ function behavior:back(packet, from, vals)
   if not from:isControl() then
     return
   end
-  local forceDelayTime = vals.forceDelayTime or 0
-  local forceTime = vals.time - (packet.lastLinePos and packet.lastLinePos.time or 0) - forceDelayTime
-  forceTime = math.floor(forceTime * (vals.backTimePct or 1))
+  local forceDelayTime = 0
+  local forceTime = 0
   World.Timer(forceDelayTime, function()
     from:setForceMove(packet.backPos, forceTime, self.isSimpleMove)
   end)
@@ -36,12 +35,4 @@ function behavior:None(packet, from, vals)
   Lib.logDebug("behavior None", packet.isEnemy, packet.casterBp, packet.targetBp)
   Me.movieCasterBp = packet.casterBp or 1
   Me.movieTargetBp = packet.targetBp or 7
-  if packet.isEnemy and vals.camaraEnemyShowName then
-    Lib.emitEvent(Event.EVENT_PLAY_CUTSCENE, getCamaraShowName(vals, packet.isEnemy, packet.casterBp))
-  elseif not packet.isEnemy and vals.camaraShowName then
-    local param
-    local movie = MovieManager.onPlayCutscene(getCamaraShowName(vals, packet.isEnemy, packet.casterBp), false, function()
-    end, param)
-    Me.timeLine = movie:getTimeLine()
-  end
 end

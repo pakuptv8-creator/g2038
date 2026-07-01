@@ -132,18 +132,10 @@ function M:initEvent()
   end)
   self:lightSubscribe("error!!!!! script_client win_battle_main btncanvasRunaway event : EventButtonClick", self.btncanvasRunaway, UIEvent.EventButtonClick, function()
     Lib.logDebug("btncanvasRunaway EventButtonClick")
-    local wnd = UI:getWnd("battle_dialog")
-    wnd:showDialogText({
-      text = Lang:getMessage("ui_are_you_sure_runaway"),
-      noCb = function()
-      end,
-      yesCb = function()
-        Me:battleAction(Define.BATTLE_ACTION.RUNAWAY)
-        if Me.battleFieldInfo and Me.battleFieldInfo.mode == Define.BATTLE_MODE.PVP or Me:isJoinTeam() then
-          self:showControlWin(false)
-        end
-      end
-    })
+    Me:battleAction(Define.BATTLE_ACTION.RUNAWAY)
+    if Me.battleFieldInfo and Me.battleFieldInfo.mode == Define.BATTLE_MODE.PVP or Me:isJoinTeam() then
+      self:showControlWin(false)
+    end
   end)
   self:lightSubscribe("error!!!!! script_client win_battle_main btncanvasPokemon event : EventButtonClick", self.btncanvasPokemon, UIEvent.EventButtonClick, function()
     UI:openWnd("battle_pokemon", true)
@@ -850,12 +842,8 @@ function M:startRoundCountdown()
       Me:gotoNextGuide()
     end
     if self.auto then
-      if 3 <= operationTime - time then
-        self:doAutoPolicy()
-        self.txtCanvasAutoCountDown:SetVisible(false)
-      else
-        self.txtCanvasAutoCountDown:SetVisible(self.auto)
-      end
+      self:doAutoPolicy()
+      self.txtCanvasAutoCountDown:SetVisible(false)
     end
   end, 1000, operationTime)
 end

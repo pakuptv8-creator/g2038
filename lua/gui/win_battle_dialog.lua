@@ -107,10 +107,21 @@ function M:onOpen()
   self:subscribeEvent()
   self:initView()
   self:root():SetAlwaysOnTop(true)
+
+  if self.yesCb then
+    World.Timer(1, function()
+      if self.yesCb then
+        self.yesCb()
+        UI:closeWnd("battle_dialog")
+      end
+    end)
+    return
+  end
+
   if self.autoCloseTime then
-    self.closeTimer = LuaTimer:scheduleTimer(function()
+    World.Timer(1, function()
       UI:closeWnd("battle_dialog")
-    end, self.autoCloseTime, 1)
+    end)
   end
 end
 

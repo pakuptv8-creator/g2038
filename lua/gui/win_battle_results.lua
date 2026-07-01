@@ -275,6 +275,12 @@ function M:showBattleResult(packet, fromBattle)
   }, {0, 100})
   if not packet.coin and not packet.exp then
     self:exchangeToShowPetUpPage(true)
+  else
+    World.Timer(1, function()
+      if self.btnBattleResultsRewardContinue:IsVisible() then
+        self.btnBattleResultsRewardContinue:CallHandler(UIEvent.EventButtonClick)
+      end
+    end)
   end
   if packet.pokemonList and 0 < #packet.pokemonList then
     Me.needShowCapture = true
@@ -322,7 +328,7 @@ function M:upDatePokemonList(right_away)
           end, 0)
           return
         end
-        local closeTimeWait = 2000
+        local closeTimeWait = 0
         if right_away then
           closeTimeWait = 0
         end
