@@ -1,0 +1,19 @@
+{
+  "ballId": 6,
+  "battleUse": true,
+  "canUse": false,
+  "desc": "pokeball_fire_desc",
+  "icon": "set:g2038_pokemon_ball.json image:ball_fire",
+  "imposeTray": [
+    1
+  ],
+  "itemId": 6,
+  "itemName": "pokeball_fire_name",
+  "itemType": 1,
+  "needSave": true,
+  "price": 10,
+  "rarity": 4,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 3
+}

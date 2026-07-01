@@ -1,0 +1,1100 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "ToolBar",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "AlwaysOnTop",
+                    "Value": "true"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{0,54}}"
+                },
+                {
+                    "Name": "enableSilpOutOfBounds",
+                    "Value": "false"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "ToolBar-Bg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-5},{0,-2},{1,-5},{1,-2}}"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "CheckBox",
+                    "Name": "ToolBar-Setting",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,11},{0,7},{0,57},{0,53}}"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemonMain.json image:btn_setting"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemonMain.json image:btn_setting"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ToolBar-Setting-Red",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Visible",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,16},{0,16}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Bottom"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:manor_atlas.json image:setting_red_point"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "ToolBar-Team-List",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,230},{0,0},{1,-110},{1,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "ToolBar-Team-List-1",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,150},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "ToolBar-Team-List-icon-1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,10},{0,-1},{0,50},{0,39}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-title-1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,10},{0,130},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-info-1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,30},{0,130},{0,50}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "ToolBar-Team-List-bg-1",
+                                    "Property": [
+                                        {
+                                            "Name": "Level",
+                                            "Value": "60"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "7 7 7 7"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:new_gui_material.json image:player_list_bg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "ToolBar-Team-List-2",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,150},{0,0},{0,300},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "ToolBar-Team-List-icon-2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,10},{0,0},{0,50},{0,40}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-info-2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,30},{0,130},{0,50}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-title-2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,10},{0,130},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "ToolBar-Team-List-bg-2",
+                                    "Property": [
+                                        {
+                                            "Name": "Level",
+                                            "Value": "60"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "7 7 7 7"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:new_gui_material.json image:player_list_bg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "ToolBar-Team-List-3",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,300},{0,0},{0,450},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "ToolBar-Team-List-icon-3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,10},{0,0},{0,50},{0,40}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-title-3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,10},{0,130},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-info-3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,30},{0,130},{0,50}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "ToolBar-Team-List-bg-3",
+                                    "Property": [
+                                        {
+                                            "Name": "Level",
+                                            "Value": "60"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "7 7 7 7"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:new_gui_material.json image:player_list_bg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "ToolBar-Team-List-4",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,450},{0,0},{0,600},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "ToolBar-Team-List-icon-4",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,10},{0,0},{0,50},{0,40}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-title-4",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,10},{0,130},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "ToolBar-Team-List-info-4",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,60},{0,30},{0,130},{0,50}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextAutoOmission",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "ToolBar-Team-List-bg-4",
+                                    "Property": [
+                                        {
+                                            "Name": "Level",
+                                            "Value": "60"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "7 7 7 7"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:new_gui_material.json image:player_list_bg"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "ToolBar-Currency-Money",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{-0.277344,0},{0,0},{-0.277344,161},{0,43}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 40 0 0"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemonMain.json image:bg_coin"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ToolBar-Currency-Money-Icon",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,5},{0,0},{0,36},{0,31}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:pokemonRechargeAward.json image:goldIcon"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "ToolBar-Currency-Money-Value",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-38},{0,0},{0,42},{1,0}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM16"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextAutoOmission",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0.478431 0.180392 0.101961 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ToolBar-Camara",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,65},{0,7},{0,111},{0,53}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemonMain.json image:btn_shoot"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemonMain.json image:btn_shoot"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "ToolBar-Gold-Diamond",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{-0.136719,0},{0,0},{-0.136719,161},{0,43}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 45 0 0"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemonMain.json image:bg_coin"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ToolBar-Gold-Diamond-Icon",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,5},{0,0},{0,36},{0,31}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:pokemonMain.json image:icon_dimond"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "ToolBar-Gold-Diamond-Value",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-38},{0,0},{0,42},{1,0}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM16"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextAutoOmission",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0.478431 0.180392 0.101961 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "ToolBar-Cash-Coupon",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{-0.417969,0},{0,0},{-0.417969,161},{0,43}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 45 0 0"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemonMain.json image:bg_coin"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ToolBar-Cash-Coupon-Icon",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,5},{0,0},{0,37},{0,32}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2038_cash_coupon_icon.json image:g2038_cash_coupon_icon_1"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "ToolBar-Cash-Coupon-Value",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-38},{0,0},{0,42},{1,0}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM16"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextAutoOmission",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0.478431 0.180392 0.101961 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ToolBar-Emoji",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,119},{0,7},{0,165},{0,53}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemonMain.json image:btn_emoji"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemonMain.json image:btn_emoji"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ToolBar-Friend",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,227},{0,7},{0,273},{0,53}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemonMain.json image:btn_friend"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemonMain.json image:btn_friend"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ToolBar-Video",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,173},{0,7},{0,219},{0,53}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemonMain.json image:btn_0_video"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemonMain.json image:btn_0_video"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

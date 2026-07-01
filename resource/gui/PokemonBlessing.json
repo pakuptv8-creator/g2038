@@ -1,0 +1,1186 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "PokemonBlessing",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                    "Name": "StretchType",
+                    "Value": "NineGrid"
+                },
+                {
+                    "Name": "LayoutBackImage",
+                    "Value": "set:pokemon_pet_packet.json image:img_9_bg"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonBlessing-Left-Layout",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,20},{0,70},{0,350},{1,-15}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "20 20 20 20"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonBlessing-Packet-Layout",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,-10},{1,-10}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-Packet-List",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,15},{0,75},{1,-15},{1,-15}}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "PokemonBlessing-Packet-Top",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{0,60}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "15 15 30 10"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonBlessing-Packet-Top-Img",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,13},{0,0},{0,54},{0,42}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:pokemon_pet_packet.json image:img_0_pokemons"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonBlessing-Classify-Layout",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-20},{0,0},{0,210},{0,44}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "10 10 10 10"
+                                                },
+                                                {
+                                                    "Name": "LayoutBackImage",
+                                                    "Value": "set:pokemon_pet_packet.json image:chb_9_raceboard"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonBlessing-Classify-Open-Layout",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Visible",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{1,-10},{1,0},{8.2,60}}"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "15 15 15 15"
+                                                        },
+                                                        {
+                                                            "Name": "LayoutBackImage",
+                                                            "Value": "set:pokemon_pet_packet.json image:chb_9_raceboard2"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "Layout",
+                                                            "Name": "PokemonBlessing-Classify-Tab-List",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,15},{0,20},{1,-15},{1,-15}}"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonBlessing-Classify-Bg",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "10 10 10 10"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_pet_packet.json image:chb_9_raceboard"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "CheckBox",
+                                                            "Name": "PokemonBlessing-Classify-CheckBox",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,5},{0,0},{0,61},{0,46}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "NormalImage",
+                                                                    "Value": "set:pokemon_pet_packet.json image:chb_0_raceshow"
+                                                                },
+                                                                {
+                                                                    "Name": "PushedImage",
+                                                                    "Value": "set:pokemon_pet_packet.json image:chb_0_racehide"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "PushBrightness",
+                                                                    "Value": "0.25 0.25 0.25 0"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonBlessing-CurClassify",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Material",
+                                                                    "Value": "CullBackLinear"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,20},{0,0},{0,52},{0,32}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_pet_race.json image:img_0_race_all"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonBlessing-CurClassify-Text",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{1,12},{0,0},{2,12},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM16"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextCharaterRotation",
+                                                                            "Value": "false"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonBlessing-Right-Layout",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,370},{0,70},{1,-20},{0,705}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "20 20 20 20"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemon_blessing.json image:chb_9_bg"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "PokemonBlessing-Right-Top",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,5},{0,5},{1,-5},{0,80}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "PokemonBlessing-Name",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,26},{0,24},{0,121},{0,55}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM30"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0.388235 0.0117647 0.0117647 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "PokemonBlessing-Level",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{1,30},{0,3},{2,30},{1,3}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM18"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0.784314 0.262745 0.0352941 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "TextBorder",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "1 0.988235 0.854902 1"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonBlessing-Right-Content",
+                            "Property": [
+                                {
+                                    "Name": "BackgroundColor",
+                                    "Value": "1 0.976471 0.937255 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,80},{1,-34},{0,520}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-Right-Content-Top",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{0,63}}"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-Right-Content-List",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,63},{1,0},{1,0}}"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonBlessing-Right-Bottom",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,5},{0,-5},{1,-5},{0,105}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Bottom"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "PokemonBlessing-Tip-Icon",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,20},{0,20},{0,41},{0,41}}"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:pokemon_blessing.json image:img_0_describe"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "PokemonBlessing-Bless",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-13},{0,-27},{0,192},{0,31}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "15 15 15 15"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM20"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextBorderColor",
+                                            "Value": "0.278431 0.411765 0.0666667 1"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "PokemonBlessing-Tip-Text",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,51},{0,20},{1,-484},{0,80}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0.803922 0.219608 0.0392157 1"
+                                        },
+                                        {
+                                            "Name": "TextWordWrap",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-Item-Layout",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,450},{0,0},{0,534},{0,84}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "SoundName",
+                                            "Value": "11"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "PokemonBlessing-ChangeList",
+                    "Property": [
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,200},{0,0},{0,236},{0,33.75}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemon_pet_packet.json image:chb_9raceoption1"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemon_pet_packet.json image:chb_9raceoption1"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "PokemonBlessing-Close",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,168},{0,65}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "6"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemon_pet_packet.json image:btn_0_back"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemon_pet_packet.json image:btn_0_back"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonBlessing-Currency-Money",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-280},{0,10},{0,-80},{0,53}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 40 0 0"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemonMain.json image:bg_coin"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonBlessing-Gold-Diamond",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-100},{0,10},{0,61},{0,53}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 45 0 0"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemonMain.json image:bg_coin"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonBlessing-Cash-Coupon",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-500},{0,10},{0,-339},{0,53}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 45 0 0"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemonMain.json image:bg_coin"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "PokemonBlessing-Shop",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-20},{0,5},{0,35},{0,60}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemonMain.json image:btn_shop"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemonMain.json image:btn_shop"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "PokemonBlessing-Title-Text",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,180},{0,0},{0,180},{0,65}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM30"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextBorder",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextBorderColor",
+                            "Value": "0.0392157 0.172549 0 1"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonBlessing-SelectItem-Layout",
+                    "Property": [
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 0 0.392157"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonBlessing-SelectItem-Content",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,700},{0,560}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "15 15 15 15"
+                                },
+                                {
+                                    "Name": "LayoutBackImage",
+                                    "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-SelectItem-Top",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,5},{0,4},{1,-5},{0,74}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 5"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "PokemonBlessing-SelectItem-Title",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM24"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextBorder",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0.415686 0.172549 0 1"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-SelectItem-Bg",
+                                    "Property": [
+                                        {
+                                            "Name": "BackgroundColor",
+                                            "Value": "0.996078 0.945098 0.835294 1"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,12},{0,85},{1,-12},{0,441}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonBlessing-SelectItem-List",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{1,-44},{1,-40}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonBlessing-SelectItem-Botton",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,5},{0,-5},{1,-5},{0,95}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 5 10"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_bottom"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonBlessing-SelectItem-Tip-Icon",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,20},{0,20},{0,41},{0,41}}"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:pokemon_blessing.json image:img_0_describe"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "PokemonBlessing-SelectItem-Tip-Text",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,51},{0,20},{0.5,51},{0,80}}"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM16"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0.803922 0.219608 0.0392157 1"
+                                                },
+                                                {
+                                                    "Name": "TextWordWrap",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "PokemonBlessing-SelectItem-Yes",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-38},{0,-18},{0,159},{0,45}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "15 15 15 15"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM20"
+                                                },
+                                                {
+                                                    "Name": "TextBorder",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0.278431 0.411765 0.0666667 1"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "PokemonBlessing-SelectItem-Close",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-25},{0,20},{0,16},{0,61}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "SoundName",
+                                            "Value": "6"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:pokemon_battle.json image:select_target_close"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:pokemon_battle.json image:select_target_close"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

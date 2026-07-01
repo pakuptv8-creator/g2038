@@ -1,0 +1,22 @@
+{
+  "actorName": "g2038_cone_01.actor",
+  "base": "g2038_static_base_map017",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -2.9756460035004,
+          0.0,
+          -0.53945750323321,
+          3.0200856614351,
+          5.98,
+          0.50755739030577
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

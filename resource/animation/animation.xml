@@ -1,0 +1,32 @@
+<Animation animName="TextColorFlicker" sync="false" loop="true" time="2000">
+	<SubAnimation animType="TextColor" time="100" color="1.0,1.0,0.0,1.0"/>
+	<SubAnimation animType="TextColor" time="100" color="1.0,0.0,0.0,1.0"/>
+</Animation>
+
+<Animation animName="fadeOutChat" sync="false">
+	<SubAnimation animType="alpha" time="1000" alphaStart="1.0" alphaEnd="0.0"/>
+</Animation>
+
+<Animation animName="showCanvasCharacteristic1" sync="false">
+	<SubAnimation animType="move" time="200" moveStart="0,0,0,-259" moveEnd="0,14,0,-259"/>
+</Animation>
+
+<Animation animName="showCanvasCharacteristic2" sync="false">
+<SubAnimation animType="move" time="200" moveStart="0,0,0,-310" moveEnd="0,-14,0,-320"/>
+</Animation>
+
+<Animation animName="luckyEggAnimation" sync="false">
+<SubAnimation animType="ChangeSize" time="200" sizeStart="0,500,0,500" sizeEnd="0,400,0,400"/>
+</Animation>
+
+<Animation animName="luckyEggTxtFadeOut" sync="false">
+<SubAnimation animType="alpha" time="400" alphaStart="1.0" alphaEnd="0.0"/>
+</Animation>
+
+<Animation animName="TaskPointEffectFly" sync="false">
+<SubAnimation animType="move" time="800" />
+</Animation>
+
+<Animation animName="TaskPointEffectBoom" sync="false">
+<SubAnimation animType="scale" time="200" scaleStart="1.0" scaleEnd="2.0"/>
+</Animation>

@@ -1,0 +1,19 @@
+{
+  "sound": {
+    "volume": 0.7,
+    "loop": true,
+    "selfOnly": true,
+    "sound": "/sound/hspt_bgm.mp3"
+  },
+  "avoidBuff": [
+    "myplugin/bgm_buff_hspt"
+  ],
+  "?removeBuff":"进入本音乐区域时默认播放的音乐",
+  "removeBuff": [
+    "myplugin/bgm_buff_main"
+  ],
+  "?legacyBuff":"离开本音乐区域时默认播放的音乐",
+  "legacyBuff": {
+    "cfg": "myplugin/bgm_buff_main"
+  }
+}

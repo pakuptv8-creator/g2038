@@ -1,0 +1,14 @@
+{
+    "breakTime": 20,
+	"runBuff": [
+        "myplugin/sound_buff_walk"
+      ],
+    "texture": [
+        "wool_colored_silver.png",
+        "wool_colored_silver.png",
+        "wool_colored_silver.png",
+        "wool_colored_silver.png",
+        "wool_colored_silver.png",
+        "wool_colored_silver.png"
+    ]
+}

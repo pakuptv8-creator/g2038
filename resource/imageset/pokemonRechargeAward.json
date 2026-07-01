@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "btn_0_blue": {
+            "frame": {
+                "x": 658,
+                "y": 1,
+                "w": 227,
+                "h": 76
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 227,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 227,
+                "h": 76
+            }
+        },
+        "btn_0_close": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "btn_0_green": {
+            "frame": {
+                "x": 430,
+                "y": 1,
+                "w": 227,
+                "h": 76
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 227,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 227,
+                "h": 76
+            }
+        },
+        "goldIcon": {
+            "frame": {
+                "x": 172,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_0_board": {
+            "frame": {
+                "x": 1,
+                "y": 133,
+                "w": 924,
+                "h": 550
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 924,
+                "h": 550
+            },
+            "sourceSize": {
+                "w": 924,
+                "h": 550
+            }
+        },
+        "img_0_item_board": {
+            "frame": {
+                "x": 43,
+                "y": 1,
+                "w": 128,
+                "h": 131
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 131
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 131
+            }
+        },
+        "img_0_item_specail": {
+            "frame": {
+                "x": 301,
+                "y": 1,
+                "w": 128,
+                "h": 131
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 131
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 131
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemonRechargeAward.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 926,
+            "h": 684
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

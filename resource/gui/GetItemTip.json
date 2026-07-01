@@ -1,0 +1,250 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "GetItemTip",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,274},{0,196},{0,950},{0,553}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "20 20 20 20"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "GetItemTip-top",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,3},{0,6},{0,671},{0,58}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 10"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "GetItemTip-title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.134616,0},{0.999996,0},{0.923074,0}}"
+                },
+                {
+                  "Name": "AutoSize",
+                  "Value": "true"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "GetItemTip-close",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,624},{0,4},{0,661},{0,41}}"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        },
+        {
+          "Name": "GetItemTip-itemData",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,58},{0,662},{0,227}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "GetItemTip-itemQuality",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,283},{0,30},{0,375},{0,121}}"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "GetItemTip-itemIcon",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,283},{0,30},{0,375},{0,121}}"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "GetItemTip-itemNum",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,345},{0,91},{0,375},{0,121}}"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "GetItemTip-itemName",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,242},{0,125},{0,418},{0,155}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM14"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.462745 0.105882 0.160784 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        },
+        {
+          "Name": "GetItemTip-conformBtn",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,232},{0,254},{0,437},{0,320}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 5 5"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        }
+      ]
+    }
+  }
+}

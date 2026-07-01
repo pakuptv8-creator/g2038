@@ -1,0 +1,149 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2038_egg_1.actor" Originalscale="1 1 1" Skeleton="g2038_egg.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="egg" SlaveName="2" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2038_egg_02.skin" ChangeColor = "-0.316411 0.0259587 -0.42671 0.442817" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_egg_idle.anim" BeginTime = "0" Times = "-1" Length = "4.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="start1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_egg.anim" BeginTime = "0" Times = "1" Length = "4.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_choudan_shake_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.14384"/>
+					<Position_Y value="0.819538"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_choudan_shootlight_3.effect"/>
+					<SocketName value="Bone003"/>
+					<BeginTime value="0.02"/>
+					<Times value="1"/>
+					<Position_X value="0.506595"/>
+					<Position_Y value="0.0728471"/>
+					<Position_Z value="0.123847"/>
+					<yaw value="-56.6614"/>
+					<pitch value="-78.9959"/>
+					<roll value="-24.2908"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="start2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_egg.anim" BeginTime = "0" Times = "1" Length = "4.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_choudan_shake_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.14384"/>
+					<Position_Y value="0.819538"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_choudan_shootlight_2.effect"/>
+					<SocketName value="Bone003"/>
+					<BeginTime value="0.02"/>
+					<Times value="1"/>
+					<Position_X value="0.506595"/>
+					<Position_Y value="0.0728471"/>
+					<Position_Z value="0.123847"/>
+					<yaw value="-56.6614"/>
+					<pitch value="-78.9959"/>
+					<roll value="-24.2908"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="start3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_egg.anim" BeginTime = "0" Times = "1" Length = "4.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_choudan_shake_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0.14384"/>
+					<Position_Y value="0.819538"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_choudan_shootlight_1.effect"/>
+					<SocketName value="Bone003"/>
+					<BeginTime value="0.02"/>
+					<Times value="1"/>
+					<Position_X value="0.506595"/>
+					<Position_Y value="0.0728471"/>
+					<Position_Z value="0.123847"/>
+					<yaw value="-56.6614"/>
+					<pitch value="-78.9959"/>
+					<roll value="-24.2908"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2038_egg.anim"/>
+				<Anim Name="g2038_egg_idle.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

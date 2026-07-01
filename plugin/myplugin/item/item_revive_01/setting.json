@@ -1,0 +1,32 @@
+{
+  "?cureType": "1、hp 2、life 3、dbuff 4、pp",
+  "?deBuffFullName": "0 所有负面",
+  "?dose": "pp回复时 没有则默认回复到上限",
+  "?effectBuff": "可以对战斗中宠物使用的物品才需要存在的字段",
+  "?group": "是否全队",
+  "?ppTarget": "1、单体单技能，2、单体所有技能，3、群体所有技能",
+  "?useTarget": "1、玩家 2、宠物 3、敌人",
+  "battleUse": true,
+  "canUse": true,
+  "cureType": [
+    2
+  ],
+  "desc": "item_revive_01_desc",
+  "dose": 0.3,
+  "effectBuff": "myplugin/cure_hp_effect_buff_1",
+  "group": false,
+  "icon": "set:g2038_pokemon_item.json image:g2038_item_revive_001",
+  "imposeTray": [
+    2
+  ],
+  "itemId": 16,
+  "itemName": "item_revive_01_name",
+  "itemType": 2,
+  "needSave": true,
+  "ppTarget": 2,
+  "price": 10,
+  "rarity": 2,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

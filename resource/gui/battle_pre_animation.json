@@ -1,0 +1,62 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "battle_pre_view",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "VerticalAlignment",
+          "Value": "Bottom"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "battle_pre_view_bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "battle_pre_view-effect1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,100},{0,100}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_transition_2.effect"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

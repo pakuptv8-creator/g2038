@@ -1,0 +1,480 @@
+{
+  "canBreak": false,
+  "skyBox": [
+    {
+      "transition": 0,
+      "time": 0,
+      "texture": [
+        "myplugin/sky/AM_right.png",
+        "myplugin/sky/AM_left.png",
+        "myplugin/sky/AM_top.png",
+        "myplugin/sky/AM_bottom.png",
+        "myplugin/sky/AM_back.png",
+        "myplugin/sky/AM_front.png"
+      ]
+    }
+  ],
+  "saveMapPos": true,
+  "region": {
+    "region_npc_20307": {
+      "regionCfg": "myplugin/force_obstacle_region_20307",
+      "box": {
+        "min": {
+          "x": 57,
+          "y": 10,
+          "z": 45
+        },
+        "max": {
+          "x": 66,
+          "y": 10,
+          "z": 51
+        }
+      }
+    },
+    "region_npc_20306": {
+      "regionCfg": "myplugin/force_obstacle_region_20306",
+      "box": {
+        "min": {
+          "x": 44,
+          "y": 8,
+          "z": 33
+        },
+        "max": {
+          "x": 79,
+          "y": 8,
+          "z": 35
+        }
+      }
+    },
+    "region_npc_20305": {
+      "regionCfg": "myplugin/force_obstacle_region_20305",
+      "box": {
+        "min": {
+          "x": 58,
+          "y": 7,
+          "z": 26
+        },
+        "max": {
+          "x": 65,
+          "y": 7,
+          "z": 29
+        }
+      }
+    },
+    "region_npc_20304": {
+      "regionCfg": "myplugin/force_obstacle_region_20304",
+      "box": {
+        "min": {
+          "x": 49,
+          "y": 5,
+          "z": 13
+        },
+        "max": {
+          "x": 74,
+          "y": 5,
+          "z": 14
+        }
+      }
+    },
+    "region_npc_20303": {
+      "regionCfg": "myplugin/force_obstacle_region_20303",
+      "box": {
+        "min": {
+          "x": 58,
+          "y": 5,
+          "z": 6
+        },
+        "max": {
+          "x": 66,
+          "y": 5,
+          "z": 9
+        }
+      }
+    },
+    "region_npc_20302": {
+      "regionCfg": "myplugin/force_obstacle_region_20302",
+      "box": {
+        "min": {
+          "x": 49,
+          "y": 4,
+          "z": -5
+        },
+        "max": {
+          "x": 74,
+          "y": 4,
+          "z": -3
+        }
+      }
+    },
+    "region_npc_20301": {
+      "regionCfg": "myplugin/force_obstacle_region_20301",
+      "box": {
+        "min": {
+          "x": 58,
+          "y": 4,
+          "z": -9
+        },
+        "max": {
+          "x": 66,
+          "y": 4,
+          "z": -7
+        }
+      }
+    },
+    "force_talk_area1_transout_gym1_pvp": {
+      "regionCfg": "myplugin/force_obstacle_region_transout_gym1_pvp",
+      "box": {
+        "min": {
+          "x": 14,
+          "y": 3,
+          "z": -22
+        },
+        "max": {
+          "x": 25,
+          "y": 3,
+          "z": -20
+        }
+      }
+    },
+    "force_talk_area1_transout_gym1": {
+      "regionCfg": "myplugin/force_obstacle_region_transout_gym1",
+      "box": {
+        "min": {
+          "x": 56,
+          "y": 3,
+          "z": -23
+        },
+        "max": {
+          "x": 67,
+          "y": 3,
+          "z": -21
+        }
+      }
+    },
+    "bgm_gym_01": {
+      "regionCfg": "myplugin/bgm_gym_01",
+      "box": {
+        "min": {
+          "x": -2,
+          "y": 0,
+          "z": -31
+        },
+        "max": {
+          "x": 85,
+          "y": 12,
+          "z": 44
+        }
+      }
+    }
+  },
+  "entity": [
+    {
+      "cfg": "myplugin/npc_20301",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 67.5,
+        "y": 4,
+        "z": -7.5
+      },
+      "pitch": 0
+    },
+    {
+      "cfg": "myplugin/npc_20302",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": 57.650001525879,
+        "y": 4,
+        "z": -3.2699999809265
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20303",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 66.940002441406,
+        "y": 5,
+        "z": 9.3699998855591
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20304",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": 57.400001525879,
+        "y": 5,
+        "z": 14.85000038147
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20305",
+      "ry": 210,
+      "rr": 0,
+      "pos": {
+        "x": 58.040000915527,
+        "y": 8,
+        "z": 30.290000915527
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20306",
+      "ry": 150,
+      "rr": 0,
+      "pos": {
+        "x": 65.830001831055,
+        "y": 8,
+        "z": 35.340000152588
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20307",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 62,
+        "y": 10,
+        "z": 48.450000762939
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20402",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 62,
+        "y": 3,
+        "z": -21
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_decorate_09_L",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 59,
+        "y": 3,
+        "z": -23
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_decorate_09_R",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 65,
+        "y": 3,
+        "z": -23
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_decorate_09_L",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 17,
+        "y": 3,
+        "z": -23
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_decorate_09_R",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 23,
+        "y": 3,
+        "z": -23
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20501",
+      "ry": 150,
+      "rr": 0,
+      "pos": {
+        "x": 22.879999160767,
+        "y": 4,
+        "z": -6.2199997901917
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20502",
+      "ry": 210,
+      "rr": 0,
+      "pos": {
+        "x": 15.560000419617,
+        "y": 4,
+        "z": -5.6399998664856
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20503",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 21.89999961853,
+        "y": 4,
+        "z": -2.9300000667572
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20504",
+      "ry": 210,
+      "rr": 0,
+      "pos": {
+        "x": 17.340000152588,
+        "y": 4,
+        "z": -2.9900000095367
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20505",
+      "ry": 150,
+      "rr": 0,
+      "pos": {
+        "x": 23.360000610352,
+        "y": 8,
+        "z": 33.720001220703
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20506",
+      "ry": 210,
+      "rr": 0,
+      "pos": {
+        "x": 16.950000762939,
+        "y": 8,
+        "z": 34.930000305176
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20507",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 20.040000915527,
+        "y": 10,
+        "z": 47.560001373291
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_20403",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 19.879999160767,
+        "y": 3,
+        "z": -21.020000457764
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_furniturebig",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 29,
+        "y": 5,
+        "z": 21
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_furniturebig",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11,
+        "y": 5,
+        "z": 21
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_furniturebig",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 71,
+        "y": 5,
+        "z": 21
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_furniturebig",
+      "ry": 0.0,
+      "rr": 0.0,
+      "pos": {
+        "x": 53.0,
+        "y": 5.0,
+        "z": 21.0
+      },
+      "pitch": 0.0,
+      "isNew": true
+    }
+  ],
+  "dynamicBrightness": [
+    {
+      "brightness": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      }
+    }
+  ],
+  "cameraCfg": {
+    "viewMode": 3,
+    "cameraView": {
+      "yaw": 0.36,
+      "pos": {
+        "x": 61,
+        "y": 5,
+        "z": -10
+      },
+      "pitch": 7.11
+    }
+  }
+}

@@ -1,0 +1,4 @@
+<!--NPC初始坐标-->
+<Track pos="210.45,115,105.7" yaw="114.6" pitch="0"/>
+<ActiveFrame active="true" pos="215.5,114,109" yaw="180" pitch="13" startTime="1000"/>
+<EntitySpawnFrame type="player" cfgName="myplugin/player1" pos="214,113,115" yaw="180" pitch="0" startTime="1000"/>

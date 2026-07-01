@@ -1,0 +1,1576 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonCapture",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemon_pet_packet.json image:img_9_bg"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonCapture-Title-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,25},{0,50},{0,445},{0,100}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_capture.json image:img_0_titleboard"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "PokemonCapture-Title-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,-40},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM30"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonCapture-Name-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,37},{0,160},{0,337},{0,220}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:PokemonBook.json image:img_9_attributeboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonCapture-Race-Icon",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,10},{-1,-5},{0,45},{-1,30}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_race.json image:img_0_race_fire"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Star-Level-Img",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{1,8},{0,0},{1,166},{0,30}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonCapture-Level-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,10},{1,5},{0,10},{1,5}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonCapture-New-Img",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,100},{1,5},{0,132},{1,40}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_synthesis.json image:img_0_tag_new"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonCapture-Name-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-1},{1,-20},{1,-1}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM22"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonCapture-ReName-Btn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,30},{0,0},{0,95},{0,65}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_capture.json image:btn_0_changename"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_capture.json image:btn_0_changename"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonCapture-Actor-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,-830},{0.75,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonCapture-Actor",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ActorWindowScale",
+                  "Value": "1"
+                }
+              ],
+              "Type": "ActorWindow"
+            },
+            {
+              "Name": "PokemonCapture-Effect",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,150},{0,150}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_spotlight_1.effect"
+                },
+                {
+                  "Name": "EffectRotate",
+                  "Value": "10"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonCapture-Growth-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,48},{0,-38},{0,378},{0,346}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_battle.json image:bg_4"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonCapture-Growth-Top",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,4},{0,4},{1,-4},{0,49}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 20 5"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Growth-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,-30},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.533333 0.247059 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonCapture-Growth-Question",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-10},{0,0},{0,20},{0,30}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_bag.json image:btn_0_help"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_bag.json image:btn_0_help"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonCapture-Score-Name",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,-40},{0,70},{0,-20}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM30"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.360784 0.0901961 0.054902 1"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "1 0.882353 0.0156863 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonCapture-Score-Num",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-20},{0,-40},{0,30},{0,-20}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM30"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.360784 0.0901961 0.054902 1"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "1 0.87451 0.0156863 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonCapture-Growth-Detail-Bg",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,58},{0,305},{0,298}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0.996078 0.945098 0.835294 1"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Growth-Hp-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,23},{0,10},{1,-51},{0,35}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Growth-Hp-Icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-46},{0,0},{0,-21},{0,25}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hp"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Growth-Hp-Num",
+                      "Property": [
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.243137 0.00392157 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonCapture-Growth-Speed-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,23},{0,45},{1,-51},{0,70}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Growth-Speed-Icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-46},{0,0},{0,-21},{0,25}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Growth-Speed-Num",
+                      "Property": [
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.243137 0.00392157 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonCapture-Growth-PAtk-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,23},{0,90},{1,-51},{0,115}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Growth-PAtk-Icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-46},{0,0},{0,-21},{0,25}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicalattacks"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Growth-PAtk-Num",
+                      "Property": [
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.243137 0.00392157 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonCapture-Growth-PDef-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,23},{0,125},{1,-51},{0,150}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Growth-PDef-Icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-46},{0,0},{0,-21},{0,25}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicaldefense"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Growth-PDef-Num",
+                      "Property": [
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.243137 0.00392157 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonCapture-Growth-SAtk-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,23},{0,170},{1,-51},{0,195}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Growth-SAtk-Icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-46},{0,0},{0,-21},{0,25}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellattacks"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Growth-SAtk-Num",
+                      "Property": [
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.243137 0.00392157 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonCapture-Growth-SDef-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,23},{0,205},{1,-51},{0,230}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Growth-SDef-Icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-46},{0,0},{0,-21},{0,25}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellprotection"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Growth-SDef-Num",
+                      "Property": [
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.243137 0.00392157 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "PokemonCapture-Features-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-24},{0,465},{0,406},{0,607}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_battle.json image:bg_4"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonCapture-Features-Top",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,4},{0,4},{1,-4},{0,49}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 20 5"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Features-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,2},{0,0},{1,-28},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.533333 0.247059 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonCapture-Features-Desc",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,60},{1,-30},{1,-40}}"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.533333 0.243137 0.00392157 1"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonCapture-Skill-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-24},{0,26},{0,406},{0,458}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:PokemonBook.json image:img_9_attributeboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonCapture-Skill-Top",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,6},{1,-12},{0,62}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 20 5"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Passive-Tab",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:PokemonBook.json image:chb_9_Common"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:PokemonBook.json image:chb_9_Common_checked"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "CheckBox"
+                },
+                {
+                  "Name": "PokemonCapture-Active-Tab",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:PokemonBook.json image:chb_9_special"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:PokemonBook.json image:chb_9_special_checked"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "CheckBox"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonCapture-Passive-Skill-Content",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-10},{1,-30},{1,-90}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "15 15 15 15"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Passive-List",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,1},{1,0},{1,-169}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonCapture-Passive-Desc",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0,150}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "LayoutBackImage",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_skilldescribeboard"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonCapture-Desc-Icon-Bg",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,10},{0,10},{0,70},{0,70}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonCapture-Desc-Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,80},{0,35},{0,130},{0,55}}"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.682353 0.168627 0 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonCapture-Desc-Bg",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,10},{0,-10},{1,-10},{0,58}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "15 15 5 15"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_packet.json image:img_9_skilldescribeboard_color"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "PokemonCapture-Desc-Text",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,-14},{1,-10}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM14"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.682353 0.168627 0 1"
+                            },
+                            {
+                              "Name": "TextWordWrap",
+                              "Value": "true"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonCapture-Active-Skill-Content",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-10},{1,-30},{1,-90}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "15 15 15 15"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonCapture-Active-List",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,-8},{1,-140}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonCapture-Active-Detail",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-5},{1,0},{0,120}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "PokemonCapture-Join",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-27},{0,-22},{0,210},{0,50}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM20"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_9_universal_blue"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_9_universal_blue"
+            },
+            {
+              "Name": "TextBorder",
+              "Value": "true"
+            },
+            {
+              "Name": "TextBorderColor",
+              "Value": "0.0901961 0.25098 0.45098 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "PokemonCapture-Release",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-287},{0,-22},{0,-50},{0,50}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM20"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_9_universal_red"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_9_universal_red"
+            },
+            {
+              "Name": "TextBorder",
+              "Value": "true"
+            },
+            {
+              "Name": "TextBorderColor",
+              "Value": "0.729412 0.164706 0.0862745 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Button"
+        }
+      ]
+    }
+  }
+}

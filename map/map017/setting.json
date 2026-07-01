@@ -1,0 +1,3110 @@
+{
+  "canBreak": false,
+  "skyBox": [
+    {
+      "transition": 0,
+      "time": 0,
+      "texture": [
+        "myplugin/sky/AM_left_2.png",
+        "myplugin/sky/AM_right_2.png",
+        "myplugin/sky/AM_top_2.png",
+        "myplugin/sky/AM_bottom_2.png",
+        "myplugin/sky/AM_front_2.png",
+        "myplugin/sky/AM_back_2.png"
+      ]
+    }
+  ],
+  "skyBoxRotate":{
+    "x": 0,
+    "y": 30,
+    "z": 0
+} ,
+  "region": {
+    "xiaolaodi": {
+      "regionCfg": "myplugin/bgm_region_field_glory_hall",
+      "box": {
+        "min": {
+          "x": -82,
+          "y": -4,
+          "z": -80
+        },
+        "max": {
+          "x": 78,
+          "y": 37,
+          "z": 77
+        }
+      }
+    },
+    "force_obstacle_region_70412": {
+      "regionCfg": "myplugin/force_obstacle_region_70412",
+      "box": {
+        "min": {
+          "x": -60,
+          "y": 15,
+          "z": -4
+        },
+        "max": {
+          "x": -58,
+          "y": 15,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70411": {
+      "regionCfg": "myplugin/force_obstacle_region_70411",
+      "box": {
+        "min": {
+          "x": -55,
+          "y": 14,
+          "z": -4
+        },
+        "max": {
+          "x": -54,
+          "y": 14,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70410": {
+      "regionCfg": "myplugin/force_obstacle_region_70410",
+      "box": {
+        "min": {
+          "x": -53,
+          "y": 14,
+          "z": -4
+        },
+        "max": {
+          "x": -51,
+          "y": 14,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70409": {
+      "regionCfg": "myplugin/force_obstacle_region_70409",
+      "box": {
+        "min": {
+          "x": -50,
+          "y": 14,
+          "z": -4
+        },
+        "max": {
+          "x": -49,
+          "y": 14,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70408": {
+      "regionCfg": "myplugin/force_obstacle_region_70408",
+      "box": {
+        "min": {
+          "x": -46,
+          "y": 13,
+          "z": -4
+        },
+        "max": {
+          "x": -45,
+          "y": 13,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70407": {
+      "regionCfg": "myplugin/force_obstacle_region_70407",
+      "box": {
+        "min": {
+          "x": -44,
+          "y": 13,
+          "z": -4
+        },
+        "max": {
+          "x": -43,
+          "y": 13,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70406": {
+      "regionCfg": "myplugin/force_obstacle_region_70406",
+      "box": {
+        "min": {
+          "x": -40,
+          "y": 12,
+          "z": -4
+        },
+        "max": {
+          "x": -38,
+          "y": 12,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70405": {
+      "regionCfg": "myplugin/force_obstacle_region_70405",
+      "box": {
+        "min": {
+          "x": -37,
+          "y": 12,
+          "z": -4
+        },
+        "max": {
+          "x": -35,
+          "y": 12,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70404": {
+      "regionCfg": "myplugin/force_obstacle_region_70404",
+      "box": {
+        "min": {
+          "x": -31,
+          "y": 11,
+          "z": -4
+        },
+        "max": {
+          "x": -29,
+          "y": 11,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70403": {
+      "regionCfg": "myplugin/force_obstacle_region_70403",
+      "box": {
+        "min": {
+          "x": -28,
+          "y": 11,
+          "z": -4
+        },
+        "max": {
+          "x": -26,
+          "y": 11,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70402": {
+      "regionCfg": "myplugin/force_obstacle_region_70402",
+      "box": {
+        "min": {
+          "x": -23,
+          "y": 10,
+          "z": -4
+        },
+        "max": {
+          "x": -21,
+          "y": 10,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70401": {
+      "regionCfg": "myplugin/force_obstacle_region_70401",
+      "box": {
+        "min": {
+          "x": -20,
+          "y": 10,
+          "z": -4
+        },
+        "max": {
+          "x": -18,
+          "y": 10,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70312": {
+      "regionCfg": "myplugin/force_obstacle_region_70312",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 15,
+          "z": -61
+        },
+        "max": {
+          "x": 4,
+          "y": 15,
+          "z": -58
+        }
+      }
+    },
+    "force_obstacle_region_70311": {
+      "regionCfg": "myplugin/force_obstacle_region_70311",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 14,
+          "z": -55
+        },
+        "max": {
+          "x": 4,
+          "y": 14,
+          "z": -54
+        }
+      }
+    },
+    "force_obstacle_region_70310": {
+      "regionCfg": "myplugin/force_obstacle_region_70310",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 14,
+          "z": -53
+        },
+        "max": {
+          "x": 4,
+          "y": 14,
+          "z": -51
+        }
+      }
+    },
+    "force_obstacle_region_70309": {
+      "regionCfg": "myplugin/force_obstacle_region_70309",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 14,
+          "z": -50
+        },
+        "max": {
+          "x": 4,
+          "y": 14,
+          "z": -49
+        }
+      }
+    },
+    "force_obstacle_region_70308": {
+      "regionCfg": "myplugin/force_obstacle_region_70308",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 13,
+          "z": -46
+        },
+        "max": {
+          "x": 4,
+          "y": 13,
+          "z": -45
+        }
+      }
+    },
+    "force_obstacle_region_70307": {
+      "regionCfg": "myplugin/force_obstacle_region_70307",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 13,
+          "z": -44
+        },
+        "max": {
+          "x": 4,
+          "y": 13,
+          "z": -43
+        }
+      }
+    },
+    "force_obstacle_region_70306": {
+      "regionCfg": "myplugin/force_obstacle_region_70306",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 12,
+          "z": -40
+        },
+        "max": {
+          "x": 4,
+          "y": 12,
+          "z": -38
+        }
+      }
+    },
+    "force_obstacle_region_70305": {
+      "regionCfg": "myplugin/force_obstacle_region_70305",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 12,
+          "z": -37
+        },
+        "max": {
+          "x": 4,
+          "y": 12,
+          "z": -35
+        }
+      }
+    },
+    "force_obstacle_region_70304": {
+      "regionCfg": "myplugin/force_obstacle_region_70304",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 11,
+          "z": -31
+        },
+        "max": {
+          "x": 4,
+          "y": 11,
+          "z": -29
+        }
+      }
+    },
+    "force_obstacle_region_70303": {
+      "regionCfg": "myplugin/force_obstacle_region_70303",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 11,
+          "z": -28
+        },
+        "max": {
+          "x": 4,
+          "y": 11,
+          "z": -26
+        }
+      }
+    },
+    "force_obstacle_region_70302": {
+      "regionCfg": "myplugin/force_obstacle_region_70302",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 10,
+          "z": -23
+        },
+        "max": {
+          "x": 4,
+          "y": 10,
+          "z": -21
+        }
+      }
+    },
+    "force_obstacle_region_70301": {
+      "regionCfg": "myplugin/force_obstacle_region_70301",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 10,
+          "z": -20
+        },
+        "max": {
+          "x": 4,
+          "y": 10,
+          "z": -18
+        }
+      }
+    },
+    "force_obstacle_region_70212": {
+      "regionCfg": "myplugin/force_obstacle_region_70212",
+      "box": {
+        "min": {
+          "x": 58,
+          "y": 15,
+          "z": -4
+        },
+        "max": {
+          "x": 61,
+          "y": 15,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70211": {
+      "regionCfg": "myplugin/force_obstacle_region_70211",
+      "box": {
+        "min": {
+          "x": 54,
+          "y": 14,
+          "z": -4
+        },
+        "max": {
+          "x": 56,
+          "y": 15,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70210": {
+      "regionCfg": "myplugin/force_obstacle_region_70210",
+      "box": {
+        "min": {
+          "x": 51,
+          "y": 14,
+          "z": -4
+        },
+        "max": {
+          "x": 53,
+          "y": 14,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70209": {
+      "regionCfg": "myplugin/force_obstacle_region_70209",
+      "box": {
+        "min": {
+          "x": 49,
+          "y": 14,
+          "z": -4
+        },
+        "max": {
+          "x": 50,
+          "y": 14,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70208": {
+      "regionCfg": "myplugin/force_obstacle_region_70208",
+      "box": {
+        "min": {
+          "x": 45,
+          "y": 13,
+          "z": -4
+        },
+        "max": {
+          "x": 47,
+          "y": 13,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70207": {
+      "regionCfg": "myplugin/force_obstacle_region_70207",
+      "box": {
+        "min": {
+          "x": 42,
+          "y": 13,
+          "z": -4
+        },
+        "max": {
+          "x": 44,
+          "y": 13,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70206": {
+      "regionCfg": "myplugin/force_obstacle_region_70206",
+      "box": {
+        "min": {
+          "x": 38,
+          "y": 12,
+          "z": -4
+        },
+        "max": {
+          "x": 40,
+          "y": 12,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70205": {
+      "regionCfg": "myplugin/force_obstacle_region_70205",
+      "box": {
+        "min": {
+          "x": 35,
+          "y": 12,
+          "z": -4
+        },
+        "max": {
+          "x": 37,
+          "y": 12,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70204": {
+      "regionCfg": "myplugin/force_obstacle_region_70204",
+      "box": {
+        "min": {
+          "x": 30,
+          "y": 11,
+          "z": -4
+        },
+        "max": {
+          "x": 31,
+          "y": 11,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70203": {
+      "regionCfg": "myplugin/force_obstacle_region_70203",
+      "box": {
+        "min": {
+          "x": 26,
+          "y": 11,
+          "z": -4
+        },
+        "max": {
+          "x": 28,
+          "y": 11,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70202": {
+      "regionCfg": "myplugin/force_obstacle_region_70202",
+      "box": {
+        "min": {
+          "x": 21,
+          "y": 10,
+          "z": -4
+        },
+        "max": {
+          "x": 23,
+          "y": 10,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70201": {
+      "regionCfg": "myplugin/force_obstacle_region_70201",
+      "box": {
+        "min": {
+          "x": 17,
+          "y": 10,
+          "z": -4
+        },
+        "max": {
+          "x": 19,
+          "y": 10,
+          "z": 4
+        }
+      }
+    },
+    "force_obstacle_region_70112": {
+      "regionCfg": "myplugin/force_obstacle_region_70112",
+      "box": {
+        "min": {
+          "x": -6,
+          "y": 15,
+          "z": 57
+        },
+        "max": {
+          "x": 6,
+          "y": 15,
+          "z": 61
+        }
+      }
+    },
+    "force_obstacle_region_70111": {
+      "regionCfg": "myplugin/force_obstacle_region_70111",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 14,
+          "z": 54
+        },
+        "max": {
+          "x": 4,
+          "y": 14,
+          "z": 56
+        }
+      }
+    },
+    "force_obstacle_region_70110": {
+      "regionCfg": "myplugin/force_obstacle_region_70110",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 14,
+          "z": 51
+        },
+        "max": {
+          "x": 4,
+          "y": 14,
+          "z": 53
+        }
+      }
+    },
+    "force_obstacle_region_70109": {
+      "regionCfg": "myplugin/force_obstacle_region_70109",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 14,
+          "z": 49
+        },
+        "max": {
+          "x": 4,
+          "y": 14,
+          "z": 50
+        }
+      }
+    },
+    "force_obstacle_region_70108": {
+      "regionCfg": "myplugin/force_obstacle_region_70108",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 13,
+          "z": 45
+        },
+        "max": {
+          "x": 4,
+          "y": 13,
+          "z": 47
+        }
+      }
+    },
+    "force_obstacle_region_70107": {
+      "regionCfg": "myplugin/force_obstacle_region_70107",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 13,
+          "z": 42
+        },
+        "max": {
+          "x": 4,
+          "y": 13,
+          "z": 44
+        }
+      }
+    },
+    "force_obstacle_region_70106": {
+      "regionCfg": "myplugin/force_obstacle_region_70106",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 12,
+          "z": 38
+        },
+        "max": {
+          "x": 4,
+          "y": 12,
+          "z": 41
+        }
+      }
+    },
+    "force_obstacle_region_70105": {
+      "regionCfg": "myplugin/force_obstacle_region_70105",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 12,
+          "z": 35
+        },
+        "max": {
+          "x": 4,
+          "y": 12,
+          "z": 37
+        }
+      }
+    },
+    "force_obstacle_region_70104": {
+      "regionCfg": "myplugin/force_obstacle_region_70104",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 11,
+          "z": 29
+        },
+        "max": {
+          "x": 4,
+          "y": 11,
+          "z": 31
+        }
+      }
+    },
+    "force_obstacle_region_70103": {
+      "regionCfg": "myplugin/force_obstacle_region_70103",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 11,
+          "z": 25
+        },
+        "max": {
+          "x": 4,
+          "y": 11,
+          "z": 28
+        }
+      }
+    },
+    "force_obstacle_region_70102": {
+      "regionCfg": "myplugin/force_obstacle_region_70102",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 10,
+          "z": 21
+        },
+        "max": {
+          "x": 4,
+          "y": 10,
+          "z": 23
+        }
+      }
+    },
+    "force_obstacle_region_70101": {
+      "regionCfg": "myplugin/force_obstacle_region_70101",
+      "box": {
+        "min": {
+          "x": -4,
+          "y": 10,
+          "z": 18
+        },
+        "max": {
+          "x": 4,
+          "y": 10,
+          "z": 20
+        }
+      }
+    }
+  },
+  "entity": [
+    {
+      "cfg": "myplugin/pet_show_water_1",
+      "ry": 150,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 14.5,
+        "z": 31.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_water_2",
+      "ry": -150,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 15.5,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_fire_1",
+      "ry": 60,
+      "rr": 0,
+      "pos": {
+        "x": 31.5,
+        "y": 14.5,
+        "z": -11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_grass_1",
+      "ry": 30,
+      "rr": 0,
+      "pos": {
+        "x": 10.5,
+        "y": 18.5,
+        "z": -50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_free_1",
+      "ry": -120,
+      "rr": 0,
+      "pos": {
+        "x": -30.5,
+        "y": 15.5,
+        "z": 11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_free_2",
+      "ry": -60.0,
+      "rr": 0.0,
+      "pos": {
+        "x": -30.5,
+        "y": 15.5,
+        "z": -11.5
+      },
+      "pitch": 0.0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/ball",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 18,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_yushanjia_red",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 11,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_yushanjia_blue",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 11.010000228882,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_yushanjia_green",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 11.020000457764,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_fru_door_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -55.5,
+        "y": 14,
+        "z": 4.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_fru_door_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -55.5,
+        "y": 14,
+        "z": -3.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_fru_door_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -59.5,
+        "y": 14,
+        "z": 3.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_fru_door_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -59.5,
+        "y": 14,
+        "z": -2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_grass_off",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 4,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70101",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 10.010000228882,
+        "z": 19.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70102",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 10.010000228882,
+        "z": 22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70103",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 11.010000228882,
+        "z": 27.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70104",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 11.010000228882,
+        "z": 30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70105",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 12.010000228882,
+        "z": 36.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70106",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 12.010000228882,
+        "z": 39.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70107",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 13.010000228882,
+        "z": 43.790000915527
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70108",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 13,
+        "z": 46.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70109",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 14.010000228882,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70201",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 19.5,
+        "y": 10,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70202",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 22.5,
+        "y": 10,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70203",
+      "ry": 120,
+      "rr": 0,
+      "pos": {
+        "x": 27.5,
+        "y": 11.010000228882,
+        "z": 3.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70204",
+      "ry": 60,
+      "rr": 0,
+      "pos": {
+        "x": 30.5,
+        "y": 11.010000228882,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70205",
+      "ry": 120,
+      "rr": 0,
+      "pos": {
+        "x": 36.5,
+        "y": 12.010000228882,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70206",
+      "ry": 60,
+      "rr": 0,
+      "pos": {
+        "x": 39.5,
+        "y": 12.010000228882,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70207",
+      "ry": 60,
+      "rr": 0,
+      "pos": {
+        "x": 43.5,
+        "y": 13.010000228882,
+        "z": -0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70208",
+      "ry": 120,
+      "rr": 0,
+      "pos": {
+        "x": 45.5,
+        "y": 13.010000228882,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70209",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 14.010000228882,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70301",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 10,
+        "z": -18.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70302",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 10,
+        "z": -21.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70303",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 11,
+        "z": -26.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70304",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 11,
+        "z": -29.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70305",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 12.010000228882,
+        "z": -35.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70306",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 12.010000228882,
+        "z": -38.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70307",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 13.010000228882,
+        "z": -42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70308",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 13.010000228882,
+        "z": -45.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70309",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 14.010000228882,
+        "z": -48.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70401",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -18.5,
+        "y": 10,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70402",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -21.5,
+        "y": 10,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70403",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -26.5,
+        "y": 11,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70404",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -29.5,
+        "y": 11,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70405",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -35.5,
+        "y": 12,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70406",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -38.5,
+        "y": 12,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70407",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -42.5,
+        "y": 13,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70408",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -45.5,
+        "y": 13,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70409",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -48.5,
+        "y": 14,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_free_off",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -13.5,
+        "y": 3,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_race_gate",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 7.6999998092651,
+        "z": -13
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_race_gate",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 7.6999998092651,
+        "z": 13
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_race_gate",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -13,
+        "y": 7.6799998283386,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_race_gate",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 13,
+        "y": 7.6999998092651,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 17.75,
+        "z": -12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2020_fru_door_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 10,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_02",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -12.5,
+        "y": 17.75,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_03",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 12.5,
+        "y": 17.75,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_04",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 17.75,
+        "z": 12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 8,
+        "z": 31.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 8,
+        "z": 31.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -30.5,
+        "y": 9,
+        "z": 11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -30.5,
+        "y": 9,
+        "z": -11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 8,
+        "z": -30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 8.5,
+        "z": -30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 31.5,
+        "y": 8,
+        "z": -11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 31.5,
+        "y": 7.5,
+        "z": 11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 22.5,
+        "y": 11,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 22.5,
+        "y": 11,
+        "z": -12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 42.5,
+        "y": 13,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 42.5,
+        "y": 13,
+        "z": -12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 58.5,
+        "y": 18,
+        "z": 14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 58.5,
+        "y": 18,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 14.5,
+        "y": 10,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 14.5,
+        "y": 10,
+        "z": -9.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 31.5,
+        "y": 4,
+        "z": -11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 31.5,
+        "y": 4,
+        "z": 11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 42.5,
+        "y": 9.5,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 42.5,
+        "y": 9.5,
+        "z": -12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 60.5,
+        "y": 15,
+        "z": 5.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 60.5,
+        "y": 15,
+        "z": -4.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 64.5,
+        "y": 15,
+        "z": -3.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 64.5,
+        "y": 15,
+        "z": 4.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 58.5,
+        "y": 14.5,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 58.5,
+        "y": 14.5,
+        "z": 14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 22.5,
+        "y": 7.5,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 22.5,
+        "y": 7.5,
+        "z": -12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_01_big",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 17.5,
+        "z": -63
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_04_big",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 17.5,
+        "z": 63
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_03_big",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 63,
+        "y": 17.5,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_badge_02_big",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -63,
+        "y": 17.5,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 10.5,
+        "y": 10,
+        "z": 14.489999771118
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 10.5,
+        "y": 10,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -13.5,
+        "y": 10,
+        "z": -9.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -9.5,
+        "y": 10,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -13.5,
+        "y": 10,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -9.5,
+        "y": 10,
+        "z": 14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70210",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 52.5,
+        "y": 14,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70211",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 55.5,
+        "y": 14,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70212",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 59.5,
+        "y": 15,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70110",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 14,
+        "z": 52.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70111",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": -1.5,
+        "y": 14,
+        "z": 55.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70112",
+      "ry": 180,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 15,
+        "z": 59.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70410",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -51.5,
+        "y": 14,
+        "z": 2.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70411",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -54.5,
+        "y": 14,
+        "z": -1.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70412",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -59.5,
+        "y": 15,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70310",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -1.4500000476837,
+        "y": 14,
+        "z": -51.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70311",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 2.5,
+        "y": 14,
+        "z": -54.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_70312",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 15,
+        "z": -59.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -22.5,
+        "y": 7.5,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -22.5,
+        "y": 7.5,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -42.5,
+        "y": 9.5,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -42.5,
+        "y": 9.5,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -58.5,
+        "y": 14.5,
+        "z": 14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -58.5,
+        "y": 14.5,
+        "z": -14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 4.5,
+        "z": 31.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 4.5,
+        "z": 31.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 4.5,
+        "z": -30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 4.5,
+        "z": -30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 13.5,
+        "y": 11,
+        "z": 22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -13.510000228882,
+        "y": 11,
+        "z": 22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -22.5,
+        "y": 11,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -22.5,
+        "y": 11,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -42.5,
+        "y": 13,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -42.5,
+        "y": 13,
+        "z": -13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -58.5,
+        "y": 18,
+        "z": 14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -58.5,
+        "y": 18,
+        "z": -14.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 13.5,
+        "y": 11,
+        "z": -22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -13.5,
+        "y": 11,
+        "z": -22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 12.5,
+        "y": 13,
+        "z": 42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -12.5,
+        "y": 13,
+        "z": 42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 12.5,
+        "y": 13,
+        "z": -42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -12.5,
+        "y": 13,
+        "z": -42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 14.5,
+        "y": 14.5,
+        "z": 58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -14.5,
+        "y": 14.5,
+        "z": 58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 14.5,
+        "y": 14.5,
+        "z": -58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 13.5,
+        "y": 7.5,
+        "z": 22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -13.5,
+        "y": 7.5,
+        "z": 22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 13.5,
+        "y": 7.5,
+        "z": -22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -13.5,
+        "y": 7.5,
+        "z": -22.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -30.5,
+        "y": 5.5,
+        "z": 11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -30.5,
+        "y": 5.5,
+        "z": -11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 12.5,
+        "y": 9.5,
+        "z": 42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -12.5,
+        "y": 9.5,
+        "z": 42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -14.5,
+        "y": 11,
+        "z": 58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 14.5,
+        "y": 11,
+        "z": 58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 12.5,
+        "y": 9.5,
+        "z": -42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -12.5,
+        "y": 9.5,
+        "z": -42.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 14.5,
+        "y": 11,
+        "z": -58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -14.500000953674,
+        "y": 11,
+        "z": -58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -4.5,
+        "y": 15,
+        "z": -63.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 5.5,
+        "y": 15,
+        "z": -63.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -4.5,
+        "y": 15,
+        "z": -59.400001525879
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 5.5,
+        "y": 15,
+        "z": -59.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -4.5,
+        "y": 15,
+        "z": 64.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -4.5,
+        "y": 15,
+        "z": 60.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 5.5,
+        "y": 15,
+        "z": 60.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 5.5,
+        "y": 15,
+        "z": 64.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -50.5,
+        "y": 7,
+        "z": -10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -50.5,
+        "y": 7,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": -90,
+      "rr": 0,
+      "pos": {
+        "x": -50.5,
+        "y": 10.5,
+        "z": -10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -50.5,
+        "y": 10.5,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 9.5,
+        "z": -10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 9.5,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 6,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 6,
+        "z": -10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 5,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 5,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 10.5,
+        "y": 8,
+        "z": -50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_cone_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -10.5,
+        "y": 8,
+        "z": -50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_02",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -14.5,
+        "y": 14.5,
+        "z": -58.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -10.5,
+        "y": 11.5,
+        "z": -50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 10.5,
+        "y": 11.5,
+        "z": -50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 8.5,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_column_01",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 8.5,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_fire_4",
+      "ry": 60,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 16,
+        "z": -10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_fire_3",
+      "ry": 120,
+      "rr": 0,
+      "pos": {
+        "x": 31.5,
+        "y": 14,
+        "z": 11.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_fire_2",
+      "ry": 120,
+      "rr": 0,
+      "pos": {
+        "x": 50.5,
+        "y": 16,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_free_3",
+      "ry": -60,
+      "rr": 0,
+      "pos": {
+        "x": -50.5,
+        "y": 17,
+        "z": -10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_free_4",
+      "ry": -120,
+      "rr": 0,
+      "pos": {
+        "x": -50.5,
+        "y": 17,
+        "z": 10.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_water_3",
+      "ry": -150,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 14.5,
+        "z": 31.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_water_4",
+      "ry": 150,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 15,
+        "z": 50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_grass_3",
+      "ry": -30,
+      "rr": 0,
+      "pos": {
+        "x": -11.5,
+        "y": 15.5,
+        "z": -30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_grass_2",
+      "ry": 30,
+      "rr": 0,
+      "pos": {
+        "x": 11.5,
+        "y": 15,
+        "z": -30.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/pet_show_grass_4",
+      "ry": -60,
+      "rr": 0,
+      "pos": {
+        "x": -10.5,
+        "y": 18,
+        "z": -50.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_fire_off",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 13.5,
+        "y": 3,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_water_off",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 3,
+        "z": 13.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/npc_doctor_map017",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": -0.5,
+        "y": 11,
+        "z": -0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_water_off_text",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 4,
+        "z": 12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_free_off_text",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": -12.5,
+        "y": 4,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_fire_off_text",
+      "ry": 90,
+      "rr": 0,
+      "pos": {
+        "x": 12.5,
+        "y": 4,
+        "z": 0.5
+      },
+      "pitch": 0,
+      "isNew": true
+    },
+    {
+      "cfg": "myplugin/g2038_testdoor_grass_off_text",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0.5,
+        "y": 4,
+        "z": -12.5
+      },
+      "pitch": 0,
+      "isNew": true
+    }
+  ],
+  "dynamicBrightness": [
+    {
+      "brightness": {
+        "x": 0.59,
+        "y": 0.59,
+        "z": 0.59
+      }
+    }
+  ],
+  "cameraCfg": {
+    "viewMode": 3,
+    "cameraView": {
+      "yaw": 90,
+      "pos": {
+        "x": 61,
+        "y": 5,
+        "z": -10
+      },
+      "pitch": 15
+    }
+  }
+}

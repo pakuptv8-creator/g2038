@@ -1,0 +1,18 @@
+{
+    "type": "MeleeAttack",
+    "targetType": "Any",
+    "castAction": "",
+    "range": 999,
+    "hurtDistance": 0,
+    "?dmgRat": "伤害加成部分，因为效果加成默认为1，所以这里填0就是1倍的伤害，填1就是2倍",
+    "dmgRat":0,
+    "?dmgBase":"固定伤害，第1位是数字，第2位是后面几个0",
+    "dmgBase":[0,0],
+    "?hitFlyAc": "被击飞动作",
+    "?backPos": "位置偏移",
+	"damage": 10,
+	"dmgFactor": 0,
+	"damagePct": 1,
+    "?forceTime": "受击时间",
+    "forceTime": 2
+}

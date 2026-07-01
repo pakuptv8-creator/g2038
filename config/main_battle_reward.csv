@@ -1,0 +1,190 @@
+n_battle_id	n_pkm_exp	n_pkm_coins	items	pokemons
+特殊战斗唯一标识	基础经验值	基础货币	奖励道具list逗号分隔，id#数量	奖励宝可梦list逗号分隔,id#数量
+10101	20	100	item_exp_01#1#1,pokeball_01#2#1	
+20101	40	200	item_ticket_03#2#1,item_exp_01#2#1	
+20102	70	350	item_ticket_03#2#1,item_exp_01#2#1	
+20103	100	500	item_ticket_03#2#1,item_exp_01#3#1	
+20104	130	650	item_ticket_03#2#1,item_exp_01#3#1	
+20105	160	800	item_ticket_02#1#1,item_exp_01#4#1	
+20106	190	950	item_ticket_03#2#1,item_exp_01#4#1	
+20107	220	1100	item_ticket_03#2#1,item_exp_01#5#1	
+20108	250	1250	item_ticket_02#1#1,item_exp_01#5#1	
+20109	280	1400	item_ticket_02#1#1,item_exp_02#1#1	
+30101	300	1500	item_ticket_03#2#1,item_exp_02#1#1	
+30102	320	1600	item_ticket_03#2#1,item_exp_02#2#1	
+30103	340	1700	item_ticket_02#1#1,item_exp_02#2#1	
+30104	360	1800	item_ticket_03#2#1,item_exp_02#3#1	
+30105	380	1900	item_ticket_03#2#1,item_exp_02#3#1	
+30106	400	2000	item_ticket_02#1#1,item_exp_02#4#1	
+30107	420	2100	item_ticket_03#2#1,item_exp_02#4#1	
+30108	440	2200	item_ticket_03#2#1,item_exp_02#5#1	
+30109	460	2300	item_ticket_02#1#1,item_exp_02#5#1	
+40101	480	2400	item_ticket_03#2#1,item_exp_03#3#1	
+40102	500	2500	item_ticket_02#1#1,item_exp_03#3#1	
+40103	520	2600	item_ticket_03#2#1,item_exp_03#3#1	
+40104	540	2700	item_ticket_03#2#1,item_exp_03#4#1	
+40105	560	2800	item_ticket_02#1#1,item_exp_03#4#1	
+40106	580	2900	item_ticket_03#2#1,item_exp_03#4#1	
+40107	600	3000	item_ticket_03#2#1,item_exp_03#5#1	
+40108	620	3100	item_ticket_03#2#1,item_exp_03#5#1	
+40109	640	3200	item_ticket_02#1#1,item_exp_03#5#1	
+50101	660	3300	item_ticket_03#2#1,item_levelup_01#1#1	
+50102	680	3400	item_ticket_03#2#1,item_levelup_01#1#1	
+50103	700	3500	item_ticket_02#1#1,item_levelup_01#1#1	
+50104	720	3600	item_ticket_03#2#1,item_levelup_01#2#1	
+50105	740	3700	item_ticket_03#2#1,item_levelup_01#2#1	
+50106	760	3800	item_ticket_02#1#1,item_levelup_01#2#1	
+50107	770	3850	item_ticket_03#2#1,item_levelup_01#3#1	
+50108	780	3900	item_ticket_03#2#1,item_levelup_01#3#1	
+50109	790	3950	item_ticket_02#1#1,item_levelup_01#3#1	
+60101	800	4000	item_ticket_03#2#1,item_levelup_01#4#1	
+60102	800	4000	item_ticket_02#1#1,item_levelup_01#4#1	
+60103	800	4000	item_ticket_03#2#1,item_levelup_01#4#1	
+60104	800	4000	item_ticket_02#1#1,item_levelup_01#5#1	
+60105	800	4000	item_ticket_03#2#1,item_levelup_01#5#1	
+60106	800	4000	item_ticket_02#1#1,item_levelup_01#5#1	
+60107	800	4000	item_ticket_03#2#1,item_levelup_01#6#1	
+60108	800	4000	item_ticket_03#2#1,item_levelup_01#6#1	
+60109	800	4000	item_ticket_02#1#1,item_levelup_01#6#1	
+20201	60	300	item_ticket_03#5#1,item_revive_01#1#1	
+20202	90	450	item_ticket_03#5#1,item_revive_01#1#1	
+20203	120	600	item_ticket_03#5#1,item_revive_01#1#1	
+20204	180	900	item_ticket_02#1#1,item_revive_01#1#1	
+20205	220	1100	item_ticket_03#5#1,item_revive_01#1#1	
+20206	260	1300	item_ticket_02#1#1,item_revive_01#1#1	
+30201	300	1500	item_ticket_03#5#1,item_revive_02#1#1	
+30202	400	2000	item_ticket_02#1#1,item_revive_02#1#1	
+40201	480	2400	item_ticket_03#5#1,item_revive_02#1#1	
+40202	550	2750	item_ticket_02#1#1,item_revive_02#1#1	
+50201	680	3400	item_ticket_03#5#1,item_revive_02#1#1	
+50202	750	3750	item_ticket_02#1#1,item_revive_02#1#1	
+60201	800	4000	item_ticket_03#5#1,item_revive_02#1#1	
+60202	800	4000	item_ticket_02#1#1,item_revive_02#1#1	
+60203	800	4000	pokeball_04#1#1,item_revive_02#1#1	
+20301	150	750	item_ticket_02#1#1,pokeball_05#1#1	
+20302	150	750	item_ticket_02#1#1,pokeball_05#1#1	
+20303	150	750	item_ticket_02#1#1,pokeball_05#1#1	
+20304	150	750	item_ticket_02#1#1,pokeball_05#1#1	
+20305	220	1100	item_ticket_02#1#1,pokeball_05#2#1	
+20306	220	1100	item_ticket_02#1#1,pokeball_05#2#1	
+20307	300	1500	item_ticket_02#2#1,item_bless_01#3#1	
+30301	350	1750	item_ticket_02#1#1,pokeball_06#1#1	
+30302	350	1750	item_ticket_02#1#1,pokeball_06#1#1	
+30303	350	1750	item_ticket_02#1#1,pokeball_06#1#1	
+30304	350	1750	item_ticket_02#1#1,pokeball_06#1#1	
+30305	400	2000	item_ticket_02#1#1,pokeball_06#2#1	
+30306	400	2000	item_ticket_02#1#1,pokeball_06#2#1	
+30307	450	2250	item_ticket_02#2#1,item_bless_07#3#1	
+40301	500	2500	item_ticket_02#1#1,pokeball_07#1#1	
+40302	500	2500	item_ticket_02#1#1,pokeball_07#1#1	
+40303	500	2500	item_ticket_02#1#1,pokeball_07#1#1	
+40304	500	2500	item_ticket_02#1#1,pokeball_07#1#1	
+40305	1100	5500	item_ticket_02#1#1,pokeball_07#2#1	
+40306				
+40307	1100	5500	item_ticket_02#1#1,pokeball_07#2#1	
+40308				
+40309	1200	6000	item_ticket_02#2#1,item_bless_16#3#1	
+40310				
+50301	660	3300	item_ticket_02#1#1,item_mutate#1#1	
+50302	660	3300	item_ticket_02#1#1,item_mutate#1#1	
+50303	660	3300	item_ticket_02#1#1,item_mutate#1#1	
+50304	660	3300	item_ticket_02#1#1,item_mutate#1#1	
+50305	1460	7300	item_ticket_02#1#1,item_mutate#2#1	
+50306				
+50307	1460	7300	item_ticket_02#1#1,item_mutate#2#1	
+50308				
+50309	1600	8000	item_ticket_02#2#1,item_bless_13#3#1	
+50310				
+60301	800	4000	item_ticket_02#1#1,item_mutate#1#1	
+60302	800	4000	item_ticket_02#1#1,item_mutate#1#1	
+60303	800	4000	item_ticket_02#1#1,item_mutate#1#1	
+60304	800	4000	item_ticket_02#1#1,item_mutate#1#1	
+60305	1600	8000	item_ticket_02#1#1,item_mutate#2#1	
+60306				
+60307	1600	8000	item_ticket_02#1#1,item_mutate#2#1	
+60308				
+60309	1600	8000	item_ticket_02#2#1,item_bless_10#3#1	
+60310				
+20501				
+20502				
+20503				
+20504				
+20505				
+20506				
+20507				
+30501				
+30502				
+30503				
+30504				
+30505				
+30506				
+30507				
+40501				
+40502				
+40503				
+40504				
+40505				
+40506				
+40507				
+50501				
+50502				
+50503				
+50504				
+50505				
+50506				
+50507				
+60501				
+60502				
+60503				
+60504				
+60505				
+60506				
+60507				
+70101	40	400	item_ticket_03#2#1	
+70102	45	450	item_ticket_03#2#1	
+70103	50	500	item_ticket_02#1#1	
+70104	55	550	item_ticket_03#2#1	
+70105	60	600	item_ticket_03#2#1	
+70106	65	650	item_ticket_02#1#1	
+70107	70	700	item_ticket_03#2#1	
+70108	75	750	item_ticket_03#2#1	
+70109	80	800		10201001#1
+70110	80	800	item_ticket_02#1#1	
+70111	80	800	item_ticket_02#1#1	
+70112	80	800		10201201#1
+70201	40	400	item_ticket_03#2#1	
+70202	45	450	item_ticket_03#2#1	
+70203	50	500	item_ticket_02#1#1	
+70204	55	550	item_ticket_03#2#1	
+70205	60	600	item_ticket_03#2#1	
+70206	65	650	item_ticket_02#1#1	
+70207	70	700	item_ticket_03#2#1	
+70208	75	750	item_ticket_03#2#1	
+70209	80	800		10301001#1
+70210	80	800	item_ticket_02#1#1	
+70211	80	800	item_ticket_02#1#1	
+70212	80	800		10301201#1
+70301	40	400	item_ticket_03#2#1	
+70302	45	450	item_ticket_03#2#1	
+70303	50	500	item_ticket_02#1#1	
+70304	55	550	item_ticket_03#2#1	
+70305	60	600	item_ticket_03#2#1	
+70306	65	650	item_ticket_02#1#1	
+70307	70	700	item_ticket_03#2#1	
+70308	75	750	item_ticket_03#2#1	
+70309	80	800		10401101#1
+70310	80	800	item_ticket_02#1#1	
+70311	80	800	item_ticket_02#1#1	
+70312	80	800		10401001#1
+70401	40	400	item_ticket_03#2#1	
+70402	45	450	item_ticket_03#2#1	
+70403	50	500	item_ticket_02#1#1	
+70404	55	550	item_ticket_03#2#1	
+70405	60	600	item_ticket_03#2#1	
+70406	65	650	item_ticket_02#1#1	
+70407	70	700	item_ticket_03#2#1	
+70408	75	750	item_ticket_03#2#1	
+70409	80	800		10100501#1
+70410	80	800	item_ticket_02#1#1	
+70411	80	800	item_ticket_02#1#1	
+70412	80	800		10100601#1

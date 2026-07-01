@@ -1,0 +1,22 @@
+{
+  "actorName": "g2038_fence_02.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -1.8151271470851,
+          0.0,
+          -0.16380415741172,
+          1.7937619963133,
+          1.0,
+          0.042224014295293
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

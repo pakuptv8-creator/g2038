@@ -1,0 +1,16 @@
+{
+    "effect": {
+        "effect": "g2038_mingleiTips_1.effect",
+        "once": false,
+        "pos": {"x":0,"y":2,"z":0},
+        "scale": {"x":1,"y":1,"z":1},
+        "yaw": 180
+    },
+    "sound": {
+        "volume": 5,
+        "loop": false,
+        "selfOnly": true,
+        "sound": "/sound/tips.mp3"
+      },
+    "deadRemove": true
+}

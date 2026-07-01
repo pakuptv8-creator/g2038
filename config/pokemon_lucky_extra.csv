@@ -1,0 +1,45 @@
+n_id	n_pool_id	n_take_count	s_fullName	n_award_count	n_pkm_id
+奖励id，唯一值	卡池	累计抽奖次数	道具名	道具数量	宝可梦id
+	1限时2精英3标准				
+20001	2	20	myplugin/item_ticket_02	3	
+20002	2	30	myplugin/item_ticket_02	5	
+20003	2	50		1	10200601
+20004	2	60	myplugin/item_ticket_02	5	
+20005	2	100		1	10200601
+20006	2	120	myplugin/item_ticket_02	5	
+20007	2	150	myplugin/item_ticket_02	10	
+20008	2	200	myplugin/item_ticket_02	10	
+20009	2	250		1	10200601
+20010	2	300	myplugin/item_ticket_02	10	
+20011	2	350	myplugin/item_ticket_02	10	
+20012	2	400	myplugin/item_ticket_02	10	
+20013	2	450	myplugin/item_ticket_02	10	
+20014	2	500	myplugin/item_ticket_02	1	10200601
+30001	3	20	myplugin/item_ticket_02	1	
+30002	3	30	myplugin/item_ticket_03	5	
+30003	3	50	myplugin/item_ticket_02	2	
+30004	3	60	myplugin/item_ticket_03	5	
+30005	3	100	myplugin/item_ticket_02	2	
+30006	3	120	myplugin/item_ticket_03	5	
+30007	3	150	myplugin/item_ticket_03	10	
+30008	3	200	myplugin/item_ticket_03	10	
+30009	3	250	myplugin/item_ticket_02	2	
+30010	3	300	myplugin/item_ticket_03	10	
+30011	3	350	myplugin/item_ticket_03	10	
+30012	3	400	myplugin/item_ticket_03	10	
+30013	3	450	myplugin/item_ticket_03	10	
+30014	3	500	myplugin/item_ticket_02	2	
+10001	1	10	myplugin/item_ticket_02	1	
+10002	1	30	myplugin/item_ticket_02	3	
+10003	1	50	myplugin/item_ticket_02	5	
+10004	1	70	myplugin/item_ticket_02	5	
+10005	1	90	myplugin/item_ticket_02	5	
+10006	1	120	myplugin/item_ticket_02	5	
+10007	1	150	myplugin/item_ticket_02	7	
+10008	1	200	myplugin/item_ticket_02	10	
+10009	1	250		1	10500501
+10010	1	300	myplugin/item_ticket_02	10	
+10011	1	350	myplugin/item_ticket_02	10	
+10012	1	400	myplugin/item_ticket_02	10	
+10013	1	450	myplugin/item_ticket_02	10	
+10014	1	500		1	10301301

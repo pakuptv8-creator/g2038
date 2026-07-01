@@ -1,0 +1,21 @@
+{
+  "actorName": "g2035_decorate_fence.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -4,
+          0,
+          -0.5,
+          4,
+          4,
+          0.5
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": ""
+}

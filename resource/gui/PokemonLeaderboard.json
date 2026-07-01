@@ -1,0 +1,1110 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLeaderboard",
+      "Property": [
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.8"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonLeaderboard-Content",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,1192},{0,626}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 64 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_leaderboard.json image:img_9_board_big"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLeaderboard-BtnAbout",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,9},{0,63},{0,52}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_leaderboard.json image:btn_0_help"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_leaderboard.json image:btn_0_help"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonLeaderboard-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,8},{0,289},{0,58}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM30"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLeaderboard-BtnClose",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,60},{0,60}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_leaderboard.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_leaderboard.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonLeaderboard-Tabs",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,15},{0,72},{0,157},{0,602}}"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonLeaderboard-BG",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-7},{0,59},{0,1015},{0,619}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_leaderboard.json image:img_0_rank_bg"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLeaderboard-Board",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,172},{0,71},{0,751},{0,610}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "16 16 64 64"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_leaderboard.json image:img_9_board_rank"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonLeaderboard-Board-Name",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,18},{0,284},{0,46}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.388235 0.0117647 0.0117647 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-BtnReward",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-9},{0,6},{0,141},{0,52}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "16 16 16 16"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_leaderboard.json image:btn_9_reward"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_leaderboard.json image:btn_9_reward"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-RewardIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,5},{0,0},{0,41},{0,35}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_leaderboard.json image:img_0_box"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-RewardText",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,52},{0,0},{0,121},{0,23}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.560784 0.168627 0.105882 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-Head",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,55},{0,579},{0,87}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-Board-Head-Rank",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,25},{0,10},{0,71},{0,27}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.784314 0.262745 0.0352941 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Head-Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,208},{0,10},{0,254},{0,27}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.784314 0.262745 0.0352941 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Head-Score",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,450},{0,10},{0,496},{0,27}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.784314 0.262745 0.0352941 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-Page",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,18},{0,-10},{0,240},{0,35}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-Board-Page-Bg",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,124},{0,39}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_leaderboard.json image:img_9_pageboard"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Page-BtnPrev",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,10},{0,0},{0,59},{0,45}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_leaderboard.json image:btn_0_arrow_left"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushBrightnessEnable",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_leaderboard.json image:btn_0_arrow_left"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Page-BtnNext",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-10},{0,0},{0,39},{0,45}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_leaderboard.json image:btn_0_arrow_right"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushBrightnessEnable",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_leaderboard.json image:btn_0_arrow_right"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Page-Indicator",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,42},{0,23}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-BtnRefresh",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-8},{0,-9},{0,60},{0,40}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_leaderboard.json image:btn_0_refresh"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_leaderboard.json image:btn_0_refresh"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-Refresh-Time",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-89},{0,-21},{0,-43},{0,-2}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.905882 0.301961 0.0627451 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-Ranks",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,88},{0,571},{0,430}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonLeaderboard-Board-Self",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,431},{0,579},{0,477}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "2 2 2 2"
+                    },
+                    {
+                      "Name": "LayoutBackImage",
+                      "Value": "set:pokemon_leaderboard.json image:img_9_board_self"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-Board-Self-Rank",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,19},{0,14},{0,67},{0,32}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Self-Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,145},{0,14},{0,316},{0,36}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-Self-Score",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,410},{0,14},{0,471},{0,36}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Board-BtnCollectReward",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-10},{0,0},{0,38},{0,48}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemonMain.json image:btn_0_regular"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushBrightnessEnable",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemonMain.json image:btn_0_regular"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLeaderboard-Rank-Avatar-1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,940},{0,240},{0,1015},{0,426}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_leaderboard.json image:img_0_none"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLeaderboard-Rank-Actor-1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,940},{0,240},{0,1015},{0,426}}"
+                },
+                {
+                  "Name": "ActorWindowScale",
+                  "Value": "1"
+                }
+              ],
+              "Type": "ActorWindow",
+              "Window": [
+                {
+                  "Name": "PokemonLeaderboard-Rank-Actor-Title-1",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,10},{0,-100},{0,160},{0,-70}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-Rank-Actor-Trophy-1",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,46},{0,29}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_leaderboard.json image:img_0_cup_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Rank-Actor-Name-1",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,48},{0,0},{1.2,48},{0,30}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "MinFont",
+                          "Value": "HT8"
+                        },
+                        {
+                          "Name": "AutoShrinkFont",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLeaderboard-Rank-Avatar-2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,790},{0,270},{0,865},{0,456}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_leaderboard.json image:img_0_none"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLeaderboard-Rank-Actor-2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,790},{0,270},{0,865},{0,456}}"
+                },
+                {
+                  "Name": "ActorWindowScale",
+                  "Value": "1"
+                }
+              ],
+              "Type": "ActorWindow",
+              "Window": [
+                {
+                  "Name": "PokemonLeaderboard-Rank-Actor-Title-2",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,10},{0,-80},{0,160},{0,-50}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-Rank-Actor-Trophy-2",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,46},{0,29}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_leaderboard.json image:img_0_cup_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Rank-Actor-Name-2",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,48},{0,0},{0.8,48},{0,30}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "MinFont",
+                          "Value": "HT8"
+                        },
+                        {
+                          "Name": "AutoShrinkFont",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLeaderboard-Rank-Avatar-3",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,1070},{0,280},{0,1145},{0,466}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_leaderboard.json image:img_0_none"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLeaderboard-Rank-Actor-3",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,1070},{0,280},{0,1145},{0,466}}"
+                },
+                {
+                  "Name": "ActorWindowScale",
+                  "Value": "1"
+                }
+              ],
+              "Type": "ActorWindow",
+              "Window": [
+                {
+                  "Name": "PokemonLeaderboard-Rank-Actor-Title-3",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,10},{0,-80},{0,160},{0,-50}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLeaderboard-Rank-Actor-Trophy-3",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,46},{0,29}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_leaderboard.json image:img_0_cup_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLeaderboard-Rank-Actor-Name-3",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,48},{0,0},{0,140},{0,30}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "MinFont",
+                          "Value": "HT8"
+                        },
+                        {
+                          "Name": "AutoShrinkFont",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonCommonDialog",
+      "Property": [
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.8"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,-1},{1,0},{1,-1}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonCommonDialog-Content",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,776},{0,467}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 46 10"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_battle.json image:bg_3"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonCommonDialog-BtnClose",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,42},{0,42}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonCommonDialog-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,5},{0,297},{0,44}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonCommonDialog-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-35},{0,744},{0,246}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "AutoShrinkFont",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.478431 0.180392 0.101961 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonCommonDialog-BtnCancel",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-150},{0,-50},{0,55},{0,8}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_battle.json image:btn_0_confirm_no"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_battle.json image:btn_0_confirm_no"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonCommonDialog-BtnConfirm",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,150},{0,-50},{0,355},{0,8}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_battle.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_battle.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

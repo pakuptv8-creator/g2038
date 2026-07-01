@@ -1,0 +1,11 @@
+{
+    "breakTime": 20,
+    "texture": [
+        "grass_3.png",
+        "grass_3.png",
+        "grass_side.png",
+        "grass_side.png",
+        "grass_side.png",
+        "grass_side.png"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "desc": "item_ticket_02_desc",
+  "icon": "set:g2038_pokemon_ticket.json image:item_ticket_02",
+  "imposeTray": [
+    3
+  ],
+  "itemId": 212,
+  "itemName": "item_ticket_02_name",
+  "needSave": true,
+  "rarity": 5,
+  "?useTarget": "1、玩家 2、宠物 3、敌人",
+  "useTarget": 1,
+  "?itemType": "9 表示十连抽抽奖卷",
+  "itemType": 9,
+  "?ticketType": "1、限时 2、精英 3、普通",
+  "ticketType": 2,
+  "stack_count_max": 99
+}

@@ -1,0 +1,9 @@
+{
+  "actorName": "g2038_yushanjia_green.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [],
+    "type": "Composite"
+  },
+  "collision": true
+}

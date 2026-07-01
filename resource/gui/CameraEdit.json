@@ -1,0 +1,1446 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "CameraEdit",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "CameraEdit-frame",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "CameraEdit-lt",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,100},{0,10}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-lt_0",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,10},{0,100}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-rt",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,100},{0,10}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-rt_0",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,10},{0,100}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-lb",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,100},{0,10}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-lb_0",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,10},{0,100}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-rb",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,100},{0,10}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-rb_0",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,10},{0,100}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-ch",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,2},{0,50}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "1 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "CameraEdit-cv",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,50},{0,2}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "1 0 0 1"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        },
+        {
+          "Name": "CameraEdit-ctrl",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "CameraEdit-TopPanel",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,10},{0,446},{0,85}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.588235"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "CameraEdit-CameraName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,15},{0,0},{0,135},{0,30}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 1"
+                    },
+                    {
+                      "Name": "MaxTextLength",
+                      "Value": "50"
+                    }
+                  ],
+                  "Type": "Edit"
+                },
+                {
+                  "Name": "CameraEdit-CreateOrImport",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,146},{0,0},{0,246},{0,35}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-SpdLow",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,290},{0,0},{0,315},{0,25}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-SpdAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,399},{0,-1},{0,424},{0,24}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-SpdTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,330},{0,0},{0,385},{0,40}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "CameraEdit-CreateOrImport_11",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,20},{0,120},{0,55}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "1 0 0 1"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "CameraEdit-NodeListPanel",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,250},{0,500}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.588235"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "CameraEdit-title1",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,50},{0,50}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CameraEdit-ReviewList",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-20},{0,110},{0,15}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0.752941 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-ListPos",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,55},{0.9,0},{0,405}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 0.588235"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "CameraEdit-ListContent",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ClipChild",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "List"
+                    }
+                  ]
+                },
+                {
+                  "Name": "CameraEdit-AddNode",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-20},{0,-100},{0,30},{0,-65}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-DelNode",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,-100},{0,70},{0,-65}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-AllTime",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-55},{0,50},{0,-5}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "CameraEdit-ActionEditPanel",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,250},{0,500}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.588235"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "CameraEdit-title2",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,50},{0,50}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CameraEdit-BeginPointSet",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,82},{0,178},{0,115}}"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 1"
+                    },
+                    {
+                      "Name": "MaxTextLength",
+                      "Value": "50"
+                    }
+                  ],
+                  "Type": "Edit",
+                  "Window": [
+                    {
+                      "Name": "title3",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-30},{0,-45},{0,20},{0,5}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "CameraEdit-LockBP",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,65},{0,0},{0,125},{0,40}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "1 0 0 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "CameraEdit-JumpBP",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-35},{0,50},{0,-10}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "0 0.501961 0.752941 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "CameraEdit-EndPointSet",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,160},{0,178},{0,193}}"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 1"
+                    },
+                    {
+                      "Name": "MaxTextLength",
+                      "Value": "50"
+                    }
+                  ],
+                  "Type": "Edit",
+                  "Window": [
+                    {
+                      "Name": "title4",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-30},{0,-45},{0,20},{0,5}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "CameraEdit-LockEP",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,65},{0,0},{0,125},{0,40}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "1 0 0 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "CameraEdit-JumpEP",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-35},{0,50},{0,-10}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "0 0.501961 0.752941 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "CameraEdit-BeginRotateSet",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,230},{0,178},{0,263}}"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 1"
+                    },
+                    {
+                      "Name": "MaxTextLength",
+                      "Value": "50"
+                    }
+                  ],
+                  "Type": "Edit",
+                  "Window": [
+                    {
+                      "Name": "title5",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-30},{0,-45},{0,20},{0,5}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "CameraEdit-LockBR",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,65},{0,0},{0,125},{0,40}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "1 0 0 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "CameraEdit-JumpBR",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,12},{0,-35},{0,62},{0,-10}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "0 0.501961 0.752941 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "CameraEdit-EndRotateSet",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,300},{0,178},{0,333}}"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 1"
+                    },
+                    {
+                      "Name": "MaxTextLength",
+                      "Value": "50"
+                    }
+                  ],
+                  "Type": "Edit",
+                  "Window": [
+                    {
+                      "Name": "title6",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-30},{0,-45},{0,20},{0,5}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "CameraEdit-LockER",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,65},{0,0},{0,125},{0,40}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "1 0 0 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "CameraEdit-JumpER",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,12},{0,-35},{0,62},{0,-10}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "0 0.501961 0.752941 1"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "CameraEdit-TimeSet",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,370},{0,100},{0,403}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.752941 0.752941 0.752941 1"
+                    },
+                    {
+                      "Name": "MaxTextLength",
+                      "Value": "50"
+                    }
+                  ],
+                  "Type": "Edit",
+                  "Window": [
+                    {
+                      "Name": "title8",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-50},{0,0},{0,0},{0,50}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM12"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "CameraEdit-ReviewNode",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-60},{0,-30},{0,40},{0,5}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0.752941 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-SaveNode",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,60},{0,-30},{0,160},{0,5}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            },
+            {
+              "Name": "CameraEdit-Tips",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-100},{0,300},{0,100}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.588235"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "CameraEdit-TipsTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,50},{1,0},{0,100}}"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CameraEdit-TipsCancel",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,-30},{0,100},{0,5}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CameraEdit-TipsSure",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-50},{0,-30},{0,0},{0,5}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0.501961 0 1"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

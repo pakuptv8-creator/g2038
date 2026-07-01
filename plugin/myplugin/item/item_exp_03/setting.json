@@ -1,0 +1,20 @@
+{
+  "Group": false,
+  "battleUse": false,
+  "canUse": true,
+  "desc": "item_exp_03_desc",
+  "dose": 100,
+  "icon": "set:g2038_pokemon_item.json image:g2038_item_exp_003",
+  "imposeTray": [
+    3
+  ],
+  "itemId": 34,
+  "itemName": "item_exp_03_name",
+  "itemType": 5,
+  "needSave": true,
+  "price": 10,
+  "rarity": 3,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

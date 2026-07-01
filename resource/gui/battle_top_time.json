@@ -1,0 +1,106 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "battle_top_time",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,50},{0,100},{0,100}}"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "battle_top_time-top_bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,205},{0,44}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:round_btoom"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "battle_top_time-rounds",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-45},{0,0},{0,5},{0,50}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM20"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.556863 0.270588 0.054902 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "battle_top_time-time",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,45},{0,0},{0,95},{0,50}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM20"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        }
+      ]
+    }
+  }
+}

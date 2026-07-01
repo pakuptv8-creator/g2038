@@ -1,0 +1,23 @@
+{
+  "?isBrightPkm": "是否是明雷宝可梦",
+  "?signEffect": "惊扰的叹号特效buff",
+  "actorName": "g2038_pet_03_1.actor",
+  "base": "pet_base",
+  "collider": {
+    "height": 1.7,
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 0.5,
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Cylinder"
+  },
+  "name": "",
+  "uiScale": 1
+}

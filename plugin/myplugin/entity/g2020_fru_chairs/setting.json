@@ -1,0 +1,24 @@
+{
+  "actorName": "g2020_fru_chairs.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -1.5,
+          0,
+          -1,
+          1.5,
+          2,
+          1
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": "",
+  "skin": {
+    "body": "12"
+  }
+}

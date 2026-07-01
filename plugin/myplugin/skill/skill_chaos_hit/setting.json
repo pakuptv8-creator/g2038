@@ -1,0 +1,11 @@
+{
+  "buffCfg": "myplugin/skill_chaos_effect_buff",
+  "buffTime": 10,
+  "castAction": "hurt",
+  "castActionTime": -1,
+  "enableRadialBlur": true,
+  "enableVignette": true,
+  "target": "self",
+  "targetType": "Self",
+  "type": "Buff"
+}

@@ -1,0 +1,1416 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "base_interactionUI",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "AlwaysOnTop",
+          "Value": "true"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "base_interactionUI-panel",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{-0.240625,0},{0.2375,0},{-0.240625,269},{0.2375,284}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "base_interactionUI-bg",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "base_interactionUI-bg2",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.0105634,0},{0.977695,0},{0.246478,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemonMain.json image:img_9_rolefloor"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "base_interactionUI-head-panel",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.0105634,0},{0.977695,0},{0.246478,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-head-icon",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0228137,0},{0.0597015,0},{0.243346,0},{0.925373,0}}"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "base_interactionUI-head-frame",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0190114,0},{0.0447761,0},{0.247148,0},{0.940298,0}}"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "5 5 5 5"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemonMain.json image:img_9_headframe"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "base_interactionUI-name-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,74},{0,12},{0,191},{0,24}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.403922 0.176471 0.0941177 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0.945098 0.909804 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "base_interactionUI-level-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,74},{0,42},{0,191},{0,54}}"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.47451 0.133333 0.133333 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.494118 0.176471 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-chatUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0557621,0},{0.274648,0},{0.479554,0},{0.464789,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-chatBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-chatIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,34},{0,32}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_claticon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-chat-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,6.5},{0,0},{0,37.3832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.129412 0.305882 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.968628 0.992157 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-infoUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.527881,0},{0.274648,0},{0.951673,0},{0.464789,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-infoBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-infoIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,45},{0,28}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_infoicon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-info-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,7},{0,0},{0,37.8832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.129412 0.305882 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.968628 0.992157 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-teamUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0557621,0},{0.514085,0},{0.479554,0},{0.704226,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-teamBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-teamIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.377193,0},{0.815789,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_teamup"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-team-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,7},{0,0},{0,37.8832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.129412 0.305882 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.968628 0.992157 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-pkUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.527881,0},{0.514085,0},{0.951673,0},{0.704226,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-pkBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-pkIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_pkicon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-pk-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,7},{0,0},{0,37.8832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.129412 0.305882 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.968628 0.992157 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-swapUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0557621,0},{0.764085,0},{0.479554,0},{0.954226,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-swapBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-swapIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,50},{0,30}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_swapicon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-swap-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,7},{0,0},{0,37.8832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.129412 0.305882 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.968628 0.992157 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-friendUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.527881,0},{0.764085,0},{0.951673,0},{0.954226,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-friendBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-friendIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,34},{0,32}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_addfriendicon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-friend-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,7},{0,0},{0,37.8832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.129412 0.305882 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.968628 0.992157 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "base_interactionUI-dissolutionUI",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0557621,0},{0.514085,0},{0.479554,0},{0.704226,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "base_interactionUI-dissolutionBtn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.703704,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemonMain.json image:btn_9_redbtn"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemonMain.json image:btn_9_redbtn"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "base_interactionUI-dissolutionIcon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.377193,0},{0.815789,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_Interactivepanel_leaveteamicon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "base_interactionUI-dissolution-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,7},{0,0},{0,37.8832}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "AllShowOneLine",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.305882 0.113725 0.0470588 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.992157 0.960784 0.956863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

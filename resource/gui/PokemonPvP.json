@@ -1,0 +1,820 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonPvP",
+      "Property": [
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.8"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonPvP-Content",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,1036},{0,493}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "16 16 16 16"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonPvP-Body",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,4},{0,1030},{0,398}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_pvp.json image:img_0_pk_floor"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonPvP-Player-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,18},{0,96},{0,49}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM22"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPvP-Rival-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-364},{0,18},{0,-288},{0,49}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM22"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPvP-Player-Name",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,145},{0,48},{0,328},{0,74}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPvP-Rival-Name",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-139},{0,48},{0,44},{0,74}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPvP-Player-Avatar-Bg",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,192},{0,83},{0,282},{0,173}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "16 16 16 16"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_headframe"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonPvP-Player-Avatar",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.92,0},{0.92,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonPvP-Rival-Avatar-Bg",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-185},{0,83},{0,-95},{0,173}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "16 16 16 16"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_headframe"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonPvP-Rival-Avatar",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.92,0},{0.92,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonPvP-Player-Medal",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,132},{0,106},{0,191},{0,165}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:g2038_pokemon_badge.json image:g2038_badge_fire_04"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonPvP-Rlayer-Medal-Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_rank_badge1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-1.5,0},{3,0},{1.5,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonPvP-Rival-Medal",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-278},{0,106},{0,-219},{0,165}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:g2038_pokemon_badge.json image:g2038_badge_water_04"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonPvP-Rival-Medal-Effect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_rank_badge1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-1.5,0},{3,0},{1.5,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonPvP-Player-Pokemon-List",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,28},{0,250},{0,445},{0,346}}"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonPvP-Rival-Pokemon-List",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-31},{0,250},{0,386},{0,346}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonPvP-Player-Pokemon-Power",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,151},{0,190},{0,301},{0,221}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.360784 0.0901961 0.054902 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0.87451 0.0156863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPvP-Rival-Pokemon-Power",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-163},{0,190},{0,-13},{0,221}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.360784 0.0901961 0.054902 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0.87451 0.0156863 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPvP-Bottom",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,1030},{0,91}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "16 16 16 16"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_bottom"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonPvP-BtnRefresh",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,21},{0,-22},{0,85},{0,23}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_pvp.json image:btn_0_refresh"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_pvp.json image:btn_0_refresh"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonPvP-Refresh-Time",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,96},{0,-36},{0,147},{0,-17}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPvP-BtnAdd",
+                  "Property": [
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,737},{0,-18},{0,790},{0,35}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_pvp.json image:btn_0_addition"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_pvp.json image:btn_0_addition"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonPvP-BtnChallenge",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,807},{0,-12},{0,1020},{0,54}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "16 16 16 16"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_battle.json image:blue"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_battle.json image:blue"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonPvP-BtnChallenge-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,146},{0,37}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.0901961 0.25098 0.45098 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonPvP-Challenge-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,266},{0,-30},{0,679},{0,-4}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPvP-BtnClose",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,31},{0,-31},{0,93},{0,31}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

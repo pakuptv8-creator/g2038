@@ -1,0 +1,35 @@
+{
+  "type": "Missile",
+  "target": "self",
+  "targetType": "Any",
+  "cdTime": 0,
+  "castAction": "attack1",
+  "castActionTime": -1,
+  "missileCfg": "myplugin/skill_melee_missile",
+  "missileCount": 1,
+  "startWait": [
+        17
+   ],
+  "startPos": [
+        {
+            "z": 0.8,
+            "x": 0,
+            "y": -1.5
+        }
+    ],
+  "//": "近战攻击特效",
+  "castEffect":{
+        "effect": "g2038_skill_none.effect",
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+   },
+   "castSound": {
+        "volume": 10,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    }
+}

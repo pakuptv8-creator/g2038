@@ -1,0 +1,26 @@
+{
+    "canHitRider": true,
+    "followTarget": true,
+    "followTargetRotationOffset": {
+        "z": 1.5,
+        "x": 0,
+        "y": 0
+    },
+    "collideEntity": 1,
+    "collideBlock": 0,
+    "hitInterval": 30,
+    "rotateSpeed": 0,
+    "boundingVolume": {
+        "params": [
+            2,
+            2,
+            2
+        ],
+        "type": "Box"
+    },
+    "lifeTime": 20,
+    "gravity": 0,
+    "moveSpeed": 0,
+    "moveAcc": 0,
+    "hitEntitySkill": "myplugin/skill_melee_hit_buff"
+}

@@ -1,0 +1,42 @@
+{
+  "?battleMapName": "战斗场景地图",
+  "?flashRate": "闪光率百分比，1表示1%",
+  "?maxMonsterLevel": "怪物最大等级",
+  "?minMonsterLevel": "怪物最小等级",
+  "?rarePoolList": "稀有度池列表",
+  "battleMapName": "map002",
+  "flashRate": 1,
+  "maxMonsterLevel": 5,
+  "minMonsterLevel": 3,
+  "rarePoolList": [
+    {
+      "monsterList": [
+        {
+          "monsterWeight": 500,
+          "monsterID": 10100301,
+          "starWeight": [
+            80,
+            20,
+            0,
+            0
+          ]
+        },
+        {
+          "monsterWeight": 500,
+          "monsterID": 10200301,
+          "starWeight": [
+            80,
+            20,
+            0,
+            0
+          ]
+        }
+      ],
+      "rareID": 3,
+      "rareWeight": 1000
+    }
+  ],
+  "regionId": 1,
+  "target": "Player",
+  "type": "hide_pkm"
+}

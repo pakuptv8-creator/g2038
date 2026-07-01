@@ -1,0 +1,19 @@
+{
+    "physicalSkillBonus": 1,
+    "effect": {
+        "effect": "g2038_skill_none.effect",
+        "once": true,
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+	"sound": {
+        "volume": 10,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    },
+    "deadRemove": true
+}

@@ -1,0 +1,41 @@
+{
+  "_isOpaqueFullCube": "不透光,与破坏时方块开裂效果，true有开裂效果",
+  "attractedLv": 1,
+  "blockId": 1197,
+  "breakTime": 120,
+  "canConnectionFence": true,
+  "collisionBoxes": [
+    {
+      "max": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "min": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "desc": "block_cube_005_pebble_desc",
+  "dropGuardTime": 40,
+  "dropSelf": true,
+  "handBuff": "myplugin/no_weapon_buff",
+  "isOpaqueFullCube": true,
+  "itemPrice": 4,
+  "itemname": "block_cube_005_pebble_name",
+  "levelScore": 2,
+  "needSave": true,
+  "renderPass": 0,
+  "skill": "myplugin/near_attack",
+  "stack_count_max": 999,
+  "texture": [
+    "stone01.png",
+    "stone01.png",
+    "stone01.png",
+    "stone01.png",
+    "stone01.png",
+    "stone01.png"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "breakTime": 20,
+    "runBuff": [
+        "myplugin/sound_buff_grassground_walk"
+      ],
+    "texture": [
+        "grass_top.png",
+        "grass_top.png",
+        "grass_side.png",
+        "grass_side.png",
+        "grass_side.png",
+        "grass_side.png"
+    ]
+}

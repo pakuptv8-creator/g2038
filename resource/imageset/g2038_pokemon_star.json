@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "img_0_bigsize_rareness0": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        },
+        "img_0_bigsize_rareness1": {
+            "frame": {
+                "x": 40,
+                "y": 1,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        },
+        "img_0_bigsize_rareness2": {
+            "frame": {
+                "x": 79,
+                "y": 1,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        },
+        "img_0_bigsize_rareness3": {
+            "frame": {
+                "x": 1,
+                "y": 38,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        },
+        "img_0_bigsize_rareness4": {
+            "frame": {
+                "x": 40,
+                "y": 38,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        },
+        "img_0_bigsize_rareness5": {
+            "frame": {
+                "x": 79,
+                "y": 38,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        },
+        "img_0_bigsize_rareness6": {
+            "frame": {
+                "x": 1,
+                "y": 75,
+                "w": 38,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 38,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 38,
+                "h": 36
+            }
+        }
+    },
+    "meta": {
+        "image": "g2038_pokemon_star.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 118,
+            "h": 112
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

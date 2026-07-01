@@ -1,0 +1,122 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonEvolution",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "BackgroundColor",
+          "Value": "0.141176 0.27451 0.741176 0"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "3 3 3 3"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemon_battle.json image:white"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonEvolution-Actor-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,1},{1,0},{1,1}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ActorWindowScale",
+              "Value": "1"
+            }
+          ],
+          "Type": "ActorWindow",
+          "Window": [
+            {
+              "Name": "PokemonEvolution-Effect-Bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0.0585938,0},{0.104167,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_evolution_bg1.effect"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonEvolution-Actor",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,-830},{0.75,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ActorWindowScale",
+                  "Value": "1"
+                }
+              ],
+              "Type": "ActorWindow"
+            },
+            {
+              "Name": "PokemonEvolution-Effect-action",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.25,0},{0.09375,0},{0.416667,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_evolution_bg2.effect"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "canClick": true,
+  "canFly": true,
+  "canHitching": false,
+  "castRealShadow": false,
+  "checkBlockCollision": false,
+  "collision": true,
+  "collisionGroup": 2,
+  "collisionMask": 1,
+  "defaultView": 1,
+  "disableCheckTouch": true,
+  "disableShadow": true,
+  "editVolume": true,
+  "unassailable": 1,
+  "headTextHeight": -0.4,
+  "checkBlockTouchEvent":false,
+  "checkEntityTouchEvent":false,
+  "useStaticCollider":false,
+  "headTextScale": 0.9,
+  "viewDistance": 35,
+  "randomIdleAction":{
+    "cdTime": 120,
+    "randomList": [
+      {"action": "scratchhead_1", "time": -1},
+      {"action": "scratchhead_2", "time": -1},
+      {"action": "wave_1", "time": -1},
+      {"action": "wave_2", "time": -1}
+    ]
+  }
+}

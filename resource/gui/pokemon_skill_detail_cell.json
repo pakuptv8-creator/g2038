@@ -1,0 +1,334 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "StaticImage",
+            "Name": "pokemon_skill_detail_cell",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,394},{0,165}}"
+                },
+                {
+                    "Name": "StretchType",
+                    "Value": "NineGrid"
+                },
+                {
+                    "Name": "StretchOffset",
+                    "Value": "20 20 20 20"
+                },
+                {
+                    "Name": "ImageName",
+                    "Value": "set:pokemon_battle.json image:skill_btoom_detal"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "pokemon_skill_detail_cell-ability_icon",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,7},{0,6},{0,68},{0,65}}"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:pokemon_battle.json image:skill_detal_fire"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "pokemon_skill_detail_cell-info",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,72},{0,6},{1,-6},{0,65}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:pokemon_battle.json image:bg_detal"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "pokemon_skill_detail_cell-name",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,8},{0,5},{0,58},{0,26}}"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM14"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0.556863 0.262745 0.0235294 1"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "pokemon_skill_detail_cell-num",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-15},{0,5},{0,35},{0,26}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM14"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0.556863 0.262745 0.0235294 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "pokemon_skill_detail_cell-ability_1",
+                            "Property": [
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,9},{0,32},{0,33},{0,57}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:pokemon_battle.json image:prop_att"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "pokemon_skill_detail_cell-ability_num_1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,37},{0,0},{0,62},{0,17}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM14"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0.529412 0.243137 0.0156863 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "pokemon_skill_detail_cell-ability_2",
+                            "Property": [
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,109},{0,32},{0,133},{0,57}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "pokemon_skill_detail_cell-ability_num_2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,37},{0,0},{0,62},{0,17}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM14"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0.529412 0.243137 0.0156863 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "pokemon_skill_detail_cell-ability_3",
+                            "Property": [
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,209},{0,32},{0,233},{0,57}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hit"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "pokemon_skill_detail_cell-ability_num_3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,37},{0,0},{0,62},{0,17}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM14"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0.529412 0.243137 0.0156863 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "pokemon_skill_detail_cell-detail_list",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,68},{1,-6},{1,-4}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "10 10 10 10"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "pokemon_skill_detail_cell-detail_text",
+                            "Property": [
+                                {
+                                    "Name": "Visible",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,5},{1,-10},{0,29.4339}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM14"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0.682353 0.168627 0 1"
+                                },
+                                {
+                                    "Name": "TextWordWrap",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextSelfAdaptHigh",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "AllShowOneLine",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

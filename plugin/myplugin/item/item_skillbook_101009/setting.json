@@ -1,0 +1,20 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "desc": "active_skill_09_desc",
+  "icon": "set:g2038_pokemon_skill.json image:g2038_skillbook_normal",
+  "imposeTray": [
+    4
+  ],
+  "itemId": 109,
+  "itemName": "active_skill_09_name",
+  "itemType": 4,
+  "needSave": true,
+  "price": 10,
+  "rarity": 3,
+  "sellingPrice": 1,
+  "skillBookType": 1,
+  "skillId": 101009,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

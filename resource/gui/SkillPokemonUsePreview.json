@@ -1,0 +1,186 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "SkillPokemonUsePreview",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "SkillPokemonUsePreview-Mask",
+          "Property": [
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.490196"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "Layout"
+        },
+        {
+          "Name": "SkillPokemonUsePreview-ContentLyt",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,271},{0,105},{1,-271},{1,-104}}"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "SkillPokemonUsePreview-BG",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:NewPokemonBook.json image:img_9_attributeboard"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "SkillPokemonUsePreview-TopBar",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,6},{0,5},{1,-6},{0,70}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "SkillPokemonUsePreview-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM22"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "SkillPokemonUsePreview-Close",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-3},{0,3},{0,55},{0,61}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_btn.json image:btn_close_2"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_btn.json image:btn_close_2"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            },
+            {
+              "Name": "SkillPokemonUsePreview-petsList",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,21},{0,78},{1,-24},{1,-31}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_leaderboard.json image:chb_9_normal"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

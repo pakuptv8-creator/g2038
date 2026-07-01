@@ -1,0 +1,1044 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonSwap",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.392157"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonSwap-Content",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,40},{0,1097},{0,652}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 15 15"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_bag.json image:chb_9_words"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonSwap-Title-Bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-28},{0,343},{0,39}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "30 30 30 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_swap.json image:chb_9_title"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonSwap-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonSwap-Close",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-22},{0,-17},{0,36},{0,41}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonSwap-Players-Layout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,51},{0,1015},{0,175}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "2 2 2 2"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_swap.json image:img_9_bottom_personalinformation"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonSwap-My-Info",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,432},{1,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonSwap-My-Info-Head",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,20},{0,0},{0,120},{0,100}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "PokemonSwap-My-Info-Head-Border",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                            },
+                            {
+                              "Name": "StretchType",
+                              "Value": "NineGrid"
+                            },
+                            {
+                              "Name": "StretchOffset",
+                              "Value": "5 5 5 5"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:pokemonMain.json image:img_9_headframe"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonSwap-My-Info-Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,149},{0,24},{0,199},{0,41}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.545098 0.278431 0.0470588 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonSwap-My-Info-Level",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,149},{0,80},{0,199},{0,97}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.545098 0.278431 0.0470588 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonSwap-My-Info-Lock",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-20},{0,0},{0,33},{0,53}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_swap.json image:img_0_hook"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonSwap-Your-Info",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,432},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonSwap-Your-Info-Head",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,20},{0,0},{0,120},{0,100}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "PokemonSwap-Your-Info-Head-Border",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                            },
+                            {
+                              "Name": "StretchType",
+                              "Value": "NineGrid"
+                            },
+                            {
+                              "Name": "StretchOffset",
+                              "Value": "5 5 5 5"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:pokemonMain.json image:img_9_headframe"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonSwap-Your-Info-Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,149},{0,24},{0,199},{0,41}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.545098 0.278431 0.0470588 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonSwap-Your-Info-Level",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,149},{0,80},{0,199},{0,97}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.545098 0.278431 0.0470588 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonSwap-Your-Info-Lock",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,-20},{0,0},{0,33},{0,53}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_swap.json image:img_0_hook"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonSwap-Pokemon-Layout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,189},{1,-82},{0,465}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonSwap-My-Pokemon-Bg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,432},{0,276}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "LayoutBackImage",
+                      "Value": "set:pokemon_swap.json image:img_9_displayframe"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonSwap-My-Pokemon-Tip",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "PokemonSwap-My-Pokemon-Tip-Icon",
+                          "Property": [
+                            {
+                              "Name": "Material",
+                              "Value": "CullBackLinear"
+                            },
+                            {
+                              "Name": "DrawColor",
+                              "Value": "1 1 1 0.7"
+                            },
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0,156},{0,143}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Alpha",
+                              "Value": "0.7"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:pokemon_bag.json image:mask_pet_icon"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        },
+                        {
+                          "Name": "PokemonSwap-My-Pokemon-Tip-Text",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0,50},{0,50}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM22"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.545098 0.278431 0.0470588 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonSwap-My-Pokemon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonSwap-My-Pokemon-Btn",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-12},{0,216},{0,31}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_pet_packet.json image:btn_9_universal_red"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_pet_packet.json image:btn_9_universal_red"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.729412 0.164706 0.0862745 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonSwap-Your-Pokemon-Bg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,432},{0,276}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "LayoutBackImage",
+                      "Value": "set:pokemon_swap.json image:img_9_displayframe"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonSwap-Your-Pokemon-Tip",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "PokemonSwap-Your-Pokemon-Tip-Text_1",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,-40},{0,50},{0,10}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM22"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.545098 0.278431 0.0470588 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        },
+                        {
+                          "Name": "PokemonSwap-Your-Pokemon-Tip-Text_2",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,20},{0,50},{0,70}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.901961 0.152941 0.00392157 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonSwap-Your-Pokemon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonSwap-Your-Pokemon-Btn",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-12},{0,216},{0,31}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_pet_packet.json image:btn_9_universal_blue"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_pet_packet.json image:btn_9_universal_blue"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.0901961 0.25098 0.45098 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonSwap-Swap-Img",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,75},{0,75}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_swap.json image:img_0_arrow"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonSwap-Tip-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-110},{0,584},{0,-93}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM14"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.890196 0.27451 0.235294 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText",
+              "Window": [
+                {
+                  "Name": "PokemonSwap-Tip-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-1,-6},{0,0},{-1,23},{0,29}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_swap.json image:img_0_personaldetails_redexclamationmark"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonSwap-Cancel",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,165},{0,-27},{0,434},{0,35}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM22"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_9_universal_red"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_9_universal_red"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.729412 0.164706 0.0862745 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonSwap-Sure",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-165},{0,-27},{0,104},{0,35}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM22"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.278431 0.411765 0.0666667 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

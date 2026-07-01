@@ -1,0 +1,434 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLuckyPool",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonLuckyPool-Mask",
+          "Property": [
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.588235"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,2},{0,-1},{1,2},{1,-1}}"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonLuckyPool-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.710938,0},{0.801389,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLuckyPool-topBg",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.00519931,0},{0.993407,0},{0.117851,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:img_9_boxtop_blue"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLuckyPool-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.0182815,0},{0.159794,0},{0.111517,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLuckyPool-listBg",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.237435,0},{0.937363,0},{0.961872,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_bag.json image:chb_9_box"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLuckyPool-pkmList",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.256499,0},{0.868132,0},{0.941074,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonLuckyPool-closeBtn",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-6},{0,6},{0,52},{0,64}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonLuckyPool-pooTab3",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{-0.273626,0},{0.142114,0},{0,0},{0.242634,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "6 6 6 6"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "9"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:tgl_0_left_on"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyPool-tabTitle3",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.156863 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLuckyPool-pooTab2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.142114,0},{0.273626,0},{0.242634,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "6 6 6 6"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "9"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:tgl_0_mid_on"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyPool-tabTitle2",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.156863 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLuckyPool-pooTab1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.273626,0},{0.142114,0},{0.547252,0},{0.242634,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "6 6 6 6"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "9"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:tgl_0_right_on"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyPool-tabTitle1",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.156863 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

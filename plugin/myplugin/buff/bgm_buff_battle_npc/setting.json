@@ -1,0 +1,15 @@
+{
+    "sound": {
+      "volume": 0.7,
+      "loop": true,
+      "selfOnly": true,
+      "sound": "/sound/battle_wild.mp3"
+    },
+    "avoidBuff": [
+      "myplugin/bgm_buff_battle_npc"
+    ],
+	"?removeBuff":"进入本音乐区域时默认播放的音乐",
+    "removeBuff": [
+      "myplugin/bgm_buff_main"      
+    ]
+}

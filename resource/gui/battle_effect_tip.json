@@ -1,0 +1,268 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "battle_effect_tip",
+      "Property": [
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "VerticalAlignment",
+          "Value": "Bottom"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "battle_effect_tip-characteristic2",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-14},{0,-450},{0,333},{0,-310}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 50 15"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:bg_3"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "battle_effect_tip-characteristic_title2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,16},{0,2},{0.93,16},{0.3,2}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "MinFont",
+                  "Value": "PKM12"
+                },
+                {
+                  "Name": "AutoShrinkFont",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.835294 0.576471 0.368627 1"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.980392 0.960784 0.960784 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "battle_effect_tip-characteristic_text_list2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,10},{0,52},{1,-90},{1,-8}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "battle_effect_tip-characteristic_text2",
+                  "Property": [
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0,27.037}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.513726 0.254902 0.152941 1"
+                    },
+                    {
+                      "Name": "TextSelfAdaptHigh",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "battle_effect_tip-characteristic1",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,14},{0,-259},{0,361},{0,-119}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 50 15"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:bg_3"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "battle_effect_tip-characteristic_title1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,17},{0,2},{0.93,17},{0.3,2}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "MinFont",
+                  "Value": "PKM12"
+                },
+                {
+                  "Name": "AutoShrinkFont",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.835294 0.576471 0.368627 1"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.960784 0.960784 0.960784 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "battle_effect_tip-characteristic_text_list1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,52},{1,-20},{1,-8}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "battle_effect_tip-characteristic_text1",
+                  "Property": [
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0,27.037}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.513726 0.254902 0.152941 1"
+                    },
+                    {
+                      "Name": "TextSelfAdaptHigh",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

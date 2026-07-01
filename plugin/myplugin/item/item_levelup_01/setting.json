@@ -1,0 +1,20 @@
+{
+  "Group": false,
+  "battleUse": false,
+  "canUse": true,
+  "desc": "item_levelup_01_desc",
+  "dose": 1,
+  "icon": "set:g2038_pokemon_item.json image:g2038_item_level_001",
+  "imposeTray": [
+    3
+  ],
+  "itemId": 35,
+  "itemName": "item_levelup_01_name",
+  "itemType": 5,
+  "needSave": true,
+  "price": 10,
+  "rarity": 4,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

@@ -1,0 +1,64 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_gift_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,159},{0,120}}"
+        },
+        {
+          "Name": "SoundName",
+          "Value": "11"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_gift_cell-bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "25 25 15 15"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_gift_bag.json image:chb_9_grow_board_right_1"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_gift_cell-icon",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,56},{0,56}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_gift_bag.json image:img_0_time_gift_1"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

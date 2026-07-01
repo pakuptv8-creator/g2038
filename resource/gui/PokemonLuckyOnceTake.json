@@ -1,0 +1,1068 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLuckyOnceTake",
+      "Property": [
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "EffectScale",
+          "Value": "1 1"
+        },
+        {
+          "Name": "EffectOffset",
+          "Value": "0 0 0"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonLuckyOnceTake-bg",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "EffectScale",
+              "Value": "1 1"
+            },
+            {
+              "Name": "EffectOffset",
+              "Value": "0 0 0"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonLuckyOnceTake-Take",
+          "Property": [
+            {
+              "Name": "EffectScale",
+              "Value": "1 1"
+            },
+            {
+              "Name": "EffectOffset",
+              "Value": "0 0 0"
+            },
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "35 35 90 30"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLuckyOnceTake-model",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "EffectScale",
+                  "Value": "1 1"
+                },
+                {
+                  "Name": "EffectOffset",
+                  "Value": "0 0 0"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyOnceTake-modelEffect1",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_choudan_bg_1.effect"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,100},{0,100}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-modelEffect2",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_choudan_bglight_1.effect"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-50},{0,150},{0,100}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-modelLayout",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-0.138889,0},{0.3125,0},{0.527778,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyOnceTake-eggModel",
+                      "Property": [
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ActorWindowOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "ActorWindowScale",
+                          "Value": "1"
+                        }
+                      ],
+                      "Type": "ActorWindow"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLuckyOnceTake-content",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "EffectScale",
+                  "Value": "1 1"
+                },
+                {
+                  "Name": "EffectOffset",
+                  "Value": "0 0 0"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyOnceTake-namePanel",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0210938,0},{0.145833,0},{0.314844,0},{0.213889,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyOnceTake-nameBg",
+                      "Property": [
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_name_bg"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyOnceTake-newIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.851064,0},{0,0},{0.970745,0},{0.979592,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_tag_new"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyOnceTake-nameTxt",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0697674,0},{0,0},{0.0697674,41},{0,27.9099}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.415686 0.172549 0 1"
+                        },
+                        {
+                          "Name": "AllShowOneLine",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-ticketPanel",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-0.0203125,0},{-0.0791667,0},{0.135937,0},{-0.0236111,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_lucky_egg.json image:img_9_ticketbg"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyOnceTake-ticketTitle",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-35},{0,179},{0,-5}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.0901961 0 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "AllShowOneLine",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLuckyOnceTake-ticketIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.11,0},{0,0},{0.4,0},{0.9,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyOnceTake-ticketCount",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.545,0},{0,0},{1.235,0},{0.45,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "AllShowOneLine",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-confirmBtn",
+                  "Property": [
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.210938,0},{-0.0722222,0},{0.421876,0},{0.0527778,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "33 33 25 25"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_green"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_green"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyOnceTake-confirmTxt",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.629091,0},{0.25,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0 0.309804 0.0509804 1"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0 0.309804 0.121569 1"
+                        },
+                        {
+                          "Name": "AllShowOneLine",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-againBtn",
+                  "Property": [
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.560938,0},{-0.0722222,0},{0.773438,0},{0.0527778,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "33 33 25 25"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyOnceTake-takePrice",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,120},{0,0},{0,202},{0,24}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.733333 0.145098 0.054902 1"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.733333 0.145098 0.054902 1"
+                        },
+                        {
+                          "Name": "AllShowOneLine",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLuckyOnceTake-takeIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,50},{0,0},{0,90},{0,40}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:icon_coin"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyOnceTake-takeTicket",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,35},{0,0},{0,93},{0,36}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-takeMust",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.578125,0},{-0.0208333,0},{0.761719,0},{0.0319445,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyOnceTake-againTitle",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectScale",
+                          "Value": "1 1"
+                        },
+                        {
+                          "Name": "EffectOffset",
+                          "Value": "0 0 0"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        },
+                        {
+                          "Name": "AutoShrinkFont",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.0901961 0 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "AllShowOneLine",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-raceIcon",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0242187,0},{0.0486111,0},{0.0710937,0},{0.131944,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_0_race_normal"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyOnceTake-starIcon",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectScale",
+                      "Value": "1 1"
+                    },
+                    {
+                      "Name": "EffectOffset",
+                      "Value": "0 0 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.078125,0},{0.0486111,0},{0.290625,0},{0.118056,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLuckyOnceTake-BtnClose",
+              "Property": [
+                {
+                  "Name": "EffectScale",
+                  "Value": "1 1"
+                },
+                {
+                  "Name": "EffectOffset",
+                  "Value": "0 0 0"
+                },
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0.130469,0},{0.0875,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_lucky_egg.json image:btn_0_return"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_lucky_egg.json image:btn_0_return"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightnessEnable",
+                  "Value": "true"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

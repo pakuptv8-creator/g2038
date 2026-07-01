@@ -1,0 +1,192 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "canvas",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "VerticalAlignment",
+          "Value": "Bottom"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "canvas-mask",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "Layout"
+        },
+        {
+          "Name": "canvas-dialog",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,-33},{1,0},{0,153}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "1 1 20 20"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:bg_8"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "canvas-text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,78},{0,15},{1,-78},{0,67.3438}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM30"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.545098 0.278431 0.0470588 1"
+                },
+                {
+                  "Name": "TextSelfAdaptHigh",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "canvas-Yes",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-70},{0,0},{0,123},{0,58}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "canvas-No",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-311},{0,0},{0,-118},{0,58}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_no"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_no"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

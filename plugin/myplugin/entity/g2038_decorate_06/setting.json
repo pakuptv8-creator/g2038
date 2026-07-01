@@ -1,0 +1,21 @@
+{
+  "actorName": "g2038_decorate_06.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -0.48658925078066,
+          0,
+          -0.50653830429287,
+          0.49225528711134,
+          2.0199996948242,
+          0.4691696282857
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": ""
+}

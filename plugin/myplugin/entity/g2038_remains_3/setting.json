@@ -1,0 +1,22 @@
+{
+  "actorName": "g2038_remains_3.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -2.470989575429,
+          0.0,
+          -1.0544257622782,
+          2.5438680696828,
+          3.07,
+          1.040543101274
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

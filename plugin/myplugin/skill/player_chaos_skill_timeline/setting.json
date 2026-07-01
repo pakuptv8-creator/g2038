@@ -1,0 +1,21 @@
+{
+    "isMainSkill": true,
+	"?skillTime":"技能总时长，应包含该技能所有子技能的时间",
+	"skillTime":10,
+    "timerLine": [
+        {
+            "behavior": "None",
+            "?camaraShowName":"skill_1",
+            "time": 1
+        },
+        {
+            "time": 11,
+            "value": "myplugin/skill_chaos_hit",
+            "behavior": "Skill"
+        }
+    ],
+    "castAction": "",
+    "castActionTime": -1,
+    "targetType": "AddValue",
+    "type": "TimeLine"
+}  

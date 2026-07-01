@@ -1,0 +1,46 @@
+{
+    "isMainSkill": true,
+	"?skillTime":"技能总时长，应包含该技能所有子技能的时间",
+	"skillTime":60,
+    "timerLine": [
+        {
+            "behavior": "None",
+            "?camaraShowName":"skill_1",
+            "time": 1
+        },
+        {
+            "forceDelayTime": 2,
+            "behavior": "Pos",
+            "value": {
+                "z": 0,
+
+                "y": 0,
+                "x": 0
+            },
+            "time": 20
+        },
+        {
+            "time": 21,
+            "value": "myplugin/player_skill_1_hit",
+            "behavior": "Skill"
+        },
+		{
+			"forceDelayTime": 2,
+            "time": 40,
+            "behavior": "back"
+        }
+    ],
+    "castAction": "rush",
+    "castActionTime": -1,
+    "targetType": "AddValue",
+    "//": "施法特效",
+    "castEffect":{
+        "effect": "g2038_skill_none.effect",
+        "pos": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "type": "TimeLine"
+}  

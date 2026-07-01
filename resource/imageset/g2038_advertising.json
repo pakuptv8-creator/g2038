@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "icon_ad": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 51,
+                "h": 39
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 39
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 39
+            }
+        }
+    },
+    "meta": {
+        "image": "g2038_advertising.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 52,
+            "h": 40
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

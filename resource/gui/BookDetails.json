@@ -1,0 +1,2088 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "BookDetails",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "BookDetails-BG",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pet_packet.json image:img_9_bg"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "BookDetails-MiddleLayout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,380},{1,0}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "BookDetails-PetShowLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.109722,0},{1.16053,0},{0.4125,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "BookDetails-Shadow",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,40},{0,408},{0,114}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:PokemonBook.json image:circle_shadow"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "BookDetails-EntityWindow",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "ActorWindowScale",
+                      "Value": "1"
+                    }
+                  ],
+                  "Type": "ActorWindow"
+                }
+              ]
+            },
+            {
+              "Name": "BookDetails-InfoLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0710526,0},{0.147222,0},{0.952632,0},{0.229167,0}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "BookDetails-TypeBoard",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.143284,0},{0.135593,0},{0.143284,298},{0.135593,44}}"
+                    },
+                    {
+                      "Name": "AlwaysOnTop",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_petnameboard"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "BookDetails-PetName",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.090604,0},{0,0},{0.090604,116},{0,17}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM20"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.501961 0 0 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "BookDetails-PetId",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0536913,0},{-1.15909,0},{0.0536913,75},{-1.15909,17}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM22"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "BookDetails-ClassifyTypeImg",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,59},{0,59}}"
+                    },
+                    {
+                      "Name": "AlwaysOnTop",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_0_race_normal"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "BookDetails-LeftLayout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.351563,0},{1,0}}"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "BookDetails-AttributeLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,10},{0,75},{0,385},{0,405}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "BookDetails-AttributesBG",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,1},{1,0},{1,1}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:PokemonBook.json image:img_9_attributeboard"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "BookDetails-AttributesTopBar",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,6},{1,-12},{0,58}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:PokemonBook.json image:img_9_attributeboard1"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "BookDetails-AttributesTitle",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,14},{0,19},{0,154},{0,38}}"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM18"
+                            },
+                            {
+                              "Name": "TextBorder",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "BookDetails-AttributesYellowBG",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,70},{1,-22},{1,-20}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "0.996078 0.945098 0.835294 1"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "BookDetails-Detail-Attr-Layout",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Bottom"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "BackgroundColor",
+                              "Value": "0.996078 0.945098 0.835294 1"
+                            }
+                          ],
+                          "Type": "Layout",
+                          "Window": [
+                            {
+                              "Name": "BookDetails-Detail-Hp-Text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,-15},{0,10},{1,-45},{0,35}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0.545098 0.243137 0.00392157 1"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Detail-Hp-Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hp"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Detail-Hp-Title",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM14"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Detail-Speed-Text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,-15},{0,45},{1,-45},{0,70}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0.545098 0.243137 0.00392157 1"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Detail-Speed-Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Detail-Speed-Title",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM14"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Detail-PAtk-Text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,-15},{0,90},{1,-45},{0,115}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0.545098 0.243137 0.00392157 1"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Detail-PAtk-Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicalattacks"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Detail-PAtk-Title",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM14"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Detail-PDef-Text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,-15},{0,125},{1,-45},{0,150}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0.545098 0.243137 0.00392157 1"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Detail-PDef-Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicaldefense"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Detail-PDef-Title",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM14"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Detail-SAtk-Text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,-15},{0,170},{1,-45},{0,195}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0.545098 0.243137 0.00392157 1"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Detail-SAtk-Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellattacks"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Detail-SAtk-Title",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM14"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Detail-SDef-Text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,-15},{0,205},{1,-45},{0,230}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0.545098 0.243137 0.00392157 1"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Right"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Detail-SDef-Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellprotection"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Detail-SDef-Title",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM14"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "BookDetails-FeatureLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0377778,0},{-0.0277778,0},{0.842222,0},{0.35,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "BookDetails-FeatureBG",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:PokemonBook.json image:img_9_attributeboard"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "BookDetails-Feature-TopBar",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,6},{0,6},{1,-6},{0,62}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "BookDetails-CommonBtn",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "SoundName",
+                          "Value": "9"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:PokemonBook.json image:chb_9_Common"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:PokemonBook.json image:chb_9_Common_checked"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "CheckBox"
+                    },
+                    {
+                      "Name": "BookDetails-SpecialBtn",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.5,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "SoundName",
+                          "Value": "9"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:PokemonBook.json image:chb_9_special"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:PokemonBook.json image:chb_9_special_checked"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "CheckBox"
+                    }
+                  ]
+                },
+                {
+                  "Name": "BookDetails-Feature-Name",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,14},{0,75},{0,152},{0,93}}"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "BookDetails-Feature-Describe",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,12},{0,125},{0.906077,12},{0.172794,125}}"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.243137 0.00392157 1"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "BookDetails-Line",
+                  "Property": [
+                    {
+                      "Name": "DrawColor",
+                      "Value": "0.6 0.32549 0.054902 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,9},{0,107},{0.939227,9},{0,108}}"
+                    },
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.6 0.32549 0.054902 1"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_battle.json image:white"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "BookDetails-RightLayout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.351563,0},{1,0}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "BookDetails-SkillLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-10},{0,-15},{0,380},{0,395}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "BookDetails-SkillBG",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:PokemonBook.json image:img_9_attributeboard"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "BookDetails-PassiveTopBar",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,6},{0,6},{1,-6},{0,62}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "BookDetails-PassiveSkill",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "SoundName",
+                          "Value": "9"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:PokemonBook.json image:chb_9_Common"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:PokemonBook.json image:chb_9_Common_checked"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "CheckBox"
+                    },
+                    {
+                      "Name": "BookDetails-ActiveSkill",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "SoundName",
+                          "Value": "9"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:PokemonBook.json image:chb_9_special"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:PokemonBook.json image:chb_9_special_checked"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "CheckBox"
+                    }
+                  ]
+                },
+                {
+                  "Name": "BookDetails-ActiveSkill-Layout",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,70},{1,-30},{1,-10}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "BookDetails-PassiveSkill-Layout",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,70},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "BookDetails-Detail-Layout",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,-30},{1,-10}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "BookDetails-Passive-List",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,1},{1,0},{1,-169}}"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "Layout"
+                        },
+                        {
+                          "Name": "BookDetails-Passive-Desc",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,0},{0,150}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Bottom"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "StretchType",
+                              "Value": "NineGrid"
+                            },
+                            {
+                              "Name": "StretchOffset",
+                              "Value": "15 15 15 15"
+                            },
+                            {
+                              "Name": "LayoutBackImage",
+                              "Value": "set:pokemon_pet_packet.json image:img_9_skilldescribeboard"
+                            }
+                          ],
+                          "Type": "Layout"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "Name": "BookDetails-ActiveSkillDetail-Layout",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{-1,-10},{0,-12},{-1,365},{0,143}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "BookDetails-EvolutionLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-12},{0,77},{0,378},{0,282}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "BookDetails-EvolutionBG",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:PokemonBook.json image:img_9_attributeboard"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "BookDetails-EvolutionYellow-Bg",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-20},{0,363},{0,89}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "BackgroundColor",
+                          "Value": "0.996078 0.945098 0.835294 1"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "BookDetails-EvolutionYellowBG",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0,363},{0,109}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Bottom"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "ClipChild",
+                              "Value": "true"
+                            }
+                          ],
+                          "Type": "StaticImage",
+                          "Window": [
+                            {
+                              "Name": "BookDetails-Level0Layout",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,2},{0,0},{0,92},{0,90}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "SoundName",
+                                  "Value": "8"
+                                }
+                              ],
+                              "Type": "Layout",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Level0Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0.95,0},{0.95,0}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:g2038_pokemon_icon.json image:pet_13_2"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level0StarLytBG",
+                                  "Property": [
+                                    {
+                                      "Name": "DrawColor",
+                                      "Value": "0 0 0 0.5"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,-4},{1,0},{0,20}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Bottom"
+                                    },
+                                    {
+                                      "Name": "Alpha",
+                                      "Value": "0.5"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_battle.json image:bg_6"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level0IconBG",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0.98,0},{0.98,0}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "StretchType",
+                                      "Value": "NineGrid"
+                                    },
+                                    {
+                                      "Name": "StretchOffset",
+                                      "Value": "10 10 10 10"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level0StarLyt",
+                                  "Property": [
+                                    {
+                                      "Name": "DrawColor",
+                                      "Value": "0 0 0 1"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,-4},{1.2,0},{0,20}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Bottom"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level0Select",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{1,6},{1,6}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "StretchType",
+                                      "Value": "NineGrid"
+                                    },
+                                    {
+                                      "Name": "StretchOffset",
+                                      "Value": "20 20 20 20"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_battle.json image:select_1"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Level1Layout",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,137},{0,0},{0,227},{0,90}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "SoundName",
+                                  "Value": "8"
+                                }
+                              ],
+                              "Type": "Layout",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Level1Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0.95,0},{0.95,0}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:g2038_pokemon_icon.json image:pet_13_2"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level1StarLytBG",
+                                  "Property": [
+                                    {
+                                      "Name": "DrawColor",
+                                      "Value": "0 0 0 0.5"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,-4},{1,0},{0,20}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Bottom"
+                                    },
+                                    {
+                                      "Name": "Alpha",
+                                      "Value": "0.5"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_battle.json image:bg_6"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level1IconBG",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0.98,0},{0.98,0}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "StretchType",
+                                      "Value": "NineGrid"
+                                    },
+                                    {
+                                      "Name": "StretchOffset",
+                                      "Value": "10 10 10 10"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level1StarLyt",
+                                  "Property": [
+                                    {
+                                      "Name": "DrawColor",
+                                      "Value": "0 0 0 1"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,-4},{1.2,0},{0,20}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Bottom"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level1Select",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{1,6},{1,6}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "StretchType",
+                                      "Value": "NineGrid"
+                                    },
+                                    {
+                                      "Name": "StretchOffset",
+                                      "Value": "20 20 20 20"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_battle.json image:select_1"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-Level2Layout",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,271},{0,0},{0,361},{0,90}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "SoundName",
+                                  "Value": "8"
+                                }
+                              ],
+                              "Type": "Layout",
+                              "Window": [
+                                {
+                                  "Name": "BookDetails-Level2Icon",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0.95,0},{0.95,0}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:g2038_pokemon_icon.json image:pet_13_2"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level2StarLytBG",
+                                  "Property": [
+                                    {
+                                      "Name": "DrawColor",
+                                      "Value": "0 0 0 0.5"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,-4},{1,0},{0,20}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Bottom"
+                                    },
+                                    {
+                                      "Name": "Alpha",
+                                      "Value": "0.5"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_battle.json image:bg_6"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level2IconBG",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{0.98,0},{0.98,0}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "StretchType",
+                                      "Value": "NineGrid"
+                                    },
+                                    {
+                                      "Name": "StretchOffset",
+                                      "Value": "10 10 10 10"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level2StarLyt",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,-4},{1.2,0},{0,20}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Bottom"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                },
+                                {
+                                  "Name": "BookDetails-Level2Select",
+                                  "Property": [
+                                    {
+                                      "Name": "Material",
+                                      "Value": "CullBackLinear"
+                                    },
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{0,0},{0,0},{1,6},{1,6}}"
+                                    },
+                                    {
+                                      "Name": "VerticalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "HorizontalAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "StretchType",
+                                      "Value": "NineGrid"
+                                    },
+                                    {
+                                      "Name": "StretchOffset",
+                                      "Value": "20 20 20 20"
+                                    },
+                                    {
+                                      "Name": "ImageName",
+                                      "Value": "set:pokemon_battle.json image:select_1"
+                                    }
+                                  ],
+                                  "Type": "StaticImage"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "BookDetails-trans0",
+                              "Property": [
+                                {
+                                  "Name": "Material",
+                                  "Value": "CullBackLinear"
+                                },
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,100},{0,0},{0,134},{0,31}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "ImageName",
+                                  "Value": "set:PokemonBook.json image:img_0_arrow"
+                                }
+                              ],
+                              "Type": "StaticImage"
+                            },
+                            {
+                              "Name": "BookDetails-trans1",
+                              "Property": [
+                                {
+                                  "Name": "Material",
+                                  "Value": "CullBackLinear"
+                                },
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,232},{0,0},{0,266},{0,31}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "ImageName",
+                                  "Value": "set:PokemonBook.json image:img_0_arrow"
+                                }
+                              ],
+                              "Type": "StaticImage"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "BookDetails-EvolutionTopBar",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,6},{0,6},{1,-6},{0,62}}"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "BookDetails-EvolutionBoarder",
+                          "Property": [
+                            {
+                              "Name": "Material",
+                              "Value": "CullBackLinear"
+                            },
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "StretchType",
+                              "Value": "NineGrid"
+                            },
+                            {
+                              "Name": "StretchOffset",
+                              "Value": "20 20 20 20"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:PokemonBook.json image:img_9_attributeboard1"
+                            }
+                          ],
+                          "Type": "StaticImage",
+                          "Window": [
+                            {
+                              "Name": "BookDetails-EvolutionTitle",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,14},{0,19},{0,154},{0,38}}"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM18"
+                                },
+                                {
+                                  "Name": "TextBorder",
+                                  "Value": "true"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                }
+                              ],
+                              "Type": "StaticText"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "BookDetails-BackBtn",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,162},{0,58}}"
+            },
+            {
+              "Name": "SoundName",
+              "Value": "6"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_0_back"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_0_back"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "BookDetails-BackTxt",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,177},{0,14},{0,265},{0,43}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM30"
+            },
+            {
+              "Name": "TextBorder",
+              "Value": "true"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        }
+      ]
+    }
+  }
+}

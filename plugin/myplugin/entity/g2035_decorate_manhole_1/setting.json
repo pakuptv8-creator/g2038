@@ -1,0 +1,25 @@
+{
+  "actorName": "g2035_decorate_manhole.actor",
+      "skin": {
+        "body": "1"
+    },
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -1,
+          0.0,
+          -1,
+          1,
+          0.4,
+          0.3866829939999
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

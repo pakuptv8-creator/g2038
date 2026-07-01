@@ -1,0 +1,21 @@
+{
+  "actorName": "g2020_bonfire_01.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -0.43322601334287,
+          0,
+          -0.45465234033944,
+          0.48638608743541,
+          2.065,
+          0.46364188193345
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": ""
+}

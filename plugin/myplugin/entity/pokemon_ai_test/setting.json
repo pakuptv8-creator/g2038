@@ -1,0 +1,44 @@
+{
+  "?isBrightPkm": "是否是明雷宝可梦",
+  "?signEffect": "惊扰的叹号特效buff",
+  "actorName": "g2038_pet_06_1.actor",
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": true,
+  "bodyTurnMax": 30,
+  "bodyTurnMin": 5,
+  "bodyTurnSpeed": 15,
+  "chaseDistance": 8,
+  "chaseInterval": 40,
+  "collider": {
+    "height": 1.7,
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 0.3,
+    "rotation": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "type": "Cylinder"
+  },
+  "collision": true,
+  "enableAI": true,
+  "entityType": 2,
+  "homeSize": 8,
+  "idleProb": 0.2,
+  "isAIEntity": true,
+  "isBrightPkm": true,
+  "maxHp": 120,
+  "maxVisualAngle": 360,
+  "meetCollisionBackRun": true,
+  "moveSpeed": 0.25,
+  "name": "",
+  "patrolDistance": 8,
+  "signEffect": "myplugin/pkm_sign_effect_buff",
+  "stateFollowEntity": 1,
+  "uiScale": 1.5
+}

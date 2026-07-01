@@ -1,0 +1,13 @@
+SoundId	IsRepeat	RepeatInterval_min	RepeatInterval_max	SoundFile	Type	SubType	Desc
+0	0	0	0	plugin/myplugin/sound/ui_click			通用UI点击音效
+1	0	0	0	error			soundName修改为1编辑器不保存
+2	0	0	0	plugin/myplugin/sound/ui_dakaibeibao			主界面背包打开时触发
+3	0	0	0	plugin/myplugin/sound/ui_dakaiduiwu			主界面队伍打开时触发
+4	0	0	0	plugin/myplugin/sound/ui_dakaichongwu			主界面宠物打开时触发
+5	0	0	0	plugin/myplugin/sound/ui_dakaitujian			主界面图鉴打开时触发
+6	0	0	0	plugin/myplugin/sound/ui_fanhui			全ui 返回通用音效
+7	0	0	0	plugin/myplugin/sound/ui_paihang			主界面打开排行榜音效
+8	0	0	0	plugin/myplugin/sound/ui_click			宠物界面通用按钮音效
+9	0	0	0	plugin/myplugin/sound/ui_biaoqian			标签页音效
+10	0	0	0	plugin/myplugin/sound/dakaitangguo			打开糖果音效
+11	0	0	0	plugin/myplugin/sound/ui_click			通用UI点击音效

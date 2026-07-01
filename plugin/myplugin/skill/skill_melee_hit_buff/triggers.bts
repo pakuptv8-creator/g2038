@@ -1,0 +1,3 @@
+SKILL_CAST{
+	AddEntityBuff(entity = $obj2, cfg = "myplugin/buff_melee_hit", buffTime = 2000,from = $obj1)
+}

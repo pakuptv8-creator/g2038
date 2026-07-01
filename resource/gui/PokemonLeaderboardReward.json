@@ -1,0 +1,194 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLeaderboardReward",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.8"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonLeaderboardReward-Content",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,719},{0,442}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "12 12 64 12"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_leaderboard.json image:img_9_board_reward"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLeaderboardReward-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,11},{0,320},{0,50}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLeaderboardReward-BtnClose",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,62},{0,62}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_leaderboard.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonLeaderboardReward-Head-Rank",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,123},{0,67},{0,166},{0,83}}"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.784314 0.262745 0.0352941 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLeaderboardReward-Head-Reward",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,483},{0,67},{0,526},{0,83}}"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.784314 0.262745 0.0352941 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLeaderboardReward-Rewards",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,17},{0,90},{0,703},{0,423}}"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

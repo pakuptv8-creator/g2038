@@ -1,0 +1,23 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "cureType": [
+    1
+  ],
+  "desc": "item_bless_11_desc",
+  "dose": 50,
+  "group": false,
+  "icon": "set:g2038_pokemon_candy.json image:g2038_candy_phydef_002",
+  "imposeTray": [
+    3
+  ],
+  "itemId": 83,
+  "itemName": "item_bless_11_name",
+  "itemType": 7,
+  "needSave": true,
+  "price": 10,
+  "rarity": 1,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

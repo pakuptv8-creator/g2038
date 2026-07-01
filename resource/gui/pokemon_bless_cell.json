@@ -1,0 +1,248 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_bless_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,900},{0,50}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_bless_cell-Icon",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,35},{0,0},{0,71},{0,36}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hp"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_bless_cell-Attr-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,106},{0,0},{1,-46},{0,38}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0.996078 0.945098 0.835294 1"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "pokemon_bless_cell-Text1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0.25,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.482353 0.101961 0.101961 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextLineExtraSpace",
+                  "Value": "-10"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "pokemon_bless_cell-Text2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.25,0},{0,0},{0.5,0},{1,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.0705882 0.576471 0.0313726 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextLineExtraSpace",
+                  "Value": "-10"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "pokemon_bless_cell-Text3",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.5,0},{0,0},{0.75,0},{1,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.482353 0.101961 0.101961 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextLineExtraSpace",
+                  "Value": "-10"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "pokemon_bless_cell-Text4",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.75,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.482353 0.101961 0.101961 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextLineExtraSpace",
+                  "Value": "-10"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "pokemon_bless_cell-Delete",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-15},{0,0},{0,18},{0,13}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "5 5 5 5"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_blessing.json image:btn_9_-"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_blessing.json image:btn_9_-"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2038_ball_01.actor" Originalscale="1 1 1" Skeleton="g2038_ball_shaking.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2038_ball_shake_07.skin" ChangeColor = "8.47423e+11 1.60196e-19 2.73771e+20 2.32372e+14" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="catch1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_ball_shaking_1.anim" BeginTime = "0" Times = "1" Length = "1.133" FadeTime = "0.25" Channel = "" TimeScale = "1.25">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_ball_light_1.effect"/>
+					<SocketName value="Bone002"/>
+					<BeginTime value="0.1"/>
+					<Times value="1"/>
+					<Position_X value="-0.17"/>
+					<Position_Y value="0.17"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="0.4"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="catch2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_ball_shaking_2.anim" BeginTime = "0" Times = "1" Length = "0.933" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_ball_light_1.effect"/>
+					<SocketName value="Bone002"/>
+					<BeginTime value="0.1"/>
+					<Times value="1"/>
+					<Position_X value="-0.17"/>
+					<Position_Y value="0.17"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="0.4"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="catch3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_ball_shaking_3.anim" BeginTime = "0" Times = "1" Length = "0.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_ball_light_1.effect"/>
+					<SocketName value="Bone002"/>
+					<BeginTime value="0.1"/>
+					<Times value="1"/>
+					<Position_X value="-0.17"/>
+					<Position_Y value="0.17"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="0.4"/>
+					<TimeScale value="1.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="catch4" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_ball_shaking_4.anim" BeginTime = "0" Times = "1" Length = "0.666" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_ball_light_2.effect"/>
+					<SocketName value="Bone002"/>
+					<BeginTime value="0.1"/>
+					<Times value="1"/>
+					<Position_X value="-0.17"/>
+					<Position_Y value="0.17"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="90"/>
+					<roll value="0"/>
+					<scale value="0.4"/>
+					<TimeScale value="1.25"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_ball_success.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.12"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.215505"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.4"/>
+					<TimeScale value="0.75"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<ActorScaleChange  beginScale = "1" endScale = "1" >
+				</ActorScaleChange>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2038_ball_shaking_1.anim"/>
+				<Anim Name="g2038_ball_shaking_2.anim"/>
+				<Anim Name="g2038_ball_shaking_3.anim"/>
+				<Anim Name="g2038_ball_shaking_4.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

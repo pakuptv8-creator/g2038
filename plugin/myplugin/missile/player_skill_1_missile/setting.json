@@ -1,0 +1,41 @@
+{
+    "canHitRider": true,
+    "followTarget": true,
+    "followTargetRotationOffset": {
+        "z": 1.5,
+        "x": 0,
+        "y": 0
+    },
+    "collideEntity": 1,
+    "collideBlock": 0,
+    "hitInterval": 30,
+    "rotateSpeed": 0,
+    "boundingVolume": {
+        "params": [
+            2,
+            2,
+            2
+        ],
+        "type": "Box"
+    },
+    "//": "受击特效",
+    "hitEffect":{
+        "effect": "g2038_skill_hit.effect",
+        "pos": {
+            "x": 0,
+            "y": 1,
+            "z": 0
+        }
+    },
+    "hitSound": {
+        "loop": false,
+        "volume": 4,
+        "sound": "/sound/player_attack_hit.mp3",
+        "selfOnly": false
+    },
+    "lifeTime": 20,
+    "gravity": 0,
+    "moveSpeed": 0,
+    "moveAcc": 0,
+    "hitEntitySkill": "myplugin/player_skill_1_missile_hit"
+}

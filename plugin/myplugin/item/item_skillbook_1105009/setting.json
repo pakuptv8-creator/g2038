@@ -1,0 +1,20 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "desc": "active_skill_1105009_desc",
+  "icon": "set:g2038_pokemon_skill.json image:g2038_skillbook_super",
+  "imposeTray": [
+    4
+  ],
+  "itemId": 173,
+  "itemName": "active_skill_1105009_name",
+  "itemType": 4,
+  "needSave": true,
+  "price": 10,
+  "rarity": 4,
+  "sellingPrice": 1,
+  "skillBookType": 5,
+  "skillId": 1105009,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

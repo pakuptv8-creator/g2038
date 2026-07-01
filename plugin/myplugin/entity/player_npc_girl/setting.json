@@ -1,0 +1,10 @@
+{
+    "actorName": "g2038_girl.actor",
+    "passiveBuffs": [
+        {
+          "name": "myplugin/battling_show_buff"
+        }
+      ],
+    "autoMove": true,
+    "gravity": 0.08
+}

@@ -1,0 +1,44 @@
+{
+    "isMainSkill": true,
+	"?skillTime":"技能总时长，应包含该技能所有子技能的时间",
+	"skillTime":66,
+    "timerLine": [
+        {
+            "behavior": "None",
+            "camaraShowName":"skill_spell_1",
+            "camaraEnemyShowName":"skill_spell_2",
+            "camaraShowName2V2":"skill_spell_3",
+            "camaraEnemyShowName2V2":"skill_spell_4",
+            "time": 1
+        },
+        {
+            "time": 30,
+            "value": "myplugin/skill_singleSpell_attack",
+            "behavior": "Skill"
+        },
+        {
+            "time": 38,
+            "value": "myplugin/skill_singleSpell_hit",
+            "behavior": "Skill"
+        }
+    ],
+    "castAction": "attack2",
+    "castActionTime": -1,
+    "//": "施法特效",
+    "castEffect":{
+        "effect": "g2038_skill_none.effect",
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+    "castSound": {
+        "volume": 14,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    },
+    "targetType": "AddValue",
+    "type": "TimeLine"
+}  

@@ -1,0 +1,25 @@
+{
+  "actorName": "g2035_decorate_somethings.actor",
+      "skin": {
+        "body": "4"
+    },
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -0.50486117604737,
+          0.0,
+          -0.54569960973018,
+          0.42051043091902,
+          2,
+          0.3866829939999
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

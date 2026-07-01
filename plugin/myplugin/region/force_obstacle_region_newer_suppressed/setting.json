@@ -1,0 +1,13 @@
+{
+  "?id": "触发的对话Id",
+  "?regionId": "对话结束以后传送区域Id,如果不传送可以不填",
+  "kickPos": {
+    "x": -37,
+    "y": 4,
+    "z": 461
+  },
+  "mapName": "map001",
+  "id": 10105,
+  "regionId": 1,
+  "type": "obstacle"
+}

@@ -1,0 +1,6 @@
+{
+    "needSave": false,
+    "bgmSound": "bgm.mp3",
+    "bgmVolume": 0.7,
+    "avoidBuff": ["myplugin/bgm_buff_main"]
+  }

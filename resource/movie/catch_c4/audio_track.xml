@@ -1,0 +1,2 @@
+<!--音效-->
+<AudioFrame path="plugin/myplugin/sound/ball_catch.mp3" loop="false" volume="6" startTime="0" endTime="88000"/>

@@ -1,0 +1,19 @@
+
+{
+  "sound": {
+    "volume": 0.4,
+    "loop": true,
+    "selfOnly": true,
+    "sound": "/sound/field_bgm.mp3"
+  },
+    "avoidBuff": [
+      "myplugin/bgm_buff_field_5"
+    ],
+    "?removeBuff":"进入本音乐区域时默认播放的音乐",
+    "removeBuff": [
+      "myplugin/bgm_buff_main",
+      "myplugin/bgm_buff_battle_dao",
+      "myplugin/bgm_buff_battle_normal",
+      "myplugin/bgm_buff_battle_npc"
+    ]
+  }

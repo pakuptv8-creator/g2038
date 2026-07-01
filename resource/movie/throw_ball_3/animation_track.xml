@@ -1,0 +1,5 @@
+<!--人物地面移动-->
+<!--<AnimationFrame animationName="gliding" startTime="0" endTime="10000"/>-->
+<!--<MoveFrame targetPosX="214" targetPosZ="85" endAction="crash_stop" startTime="0" endTime="10000"/>-->
+<!--<MoveFrame targetPosX="205.5" targetPosZ="101.5" startTime="23000" endTime="26500"/>-->
+<AnimationFrame animationName="g2038_throw_01" startTime="0" endTime="3000"/>

@@ -1,0 +1,24 @@
+{
+  "battleUse": true,
+  "canUse": true,
+  "cureType": [
+    3
+  ],
+  "deBuffFullName": 3,
+  "desc": "potion_wet_desc",
+  "effectBuff": "myplugin/cure_debuff_effect_buff_1",
+  "group": false,
+  "icon": "set:g2038_pokemon_potion.json image:g2038_potion_wet",
+  "imposeTray": [
+    2
+  ],
+  "itemId": 53,
+  "itemName": "potion_wet_name",
+  "itemType": 2,
+  "needSave": true,
+  "price": 10,
+  "rarity": 2,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

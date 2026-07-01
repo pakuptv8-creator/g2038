@@ -1,0 +1,18 @@
+{
+    "needSave": false,
+    "//": "给自己状态特效",
+    "effect": {
+        "effect": "g2038_skill_none.effect",
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }   
+    },
+    "sound": {
+        "volume": 10,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    }
+}

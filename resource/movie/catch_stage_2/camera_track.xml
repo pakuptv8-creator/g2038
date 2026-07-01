@@ -1,0 +1,8 @@
+
+
+<CameraViewFrame pos="-1.92,2.43,-0.46" yaw="-28.46" pitch="4.39" distance="0" smooth="0" startTime="1" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.92,2.43,-0.46" yaw="-28.46" pitch="4.39" distance="0" smooth="10" startTime="2" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.92,2.43,-0.46" yaw="-28.46" pitch="4.39" distance="0" smooth="0" startTime="502.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1,1.5,1" yaw="-28.33" pitch="5.76" distance="0" smooth="16" startTime="503.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1,1.5,1" yaw="-28.33" pitch="5.76" distance="0" smooth="0" startTime="1303.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1,1.5,1" yaw="-28.33" pitch="5.76" distance="0" smooth="14" startTime="1304.0" cameraMoveType="2"/>

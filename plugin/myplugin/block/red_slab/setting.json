@@ -1,0 +1,188 @@
+{
+  "//": "上半砖ID",
+  "attractedLv": 1,
+  "blockId": 5,
+  "blockObjectOnCollision": false,
+  "blockType": "half",
+  "breakTime": 120,
+  "collisionBoxes": [
+    {
+      "max": {
+        "x": 1,
+        "y": 0.5,
+        "z": 1
+      },
+      "min": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "desc": "block_slab_005_pebble_up_desc",
+  "dropGuardTime": 40,
+  "handBuff": "myplugin/no_weapon_buff",
+  "isOpaqueFullCube": false,
+  "itemPrice": 2,
+  "itemname": "block_slab_005_pebble_up_name",
+  "levelScore": 1,
+  "lightOpacity": 15,
+  "needSave": true,
+  "quads": [
+    {
+      "pos": [
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 1
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "x": 1,
+          "y": 0.5,
+          "z": 1
+        }
+      ],
+      "texture": "wool_colored_silver.png"
+    },
+    {
+      "pos": [
+        {
+          "x": 1,
+          "y": 0.5,
+          "z": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 1,
+          "y": 0.5,
+          "z": 0
+        }
+      ],
+      "texture": "wool_colored_silver.png"
+    },
+    {
+      "pos": [
+        {
+          "x": 1,
+          "y": 0.5,
+          "z": 0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        }
+      ],
+      "texture": "wool_colored_silver.png"
+    },
+    {
+      "pos": [
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 1
+        }
+      ],
+      "texture": "wool_colored_silver.png"
+    },
+    {
+      "pos": [
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 0
+        },
+        {
+          "x": 0,
+          "y": 0.5,
+          "z": 1
+        },
+        {
+          "x": 1,
+          "y": 0.5,
+          "z": 1
+        },
+        {
+          "x": 1,
+          "y": 0.5,
+          "z": 0
+        }
+      ],
+      "texture": "wool_colored_silver.png"
+    },
+    {
+      "pos": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "x": 1,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "texture": "wool_colored_silver.png"
+    }
+  ],
+  "renderPass": 0,
+  "skill": "myplugin/near_attack",
+  "slabReplaceId": 1,
+  "slabUpId": 6,
+  "stack_count_max": 999
+}

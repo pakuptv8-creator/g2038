@@ -1,0 +1,308 @@
+	n_id	n_target	n_race	n_isLongRoundEffect	n_round	n_abnormal_type	n_isVulnerability	s_immune	n_effectSkillType	n_effectSkill	n_timing	n_timingDelay	n_trigger	n_pr	n_dcm	n_intger	s_effect_desc	s_effect_trigger_desc	s_effect_tip_dec	s_icon	s_effect_fullname	s_add_effect	s_add_sound	s_trigger_effect	s_trigger_sound	iconEffectName	n_effect_type
+	效果id	作用目标	目标数量	能否携带到下场战斗，1-是，0-否	持续回合数	异常类型：0-非异常效果，1-中毒，2-灼烧，3-潮湿，4-麻痹，5-睡眠，6-混乱	是否是易伤效果	免疫的效果列表，以逗号隔开	被动触发的技能类型：0-没有，1-混乱，2-反击，3-反弹，4-连击	效果触发的技能ID（ps：混乱、反击、连击主动需要配置）	添加类型：1-技能释放时，2-出场时，3-受击时，4-技能释放完成时，5-被对方技能命中时，6-复活时，7-受到任何伤害时	延迟添加处理，单位帧	触发时机：1-添加时触发，2-技能释放前触发，3-回合结算前触发，4-技能打中后触发，5-技能释放完成，6-死亡时	添加概率	小数值	整数值	施加时弹窗描述表现	触发时弹窗描述表现	tip描述	效果图标	效果buff的fullName	效果添加时的特效		效果触发时特效		buff图标特效	(无用)效果类型id
+	数值	1-己方；2-敌方	1-单体；2；群体		数值		1-是，0-否		1		数值	数值	数值	数值	数值	数值	s_effect_desc_数值	s_effect_trigger_desc_数值	lang=@dcm@属性,@intger@属性,持续@round@回合	效果图标图名字							
+对单体目标造成伤害，有30%的概率造成混乱，持续1-3回合	11010031	2	1	1	1#3	6	0		1	9101002	3		2	0.3	0.5		s_effect_desc_11010031	s_effect_trigger_desc_11010031	s_effect_tip_dec_chaos	set:skillbuff.json image:icon_debuff_chaos	myplugin/skill_effect_chaos_buff	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3		
+对单体目标造成伤害，有60%的概率造成混乱，持续2-5回合	11010041	2	1	1	2#5	6	0		1	9101002	3		2	0.6	0.5		s_effect_desc_11010041	s_effect_trigger_desc_11010041	s_effect_tip_dec_chaos	set:skillbuff.json image:icon_debuff_chaos	myplugin/skill_effect_chaos_buff	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3		
+对单体目标造成伤害，有30%的概率造成麻痹，持续1-3回合	11010051	2	1	1	1#3	4	0		0		3		2	0.3	0.5	-20	s_effect_desc_11010051	s_effect_trigger_desc_11010051	s_effect_tip_dec_palsy	set:skillbuff.json image:icon_debuff_palsy	myplugin/skill_effect_palsy_buff	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3		
+对单体目标造成伤害，有60%的概率造成麻痹，持续2-5回合	11010061	2	1	1	2#5	4	0		0		3		2	0.6	0.5	-20	s_effect_desc_11010061	s_effect_trigger_desc_11010061	s_effect_tip_dec_palsy	set:skillbuff.json image:icon_debuff_palsy	myplugin/skill_effect_palsy_buff	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3		
+先发技能，提高自身30%的物防和法防，持续3回合	11010071	1	1	0	3#3	0	0		0		4		1	1	0.3		s_effect_desc_11010071		s_effect_tip_dec_pDefUp	set:skillbuff.json image:icon_buff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	11010072	1	1	0	3#3	0	0		0		4		1	1	0.3				s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_spell_def_buff						
+先发技能，对单体目标造成伤害，并提高自身30%的物防和法防，持续5回合	11010081	1	1	0	5#5	0	0		0		4		1	1	0.3		s_effect_desc_11010081		s_effect_tip_dec_pDefUp	set:skillbuff.json image:icon_buff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	11010082	1	1	0	5#5	0	0		0		4		1	1	0.3				s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_spell_def_buff						
+对单体目标造成伤害，并提高自身30%的物攻，持续3回合	11010091	1	1	0	3#3	0	0		0		3	17	1	1	0.3		s_effect_desc_11010091		s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，并提高自身30%的法攻，持续3回合	11010101	1	1	0	3#3	0	0		0		4		1	1	0.3		s_effect_desc_11010101		s_effect_tip_dec_sAtkUp	set:skillbuff.json image:icon_buff_spell_atk	myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+先发技能，对单体目标造成伤害，并提高自身20%的速度，持续3回合	11010111	1	1	0	3#3	0	0		0		4		1	1	0.2		s_effect_desc_11010111		s_effect_tip_dec_speedUp	set:skillbuff.json image:icon_buff_speed	myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，并提高自身20%的命中，持续3回合	11010121	1	1	0	3#3	0	0		0		4		1	1	0.2		s_effect_desc_11010121		s_effect_tip_dec_accuracyUp	set:skillbuff.json image:icon_buff_accuracy	myplugin/skill_accuracy_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+先发技能，降低目标30%的物防和法防，持续3回合	11010131	2	1	0	3#3	0	0		0		3	17	1	1	-0.3		s_effect_desc_11010131		s_effect_tip_dec_pDefDown	set:skillbuff.json image:icon_debuff_physical_def	myplugin/skill_physical_def_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+	11010132	2	1	0	3#3	0	0		0		3		1	1	-0.3				s_effect_tip_dec_sDefDown	set:skillbuff.json image:icon_debuff_spell_def	myplugin/skill_spell_def_buff						
+先发技能，对单体目标造成伤害，并降低目标30%的物防和法防，持续5回合	11010141	2	1	0	5#5	0	0		0		3	17	1	1	-0.3		s_effect_desc_11010141		s_effect_tip_dec_pDefDown	set:skillbuff.json image:icon_debuff_physical_def	myplugin/skill_physical_def_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+	11010142	2	1	0	5#5	0	0		0		3		1	1	-0.3				s_effect_tip_dec_sDefDown	set:skillbuff.json image:icon_debuff_spell_def	myplugin/skill_spell_def_buff						
+对单体目标造成伤害，并降低目标30%的物攻，持续3回合	11010151	2	1	0	3#3	0	0		0		3	17	1	1	-0.3		s_effect_desc_11010151		s_effect_tip_dec_pAtkDown	set:skillbuff.json image:icon_debuff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+对单体目标造成伤害，并降低目标30%的法攻，持续3回合	11010161	2	1	0	3#3	0	0		0		3		1	1	-0.3		s_effect_desc_11010161		s_effect_tip_dec_sAtkDown	set:skillbuff.json image:icon_debuff_spell_atk	myplugin/skill_spell_attack_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+先发技能，降低目标30%的速度和命中，持续3回合	11010171	2	1	0	3#3	0	0		0		3	17	1	1	-0.3		s_effect_desc_11010171		s_effect_tip_dec_speedDown	set:skillbuff.json image:icon_debuff_speed	myplugin/skill_speed_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+	11010172	2	1	0	3#3	0	0		0		3		1	1	-0.3				s_effect_tip_dec_accuracyDown	set:skillbuff.json image:icon_debuff_accuracy	myplugin/skill_accuracy_bonus_buff						
+对单体目标造成伤害，有50%的概率造成潮湿效果，持续3回合	11020031	2	1	1	3#3	3	0		0		3	20	3	0.5	-0.08	-20	s_effect_desc_11020031	s_effect_trigger_desc_11020031	s_effect_tip_dec_damp	set:skillbuff.json image:icon_debuff_damp	myplugin/skill_effect_damp_buff	g2038_status_wet.effect	/sound/g2038_status_wet.mp3	g2038_status_wet.effect	/sound/g2038_status_wet.mp3		
+对单体目标造成伤害，有75%的概率造成潮湿效果，持续3回合	11020041	2	1	1	3#3	3	0		0		3	20	3	0.75	-0.08	-20	s_effect_desc_11020041	s_effect_trigger_desc_11020041	s_effect_tip_dec_damp	set:skillbuff.json image:icon_debuff_damp	myplugin/skill_effect_damp_buff	g2038_status_wet.effect	/sound/g2038_status_wet.mp3	g2038_status_wet.effect	/sound/g2038_status_wet.mp3		
+先发技能，对单体目标造成伤害，并提高自身20%的速度，持续3回合	11020051	1	1	0	3#3	0	0		0		4		1	1	0.2		s_effect_desc_11020051		s_effect_tip_dec_speedUp	set:skillbuff.json image:icon_buff_speed	myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+先发技能，对单体目标造成伤害，并提高自身40%的速度，持续5回合	11020061	1	1	0	5#5	0	0		0		4		1	1	0.4		s_effect_desc_11020061		s_effect_tip_dec_speedUp	set:skillbuff.json image:icon_buff_speed	myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，并提高自身30%的法攻，持续3回合	11020071	1	1	0	3#3	0	0		0		4		1	1	0.3		s_effect_desc_11020071		s_effect_tip_dec_sAtkUp	set:skillbuff.json image:icon_buff_spell_atk	myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成大量伤害，并提高自身50%的法攻，持续5回合	11020081	1	1	0	5#5	0	0		0		4		1	1	0.5		s_effect_desc_11020081		s_effect_tip_dec_sAtkUp	set:skillbuff.json image:icon_buff_spell_atk	myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，有40%的连击概率，可以再次释放该技能，可无限连击	11020091	1	1	0	1#1	0	0		4	1102009	1		5	1	0.4			s_effect_trigger_desc_11020091			myplugin/skill_effect_lianji_buff						
+对单体目标造成伤害，有40%的连击概率，可以再次释放该技能，可无限连击	11020101	1	1	0	1#1	0	0		4	1102010	1		5	1	0.4			s_effect_trigger_desc_11020101			myplugin/skill_effect_lianji_buff						
+对单体目标造成伤害，有50%的连击概率，可以再次释放该技能，可无限连击	11020111	1	1	0	1#1	0	0		4	1102011	1		5	1	0.5			s_effect_trigger_desc_11020111			myplugin/skill_effect_lianji_buff						
+对单体目标造成固定伤害，并提高技能【威力】50%，持续5回合	11020131	1	1	0	5#5	0	0		0		3	17	1	1	0.5		s_effect_desc_11020131		s_effect_tip_dec_damageUp	set:skillbuff.json image:icon_buff_damage	myplugin/skill_power_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	11020141	1	1	0	5#5	0	0		0		3	17	1	1	0.8		s_effect_desc_11020141		s_effect_tip_dec_damageUp	set:skillbuff.json image:icon_buff_damage	myplugin/skill_power_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对群体目标造成伤害，有40%的概率造成潮湿效果，持续3回合	11020171	2	1	1	3#3	3	0		0		3	20	3	0.4	-0.08	-20	s_effect_desc_11020031	s_effect_trigger_desc_11020031	s_effect_tip_dec_damp	set:skillbuff.json image:icon_debuff_damp	myplugin/skill_effect_damp_buff	g2038_status_wet.effect	/sound/g2038_status_wet.mp3	g2038_status_wet.effect	/sound/g2038_status_wet.mp3		
+对群体目标造成伤害，有60%的概率造成潮湿效果，持续3回合	11020181	2	1	1	3#3	3	0		0		3	20	3	0.6	-0.08	-20	s_effect_desc_11020031	s_effect_trigger_desc_11020031	s_effect_tip_dec_damp	set:skillbuff.json image:icon_debuff_damp	myplugin/skill_effect_damp_buff	g2038_status_wet.effect	/sound/g2038_status_wet.mp3	g2038_status_wet.effect	/sound/g2038_status_wet.mp3		
+对单体目标造成伤害，有50%的概率造成灼烧效果，持续3回合	11030031	2	1	1	3#3	2	0		0		3	20	3	0.5	-0.08	-20	s_effect_desc_11030031	s_effect_trigger_desc_11030031	s_effect_tip_dec_burn	set:skillbuff.json image:icon_debuff_burn	myplugin/skill_effect_burn_buff	g2038_status_fire.effect	/sound/g2038_status_fire.mp3	g2038_status_fire.effect	/sound/g2038_status_fire.mp3		
+对单体目标造成伤害，有75%的概率造成灼烧效果，持续3回合	11030041	2	1	1	3#3	2	0		0		3	20	3	0.7	-0.08	-20	s_effect_desc_11030041	s_effect_trigger_desc_11030041	s_effect_tip_dec_burn	set:skillbuff.json image:icon_debuff_burn	myplugin/skill_effect_burn_buff	g2038_status_fire.effect	/sound/g2038_status_fire.mp3	g2038_status_fire.effect	/sound/g2038_status_fire.mp3		
+先发技能，对单体目标造成伤害，并提高自身30%的法防，持续3回合	11030051	1	1	0	3#3	0	0		0		4		1	1	0.3		s_effect_desc_11030051		s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_spell_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+先发技能，对单体目标造成伤害，并提高自身30%的法防，持续5回合	11030061	1	1	0	5#5	0	0		0		4		1	1	0.3		s_effect_desc_11030061		s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_spell_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，并提高自身30%的物攻，持续3回合	11030071	1	1	0	3#3	0	0		0		3	17	1	1	0.3		s_effect_desc_11030071		s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成大量伤害，并提高自身50%的物攻，持续5回合	11030081	1	1	0	5#5	0	0		0		3	17	1	1	0.5		s_effect_desc_11030081		s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+先发技能，降低10%的物防和法防，提高20%的物攻，本回合死亡复活概率提高50%	11030091	1	1	0	3#3	0	0		0		4		1	1	-0.1		s_effect_desc_11030091		s_effect_tip_dec_pDefDown	set:skillbuff.json image:icon_debuff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	11030092	1	1	0	3#3	0	0		0		4		1	1	-0.1				s_effect_tip_dec_sDefDown	set:skillbuff.json image:icon_debuff_spell_def	myplugin/skill_spell_def_buff						
+	11030093	1	1	0	3#3	0	0		0		4		1	1	0.2				s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff						
+	11030094	1	1	0	1#1	0	0		0		1		6	1	0.5	10		s_effect_trigger_desc_11030094	s_effect_tip_dec_revived	set:skillbuff.json image:icon_buff_revive	myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+先发技能，降低20%的物防和法防，提高50%的物攻，本回合死亡复活概率提高50%	11030101	1	1	0	5#5	0	0		0		4		1	1	-0.2		s_effect_desc_11030101		s_effect_tip_dec_pDefDown	set:skillbuff.json image:icon_debuff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	11030102	1	1	0	5#5	0	0		0		4		1	1	-0.2				s_effect_tip_dec_sDefDown	set:skillbuff.json image:icon_debuff_spell_def	myplugin/skill_spell_def_buff						
+	11030103	1	1	0	5#5	0	0		0		4		1	1	0.5				s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff						
+	11030104	1	1	0	1#1	0	0		0		1		6	1	0.5	15		s_effect_trigger_desc_11030104	s_effect_tip_dec_revived	set:skillbuff.json image:icon_buff_revive	myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+先发技能，对单体目标造成伤害，且每次对目标造成伤害时，回复20%的最大生命值，持续3回合	11030111	1	1	0	3#3	0	0		0		1	17	5	1	1	20		s_effect_trigger_desc_11030111	s_effect_tip_dec_recover1	set:skillbuff.json image:icon_buff_recover	myplugin/skill_effect_recover_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+先发技能，对单体目标造成伤害，且每次对目标造成伤害时，回复30%的最大生命值，持续5回合	11030121	1	1	0	5#5	0	0		0		1	17	5	1	1	30		s_effect_trigger_desc_11030121	s_effect_tip_dec_recover1	set:skillbuff.json image:icon_buff_recover	myplugin/skill_effect_recover_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+对单体目标造成伤害，如果目标身上有灼烧效果，造成1.5倍伤害	11030131	2	1	0	1#1	0	1		0		3		1	1	1.5	2					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有灼烧效果，造成2倍伤害	11030141	2	1	0	1#1	0	1		0		3		1	1	2	2					myplugin/skill_fragile_bonus_buff						
+对群体目标造成伤害，有40%的概率造成灼烧效果，持续3回合	11030181	2	1	1	3#3	2	0		0		3	20	3	0.4	-0.08	-20	s_effect_desc_11030041	s_effect_trigger_desc_11030041	s_effect_tip_dec_burn	set:skillbuff.json image:icon_debuff_burn	myplugin/skill_effect_burn_buff	g2038_status_fire.effect	/sound/g2038_status_fire.mp3	g2038_status_fire.effect	/sound/g2038_status_fire.mp3		
+对群体目标造成伤害，有60%的概率造成灼烧效果，持续3回合	11030191	2	1	1	3#3	2	0		0		3	20	3	0.6	-0.08	-20	s_effect_desc_11030041	s_effect_trigger_desc_11030041	s_effect_tip_dec_burn	set:skillbuff.json image:icon_debuff_burn	myplugin/skill_effect_burn_buff	g2038_status_fire.effect	/sound/g2038_status_fire.mp3	g2038_status_fire.effect	/sound/g2038_status_fire.mp3		
+对单体目标造成伤害，如果目标身上有灼烧效果，造成3倍伤害	11030151	2	1	0	1#1	0	1		0		3		1	1	3	2					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，有50%的概率造成中毒效果，持续3回合	11040031	2	1	1	3#3	1	0		0		3	20	3	0.5	-0.12		s_effect_desc_11040031	s_effect_trigger_desc_11040031	s_effect_tip_dec_dka	set:skillbuff.json image:icon_debuff_dka	myplugin/skill_effect_dka_buff	g2038_status_poison.effect	/sound/g2038_status_poison.mp3	g2038_status_poison.effect	/sound/g2038_status_poison.mp3		
+对单体目标造成伤害，有75%的概率造成中毒效果，持续3回合	11040041	2	1	1	3#3	1	0		0		3	20	3	0.75	-0.12		s_effect_desc_11040041	s_effect_trigger_desc_11040041	s_effect_tip_dec_dka	set:skillbuff.json image:icon_debuff_dka	myplugin/skill_effect_dka_buff	g2038_status_poison.effect	/sound/g2038_status_poison.mp3	g2038_status_poison.effect	/sound/g2038_status_poison.mp3		
+先发技能，对单体目标造成伤害，并提高自身30%的物防，持续3回合	11040051	1	1	0	3#3	0	0		0		3	17	1	1	0.3		s_effect_desc_11040051		s_effect_tip_dec_pDefUp	set:skillbuff.json image:icon_buff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+先发技能，对单体目标造成伤害，并提高自身30%的物防，持续5回合	11040061	1	1	0	5#5	0	0		0		3	17	1	1	0.3		s_effect_desc_11040061		s_effect_tip_dec_pDefUp	set:skillbuff.json image:icon_buff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，并提高自身20%的命中，持续3回合	11040071	1	1	0	3#3	0	0		0		4		1	1	0.2		s_effect_desc_11040071		s_effect_tip_dec_accuracyUp	set:skillbuff.json image:icon_buff_accuracy	myplugin/skill_accuracy_bonus_buff						
+对单体目标造成大量伤害，并提高自身30%的命中，持续5回合	11040081	1	1	0	5#5	0	0		0		4		1	1	0.3		s_effect_desc_11040081		s_effect_tip_dec_accuracyUp	set:skillbuff.json image:icon_buff_accuracy	myplugin/skill_accuracy_bonus_buff						
+对单体目标造成睡眠，持续1-3回合	11040091	2	1	1	1#3	5	0		0		3	17	2	1	1		s_effect_desc_11040091	s_effect_trigger_desc_11040091	s_effect_tip_dec_sleep	set:skillbuff.json image:icon_debuff_sleep	myplugin/skill_effect_sleep_buff	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3		
+对单体目目标造成伤害，并造成睡眠，持续1-3回合	11040101	2	1	1	1#3	5	0		0		3	17	2	1	1		s_effect_desc_11040101	s_effect_trigger_desc_11040101	s_effect_tip_dec_sleep	set:skillbuff.json image:icon_debuff_sleep	myplugin/skill_effect_sleep_buff	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3		
+对单体目目标造成伤害，并造成睡眠，持续2-5回合	11040111	2	1	1	2#5	5	0		0		3	17	2	1	1		s_effect_desc_11040111	s_effect_trigger_desc_11040111	s_effect_tip_dec_sleep	set:skillbuff.json image:icon_debuff_sleep	myplugin/skill_effect_sleep_buff	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3		
+降低目标30%的命中，持续2回合	11040121	2	1	0	2#2	0	0		0		3	17	1	1	-0.3		s_effect_desc_11040121		s_effect_tip_dec_accuracyDown	set:skillbuff.json image:icon_debuff_accuracy	myplugin/skill_accuracy_bonus_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+降低目标50%的命中，持续2回合	11040131	2	1	0	2#2	0	0		0		3	17	1	1	-0.5		s_effect_desc_11040131		s_effect_tip_dec_accuracyDown	set:skillbuff.json image:icon_debuff_accuracy	myplugin/skill_accuracy_bonus_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+对单体目标造成伤害，并降低目标50%的命中，持续2回合	11040141	2	1	0	2#2	0	0		0		3	17	1	1	-0.5		s_effect_desc_11040141		s_effect_tip_dec_accuracyDown	set:skillbuff.json image:icon_debuff_accuracy	myplugin/skill_accuracy_bonus_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+对单体目标造成伤害，如果目标身上有睡眠效果，造成1.5倍伤害	11040151	2	1	0	1#1	0	1		0		3		1	1	1.5	5					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有睡眠效果，造成2倍伤害	11040161	2	1	0	1#1	0	1		0		3		1	1	2	5					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有中毒效果，造成1.5倍伤害	11040171	2	1	0	1#1	0	1		0		3		1	1	1.5	1					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有中毒效果，造成2倍伤害	11040181	2	1	0	1#1	0	1		0		3		1	1	2	1					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有麻痹效果，造成1.5倍伤害	11050031	2	1	0	1#1	0	1		0		3		1	1	1.5	4					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有麻痹效果，造成2倍伤害	11050041	2	1	0	1#1	0	1		0		3		1	1	2	4					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有混乱效果，造成1.5倍伤害	11050051	2	1	0	1#1	0	1		0		3		1	1	1.5	6					myplugin/skill_fragile_bonus_buff						
+对单体目标造成伤害，如果目标身上有混乱效果，造成2倍伤害	11050061	2	1	0	1#1	0	1		0		3		1	1	2	6					myplugin/skill_fragile_bonus_buff						
+先发技能，对单体目标造成伤害，提高自身30%的物防和法防，持续5回合	11050071	1	1	0	5#5	0	0		0		4		1	1	0.3		s_effect_desc_11050071		s_effect_tip_dec_pDefUp	set:skillbuff.json image:icon_buff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	11050072	1	1	0	5#5	0	0		0		4		1	1	0.3				s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_spell_def_buff						
+先发技能，对单体目标造成伤害，并提高自身40%的速度，本回合免疫睡眠，混乱，麻痹	11050081	1	1	0	5#5	0	0		0		4		1	1	0.4		s_effect_desc_11050081		s_effect_tip_dec_speedUp	set:skillbuff.json image:icon_buff_speed	myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	11050082	1	1	0	3#3	0	0	11040091,11040101,11040111,12030311	0		4		1	1	1			s_effect_trigger_desc_11050082			myplugin/immune_skill_effect_sleep_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+ 	11050083	1	1	0	1#1	0	0	11010031,11010041,12020151,12030351	0		4		1	1	1			s_effect_trigger_desc_11050083			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+	11050084	1	1	0	1#1	0	0	11010051,11010061,12020161,12030341	0		4		1	1	1			s_effect_trigger_desc_11050084			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+对单体目标造成固定伤害，并提高技能【威力】50%，持续5回合	11050091	1	1	0	5#5	0	0		0		3	17	1	1	0.5		s_effect_desc_11050091		s_effect_tip_dec_damageUp	set:skillbuff.json image:icon_buff_damage	myplugin/skill_power_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	11050101	1	1	0	5#5	0	0		0		3	17	1	1	0.8		s_effect_desc_11050101		s_effect_tip_dec_damageUp	set:skillbuff.json image:icon_buff_damage	myplugin/skill_power_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对单体目标造成伤害，并提高自身50%的物攻，持续5回合	11050121	1	1	0	5#5	0	0		0		3	17	1	1	0.5		s_effect_desc_11050121		s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+对群体目标造成伤害，有40%的概率造成中毒效果，持续3回合	11040211	2	1	1	3#3	1	0		0		3	20	3	0.4	-0.12		s_effect_desc_11040041	s_effect_trigger_desc_11040041	s_effect_tip_dec_dka	set:skillbuff.json image:icon_debuff_dka	myplugin/skill_effect_dka_buff	g2038_status_poison.effect	/sound/g2038_status_poison.mp3	g2038_status_poison.effect	/sound/g2038_status_poison.mp3		
+对群体目标造成伤害，有60%的概率造成中毒效果，持续3回合	11040221	2	1	1	3#3	1	0		0		3	20	3	0.6	-0.12		s_effect_desc_11040041	s_effect_trigger_desc_11040041	s_effect_tip_dec_dka	set:skillbuff.json image:icon_debuff_dka	myplugin/skill_effect_dka_buff	g2038_status_poison.effect	/sound/g2038_status_poison.mp3	g2038_status_poison.effect	/sound/g2038_status_poison.mp3		
+生命+10%	12010011	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_life_bonus_buff						
+速度+10%	12010021	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_speed_buff						
+物攻+10%	12010031	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_physical_attack_buff						
+物防+10%	12010041	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_physical_def_buff						
+法攻+10%	12010051	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_spell_attack_buff						
+法防+10%	12010061	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_spell_def_buff						
+命中+10%	12010071	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_accuracy_bonus_buff						
+技能威力+10%	12010081	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_power_bonus_buff						
+20%概率免疫潮湿	12010091	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.2			s_effect_trigger_desc_12010091			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+20%概率免疫灼烧	12010101	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.2			s_effect_trigger_desc_12010101			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+20%概率免疫中毒	12010111	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.2			s_effect_trigger_desc_12010111			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+20%概率免疫睡眠	12010121	1	1	0	99#99	0	0	11040091,11040101,11040111,12030311	0		2		1	1	0.2			s_effect_trigger_desc_12010121			myplugin/immune_skill_effect_sleep_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+20%概率免疫混乱	12010131	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.2			s_effect_trigger_desc_12010131			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+20%概率免疫麻痹	12010141	1	1	0	99#99	0	0	11010051,11010061,12020161,12030341	0		2		1	1	0.2			s_effect_trigger_desc_12010141			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+生命+15%	12020011	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_life_bonus_buff						
+速度+15%	12020021	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_speed_buff						
+物攻+15%	12020031	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_physical_attack_buff						
+物防+15%	12020041	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_physical_def_buff						
+法攻+15%	12020051	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_spell_attack_buff						
+法防+15%	12020061	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_spell_def_buff						
+命中+15%	12020071	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_accuracy_bonus_buff						
+技能威力+15%	12020081	1	1	0	99#99	0	0		0		2		1	1	0.15						myplugin/skill_power_bonus_buff						
+40%概率免疫潮湿	12020091	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.4			s_effect_trigger_desc_12020091			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+40%概率免疫灼烧	12020101	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.4			s_effect_trigger_desc_12020101			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+40%概率免疫中毒	12020111	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.4			s_effect_trigger_desc_12020111			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+40%概率免疫睡眠	12020121	1	1	0	99#99	0	0	11040091,11040101,11040111,12030311	0		2		1	1	0.4			s_effect_trigger_desc_12020121			myplugin/immune_skill_effect_sleep_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+40%概率免疫混乱	12020131	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.4			s_effect_trigger_desc_12020131			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+40%概率免疫麻痹	12020141	1	1	0	99#99	0	0	11010051,11010061,12020161,12030341	0		2		1	1	0.4			s_effect_trigger_desc_12020141			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+受到技能伤害时，有15%的概率对目标造成混乱，持续1-3回合	12020151	2	1	1	1#3	6	0		1	9101002	3	17	2	0.15	0.5		s_effect_desc_12020151	s_effect_trigger_desc_12020151	s_effect_tip_dec_chaos	set:skillbuff.json image:icon_debuff_chaos	myplugin/skill_effect_chaos_buff	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3		
+受到技能伤害时，有15%的概率对目标造成麻痹，持续1-3回合	12020161	2	1	1	1#3	4	0		0		3	17	2	0.2	1		s_effect_desc_12020161	s_effect_trigger_desc_12020161	s_effect_tip_dec_palsy	set:skillbuff.json image:icon_debuff_palsy	myplugin/skill_effect_palsy_buff	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3		
+每次释放技能，提高10%的法攻，当回合生效	12020171	1	1	0	1#1	0	0		0		4		1	1	0.1		s_effect_desc_12020171		s_effect_tip_dec_sAtkUp	set:skillbuff.json image:icon_buff_spell_atk	myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+释放技能时，恢复造成伤害*20%的生命值	12020181	1	1	0	99#99	0	0		0		2		5	1	1	20		s_effect_trigger_desc_12020181	s_effect_tip_dec_suck	set:skillbuff.json image:icon_buff_suck	myplugin/skill_effect_suck_blood_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+死亡时有20%的概率复活，恢复30%的最大生命值，可无限复活	12020191	1	1	0	99#99	0	0		0		2		6	1	0.2	30		s_effect_trigger_desc_12020191			myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+死亡复活时，物攻+10%，持续5回合，可无限叠加	12020201	1	1	0	5#5	0	0		0		6		1	1	0.1		s_effect_desc_12020201		s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+死亡时复活概率增加10%	12020211	1	1	0	99#99	0	0		0		2		6	1	0.1	10		s_effect_trigger_desc_12020211			myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+受到伤害时，反弹20%的伤害给对方	12020221	2	1	0	1#1	0	0		3		3	4	5	1	1	20		s_effect_trigger_desc_12020221			myplugin/skill_effect_fantan_buff						
+受到伤害时，反弹伤害增加20%	12020231	2	1	0	1#1	0	0		3		3	4	5	1	1	20		s_effect_trigger_desc_12020231			myplugin/skill_effect_fantan_buff						
+受到技能伤害时，有50%的概率给对方施加灼烧，持续3回合	12020241	2	1	1	3#3	2	0		0		3	17	3	0.5	-0.08	-20	s_effect_desc_12020241	s_effect_trigger_desc_12020241	s_effect_tip_dec_burn	set:skillbuff.json image:icon_debuff_burn	myplugin/skill_effect_burn_buff	g2038_status_fire.effect	/sound/g2038_status_fire.mp3	g2038_status_fire.effect	/sound/g2038_status_fire.mp3		
+每回合回复5%最大生命值的生命	12020251	1	1	0	99#99	0	0		0		2		3	1	1	5		s_effect_trigger_desc_12020251	s_effect_tip_dec_recover2	set:skillbuff.json image:icon_buff_recover	myplugin/skill_effect_recover_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+每次对目标造成伤害时，回复造成伤害的20%的生命值	12020261	1	1	0	99#99	0	0		0		2		5	1	1	20		s_effect_trigger_desc_12020261	s_effect_tip_dec_suck	set:skillbuff.json image:icon_buff_suck	myplugin/skill_effect_suck_blood_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+生命+30%	12030011	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_life_bonus_buff						
+速度+30%	12030021	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_speed_buff						
+物攻+30%	12030031	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_physical_attack_buff						
+物防+30%	12030041	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_physical_def_buff						
+法攻+30%	12030051	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_attack_buff						
+法防+30%	12030061	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_def_buff						
+命中+30%	12030071	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_accuracy_bonus_buff						
+技能威力+30%	12030081	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_power_bonus_buff						
+60%概率免疫潮湿	12030091	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.6			s_effect_trigger_desc_12030091			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+60%概率免疫灼烧	12030101	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.6			s_effect_trigger_desc_12030101			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+60%概率免疫中毒	12030111	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.6			s_effect_trigger_desc_12030111			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+60%概率免疫睡眠	12030121	1	1	0	99#99	0	0	11040091,11040101,11040111,12030311	0		2		1	1	0.6			s_effect_trigger_desc_12030121			myplugin/immune_skill_effect_sleep_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+60%概率免疫混乱	12030131	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.6			s_effect_trigger_desc_12030131			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+60%概率免疫麻痹	12030141	1	1	0	99#99	0	0	11010051,11010061,12020161,12030341	0		2		1	1	0.6			s_effect_trigger_desc_12030141			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+每次释放技能，提高15%的法攻，当回合生效	12030151	1	1	0	1#1	0	0		0		4		1	1	0.15		s_effect_desc_12030151		s_effect_tip_dec_sAtkUp	set:skillbuff.json image:icon_buff_spell_atk	myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+释放技能时，连击几率提高10%	12030161	1	1	0	1#1	0	0		4		1		5	1	0.1			s_effect_trigger_desc_12030161			myplugin/skill_effect_lianji_buff						
+每次释放技能，降低对方15%的法防，当回合生效	12030171	2	1	0	1#1	0	0		0		3		1	1	0.15		s_effect_desc_12030171		s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_spell_def_buff	g2038_status_debuff.effect	/sound/g2038_status_debuff.mp3				
+受到技能伤害时，有50%的概率给对方施加潮湿，持续3回合	12030181	2	1	1	3#3	3	0		0		3	17	3	0.5	-0.08	-20	s_effect_desc_12030181	s_effect_trigger_desc_12030181	s_effect_tip_dec_damp	set:skillbuff.json image:icon_debuff_damp	myplugin/skill_effect_damp_buff	g2038_status_wet.effect	/sound/g2038_status_wet.mp3	g2038_status_wet.effect	/sound/g2038_status_wet.mp3		
+对潮湿状态的目标，造成2倍伤害	12030191	2	1	0	1#1	0	1		0		3		1	1	2	3					myplugin/skill_fragile_bonus_buff						
+释放技能时，恢复造成伤害*40%的生命值	12030201	1	1	0	99#99	0	0		0		2		5	1	1	40		s_effect_trigger_desc_12030201	s_effect_tip_dec_suck	set:skillbuff.json image:icon_buff_suck	myplugin/skill_effect_suck_blood_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+释放技能时，连击几率提高20%	12030211	1	1	0	1#1	0	0		4		1		5	1	0.2			s_effect_trigger_desc_12030211			myplugin/skill_effect_lianji_buff						
+受到伤害时，反弹30%的伤害给对方	12030221	2	1	0	1#1	0	0		3		3	4	5	1	1	30		s_effect_trigger_desc_12030221			myplugin/skill_effect_fantan_buff						
+每次对目标造成伤害时，回复15%的最大生命值	12030231	1	1	0	99#99	0	0		0		2		5	1	1	15		s_effect_trigger_desc_12030231	s_effect_tip_dec_recover1	set:skillbuff.json image:icon_buff_recover	myplugin/skill_effect_recover_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+受到伤害时，反弹伤害增加30%	12030241	2	1	0	1#1	0	0		3		3	4	5	1	1	30		s_effect_trigger_desc_12030241			myplugin/skill_effect_fantan_buff						
+受到技能伤害时，有75%的概率给对方施加灼烧，持续3回合	12030251	2	1	1	3#3	2	0		0		3	17	3	0.75	-0.08	-20	s_effect_desc_12030251	s_effect_trigger_desc_12030251	s_effect_tip_dec_burn	set:skillbuff.json image:icon_debuff_burn	myplugin/skill_effect_burn_buff	g2038_status_fire.effect	/sound/g2038_status_fire.mp3	g2038_status_fire.effect	/sound/g2038_status_fire.mp3		
+死亡时有30%的概率复活，恢复30%的最大生命值，可无限复活	12030261	1	1	0	99#99	0	0		0		2		6	1	0.3	30		s_effect_trigger_desc_12030261			myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+死亡复活时，物攻+15%，持续5回合，可无限叠加	12030271	1	1	0	5#5	0	0		0		6		1	1	0.15		s_effect_desc_12030271		s_effect_tip_dec_pAtkUp	set:skillbuff.json image:icon_buff_physical_atk	myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+死亡复活时，物防和法防+15%，持续5回合，可无限叠加	12030281	1	1	0	5#5	0	0		0		6		1	1	0.15		s_effect_desc_12030281		s_effect_tip_dec_pDefUp	set:skillbuff.json image:icon_buff_physical_def	myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	12030282	1	1	0	5#5	0	0		0		6		1	1	0.15				s_effect_tip_dec_sDefUp	set:skillbuff.json image:icon_buff_spell_def	myplugin/skill_effect_chaos_buff						
+死亡复活时，速度+15%，持续5回合，可无限叠加	12030291	1	1	0	5#5	0	0		0		6		1	1	0.15		s_effect_desc_12030291		s_effect_tip_dec_speedUp	set:skillbuff.json image:icon_buff_speed	myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+死亡时复活概率增加15%	12030301	1	1	0	99#99	0	0		0		2		6	1	0.15	15		s_effect_trigger_desc_12030301			myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+受到技能伤害时，有20%的概率对目标造成睡眠效果，持续1-3回合	12030311	2	1	1	1#3	5	0		0		3	17	2	0.3	1		s_effect_desc_12030311	s_effect_trigger_desc_12030311	s_effect_tip_dec_sleep	set:skillbuff.json image:icon_debuff_sleep	myplugin/skill_effect_sleep_buff	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3	g2038_status_sleep.effect	/sound/g2038_status_sleep.mp3		
+每回合回复10%最大生命值的生命	12030321	1	1	0	99#99	0	0		0		2		3	1	1	10		s_effect_trigger_desc_12030321	s_effect_tip_dec_recover2	set:skillbuff.json image:icon_buff_recover	myplugin/skill_effect_recover_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+每次对目标造成伤害时，回复造成伤害的30%的生命值	12030331	1	1	0	99#99	0	0		0		2		5	1	1	30		s_effect_trigger_desc_12030331	s_effect_tip_dec_suck	set:skillbuff.json image:icon_buff_suck	myplugin/skill_effect_suck_blood_buff			g2038_status_hp.effect	/sound/g2038_status_hp.mp3		
+受到技能伤害时，有30%的概率给对方施加麻痹，持续2-5回合	12030341	2	1	1	2#5	4	0		0		3	17	2	0.3	0.5	-20	s_effect_desc_12030341	s_effect_trigger_desc_12030341	s_effect_tip_dec_palsy	set:skillbuff.json image:icon_debuff_palsy	myplugin/skill_effect_palsy_buff	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3	g2038_status_paralysis.effect	/sound/g2038_status_paralysis.mp3		
+受到技能伤害时，有30%的概率给对方施加混乱，持续2-5回合	12030351	2	1	1	2#5	6	0		1	9101002	3	17	2	0.3	0.5		s_effect_desc_12030351	s_effect_trigger_desc_12030351	s_effect_tip_dec_chaos	set:skillbuff.json image:icon_debuff_chaos	myplugin/skill_effect_chaos_buff	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3	g2038_status_chaos.effect	/sound/g2038_status_chaos.mp3		
+死亡时有30%的概率复活，提高15%的技能威力，持续5回合，可无限复活	12030361	1	1	0	99#99	0	0		0		2		6	1	0.3	15		s_effect_trigger_desc_12030361			myplugin/skill_effect_revived_buff			g2038_status_life.effect	/sound/g2038_status_life.mp3		
+	12030362	1	1	0	5#5	0	0		0		6		1	1	0.15				s_effect_tip_dec_damageUp	set:skillbuff.json image:icon_buff_damage	myplugin/skill_power_bonus_buff						
+受到技能伤害时，有30%的概率进行反击	12030371	1	1	0	1#1	0	0		2	9101001	3	4	5	1	0.3			s_effect_trigger_desc_12030371			myplugin/skill_effect_fanji_buff						
+反击的概率增加30%	12030381	1	1	0	1#1	0	0		2	9101001	3	4	5	1	0.3			s_effect_trigger_desc_12030381			myplugin/skill_effect_fanji_buff						
+【法攻】+20%，【速度】+20%，【免疫潮湿】	13010011	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010011				myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010012	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_speed_buff						
+	13010013	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13010013			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，【威力】+20%，【免疫潮湿】	13010021	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010021				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010022	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_power_bonus_buff						
+	13010023	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13010023			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+20%，【法防】+20%，【免疫潮湿】	13010031	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010031				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010032	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_spell_def_buff						
+	13010033	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13010033			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，【法防】+20%，【免疫灼烧】	13010041	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010041				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010042	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_spell_def_buff						
+	13010043	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13010043			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物攻】+20%，【速度】+20%，【免疫灼烧】	13010051	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010051				myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010052	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_speed_buff						
+	13010053	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13010053			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+20%，【法防】+20%，【免疫灼烧】	13010061	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010061				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010062	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_spell_def_buff						
+	13010063	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13010063			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，【生命】+20%，【免疫中毒】	13010071	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010071				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010072	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_life_bonus_buff						
+	13010073	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13010073			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+20%，【法防】+20%，【免疫中毒】	13010081	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010081				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010082	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_spell_def_buff						
+	13010083	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13010083			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，【命中】+20%，【免疫中毒】	13010091	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010091				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010092	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_accuracy_bonus_buff						
+	13010093	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13010093			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，【生命】+20%，【免疫麻痹】	13010101	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010101				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010102	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_life_bonus_buff						
+	13010103	1	1	0	99#99	0	0	11010051,11010061,12020161,12030341	0		2		1	1	0.5			s_effect_trigger_desc_13010103			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+20%，【法防】+20%，【免疫混乱】	13010111	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010111				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010112	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_spell_def_buff						
+	13010113	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.5			s_effect_trigger_desc_13010113			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，【物攻】+20%，【免疫睡眠】	13010121	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13010121				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010122	1	1	0	99#99	0	0		0		2		1	1	0.2						myplugin/skill_physical_attack_buff						
+	13010123	1	1	0	99#99	0	0	11040091,11040101,11040111,12030311	0		2		1	1	0.5			s_effect_trigger_desc_13010123			myplugin/immune_skill_effect_sleep_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%	13010131	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010131				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【速度】+20%	13010141	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010141				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【法攻】+20%，【免疫潮湿】	13010151	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010151				myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010152	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13010152			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，【免疫潮湿】	13010161	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010161				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010162	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13010162			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+技能【威力】+20%，【免疫潮湿】	13010171	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010171				myplugin/skill_power_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010172	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13010172			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物攻】+20%，【免疫灼烧】	13010181	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010181				myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010182	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13010182			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，【免疫灼烧】	13010191	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010191				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010192	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13010192			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，【免疫灼烧】	13010201	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010201				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010202	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13010202			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，【免疫中毒】	13010211	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010211				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010212	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13010212			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，【免疫中毒】	13010221	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010221				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010222	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13010222			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，【免疫中毒】	13010231	1	1	0	99#99	0	0		0		2		1	1	0.15		s_effect_desc_13010231				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13010232	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13010232			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+10%	13010241	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010241				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【法攻】+10%	13010251	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010251				myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【法防】+10%	13010261	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010261				myplugin/skill_spell_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【物攻】+10%	13010271	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010271				myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【物防】+10%	13010281	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010281				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【速度】+10%	13010291	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010291				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【生命】+10%	13010301	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13010301				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+【法攻】+30%，【速度】+30%，【免疫潮湿】	13020011	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020011				myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020012	1	1	0	99#99	0	0		0		2		1	1	0.1						myplugin/skill_speed_buff						
+	13020013	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.75			s_effect_trigger_desc_13020013			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+30%，【威力】+30%，【免疫潮湿】	13020021	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020021				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020022	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_power_bonus_buff						
+	13020023	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.75			s_effect_trigger_desc_13020023			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+30%，【法防】+30%，【免疫潮湿】	13020031	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020031				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020032	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_def_buff						
+	13020033	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.75			s_effect_trigger_desc_13020033			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+30%，【法防】+30%，【免疫灼烧】	13020041	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020041				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020042	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_def_buff						
+	13020043	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.75			s_effect_trigger_desc_13020043			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物攻】+30%，【速度】+30%，【免疫灼烧】	13020051	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020051				myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020052	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_speed_buff						
+	13020053	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.75			s_effect_trigger_desc_13020053			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+30%，【法防】+30%，【免疫灼烧】	13020061	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020061				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020062	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_def_buff						
+	13020063	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.75			s_effect_trigger_desc_13020063			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+30%，【生命】+30%，【免疫中毒】	13020071	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020071				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020072	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_life_bonus_buff						
+	13020073	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.75			s_effect_trigger_desc_13020073			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+30%，【法防】+30%，【免疫中毒】	13020081	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020081				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020082	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_def_buff						
+	13020083	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.75			s_effect_trigger_desc_13020083			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+30%，【命中】+30%，【免疫中毒】	13020091	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020091				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020092	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_accuracy_bonus_buff						
+	13020093	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.75			s_effect_trigger_desc_13020093			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+30%，【生命】+30%，【免疫麻痹】	13020101	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020101				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020102	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_life_bonus_buff						
+	13020103	1	1	0	99#99	0	0	11010051,11010061,12020161,12030341	0		2		1	1	0.75			s_effect_trigger_desc_13020103			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+30%，【法防】+30%，【免疫混乱】	13020111	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020111				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020112	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_spell_def_buff						
+	13020113	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.75			s_effect_trigger_desc_13020113			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+30%，【物攻】+30%，【免疫睡眠】	13020121	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020121				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020122	1	1	0	99#99	0	0		0		2		1	1	0.3						myplugin/skill_physical_attack_buff						
+	13020123	1	1	0	99#99	0	0	11040091,11040101,11040111,12030311	0		2		1	1	0.75			s_effect_trigger_desc_13020123			myplugin/immune_skill_effect_sleep_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+20%，75%的概率【免疫麻痹】	13020131	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020131				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020132	1	1	0	99#99	0	0	11010051,11010061,12020161,12030341	0		2		1	1	0.5			s_effect_trigger_desc_13020132			myplugin/immune_skill_effect_palsy_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+20%，75%的概率【免疫混乱】	13020141	1	1	0	99#99	0	0		0		2		1	1	0.3		s_effect_desc_13020141				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020142	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.5			s_effect_trigger_desc_13020142			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【法攻】+30%，【免疫潮湿】	13020151	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020151				myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020152	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.75			s_effect_trigger_desc_13020152			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+30%，【免疫潮湿】	13020161	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020161				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020162	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.75			s_effect_trigger_desc_13020162			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+技能【威力】+30%，【免疫潮湿】	13020171	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020171				myplugin/skill_power_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020172	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.75			s_effect_trigger_desc_13020172			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物攻】+30%，【免疫灼烧】	13020181	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020181				myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020182	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.75			s_effect_trigger_desc_13020182			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+30%，【免疫灼烧】	13020191	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020191				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020192	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.75			s_effect_trigger_desc_13020192			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+30%，【免疫灼烧】	13020201	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020201				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020202	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.75			s_effect_trigger_desc_13020202			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+30%，【免疫中毒】	13020211	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020211				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020212	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.75			s_effect_trigger_desc_13020212			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+30%，【免疫中毒】	13020221	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020221				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020222	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.75			s_effect_trigger_desc_13020222			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+30%，【免疫中毒】	13020231	1	1	0	99#99	0	0		0		2		1	1	0.2		s_effect_desc_13020231				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020232	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.75			s_effect_trigger_desc_13020232			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+10%，50%概率【免疫混乱】	13020241	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020241				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020242	1	1	0	99#99	0	0	11010031,11010041,12020151,12030351	0		2		1	1	0.3			s_effect_trigger_desc_13020242			myplugin/immune_skill_effect_chaos_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【法攻】+10%，【免疫潮湿】	13020251	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020251				myplugin/skill_spell_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020252	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13020252			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【法防】+10%，【免疫潮湿】	13020261	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020261				myplugin/skill_spell_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020262	1	1	0	99#99	0	0	11020031,11020041,12030181	0		2		1	1	0.5			s_effect_trigger_desc_13020262			myplugin/immune_skill_effect_damp_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物攻】+10%，【免疫灼烧】	13020271	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020271				myplugin/skill_physical_attack_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020272	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13020272			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【物防】+10%，【免疫灼烧】	13020281	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020281				myplugin/skill_physical_def_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020282	1	1	0	99#99	0	0	11030031,11030041,12020241,12030251	0		2		1	1	0.5			s_effect_trigger_desc_13020282			myplugin/immune_skill_effect_burn_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【速度】+10%，【免疫中毒】	13020291	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020291				myplugin/skill_speed_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020292	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13020292			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+【生命】+10%，【免疫中毒】	13020301	1	1	0	99#99	0	0		0		2		1	1	0.1		s_effect_desc_13020301				myplugin/skill_life_bonus_buff	g2038_status_buff.effect	/sound/g2038_status_buff.mp3				
+	13020302	1	1	0	99#99	0	0	11040031,11040041	0		2		1	1	0.5			s_effect_trigger_desc_13020302			myplugin/immune_skill_effect_dka_buff			g2038_status_life.effect	/sound/g2038_status_immune.mp3		
+觉醒1	19000001	1	1	0	99#99	0	0		0		2		1	1					s_effect_tip_dec_awake1	set:skillbuff.json image:icon_buff_awake1	myplugin/skill_awake_buff					g2038_ui_awake1.effect	
+觉醒2	19000002	1	1	0	99#99	0	0		0		2		1	1					s_effect_tip_dec_awake2	set:skillbuff.json image:icon_buff_awake2	myplugin/skill_awake_buff					g2038_ui_awake2.effect	
+觉醒3	19000003	1	1	0	99#99	0	0		0		2		1	1					s_effect_tip_dec_awake3	set:skillbuff.json image:icon_buff_awake3	myplugin/skill_awake_buff					g2038_ui_awake3.effect	
+觉醒4	19000004	1	1	0	99#99	0	0		0		2		1	1					s_effect_tip_dec_awake4	set:skillbuff.json image:icon_buff_awake4	myplugin/skill_awake_buff					g2038_ui_awake4.effect	
+觉醒5	19000005	1	1	0	99#99	0	0		0		2		1	1					s_effect_tip_dec_awake5	set:skillbuff.json image:icon_buff_awake5	myplugin/skill_awake_buff					g2038_ui_awake5.effect	

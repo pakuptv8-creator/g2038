@@ -1,0 +1,11 @@
+{
+  "sound": {
+    "volume": 0.7,
+    "loop": true,
+    "selfOnly": true,
+    "sound": "/sound/bgm.mp3"
+  },
+  "avoidBuff": [
+    "myplugin/bgm_buff_gym_01"
+  ]
+}

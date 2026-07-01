@@ -1,0 +1,100 @@
+1	n_id	s_startEffect	s_startSound	s_startEffectOwner	s_skillEffect	s_skillSound	s_skillEffectOwner	s_hitEffect	s_hitSound	s_hitEffectOwner
+近战攻击法术	100001			myplugin/skill_melee_timeline			myplugin/skill_melee_attack	g2038_skill_hit.effect		myplugin/buff_melee_hit
+多体隔空法术	100002			myplugin/skill_spell_timeline			myplugin/buff_spell_attack	g2038_skill_hit.effect		myplugin/buff_spell_hit
+AOE法术	100003			myplugin/skill_aoe_timeline			myplugin/skill_aoe_attack	g2038_skill_hit.effect		myplugin/buff_aoe_hit
+单体隔空法术	100004			myplugin/skill_singleSpell_timeline			myplugin/buff_singleSpell_attack	g2038_skill_hit.effect		myplugin/buff_singleSpell_hit
+子弹法术	100005			myplugin/skill_bullet_timeline			myplugin/skill_bullet_missile	g2038_skill_hit.effect		myplugin/buff_bullet_hit
+撞击	1101001	g2038_skill_none.effect	/sound/skill_1101001.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_a_101.effect		myplugin/buff_melee_hit
+抓击	1101002	g2038_skill_none.effect	/sound/skill_1101002.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_a_102.effect		myplugin/buff_melee_hit
+碎岩拳	1101003	g2038_skill_none.effect	/sound/skill_1101003.mp3	myplugin/skill_melee_timeline	g2038_skill_a_105.effect		myplugin/skill_melee_attack	g2038_skill_hit.effect		myplugin/buff_melee_hit
+尖石攻击	1101004	g2038_skill_none.effect	/sound/skill_1101004.mp3	myplugin/skill_bullet_timeline	g2038_skill_a_201.effect		myplugin/skill_bullet_missile	g2038_skill_hit.effect		myplugin/buff_bullet_hit
+麻痹连击	1101005	g2038_skill_none.effect	/sound/skill_1101005.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_a_103.effect		myplugin/buff_melee_hit
+麻痹花粉	1101006	g2038_skill_d_305_1.effect	/sound/skill_1101006.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_d_305_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_grass.effect		myplugin/buff_singleSpell_hit
+钢铁皮肤	1101007	g2038_skill_a_305_1.effect	/sound/skill_1101007.mp3	myplugin/skill_status_timeline						
+猛咬	1101008	g2038_skill_none.effect	/sound/skill_1101008.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_a_302.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit.effect		myplugin/buff_singleSpell_hit
+血怒一击	1101009	g2038_skill_none.effect	/sound/skill_1101009.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_a_102.effect		myplugin/buff_melee_hit
+奋力突击	1101010	g2038_skill_none.effect	/sound/skill_1101010.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_a_102.effect		myplugin/buff_melee_hit
+高速气流	1101011	g2038_skill_a_306_1.effect	/sound/skill_1101011.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_a_306_3.effect		myplugin/buff_singleSpell_hit
+低语吟唱	1101012	g2038_skill_a_307_1.effect	/sound/skill_1101012.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_a_307_2.effect		myplugin/buff_singleSpell_hit
+超声波	1101013	g2038_skill_a_303.effect	/sound/skill_1101013.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit.effect		myplugin/buff_singleSpell_hit
+多重猛击	1101014	g2038_skill_a_104_1.effect	/sound/skill_1101014.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_a_104.effect		myplugin/buff_singleSpell_hit
+岩崩	1101015	g2038_skill_none.effect	/sound/skill_1101015.mp3	myplugin/skill_aoe_timeline	g2038_skill_a_401.effect		myplugin/skill_aoe_attack	g2038_skill_hit.effect		myplugin/buff_aoe_hit
+魔术旋风	1101016	g2038_skill_none.effect	/sound/skill_1101016.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_a_304_1.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+黑雾弹	1101017	g2038_skill_a_301_1.effect	/sound/skill_1101017.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_a_301_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit.effect		myplugin/buff_singleSpell_hit
+普通群攻	1101018	g2038_skill_none.effect	/sound/skill_1101018.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_a_404.effect		myplugin/skill_aoe_attack	g2038_skill_hit.effect		myplugin/buff_aoe_hit
+高级普通群攻	1101019	g2038_skill_a_405_3.effect	/sound/skill_1101019.mp3	myplugin/skill_spell_timeline	g2038_skill_a_405_2.effect		myplugin/buff_spell_attack	g2038_skill_hit.effect		myplugin/buff_spell_hit
+水枪弹	1102001	g2038_skill_b_201_1.effect	/sound/skill_1102001.mp3	myplugin/skill_bullet_timeline	g2038_skill_b_201_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_water.effect		myplugin/buff_bullet_hit
+水炮	1102002	g2038_skill_none.effect	/sound/skill_1102002.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_b_303.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_water.effect		myplugin/buff_singleSpell_hit
+泡泡攻击	1102003	g2038_skill_b_203.effect	/sound/skill_1102003.mp3	myplugin/skill_bullet_timeline	g2038_skill_b_203_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_water.effect		myplugin/buff_bullet_hit
+水柱涡动	1102004	g2038_skill_b_202_1.effect	/sound/skill_1102004.mp3	myplugin/skill_bullet_timeline	g2038_skill_b_202_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_water.effect		myplugin/buff_bullet_hit
+水流旋涡	1102005	g2038_skill_none.effect	/sound/skill_1102005.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_b_302.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_water.effect		myplugin/buff_singleSpell_hit
+冰雾	1102006	g2038_skill_b_301_1.effect	/sound/skill_1102006.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_b_301_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_water.effect		myplugin/buff_singleSpell_hit
+雪崩	1102007	g2038_skill_none.effect	/sound/skill_1102008.mp3	myplugin/skill_aoe_timeline	g2038_skill_b_401.effect		myplugin/skill_aoe_attack	g2038_skill_hit_water.effect		myplugin/buff_aoe_hit
+大雪崩	1102008	g2038_skill_none.effect	/sound/skill_1102008.mp3	myplugin/skill_aoe_timeline	g2038_skill_b_401_2.effect		myplugin/skill_aoe_attack	g2038_skill_hit_water.effect		myplugin/buff_aoe_hit
+水面斩击	1102009	g2038_skill_none.effect	/sound/skill_1102009.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_b_101.effect		myplugin/buff_melee_hit
+冰霜利刃	1102010	g2038_skill_b_306_1.effect	/sound/skill_1102010.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_b_306_2.effect		myplugin/buff_singleSpell_hit
+水苦无	1102011	g2038_skill_b_204_1.effect	/sound/skill_1102011.mp3	myplugin/skill_bullet_timeline	g2038_skill_b_204_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_water.effect		myplugin/buff_bullet_hit
+冰岩坠击	1102012	g2038_skill_none.effect	/sound/skill_1102012.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_b_304.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_water.effect		myplugin/buff_singleSpell_hit
+寒潮	1102013	g2038_skill_b_402.effect	/sound/skill_1102013.mp3	myplugin/skill_aoe_timeline	g2038_skill_none.effect		myplugin/skill_aoe_attack	g2038_skill_hit_water.effect		myplugin/buff_aoe_hit
+冰雪世界	1102014	g2038_skill_b_403_1.effect	/sound/skill_1102014.mp3	myplugin/skill_aoe_timeline	g2038_skill_b_403_2.effect		myplugin/skill_aoe_attack	g2038_skill_none.effect		myplugin/buff_aoe_hit
+水系群攻	1102015	g2038_skill_b_301_1.effect	/sound/skill_1102006.mp3	myplugin/skill_spell_timeline	g2038_skill_b_301_2.effect		myplugin/buff_spell_attack	g2038_skill_hit_water.effect		myplugin/buff_aoe_hit
+高级水系群攻	1102016	g2038_skill_b_403_1.effect	/sound/skill_1102016.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_e_401_5.effect		myplugin/skill_aoe_attack	g2038_skill_hit_water.effect		myplugin/buff_aoe_hit
+群潮湿	1102017	g2038_skill_b_203.effect	/sound/skill_1102017.mp3	myplugin/skill_spell_timeline	g2038_skill_b_303.effect		myplugin/buff_spell_attack	g2038_skill_hit_water.effect		myplugin/buff_spell_hit
+高级群潮湿	1102018	g2038_skill_a_306_7.effect	/sound/skill_1102018.mp3	myplugin/skill_spell_timeline	g2038_skill_b_203_5.effect		myplugin/buff_spell_attack	g2038_skill_hit_water.effect		myplugin/buff_spell_hit
+小火球	1103001	g2038_skill_c_201_1.effect	/sound/skill_1103001.mp3	myplugin/skill_bullet_timeline	g2038_skill_c_201_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_fire.effect		myplugin/buff_bullet_hit
+火焰冲击	1103002	g2038_skill_c_101.effect	/sound/skill_1103002.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_hit_fire.effect		myplugin/buff_melee_hit
+烈焰弹	1103003	g2038_skill_c_202_1.effect	/sound/skill_1103003.mp3	myplugin/skill_bullet_timeline	g2038_skill_c_202_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_fire.effect		myplugin/buff_bullet_hit
+神圣之火	1103004	g2038_skill_none.effect	/sound/skill_1103004.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_c_301.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_fire.effect		myplugin/buff_singleSpell_hit
+风火轮	1103005	g2038_skill_c_203_1.effect	/sound/skill_1103005.mp3	myplugin/skill_bullet_timeline	g2038_skill_c_203_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_fire.effect		myplugin/buff_bullet_hit
+烈焰旋涡	1103006	g2038_skill_c_402_1.effect	/sound/skill_1103006.mp3	myplugin/skill_aoe_timeline	g2038_skill_c_402_2.effect		myplugin/skill_aoe_attack	g2038_skill_c_202_1.effect		myplugin/buff_aoe_hit
+火焰重拳	1103007	g2038_skill_c_102_1.effect	/sound/skill_1103007.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_c_102_2.effect		myplugin/buff_melee_hit
+熔岩球	1103008	g2038_skill_c_202_1.effect	/sound/skill_1103008.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_c_302.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_fire.effect		myplugin/buff_singleSpell_hit
+涅槃诅咒	1103009	g2038_skill_c_303_1.effect	/sound/skill_1103009.mp3	myplugin/skill_status_timeline						
+重生之火	1103010	g2038_skill_c_305_2.effect	/sound/skill_1103010.mp3	myplugin/skill_status_timeline						
+生命原汤	1103011	g2038_skill_none.effect	/sound/skill_1103011.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_b_307_1.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+生命液滴	1103012	g2038_skill_none.effect	/sound/skill_1103012.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_b_307_3.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+炼狱爆炸	1103013	g2038_skill_c_303_1.effect	/sound/skill_1103013.mp3	myplugin/skill_aoe_timeline	g2038_skill_c_401.effect		myplugin/skill_aoe_attack	g2038_skill_hit_fire.effect		myplugin/buff_aoe_hit
+熔岩拳击	1103014	g2038_skill_c_204_1.effect	/sound/skill_1103014.mp3	myplugin/skill_bullet_timeline	g2038_skill_c_204_2.effect		myplugin/skill_bullet_missile	g2038_skill_c_204_3.effect		myplugin/buff_bullet_hit
+天照火	1103015	g2038_skill_c_403_1.effect	/sound/skill_1103015.mp3	myplugin/skill_aoe_timeline	g2038_skill_none.effect		myplugin/skill_aoe_attack	g2038_skill_hit_fire.effect		myplugin/buff_aoe_hit
+火系群攻	1103016	g2038_skill_none.effect	/sound/skill_1103016.mp3	myplugin/skill_spell_timeline	g2038_skill_c_306.effect		myplugin/buff_spell_attack	g2038_skill_none.effect		myplugin/buff_spell_hit
+高级火系群攻	1103017	g2038_skill_c_304_1.effect	/sound/skill_1103017.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_c_304_2.effect		myplugin/skill_aoe_attack	g2038_skill_none.effect		myplugin/buff_aoe_hit
+群灼烧	1103018	g2038_skill_c_307_1.effect	/sound/skill_1103018.mp3	myplugin/skill_spell_timeline	g2038_skill_c_307_2.effect		myplugin/buff_spell_attack	g2038_skill_hit_fire.effect		myplugin/buff_spell_hit
+高级群灼烧	1103019	g2038_skill_b_305_1.effect	/sound/skill_1103019.mp3	myplugin/skill_spell_timeline	g2038_skill_b_305_2.effect		myplugin/buff_spell_attack	g2038_skill_none.effect		myplugin/buff_spell_hit
+叶刃猛击	1104001	g2038_skill_none.effect	/sound/skill_1104001.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_d_101.effect		myplugin/buff_melee_hit
+青草飞弹	1104002	g2038_skill_none.effect	/sound/skill_1104002.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_201.effect		myplugin/skill_bullet_missile	g2038_skill_hit_grass.effect		myplugin/buff_bullet_hit
+剧毒	1104003	g2038_skill_d_302_1.effect	/sound/skill_1104003.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_d_302_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+毒瓦斯	1104004	g2038_skill_a_402_1.effect	/sound/skill_1104004.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_a_402_2.effect		myplugin/buff_singleSpell_hit
+旋转飞叶	1104005	g2038_skill_d_301.effect	/sound/skill_1104005.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_d_301.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_grass.effect		myplugin/buff_singleSpell_hit
+叶刃风暴	1104006	g2038_skill_d_303.effect	/sound/skill_1104006.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_d_303.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_grass.effect		myplugin/buff_singleSpell_hit
+丛林风暴	1104007	g2038_skill_d_403_1.effect	/sound/skill_1104007.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_d_403_3.effect		myplugin/buff_singleSpell_hit
+千箭齐发	1104008	g2038_skill_d_402_1.effect	/sound/skill_1104008.mp3	myplugin/skill_aoe_timeline	g2038_skill_d_402_2.effect		myplugin/skill_aoe_attack	g2038_skill_hit_grass.effect		myplugin/buff_aoe_hit
+睡眠花粉	1104009	g2038_skill_d_306_1.effect	/sound/skill_1104009.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_d_306_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_grass.effect		myplugin/buff_singleSpell_hit
+柳絮飘扬	1104010	g2038_skill_d_307_1.effect	/sound/skill_1104010.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_d_307_2.effect		myplugin/buff_singleSpell_hit
+安眠花粉	1104011	g2038_skill_none.effect	/sound/skill_1104011.mp3	myplugin/skill_aoe_timeline	g2038_skill_d_401.effect		myplugin/skill_aoe_attack	g2038_skill_hit_grass.effect		myplugin/buff_aoe_hit
+治愈花舞	1104012	g2038_skill_d_304.effect	/sound/skill_1104012.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit_grass.effect		myplugin/buff_singleSpell_hit
+腐蚀炸弹	1104013	g2038_skill_none.effect	/sound/skill_1104013.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_202_1.effect		myplugin/skill_bullet_missile	g2038_skill_d_202_2.effect		myplugin/buff_bullet_hit
+大腐蚀炸弹	1104014	g2038_skill_none.effect	/sound/skill_1104013.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_202_5.effect		myplugin/skill_bullet_missile	g2038_skill_d_202_2.effect		myplugin/buff_bullet_hit
+梦貘闪光	1104015	g2038_skil_d_204_1.effect	/sound/skill_1104015.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_204_2.effect		myplugin/skill_bullet_missile	g2038_skill_d_204_3.effect		myplugin/buff_bullet_hit
+真·梦貘闪光	1104016	g2038_skil_d_204_1.effect	/sound/skill_1104015.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_204_2.effect		myplugin/skill_bullet_missile	g2038_skill_d_204_3.effect		myplugin/buff_bullet_hit
+逆生长	1104017	g2038_skil_d_205_1.effect	/sound/skill_1104017.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_205_2.effect		myplugin/skill_bullet_missile	g2038_skill_d_205_3.effect		myplugin/buff_bullet_hit
+退化	1104018	g2038_skil_d_205_1.effect	/sound/skill_1104017.mp3	myplugin/skill_bullet_timeline	g2038_skill_d_205_2.effect		myplugin/skill_bullet_missile	g2038_skill_d_205_3.effect		myplugin/buff_bullet_hit
+草系群攻	1104019	g2038_skill_d_404.effect	/sound/skill_1104019.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_none.effect		myplugin/skill_aoe_attack	g2038_skill_e_202_2.effect		myplugin/buff_aoe_hit
+高级草系群攻	1104020	g2038_skill_d_405_1.effect	/sound/skill_1104020.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_d_405_2.effect		myplugin/skill_aoe_attack	g2038_skill_e_202_5.effect		myplugin/buff_aoe_hit
+群中毒	1104021	g2038_skill_a_403_1.effect	/sound/skill_1104004.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_none.effect		myplugin/skill_aoe_attack	g2038_skill_a_403_2.effect		myplugin/buff_aoe_hit
+高级群中毒	1104022	g2038_skill_a_403_5.effect	/sound/skill_1104004.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_none.effect		myplugin/skill_aoe_attack	g2038_skill_a_403_6.effect		myplugin/buff_aoe_hit
+黑雾球	1105001	g2038_skill_none.effect	/sound/skill_1105001.mp3	myplugin/skill_bullet_timeline	g2038_skill_e_202_1.effect		myplugin/skill_bullet_missile	g2038_skill_e_202_2.effect		myplugin/buff_bullet_hit
+十字闪光	1105002	g2038_skill_e_304_1.effect	/sound/skill_1105002.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_none.effect		myplugin/buff_singleSpell_attack	g2038_skill_e_304_2.effect		myplugin/buff_singleSpell_hit
+暗冥球	1105003	g2038_skill_e_201_1.effect	/sound/skill_1105003.mp3	myplugin/skill_bullet_timeline	g2038_skill_e_201_2.effect		myplugin/skill_bullet_missile	g2038_skill_hit_Thunder.effect		myplugin/buff_bullet_hit
+超能光波	1105004	g2038_skill_e_401_1.effect	/sound/skill_1105004.mp3	myplugin/skill_aoe_timeline	g2038_skill_e_401_2.effect		myplugin/skill_aoe_attack	g2038_skill_hit_Thunder.effect		myplugin/buff_aoe_hit
+超能强念	1105005	g2038_skill_e_301_1.effect	/sound/skill_1105005.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_301_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+精神波动	1105006	g2038_skill_e_302_1.effect	/sound/skill_1105006.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_302_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+精神魔法	1105007	g2038_skill_none.effect	/sound/skill_1105007.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_306_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+伊邪纳岐	1105008	g2038_skill_none.effect	/sound/skill_1105008.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_306_1.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+超能闪耀	1105009	g2038_skill_e_303_1.effect	/sound/skill_1105009.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_303_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+念力刀	1105010	g2038_skill_e_305_1.effect	/sound/skill_1105010.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_305_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit.effect		myplugin/buff_singleSpell_hit
+四方封印	1105011	g2038_skill_e_307_1.effect	/sound/skill_1105011.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_e_307_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_none.effect		myplugin/buff_singleSpell_hit
+灭亡之歌	1105012	g2038_skill_e_402_1.effect	/sound/skill_1105012.mp3	myplugin/skill_singleSpell_timeline	g2038_skill_a_305_2.effect		myplugin/buff_singleSpell_attack	g2038_skill_hit.effect		myplugin/buff_singleSpell_hit
+超能群攻	1105013	g2038_skill_e_404_1.effect	/sound/skill_1105013.mp3	myplugin/skill_spellAoe_timeline	g2038_skill_e_404_2.effect		myplugin/skill_aoe_attack	g2038_skill_hit_Thunder.effect		myplugin/buff_aoe_hit
+高级超能群攻	1105014	g2038_skill_e_403_1.effect	/sound/skill_1105014.mp3	myplugin/skill_spellAoe2_timeline	g2038_skill_e_403_2.effect		myplugin/skill_aoe_attack	g2038_skill_hit_Thunder.effect		myplugin/buff_aoe_hit
+反击技能	9101001	g2038_skill_none.effect	/sound/skill_1101001.mp3	myplugin/skill_melee_timeline	g2038_skill_none.effect		myplugin/skill_melee_attack	g2038_skill_a_101.effect		myplugin/buff_melee_hit
+混乱打自己	9101002	g2038_skill_none.effect	/sound/skill_101001.mp3	myplugin/skill_self_attack				g2038_skill_hit.effect		myplugin/buff_self_hit

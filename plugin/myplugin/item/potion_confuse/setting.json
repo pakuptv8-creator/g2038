@@ -1,0 +1,24 @@
+{
+  "battleUse": true,
+  "canUse": true,
+  "cureType": [
+    3
+  ],
+  "deBuffFullName": 6,
+  "desc": "potion_confuse_desc",
+  "effectBuff": "myplugin/cure_debuff_effect_buff_1",
+  "group": false,
+  "icon": "set:g2038_pokemon_potion.json image:g2038_potion_confuse",
+  "imposeTray": [
+    2
+  ],
+  "itemId": 51,
+  "itemName": "potion_confuse_name",
+  "itemType": 2,
+  "needSave": true,
+  "price": 10,
+  "rarity": 2,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

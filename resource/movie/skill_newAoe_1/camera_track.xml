@@ -1,0 +1,13 @@
+<Track pos="-4.2,2.2,-4.2" yaw="-49" pitch="-2"/>
+<CameraViewFrame pos="-4.2,2.2,-4.2" yaw="-49" pitch="-2" distance="0" smooth="0" startTime="1"/>
+<CameraViewFrame pos="-4.2,2.2,-4.2" yaw="-49" pitch="-2" distance="0" smooth="16" startTime="2"/>
+<CameraViewFrame pos="-4.2,2.2,-4.2" yaw="-49.0" pitch="-2.0" distance="0" smooth="0" startTime="802.0"/>
+<CameraViewFrame pos="-3.35,3.12,-3.46" yaw="-29.11" pitch="-51.13" distance="0" smooth="10" startTime="803.0"/>
+<CameraViewFrame pos="-3.35,3.12,-3.46" yaw="-29.11" pitch="-51.13" distance="0" smooth="0" startTime="1303.0"/>
+<CameraViewFrame pos="-3.35,3.12,-3.46" yaw="-29.11" pitch="-51.13" distance="0" smooth="20" startTime="1304.0"/>
+<CameraViewFrame pos="-3.35,3.12,-3.46" yaw="-29.11" pitch="-51.13" distance="0" smooth="0" startTime="2304.0"/>
+<CameraViewFrame pos="-2.28,3.02,-1.28" yaw="-28.43" pitch="12.6" distance="0" smooth="6" startTime="2305.0"/>
+<CameraViewFrame pos="-2.28,3.02,-1.28" yaw="-28.43" pitch="12.6" distance="0" smooth="0" startTime="2605.0"/>
+<CameraViewFrame pos="-2.28,3.02,-1.28" yaw="-28.43" pitch="12.6" distance="0" smooth="8" startTime="2606.0"/>
+<CameraViewFrame pos="-2.28,3.02,-1.28" yaw="-28.43" pitch="12.6" distance="0" smooth="0" startTime="3006.0"/>
+<CameraViewFrame pos="-4.2,2.2,-4.2" yaw="-49" pitch="-2" distance="0" smooth="12" startTime="3007.0"/>

@@ -1,0 +1,6 @@
+<Track pos="0.55,2.38,-3.24" yaw="-181.25" pitch="1.73"/>
+
+<CameraViewFrame pos="-0.08,2.42,-1.3" yaw="-179.91" pitch="-0.3" distance="0" smooth="0" startTime="1"/>
+<CameraViewFrame pos="0.55,2.38,-3.24" yaw="-181.25" pitch="1.73" distance="0" smooth="10" startTime="2"/>
+<CameraViewFrame pos="0.55,2.38,-3.24" yaw="-181.25" pitch="1.73" distance="0" smooth="0" startTime="502.0"/>
+<CameraViewFrame pos="0.55,2.38,-3.24" yaw="-181.25" pitch="1.73" distance="0" smooth="50" startTime="503.0"/>

@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "skill_detal_fire": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 61,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 59
+            }
+        },
+        "skill_detal_grass": {
+            "frame": {
+                "x": 63,
+                "y": 1,
+                "w": 61,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 59
+            }
+        },
+        "skill_detal_normal": {
+            "frame": {
+                "x": 125,
+                "y": 1,
+                "w": 61,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 59
+            }
+        },
+        "skill_detal_sp": {
+            "frame": {
+                "x": 187,
+                "y": 1,
+                "w": 61,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 59
+            }
+        },
+        "skill_detal_super": {
+            "frame": {
+                "x": 249,
+                "y": 1,
+                "w": 61,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 59
+            }
+        },
+        "skill_detal_water": {
+            "frame": {
+                "x": 311,
+                "y": 1,
+                "w": 61,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 59
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_pet_skillDetail.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 373,
+            "h": 61
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

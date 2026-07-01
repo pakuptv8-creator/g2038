@@ -1,0 +1,138 @@
+n_id	n_tabId	n_subTabId	s_sort_id	s_name	s_icon	n_rarity	s_itemName	n_itemCount	s_desc	n_currencyType	n_originalPrice	n_discount	n_buyCount	s_levelLimit	n_showRedDot	n_showEffect	s_weight
+商品id	主标签页	子标签页	序号id	商品名称	商品图标	商品品质	相关货物全名	物品数	货物详细名称	货币类型0金魔方3金币	正常价格	折扣0.1表示一折	限购次数0不限购	对应等级3#30	是否显示红点1显示	是否有边框特效	是否随机-1不随机，1#30是组和权重
+n_id	n_tabId	n_subTabId	s_sort_id	s_name	s_icon	n_rarity	s_itemName	n_itemCount	s_desc	n_currencyType	n_originalPrice	n_discount	n_buyCount	s_levelLimit	n_showRedDot	n_showEffect	s_weight
+11001	1	1	1	item_exp_03_name	set:g2038_pokemon_item.json image:g2038_item_exp_003	3	myplugin/item_exp_03	1	item_exp_03_desc	3	100	0	1		1	1	1#100
+11002	1	1	2	item_exp_01_name	set:g2038_pokemon_item.json image:g2038_item_exp_001	1	myplugin/item_exp_01	1	item_exp_01_desc	3	10	0.2	20				2#60
+11003	1	1	3	item_exp_02_name	set:g2038_pokemon_item.json image:g2038_item_exp_002	2	myplugin/item_exp_02	1	item_exp_02_desc	3	50	0.2	20				2#30
+11004	1	1	4	item_exp_03_name	set:g2038_pokemon_item.json image:g2038_item_exp_003	3	myplugin/item_exp_03	1	item_exp_03_desc	3	100	0.2	20				2#10
+11005	1	1	5	pokeball_01_name	set:g2038_pokemon_ball.json image:ball_01	2	myplugin/pokeball_01	1	pokeball_01_desc	3	500	0.1	1				3#60
+11006	1	1	6	pokeball_02_name	set:g2038_pokemon_ball.json image:ball_02	3	myplugin/pokeball_02	1	pokeball_02_desc	3	5000	0.3	1				3#30
+11007	1	1	7	pokeball_03_name	set:g2038_pokemon_ball.json image:ball_03	4	myplugin/pokeball_03	1	pokeball_03_desc	3	10000	0.5	1				3#10
+11008	1	1	8	pokeball_water_name	set:g2038_pokemon_ball.json image:ball_water	4	myplugin/pokeball_05	1	pokeball_water_desc	3	10000	0.6	1				4#10
+11009	1	1	9	pokeball_fire_name	set:g2038_pokemon_ball.json image:ball_fire	4	myplugin/pokeball_06	1	pokeball_fire_desc	3	10000	0.6	1				4#10
+11010	1	1	10	pokeball_grass_name	set:g2038_pokemon_ball.json image:ball_grass	4	myplugin/pokeball_07	1	pokeball_grass_desc	3	10000	0.6	1				4#10
+11011	1	1	11	potion_hp_001_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_001	1	myplugin/potion_hp_001	1	potion_hp_001_desc	3	100	0.2	10				5#20
+11012	1	1	12	potion_hp_002_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_002	2	myplugin/potion_hp_002	1	potion_hp_002_desc	3	500	0.2	10				5#30
+11013	1	1	13	potion_hp_003_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_003	3	myplugin/potion_hp_003	1	potion_hp_003_desc	3	1000	0.4	10				5#30
+11014	1	1	14	potion_hp_004_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_004	4	myplugin/potion_hp_004	1	potion_hp_004_desc	3	5000	0.6	3				5#15
+11015	1	1	15	potion_hp_005_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_005	5	myplugin/potion_hp_005	1	potion_hp_005_desc	3	10000	0.6	3				5#5
+11016	1	1	16	potion_all_name	set:g2038_pokemon_potion.json image:g2038_potion_all	3	myplugin/potion_all	1	potion_all_desc	3	1000	0.7	3				6#10
+11017	1	1	17	potion_antidote_name	set:g2038_pokemon_potion.json image:g2038_potion_antidote	2	myplugin/potion_antidote	1	potion_antidote_desc	3	500	0.5	5				6#15
+11018	1	1	18	potion_burn_name	set:g2038_pokemon_potion.json image:g2038_potion_burn	2	myplugin/potion_burn	1	potion_burn_desc	3	500	0.5	5				6#15
+11019	1	1	19	potion_confuse_name	set:g2038_pokemon_potion.json image:g2038_potion_confuse	2	myplugin/potion_confuse	1	potion_confuse_desc	3	500	0.5	5				6#15
+11020	1	1	20	potion_paralyze_name	set:g2038_pokemon_potion.json image:g2038_potion_paralyze	2	myplugin/potion_paralyze	1	potion_paralyze_desc	3	500	0.5	5				6#15
+11021	1	1	21	potion_sleep_name	set:g2038_pokemon_potion.json image:g2038_potion_sleep	2	myplugin/potion_sleep	1	potion_sleep_desc	3	500	0.5	5				6#15
+11022	1	1	22	potion_wet_name	set:g2038_pokemon_potion.json image:g2038_potion_wet	2	myplugin/potion_wet	1	potion_wet_desc	3	500	0.5	5				6#15
+11023	1	1	23	item_ticket_03_name	set:g2038_pokemon_ticket.json image:item_ticket_03	4	myplugin/item_ticket_03	1	item_ticket_03_desc	3	3000	0.4	10				7#100
+21001	2	1	1	item_levelup_01_name	set:g2038_pokemon_item.json image:g2038_item_level_001	4	myplugin/item_levelup_01	1	item_levelup_01_desc	0	50						
+21002	2	1	2	item_exp_03_name	set:g2038_pokemon_item.json image:g2038_item_exp_003	3	myplugin/item_exp_03	1	item_exp_03_desc	3	100						
+21003	2	1	3	item_exp_02_name	set:g2038_pokemon_item.json image:g2038_item_exp_002	2	myplugin/item_exp_02	1	item_exp_02_desc	3	50						
+21004	2	1	4	item_exp_01_name	set:g2038_pokemon_item.json image:g2038_item_exp_001	1	myplugin/item_exp_01	1	item_exp_01_desc	3	10						
+21005	2	1	5	item_spray_03_name	set:g2038_pokemon_item.json image:g2038_item_repel_003	4	myplugin/item_spray_03	1	item_spray_03_desc	3	3000						
+21006	2	1	6	item_spray_02_name	set:g2038_pokemon_item.json image:g2038_item_repel_002	3	myplugin/item_spray_02	1	item_spray_02_desc	3	2000						
+21007	2	1	7	item_spray_01_name	set:g2038_pokemon_item.json image:g2038_item_repel_001	2	myplugin/item_spray_01	1	item_spray_01_desc	3	1000						
+21008	2	1	8	item_ticket_02_name	set:g2038_pokemon_ticket.json image:item_ticket_02	5	myplugin/item_ticket_02	1	item_ticket_02_desc	0	150						
+21009	2	1	9	item_ticket_03_name	set:g2038_pokemon_ticket.json image:item_ticket_03	4	myplugin/item_ticket_03	1	item_ticket_03_desc	3	3000						
+31001	3	1	1	pokeball_04_name	set:g2038_pokemon_ball.json image:ball_04	5	myplugin/pokeball_04	1	pokeball_04_desc	0	500						
+31002	3	1	2	pokeball_03_name	set:g2038_pokemon_ball.json image:ball_03	4	myplugin/pokeball_03	1	pokeball_03_desc	3	10000						
+31003	3	1	3	pokeball_02_name	set:g2038_pokemon_ball.json image:ball_02	3	myplugin/pokeball_02	1	pokeball_02_desc	3	5000						
+31004	3	1	4	pokeball_01_name	set:g2038_pokemon_ball.json image:ball_01	2	myplugin/pokeball_01	1	pokeball_01_desc	3	500						
+31005	3	1	5	pokeball_water_name	set:g2038_pokemon_ball.json image:ball_water	4	myplugin/pokeball_05	1	pokeball_water_desc	3	10000						
+31006	3	1	6	pokeball_fire_name	set:g2038_pokemon_ball.json image:ball_fire	4	myplugin/pokeball_06	1	pokeball_fire_desc	3	10000						
+31007	3	1	7	pokeball_grass_name	set:g2038_pokemon_ball.json image:ball_grass	4	myplugin/pokeball_07	1	pokeball_grass_desc	3	10000						
+31008	3	1	8	pokeball_psy_name	set:g2038_pokemon_ball.json image:ball_psy	5	myplugin/pokeball_08	1	pokeball_psy_desc	0	500						
+41001	4	1	1	potion_hp_005_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_005	5	myplugin/potion_hp_005	1	potion_hp_005_desc	3	10000						
+41002	4	1	2	potion_hp_004_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_004	4	myplugin/potion_hp_004	1	potion_hp_004_desc	3	5000						
+41003	4	1	3	potion_hp_003_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_003	3	myplugin/potion_hp_003	1	potion_hp_003_desc	3	1000						
+41004	4	1	4	potion_hp_002_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_002	2	myplugin/potion_hp_002	1	potion_hp_002_desc	3	500						
+41005	4	1	5	potion_hp_001_name	set:g2038_pokemon_potion.json image:g2038_potion_hp_001	1	myplugin/potion_hp_001	1	potion_hp_001_desc	3	100						
+41006	4	1	6	item_revive_03_name	set:g2038_pokemon_item.json image:g2038_item_revive_003	4	myplugin/item_revive_03	1	item_revive_03_desc	3	10000						
+41007	4	1	7	item_revive_02_name	set:g2038_pokemon_item.json image:g2038_item_revive_002	3	myplugin/item_revive_02	1	item_revive_02_desc	3	5000						
+41008	4	1	8	item_revive_01_name	set:g2038_pokemon_item.json image:g2038_item_revive_001	2	myplugin/item_revive_01	1	item_revive_01_desc	3	2000						
+41009	4	1	9	item_ether_04_name	set:g2038_pokemon_item.json image:g2038_item_ether_004	4	myplugin/item_ether_04	1	item_ether_04_desc	3	10000						
+41010	4	1	10	item_ether_03_name	set:g2038_pokemon_item.json image:g2038_item_ether_003	3	myplugin/item_ether_03	1	item_ether_03_desc	3	5000						
+41011	4	1	11	item_ether_02_name	set:g2038_pokemon_item.json image:g2038_item_ether_002	2	myplugin/item_ether_02	1	item_ether_02_desc	3	1000						
+41012	4	1	12	item_ether_01_name	set:g2038_pokemon_item.json image:g2038_item_ether_001	1	myplugin/item_ether_01	1	item_ether_01_desc	3	500						
+41013	4	1	13	potion_all_name	set:g2038_pokemon_potion.json image:g2038_potion_all	3	myplugin/potion_all	1	potion_all_desc	3	1000						
+41014	4	1	14	potion_antidote_name	set:g2038_pokemon_potion.json image:g2038_potion_antidote	2	myplugin/potion_antidote	1	potion_antidote_desc	3	500						
+41015	4	1	15	potion_burn_name	set:g2038_pokemon_potion.json image:g2038_potion_burn	2	myplugin/potion_burn	1	potion_burn_desc	3	500						
+41016	4	1	16	potion_confuse_name	set:g2038_pokemon_potion.json image:g2038_potion_confuse	2	myplugin/potion_confuse	1	potion_confuse_desc	3	500						
+41017	4	1	17	potion_paralyze_name	set:g2038_pokemon_potion.json image:g2038_potion_paralyze	2	myplugin/potion_paralyze	1	potion_paralyze_desc	3	500						
+41018	4	1	18	potion_sleep_name	set:g2038_pokemon_potion.json image:g2038_potion_sleep	2	myplugin/potion_sleep	1	potion_sleep_desc	3	500						
+41019	4	1	19	potion_wet_name	set:g2038_pokemon_potion.json image:g2038_potion_wet	2	myplugin/potion_wet	1	potion_wet_desc	3	500						
+61001	6	1	1	active_skill_1101004_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	4	myplugin/item_skillbook_1101004	1	active_skill_1101004_desc	3	10000						
+61002	6	1	2	active_skill_1101006_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	4	myplugin/item_skillbook_1101006	1	active_skill_1101006_desc	3	10000						
+61003	6	1	3	active_skill_1101008_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	4	myplugin/item_skillbook_1101008	1	active_skill_1101008_desc	3	10000						
+61004	6	1	4	active_skill_1101014_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	4	myplugin/item_skillbook_1101014	1	active_skill_1101014_desc	3	10000						
+61005	6	1	5	active_skill_1101017_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	4	myplugin/item_skillbook_1101017	1	active_skill_1101017_desc	3	10000						
+61006	6	1	6	active_skill_1101002_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101002	1	active_skill_1101002_desc	3	7500						
+61007	6	1	7	active_skill_1101003_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101003	1	active_skill_1101003_desc	3	7500						
+61008	6	1	8	active_skill_1101005_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101005	1	active_skill_1101005_desc	3	7500						
+61009	6	1	9	active_skill_1101007_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101007	1	active_skill_1101007_desc	3	7500						
+61010	6	1	10	active_skill_1101009_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101009	1	active_skill_1101009_desc	3	7500						
+61011	6	1	11	active_skill_1101010_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101010	1	active_skill_1101010_desc	3	7500						
+61012	6	1	12	active_skill_1101011_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101011	1	active_skill_1101011_desc	3	7500						
+61013	6	1	13	active_skill_1101012_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101012	1	active_skill_1101012_desc	3	7500						
+61014	6	1	14	active_skill_1101013_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101013	1	active_skill_1101013_desc	3	7500						
+61015	6	1	15	active_skill_1101015_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101015	1	active_skill_1101015_desc	3	7500						
+61016	6	1	16	active_skill_1101016_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	3	myplugin/item_skillbook_1101016	1	active_skill_1101016_desc	3	7500						
+61017	6	1	17	active_skill_1101001_name	set:g2038_pokemon_skill.json image:g2038_skillbook_normal	2	myplugin/item_skillbook_1101001	1	active_skill_1101001_desc	3	5000						
+62001	6	2	1	active_skill_1102004_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	4	myplugin/item_skillbook_1102004	1	active_skill_1102004_desc	3	10000						
+62002	6	2	2	active_skill_1102006_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	4	myplugin/item_skillbook_1102006	1	active_skill_1102006_desc	3	10000						
+62003	6	2	3	active_skill_1102008_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	4	myplugin/item_skillbook_1102008	1	active_skill_1102008_desc	3	10000						
+62004	6	2	4	active_skill_1102011_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	4	myplugin/item_skillbook_1102011	1	active_skill_1102011_desc	3	10000						
+62005	6	2	5	active_skill_1102013_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	4	myplugin/item_skillbook_1102013	1	active_skill_1102013_desc	3	10000						
+62006	6	2	6	active_skill_1102014_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	4	myplugin/item_skillbook_1102014	1	active_skill_1102014_desc	3	10000						
+62007	6	2	7	active_skill_1102002_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	3	myplugin/item_skillbook_1102002	1	active_skill_1102002_desc	3	7500						
+62008	6	2	8	active_skill_1102003_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	3	myplugin/item_skillbook_1102003	1	active_skill_1102003_desc	3	7500						
+62009	6	2	9	active_skill_1102005_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	3	myplugin/item_skillbook_1102005	1	active_skill_1102005_desc	3	7500						
+62010	6	2	10	active_skill_1102007_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	3	myplugin/item_skillbook_1102007	1	active_skill_1102007_desc	3	7500						
+62011	6	2	11	active_skill_1102010_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	3	myplugin/item_skillbook_1102010	1	active_skill_1102010_desc	3	7500						
+62012	6	2	12	active_skill_1102012_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	3	myplugin/item_skillbook_1102012	1	active_skill_1102012_desc	3	7500						
+62013	6	2	13	active_skill_1102001_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	2	myplugin/item_skillbook_1102001	1	active_skill_1102001_desc	3	5000						
+62014	6	2	14	active_skill_1102009_name	set:g2038_pokemon_skill.json image:g2038_skillbook_water	2	myplugin/item_skillbook_1102009	1	active_skill_1102009_desc	3	5000						
+63001	6	3	1	active_skill_1103009_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103009	1	active_skill_1103009_desc	3	15000						
+63002	6	3	2	active_skill_1103010_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103010	1	active_skill_1103010_desc	3	15000						
+63003	6	3	3	active_skill_1103011_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103011	1	active_skill_1103011_desc	3	15000						
+63004	6	3	4	active_skill_1103012_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103012	1	active_skill_1103012_desc	3	15000						
+63005	6	3	5	active_skill_1103004_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103004	1	active_skill_1103004_desc	3	10000						
+63006	6	3	6	active_skill_1103006_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103006	1	active_skill_1103006_desc	3	10000						
+63007	6	3	7	active_skill_1103008_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103008	1	active_skill_1103008_desc	3	10000						
+63008	6	3	8	active_skill_1103015_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	4	myplugin/item_skillbook_1103015	1	active_skill_1103015_desc	3	10000						
+63009	6	3	9	active_skill_1103002_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	3	myplugin/item_skillbook_1103002	1	active_skill_1103002_desc	3	7500						
+63010	6	3	10	active_skill_1103003_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	3	myplugin/item_skillbook_1103003	1	active_skill_1103003_desc	3	7500						
+63011	6	3	11	active_skill_1103005_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	3	myplugin/item_skillbook_1103005	1	active_skill_1103005_desc	3	7500						
+63012	6	3	12	active_skill_1103007_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	3	myplugin/item_skillbook_1103007	1	active_skill_1103007_desc	3	7500						
+63013	6	3	13	active_skill_1103014_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	3	myplugin/item_skillbook_1103014	1	active_skill_1103014_desc	3	7500						
+63014	6	3	14	active_skill_1103001_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	2	myplugin/item_skillbook_1103001	1	active_skill_1103001_desc	3	5000						
+63015	6	3	15	active_skill_1103013_name	set:g2038_pokemon_skill.json image:g2038_skillbook_fire	2	myplugin/item_skillbook_1103013	1	active_skill_1103013_desc	3	5000						
+64001	6	4	1	active_skill_1104014_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104014	1	active_skill_1104014_desc	3	15000						
+64002	6	4	2	active_skill_1104013_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104013	1	active_skill_1104013_desc	3	12500						
+64003	6	4	3	active_skill_1104004_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104004	1	active_skill_1104004_desc	3	10000						
+64004	6	4	4	active_skill_1104006_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104006	1	active_skill_1104006_desc	3	10000						
+64005	6	4	5	active_skill_1104008_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104008	1	active_skill_1104008_desc	3	10000						
+64006	6	4	6	active_skill_1104011_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104011	1	active_skill_1104011_desc	3	10000						
+64007	6	4	7	active_skill_1104012_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104012	1	active_skill_1104012_desc	3	10000						
+64008	6	4	8	active_skill_1104016_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104016	1	active_skill_1104016_desc	3	10000						
+64009	6	4	9	active_skill_1104018_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	4	myplugin/item_skillbook_1104018	1	active_skill_1104018_desc	3	10000						
+64010	6	4	10	active_skill_1104002_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104002	1	active_skill_1104002_desc	3	7500						
+64011	6	4	11	active_skill_1104003_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104003	1	active_skill_1104003_desc	3	7500						
+64012	6	4	12	active_skill_1104005_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104005	1	active_skill_1104005_desc	3	7500						
+64013	6	4	13	active_skill_1104007_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104007	1	active_skill_1104007_desc	3	7500						
+64014	6	4	14	active_skill_1104009_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104009	1	active_skill_1104009_desc	3	7500						
+64015	6	4	15	active_skill_1104010_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104010	1	active_skill_1104010_desc	3	7500						
+64016	6	4	16	active_skill_1104015_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104015	1	active_skill_1104015_desc	3	7500						
+64017	6	4	17	active_skill_1104017_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	3	myplugin/item_skillbook_1104017	1	active_skill_1104017_desc	3	7500						
+64018	6	4	18	active_skill_1104001_name	set:g2038_pokemon_skill.json image:g2038_skillbook_grass	2	myplugin/item_skillbook_1104001	1	active_skill_1104001_desc	3	5000						
+65001	6	5	1	active_skill_1105004_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105004	1	active_skill_1105004_desc	3	10000						
+65002	6	5	2	active_skill_1105006_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105006	1	active_skill_1105006_desc	3	10000						
+65003	6	5	3	active_skill_1105007_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105007	1	active_skill_1105007_desc	3	10000						
+65004	6	5	4	active_skill_1105008_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105008	1	active_skill_1105008_desc	3	10000						
+65005	6	5	5	active_skill_1105009_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105009	1	active_skill_1105009_desc	3	10000						
+65006	6	5	6	active_skill_1105010_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105010	1	active_skill_1105010_desc	3	10000						
+65007	6	5	7	active_skill_1105011_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105011	1	active_skill_1105011_desc	3	10000						
+65008	6	5	8	active_skill_1105012_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	4	myplugin/item_skillbook_1105012	1	active_skill_1105012_desc	3	10000						
+65009	6	5	9	active_skill_1105003_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	3	myplugin/item_skillbook_1105003	1	active_skill_1105003_desc	3	7500						
+65010	6	5	10	active_skill_1105005_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	3	myplugin/item_skillbook_1105005	1	active_skill_1105005_desc	3	7500						
+65011	6	5	11	active_skill_1105001_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	2	myplugin/item_skillbook_1105001	1	active_skill_1105001_desc	3	5000						
+65012	6	5	12	active_skill_1105002_name	set:g2038_pokemon_skill.json image:g2038_skillbook_super	2	myplugin/item_skillbook_1105002	1	active_skill_1105002_desc	3	5000						

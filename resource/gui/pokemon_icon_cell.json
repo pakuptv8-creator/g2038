@@ -1,0 +1,114 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_icon_cell",
+      "Property": [
+        {
+          "Name": "Material",
+          "Value": "CullBackLinear"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,72},{0,72}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "16 16 16 16"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_icon_cell-content",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.85,0},{0.85,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_icon_cell-select",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:select_1"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_icon_cell-effect",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{-0.6,0},{1.2,0},{0.6,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "EffectFileName",
+              "Value": "g2038_map_kuang1.effect"
+            }
+          ],
+          "Type": "Layout"
+        }
+      ]
+    }
+  }
+}

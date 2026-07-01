@@ -1,0 +1,268 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonGuide",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "AlwaysOnTop",
+          "Value": "true"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonGuide-Mask-Comtent",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonGuide-Mask-Top",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.15625,0},{0,0},{0.697656,0},{0.1,0}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonGuide-Mask-Bottom",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.2,0},{0.9,0},{0.8,0},{1,0}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonGuide-Mask-Left",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0.1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonGuide-Mask-Right",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.9,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonGuide-Mask-Top2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.9,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonGuide-Mask-Bottom2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.9,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonGuide-Mask-Center",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.9,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.862745"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonGuide-Detail-Content",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonGuide-Arrows",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.346875,0},{0.743056,0},{0.399414,0},{0.836459,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGuide-Arrows2",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.346875,1},{0.743056,1},{0.399414,1},{0.836459,1}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonGuide-Skip",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,-20},{0,20},{0,130},{0,70}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "16 16 16 16"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_battle.json image:green"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button",
+          "Window": [
+            {
+              "Name": "PokemonGuide-Skip-Txt",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

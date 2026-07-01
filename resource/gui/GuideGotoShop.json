@@ -1,0 +1,252 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "GuideGotoShop",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,353},{0,186},{0,966},{0,535}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "20 20 20 20"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "GuideGotoShop-top",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,4},{0,4},{0,608},{0,53}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 0 0"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "GuideGotoShop-title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{0,50}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "MinFont",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "GuideGotoShop-close",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,558},{0,5},{0,599},{0,46}}"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        },
+        {
+          "Name": "GuideGotoShop-detailDec",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,109},{0,460},{0,212}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM18"
+            },
+            {
+              "Name": "MinFont",
+              "Value": "PKM14"
+            },
+            {
+              "Name": "AutoShrinkFont",
+              "Value": "true"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.501961 0.25098 0 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextLineExtraSpace",
+              "Value": "1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextWordWrap",
+              "Value": "true"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "GuideGotoShop-gotoshopBtn",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,196},{0,250},{0,409},{0,316}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 0 0"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+            },
+            {
+              "Name": "TextBorder",
+              "Value": "true"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button",
+          "Window": [
+            {
+              "Name": "GuideGotoShop-gotoshopBtnText",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,1},{0,0},{0,215},{0,66}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "MinFont",
+                  "Value": "PKM14"
+                },
+                {
+                  "Name": "AutoShrinkFont",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.278431 0.411765 0.0666667 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

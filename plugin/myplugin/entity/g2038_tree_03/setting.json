@@ -1,0 +1,21 @@
+{
+  "actorName": "g2038_tree_03.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -1.166135924222,
+          0,
+          -0.90370321858163,
+          0.81953250317461,
+          4.705,
+          0.96095250208415
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": ""
+}

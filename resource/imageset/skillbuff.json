@@ -1,0 +1,590 @@
+{
+    "frames": {
+        "buff_details_bg": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 30,
+                "h": 100
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 100
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 100
+            }
+        },
+        "buff_receive": {
+            "frame": {
+                "x": 32,
+                "y": 1,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "icon_buff_accuracy": {
+            "frame": {
+                "x": 69,
+                "y": 1,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_awake1": {
+            "frame": {
+                "x": 1,
+                "y": 102,
+                "w": 35,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 35
+            }
+        },
+        "icon_buff_awake2": {
+            "frame": {
+                "x": 37,
+                "y": 102,
+                "w": 35,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 35
+            }
+        },
+        "icon_buff_awake3": {
+            "frame": {
+                "x": 73,
+                "y": 102,
+                "w": 35,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 35
+            }
+        },
+        "icon_buff_awake4": {
+            "frame": {
+                "x": 1,
+                "y": 138,
+                "w": 35,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 35
+            }
+        },
+        "icon_buff_awake5": {
+            "frame": {
+                "x": 37,
+                "y": 138,
+                "w": 35,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 35
+            }
+        },
+        "icon_buff_damage": {
+            "frame": {
+                "x": 73,
+                "y": 138,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_life": {
+            "frame": {
+                "x": 1,
+                "y": 174,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_physical_atk": {
+            "frame": {
+                "x": 37,
+                "y": 174,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_physical_def": {
+            "frame": {
+                "x": 73,
+                "y": 174,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_recover": {
+            "frame": {
+                "x": 1,
+                "y": 209,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_revive": {
+            "frame": {
+                "x": 37,
+                "y": 209,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_speed": {
+            "frame": {
+                "x": 73,
+                "y": 209,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_spell_atk": {
+            "frame": {
+                "x": 1,
+                "y": 244,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_spell_def": {
+            "frame": {
+                "x": 37,
+                "y": 244,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_buff_suck": {
+            "frame": {
+                "x": 73,
+                "y": 244,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_accuracy": {
+            "frame": {
+                "x": 1,
+                "y": 279,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_burn": {
+            "frame": {
+                "x": 37,
+                "y": 279,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_chaos": {
+            "frame": {
+                "x": 73,
+                "y": 279,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_damage": {
+            "frame": {
+                "x": 1,
+                "y": 314,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_damp": {
+            "frame": {
+                "x": 37,
+                "y": 314,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_dka": {
+            "frame": {
+                "x": 73,
+                "y": 314,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_life": {
+            "frame": {
+                "x": 1,
+                "y": 349,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_palsy": {
+            "frame": {
+                "x": 37,
+                "y": 349,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_physical_atk": {
+            "frame": {
+                "x": 73,
+                "y": 349,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_physical_def": {
+            "frame": {
+                "x": 1,
+                "y": 384,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_sleep": {
+            "frame": {
+                "x": 37,
+                "y": 384,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_speed": {
+            "frame": {
+                "x": 73,
+                "y": 384,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_spell_atk": {
+            "frame": {
+                "x": 1,
+                "y": 419,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        },
+        "icon_debuff_spell_def": {
+            "frame": {
+                "x": 37,
+                "y": 419,
+                "w": 35,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 34
+            }
+        }
+    },
+    "meta": {
+        "image": "skillbuff.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 109,
+            "h": 454
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

@@ -1,0 +1,23 @@
+{   
+    "type": "Base",
+    "target": "self",
+    "targetType": "Any",
+    "cdTime": 0,
+    "castAction": "",
+    "castActionTime": -1,
+    "//": "AOE攻击特效",
+    "castEffect": {
+        "effect": "g2038_skill_none.effect",
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 4
+        }
+    },
+    "castSound": {
+        "volume": 10,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    }
+}

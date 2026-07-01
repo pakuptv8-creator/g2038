@@ -1,0 +1,21 @@
+{
+    "followTarget": true,
+    "canHitRider": true,
+    "collideEntity": 1,
+    "collideBlock": 0,
+    "hitInterval": 30,
+    "rotateSpeed": 0,
+    "boundingVolume": {
+        "params": [
+            1,
+            1,
+            1
+        ],
+        "type": "Box"
+    },
+    "lifeTime": 20,
+    "gravity": 0,
+    "moveSpeed": 10,
+    "moveAcc": 0,
+    "hitEntitySkill": "myplugin/skill_singleSpell_attack_buff"
+}

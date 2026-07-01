@@ -1,0 +1,21 @@
+{
+  "actorName": "g2020_sea.actor",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          40,
+          0.5,
+          40
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "canClick": true,
+  "disableShadow": true,
+  "isClick": true,
+  "name": "",
+  "viewDistance": 288
+}

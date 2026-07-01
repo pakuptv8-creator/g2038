@@ -1,0 +1,158 @@
+{
+    "frames": {
+        "img_0_attribute_hit": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_hp": {
+            "frame": {
+                "x": 44,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_physicalattacks": {
+            "frame": {
+                "x": 87,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_physicaldefense": {
+            "frame": {
+                "x": 130,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_special": {
+            "frame": {
+                "x": 173,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_speed": {
+            "frame": {
+                "x": 216,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_spellattacks": {
+            "frame": {
+                "x": 259,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        },
+        "img_0_attribute_spellprotection": {
+            "frame": {
+                "x": 302,
+                "y": 1,
+                "w": 42,
+                "h": 42
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 42
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 42
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_pet_attribute.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 345,
+            "h": 44
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

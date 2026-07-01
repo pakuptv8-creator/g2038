@@ -1,0 +1,86 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonCommonTip",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonCommonTip-TopTip",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,80},{0,600},{0,180}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_swap.json image:chb_9_words"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "PokemonCommonTip-TopTip-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,-150},{1,-30}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.52549 0.227451 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

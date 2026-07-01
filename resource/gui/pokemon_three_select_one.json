@@ -1,0 +1,148 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_three_select_one",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "pokemon_three_select_one-Mask",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.588235"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_three_select_one-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,550},{0,340}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "40 40 80 35"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_bag.json image:img_9_help"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_three_select_one-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{0,70}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM22"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.501961 0.25098 0.25098 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "pokemon_three_select_one-select",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-25},{0,160},{0,27}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "pokemon_three_select_one-petContent",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-100},{1,-30},{0,50}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

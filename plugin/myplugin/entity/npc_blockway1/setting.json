@@ -1,0 +1,48 @@
+{
+  "actorName": "g2038_pet_12_1.actor",
+  "canClick": true,
+  "canFly": false,
+  "canHitching": false,
+  "castRealShadow": false,
+  "checkBlockCollision": false,
+  "collision": true,
+  "collisionGroup": 2,
+  "collisionMask": 1,
+  "defaultView": 1,
+  "disableCheckTouch": true,
+  "disableShadow": true,
+  "editVolume": true,
+  "interaction": {
+    "offset": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "radius": 6
+  },
+  "interactionUI": {
+    "centerBtns": [
+      {
+        "event": "interact_with_npc",
+        "image": "plugin/myplugin/image/img_0_npcinteraction_dialogueicon.png",
+        "imageSize": {
+          "height": "80",
+          "width": "80"
+        },
+        "text": ""
+      }
+    ],
+    "cfgKey": "interactionUI",
+    "followParams": {
+      "followScenePos": false,
+      "offset": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "id": 10112
+  },
+  "name": "10100301_name",
+  "unassailable": 1
+}

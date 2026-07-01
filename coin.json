@@ -1,0 +1,11 @@
+[
+    {
+        "coinName": "gold_coin",
+        "icon": "plugin/myplugin/image/coin.png"
+    },
+    {
+        "coinName": "fDiamonds",
+        "icon": "set:pokemonMain.json image:icon_dimond",
+        "showUi": false
+    }
+]

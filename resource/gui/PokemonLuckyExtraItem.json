@@ -1,0 +1,378 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLuckyExtraItem",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,769},{0,100}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonLuckyExtraItem-Panel",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_bag.json image:chb_9_box"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLuckyExtraItem-Bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:img_9_rewards_bg1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLuckyExtraItem-select",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:img_9_rewards_selected"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLuckyExtraItem-descTxt",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0442133,0},{0,0},{0.716515,0},{0.31,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLuckyExtraItem-goodItem",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{-0.0546164,0},{0,0},{0.0533156,0},{0.83,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyExtraItem-goodItemBg",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_bag.json image:chb_9_box_2"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-petItemBg",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_lucky_egg.json image:img_0_frame_bg"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-goodItemIcon",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-goodFrame",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_frame.json image:img_0_frame_blue"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-goodItemTxt",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,80},{0,20}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.952941 0.647059 0.0862745 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-effectIcon",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_choudan_lingqu.effect"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-50},{0,100},{0,50}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-goodBlack",
+                  "Property": [
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0 0 0 0.588235"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonLuckyExtraItem-gou",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.26506,0},{0.26506,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_0_inteam"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

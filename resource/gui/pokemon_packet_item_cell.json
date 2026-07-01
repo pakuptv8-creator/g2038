@@ -1,0 +1,470 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_packet_item_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,200},{0,200},{0,280},{0,280}}"
+        },
+        {
+          "Name": "SoundName",
+          "Value": "8"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_packet_item_cell-Bg",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_packet_item_cell-MainLayout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_packet_item_cell-Icon",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,-6},{1,-6}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "pokemon_packet_item_cell-Star-LevelBG",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "DrawColor",
+                      "Value": "0 0 0 0.6"
+                    },
+                    {
+                      "Name": "Alpha",
+                      "Value": "0.6"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.98,0},{0.18,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_battle.json image:bg_6"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_packet_item_cell-frame",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_frame.json image:img_0_frame_blue"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "pokemon_packet_item_cell-Level-Bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,5},{0,5},{1,-5},{0.2,5}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 5"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_headportrait_alphabottom"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "pokemon_packet_item_cell-Level",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,-4},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextLineExtraSpace",
+                      "Value": "-5"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_packet_item_cell-RaceIcon",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0.25,0},{0.25,0}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_0_race_normal"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "pokemon_packet_item_cell-Star-Level",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0.98,0},{0.2,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "pokemon_packet_item_cell-InTeam",
+              "Property": [
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "pokemon_packet_item_cell-InTeamMask",
+                  "Property": [
+                    {
+                      "Name": "DrawColor",
+                      "Value": "0 0 0 0.498039"
+                    },
+                    {
+                      "Name": "Alpha",
+                      "Value": "0.5"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "pokemon_packet_item_cell-InTeamTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0 0 0 0.501961"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0.576471 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "1 0.607843 0.25098 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_packet_item_cell-lock",
+              "Property": [
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "pokemon_packet_item_cell-lockMask",
+                  "Property": [
+                    {
+                      "Name": "DrawColor",
+                      "Value": "0 0 0 0.498039"
+                    },
+                    {
+                      "Name": "Alpha",
+                      "Value": "0.5"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "pokemon_packet_item_cell-lockIcon",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,28},{0,34}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:btn_0_locked"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_packet_item_cell-Selected",
+              "Property": [
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_battle.json image:select_1"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

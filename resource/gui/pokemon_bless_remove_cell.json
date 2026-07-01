@@ -1,0 +1,238 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_bless_remove_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,605},{0,66}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_bless_remove_cell-Item-Layout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,66},{0,66}}"
+            }
+          ],
+          "Type": "Layout"
+        },
+        {
+          "Name": "pokemon_bless_remove_cell-Use-Text",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,90},{0,0},{0,140},{1,0}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM18"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_bless_remove_cell-Use-Num",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,200},{0,0},{0,200},{1,0}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM18"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "1 0 0.4 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_bless_remove_cell-Remove-Text",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,250},{0,0},{0,300},{1,0}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM18"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_bless_remove_cell-Sub-Button",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,360},{0,0},{0,414},{0,54}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_shop.json image:btn_0_-"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_shop.json image:btn_0_-"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_bless_remove_cell-Add-Button",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,550},{0,0},{0,604},{0,54}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_shop.json image:btn_0_+"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_shop.json image:btn_0_+"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_bless_remove_cell-Remove-Bg",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,420},{0,0},{0,545},{0,48}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 15 15"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:info_bottom"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_bless_remove_cell-Remove-Num",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.623529 0.168627 0.0627451 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

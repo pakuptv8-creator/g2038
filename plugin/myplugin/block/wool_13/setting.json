@@ -1,0 +1,14 @@
+{
+    "breakTime": 20,
+	"runBuff": [
+        "myplugin/sound_buff_walk"
+      ],
+    "texture": [
+        "stone_road.png",
+        "stone_road.png",
+        "stone_road.png",
+        "stone_road.png",
+        "stone_road.png",
+        "stone_road.png"
+    ]
+}

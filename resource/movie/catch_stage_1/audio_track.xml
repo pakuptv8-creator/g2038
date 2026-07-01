@@ -1,0 +1,2 @@
+<!--音效-->
+<AudioFrame path="plugin/myplugin/sound/throw_ball_start.mp3" loop="false" volume="6" startTime="400" endTime="38000"/>

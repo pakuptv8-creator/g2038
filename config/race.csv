@@ -1,0 +1,9 @@
+字段名称	id	name	icon	skill_bg	classify_icon	color_bg	race_1	race_2	race_3	race_4	race_5	race_6
+说明	编号id	种族	技能详情图标	技能背景图标	分类栏图标	详情页背景颜色	对普通系宠物造成的倍率	对水系宠物造成的倍率	对火系宠物造成的倍率	对草系宠物造成的倍率	对超能系宠物造成的倍率	对特殊系宠物造成的倍率
+格式	数值						数值	数值	数值	数值	数值	数值
+	1	RaceName6	set:pokemon_battle.json image:skill_detal_normal	set:pokemon_pet_skillBG.json image:skill_btoom_normal	set:pokemon_pet_race.json image:img_0_race_normal	156#165#174	1	1	1	1	0.75	0.9
+	2	RaceName2	set:pokemon_battle.json image:skill_detal_water	set:pokemon_pet_skillBG.json image:skill_btoom_water	set:pokemon_pet_race.json image:img_0_race_water	133#203#255	1	0.9	1.2	0.9	0.75	0.9
+	3	RaceName1	set:pokemon_battle.json image:skill_detal_fire	set:pokemon_pet_skillBG.json image:skill_btoom_fire	set:pokemon_pet_race.json image:img_0_race_fire	229#98#98	1	0.9	0.9	1.2	0.75	0.9
+	4	RaceName3	set:pokemon_battle.json image:skill_detal_grass	set:pokemon_pet_skillBG.json image:skill_btoom_grass	set:pokemon_pet_race.json image:img_0_race_grass	110#193#85	1	1.2	0.9	0.9	0.75	0.9
+	5	RaceName5	set:pokemon_battle.json image:skill_detal_super	set:pokemon_pet_skillBG.json image:skill_btoom_super	set:pokemon_pet_race.json image:img_0_race_super	244#145#172	1.5	1.5	1.5	1.5	1	1
+	6	RaceName4	set:pokemon_battle.json image:skill_detal_sp	set:pokemon_pet_skillBG.json image:skill_btoom_sp	set:pokemon_pet_race.json image:img_0_race_specail	211#132#241	1.2	1.2	1.2	1.2	1	1

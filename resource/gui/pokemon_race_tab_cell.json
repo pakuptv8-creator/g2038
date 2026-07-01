@@ -1,0 +1,130 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_race_tab_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,300},{0,300},{0,500},{0,340}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "10 10 10 10"
+        },
+        {
+          "Name": "NormalImage",
+          "Value": "set:pokemon_pet_packet.json image:chb_9raceoption2"
+        },
+        {
+          "Name": "PushBrightness",
+          "Value": "0.25 0.25 0.25 0"
+        },
+        {
+          "Name": "PushedImage",
+          "Value": "set:pokemon_pet_packet.json image:chb_9raceoption1"
+        },
+        {
+          "Name": "TextHorzAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "TextVertAlignment",
+          "Value": "Centre"
+        }
+      ],
+      "Type": "CheckBox",
+      "Window": [
+        {
+          "Name": "pokemon_race_tab_cell-Icon",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,20},{0,0},{0,52},{0,32}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pet_race.json image:img_0_race_all"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_race_tab_cell-Text",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,60},{0,0},{0.7,60},{1,0}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            },
+            {
+              "Name": "MinFont",
+              "Value": "PKM12"
+            },
+            {
+              "Name": "AutoShrinkFont",
+              "Value": "true"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.478431 0.180392 0.101961 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextWordWrap",
+              "Value": "true"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_race_tab_cell-Mask",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pet_packet.json image:chb_9_raceoption_mask"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

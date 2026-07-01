@@ -1,0 +1,22 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_star_item_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,0},{0,50}}"
+        },
+        {
+          "Name": "VerticalAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        }
+      ],
+      "Type": "Layout"
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "img_0_candy_light1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 26,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "img_0_candy_light2": {
+            "frame": {
+                "x": 28,
+                "y": 1,
+                "w": 26,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "img_0_gold_light1": {
+            "frame": {
+                "x": 55,
+                "y": 1,
+                "w": 26,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "img_0_gold_light2": {
+            "frame": {
+                "x": 82,
+                "y": 1,
+                "w": 26,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 26,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 26,
+                "h": 29
+            }
+        },
+        "img_0_turntable3_candy": {
+            "frame": {
+                "x": 109,
+                "y": 1,
+                "w": 620,
+                "h": 620
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 620,
+                "h": 620
+            },
+            "sourceSize": {
+                "w": 620,
+                "h": 620
+            }
+        },
+        "img_0_turntable3_gold": {
+            "frame": {
+                "x": 730,
+                "y": 1,
+                "w": 620,
+                "h": 620
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 620,
+                "h": 620
+            },
+            "sourceSize": {
+                "w": 620,
+                "h": 620
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_rotary_table2.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1351,
+            "h": 622
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

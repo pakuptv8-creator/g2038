@@ -1,0 +1,4 @@
+<TimeLine time="3000" keepViewMode="true"/>
+<Track name="camera_track" type="camera"/>
+<Track name="ui_track" type="ui" enable="true"/>
+<Track name="playable_track" type="playable"/>

@@ -1,0 +1,16 @@
+id	is_pvp	in_region_id	out_region_id	unlock	name	is_team	is_honor	type	map
+道馆id	是否是pvp道馆	传进去对应region的id	传出来对应region的id	解锁前置道馆id	名称	能否组队进入	是否为爬塔	道馆类型	地图名称
+1	0	1	2	0	gui.gym.name_pve	1	0	0	map003
+2	0	7	8	0	gui.gym.name_pve	1	0	0	map006
+3	0	9	10	0	gui.gym.name_pve	1	0	0	map009
+4	0	11	12	0	gui.gym.name_pve	1	0	0	map012
+5	0	13	14	0	gui.gym.name_pve	1	0	0	map015
+6	1	15	2	1	gui.gym.1.name_pvp	0	0	2	map003
+7	1	16	8	2	gui.gym.2.name_pvp	0	0	3	map006
+8	1	17	10	3	gui.gym.3.name_pvp	0	0	4	map009
+9	1	18	12	4	gui.gym.4.name_pvp	0	0	5	map012
+10	1	19	14	5	gui.gym.5.name_pvp	0	0	6	map015
+11	0	20	0	3	gui.gym.name_tower_1	0	1	0	map017
+12	0	20	0	3	gui.gym.name_tower_2	0	1	0	map017
+13	0	20	0	3	gui.gym.name_tower_3	0	1	0	map017
+14	0	20	0	3	gui.gym.name_tower_4	0	1	0	map017

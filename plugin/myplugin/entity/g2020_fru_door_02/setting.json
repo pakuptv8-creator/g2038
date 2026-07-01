@@ -1,0 +1,13 @@
+{
+  "actorName": "g2020_fru_door.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": "",
+  "skin": {
+    "body": "2"
+  }
+}

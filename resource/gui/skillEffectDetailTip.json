@@ -1,0 +1,121 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "skillEffectDetailTip",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,280},{0,100}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "skillEffectDetailTip-click-position",
+                    "Property": [],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "skillEffectDetailTip-content",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,280},{0,100}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "10 10 0 0"
+                                },
+                                {
+                                    "Name": "LayoutBackImage",
+                                    "Value": "set:skillbuff.json image:buff_details_bg"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "skillEffectDetailTip-title",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,5},{0,1},{0,5},{0,28.9099}}"
+                                        },
+                                        {
+                                            "Name": "MinFont",
+                                            "Value": "HT14"
+                                        },
+                                        {
+                                            "Name": "AutoShrinkFont",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "1 1 0.501961 1"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "skillEffectDetailTip-dec",
+                                    "Property": [
+                                        {
+                                            "Name": "EnableLongTouch",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,4},{0,30},{0,278},{0,74.4688}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "HT14"
+                                        },
+                                        {
+                                            "Name": "MinFont",
+                                            "Value": "HT12"
+                                        },
+                                        {
+                                            "Name": "AutoShrinkFont",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextColor",
+                                            "Value": "0 1 0 1"
+                                        },
+                                        {
+                                            "Name": "TextWordWrap",
+                                            "Value": "true"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "skillEffectDetailTip-round",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,4},{0,74},{0,4},{0,101.91}}"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

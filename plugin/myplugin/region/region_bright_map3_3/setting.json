@@ -1,0 +1,65 @@
+{
+  "?battleMapName": "战斗场景地图",
+  "?birthMaxX": "怪物出生点的x坐标最大值",
+  "?birthMaxZ": "怪物出生点的z坐标最大值",
+  "?birthMinX": "怪物出生点的x坐标最小值",
+  "?birthMinZ": "怪物出生点的z坐标最小值",
+  "?birthY": "怪物出生点的Y坐标",
+  "?brightNum": "明雷数量",
+  "?flashRate": "闪光率百分比，1表示1%",
+  "?maxMonsterLevel": "怪物最大等级",
+  "?minMonsterLevel": "怪物最小等级",
+  "?refreshTime": "明雷池刷新时间单位秒",
+  "?regionId": "区域ID，注意明雷区域的管理是通过regionId区分的，所以明雷区域regionId不要有相同的值",
+  "?surviveTime": "AI存活时间单位秒",
+  "battleMapName": "map008",
+  "birthMaxX": 395,
+  "birthMaxZ": 373,
+  "birthMinX": 378,
+  "birthMinZ": 357,
+  "birthY": 5.5,
+  "brightNum": 1,
+  "flashRate": 1,
+  "maxMonsterLevel": 52,
+  "minMonsterLevel": 50,
+  "monsterList": [
+    {
+      "cfgName": "myplugin/pet_10100201",
+      "monsterID": 10100201,
+      "monsterWeight": 250,
+      "starWeight": [
+        0,
+        0,
+        100,
+        0
+      ]
+    },
+    {
+      "cfgName": "myplugin/pet_10300601",
+      "monsterID": 10300601,
+      "monsterWeight": 250,
+      "starWeight": [
+        0,
+        0,
+        100,
+        0
+      ]
+    },
+    {
+      "cfgName": "myplugin/pet_10300501",
+      "monsterID": 10300501,
+      "monsterWeight": 500,
+      "starWeight": [
+        80,
+        20,
+        0,
+        0
+      ]
+    }
+  ],
+  "refreshTime": 10,
+  "regionId": 29,
+  "surviveTime": 300,
+  "target": "Player",
+  "type": "bright_pkm"
+}

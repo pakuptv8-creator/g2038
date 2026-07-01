@@ -1,0 +1,338 @@
+{
+    "frames": {
+        "chb_9_title": {
+            "frame": {
+                "x": 66,
+                "y": 99,
+                "w": 87,
+                "h": 67
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 87,
+                "h": 67
+            },
+            "sourceSize": {
+                "w": 87,
+                "h": 67
+            }
+        },
+        "chb_9_words": {
+            "frame": {
+                "x": 154,
+                "y": 99,
+                "w": 70,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 70,
+                "h": 70
+            }
+        },
+        "chb_9_yes": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 20,
+                "h": 20
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 20,
+                "h": 20
+            },
+            "sourceSize": {
+                "w": 20,
+                "h": 20
+            }
+        },
+        "img_0_arrow": {
+            "frame": {
+                "x": 1,
+                "y": 170,
+                "w": 75,
+                "h": 75
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 75,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 75,
+                "h": 75
+            }
+        },
+        "img_0_hook": {
+            "frame": {
+                "x": 44,
+                "y": 34,
+                "w": 53,
+                "h": 53
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 53,
+                "h": 53
+            },
+            "sourceSize": {
+                "w": 53,
+                "h": 53
+            }
+        },
+        "img_0_light": {
+            "frame": {
+                "x": 1,
+                "y": 377,
+                "w": 254,
+                "h": 254
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 254,
+                "h": 254
+            },
+            "sourceSize": {
+                "w": 254,
+                "h": 254
+            }
+        },
+        "img_0_personaldetails_redexclamationmark": {
+            "frame": {
+                "x": 22,
+                "y": 1,
+                "w": 29,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 29,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 29,
+                "h": 29
+            }
+        },
+        "img_0_yes": {
+            "frame": {
+                "x": 1,
+                "y": 34,
+                "w": 42,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 42,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 42,
+                "h": 38
+            }
+        },
+        "img_9_avatar": {
+            "frame": {
+                "x": 52,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_9_avatar_pet": {
+            "frame": {
+                "x": 184,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_9_bottom": {
+            "frame": {
+                "x": 1,
+                "y": 248,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "img_9_bottom_data": {
+            "frame": {
+                "x": 151,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_9_bottom_data2": {
+            "frame": {
+                "x": 118,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_9_bottom_personalinformation": {
+            "frame": {
+                "x": 85,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_9_displayframe": {
+            "frame": {
+                "x": 1,
+                "y": 99,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_9_displayframe2": {
+            "frame": {
+                "x": 163,
+                "y": 34,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_9_petframe": {
+            "frame": {
+                "x": 98,
+                "y": 34,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_9_titleboard": {
+            "frame": {
+                "x": 77,
+                "y": 170,
+                "w": 146,
+                "h": 77
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 146,
+                "h": 77
+            },
+            "sourceSize": {
+                "w": 146,
+                "h": 77
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_swap.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 256,
+            "h": 632
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

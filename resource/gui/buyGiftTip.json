@@ -1,0 +1,180 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "buyGiftTip",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,-1},{0,0},{1,-1},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "buyGiftTip-itemArea",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,309},{0,187},{0,1034},{0,568}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "buyGiftTip-cormfirmBtn",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,265},{0,301},{0,444},{0,362}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "15 15 15 15"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "buyGiftTip-itemList",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-1},{0,-1},{1,-21},{1,-201}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        },
+        {
+          "Name": "buyGiftTip-top",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,315},{0,191},{0.0390625,979},{0.0694444,197}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 10"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "buyGiftTip-closeBtn",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,658},{0,3},{0,708},{0,53}}"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "buyGiftTip-title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.00140056,0},{0.0178571,0},{0.934174,0},{1,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "AutoSize",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

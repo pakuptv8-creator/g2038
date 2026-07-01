@@ -1,0 +1,70 @@
+n_id	n_rarity	n_itemType	s_itemName	s_icon	n_itemCount
+物品id	物品品质	物品类型1物品 2 金币	相关货物全名	图标	物品数
+n_id	n_rarity		s_itemName	s_icon	n_itemCount
+1	3	1	myplugin/pokeball_02		3
+2	1	1	myplugin/item_exp_01		5
+3	1	1	myplugin/item_bless_01		2
+4	4	1	myplugin/potion_hp_004		1
+5	1	1	myplugin/item_bless_07		2
+6	1	1	myplugin/item_bless_10		2
+7	3	1	myplugin/item_revive_02		1
+8	1	1	myplugin/item_bless_13		2
+9	1	1	myplugin/item_bless_16		2
+10	3	1	myplugin/item_revive_02		1
+11	3	1	myplugin/pokeball_02		1
+12	2	1	myplugin/item_exp_02		3
+13	1	1	myplugin/item_bless_04		5
+14	5	1	myplugin/item_ticket_02		2
+15	5	1	myplugin/item_ticket_02		5
+16	4	1	myplugin/item_levelup_01		1
+17	4	1	myplugin/potion_hp_004		1
+18	5	1	myplugin/item_ticket_02		10
+19	4	1	myplugin/item_levelup_01		2
+20	4	1	myplugin/potion_hp_004		2
+21	5	1	myplugin/item_ticket_02		1
+22	3	1	myplugin/item_exp_03		1
+23	5	1	myplugin/item_ticket_02		10
+24	4	1	myplugin/pokeball_03		2
+25	4	1	myplugin/item_revive_03		2
+26	5	1	myplugin/item_ticket_02		20
+27	5	1	myplugin/pokeball_04		1
+28	4	1	myplugin/item_revive_03		3
+29	5	1	myplugin/item_ticket_02		40
+30	4	1	myplugin/item_mutate		30
+31	4	1	myplugin/item_revive_03		5
+32	3	1	myplugin/item_exp_03		1
+33	1	2		set:pokemonRechargeAward.json image:goldIcon	500
+34	1	2		set:pokemonRechargeAward.json image:goldIcon	10000
+35	1	2		set:pokemonRechargeAward.json image:goldIcon	5000
+36	1	2		set:pokemonRechargeAward.json image:goldIcon	5000
+37	3	1	myplugin/item_exp_03		50
+38	2	1	myplugin/item_exp_02		100
+39	1	2		set:pokemonRechargeAward.json image:goldIcon	10000
+40	1	1	myplugin/item_bless_07		3
+41	1	1	myplugin/item_bless_13		3
+42	1	1	myplugin/item_bless_10		3
+43	1	1	myplugin/item_bless_16		3
+44	3	1	myplugin/pokeball_02		1
+45	1	2		set:pokemonRechargeAward.json image:goldIcon	1000
+46	4	1	myplugin/item_levelup_01		5
+47	3	1	myplugin/item_exp_03		50
+48	2	1	myplugin/item_exp_02		100
+49	1	2		set:pokemonRechargeAward.json image:goldIcon	20000
+50	1	1	myplugin/item_bless_04		6
+51	1	1	myplugin/item_bless_01		6
+52	1	2		set:pokemonRechargeAward.json image:goldIcon	30000
+53	5	1	myplugin/item_ticket_02		10
+54	1	2		set:pokemonRechargeAward.json image:goldIcon	15000
+55	5	1	myplugin/item_ticket_02		1
+56	1	2		set:pokemonRechargeAward.json image:goldIcon	5000
+57	4	1	myplugin/item_mutate		30
+58	1	2		set:pokemonRechargeAward.json image:goldIcon	100000
+59	5	1	myplugin/item_ticket_02		20
+60	1	2		set:pokemonRechargeAward.json image:goldIcon	100000
+61	5	1	myplugin/item_ticket_02		50
+62	1	2		set:pokemonRechargeAward.json image:goldIcon	250000
+101	5	1	myplugin/item_ticket_01		1
+102	5	1	myplugin/item_ticket_01		3
+103	5	1	myplugin/item_ticket_01		5
+104	5	1	myplugin/item_ticket_01		10
+105	5	1	myplugin/item_ticket_01		30

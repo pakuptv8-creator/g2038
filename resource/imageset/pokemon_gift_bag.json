@@ -1,0 +1,626 @@
+{
+    "frames": {
+        "btn_0_arrow_left": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 51,
+                "h": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 71
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 71
+            }
+        },
+        "btn_0_arrow_right": {
+            "frame": {
+                "x": 53,
+                "y": 1,
+                "w": 52,
+                "h": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 52,
+                "h": 71
+            },
+            "sourceSize": {
+                "w": 52,
+                "h": 71
+            }
+        },
+        "btn_0_buy": {
+            "frame": {
+                "x": 106,
+                "y": 1,
+                "w": 209,
+                "h": 76
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 209,
+                "h": 76
+            },
+            "sourceSize": {
+                "w": 209,
+                "h": 76
+            }
+        },
+        "btn_0_close": {
+            "frame": {
+                "x": 316,
+                "y": 1,
+                "w": 37,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 37
+            }
+        },
+        "chb_9_grow_board_center_1": {
+            "frame": {
+                "x": 354,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_center_2": {
+            "frame": {
+                "x": 394,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_left_1": {
+            "frame": {
+                "x": 434,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_left_2": {
+            "frame": {
+                "x": 474,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_right_1": {
+            "frame": {
+                "x": 514,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_right_2": {
+            "frame": {
+                "x": 554,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_specail_1": {
+            "frame": {
+                "x": 594,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_grow_board_specail_2": {
+            "frame": {
+                "x": 634,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_center_1": {
+            "frame": {
+                "x": 674,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_center_2": {
+            "frame": {
+                "x": 714,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_left_1": {
+            "frame": {
+                "x": 754,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_left_2": {
+            "frame": {
+                "x": 794,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_right_1": {
+            "frame": {
+                "x": 834,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_right_2": {
+            "frame": {
+                "x": 874,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_specail_1": {
+            "frame": {
+                "x": 914,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "chb_9_time_board_specail_2": {
+            "frame": {
+                "x": 954,
+                "y": 1,
+                "w": 39,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 39,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 39,
+                "h": 70
+            }
+        },
+        "img_0_giftboard_01": {
+            "frame": {
+                "x": 1,
+                "y": 78,
+                "w": 728,
+                "h": 418
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 728,
+                "h": 418
+            },
+            "sourceSize": {
+                "w": 728,
+                "h": 418
+            }
+        },
+        "img_0_giftboard_02": {
+            "frame": {
+                "x": 1,
+                "y": 497,
+                "w": 728,
+                "h": 418
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 728,
+                "h": 418
+            },
+            "sourceSize": {
+                "w": 728,
+                "h": 418
+            }
+        },
+        "img_0_giftpet_01": {
+            "frame": {
+                "x": 1,
+                "y": 916,
+                "w": 313,
+                "h": 447
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 313,
+                "h": 447
+            },
+            "sourceSize": {
+                "w": 313,
+                "h": 447
+            }
+        },
+        "img_0_giftpet_02": {
+            "frame": {
+                "x": 315,
+                "y": 916,
+                "w": 313,
+                "h": 447
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 313,
+                "h": 447
+            },
+            "sourceSize": {
+                "w": 313,
+                "h": 447
+            }
+        },
+        "img_0_grow_gift_1": {
+            "frame": {
+                "x": 629,
+                "y": 916,
+                "w": 56,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 55
+            }
+        },
+        "img_0_grow_gift_2": {
+            "frame": {
+                "x": 686,
+                "y": 916,
+                "w": 56,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 55
+            }
+        },
+        "img_0_grow_gift_3": {
+            "frame": {
+                "x": 743,
+                "y": 916,
+                "w": 56,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 55
+            }
+        },
+        "img_0_itemboard1": {
+            "frame": {
+                "x": 800,
+                "y": 916,
+                "w": 110,
+                "h": 139
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 139
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 139
+            }
+        },
+        "img_0_itemboard2": {
+            "frame": {
+                "x": 911,
+                "y": 916,
+                "w": 110,
+                "h": 139
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 110,
+                "h": 139
+            },
+            "sourceSize": {
+                "w": 110,
+                "h": 139
+            }
+        },
+        "img_0_time_gift_1": {
+            "frame": {
+                "x": 1,
+                "y": 1364,
+                "w": 56,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 55
+            }
+        },
+        "img_0_time_gift_2": {
+            "frame": {
+                "x": 58,
+                "y": 1364,
+                "w": 56,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 55
+            }
+        },
+        "img_0_time_gift_3": {
+            "frame": {
+                "x": 115,
+                "y": 1364,
+                "w": 56,
+                "h": 55
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 55
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 55
+            }
+        },
+        "img_9_grow_saleboard": {
+            "frame": {
+                "x": 172,
+                "y": 1364,
+                "w": 28,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 29
+            }
+        },
+        "img_9_time_saleboard": {
+            "frame": {
+                "x": 201,
+                "y": 1364,
+                "w": 28,
+                "h": 29
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 28,
+                "h": 29
+            },
+            "sourceSize": {
+                "w": 28,
+                "h": 29
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_gift_bag.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1022,
+            "h": 1420
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

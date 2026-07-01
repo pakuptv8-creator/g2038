@@ -1,0 +1,68 @@
+{
+    "frames": {
+        "img_0_frame_blue": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 136,
+                "h": 136
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 136,
+                "h": 136
+            },
+            "sourceSize": {
+                "w": 136,
+                "h": 136
+            }
+        },
+        "img_0_frame_orange": {
+            "frame": {
+                "x": 138,
+                "y": 1,
+                "w": 138,
+                "h": 140
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 138,
+                "h": 140
+            },
+            "sourceSize": {
+                "w": 138,
+                "h": 140
+            }
+        },
+        "img_0_frame_purple": {
+            "frame": {
+                "x": 277,
+                "y": 1,
+                "w": 136,
+                "h": 136
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 136,
+                "h": 136
+            },
+            "sourceSize": {
+                "w": 136,
+                "h": 136
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_pet_frame.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 414,
+            "h": 142
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

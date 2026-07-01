@@ -1,0 +1,68 @@
+id	xxx	next_guide_index	continue_guide_index	prev_guide_index	desc	title	scene_pos	dialog_pos	reward_title	reward_desc	reward_pos	reward_items	reward_exp	reward_index	reward_details	time	trans_mask	lucency_area_1	show_lucency_area_2	lucency_area_2	arrows_area_1	arrows_area_2	arrows_img_1	arrows_img_2	npc_id
+引导ID	备注	下一个引导的索引	中断继续的索引	前一个引导的索引	引导文字	引导文字标题	场景引导坐标（0代表不需要）	提示弹窗位置	奖励对话框标题	奖励对话框描述	奖励对话框位置	奖励对话框中的道具	角色经验奖励	引导任务奖励的标识	引导任务结束以后的状态栏	进入前先等待时间（s）	是否使用透明遮罩	透明区域位置1大小	是否需要显示第二个透明区域位置	透明区域2位置大小	箭头1位置大小	箭头2位置大小	箭头1特效	箭头2特效	触发引导的npc
+id	xxx				desc	title	scene_pos	dialog_pos				道具id#个数,用逗号隔开	数值	1代表起点：显示奖励 2代表终点：获得奖励	1代表角色升级 2代表宝可梦上限 3代表解锁功能 用逗号分割	time	trans_mask	lucency_area_1	show_lucency_area_2	lucency_area_2	arrows_area_1	arrows_area_2	arrows_img_1	arrows_img_2	
+1	选择初始宠物	2			0	0	-22#3.0#408	0	guide_reward_1_title	guide_reward_1_desc	2#0#-15#2#0#-260#289#201	pokeball_01#1,potion_hp_001#1		1		0	0	none	0	none	0	0			
+2	完成选择初始宠物	3			0	0	0	0				pokeball_01#1,potion_hp_001#1	5	2	1#1#2,2#1#2	0	0	none	0	none	0				
+3	遇到第一个有两个宠物的npc	4			0	0	-5#3.0#408	0	guide_reward_3_title	guide_reward_3_desc	2#0#-15#2#0#-260#289#201	item_exp_01#1,potion_hp_001#1		1		0	0	none	0	none	0	0			10101
+4	完成挑战第一个npc	5			0	0	0	0				item_exp_01#1,potion_hp_001#1	15	2	1#2#4,2#2#4	0	0	none	0	none	0	0			10101
+5	点击队列按钮	6			0	0	0	0	guide_reward_5_title	guide_reward_5_desc	2#0#-15#2#0#-260#289#201	potion_hp_002#3,potion_hp_001#1		1		0	0	all	1	pokemonMain/PokemonMain-Team	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+6	选择一只宝可梦	7	5		0	0	0	0								0	0	pokemonPacket/guide_pokemon_first_cell	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+7	点击升级按钮	8	5		0	0	0	0								0	0	all	1	pokemonPacket/PokemonPacket-Detail-Function_Upgrade	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+8	使用经验道具	9	5		0	0	0	0								0	0	pokemonPopupUpgrade/PokemonPopupUpgrade-BtnUpgrade	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+9	关闭升级界面	64	64		0	0	0	0								0	0	all	1	pokemonPopupUpgrade/PokemonPopupUpgrade-BtnClose	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+10	关闭队列界面	11	11		0	0	0	0								0	0	pokemonPacket/PokemonPacket-Close	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+11	升级任务完成	19			0	0	0	0				potion_hp_002#3,potion_hp_001#1	50	2	1#4#5,2#4#5,	0	0	none	0	none	0	0			
+12	点击商城按钮	13			0	0	0	0	guide_reward_12_title	guide_reward_12_desc	2#0#-15#2#0#-260#289#201	potion_hp_002#3,item_exp_01#1		1		0	0	all	1	pokemonMain/PokemonMain-Shop	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+13	点击第一个tab	14			0	0	0	0								0	0	pokemon_Shop/guide_shop_tab	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+14	点击第一个cell	15			0	0	0	0								0	0	pokemon_Shop/guide_shop_cell	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+15	点击购买按钮	16			0	0	0	0								0	0	all	1	pokemon_Shop/pokemon_Shop-btn_buy_model	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+16	在弹窗中确认购买道具	17			0	0	0	0								0	0	pokemon_Shop/pokemon_Shop-confirm_wnd_yes	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+17	关闭商城界面	18			0	0	0	0								0	0	pokemon_Shop/pokemon_Shop-btn_back	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+18	商城任务完成	19			0	0	0	0				potion_hp_002#3,item_exp_01#1	50	2	1#5#6,2#5#6,	0	0	none	0	none	0	0			
+19	走向草丛去捕捉宠物	20			0	0	6#3.0#409	0	guide_reward_19_title	guide_reward_19_desc	2#0#-15#2#0#-260#289#201	pokeball_01#3,item_exp_01#2		1		0	0	none	0	none	0	0			
+20	宝可梦残血了快抓捕	21	19		guide_12_content	guide_12_title	0	2#0#-420#2#0#-30#260#100								0	0	all	1	battle_main/canvas-ball	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+21	点击抓捕按钮	22	19		0	0	0	0								0	0	all	1	battle_main/canvas-command_ball_confirm	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+22	抓捕成功以后放入背包	23	19		0	0	0	0								0	0	all	1	pokemonCapture/PokemonCapture-Join	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+23	完成抓捕宝可梦任务	24			0	0	0	0				pokeball_01#3,item_exp_01#2	70	2	1#6#8,2#6#8,	0	0	none	0	none	0	0			
+24	上阵宝可梦打开队列	25			0	0	0	0	guide_reward_24_title	guide_reward_24_desc	2#0#-15#2#0#-260#289#201	item_exp_03#2,potion_hp_001#2,item_ticket_02#10		1		0	0	all	1	pokemonMain/PokemonMain-Team	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+25	上阵宝可梦选择第二个空位置	26	24		0	0	0	0								0	0	pokemonPacket/guide_pokemon_second_cell	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+26	上阵宝可梦选择第一个位置	27	24		0	0	0	0								0	0	pokemonReplace/guide_pokemon_battle_first_cell	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+27	上阵宝可梦点击保存	28	24		0	0	0	0								0	0	all	1	pokemonReplace/PokemonReplace-Save	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+28	关闭队列界面	29	29		0	0	0	0								0	0	pokemonPacket/PokemonPacket-Close	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+29	完成上阵任务	41			0	0	0	0				item_exp_03#2,potion_hp_001#2,item_ticket_02#10	100	2	1#8#10,2#8#10,	0	0	none	0	none	0	0			
+30	遇到道馆npc	31			0	0	59.8#4.0#377	0	guide_reward_30_title	guide_reward_30_desc	2#0#-15#2#0#-260#289#201	item_refine_01#10,potion_hp_001#3		1		0	0	none	0	none	0	0			20203
+31	完成道馆npc挑战	39			0	0	0	0				item_refine_01#10,potion_hp_001#3	100	2	1#11#12,2#11#12,	0	0	none	0	none	0	0			20203
+32	点击队列按钮	33			0	0	0	0	guide_reward_31_title	guide_reward_31_desc	2#0#-15#2#0#-260#289#201	potion_hp_003#3,item_exp_01#2				0	0	all	1	pokemonMain/PokemonMain-Team	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+33	点击成长按钮	34			0	0	0	0								0	0	all	1	pokemonPacket/PokemonPacket-Detail-Tab3	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+34	打开洗炼界面	35			0	0	0	0								0	0	all	1	pokemonPacket/PokemonPacket-Detail-Function	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+35	点击洗炼按钮	36			0	0	0	0								0	0	all	1	pokemonGrowRefresh/PokemonGrowRefresh-Use	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+36	关闭洗炼界面	37			0	0	0	0								0	0	all	1	pokemonGrowRefresh/PokemonGrowRefresh-Close	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+37	关闭队列界面	38			0	0	0	0								0	0	pokemonPacket/PokemonPacket-Close	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+38	洗炼任务完成	39			0	0	0	0				potion_hp_003#3,item_exp_01#2	100	2	1#12#13,2#12#13,	0	0	none	0	none	0	0			
+39	第一个道馆的boss	40			0	0	59.8#4.0#377	0	guide_reward_39_title	guide_reward_39_desc	2#0#-15#2#0#-260#289#201	item_ticket_02#2,item_ticket_03#10,pokeball_03#3		1		0	0	none	0	none	0	0			20307
+40	战胜第一个道馆的boss	56			0	0	0	0				item_ticket_02#2,item_ticket_03#10,pokeball_03#3	300	2		0	0	none	0	none	0	0			20307
+41	点击10连抽按钮	42			0	0	0	0	guide_reward_41_title	guide_reward_41_desc	2#0#-15#2#0#-260#289#201	item_exp_02#2,item_revive_01#2,item_spray_01#2		1		0	0	all	1	pokemonMain/PokemonMain-LuckyEgg	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+42	点击抽10次	43	45		0	0	0	0								0	0	all	1	pokemonLuckyEgg/PokemonLuckyEgg-takeBtn10	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+43	关闭抽10次	44	45		0	0	0	0								0	0	all	1	pokemonLuckyTenTake/PokemonLuckyTenTake-confirmBtn	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+44	关闭10连抽界面	45	45		0	0	0	0								0	0	all	1	pokemonLuckyEgg/PokemonLuckyEgg-BtnClose	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+45	完成10连抽	46			0	0	0	0				item_exp_02#2,item_revive_01#2,item_spray_01#2	100	2	1#4#5,2#4#5,	0	0	none	0	none	0	0			
+46	点击队列按钮	47			0	0	0	0	guide_reward_46_title	guide_reward_46_desc	2#0#-15#2#0#-260#289#201	potion_hp_001#3,potion_hp_002#2,item_spray_01#2				0	0	all	1	pokemonMain/PokemonMain-Team	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+47	点击觉醒标签	48	46		0	0	0	0								0	0	all	1	pokemonPacket/PokemonPacket-Detail-Tab4	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+48	打开觉醒界面	49	46		0	0	0	0								0	0	all	1	pokemonPacket/PokemonPacket-Detail-Function_Wake	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+49	点击添加材料	50	46		0	0	0	0								0	0	all	1	pokemonWake/guide_pokemon_wake_select	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+50	选择材料	51	46		0	0	0	0								0	0	all	1	pokemonWake/guide_pokemon_wake_first_cell	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+51	确认材料	52	46		0	0	0	0								0	0	all	1	pokemonWake/PokemonWake-yesBtn	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+52	确认觉醒	53	46		0	0	0	0								0	0	all	1	pokemonWake/PokemonWake-UpWake	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+53	关闭觉醒	54	46		0	0	0	0								0	0	all	1	pokemonWake/PokemonWake-CloseBtn	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+54	关闭队列界面	55	55		0	0	0	0								0	0	pokemonPacket/PokemonPacket-Close	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		
+55	觉醒任务完成	39			0	0	0	0				potion_hp_001#3,potion_hp_002#2,item_spray_01#2	50	2	1#4#5,2#4#5,	0	0	none	0	none	0	0			
+56	第二个道馆的boss	57		39	0	0	260#5#388	0	guide_reward_56_title	guide_reward_56_desc	2#0#-15#2#0#-260#289#201	item_ticket_02#2,item_ticket_03#10,pokeball_03#3		1		0	0	none	0	none	0	0			30307
+57	战胜第二个道馆的boss	58			0	0	0	0				item_ticket_02#2,item_ticket_03#10,pokeball_03#3	500	2		0	0	none	0	none	0	0			30307
+58	第三个道馆的boss	59		56	0	0	0	0	guide_reward_58_title	guide_reward_58_desc	2#0#-15#2#0#-260#289#201	item_ticket_02#2,item_ticket_03#10,pokeball_03#3		1		0	0	none	0	none	0	0			40309
+59	战胜第三个道馆的boss	60			0	0	0	0				item_ticket_02#2,item_ticket_03#10,pokeball_03#3	700	2		0	0	none	0	none	0	0			40309
+60	第四个道馆的boss	61		58	0	0	0	0	guide_reward_60_title	guide_reward_60_desc	2#0#-15#2#0#-260#289#201	item_ticket_02#2,item_ticket_03#10,pokeball_03#3		1		0	0	none	0	none	0	0			50309
+61	战胜第四个道馆的boss	62			0	0	0	0				item_ticket_02#2,item_ticket_03#10,pokeball_03#3	900	2		0	0	none	0	none	0	0			50309
+62	第五个道馆的boss	63		60	0	0	0	0	guide_reward_62_title	guide_reward_62_desc	2#0#-15#2#0#-260#289#201	item_ticket_02#2,item_ticket_03#10,pokeball_03#3		1		0	0	none	0	none	0	0			60309
+63	战胜第五个道馆的boss	-1			0	0	0	0				item_ticket_02#2,item_ticket_03#10,pokeball_03#3	1200	2		0	0	none	0	none	0	0			60309
+64	点击宠物跟随按钮	65	64		0	0	0	0								0	0	all	1	pokemonPacket/PokemonPacket-Follow-Pet-Release	0	0#0#0#0#0#32#0#32		g2038_yindao_shouzhi.effect	
+65	确认开启宠物跟随	10	64		0	0	0	0								0	0	followPetPrivilegeTip/FollowPetPrivilege-item_yes	0	none	0#0#0#0#0#32#0#32	0	g2038_yindao_shouzhi.effect		

@@ -1,0 +1,158 @@
+{
+    "frames": {
+        "btn_0_synthesis": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 122,
+                "h": 121
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 122,
+                "h": 121
+            },
+            "sourceSize": {
+                "w": 122,
+                "h": 121
+            }
+        },
+        "img_0_light": {
+            "frame": {
+                "x": 124,
+                "y": 1,
+                "w": 254,
+                "h": 254
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 254,
+                "h": 254
+            },
+            "sourceSize": {
+                "w": 254,
+                "h": 254
+            }
+        },
+        "img_0_selectboards": {
+            "frame": {
+                "x": 379,
+                "y": 1,
+                "w": 397,
+                "h": 353
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 397,
+                "h": 353
+            },
+            "sourceSize": {
+                "w": 397,
+                "h": 353
+            }
+        },
+        "img_0_synthesis_board": {
+            "frame": {
+                "x": 777,
+                "y": 1,
+                "w": 58,
+                "h": 137
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 137
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 137
+            }
+        },
+        "img_0_tag_must": {
+            "frame": {
+                "x": 1,
+                "y": 355,
+                "w": 45,
+                "h": 48
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 48
+            }
+        },
+        "img_0_tag_new": {
+            "frame": {
+                "x": 47,
+                "y": 355,
+                "w": 45,
+                "h": 48
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 45,
+                "h": 48
+            },
+            "sourceSize": {
+                "w": 45,
+                "h": 48
+            }
+        },
+        "img_9_headlight": {
+            "frame": {
+                "x": 93,
+                "y": 355,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_9_titleboard": {
+            "frame": {
+                "x": 158,
+                "y": 355,
+                "w": 146,
+                "h": 77
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 146,
+                "h": 77
+            },
+            "sourceSize": {
+                "w": 146,
+                "h": 77
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_synthesis.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 836,
+            "h": 433
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

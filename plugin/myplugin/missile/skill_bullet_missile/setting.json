@@ -1,0 +1,36 @@
+{
+    "followTarget": true,
+    "canHitRider": true,
+    "collideEntity": 1,
+    "collideBlock": 0,
+    "hitCount": 1,
+    "hitInterval": 100,
+    "rotateSpeed": 0,
+    "boundingVolume": {
+        "params": [
+            1,
+            1,
+            1
+        ],
+        "type": "Box"
+    },
+    "startEffect":{
+        "effect": "g2038_skill_none.effect",
+        "pos": {
+            "x": 0,
+            "y": 0.85,
+            "z": 0
+        }
+    },
+    "lifeTime": 80,
+    "gravity": 0,
+    "moveSpeed": 0.25,
+    "moveAcc": 0,
+    "hitEntitySkill": "myplugin/skill_bullet_hit_buff",
+    "castSound": {
+        "volume": 10 ,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    }
+}

@@ -1,0 +1,5 @@
+<TimeLine time="3000"/>
+<Track name="camera_track" type="camera"/>
+<!--<Track name="ui_track" type="ui"/>-->
+<Track name="playable_track" type="playable"/>
+<!--<Track name="animation_track" type="animation" enable="true"/>-->

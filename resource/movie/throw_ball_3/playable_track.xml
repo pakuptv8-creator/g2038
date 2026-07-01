@@ -1,0 +1,3 @@
+<ScriptFrame func="throw_ball" startTime="0"/>
+<ScriptFrame func="createPet" startTime="1750"/>
+<ScriptFrame func="show_throw_ball_text" startTime="0"/>

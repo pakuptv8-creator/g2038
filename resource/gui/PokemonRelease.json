@@ -1,0 +1,294 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonRelease",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonRelease-Content",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,670},{0,600}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "15 15 15 15"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonRelease-Layout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-5},{0,6},{1,-15},{1,-6}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonRelease-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0,50}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 5"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonRelease-Title-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM20"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.415686 0.172549 0 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRelease-Tabs",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,2},{0,50},{1,-2},{0,105}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "5 5 5 5"
+                    },
+                    {
+                      "Name": "LayoutBackImage",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_color"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRelease-Tabs-List",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,20},{0,0},{0,620},{1,-10}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRelease-Buttons",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,1},{0,-1},{1,-1},{0,93}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "LayoutBackImage",
+                      "Value": "set:pokemon_pet_packet.json image:img_9_skilldescribeboard_color"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRelease-Release",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,213},{0,66}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "10 10 10 10"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_pet_packet.json image:btn_9_universal_green"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.278431 0.411765 0.0666667 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRelease-Packet-List",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,20},{0,120},{1,-20},{1,-115}}"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonRelease-Close",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-3},{0,3},{0,51},{0,57}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

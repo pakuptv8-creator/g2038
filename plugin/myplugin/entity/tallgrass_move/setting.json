@@ -1,0 +1,17 @@
+{
+  "actorName": "g2038_grassEffect.actor",
+  "autoRotateColliderBox": true,
+  "canClick": false,
+  "checkBlockCollision": false,
+  "checkTouchEvent": false,
+  "collision": false,
+  "collisionGroup": 2,
+  "collisionMask": 21,
+  "disableShadow": true,
+  "name": "",
+  "scale": 1.8,
+  "unassailable": 1,
+  "undamageable": 1,
+  "useStaticCollider": true,
+  "viewDistance": 135
+}

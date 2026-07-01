@@ -1,0 +1,7 @@
+{
+    "disableCollision": 1,
+	"collision":true,
+	"checkObjectCollision":false,
+    "deadRemove": true,
+	"avoidBuff": ["myplugin/disable_collision_buff"]
+}

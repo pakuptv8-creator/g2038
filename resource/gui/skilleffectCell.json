@@ -1,0 +1,70 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "skilleffectCell",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,35},{0,34}}"
+                },
+                {
+                    "Name": "VerticalAlignment",
+                    "Value": "Centre"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "skilleffectCell-item",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,35},{0,34}}"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "skilleffectCell-round",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,15},{0,19}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextBorder",
+                            "Value": "true"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "skilleffectCell-effect",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,35},{0,34}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

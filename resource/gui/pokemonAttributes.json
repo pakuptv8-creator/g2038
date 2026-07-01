@@ -1,0 +1,728 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemonAttributes",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,462},{0,290}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "AttributesLayout",
+          "Property": [
+            {
+              "Name": "BackgroundColor",
+              "Value": "0.996078 0.945098 0.835294 1"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "HPInfo",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0291262,0},{0.0334728,0},{1.02913,-12},{0.0334728,24}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "HPIcon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,24},{0,24}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hp"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "HPName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,0},{0.5,50},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "HPAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,70},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CurHP",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-85},{0,0},{0,15},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "SpeedInfo",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0291262,0},{0.188285,0},{1.02913,-12},{0.188285,24}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "SpeedIcon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,24},{0,24}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "SpeedName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,0},{0.5,50},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "SpeedAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,70},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CurSpeed",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-85},{0,0},{0,15},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PAtkInfo",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0291262,0},{0.380753,0},{1.02913,-12},{0.380753,24}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PAtkIcon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,24},{0,24}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicalattacks"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PAtkName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,0},{0.5,50},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PAtkAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,70},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CurPAtk",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-85},{0,0},{0,15},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PDefInfo",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0291262,0},{0.51046,0},{1.02913,-12},{0.51046,24}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PDefIcon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,24},{0,24}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicaldefense"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PDefName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,0},{0.5,50},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PDefAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,70},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CurPDef",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-85},{0,0},{0,15},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "MAtkInfo",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0291262,0},{0.715481,0},{1.02913,-12},{0.715481,24}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "MAtkIcon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,24},{0,24}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellattacks"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "MAtkName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,0},{0.5,50},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "MAtkAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,70},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CurMAtk",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-85},{0,0},{0,15},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "MDefInfo",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0291262,0},{0.849372,0},{1.02913,-12},{0.849372,24}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "MDefIcon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,24},{0,24}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellprotection"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "MDefName",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,50},{0,0},{0.5,50},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "MDefAdd",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,70},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CurMDef",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-85},{0,0},{0,15},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.501961 0 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

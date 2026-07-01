@@ -1,0 +1,10 @@
+n_id	n_type	n_sortId	s_startTime	s_endTime	s_updateTime	n_commonWnd	s_tabName	s_tabJson	s_tabBgRes	s_textColorLeftTop	s_textColorRightTop	s_textColorLeftBottom	s_textColorRightBottom
+活动id	活动类型 1限时抽奖 2必中抽奖  3组合限时 4独立限时 5月礼包 6周礼包 7折扣礼包 8周月卡 9可选礼包 10金币转盘	排序	开始时间 默认 0-0-0-0-0-0 	结束时间 默认 0-0-0-0-0-0 	刷新时间 0-0-0-0 天-时-分-秒	通用大窗口 1 限时活动	标签名	打开界面 lua名 去win_	按钮图片	标签文字颜色  左上	 右上	 左下	 右下
+10001	1	2	2022-12-2	2023-12-20	2-0-0-0	1	gui.limit.time.activity.draw.title	limitedTimeDraw	set:limited_time_activity.json image:btn_0_sweepstakes	1 1 1 1	1 1 1 1	0.890196 0.972549 0.988235 1	0.890196 0.972549 0.988235 1
+20002	2	1	2022-12-15	2023-1-2		1	gui.limit.time.activity.fisherman.gift	mustWinLottery	set:limited_time_activity.json image:btn_0_fisherman01	1 0.87 0.63 1	1 0.87 0.63 1	1 0.73 0.2 1	1 0.73 0.2 1
+40001	4		2022-11-20	2022-11-28									
+40002	4		2022-11-20	2023-1-2									
+70001	7	5	2022-12-09	2022-12-19	7-0-0-0	1	gui.limit.time.activity.discount.title	limitTimeDiscountWnd	set:limited_time_activity.json image:btn_0_discount	1 0.98 0.95 1	1 0.98 0.95 1	0.99 0.8 0.52 1	0.99 0.8 0.52 1
+80001	8	6	2022-12-1	2023-12-1		1	gui.limit.time.activity.card.title	limitedTimeCard	set:limited_time_activity.json image:btn_0_monthly_card	0.97 0.65 0.22 1	0.97 0.65 0.22 1	0.91 0.50 0.2 1	0.91 0.50 0.2 1
+90001	9	3	2022-12-13	2023-1-2		1	gui.limit.time.activity.optional.title	limitTimeOptionalWnd	set:limited_time_activity.json image:btn_0_gift_pack	0.99 0.99 0.98 1	0.99 0.99 0.98 1	0.92 0.82 0.56 1	0.92 0.82 0.56 1
+100001	10	4	2022-12-09	2022-12-10		1	gui.limit.time.activity.gold.wheel.title	limitedTimeGoldWheel	set:limited_time_activity.json image:btn_0_turntable00	1 1 1 1	1 1 1 1	0.93 0.82 0.51 1	0.93 0.82 0.51 1

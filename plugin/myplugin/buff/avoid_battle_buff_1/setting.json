@@ -1,0 +1,5 @@
+{
+    "needSave": false,
+    "buffTime": 60,
+    "removeBuff": ["avoid_battle_buff_1"]
+}

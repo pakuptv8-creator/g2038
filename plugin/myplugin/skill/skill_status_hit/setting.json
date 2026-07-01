@@ -1,0 +1,13 @@
+{
+    "type": "Buff",
+    "buffCfg": "myplugin/buff_status_hit",
+    "target": "self",
+    "castAction": "",
+    "castSound": {
+      "loop": false,
+      "selfOnly": false,
+      "sound": "/sound/skill_none.mp3",
+      "volume": 10
+    },
+    "isMainSkill": false
+  }

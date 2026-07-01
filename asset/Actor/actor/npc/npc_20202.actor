@@ -1,0 +1,544 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="npc_20202.actor" Originalscale="1 1 1" Skeleton="boy_01.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "55_trunk_boy.skin" ChangeColor = "2.10195e-44 0 0 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Skin MeshName = "55_trousers_boy.skin" ChangeColor = "0.046201 0.046201 0.046201 0.046201" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="48_shoes_r_boy.mesh"/>
+					<SocketName value="s_foot_r"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="48_shoes_l_boy.mesh"/>
+					<SocketName value="s_foot_l"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="17_face_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+				<StaticMesh LocalAlpha = "1" >
+					<FileName value="06_hair_boy.mesh"/>
+					<SocketName value="s_head"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<UseBloom value="false"/>
+					<LocalBrightnessScale value="1"/>
+					<UseTransparentNearestSlice value="false"/>
+					<OverlayColor value="1 1 1 1"/>
+					<SpecularColor value="1 1 1 1"/>
+					<SpecularCoef value="0.15"/>
+					<SpecularStrength value="1"/>
+				</StaticMesh>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+		<Skill Name="g2038_fail_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_fail.anim" BeginTime = "0" Times = "1" Length = "2.633" FadeTime = "0.25" Channel = "" TimeScale = "0.9">
+				</Animation>
+			</Skill>
+			<Skill Name="g2038_throw_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="1.3"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1.5"/>
+					<Times value="1"/>
+					<Position_X value="-0.75"/>
+					<Position_Y value="2.5"/>
+					<Position_Z value="4.75"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.25"/>
+					<TimeScale value="0.8"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_throwBall_fall_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1.3"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="4"/>
+					<Position_Z value="2.75"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1.2"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_02.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_03" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_03.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_04" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_04.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_05" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_05.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_06" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_06.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_07" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_07.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_08" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_08.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_throw_09" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_boy_throwpkm.anim" BeginTime = "0" Times = "1" Length = "2.266" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2038_throwBall_09.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_summon_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="1"/>
+					<Times value="1"/>
+					<Position_X value="-0.492837"/>
+					<Position_Y value="0.646177"/>
+					<Position_Z value="2.85485"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="1"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="g2038_victory_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "1.9" Times = "1" Length = "2.033" FadeTime = "0.5" Channel = "" TimeScale = "1">
+				</Animation>
+				<Animation Name = "g2038_boy_victory.anim" BeginTime = "0" Times = "1" Length = "1.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<SlowDown timeScale = "0.2" beginTime = "1.52" durationTime = "1" equalizeTime = "1" Cascade = "false" ShowRate = "1">
+				</SlowDown>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "boy_stand05.anim" BeginTime = "0" Times = "-1" Length = "2.033" FadeTime = "0.05" Channel = "lower" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2038_taunt_01" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "yes.anim" BeginTime = "0" Times = "1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2038_taunt_02" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "no.anim" BeginTime = "0" Times = "1" Length = "2.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle_upset" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2035_arrested.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="scratchhead_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_scratchhead_boy.anim" BeginTime = "0" Times = "1" Length = "6.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="scratchhead_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_scratchhead_girl.anim" BeginTime = "0" Times = "1" Length = "6.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="wave_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_wave_boy.anim" BeginTime = "0" Times = "1" Length = "6.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="wave_2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "christmas_wave_girl.anim" BeginTime = "0" Times = "1" Length = "6.7" FadeTime = "0.01" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="yes.anim"/>
+				<Anim Name="no.anim"/>
+				<Anim Name="boy_stand05.anim"/>
+				<Anim Name="g2038_boy_fail.anim"/>
+				<Anim Name="g2038_boy_victory.anim"/>
+				<Anim Name="g2038_boy_throwpkm.anim"/>
+				<Anim Name="g2038_boy_catchpkm.anim"/>
+				<Anim Name="christmas_scratchhead_boy.anim"/>
+				<Anim Name="christmas_scratchhead_girl.anim"/>
+				<Anim Name="christmas_wave_boy.anim"/>
+				<Anim Name="christmas_wave_girl.anim"/>
+				<Anim Name="g2035_arrested.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

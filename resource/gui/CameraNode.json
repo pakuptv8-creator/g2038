@@ -1,0 +1,124 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "CameraNode",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,100},{0,100}}"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "CameraNode-Node",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,50},{0,50}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0.501961 0 1"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button",
+          "Window": [
+            {
+              "Name": "CameraNode-Del",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,0},{0,40},{0,20}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM12"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "1 0 0 1"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        },
+        {
+          "Name": "CameraNode-Array",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,1},{0,50}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "1 1 1 1"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

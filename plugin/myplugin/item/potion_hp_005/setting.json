@@ -1,0 +1,24 @@
+{
+  "battleUse": true,
+  "canUse": true,
+  "cureType": [
+    1
+  ],
+  "desc": "potion_hp_005_desc",
+  "dose": 1,
+  "effectBuff": "myplugin/cure_hp_effect_buff_1",
+  "group": true,
+  "icon": "set:g2038_pokemon_potion.json image:g2038_potion_hp_005",
+  "imposeTray": [
+    2
+  ],
+  "itemId": 15,
+  "itemName": "potion_hp_005_name",
+  "itemType": 2,
+  "needSave": true,
+  "price": 10,
+  "rarity": 5,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

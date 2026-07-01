@@ -1,0 +1,2534 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "PokemonLuckyEgg",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "PokemonLuckyEgg-bg",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonLuckyEgg-Draw",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "35 35 90 30"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonLuckyEgg-egg-modelPanel",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "PokemonLuckyEgg-eggShadowBg",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,200},{0,263},{0,283}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:pokemon_lucky_egg.json image:img_0_shadow"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "PokemonLuckyEgg-modelEffect1",
+                                    "Property": [
+                                        {
+                                            "Name": "EffectFileName",
+                                            "Value": "g2038_choudan_bg_1.effect"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{-0.0195312,0},{-0.0694444,0},{0.0585938,0},{0.0694446,0}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "ActorWindow",
+                                    "Name": "PokemonLuckyEgg-eggModel",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{-0.0195312,0},{-0.0694444,0},{0.371094,0},{0.625,0}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "ActorWindowActorName",
+                                            "Value": ""
+                                        },
+                                        {
+                                            "Name": "ActorWindowSkillName",
+                                            "Value": ""
+                                        },
+                                        {
+                                            "Name": "ActorWindowRotateX",
+                                            "Value": "0"
+                                        },
+                                        {
+                                            "Name": "ActorWindowRotateY",
+                                            "Value": "0"
+                                        },
+                                        {
+                                            "Name": "ActorWindowRotateZ",
+                                            "Value": "0"
+                                        },
+                                        {
+                                            "Name": "ActorWindowOffset",
+                                            "Value": "0 0 0"
+                                        },
+                                        {
+                                            "Name": "ActorWindowScale",
+                                            "Value": "1"
+                                        },
+                                        {
+                                            "Name": "ActorWindowNeedNearOffset",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "PokemonLuckyEgg-modelEffect2",
+                                    "Property": [
+                                        {
+                                            "Name": "EffectFileName",
+                                            "Value": "g2038_choudan_boom_1.effect"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{-0.0694444,0},{0.15625,0},{0.208334,0}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonLuckyEgg-egg-content",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,3},{0,4},{1,3},{1,4}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyEgg-leftContent",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,1280},{0,720}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Button",
+                                            "Name": "PokemonLuckyEgg-probabilityBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,94},{0,-78},{0,137},{0,-35}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "33 33 25 25"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM16"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_probability"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_probability"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightnessEnable",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-probabilityTxt",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.581395,0},{2.37209,0},{1.06977,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM16"
+                                                        },
+                                                        {
+                                                            "Name": "TextColor",
+                                                            "Value": "0.529412 0.0901961 0 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyEgg-reward-bg",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.03125,0},{0.440278,0},{0.246875,0},{0.688889,0}}"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-rewardTitle",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{0.32,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM16"
+                                                        },
+                                                        {
+                                                            "Name": "MinFont",
+                                                            "Value": "PKM14"
+                                                        },
+                                                        {
+                                                            "Name": "AutoShrinkFont",
+                                                            "Value": "true"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextWordWrap",
+                                                            "Value": "true"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.415686 0.172549 0 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-rewardGoodBg",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.346369,0},{0.300725,0},{0.810056,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "20 20 20 20"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_bag.json image:chb_9_words"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-rewardPBG",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.351955,0},{0.289855,0},{0.798882,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "10 10 10 10"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_lucky_egg.json image:img_0_frame_bg"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-rewardGoodIcon",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.374302,0},{0.26087,0},{0.776537,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-rewardFrame",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.346369,0},{0.300725,0},{0.810056,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_pet_frame.json image:img_0_frame_blue"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-rewardProcess",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.860335,0},{0,79},{0.860335,34.7519}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM18"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.415686 0.172549 0 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-rewardEffect",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "EffectFileName",
+                                                            "Value": "g2038_choudan_lingqu.effect"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.0446927,0},{0.344203,0},{0.575419,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "10 10 10 10"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-elite_red_panel_reward",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.346369,0},{0.300725,0},{0.810056,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-normal_red_panel_reward",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.346369,0},{0.300725,0},{0.810056,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-flash_red_panel_reward",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.346369,0},{0.300725,0},{0.810056,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "PokemonLuckyEgg-STitle",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.0148437,0},{0.21,0},{0.259375,0},{0.41,0}}"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM35"
+                                                },
+                                                {
+                                                    "Name": "MinFont",
+                                                    "Value": "PKM14"
+                                                },
+                                                {
+                                                    "Name": "AutoShrinkFont",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextWordWrap",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "1 1 1 1"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "PokemonLuckyEgg-cardPoolBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.0117188,0},{0.118056,0},{0.264063,0},{0.2,0}}"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "33 33 25 25"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM16"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_9_cardpool"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_9_cardpool"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightnessEnable",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-cardPoolTxt",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.2,1},{0,2},{0.95,1},{1,2}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM20"
+                                                        },
+                                                        {
+                                                            "Name": "MinFont",
+                                                            "Value": "PKM14"
+                                                        },
+                                                        {
+                                                            "Name": "AutoShrinkFont",
+                                                            "Value": "true"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextWordWrap",
+                                                            "Value": "true"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-cardPoolIcon",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.0650155,0},{0,0},{0.173375,0},{0.559322,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_lucky_egg.json image:img_0_cardpool_icon"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyEgg-midContent",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,1280},{0,720}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyEgg-takeMust",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.560938,0},{-0.180556,0},{0.773438,0},{-0.111112,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-takeMustCount",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{0,46},{0,30.8832}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM16"
+                                                        },
+                                                        {
+                                                            "Name": "TextColor",
+                                                            "Value": "0.529412 0.0901961 0 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-takeMustStar",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{-0.3125,0},{0.54,0},{0.422794,0},{1.14,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-takeMustTxt",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.165441,0},{0.52,0},{0.165441,59},{0.52,38.6209}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM20"
+                                                        },
+                                                        {
+                                                            "Name": "TextColor",
+                                                            "Value": "0.529412 0.0901961 0 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "PokemonLuckyEgg-takeBtn10",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.560938,0},{-0.0416667,0},{0.773438,0},{0.0833333,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "33 33 25 25"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM16"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightnessEnable",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-takeTile10",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.05,0},{1,0},{0.05,34.7519}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM18"
+                                                        },
+                                                        {
+                                                            "Name": "MinFont",
+                                                            "Value": "PKM14"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-takePrice10",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.470588,0},{-0.222222,0},{0.775735,0},{0.077778,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM20"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-takeIcon10",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,58},{0,-15},{0,98},{0,25}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemonMain.json image:icon_coin"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-takeTicket10",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,40},{0,-15},{0,98},{0,21}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-elite_red_panel_ten",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-normal_red_panel_ten",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-flash_red_panel_ten",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "PokemonLuckyEgg-takeBtn1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.210938,0},{-0.0416667,0},{0.423438,0},{0.0833333,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "33 33 25 25"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM16"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightnessEnable",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-takeTile1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.111111,0},{0.636029,0},{0.388889,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM18"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-takePrice1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.470588,0},{-0.222222,0},{0.775735,0},{0.077778,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM20"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.733333 0.145098 0.054902 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-takeIcon1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,58},{0,-15},{0,98},{0,25}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemonMain.json image:icon_coin"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-takeTicket1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,40},{0,-15},{0,98},{0,21}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyEgg-tenBtnEffect",
+                                            "Property": [
+                                                {
+                                                    "Name": "EffectFileName",
+                                                    "Value": "g2038_choudan_button1.effect"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0.625,0},{-0.118056,0},{0.742188,0},{0.090277,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyEgg-rightContent",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,1280},{0,720}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Button",
+                                            "Name": "PokemonLuckyEgg-wishBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{-0.0507813,0},{-0.255556,0},{0.04375,0},{-0.1125,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "33 33 25 25"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM16"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_trevifountain"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:pokemon_lucky_egg.json image:btn_0_trevifountain"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightnessEnable",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-wishTitle",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.0970874,0},{0,0},{0.0970874,35}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM16"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadow",
+                                                            "Value": "true"
+                                                        },
+                                                        {
+                                                            "Name": "TextShadowColor",
+                                                            "Value": "0.454902 0.243137 0.0392157 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorder",
+                                                            "Value": "true"
+                                                        },
+                                                        {
+                                                            "Name": "TextBorderColor",
+                                                            "Value": "0.454902 0.243137 0.0392157 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-wishEffect",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "EffectFileName",
+                                                            "Value": "g2038_gift_xuyuan.effect"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{-1.06796,0},{1.40496,0},{0.58253,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "10 10 10 10"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyEgg-ticketPanel",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{-0.0203125,0},{-0.0513889,0},{0.135937,0},{0.0041667,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "20 20 20 20"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:pokemon_lucky_egg.json image:img_9_ticketbg"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-ticketTitle",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,-35},{0,179},{0,-5}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM18"
+                                                        },
+                                                        {
+                                                            "Name": "TextColor",
+                                                            "Value": "0.529412 0.0901961 0 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-ticketIcon",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.11,0},{0,0},{0.4,0},{0.9,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyEgg-ticketCount",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0.545,0},{0,0},{1.235,0},{0.45,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM18"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyEgg-tabPanel",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{-0.00625,0},{0.123611,0},{0.235938,0},{0.525,0}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-Tab1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.0968858,0},{1,0},{0.339101,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "SoundName",
+                                                            "Value": "11"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-normalTab1",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:chb_9_cardpool_on"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-selectTab1",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Visible",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:chb_9_cardpool_over"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-TabIcon1",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,21},{0,0},{0,69},{0,41}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:img_0_flashicon_over"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyEgg-TabTitle1",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{0.7,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM24"
+                                                                },
+                                                                {
+                                                                    "Name": "MinFont",
+                                                                    "Value": "PKM14"
+                                                                },
+                                                                {
+                                                                    "Name": "AutoShrinkFont",
+                                                                    "Value": "true"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextBorderColor",
+                                                                    "Value": "0.415686 0.172549 0 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextCharaterRotation",
+                                                                    "Value": "false"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-Tab2",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.429066,0},{1,0},{0.671281,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "SoundName",
+                                                            "Value": "11"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-normalTab2",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:chb_9_cardpool_on"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-selectTab2",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Visible",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:chb_9_cardpool_over"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-TabIcon2",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0.0677419,0},{0,0},{0.232258,0},{0.4,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:img_0_eliteicon_over"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyEgg-TabTitle2",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{0.7,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM24"
+                                                                },
+                                                                {
+                                                                    "Name": "MinFont",
+                                                                    "Value": "PKM14"
+                                                                },
+                                                                {
+                                                                    "Name": "AutoShrinkFont",
+                                                                    "Value": "true"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextBorderColor",
+                                                                    "Value": "0.415686 0.172549 0 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextCharaterRotation",
+                                                                    "Value": "false"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyEgg-Tab3",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.757785,0},{1,0},{1,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "SoundName",
+                                                            "Value": "11"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-normalTab3",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:chb_9_cardpool_on"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-selectTab3",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Visible",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:chb_9_cardpool_over"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-TabIcon3",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,21},{0,0},{0,73},{0,27}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "35 35 30 30"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:img_0_normicon_over"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyEgg-TabTitle3",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{0.7,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM24"
+                                                                },
+                                                                {
+                                                                    "Name": "MinFont",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "AutoShrinkFont",
+                                                                    "Value": "true"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextBorderColor",
+                                                                    "Value": "0.415686 0.172549 0 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextCharaterRotation",
+                                                                    "Value": "false"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyEgg-tabTimeBg",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{0.625806,0},{0.103806,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "17 17 15 15"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:pokemon_lucky_egg.json image:img_9_flash_timebg"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyEgg-tabTimeIcon",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0.056701,0},{0,0},{0.185567,0},{0.833333,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_lucky_egg.json image:img_0_timeicon"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyEgg-tabTimeTxt",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0.231959,0},{0,0},{0.943299,0},{0.6,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM18"
+                                                                },
+                                                                {
+                                                                    "Name": "AutoShrinkFont",
+                                                                    "Value": "true"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextCharaterRotation",
+                                                                    "Value": "false"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "PokemonLuckyEgg-BtnClose",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,167},{0,63}}"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "SoundName",
+                                            "Value": "6"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:pokemon_lucky_egg.json image:btn_0_return"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:pokemon_lucky_egg.json image:btn_0_return"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightnessEnable",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "PokemonLuckyEgg-Shop",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-20},{0,5},{0,35},{0,60}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:pokemonMain.json image:btn_shop"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:pokemonMain.json image:btn_shop"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyEgg-Gold-Diamond",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-100},{0,10},{0,61},{0,53}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "15 40 0 0"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:pokemonMain.json image:bg_coin"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyEgg-Cash-Coupon",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-500},{0,10},{0,-339},{0,53}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "15 40 0 0"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:pokemonMain.json image:bg_coin"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyEgg-Currency-Money",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-280},{0,10},{0,-80},{0,53}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "15 40 0 0"
+                                        },
+                                        {
+                                            "Name": "LayoutBackImage",
+                                            "Value": "set:pokemonMain.json image:bg_coin"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonLuckyEgg-coverBg",
+                            "Property": [
+                                {
+                                    "Name": "Visible",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Button",
+                                    "Name": "PokemonLuckyEgg-BtnSkip",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-33},{0,114},{0,107},{0,144}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:pokemon_lucky_egg.json image:btn_0_skip"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:pokemon_lucky_egg.json image:btn_0_skip"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightnessEnable",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

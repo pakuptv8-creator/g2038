@@ -1,0 +1,19 @@
+{
+  "type": "Missile",
+  "targetType": "Entity",
+  "cdTime": 0,
+  "castAction": "",
+  "castActionTime": -1,
+  "missileCfg": "myplugin/skill_singleSpell_missile_2",
+  "missileCount": 1,
+  "startWait": [
+        1
+   ],
+  "startPos": [
+        {
+            "z": 0,
+            "x": 0,
+            "y": -1.5
+        }
+    ]
+}

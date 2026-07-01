@@ -1,0 +1,268 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_book_item_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,200},{0,200},{0,328},{0,341}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "10 10 10 10"
+        },
+        {
+          "Name": "SoundName",
+          "Value": "8"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_book_item_cell-Border",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,-2},{1,-2}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:NewPokemonBook.json image:chb_9_pet_message"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_book_item_cell-Icon",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,16},{0,90},{0,106}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:g2038_pokemon_icon.json image:pet_07_2"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_book_item_cell-StarBG",
+              "Property": [
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0 0 0 0.490196"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-2},{0,91},{0,21}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "pokemon_book_item_cell-IconBG",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,4},{1,4}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "pokemon_book_item_cell-Star-Layout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-2},{0,128},{0,21}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "pokemon_book_item_cell-RaceIcon",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-9},{0,-9},{0,21},{0,21}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_race.json image:img_0_race_fire"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        },
+        {
+          "Name": "pokemon_book_item_cell-Name",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,-13},{0,88},{0,2}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            },
+            {
+              "Name": "MinFont",
+              "Value": "PKM12"
+            },
+            {
+              "Name": "AutoShrinkFont",
+              "Value": "true"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.27451 0.556863 0.72549 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_book_item_cell-Mask",
+          "Property": [
+            {
+              "Name": "DrawColor",
+              "Value": "0 0 0 0.5"
+            },
+            {
+              "Name": "Alpha",
+              "Value": "0.5"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:NewPokemonBook.json image:chb_9_pet_message"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_book_item_cell-Selected",
+          "Property": [
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:select_1"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLuckyExtra",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonLuckyExtra-Mask",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,2},{0,-1},{1,2},{1,-1}}"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.588235"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonLuckyExtra-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.60625,0},{0.759722,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLuckyExtra-topBg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,3},{1,-6},{0,68}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_lucky_egg.json image:img_9_boxtop_blue"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonLuckyExtra-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.0182815,0},{0.159794,0},{0.111517,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonLuckyExtra-awardList",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.129799,0},{0.990979,0},{0.989031,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

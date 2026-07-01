@@ -1,0 +1,73 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2043_pet_10101.actor" Originalscale="1 1 1" Skeleton="asset/Actor/g2043_pet_10101/g2043_pet_10101.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name0" SlaveName="group0" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "asset/Actor/g2043_pet_10101/g2043_pet_10101.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_attack1.anim" BeginTime = "0" Times = "1" Length = "1.1" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+				<SlowDown timeScale = "0.6" beginTime = "0.22" durationTime = "0.5" equalizeTime = "0.5" Cascade = "false" ShowRate = "1">
+				</SlowDown>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_attack2.anim" BeginTime = "0" Times = "1" Length = "1.166" FadeTime = "0.05" Channel = "" TimeScale = "0.75">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="die" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_hit.anim" BeginTime = "0" Times = "1" Length = "0.633" FadeTime = "0.25" Channel = "" TimeScale = "0.6">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="hurt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_hit.anim" BeginTime = "0" Times = "1" Length = "0.633" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_dile.anim" BeginTime = "0" Times = "-1" Length = "2.7" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_run.anim" BeginTime = "0" Times = "-1" Length = "1.166" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="rush" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_run.anim" BeginTime = "0" Times = "-1" Length = "1.166" FadeTime = "0.25" Channel = "" TimeScale = "1.3">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="show" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "asset/Actor/g2043_pet_10101/g2043_pet_10101_show.anim" BeginTime = "0" Times = "1" Length = "3.066" FadeTime = "0.05" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.2" endScale = "1.2" >
+				</ActorScaleChange>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="asset/Actor/g2043_pet_10101/g2043_pet_10101_attack1.anim"/>
+				<Anim Name="asset/Actor/g2043_pet_10101/g2043_pet_10101_hit.anim"/>
+				<Anim Name="asset/Actor/g2043_pet_10101/g2043_pet_10101_attack2.anim"/>
+				<Anim Name="asset/Actor/g2043_pet_10101/g2043_pet_10101_run.anim"/>
+				<Anim Name="asset/Actor/g2043_pet_10101/g2043_pet_10101_show.anim"/>
+				<Anim Name="asset/Actor/g2043_pet_10101/g2043_pet_10101_dile.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

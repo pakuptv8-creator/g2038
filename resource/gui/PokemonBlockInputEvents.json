@@ -1,0 +1,14 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonBlockInputEvents",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout"
+    }
+  }
+}

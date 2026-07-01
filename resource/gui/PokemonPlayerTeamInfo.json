@@ -1,0 +1,126 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonPlayerTeamInfo",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,350},{0,100}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonPlayerTeamInfo-HeadImg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,20},{0,0},{0,92},{0,72}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemonMain.json image:img_0_defaulthead"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonPlayerTeamInfo-headImgBg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,20},{0,0},{0,94},{0,74}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "5 5 5 5"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemonMain.json image:img_9_headframe"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "PokemonPlayerTeamInfo-Level",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,10},{1,0},{0,35}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.478431 0.180392 0.101961 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        },
+        {
+          "Name": "PokemonPlayerTeamInfo-IdBg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,12},{0,0},{0,102},{0,15}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.588235"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "PokemonPlayerTeamInfo-Id",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM12"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

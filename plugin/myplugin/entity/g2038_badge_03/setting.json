@@ -1,0 +1,10 @@
+{
+  "actorName": "g2038_badge_03.actor",
+  "base": "g2038_static_base_build",
+  "boundingVolume": {
+    "params": [],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

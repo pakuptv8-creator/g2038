@@ -1,0 +1,14 @@
+<!--跳跃行为-->
+<ControlJumpFrame targetPosX="198.823636363636" targetPosY="122.004545454545" targetPosZ="107.242727272727" startTime="26500" endTime="27000"/>
+<ControlJumpFrame targetPosX="187.197272727273" targetPosY="129.009090909091" targetPosZ="108.785454545455" startTime="27000" endTime="27500"/>
+<ControlJumpFrame targetPosX="175.570909090909" targetPosY="136.013636363636" targetPosZ="110.328181818182" startTime="27500" endTime="28000"/>
+<ControlJumpFrame targetPosX="163.944545454545" targetPosY="143.018181818182" targetPosZ="111.870909090909" startTime="28000" endTime="28500"/>
+<ControlJumpFrame targetPosX="152.318181818182" targetPosY="150.022727272727" targetPosZ="113.413636363636" startTime="28500" endTime="29000"/>
+<ControlJumpFrame targetPosX="140.691818181818" targetPosY="157.027272727273" targetPosZ="114.956363636364" startTime="29000" endTime="29500"/>
+<ControlJumpFrame targetPosX="129.065454545455" targetPosY="164.031818181818" targetPosZ="116.499090909091" startTime="29500" endTime="30000"/>
+<ControlJumpFrame targetPosX="117.439090909091" targetPosY="171.036363636364" targetPosZ="118.041818181818" startTime="30000" endTime="30500"/>
+<ControlJumpFrame targetPosX="105.812727272727" targetPosY="178.040909090909" targetPosZ="119.584545454545" startTime="30500" endTime="31000"/>
+<ControlJumpFrame targetPosX="94.1863636363636" targetPosY="185.045454545455" targetPosZ="121.127272727273" startTime="31000" endTime="31500"/>
+<ControlJumpFrame targetPosX="80.5" targetPosY="192.05" targetPosZ="126.67" startTime="31500" endTime="32000"/>
+
+

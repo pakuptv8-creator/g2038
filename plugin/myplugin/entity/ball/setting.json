@@ -1,0 +1,26 @@
+{
+  "actorName": "ball.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "canClick": true,
+  "collision": true,
+  "disableShadow": true,
+  "isClick": true,
+  "name": "",
+  "viewDistance": 288
+}

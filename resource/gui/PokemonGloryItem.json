@@ -1,0 +1,180 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonGloryItem",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,100},{0,100},{0,192},{0,191}}"
+        },
+        {
+          "Name": "SoundName",
+          "Value": "11"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonGloryItem-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_bag.json image:chb_0_box"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "PokemonGloryItem-Icon",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,-10},{1,-10}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryItem-GrayMask",
+              "Property": [
+                {
+                  "Name": "BackgroundColor",
+                  "Value": "0.501961 0.501961 0.501961 0.501961"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryItem-RedMask",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "25 25 25 25"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:player.json image:img_9_honour_redsector"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryItem-Tic",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,33},{0,33}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:player.json image:img_0_personaldetails_redexclamationmark"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryItem-Sel",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,32.625},{0,32.625}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:player.json image:img_0_personaldetails_greencheck"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryItem-Effect",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_shouchong_kuang.effect"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

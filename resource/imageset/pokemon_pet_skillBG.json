@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "skill_btoom_fire": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 241,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 241,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 241,
+                "h": 59
+            }
+        },
+        "skill_btoom_grass": {
+            "frame": {
+                "x": 243,
+                "y": 1,
+                "w": 241,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 241,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 241,
+                "h": 59
+            }
+        },
+        "skill_btoom_normal": {
+            "frame": {
+                "x": 485,
+                "y": 1,
+                "w": 241,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 241,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 241,
+                "h": 59
+            }
+        },
+        "skill_btoom_specail": {
+            "frame": {
+                "x": 1,
+                "y": 61,
+                "w": 241,
+                "h": 59
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 241,
+                "h": 59
+            },
+            "sourceSize": {
+                "w": 241,
+                "h": 59
+            }
+        },
+        "skill_btoom_super": {
+            "frame": {
+                "x": 243,
+                "y": 61,
+                "w": 247,
+                "h": 65
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 247,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 247,
+                "h": 65
+            }
+        },
+        "skill_btoom_water": {
+            "frame": {
+                "x": 491,
+                "y": 61,
+                "w": 247,
+                "h": 65
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 247,
+                "h": 65
+            },
+            "sourceSize": {
+                "w": 247,
+                "h": 65
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_pet_skillBG.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 739,
+            "h": 127
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

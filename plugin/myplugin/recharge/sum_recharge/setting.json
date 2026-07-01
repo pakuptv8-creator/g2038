@@ -1,0 +1,23 @@
+{
+	"items": [
+		{
+			"id": 1,
+			"sex": 0,
+			"nextId": 2,
+			"layoutUIName": "EndlessSumRechargeLayout.json",
+			"resultUIName": "EndlessSumRechargeResult.json",
+			"rewardUIName": "EndlessSumRechargeReward.json",
+			"layoutMainImage": "",
+			"layoutSubImage": "",
+			"receiveImage": "",
+			"rechargeImage": "",
+			"titleLang": "FirstRechargeTip1",
+			"hintLang": "FirstRechargeTip2",
+			"writingLang": "FirstRechargeTip3",
+			"gcube": 60,
+			"rewards": [
+
+			]
+        }
+    ]
+}

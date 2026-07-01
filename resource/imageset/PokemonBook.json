@@ -1,0 +1,338 @@
+{
+    "frames": {
+        "btn_9_not_obtained": {
+            "frame": {
+                "x": 413,
+                "y": 1,
+                "w": 62,
+                "h": 62
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 62
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 62
+            }
+        },
+        "btn_9_see_details": {
+            "frame": {
+                "x": 476,
+                "y": 1,
+                "w": 62,
+                "h": 62
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 62,
+                "h": 62
+            },
+            "sourceSize": {
+                "w": 62,
+                "h": 62
+            }
+        },
+        "chb_0_Headpicture": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 13,
+                "h": 23
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 23
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 23
+            }
+        },
+        "chb_9_Common": {
+            "frame": {
+                "x": 295,
+                "y": 1,
+                "w": 58,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 58
+            }
+        },
+        "chb_9_Common_checked": {
+            "frame": {
+                "x": 354,
+                "y": 1,
+                "w": 58,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 58
+            }
+        },
+        "chb_9_Headpicture": {
+            "frame": {
+                "x": 103,
+                "y": 1,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "chb_9_pet_message": {
+            "frame": {
+                "x": 669,
+                "y": 1,
+                "w": 70,
+                "h": 70
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 70,
+                "h": 70
+            },
+            "sourceSize": {
+                "w": 70,
+                "h": 70
+            }
+        },
+        "chb_9_special": {
+            "frame": {
+                "x": 236,
+                "y": 1,
+                "w": 58,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 58
+            }
+        },
+        "chb_9_special_checked": {
+            "frame": {
+                "x": 177,
+                "y": 1,
+                "w": 58,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 58
+            }
+        },
+        "circle_shadow": {
+            "frame": {
+                "x": 291,
+                "y": 72,
+                "w": 410,
+                "h": 75
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 410,
+                "h": 75
+            },
+            "sourceSize": {
+                "w": 410,
+                "h": 75
+            }
+        },
+        "img_0_arrow": {
+            "frame": {
+                "x": 68,
+                "y": 1,
+                "w": 34,
+                "h": 31
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 31
+            }
+        },
+        "img_0_what": {
+            "frame": {
+                "x": 37,
+                "y": 1,
+                "w": 30,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 30
+            }
+        },
+        "img_0_what_1": {
+            "frame": {
+                "x": 15,
+                "y": 1,
+                "w": 21,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 37
+            }
+        },
+        "img_0_what_2": {
+            "frame": {
+                "x": 86,
+                "y": 72,
+                "w": 204,
+                "h": 117
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 204,
+                "h": 117
+            },
+            "sourceSize": {
+                "w": 204,
+                "h": 117
+            }
+        },
+        "img_9_attributeboard": {
+            "frame": {
+                "x": 604,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_9_attributeboard1": {
+            "frame": {
+                "x": 539,
+                "y": 1,
+                "w": 64,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 58
+            }
+        },
+        "img_9_bg": {
+            "frame": {
+                "x": 140,
+                "y": 1,
+                "w": 36,
+                "h": 36
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 36
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 36
+            }
+        },
+        "lbl_9_progress": {
+            "frame": {
+                "x": 1,
+                "y": 72,
+                "w": 84,
+                "h": 52
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 52
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 52
+            }
+        }
+    },
+    "meta": {
+        "image": "PokemonBook.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 740,
+            "h": 190
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

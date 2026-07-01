@@ -1,0 +1,240 @@
+n_id			n_hurt_type	n_race	n_type	n_target	n_count	n_is_effect_triiger	n_hurt	n_skill_speed	n_accuracy	n_max_number	s_skill_effect	s_setting_full_name	s_name	s_describe	s_icon	n_score	n_setting_full_id
+技能id			伤害类型	种族属性	技能类型	技能目标	目标数量	是否是技能效果触发的技能，如反击、连击触发的技能,1-是，0-否(混乱除外)	威力	技能速度	命中	使用次数上限	效果列表	映射到技能表现	技能的名称	技能描述	图标	战斗力分数	(弃用)映射到技能表现
+数值			0-无；1-物理；2-法术；3-真实伤害	根据《种族表》填写，填0表示该技能不属于任何种族	1-主动；2-被动	1-自己；2-己方；3-敌方	1-单体；2；群体	0	整数值	整数值	整数值（填0表示必定命中）	整数值	根据《技能效果表》填写对应的效果列表	plugin名称	多语言	文字	路径	整数值	plugin id
+1101001	撞击		1	1	1	3	1	0	80	1000	100	15		skill_melee_timeline	active_skill_1101001_name	active_skill_1101001_desc		50	1
+1101002	抓击		1	1	1	3	1	0	120	1000	100	10		skill_melee_timeline	active_skill_1101002_name	active_skill_1101002_desc		75	1
+1101003	碎岩拳	对单体目标造成伤害，有30%的概率造成混乱，持续1-3回合	1	1	1	3	1	0	80	1000	75	10	11010031	skill_melee_timeline	active_skill_1101003_name	active_skill_1101003_desc		75	1
+1101004	尖石攻击	对单体目标造成伤害，有60%的概率造成混乱，持续2-5回合	1	1	1	3	1	0	100	1000	75	5	11010041	skill_bullet_timeline	active_skill_1101004_name	active_skill_1101004_desc		100	1
+1101005	麻痹连击	对单体目标造成伤害，有30%的概率造成麻痹，持续1-3回合	2	1	1	3	1	0	80	1000	85	10	11010051	skill_melee_timeline	active_skill_1101005_name	active_skill_1101005_desc		75	1
+1101006	麻痹花粉	对单体目标造成伤害，有60%的概率造成麻痹，持续2-5回合	2	1	1	3	1	0	100	1000	85	5	11010061	skill_singleSpell_timeline	active_skill_1101006_name	active_skill_1101006_desc		100	1
+1101007	钢铁皮肤	先发技能，提高自身30%的物防和法防，持续3回合	0	1	1	1	1	0	0	10000	100	10	11010071,11010072	skill_status_timeline	active_skill_1101007_name	active_skill_1101007_desc		75	1
+1101008	猛咬	先发技能，对单体目标造成伤害，并提高自身30%的物防和法防，持续5回合	1	1	1	3	1	0	60	10000	100	5	11010081,11010082	skill_singleSpell_timeline	active_skill_1101008_name	active_skill_1101008_desc		100	1
+1101009	血怒一击	对单体目标造成伤害，并提高自身30%的物攻，持续3回合	1	1	1	3	1	0	80	1000	85	10	11010091	skill_melee_timeline	active_skill_1101009_name	active_skill_1101009_desc		75	1
+1101010	奋力突击	对单体目标造成伤害，并提高自身30%的法攻，持续3回合	2	1	1	3	1	0	80	1000	85	10	11010101	skill_melee_timeline	active_skill_1101010_name	active_skill_1101010_desc		75	1
+1101011	高速气流	先发技能，对单体目标造成伤害，并提高自身20%的速度，持续3回合	2	1	1	3	1	0	80	10000	85	10	11010111	skill_singleSpell_timeline	active_skill_1101011_name	active_skill_1101011_desc		75	1
+1101012	低语吟唱	对单体目标造成伤害，并提高自身20%的命中，持续3回合	2	1	1	3	1	0	80	10000	100	10	11010121	skill_singleSpell_timeline	active_skill_1101012_name	active_skill_1101012_desc		75	1
+1101013	超声波	先发技能，降低目标30%的物防和法防，持续3回合	0	1	1	3	1	0	0	10000	100	10	11010131,11010132	skill_singleSpell_timeline	active_skill_1101013_name	active_skill_1101013_desc		75	1
+1101014	多重猛击	先发技能，对单体目标造成伤害，并降低目标30%的物防和法防，持续5回合	1	1	1	3	1	0	60	10000	100	5	11010141,11010142	skill_singleSpell_timeline	active_skill_1101014_name	active_skill_1101014_desc		100	1
+1101015	岩崩	对单体目标造成伤害，并降低目标30%的物攻，持续3回合	1	1	1	3	1	0	150	1000	85	10	11010151	skill_aoe_timeline	active_skill_1101015_name	active_skill_1101015_desc		75	1
+1101016	魔术旋风	对单体目标造成伤害，并降低目标30%的法攻，持续3回合	2	1	1	3	1	0	150	1000	85	10	11010161	skill_singleSpell_timeline	active_skill_1101016_name	active_skill_1101016_desc		75	1
+1101017	黑雾弹	先发技能，降低目标30%的速度和命中，持续3回合	0	1	1	3	1	0	0	10000	85	5	11010171,11010172	skill_singleSpell_timeline	active_skill_1101017_name	active_skill_1101017_desc		100	1
+1101018	普通群攻		1	1	1	3	2	0	100	1000	80	10		skill_spellAoe_timeline	active_skill_1101018_name	active_skill_1101018_desc			
+1101019	高级普通群攻		1	1	1	3	2	0	140	1000	80	7		skill_spell_timeline	active_skill_1101019_name	active_skill_1101019_desc			
+1102001	水枪弹		2	2	1	3	1	0	80	1000	100	15		skill_bullet_timeline	active_skill_1102001_name	active_skill_1102001_desc		50	1
+1102002	水炮		2	2	1	3	1	0	120	1000	100	10		skill_singleSpell_timeline	active_skill_1102002_name	active_skill_1102002_desc		75	1
+1102003	泡泡攻击	对单体目标造成伤害，有50%的概率造成潮湿效果，持续3回合	2	2	1	3	1	0	80	1000	85	10	11020031	skill_bullet_timeline	active_skill_1102003_name	active_skill_1102003_desc		75	1
+1102004	水柱涡动	对单体目标造成伤害，有75%的概率造成潮湿效果，持续3回合	2	2	1	3	1	0	100	1000	85	5	11020041	skill_bullet_timeline	active_skill_1102004_name	active_skill_1102004_desc		100	1
+1102005	水流旋涡	先发技能，对单体目标造成伤害，并提高自身20%的速度，持续3回合	1	2	1	3	1	0	80	10000	85	10	11020051	skill_singleSpell_timeline	active_skill_1102005_name	active_skill_1102005_desc		75	1
+1102006	冰雾	先发技能，对单体目标造成伤害，并提高自身40%的速度，持续5回合	1	2	1	3	1	0	100	10000	85	5	11020061	skill_singleSpell_timeline	active_skill_1102006_name	active_skill_1102006_desc		100	1
+1102007	雪崩	对单体目标造成伤害，并提高自身30%的法攻，持续3回合	2	2	1	3	1	0	80	1000	85	10	11020071	skill_aoe_timeline	active_skill_1102007_name	active_skill_1102007_desc		75	1
+1102008	大雪崩	对单体目标造成大量伤害，并提高自身50%的法攻，持续5回合	2	2	1	3	1	0	100	1000	85	5	11020081	skill_aoe_timeline	active_skill_1102008_name	active_skill_1102008_desc		100	1
+1102009	水面斩击	对单体目标造成伤害，有40%的连击概率，可以再次释放该技能，可无限连击	2	2	1	3	1	0	60	1000	85	15	11020091	skill_melee_timeline	active_skill_1102009_name	active_skill_1102009_desc		50	1
+1102010	冰霜利刃	对单体目标造成伤害，有40%的连击概率，可以再次释放该技能，可无限连击	2	2	1	3	1	0	80	1000	85	10	11020101	skill_singleSpell_timeline	active_skill_1102010_name	active_skill_1102010_desc		75	1
+1102011	水苦无		2	2	1	3	1	0	100	1000	85	5	11020111	skill_bullet_timeline	active_skill_1102011_name	active_skill_1102011_desc		100	1
+1102012	冰岩坠击		2	2	1	3	1	0	150	1000	60	10		skill_singleSpell_timeline	active_skill_1102012_name	active_skill_1102012_desc		75	1
+1102013	寒潮	对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	2	2	1	3	1	0	250	1000	60	5		skill_aoe_timeline	active_skill_1102013_name	active_skill_1102013_desc		100	1
+1102014	冰雪世界	对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	2	2	1	3	1	0	400	1000	60	5		skill_aoe_timeline	active_skill_1102014_name	active_skill_1102014_desc		100	1
+1102015	水系群攻		2	2	1	3	2	0	100	1000	80	10		skill_spell_timeline	active_skill_1102015_name	active_skill_1102015_desc			
+1102016	高级水系群攻		2	2	1	3	2	0	140	1000	80	7		skill_spellAoe_timeline	active_skill_1102016_name	active_skill_1102016_desc			
+1102017	群潮湿	对群体目标造成伤害，有40%的概率造成潮湿效果，持续3回合	2	2	1	3	2	0	100	1000	80	10	11020171	skill_spell_timeline	active_skill_1102017_name	active_skill_1102017_desc			
+1102018	高级群潮湿	对群体目标造成伤害，有60%的概率造成潮湿效果，持续3回合	2	2	1	3	2	0	120	1000	80	5	11020181	skill_spell_timeline	active_skill_1102018_name	active_skill_1102018_desc			
+1103001	小火球		1	3	1	3	1	0	80	1000	100	15		skill_bullet_timeline	active_skill_1103001_name	active_skill_1103001_desc		50	1
+1103002	火焰冲击		1	3	1	3	1	0	120	1000	100	10		skill_melee_timeline	active_skill_1103002_name	active_skill_1103002_desc		75	1
+1103003	烈焰弹	对单体目标造成伤害，有50%的概率造成灼烧效果，持续3回合	1	3	1	3	1	0	80	1000	85	10	11030031	skill_bullet_timeline	active_skill_1103003_name	active_skill_1103003_desc		75	1
+1103004	神圣之火	对单体目标造成伤害，有75%的概率造成灼烧效果，持续3回合	1	3	1	3	1	0	100	1000	85	5	11030041	skill_singleSpell_timeline	active_skill_1103004_name	active_skill_1103004_desc		100	1
+1103005	风火轮	先发技能，对单体目标造成伤害，并提高自身30%的法防，持续3回合	2	3	1	3	1	0	60	10000	100	10	11030051	skill_bullet_timeline	active_skill_1103005_name	active_skill_1103005_desc		75	1
+1103006	烈焰旋涡	先发技能，对单体目标造成伤害，并提高自身30%的法防，持续5回合	2	3	1	3	1	0	100	10000	100	5	11030061	skill_aoe_timeline	active_skill_1103006_name	active_skill_1103006_desc		100	1
+1103007	火焰重拳	对单体目标造成伤害，并提高自身30%的物攻，持续3回合	1	3	1	3	1	0	80	1000	85	10	11030071	skill_melee_timeline	active_skill_1103007_name	active_skill_1103007_desc		75	1
+1103008	熔岩球	对单体目标造成大量伤害，并提高自身50%的物攻，持续5回合	1	3	1	3	1	0	100	1000	85	5	11030081	skill_singleSpell_timeline	active_skill_1103008_name	active_skill_1103008_desc		100	1
+1103009	涅槃诅咒	先发技能，降低10%的物防和法防，提高20%的物攻，本回合死亡复活概率提高50%	0	3	1	3	1	0	0	10000	100	1	11030091,11030092,11030093,11030094	skill_status_timeline	active_skill_1103009_name	active_skill_1103009_desc		150	1
+1103010	重生之火	先发技能，降低20%的物防和法防，提高50%的物攻，本回合死亡复活概率提高50%	0	3	1	3	1	0	0	10000	100	1	11030101,11030102,11030103,11030104	skill_status_timeline	active_skill_1103010_name	active_skill_1103010_desc		150	1
+1103011	生命原汤	先发技能，对单体目标造成伤害，且每次对目标造成伤害时，回复20%的最大生命值，持续3回合	1	3	1	3	1	0	60	10000	100	1	11030111	skill_singleSpell_timeline	active_skill_1103011_name	active_skill_1103011_desc		150	1
+1103012	生命液滴	先发技能，对单体目标造成伤害，且每次对目标造成伤害时，回复30%的最大生命值，持续5回合	1	3	1	3	1	0	100	10000	100	1	11030121	skill_singleSpell_timeline	active_skill_1103012_name	active_skill_1103012_desc		150	1
+1103013	炼狱爆炸	对单体目标造成伤害，如果目标身上有灼烧效果，造成1.5倍伤害	1	3	1	3	1	0	80	1000	85	15	11030131	skill_aoe_timeline	active_skill_1103013_name	active_skill_1103013_desc		50	1
+1103014	熔岩拳击	对单体目标造成伤害，如果目标身上有灼烧效果，造成2倍伤害	1	3	1	3	1	0	80	1000	85	10	11030141	skill_bullet_timeline	active_skill_1103014_name	active_skill_1103014_desc		75	1
+1103015	天照火		1	3	1	3	1	0	80	1000	85	5	11030151	skill_aoe_timeline	active_skill_1103015_name	active_skill_1103015_desc		100	1
+1103016	火系群攻		1	3	1	3	2	0	100	1000	80	10		skill_spell_timeline	active_skill_1103016_name	active_skill_1103016_desc			
+1103017	高级火系群攻	对群体目标造成伤害，有40%的概率造成灼烧效果，持续3回合	1	3	1	3	2	0	140	1000	80	7		skill_spellAoe_timeline	active_skill_1103017_name	active_skill_1103017_desc			
+1103018	群灼烧	对群体目标造成伤害，有60%的概率造成灼烧效果，持续3回合	1	3	1	3	2	0	100	1000	80	10	11030181	skill_spell_timeline	active_skill_1103018_name	active_skill_1103018_desc			
+1103019	高级群灼烧		1	3	1	3	2	0	120	1000	80	5	11030191	skill_spell_timeline	active_skill_1103019_name	active_skill_1103019_desc			
+1104001	叶刃猛击		2	4	1	3	1	0	80	1000	100	15		skill_melee_timeline	active_skill_1104001_name	active_skill_1104001_desc		50	1
+1104002	青草飞弹		2	4	1	3	1	0	120	1000	100	10		skill_bullet_timeline	active_skill_1104002_name	active_skill_1104002_desc		75	1
+1104003	剧毒	对单体目标造成伤害，有50%的概率造成中毒效果，持续3回合	2	4	1	3	1	0	80	1000	85	10	11040031	skill_singleSpell_timeline	active_skill_1104003_name	active_skill_1104003_desc		75	1
+1104004	毒瓦斯	对单体目标造成伤害，有75%的概率造成中毒效果，持续3回合	2	4	1	3	1	0	100	1000	85	5	11040041	skill_singleSpell_timeline	active_skill_1104004_name	active_skill_1104004_desc		100	1
+1104005	旋转飞叶	先发技能，对单体目标造成伤害，并提高自身30%的物防，持续3回合	1	4	1	3	1	0	60	10000	100	10	11040051	skill_singleSpell_timeline	active_skill_1104005_name	active_skill_1104005_desc		75	1
+1104006	叶刃风暴	先发技能，对单体目标造成伤害，并提高自身30%的物防，持续5回合	1	4	1	3	1	0	100	10000	100	5	11040061	skill_singleSpell_timeline	active_skill_1104006_name	active_skill_1104006_desc		100	1
+1104007	丛林风暴	对单体目标造成伤害，并提高自身20%的命中，持续3回合	2	4	1	3	1	0	80	1000	100	10	11040071	skill_singleSpell_timeline	active_skill_1104007_name	active_skill_1104007_desc		75	1
+1104008	千箭齐发	对单体目标造成大量伤害，并提高自身30%的命中，持续5回合	2	4	1	3	1	0	120	1000	100	5	11040081	skill_aoe_timeline	active_skill_1104008_name	active_skill_1104008_desc		100	1
+1104009	睡眠花粉	对单体目标造成睡眠，持续1-3回合	0	4	1	3	1	0	0	1000	60	10	11040091	skill_singleSpell_timeline	active_skill_1104009_name	active_skill_1104009_desc		75	1
+1104010	柳絮飘扬	对单体目目标造成伤害，并造成睡眠，持续1-3回合	2	4	1	3	1	0	60	1000	60	10	11040101	skill_singleSpell_timeline	active_skill_1104010_name	active_skill_1104010_desc		75	1
+1104011	安眠花粉	对单体目目标造成伤害，并造成睡眠，持续2-5回合	2	4	1	3	1	0	80	1000	60	5	11040111	skill_aoe_timeline	active_skill_1104011_name	active_skill_1104011_desc		100	1
+1104012	治愈花舞	降低目标30%的命中，持续2回合	0	4	1	3	1	0	0	1000	85	5	11040121	skill_singleSpell_timeline	active_skill_1104012_name	active_skill_1104012_desc		100	1
+1104013	腐蚀炸弹	降低目标50%的命中，持续2回合	0	4	1	3	1	0	0	1000	85	3	11040131	skill_bullet_timeline	active_skill_1104013_name	active_skill_1104013_desc		125	1
+1104014	大腐蚀炸弹	对单体目标造成伤害，并降低目标50%的命中，持续2回合	2	4	1	3	1	0	100	1000	85	1	11040141	skill_bullet_timeline	active_skill_1104014_name	active_skill_1104014_desc		150	1
+1104015	梦貘闪光	对单体目标造成伤害，如果目标身上有睡眠效果，造成1.5倍伤害	2	4	1	3	1	0	80	1000	85	10	11040151	skill_bullet_timeline	active_skill_1104015_name	active_skill_1104015_desc		75	1
+1104016	真·梦貘闪光	对单体目标造成伤害，如果目标身上有睡眠效果，造成2倍伤害	2	4	1	3	1	0	80	1000	85	5	11040161	skill_bullet_timeline	active_skill_1104016_name	active_skill_1104016_desc		100	1
+1104017	逆生长	对单体目标造成伤害，如果目标身上有中毒效果，造成1.5倍伤害	2	4	1	3	1	0	80	1000	85	10	11040171	skill_bullet_timeline	active_skill_1104017_name	active_skill_1104017_desc		75	1
+1104018	退化	对单体目标造成伤害，如果目标身上有中毒效果，造成2倍伤害	2	4	1	3	1	0	80	1000	85	5	11040181	skill_bullet_timeline	active_skill_1104018_name	active_skill_1104018_desc		100	1
+1104019	草系群攻		2	4	1	3	2	0	100	1000	80	10		skill_spellAoe_timeline	active_skill_1104019_name	active_skill_1104019_desc			
+1104020	高级草系群攻		2	4	1	3	2	0	140	1000	80	7		skill_spellAoe_timeline	active_skill_1104020_name	active_skill_1104020_desc			
+1104021	群中毒	对群体目标造成伤害，有40%的概率造成中毒效果，持续3回合	2	4	1	3	2	0	100	1000	80	10	11040211	skill_spellAoe_timeline	active_skill_1104021_name	active_skill_1104021_desc			
+1104022	高级群中毒	对群体目标造成伤害，有60%的概率造成中毒效果，持续3回合	2	4	1	3	2	0	120	1000	80	5	11040221	skill_spellAoe_timeline	active_skill_1104022_name	active_skill_1104022_desc			
+1105001	黑雾球		2	5	1	3	1	0	120	1000	100	15		skill_bullet_timeline	active_skill_1105001_name	active_skill_1105001_desc		50	1
+1105002	十字闪光		1	5	1	3	1	0	120	1000	100	15		skill_singleSpell_timeline	active_skill_1105002_name	active_skill_1105002_desc		50	1
+1105003	暗冥球	对单体目标造成伤害，如果目标身上有麻痹效果，造成1.5倍伤害	2	5	1	3	1	0	80	1000	85	10	11050031	skill_bullet_timeline	active_skill_1105003_name	active_skill_1105003_desc		75	1
+1105004	超能光波	对单体目标造成伤害，如果目标身上有麻痹效果，造成2倍伤害	2	5	1	3	1	0	80	1000	85	5	11050041	skill_aoe_timeline	active_skill_1105004_name	active_skill_1105004_desc		100	1
+1105005	超能强念	对单体目标造成伤害，如果目标身上有混乱效果，造成1.5倍伤害	1	5	1	3	1	0	80	1000	85	10	11050051	skill_singleSpell_timeline	active_skill_1105005_name	active_skill_1105005_desc		75	1
+1105006	精神波动	对单体目标造成伤害，如果目标身上有混乱效果，造成2倍伤害	1	5	1	3	1	0	80	1000	85	5	11050061	skill_singleSpell_timeline	active_skill_1105006_name	active_skill_1105006_desc		100	1
+1105007	精神魔法	先发技能，对单体目标造成伤害，提高自身30%的物防和法防，持续5回合	2	5	1	3	1	0	80	10000	100	5	11050071,11050072	skill_singleSpell_timeline	active_skill_1105007_name	active_skill_1105007_desc		100	1
+1105008	伊邪纳岐	先发技能，对单体目标造成伤害，并提高自身40%的速度，本回合免疫睡眠，混乱，麻痹	2	5	1	3	1	0	100	10000	85	5	11050081,11050082,11050083,11050084	skill_singleSpell_timeline	active_skill_1105008_name	active_skill_1105008_desc		100	1
+1105009	超能闪耀	对单体目标造成固定伤害，并提高技能【威力】50%，持续5回合	1	5	1	3	1	0	250	1000	70	5		skill_singleSpell_timeline	active_skill_1105009_name	active_skill_1105009_desc		100	1
+1105010	念力刀	对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	1	5	1	3	1	0	400	1000	70	5		skill_singleSpell_timeline	active_skill_1105010_name	active_skill_1105010_desc		100	1
+1105011	四方封印	对单体目标造成伤害，并提高自身50%的物攻，持续5回合	1	5	1	3	1	0	150	1000	100	5		skill_singleSpell_timeline	active_skill_1105011_name	active_skill_1105011_desc		100	1
+1105012	灭亡之歌		1	5	1	3	1	0	150	1000	85	5	11050121	skill_singleSpell_timeline	active_skill_1105012_name	active_skill_1105012_desc		100	1
+1105013	超能群攻		2	5	1	3	2	0	100	1000	80	15		skill_spellAoe_timeline	active_skill_1105013_name	active_skill_1105013_desc			
+1105014	高级超能群攻		2	5	1	3	2	0	140	1000	80	10		skill_spellAoe2_timeline	active_skill_1105014_name	active_skill_1105014_desc			
+1201001			0	0	2	1	1	0	0	0	0	-1	12010011	player_skill_1_timeline	passive_skill_1201001_name	passive_skill_1201001_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201001	50	1
+1201002			0	0	2	1	1	0	0	0	0	-1	12010021	player_skill_1_timeline	passive_skill_1201002_name	passive_skill_1201002_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201002	50	1
+1201003			0	0	2	1	1	0	0	0	0	-1	12010031	player_skill_1_timeline	passive_skill_1201003_name	passive_skill_1201003_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201003	50	1
+1201004			0	0	2	1	1	0	0	0	0	-1	12010041	player_skill_1_timeline	passive_skill_1201004_name	passive_skill_1201004_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201004	50	1
+1201005			0	0	2	1	1	0	0	0	0	-1	12010051	player_skill_1_timeline	passive_skill_1201005_name	passive_skill_1201005_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201005	150	1
+1201006			0	0	2	1	1	0	0	0	0	-1	12010061	player_skill_1_timeline	passive_skill_1201006_name	passive_skill_1201006_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201006	150	1
+1201007			0	0	2	1	1	0	0	0	0	-1	12010071	player_skill_1_timeline	passive_skill_1201007_name	passive_skill_1201007_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201007	150	1
+1201008			0	0	2	1	1	0	0	0	0	-1	12010081	player_skill_1_timeline	passive_skill_1201008_name	passive_skill_1201008_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201008	150	1
+1201009			0	0	2	1	1	0	0	0	0	-1	12010091	player_skill_1_timeline	passive_skill_1201009_name	passive_skill_1201009_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201009	150	1
+1201010			0	0	2	1	1	0	0	0	0	-1	12010101	player_skill_1_timeline	passive_skill_1201010_name	passive_skill_1201010_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201010	150	1
+1201011			0	0	2	1	1	0	0	0	0	-1	12010111	player_skill_1_timeline	passive_skill_1201011_name	passive_skill_1201011_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201011	150	1
+1201012			0	0	2	1	1	0	0	0	0	-1	12010121	player_skill_1_timeline	passive_skill_1201012_name	passive_skill_1201012_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201012	150	1
+1201013			0	0	2	1	1	0	0	0	0	-1	12010131	player_skill_1_timeline	passive_skill_1201013_name	passive_skill_1201013_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201013	150	1
+1201014			0	0	2	1	1	0	0	0	0	-1	12010141	player_skill_1_timeline	passive_skill_1201014_name	passive_skill_1201014_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201014	150	1
+1202001			0	0	2	1	1	0	0	0	0	-1	12020011	player_skill_1_timeline	passive_skill_1202001_name	passive_skill_1202001_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202001	150	1
+1202002			0	0	2	1	1	0	0	0	0	-1	12020021	player_skill_1_timeline	passive_skill_1202002_name	passive_skill_1202002_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202002	150	1
+1202003			0	0	2	1	1	0	0	0	0	-1	12020031	player_skill_1_timeline	passive_skill_1202003_name	passive_skill_1202003_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202003	150	1
+1202004			0	0	2	1	1	0	0	0	0	-1	12020041	player_skill_1_timeline	passive_skill_1202004_name	passive_skill_1202004_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202004	150	1
+1202005			0	0	2	1	1	0	0	0	0	-1	12020051	player_skill_1_timeline	passive_skill_1202005_name	passive_skill_1202005_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202005	150	1
+1202006			0	0	2	1	1	0	0	0	0	-1	12020061	player_skill_1_timeline	passive_skill_1202006_name	passive_skill_1202006_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202006	150	1
+1202007			0	0	2	1	1	0	0	0	0	-1	12020071	player_skill_1_timeline	passive_skill_1202007_name	passive_skill_1202007_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202007	150	1
+1202008			0	0	2	1	1	0	0	0	0	-1	12020081	player_skill_1_timeline	passive_skill_1202008_name	passive_skill_1202008_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202008	150	1
+1202009			0	0	2	1	1	0	0	0	0	-1	12020091	player_skill_1_timeline	passive_skill_1202009_name	passive_skill_1202009_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202009	150	1
+1202010			0	0	2	1	1	0	0	0	0	-1	12020101	player_skill_1_timeline	passive_skill_1202010_name	passive_skill_1202010_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202010	150	1
+1202011			0	0	2	1	1	0	0	0	0	-1	12020111	player_skill_1_timeline	passive_skill_1202011_name	passive_skill_1202011_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202011	150	1
+1202012			0	0	2	1	1	0	0	0	0	-1	12020121	player_skill_1_timeline	passive_skill_1202012_name	passive_skill_1202012_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202012	150	1
+1202013			0	0	2	1	1	0	0	0	0	-1	12020131	player_skill_1_timeline	passive_skill_1202013_name	passive_skill_1202013_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202013	150	1
+1202014			0	0	2	1	1	0	0	0	0	-1	12020141	player_skill_1_timeline	passive_skill_1202014_name	passive_skill_1202014_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202014	150	1
+1202015			0	0	2	1	1	0	0	0	0	-1	12020151	player_skill_1_timeline	passive_skill_1202015_name	passive_skill_1202015_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202015	150	1
+1202016			0	0	2	1	1	0	0	0	0	-1	12020161	player_skill_1_timeline	passive_skill_1202016_name	passive_skill_1202016_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202016	150	1
+1202017			0	0	2	1	1	0	0	0	0	-1	12020171	player_skill_1_timeline	passive_skill_1202017_name	passive_skill_1202017_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202017	150	1
+1202018			0	0	2	1	1	0	0	0	0	-1	12020181	player_skill_1_timeline	passive_skill_1202018_name	passive_skill_1202018_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202018	150	1
+1202019			0	0	2	1	1	0	0	0	0	-1	12020191	player_skill_1_timeline	passive_skill_1202019_name	passive_skill_1202019_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202019	150	1
+1202020			0	0	2	1	1	0	0	0	0	-1	12020201	player_skill_1_timeline	passive_skill_1202020_name	passive_skill_1202020_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202020	150	1
+1202021			0	0	2	1	1	0	0	0	0	-1	12020211	player_skill_1_timeline	passive_skill_1202021_name	passive_skill_1202021_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202021	200	1
+1202022			0	0	2	1	1	0	0	0	0	-1	12020221	player_skill_1_timeline	passive_skill_1202022_name	passive_skill_1202022_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202022	200	1
+1202023			0	0	2	1	1	0	0	0	0	-1	12020231	player_skill_1_timeline	passive_skill_1202023_name	passive_skill_1202023_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202023	200	1
+1202024			0	0	2	1	1	0	0	0	0	-1	12020241	player_skill_1_timeline	passive_skill_1202024_name	passive_skill_1202024_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202024	200	1
+1202025			0	0	2	1	1	0	0	0	0	-1	12020251	player_skill_1_timeline	passive_skill_1202025_name	passive_skill_1202025_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202025	200	1
+1202026			0	0	2	1	1	0	0	0	0	-1	12020261	player_skill_1_timeline	passive_skill_1202026_name	passive_skill_1202026_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1202026	200	1
+1203001			0	0	2	1	1	0	0	0	0	-1	12030011	player_skill_1_timeline	passive_skill_1203001_name	passive_skill_1203001_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203001	200	1
+1203002			0	0	2	1	1	0	0	0	0	-1	12030021	player_skill_1_timeline	passive_skill_1203002_name	passive_skill_1203002_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203002	200	1
+1203003			0	0	2	1	1	0	0	0	0	-1	12030031	player_skill_1_timeline	passive_skill_1203003_name	passive_skill_1203003_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203003	200	1
+1203004			0	0	2	1	1	0	0	0	0	-1	12030041	player_skill_1_timeline	passive_skill_1203004_name	passive_skill_1203004_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203004	200	1
+1203005			0	0	2	1	1	0	0	0	0	-1	12030051	player_skill_1_timeline	passive_skill_1203005_name	passive_skill_1203005_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203005	200	1
+1203006			0	0	2	1	1	0	0	0	0	-1	12030061	player_skill_1_timeline	passive_skill_1203006_name	passive_skill_1203006_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203006	200	1
+1203007			0	0	2	1	1	0	0	0	0	-1	12030071	player_skill_1_timeline	passive_skill_1203007_name	passive_skill_1203007_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203007	200	1
+1203008			0	0	2	1	1	0	0	0	0	-1	12030081	player_skill_1_timeline	passive_skill_1203008_name	passive_skill_1203008_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203008	200	1
+1203009			0	0	2	1	1	0	0	0	0	-1	12030091	player_skill_1_timeline	passive_skill_1203009_name	passive_skill_1203009_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203009	200	1
+1203010			0	0	2	1	1	0	0	0	0	-1	12030101	player_skill_1_timeline	passive_skill_1203010_name	passive_skill_1203010_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203010	200	1
+1203011			0	0	2	1	1	0	0	0	0	-1	12030111	player_skill_1_timeline	passive_skill_1203011_name	passive_skill_1203011_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203011	200	1
+1203012			0	0	2	1	1	0	0	0	0	-1	12030121	player_skill_1_timeline	passive_skill_1203012_name	passive_skill_1203012_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203012	200	1
+1203013			0	0	2	1	1	0	0	0	0	-1	12030131	player_skill_1_timeline	passive_skill_1203013_name	passive_skill_1203013_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203013	200	1
+1203014			0	0	2	1	1	0	0	0	0	-1	12030141	player_skill_1_timeline	passive_skill_1203014_name	passive_skill_1203014_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203014	200	1
+1203015			0	0	2	1	1	0	0	0	0	-1	12030151	player_skill_1_timeline	passive_skill_1203015_name	passive_skill_1203015_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203015	200	1
+1203016			0	0	2	1	1	0	0	0	0	-1	12030161	player_skill_1_timeline	passive_skill_1203016_name	passive_skill_1203016_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203016	200	1
+1203017			0	0	2	1	1	0	0	0	0	-1	12030171	player_skill_1_timeline	passive_skill_1203017_name	passive_skill_1203017_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203017	200	1
+1203018			0	0	2	1	1	0	0	0	0	-1	12030181	player_skill_1_timeline	passive_skill_1203018_name	passive_skill_1203018_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203018	200	1
+1203019			0	0	2	1	1	0	0	0	0	-1	12030191	player_skill_1_timeline	passive_skill_1203019_name	passive_skill_1203019_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203019	200	1
+1203020			0	0	2	1	1	0	0	0	0	-1	12030201	player_skill_1_timeline	passive_skill_1203020_name	passive_skill_1203020_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203020	200	1
+1203021			0	0	2	1	1	0	0	0	0	-1	12030211	player_skill_1_timeline	passive_skill_1203021_name	passive_skill_1203021_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203021	200	1
+1203022			0	0	2	1	1	0	0	0	0	-1	12030221	player_skill_1_timeline	passive_skill_1203022_name	passive_skill_1203022_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203022	200	1
+1203023			0	0	2	1	1	0	0	0	0	-1	12030231	player_skill_1_timeline	passive_skill_1203023_name	passive_skill_1203023_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203023	200	1
+1203024			0	0	2	1	1	0	0	0	0	-1	12030241	player_skill_1_timeline	passive_skill_1203024_name	passive_skill_1203024_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203024	200	1
+1203025			0	0	2	1	1	0	0	0	0	-1	12030251	player_skill_1_timeline	passive_skill_1203025_name	passive_skill_1203025_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203025	200	1
+1203026			0	0	2	1	1	0	0	0	0	-1	12030261	player_skill_1_timeline	passive_skill_1203026_name	passive_skill_1203026_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203026	200	1
+1203027			0	0	2	1	1	0	0	0	0	-1	12030271	player_skill_1_timeline	passive_skill_1203027_name	passive_skill_1203027_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203027	200	1
+1203028			0	0	2	1	1	0	0	0	0	-1	12030281,12030282	player_skill_1_timeline	passive_skill_1203028_name	passive_skill_1203028_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203028	200	1
+1203029			0	0	2	1	1	0	0	0	0	-1	12030291	player_skill_1_timeline	passive_skill_1203029_name	passive_skill_1203029_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203029	200	1
+1203030			0	0	2	1	1	0	0	0	0	-1	12030301	player_skill_1_timeline	passive_skill_1203030_name	passive_skill_1203030_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203030	200	1
+1203031			0	0	2	1	1	0	0	0	0	-1	12030311	player_skill_1_timeline	passive_skill_1203031_name	passive_skill_1203031_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203031	200	1
+1203032			0	0	2	1	1	0	0	0	0	-1	12030321	player_skill_1_timeline	passive_skill_1203032_name	passive_skill_1203032_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203032	200	1
+1203033			0	0	2	1	1	0	0	0	0	-1	12030331	player_skill_1_timeline	passive_skill_1203033_name	passive_skill_1203033_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203033	200	1
+1203034			0	0	2	1	1	0	0	0	0	-1	12030341	player_skill_1_timeline	passive_skill_1203034_name	passive_skill_1203034_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203034	200	1
+1203035			0	0	2	1	1	0	0	0	0	-1	12030351	player_skill_1_timeline	passive_skill_1203035_name	passive_skill_1203035_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203035	200	1
+1203036			0	0	2	1	1	0	0	0	0	-1	12030361,12030362	player_skill_1_timeline	passive_skill_1203036_name	passive_skill_1203036_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203036	200	1
+1203037			0	0	2	1	1	0	0	0	0	-1	12030371	player_skill_1_timeline	passive_skill_1203037_name	passive_skill_1203037_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203037	200	1
+1203038			0	0	2	1	1	0	0	0	0	-1	12030381	player_skill_1_timeline	passive_skill_1203038_name	passive_skill_1203038_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1203038	200	1
+1301001			0	0	2	1	1	0	0	0	0	-1	13010011,13010012,13010013	player_skill_1_timeline	ability_skill_1301001_name	ability_skill_1301001_desc		200	1
+1301002			0	0	2	1	1	0	0	0	0	-1	13010021,13010022,13010023	player_skill_1_timeline	ability_skill_1301002_name	ability_skill_1301002_desc		200	1
+1301003			0	0	2	1	1	0	0	0	0	-1	13010031,13010032,13010033	player_skill_1_timeline	ability_skill_1301003_name	ability_skill_1301003_desc		200	1
+1301004			0	0	2	1	1	0	0	0	0	-1	13010041,13010042,13010043	player_skill_1_timeline	ability_skill_1301004_name	ability_skill_1301004_desc		200	1
+1301005			0	0	2	1	1	0	0	0	0	-1	13010051,13010052,13010053	player_skill_1_timeline	ability_skill_1301005_name	ability_skill_1301005_desc		200	1
+1301006			0	0	2	1	1	0	0	0	0	-1	13010061,13010062,13010063	player_skill_1_timeline	ability_skill_1301006_name	ability_skill_1301006_desc		200	1
+1301007			0	0	2	1	1	0	0	0	0	-1	13010071,13010072,13010073	player_skill_1_timeline	ability_skill_1301007_name	ability_skill_1301007_desc		200	1
+1301008			0	0	2	1	1	0	0	0	0	-1	13010081,13010082,13010083	player_skill_1_timeline	ability_skill_1301008_name	ability_skill_1301008_desc		200	1
+1301009			0	0	2	1	1	0	0	0	0	-1	13010091,13010092,13010093	player_skill_1_timeline	ability_skill_1301009_name	ability_skill_1301009_desc		200	1
+1301010			0	0	2	1	1	0	0	0	0	-1	13010101,13010102,13010103	player_skill_1_timeline	ability_skill_1301010_name	ability_skill_1301010_desc		200	1
+1301011			0	0	2	1	1	0	0	0	0	-1	13010111,13010112,13010113	player_skill_1_timeline	ability_skill_1301011_name	ability_skill_1301011_desc		200	1
+1301012			0	0	2	1	1	0	0	0	0	-1	13010121,13010122,13010123	player_skill_1_timeline	ability_skill_1301012_name	ability_skill_1301012_desc		200	1
+1301013			0	0	2	1	1	0	0	0	0	-1	13010131	player_skill_1_timeline	ability_skill_1301013_name	ability_skill_1301013_desc		200	1
+1301014			0	0	2	1	1	0	0	0	0	-1	13010141	player_skill_1_timeline	ability_skill_1301014_name	ability_skill_1301014_desc		200	1
+1301015			0	0	2	1	1	0	0	0	0	-1	13010151,13010152	player_skill_1_timeline	ability_skill_1301015_name	ability_skill_1301015_desc		200	1
+1301016			0	0	2	1	1	0	0	0	0	-1	13010161,13010162	player_skill_1_timeline	ability_skill_1301016_name	ability_skill_1301016_desc		200	1
+1301017			0	0	2	1	1	0	0	0	0	-1	13010171,13010172	player_skill_1_timeline	ability_skill_1301017_name	ability_skill_1301017_desc		200	1
+1301018			0	0	2	1	1	0	0	0	0	-1	13010181,13010182	player_skill_1_timeline	ability_skill_1301018_name	ability_skill_1301018_desc		200	1
+1301019			0	0	2	1	1	0	0	0	0	-1	13010191,13010192	player_skill_1_timeline	ability_skill_1301019_name	ability_skill_1301019_desc		200	1
+1301020			0	0	2	1	1	0	0	0	0	-1	13010201,13010202	player_skill_1_timeline	ability_skill_1301020_name	ability_skill_1301020_desc		200	1
+1301021			0	0	2	1	1	0	0	0	0	-1	13010211,13010212	player_skill_1_timeline	ability_skill_1301021_name	ability_skill_1301021_desc		200	1
+1301022			0	0	2	1	1	0	0	0	0	-1	13010221,13010222	player_skill_1_timeline	ability_skill_1301022_name	ability_skill_1301022_desc		200	1
+1301023			0	0	2	1	1	0	0	0	0	-1	13010231,13010232	player_skill_1_timeline	ability_skill_1301023_name	ability_skill_1301023_desc		200	1
+1301024			0	0	2	1	1	0	0	0	0	-1	13010241	player_skill_1_timeline	ability_skill_1301024_name	ability_skill_1301024_desc		200	1
+1301025			0	0	2	1	1	0	0	0	0	-1	13010251	player_skill_1_timeline	ability_skill_1301025_name	ability_skill_1301025_desc		200	1
+1301026			0	0	2	1	1	0	0	0	0	-1	13010261	player_skill_1_timeline	ability_skill_1301026_name	ability_skill_1301026_desc		200	1
+1301027			0	0	2	1	1	0	0	0	0	-1	13010271	player_skill_1_timeline	ability_skill_1301027_name	ability_skill_1301027_desc		200	1
+1301028			0	0	2	1	1	0	0	0	0	-1	13010281	player_skill_1_timeline	ability_skill_1301028_name	ability_skill_1301028_desc		200	1
+1301029			0	0	2	1	1	0	0	0	0	-1	13010291	player_skill_1_timeline	ability_skill_1301029_name	ability_skill_1301029_desc		200	1
+1301030			0	0	2	1	1	0	0	0	0	-1	13010301	player_skill_1_timeline	ability_skill_1301030_name	ability_skill_1301030_desc		200	1
+1302001			0	0	2	1	1	0	0	0	0	-1	13020011,13020012,13020013	player_skill_1_timeline	ability_skill_1302001_name	ability_skill_1302001_desc		200	1
+1302002			0	0	2	1	1	0	0	0	0	-1	13020021,13020022,13020023	player_skill_1_timeline	ability_skill_1302002_name	ability_skill_1302002_desc		200	1
+1302003			0	0	2	1	1	0	0	0	0	-1	13020031,13020032,13020033	player_skill_1_timeline	ability_skill_1302003_name	ability_skill_1302003_desc		200	1
+1302004			0	0	2	1	1	0	0	0	0	-1	13020041,13020042,13020043	player_skill_1_timeline	ability_skill_1302004_name	ability_skill_1302004_desc		200	1
+1302005			0	0	2	1	1	0	0	0	0	-1	13020051,13020052,13020053	player_skill_1_timeline	ability_skill_1302005_name	ability_skill_1302005_desc		200	1
+1302006			0	0	2	1	1	0	0	0	0	-1	13020061,13020062,13020063	player_skill_1_timeline	ability_skill_1302006_name	ability_skill_1302006_desc		200	1
+1302007			0	0	2	1	1	0	0	0	0	-1	13020071,13020072,13020073	player_skill_1_timeline	ability_skill_1302007_name	ability_skill_1302007_desc		200	1
+1302008			0	0	2	1	1	0	0	0	0	-1	13020081,13020082,13020083	player_skill_1_timeline	ability_skill_1302008_name	ability_skill_1302008_desc		200	1
+1302009			0	0	2	1	1	0	0	0	0	-1	13020091,13020092,13020093	player_skill_1_timeline	ability_skill_1302009_name	ability_skill_1302009_desc		200	1
+1302010			0	0	2	1	1	0	0	0	0	-1	13020101,13020102,13020103	player_skill_1_timeline	ability_skill_1302010_name	ability_skill_1302010_desc		200	1
+1302011			0	0	2	1	1	0	0	0	0	-1	13020111,13020112,13020113	player_skill_1_timeline	ability_skill_1302011_name	ability_skill_1302011_desc		200	1
+1302012			0	0	2	1	1	0	0	0	0	-1	13020121,13020122,13020123	player_skill_1_timeline	ability_skill_1302012_name	ability_skill_1302012_desc		200	1
+1302013			0	0	2	1	1	0	0	0	0	-1	13020131,13020132	player_skill_1_timeline	ability_skill_1302013_name	ability_skill_1302013_desc		200	1
+1302014			0	0	2	1	1	0	0	0	0	-1	13020141,13020142	player_skill_1_timeline	ability_skill_1302014_name	ability_skill_1302014_desc		200	1
+1302015			0	0	2	1	1	0	0	0	0	-1	13020151,13020152	player_skill_1_timeline	ability_skill_1302015_name	ability_skill_1302015_desc		200	1
+1302016			0	0	2	1	1	0	0	0	0	-1	13020161,13020162	player_skill_1_timeline	ability_skill_1302016_name	ability_skill_1302016_desc		200	1
+1302017			0	0	2	1	1	0	0	0	0	-1	13020171,13020172	player_skill_1_timeline	ability_skill_1302017_name	ability_skill_1302017_desc		200	1
+1302018			0	0	2	1	1	0	0	0	0	-1	13020181,13020182	player_skill_1_timeline	ability_skill_1302018_name	ability_skill_1302018_desc		200	1
+1302019			0	0	2	1	1	0	0	0	0	-1	13020191,13020192	player_skill_1_timeline	ability_skill_1302019_name	ability_skill_1302019_desc		200	1
+1302020			0	0	2	1	1	0	0	0	0	-1	13020201,13020202	player_skill_1_timeline	ability_skill_1302020_name	ability_skill_1302020_desc		200	1
+1302021			0	0	2	1	1	0	0	0	0	-1	13020211,13020212	player_skill_1_timeline	ability_skill_1302021_name	ability_skill_1302021_desc		200	1
+1302022			0	0	2	1	1	0	0	0	0	-1	13020221,13020222	player_skill_1_timeline	ability_skill_1302022_name	ability_skill_1302022_desc		200	1
+1302023			0	0	2	1	1	0	0	0	0	-1	13020231,13020232	player_skill_1_timeline	ability_skill_1302023_name	ability_skill_1302023_desc		200	1
+1302024			0	0	2	1	1	0	0	0	0	-1	13020241,13020242	player_skill_1_timeline	ability_skill_1302024_name	ability_skill_1302024_desc		200	1
+1302025			0	0	2	1	1	0	0	0	0	-1	13020251,13020252	player_skill_1_timeline	ability_skill_1302025_name	ability_skill_1302025_desc		200	1
+1302026			0	0	2	1	1	0	0	0	0	-1	13020261,13020262	player_skill_1_timeline	ability_skill_1302026_name	ability_skill_1302026_desc		200	1
+1302027			0	0	2	1	1	0	0	0	0	-1	13020271,13020272	player_skill_1_timeline	ability_skill_1302027_name	ability_skill_1302027_desc		200	1
+1302028			0	0	2	1	1	0	0	0	0	-1	13020281,13020282	player_skill_1_timeline	ability_skill_1302028_name	ability_skill_1302028_desc		200	1
+1302029			0	0	2	1	1	0	0	0	0	-1	13020291,13020292	player_skill_1_timeline	ability_skill_1302029_name	ability_skill_1302029_desc		200	1
+1302030			0	0	2	1	1	0	0	0	0	-1	13020301,13020302	player_skill_1_timeline	ability_skill_1302030_name	ability_skill_1302030_desc		200	1
+9101001			1	1	1	3	1	1	80	1000	100	-1		skill_melee_timeline		active_skill_1101001_desc		200	1
+9101002			1	1	1	3	1	0	80	1000	100	-1		skill_self_attack		active_skill_1101001_desc		200	1
+1900001			0	0	2	1	1	0	0	0	0	-1	19000001	player_skill_1_timeline	ability_skill_awake1_name				
+1900002			0	0	2	1	1	0	0	0	0	-1	19000002	player_skill_1_timeline	ability_skill_awake2_name				
+1900003			0	0	2	1	1	0	0	0	0	-1	19000003	player_skill_1_timeline	ability_skill_awake3_name				
+1900004			0	0	2	1	1	0	0	0	0	-1	19000004	player_skill_1_timeline	ability_skill_awake4_name				
+1900005			0	0	2	1	1	0	0	0	0	-1	19000005	player_skill_1_timeline	ability_skill_awake5_name				

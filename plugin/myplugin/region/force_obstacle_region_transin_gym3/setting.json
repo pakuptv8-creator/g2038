@@ -1,0 +1,14 @@
+{
+  "?inGym": "道馆npc负责传送和传出。true代表传入道馆, false代表传出道馆",
+  "?id": "触发的对话Id",
+  "?regionId": "对话结束以后传送区域Id,如果不传送可以不填",
+  "id": 40401,
+  "regionId": 9,
+  "type": "obstacle",
+  "mapName":"map001",
+  "kickPos": {
+    "x": 417,
+    "y": 5,
+    "z": 428
+  }
+}

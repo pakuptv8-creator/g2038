@@ -1,0 +1,3 @@
+ENTITY_CLICK{
+    ShowEditEntityPosRot(player = $obj2, entityId = GetObjectID(object = $obj1))
+}

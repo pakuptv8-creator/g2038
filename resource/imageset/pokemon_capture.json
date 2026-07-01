@@ -1,0 +1,212 @@
+{
+    "frames": {
+        "btn_0_changename": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 69,
+                "h": 69
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 69,
+                "h": 69
+            },
+            "sourceSize": {
+                "w": 69,
+                "h": 69
+            }
+        },
+        "img_0_arrow": {
+            "frame": {
+                "x": 71,
+                "y": 1,
+                "w": 35,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 35,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 35,
+                "h": 35
+            }
+        },
+        "img_0_changename_titleicon": {
+            "frame": {
+                "x": 107,
+                "y": 1,
+                "w": 31,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 31,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 31,
+                "h": 32
+            }
+        },
+        "img_0_score_arrow": {
+            "frame": {
+                "x": 139,
+                "y": 1,
+                "w": 21,
+                "h": 11
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 11
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 11
+            }
+        },
+        "img_0_tip_down": {
+            "frame": {
+                "x": 161,
+                "y": 1,
+                "w": 34,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 35
+            }
+        },
+        "img_0_tip_up": {
+            "frame": {
+                "x": 196,
+                "y": 1,
+                "w": 34,
+                "h": 35
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 35
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 35
+            }
+        },
+        "img_0_titleboard": {
+            "frame": {
+                "x": 231,
+                "y": 1,
+                "w": 128,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 64
+            }
+        },
+        "img_9_changename_renamebg": {
+            "frame": {
+                "x": 360,
+                "y": 1,
+                "w": 60,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "img_9_changenamebg": {
+            "frame": {
+                "x": 421,
+                "y": 1,
+                "w": 60,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 60,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 60,
+                "h": 60
+            }
+        },
+        "img_9_infoboarrd": {
+            "frame": {
+                "x": 1,
+                "y": 71,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_9_score_color": {
+            "frame": {
+                "x": 34,
+                "y": 71,
+                "w": 16,
+                "h": 16
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 16
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 16
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_capture.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 482,
+            "h": 104
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

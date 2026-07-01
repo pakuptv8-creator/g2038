@@ -1,0 +1,1090 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonLuckyTenTake",
+      "Property": [
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonLuckyTenTake-bg",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonLuckyTenTake-Take",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "35 35 90 30"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonLuckyTenTake-content",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyTenTake-ticketPanel",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-0.0203125,0},{-0.0791667,0},{0.135937,0},{-0.0236111,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_lucky_egg.json image:img_9_ticketbg"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyTenTake-ticketTitle",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,-35},{0,179},{0,-5}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.529412 0.0901961 0 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-ticketIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.11,0},{0,0},{0.4,0},{0.9,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-ticketCount",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.545,0},{0,0},{1.235,0},{0.45,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-title",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-1},{0,108},{0,517},{0,160}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-pkmList",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0632813,0},{0.259722,0},{0.169531,0},{0.455555,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.255469,0},{0.259722,0},{0.361719,0},{0.455555,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.447656,0},{0.259722,0},{0.553906,0},{0.455555,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem4",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.638281,0},{0.259722,0},{0.744531,0},{0.455555,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem5",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.83125,0},{0.259722,0},{0.9375,0},{0.455555,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem6",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0632813,0},{0.506944,0},{0.169531,0},{0.702777,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem7",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.255469,0},{0.506944,0},{0.361719,0},{0.702777,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem8",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.447656,0},{0.506944,0},{0.553906,0},{0.702777,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem9",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.638281,0},{0.506944,0},{0.744531,0},{0.702777,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-pkmItem10",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.83125,0},{0.506944,0},{0.9375,0},{0.702777,0}}"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-confirmBtn",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.210938,0},{-0.0722222,0},{0.423438,0},{0.0527778,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "33 33 25 25"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_green"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_green"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyTenTake-confirmTxt",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.629091,0},{0.25,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0 0.309804 0.121569 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0 0.309804 0.0509804 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-againBtn",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.560938,0},{-0.0722222,0},{0.773438,0},{0.0527778,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "33 33 25 25"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_luckydraw_blue"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyTenTake-takePrice",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.465455,0},{-0.18,0},{0.767273,0},{0.09,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.733333 0.145098 0.054902 1"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.733333 0.145098 0.054902 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM20"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-takeIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,50},{0,-12},{0,90},{0,28}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:icon_coin"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-againTips",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,10},{0,83},{0,37}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.733333 0.145098 0.054902 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.733333 0.145098 0.054902 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM20"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-takeTicket",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,35},{0,-14},{0,93},{0,22}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_norm_ticket"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-BtnClose",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.130469,0},{0.0875,0}}"
+                    },
+                    {
+                      "Name": "SoundName",
+                      "Value": "6"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_return"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_return"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonLuckyTenTake-model",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonLuckyTenTake-modelEffect1",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_choudan_bg_1.effect"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,100},{0,100}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-modelEffect2",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_choudan_bglight_1.effect"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-50},{0,150},{0,100}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-modelLayout",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-0.138889,0},{0.3125,0},{0.527778,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyTenTake-eggModel",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ActorWindowScale",
+                          "Value": "1"
+                        }
+                      ],
+                      "Type": "ActorWindow"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-BtnSkip",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-0.0257812,0},{0.158333,0},{0.0835938,0},{0.2,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_skip"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_lucky_egg.json image:btn_0_skip"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-namePanel",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0210938,0},{0.145833,0},{0.314844,0},{0.213889,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonLuckyTenTake-nameBg",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_name_bg"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-newIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.851064,0},{0,0},{0.970745,0},{0.979592,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_lucky_egg.json image:img_0_tag_new"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonLuckyTenTake-nameTxt",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0697674,0},{0,0},{0.362126,0},{0.478261,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-raceIcon",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0242187,0},{0.0486111,0},{0.0710937,0},{0.131944,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_packet.json image:img_0_race_normal"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-starIcon",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.078125,0},{0.0486111,0},{0.290625,0},{0.118056,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "20 20 20 20"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonLuckyTenTake-showNextTxt",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-0.138889,0},{0.292969,0},{-0.0972223,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.529412 0.0901961 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

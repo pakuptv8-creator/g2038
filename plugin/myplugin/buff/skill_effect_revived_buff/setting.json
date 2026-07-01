@@ -1,0 +1,33 @@
+{
+	"??????":"复活效果",
+    "effect": {
+        "effect": "g2038_skill_none.effect",
+        "once": true,
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    },
+	"?triggerData":"效果触发时的独立数据，如（异常效果）触发时独立的特效、伤害等",
+	"triggerData":{
+		"?revived": "大于0，表示触发时有复活功能",
+		"revived": 1,
+		"effect": {
+			"effect": "g2038_skill_none.effect",
+			"once": true,
+			"pos": {
+				"x": 0,
+				"y": 0,
+				"z": 0
+			}
+		}
+	},
+	"sound": {
+        "volume": 1 ,
+        "selfOnly": false,
+        "loop": false,
+        "sound": "/sound/skill_none.mp3"
+    },
+    "deadRemove": true
+}

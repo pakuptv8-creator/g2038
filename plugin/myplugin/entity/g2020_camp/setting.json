@@ -1,0 +1,21 @@
+{
+  "actorName": "g2020_camp.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -2,
+          0,
+          -2,
+          1.8,
+          3.5,
+          1.8
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": ""
+}

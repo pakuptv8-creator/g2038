@@ -1,0 +1,29 @@
+{
+  "actorName": "g2038_tp_effect.actor",
+  "base": "g2038_static_base_map017",
+  "?isGloryDoor": "是否是荣耀殿堂的门",
+  "isGloryDoor": true,
+  "gloryDoorId": 4,
+  "?headTextHeight": "头顶名字高度",
+  "?headTextScale": "头顶名字缩放",
+  "headTextHeight": -15,
+  "headTextScale": 2,
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -14,
+          -0.5,
+          -0.1,
+          14,
+          10,
+          0.15
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

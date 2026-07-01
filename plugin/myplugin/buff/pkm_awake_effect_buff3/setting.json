@@ -1,0 +1,11 @@
+{
+    "effect": {
+        "effect": "g2038_awake_3.effect",
+        "once": false,
+        "pos": {"x":0,"y":0,"z":0},
+        "scale": {"x":0.6,"y":0.6,"z":0.6},
+        "yaw": 0
+    },
+
+    "deadRemove": true
+}

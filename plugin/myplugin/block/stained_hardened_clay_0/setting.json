@@ -1,0 +1,14 @@
+{
+    "breakTime": 20,
+	"runBuff": [
+        "myplugin/sound_buff_walk"
+      ],
+    "texture": [
+        "hardened_clay_stained_white.png",
+        "hardened_clay_stained_white.png",
+        "hardened_clay_stained_white.png",
+        "hardened_clay_stained_white.png",
+        "hardened_clay_stained_white.png",
+        "hardened_clay_stained_white.png"
+    ]
+}

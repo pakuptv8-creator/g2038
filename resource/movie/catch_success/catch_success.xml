@@ -1,0 +1,3 @@
+<TimeLine time="2500" keepViewMode="true"/>
+<Track name="audio_track" type="audio"/>
+<Track name="playable_track" type="playable"/>

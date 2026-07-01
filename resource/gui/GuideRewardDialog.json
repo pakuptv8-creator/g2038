@@ -1,0 +1,146 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "GuideRewardDialog",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,289},{0,201}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "16 16 50 16"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemonGuide.json image:img_9_missionbg"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "GuideRewardDialog-Header",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,5},{0,1},{1,-4},{0.22,3}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "12 12 12 12"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "GuideRewardDialog-Title",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,12},{0,0},{0.73,12},{0.22,0}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            },
+            {
+              "Name": "MinFont",
+              "Value": "PKM14"
+            },
+            {
+              "Name": "AutoShrinkFont",
+              "Value": "true"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.415686 0.172549 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextWordWrap",
+              "Value": "true"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "GuideRewardDialog-Progress",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.2,0},{0.22,0}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.415686 0.172549 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "GuideRewardDialog-Info",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,13},{0,45},{0,278},{0,110}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM12"
+            },
+            {
+              "Name": "MinFont",
+              "Value": "PKM10"
+            },
+            {
+              "Name": "AutoShrinkFont",
+              "Value": "true"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.415686 0.172549 0 1"
+            },
+            {
+              "Name": "TextWordWrap",
+              "Value": "true"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "GuideRewardDialog-Reward-List",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,13},{0,113},{0,277},{0,191}}"
+            }
+          ],
+          "Type": "Layout"
+        }
+      ]
+    }
+  }
+}

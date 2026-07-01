@@ -1,0 +1,12 @@
+{
+    "sound": {
+      "loop": true,
+      "selfOnly": false,
+      "sound": "/sound/walk_grassground_sound.mp3",
+      "volume": 1
+    },
+    "sync":"other",
+    "avoidBuff": [
+      "myplugin/sound_buff_walk_grass"
+    ]
+  }

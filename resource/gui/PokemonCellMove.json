@@ -1,0 +1,30 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonCellMove",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonCellMove-Move-Area",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,20},{0,70},{0,350},{1,-105}}"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            }
+          ],
+          "Type": "Layout"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "desc": "active_skill_1102008_desc",
+  "icon": "set:g2038_pokemon_skill.json image:g2038_skillbook_water",
+  "imposeTray": [
+    4
+  ],
+  "itemId": 125,
+  "itemName": "active_skill_1102008_name",
+  "itemType": 4,
+  "needSave": true,
+  "price": 10,
+  "rarity": 4,
+  "sellingPrice": 1,
+  "skillBookType": 2,
+  "skillId": 1102008,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

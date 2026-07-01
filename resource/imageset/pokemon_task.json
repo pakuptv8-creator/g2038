@@ -1,0 +1,284 @@
+{
+    "frames": {
+        "img_0_activeicon": {
+            "frame": {
+                "x": 63,
+                "y": 1,
+                "w": 32,
+                "h": 31
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "img_0_activeicon2": {
+            "frame": {
+                "x": 96,
+                "y": 1,
+                "w": 32,
+                "h": 31
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 31
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 31
+            }
+        },
+        "img_0_finishicon": {
+            "frame": {
+                "x": 481,
+                "y": 1,
+                "w": 84,
+                "h": 72
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 84,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 72
+            }
+        },
+        "img_0_icon_exp2": {
+            "frame": {
+                "x": 129,
+                "y": 1,
+                "w": 36,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 32
+            }
+        },
+        "img_0_lockicon": {
+            "frame": {
+                "x": 166,
+                "y": 1,
+                "w": 44,
+                "h": 57
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 44,
+                "h": 57
+            },
+            "sourceSize": {
+                "w": 44,
+                "h": 57
+            }
+        },
+        "img_0_phasebgicon": {
+            "frame": {
+                "x": 211,
+                "y": 1,
+                "w": 50,
+                "h": 38
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 38
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 38
+            }
+        },
+        "img_9_finishbg": {
+            "frame": {
+                "x": 262,
+                "y": 1,
+                "w": 51,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 51
+            }
+        },
+        "img_9_finishbg2": {
+            "frame": {
+                "x": 1,
+                "y": 587,
+                "w": 545,
+                "h": 95
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 545,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 545,
+                "h": 95
+            }
+        },
+        "img_9_floor": {
+            "frame": {
+                "x": 1,
+                "y": 74,
+                "w": 512,
+                "h": 512
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 512
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 512
+            }
+        },
+        "img_9_lockbg": {
+            "frame": {
+                "x": 423,
+                "y": 1,
+                "w": 57,
+                "h": 56
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 57,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 57,
+                "h": 56
+            }
+        },
+        "img_9_mask": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 30,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 30
+            }
+        },
+        "img_9_normalbg": {
+            "frame": {
+                "x": 314,
+                "y": 1,
+                "w": 51,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 51,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 51,
+                "h": 51
+            }
+        },
+        "img_9_normalbg2": {
+            "frame": {
+                "x": 1,
+                "y": 683,
+                "w": 546,
+                "h": 95
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 546,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 546,
+                "h": 95
+            }
+        },
+        "img_9_reward_receive_bg": {
+            "frame": {
+                "x": 32,
+                "y": 1,
+                "w": 30,
+                "h": 30
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 30,
+                "h": 30
+            },
+            "sourceSize": {
+                "w": 30,
+                "h": 30
+            }
+        },
+        "img_9_transfer_bg": {
+            "frame": {
+                "x": 366,
+                "y": 1,
+                "w": 56,
+                "h": 46
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 56,
+                "h": 46
+            },
+            "sourceSize": {
+                "w": 56,
+                "h": 46
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_task.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 566,
+            "h": 779
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

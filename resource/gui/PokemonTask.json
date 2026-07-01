@@ -1,0 +1,784 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "PokemonTask",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                    "Name": "StretchType",
+                    "Value": "NineGrid"
+                },
+                {
+                    "Name": "MinFont",
+                    "Value": "HT16"
+                },
+                {
+                    "Name": "AutoShrinkFont",
+                    "Value": "false"
+                },
+                {
+                    "Name": "SoundName",
+                    "Value": "0"
+                },
+                {
+                    "Name": "WndOpenSound",
+                    "Value": "0"
+                },
+                {
+                    "Name": "WndCloseSound",
+                    "Value": "0"
+                },
+                {
+                    "Name": "LayoutBackImage",
+                    "Value": "set:pokemon_task.json image:img_9_floor"
+                },
+                {
+                    "Name": "MirroredWrappingType",
+                    "Value": "None"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Button",
+                    "Name": "PokemonTask-BtnClose",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,168},{0,65}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "6"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:pokemon_pet_packet.json image:btn_0_back"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                            "Name": "PushBrightnessEnable",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:pokemon_pet_packet.json image:btn_0_back"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HexgonTopImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonTopColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonSideImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonSideColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonOverlayerImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonOverlayerColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "PokemonTask-Title",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,173},{0,0},{0,432},{0,49}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM22"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "TextBorder",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextBorderColor",
+                            "Value": "0.415686 0.172549 0 1"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextLineExtraSpace",
+                            "Value": "0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonTask-List-Layout",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,75},{0,81},{0,1202},{0,503}}"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "PokemonTask-DailyActive-Count",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,84},{0,594},{0,134},{0,644}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM45"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0.52549 0.227451 0 1"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextLineExtraSpace",
+                            "Value": "0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "PokemonTask-DailyActive-Icon",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,72},{0,658},{0,104},{0,689}}"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:pokemon_task.json image:img_0_activeicon"
+                        },
+                        {
+                            "Name": "HexgonTopImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonTopColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonSideImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonSideColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonOverlayerImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonOverlayerColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "PokemonTask-DailyActive-Text",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,111},{0,664},{0,231},{0,684}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "PKM12"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0.52549 0.227451 0 1"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextLineExtraSpace",
+                            "Value": "0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "ProgressBar",
+                    "Name": "PokemonTask-DailyActive-ProgressBar",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,194},{0,634},{0,1168},{0,653}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "10 10 10 10"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "ProgressBackImage",
+                            "Value": "set:pokemon_battle.json image:info_hp"
+                        },
+                        {
+                            "Name": "ProgressImage",
+                            "Value": "set:pokemon_battle.json image:info_hp_green"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonTask-DailyActive-Reward-List",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,261},{0,597},{0,1206},{0,689}}"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonTask-DailyActive-Tip-List",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,282},{0,561},{0,1182},{0,591}}"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "PokemonTask-UpdateTime",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-73},{0,39},{0,225},{0,63}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "PKM16"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0.52549 0.227451 0 1"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextLineExtraSpace",
+                            "Value": "0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "PokemonTask-Fly-Effect-Bg",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,560},{0,4},{0,610},{0,54}}"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "HexgonTopImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonTopColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonSideImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonSideColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonOverlayerImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonOverlayerColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonTask-Fly-Effect-Layout",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "EffectFileName",
+                                    "Value": "g2038_activity_light1.effect"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{-1.5,0},{3,0},{1.5,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT16"
+                                },
+                                {
+                                    "Name": "AutoShrinkFont",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "SoundName",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "WndOpenSound",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "WndCloseSound",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "MirroredWrappingType",
+                                    "Value": "None"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "PokemonTask-Bomb-Effect-Bg",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,83},{0,593},{0,133},{0,643}}"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT16"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "SoundName",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndOpenSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "WndCloseSound",
+                            "Value": "0"
+                        },
+                        {
+                            "Name": "HexgonTopImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonTopColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonSideImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonSideColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "HexgonOverlayerImage",
+                            "Value": ""
+                        },
+                        {
+                            "Name": "HexgonOverlayerColor",
+                            "Value": "1 1 1 1"
+                        },
+                        {
+                            "Name": "MirroredWrappingType",
+                            "Value": "None"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonTask-Bomb-Effect",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "EffectFileName",
+                                    "Value": "g2038_activity_light2.effect"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{-1.5,0},{3,0},{1.5,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT16"
+                                },
+                                {
+                                    "Name": "AutoShrinkFont",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "SoundName",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "WndOpenSound",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "WndCloseSound",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "MirroredWrappingType",
+                                    "Value": "None"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

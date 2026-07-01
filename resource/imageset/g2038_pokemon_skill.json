@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "g2038_skillbook_fire": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g2038_skillbook_grass": {
+            "frame": {
+                "x": 1,
+                "y": 130,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g2038_skillbook_normal": {
+            "frame": {
+                "x": 1,
+                "y": 259,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g2038_skillbook_special": {
+            "frame": {
+                "x": 1,
+                "y": 388,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g2038_skillbook_super": {
+            "frame": {
+                "x": 1,
+                "y": 517,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        },
+        "g2038_skillbook_water": {
+            "frame": {
+                "x": 1,
+                "y": 646,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "g2038_pokemon_skill.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 130,
+            "h": 775
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

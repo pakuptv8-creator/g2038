@@ -1,0 +1,114 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonTaskDetail",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "24 24 24 24"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonTaskDetail-Click-Position",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,50},{0,50},{0,50},{0,50}}"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonTaskDetail-Content",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,599},{0,315}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "24 24 24 24"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_bag.json image:chb_9_box"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonTaskDetail-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,26},{0,20},{0,371},{0,47}}"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.596078 0.168627 0.113725 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonTaskDetail-Desc",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,26},{0,50},{0,579},{0,92}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.52549 0.227451 0 1"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonTaskDetail-List-Layout",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,100},{0,558},{0,284}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

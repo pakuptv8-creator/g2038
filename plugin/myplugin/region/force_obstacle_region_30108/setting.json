@@ -1,0 +1,11 @@
+{
+  "?id": "触发的对话Id",
+  "kickPos": {
+    "x": 309,
+    "y": 6,
+    "z": 401
+  },
+  "mapName": "map001",
+  "id": 30108,
+  "type": "obstacle"
+}

@@ -1,0 +1,12 @@
+n_id	n_tabId	n_giftType	s_giftTypeIcon	s_sort_id	s_giftName	s_giftContent	n_currencyType	n_originalPrice	n_discount	n_buyCount	n_auto_weight
+商品id	主标签页	礼包级别	礼包图片	序号id	礼包名称多语言	礼包内容Id:1#2	货币类型0金魔方3金币	正常价格	折扣0.1表示一折	限购次数0不限购	自动弹出时的权重
+n_id	1日2周3月	1初级2中级3高级	1初级2中级3高级	s_sort_id	s_giftName	对应regular_gift_item的物品id	n_currencyType	n_originalPrice	0或不填不打折	n_buyCount	n_auto_weight
+10014	1	1	set:g2038_pokemon_pack.json image:img_0_coins_gift1	17	gui_rugular_daily_gift_name2	34#35#36	0	200	0.3	1	10
+10015	1	1	set:g2038_pokemon_pack.json image:img_0_exp_gift1	16	gui_rugular_daily_gift_name3	37#38#39	0	120	0.5	1	10
+10016	1	1	set:g2038_pokemon_pack.json image:img_0_candy_gift1	15	gui_rugular_daily_gift_name4	40#41#42#43	0	150	0.4	1	10
+10018	2	2	set:g2038_pokemon_pack.json image:img_0_exp_gift2	22	gui_rugular_week_gift_name2	46#47#48#49	0	400	0.3	3	10
+10019	2	2	set:g2038_pokemon_pack.json image:img_0_candy_gift2	21	gui_rugular_week_gift_name3	50#51#52	0	240	0.5	3	10
+10020	2	2	set:g2038_pokemon_pack.json image:img_0_draw_gift2	20	gui_rugular_week_gift_name4	53#54	0	1000	0.3	1	10
+10022	3	3	set:g2038_pokemon_pack.json image:img_0_mutate_gift3	27	gui_rugular_month_gift_name2	57#58	0	2000	0.25	1	10
+10023	3	3	set:g2038_pokemon_pack.json image:img_0_draw_gift3	25	gui_rugular_month_gift_name3	59#60	0	2000	0.3	1	10
+10024	3	3	set:g2038_pokemon_pack.json image:img_0_draw_gift3	26	gui_rugular_month_gift_name4	61#62	0	4000	0.5	2	10

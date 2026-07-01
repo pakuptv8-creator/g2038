@@ -1,0 +1,55 @@
+{
+  "actorName": "g2038_boy.actor",
+  "actorGirlName":"g2038_girl.actor",
+  "?jumpSpeed": "起跳初速度",
+  "jumpSpeed": 0.35,
+  "?moveSpeed": "奔跑速度",
+  "moveSpeed": 0.35,
+  "?moveAcc": "奔跑加速度",
+  "moveAcc": 0.35,
+  "?gravity": "重力",
+  "gravity": 0.08,
+  "hurtTime": 0,
+  "nameBorder":true,
+  "visibleGuideLineNumber": 1,
+  "guideLineSize": 1.6,
+  "checkStaticCollisionBox": true,
+  "?reachDistance":"点选射线响应范围",
+  "reachDistance": 50,
+  "collisionGroup": 1,
+  "collisionMask": 8,
+  "checkBlockTouchEvent": true,
+  "checkTouchEvent": true,
+  "interaction": {
+	"radius": 3,
+	"offset": {
+		"x": 0,
+		"y": 0,
+		"z": 0
+	}
+  },
+  "interactionUI": {
+    "centerBtns": [
+      {
+        "event": "interact_with_player",
+        "image": "plugin/myplugin/image/img_0_npcinteraction_dialogueicon.png",
+        "imageSize": {
+          "height": "80",
+          "width": "80"
+        },
+        "text": ""
+      }
+    ],
+    "cfgKey": "interactionUI",
+    "followParams": {
+      "followScenePos": false,
+      "offset": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0
+      }
+    }
+  },
+  "canTurnHead": false,
+  "stanceCfg":[[[1.4,0,0]]]
+}

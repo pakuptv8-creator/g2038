@@ -1,0 +1,212 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_leaderboard_rank_cell",
+      "Property": [
+        {
+          "Name": "Material",
+          "Value": "CullBackLinear"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,579},{0,38}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "2 2 2 2"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_leaderboard_rank_cell-bottom-line",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,563},{0,1}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_leaderboard.json image:img_9_board_other"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_leaderboard_rank_cell-rank-icon",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,30},{0,3},{0,58},{0,37}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_leaderboard.json image:img_0_medals_1"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_leaderboard_rank_cell-rank-text",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,41},{0,10},{0,53},{0,27}}"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.278431 0.25098 0.243137 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_leaderboard_rank_cell-rank-name",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,150},{0,0},{0,370},{1,0}}"
+            },
+            {
+              "Name": "MinFont",
+              "Value": "PKM12"
+            },
+            {
+              "Name": "AutoShrinkFont",
+              "Value": "true"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.278431 0.25098 0.243137 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_leaderboard_rank_cell-rank-score",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,4},{0,200},{0,38}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "pokemon_leaderboard_rank_cell-rank-score-icon",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,55},{0,34}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_leaderboard.json image:img_0_cup_1"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "pokemon_leaderboard_rank_cell-score-icon-effect",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-1.5,0},{3,0},{1.5,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_rank_badge1.effect"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_leaderboard_rank_cell-rank-score-text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-26},{0,8},{0,85},{0,27}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.278431 0.25098 0.243137 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

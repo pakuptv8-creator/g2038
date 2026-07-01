@@ -1,0 +1,93 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2038_pet_21_1.actor" Originalscale="1 1 1" Skeleton="g2038_pet_21_1.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1"  ThreadPriority="0">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="21_1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2038_pet_21_1.skin" ChangeColor = "0 0 0 0" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+				<Effect>
+					<FileName value="g2038_pet_21_1.effect"/>
+					<SocketName value="Bone013"/>
+					<Position_X value="0.192998"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0.08"/>
+					<yaw value="-104.209"/>
+					<pitch value="-72.833"/>
+					<roll value="72.3284"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2038_pet_21_1.effect"/>
+					<SocketName value="Bone019"/>
+					<Position_X value="0.176141"/>
+					<Position_Y value="0"/>
+					<Position_Z value="-0.08"/>
+					<yaw value="156.157"/>
+					<pitch value="67.6016"/>
+					<roll value="129.914"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="attack1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_rangedattack.anim" BeginTime = "0" Times = "1" Length = "1.966" FadeTime = "0.25" Channel = "" TimeScale = "1.3">
+				</Animation>
+				<SlowDown timeScale = "0.3" beginTime = "0.64" durationTime = "0.2" equalizeTime = "0.2" Cascade = "false" ShowRate = "1">
+				</SlowDown>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="attack2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_meleeattack.anim" BeginTime = "0" Times = "1" Length = "1.533" FadeTime = "0.25" Channel = "" TimeScale = "0.9">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="die" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_hit.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "0.6">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="hurt" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_hit.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_idle.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_walk.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1.5">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+			<Skill Name="rush" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2038_pet_21_1_run.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1.7">
+				</Animation>
+				<ActorScaleChange  beginScale = "1.35" endScale = "1.35" >
+				</ActorScaleChange>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2038_pet_21_1_hit.anim"/>
+				<Anim Name="g2038_pet_21_1_idle.anim"/>
+				<Anim Name="g2038_pet_21_1_meleeattack.anim"/>
+				<Anim Name="g2038_pet_21_1_rangedattack.anim"/>
+				<Anim Name="g2038_pet_21_1_run.anim"/>
+				<Anim Name="g2038_pet_21_1_walk.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,1038 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "MutatePopup",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "MutatePopup-Mask",
+          "Property": [
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.490196"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "MutatePopup-MutationLayout",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,958},{0,467}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "MutatePopup-BG",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "MutatePopup-Title",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,5},{0,5},{0.99,5},{0,70}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "MutatePopup-TitleTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,9},{0,171},{0,47}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "MutatePopup-CloseBtn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-6},{0,6},{0,56},{0,68}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "MutatePopup-LeftLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,70},{0,500},{1,0}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "MutatePopup-AttributesLayout",
+                  "Property": [
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.996078 0.945098 0.835294 0"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,46},{0,133},{0,458},{1,-25}}"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "MutatePopup-FeatureLayout",
+                  "Property": [
+                    {
+                      "Name": "BackgroundColor",
+                      "Value": "0.996078 0.945098 0.835294 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,46},{0,20},{0,458},{0,117}}"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "MutatePopup-FeatureNameInfo",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,5},{0,5},{0.97,5},{0,35}}"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "MutatePopup-FeatureName",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            },
+                            {
+                              "Name": "MinFont",
+                              "Value": "PKM14"
+                            },
+                            {
+                              "Name": "AutoShrinkFont",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "1 0 0 1"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        },
+                        {
+                          "Name": "MutatePopup-FeatureRarity",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Right"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            },
+                            {
+                              "Name": "MinFont",
+                              "Value": "PKM14"
+                            },
+                            {
+                              "Name": "AutoShrinkFont",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.501961 0 0 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Right"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "MutatePopup-FeatureDescribe",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,5},{0,40},{0.97,5},{1,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.501961 0 0 1"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "MutatePopup-RightLayout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{1,-500},{0,70},{2,-960},{1,0}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "MutatePopup-EntityWindow",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,100},{0,0},{0,400},{1,-100}}"
+                    },
+                    {
+                      "Name": "ActorWindowScale",
+                      "Value": "1"
+                    }
+                  ],
+                  "Type": "ActorWindow"
+                },
+                {
+                  "Name": "MutatePopup-InteractionLayout",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-26},{1,0},{0,40}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "MutatePopup-ItemLayout",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,32},{0,0},{0,96},{0,64}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "10 10 10 10"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_task.json image:img_9_normalbg"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "MutatePopup-Item",
+                          "Property": [
+                            {
+                              "Name": "Material",
+                              "Value": "CullBackLinear"
+                            },
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0.9,0},{0.9,0}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "PushBrightness",
+                              "Value": "0.25 0.25 0.25 0"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "MutatePopup-ItemCount",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,107},{0,0},{0,207},{0,50}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.596078 0.168627 0.113725 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "MutatePopup-MutateBtn",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,253},{0,0},{0,466},{0,66}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "20 20 20 20"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM24"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Button"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "MutatePopup-MutateSuccess",
+          "Property": [
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,431},{0,78},{1,-411},{1,-47}}"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "MutatePopup-SuccessBG",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "MutatePopup-ShiningBG",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-80},{0,400},{0,320}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_swap.json image:img_0_light"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "MutatePopup-Shining-Effect",
+                  "Property": [
+                    {
+                      "Name": "EffectFileName",
+                      "Value": "g2038_tanchuang_shine.effect"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-0.1,0},{0.4,0},{0.3,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "MutatePopup-SuccessEntityWindow",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,60},{0,300},{1,-140}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ActorWindowScale",
+                  "Value": "1"
+                }
+              ],
+              "Type": "ActorWindow"
+            },
+            {
+              "Name": "MutatePopup-SuccessTitle",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{-0.15,0},{0,-25},{1.15,0},{0,47}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "80 80 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_swap.json image:img_9_titleboard"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "MutatePopup-SuccessTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,9},{0,221},{0,40}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Bottom"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "MutatePopup-SuccessConfirm",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,6},{0,-6},{0.98,6},{0,74}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Rotate",
+                  "Value": "180"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "MutatePopup-ConfirmBtn",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,197},{0,63}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 10"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "MutatePopup-BuyMask",
+          "Property": [
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.490196"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "MutatePopup-ItemNotEnough",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,776},{0,467}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "MutatePopup-NotEnoughBG",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "MutatePopup-NotEnoughTitle",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,5},{0,5},{0.99,5},{0,70}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "MutatePopup-NotEnoughTitleTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,12},{0,171},{0,50}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "MutatePopup-BuyBtn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-146},{0,-49},{0,51},{0,14}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "MutatePopup-NotBuyBtn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,150},{0,-49},{0,347},{0,14}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_no"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_results.json image:btn_0_confirm_no"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "MutatePopup-NotEnoughText",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,719},{0,67}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM20"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.478431 0.180392 0.101961 1"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "breakTime": 20,
+    "isOpaqueFullCube": false,
+    "renderable": "false",
+    "texture": [
+        "empty.png",
+        "empty.png",
+        "empty.png",
+        "empty.png",
+        "empty.png",
+        "empty.png"
+    ]
+}

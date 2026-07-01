@@ -1,0 +1,920 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonBagStudySkill",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.588235"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonBagStudySkill-win",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,50},{0,1200},{0,680}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 50 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "PokemonBagStudySkill-bag_bg",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,425},{0,75},{0,855},{0,620}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonBagStudySkill-bag_list",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,-10},{1,-10}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonBagStudySkill-detail_bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,865},{0,75},{0,1187},{0,620}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "15 15 15 15"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_bag.json image:chb_9_box_2"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonBagStudySkill-detail_layout",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonBagStudySkill-use_btn",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,445},{0,138},{0,490}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "15 15 15 15"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button",
+                      "Window": [
+                        {
+                          "Name": "PokemonBagStudySkill-use_text",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0,50},{0,50}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextBorder",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextBorderColor",
+                              "Value": "0.278431 0.411765 0.0666667 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonBagStudySkill-detail_icon_frame",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,14},{0,13},{0,110},{0,109}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage",
+                      "Window": [
+                        {
+                          "Name": "PokemonBagStudySkill-detail_icon",
+                          "Property": [
+                            {
+                              "Name": "Material",
+                              "Value": "CullBackLinear"
+                            },
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,-20},{1,-20}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Centre"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        },
+                        {
+                          "Name": "PokemonBagStudySkill-detail_item_num",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,-7},{0,-7},{0,43},{0,11}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Bottom"
+                            },
+                            {
+                              "Name": "HorizontalAlignment",
+                              "Value": "Right"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.596078 0.168627 0.113725 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Right"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonBagStudySkill-detail_race_icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,116},{0,14},{0,144},{0,42}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_pet_race.json image:img_0_race_fire"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonBagStudySkill-detail_item_name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,118},{0,57},{0,238},{0,75}}"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.545098 0.278431 0.0470588 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonBagStudySkill-detail_item_rarity",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,118},{0,85},{0,187},{0,112.91}}"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.545098 0.278431 0.0470588 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText",
+                      "Window": [
+                        {
+                          "Name": "PokemonBagStudySkill-detail_item_rarity_text",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{1,0},{0,0},{1,50},{0,20}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "1 0.517647 0 1"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonBagStudySkill-detail_holp",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,274},{0,8},{0,312},{0,46}}"
+                        },
+                        {
+                          "Name": "NormalImage",
+                          "Value": "set:pokemon_bag.json image:btn_0_help"
+                        },
+                        {
+                          "Name": "PushBrightness",
+                          "Value": "0.25 0.25 0.25 0"
+                        },
+                        {
+                          "Name": "PushedImage",
+                          "Value": "set:pokemon_bag.json image:btn_0_help"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "Button"
+                    },
+                    {
+                      "Name": "PokemonBagStudySkill-detail_info",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,120},{0,294},{0,430}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "PokemonBagStudySkill-detail_skill_type",
+                          "Property": [
+                            {
+                              "Name": "Material",
+                              "Value": "CullBackLinear"
+                            },
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{0,119},{0,23}}"
+                            },
+                            {
+                              "Name": "StretchType",
+                              "Value": "NineGrid"
+                            },
+                            {
+                              "Name": "StretchOffset",
+                              "Value": "10 10 0 0"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:pokemon_bag.json image:chb_9_initiative_passive"
+                            }
+                          ],
+                          "Type": "StaticImage",
+                          "Window": [
+                            {
+                              "Name": "PokemonBagStudySkill-detail_skill_type_text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,0},{0,0},{0,50},{0,18}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "TextHorzAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "TextVertAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText"
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "PokemonBagStudySkill-detail_info_title",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,23},{1,0},{0,59}}"
+                            },
+                            {
+                              "Name": "TextColor",
+                              "Value": "0.776471 0.196078 0.0823529 1"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        },
+                        {
+                          "Name": "PokemonBagStudySkill-detail_skill_info",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,60},{1,0},{0,95}}"
+                            }
+                          ],
+                          "Type": "Layout",
+                          "Window": [
+                            {
+                              "Name": "PokemonBagStudySkill-skill_info_1",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,26},{0,0},{0,51},{0,25}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "ImageName",
+                                  "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicalattacks"
+                                }
+                              ],
+                              "Type": "StaticImage",
+                              "Window": [
+                                {
+                                  "Name": "PokemonBagStudySkill-skill_info_num_1",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{1,5},{0,0},{1,15},{0,25}}"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM16"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "PokemonBagStudySkill-skill_info_2",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,115},{0,0},{0,140},{0,25}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "ImageName",
+                                  "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                                }
+                              ],
+                              "Type": "StaticImage",
+                              "Window": [
+                                {
+                                  "Name": "PokemonBagStudySkill-skill_info_num_2",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{1,5},{0,0},{1,15},{0,25}}"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM16"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            },
+                            {
+                              "Name": "PokemonBagStudySkill-skill_info_3",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,204},{0,0},{0,229},{0,25}}"
+                                },
+                                {
+                                  "Name": "VerticalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "ImageName",
+                                  "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hit"
+                                }
+                              ],
+                              "Type": "StaticImage",
+                              "Window": [
+                                {
+                                  "Name": "PokemonBagStudySkill-skill_info_num_3",
+                                  "Property": [
+                                    {
+                                      "Name": "Area",
+                                      "Value": "{{1,5},{0,0},{1,15},{0,25}}"
+                                    },
+                                    {
+                                      "Name": "TextColor",
+                                      "Value": "0.529412 0.243137 0.00392157 1"
+                                    },
+                                    {
+                                      "Name": "TextVertAlignment",
+                                      "Value": "Centre"
+                                    },
+                                    {
+                                      "Name": "Font",
+                                      "Value": "PKM16"
+                                    }
+                                  ],
+                                  "Type": "StaticText"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "Name": "PokemonBagStudySkill-detail_text_list",
+                          "Property": [
+                            {
+                              "Name": "Material",
+                              "Value": "CullBackLinear"
+                            },
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,0},{0,0},{1,0},{0,215}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Bottom"
+                            },
+                            {
+                              "Name": "StretchType",
+                              "Value": "NineGrid"
+                            },
+                            {
+                              "Name": "StretchOffset",
+                              "Value": "15 15 15 15"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:pokemon_bag.json image:chb_9_describe"
+                            }
+                          ],
+                          "Type": "StaticImage",
+                          "Window": [
+                            {
+                              "Name": "PokemonBagStudySkill-detail_text",
+                              "Property": [
+                                {
+                                  "Name": "Area",
+                                  "Value": "{{0,0},{0,0},{1,-10},{0,27.9099}}"
+                                },
+                                {
+                                  "Name": "HorizontalAlignment",
+                                  "Value": "Centre"
+                                },
+                                {
+                                  "Name": "TextColor",
+                                  "Value": "0 0 0 1"
+                                },
+                                {
+                                  "Name": "TextSelfAdaptHigh",
+                                  "Value": "true"
+                                },
+                                {
+                                  "Name": "TextWordWrap",
+                                  "Value": "true"
+                                },
+                                {
+                                  "Name": "Font",
+                                  "Value": "PKM16"
+                                }
+                              ],
+                              "Type": "StaticText"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonBagStudySkill-title",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,3},{1,-6},{0,67}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 30 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_attributeboard_top"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonBagStudySkill-title_text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,50},{0,50}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonBagStudySkill-close",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-20},{0,0},{0,38},{0,58}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "SoundName",
+                      "Value": "6"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_bag.json image:btn_0_close"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_bag.json image:btn_0_close"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonBagStudySkill-Detail-Layout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,15},{0,75},{0,415},{0,620}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "2 2 2 2"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_pet_packet.json image:img_9_color"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonBagStudySkill-Detail-Skill-List",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,15},{0,15},{1,-15},{0.6,15}}"
+                    }
+                  ],
+                  "Type": "Layout"
+                },
+                {
+                  "Name": "PokemonBagStudySkill-Detail-Skill-Desc",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,15},{0.6,24},{1,-15},{1,-6}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

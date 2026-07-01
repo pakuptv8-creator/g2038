@@ -1,0 +1,1594 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "dailyLottery",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "VerticalAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "10 10 10 10"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:dailylottery.json image:btn_dec"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "dailyLottery-mask",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "dailyLottery-bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.075,0},{0.0430556,0},{0.884375,0},{0.959723,0}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:dailylottery.json image:bg"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "dailyLottery-item",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.364844,0},{0.0402778,0},{0.884375,0},{0.959722,0}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "dailyLottery-itembg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0300752,0},{0.0317221,0},{0.962406,0},{0.968278,0}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:dailylottery.json image:turntable_bg"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "dailyLottery-item_1",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.437594,0},{0.141994,0},{0.556391,0},{0.265861,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item1Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1.01266,0},{0.97561,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item1Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1.01266,0},{0.97561,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item1Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.278481,0},{0.268293,0},{0.658228,0},{0.634147,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item1Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.756098,0},{1.9,0},{1.08537,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item1Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0121951,0},{1.01266,0},{0.987805,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item1Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.189873,0},{-0.121951,0},{0.822784,0},{0.487805,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item1EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "dailyLottery-item_2",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.654135,0},{0.23716,0},{0.774436,0},{0.358006,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item2Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item2Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item2Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.275,0},{0.275,0},{0.65,0},{0.65,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item2Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.775,0},{1.9,0},{1.1125,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item2Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0125,0},{1,0},{1.0125,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item2Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.1875,0},{-0.125,0},{0.8125,0},{0.5,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item2EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "dailyLottery-item_3",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.718797,0},{0.459215,0},{0.839098,0},{0.580061,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item3Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item3Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item3Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.275,0},{0.275,0},{0.65,0},{0.65,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item3Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.775,0},{1.6,0},{1.1125,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item3Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0125,0},{1,0},{1.0125,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item3Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.1875,0},{-0.125,0},{0.8125,0},{0.5,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item3EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "dailyLottery-item_4",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.541353,0},{0.661631,0},{0.661654,0},{0.782477,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item4Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item4Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item4Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.275,0},{0.275,0},{0.65,0},{0.65,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item4Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.775,0},{1.6,0},{1.1125,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item4Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0125,0},{1,0},{1.0125,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item4Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.1875,0},{-0.125,0},{0.8125,0},{0.5,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item4EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "dailyLottery-item_5",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.333835,0},{0.663142,0},{0.454136,0},{0.783988,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item5Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item5Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item5Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.275,0},{0.275,0},{0.65,0},{0.65,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item5Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.775,0},{1.6,0},{1.1125,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "MinFont",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item5Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0125,0},{1,0},{1.0125,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item5Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.1875,0},{-0.125,0},{0.8125,0},{0.5,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item5EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "dailyLottery-item_6",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.147368,0},{0.465257,0},{0.267669,0},{0.586103,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item6Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item6Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item6Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.275,0},{0.275,0},{0.65,0},{0.65,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item6Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.775,0},{1.6,0},{1.1125,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item6Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0125,0},{1,0},{1.0125,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item6Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.1875,0},{-0.125,0},{0.8125,0},{0.5,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item6EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "dailyLottery-item_7",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.222556,0},{0.240181,0},{0.342857,0},{0.361027,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "dailyLottery-item7Quality",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item7Icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:g2038_pokemon_ticket.json image:item_ticket_02"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item7Num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.275,0},{0.275,0},{0.65,0},{0.65,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.419608 0.294118 0.203922 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item7Name",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.775,0},{1.9,0},{1.1125,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.458824 0.294118 0.235294 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextWordWrap",
+                          "Value": "true"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "dailyLottery-item7Mask",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.0125,0},{1,0},{1.0125,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:dailylottery.json image:pick_mask"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item7Effect",
+                      "Property": [
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_zhuanpan_1.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.1875,0},{-0.125,0},{0.8125,0},{0.5,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "dailyLottery-item7EdgeEffect",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{-0.75,0},{1.5,0},{0.75,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "dailyLottery-close",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.814062,0},{0.0875,0},{0.842968,0},{0.138889,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_gift_bag.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_gift_bag.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "dailyLottery-lotteryDec",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.075,0},{0.102778,0},{0.361719,0},{0.776389,0}}"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:dailylottery.json image:dec_bg"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "dailyLottery-bird",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-0.154639,0},{0.997275,0},{0.560825,0}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:dailylottery.json image:giftpet"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "dailyLottery-detail",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0463215,0},{0.558763,0},{0.93733,0},{0.975258,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "5 5 5 5"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:dailylottery.json image:dec_bg"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "dailyLottery-detailDec",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0681199,0},{0.564948,0},{0.912807,0},{0.973195,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.25098 0.501961 0.501961 1"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "dailyLottery-title",
+                  "Property": [
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0 0 0 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0 0 0 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0 0 0 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0 0 0 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0463215,0},{0.461856,0},{0.940054,0},{0.558763,0}}"
+                    },
+                    {
+                      "Name": "AutoSize",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM18"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.184314 0.196078 0.317647 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "dailyLottery-start_btn",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.578125,0},{0.423611,0},{0.666211,0},{0.581597,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:dailylottery.json image:start_btn"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button",
+              "Window": [
+                {
+                  "Name": "dailyLottery-remainCount",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.274336,0},{0.578947,0},{0.734513,0},{0.771929,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "dailyLottery-buyBtn",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.120312,0},{0.776389,0},{0.287499,0},{0.8625,0}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 0"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_battle.json image:green"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_battle.json image:green"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.203922 0.345098 0.196078 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button",
+              "Window": [
+                {
+                  "Name": "dailyLottery-gotoshopBtnText",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0046729,1},{0,-1},{0.995327,1},{1.01613,-1}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.278431 0.411765 0.0666667 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "dailyLottery-stateBg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.553906,0},{0.551389,0},{0.694531,0},{0.590278,0}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:dailylottery.json image:count_down"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "dailyLottery-stateText",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.560938,0},{0.55,0},{0.689844,0},{0.591667,0}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "dailyLottery-startGuide",
+              "Property": [
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_yindao_shouzhi.effect"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.632813,0},{0.458333,0},{0.671875,0},{0.527777,0}}"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

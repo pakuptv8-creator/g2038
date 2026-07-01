@@ -1,0 +1,258 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonTelegraph",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.8"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonTelegraph-Content",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,776},{0,457}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "32 32 78 32"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_bag.json image:img_9_help"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonTelegraph-Header",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,4},{0,770},{0,69}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonTelegraph-Title-Icon",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-54.5},{0,118},{0,62.5}}"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pvp.json image:img_0_transfer_title_icon"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonTelegraph-Title-Text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,213},{0,45}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonTelegraph-BtnClose",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,62},{0,62}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_bag.json image:btn_0_close"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushBrightnessEnable",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Button"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonTelegraph-Watermarks",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,319},{0,337}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pvp.json image:img_0_watermark"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonTelegraph-Region-List",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{0,697},{0,249}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout"
+            },
+            {
+              "Name": "PokemonTelegraph-Tip-Text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-44},{0,252},{0,-26}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM14"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.890196 0.27451 0.235294 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonTelegraph-Tip-Icon",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,217},{0,-37},{0,249.625},{0,-4.375}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_swap.json image:img_0_personaldetails_redexclamationmark"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

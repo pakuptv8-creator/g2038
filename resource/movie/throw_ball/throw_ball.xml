@@ -1,0 +1,8 @@
+<TimeLine time="3400" keepViewMode="true"/>
+<Track name="camera_track" type="camera"/>
+<Track name="ui_track" type="ui"/>
+<Track name="audio_track" type="audio"/>
+<Track name="playable_track" type="playable"/>
+<!--<Track name="control_track" type="control"/>-->
+<!--<Track name="animation_track" type="animation" enable="true"/>-->
+<!--<Track name="activation_track" type="activation" enable="false"/>-->

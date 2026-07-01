@@ -1,0 +1,64 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_skill_attribute_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,110},{0,75}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_skill_attribute_cell-icon",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,25},{0,25}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:prop_att"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_skill_attribute_cell-text",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,30},{0,25}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM14"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.529412 0.243137 0.00392157 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        }
+      ]
+    }
+  }
+}

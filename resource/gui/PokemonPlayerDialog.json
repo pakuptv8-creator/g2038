@@ -1,0 +1,582 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonPlayerDialog",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonPlayerDialog-Mask",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,2},{0,-1},{1,2},{1,-1}}"
+            },
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.588235"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonPlayerDialog-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,537},{0,584}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_bag.json image:chb_9_box"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonPlayerDialog-BgTitle",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-32},{0,337},{0,32}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "30 30 30 30"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_bag.json image:chb_9_title"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonPlayerDialog-Title",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.415686 0.172549 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPlayerDialog-Close",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-20},{0,-20},{0,38},{0,38}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonPlayerDialog-Moc",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-10},{0,51},{0,131},{0,188}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:player.json image:img_0_personaldetails_watermark"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonPlayerDialog-HeadFrame",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,55},{0,68},{0,161},{0,174}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_bag.json image:chb_0_box"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonPlayerDialog-HeadIcon",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,95},{0,95}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPlayerDialog-PlayerName",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,185},{0,116},{0,363},{0,136}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextShadow",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0.415686 0.172549 0 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonPlayerDialog-CPVal",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,32},{0,178},{0,181},{0,197}}"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.364706 0.101961 0.0627451 1"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "1 0.87451 0.0156863 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonPlayerDialog-TitleContent",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,204},{0,476},{0,561}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "30 30 75 20"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_bag.json image:img_9_help"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonPlayerDialog-Mark",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,5},{0,470},{0,70}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:player.json image:img_0_honour_watermark"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonPlayerDialog-GloryTitle",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM30"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.364706 0.101961 0.0627451 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.364706 0.101961 0.0627451 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonPlayerDialog-ListContent",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-20},{1,-50},{0,230}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPlayerDialog-LvBg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,184},{0,145},{0,259},{0,169}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "25 1 15 15"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_pet_packet.json image:pbar_9_level_board_1"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonPlayerDialog-LvTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,-7},{1,0}}"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPlayerDialog-Exp",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,248},{0,145},{0,474},{0,169}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 15 15"
+                },
+                {
+                  "Name": "Progress",
+                  "Value": "0.35"
+                },
+                {
+                  "Name": "ProgressBackImage",
+                  "Value": "set:pokemon_pet_packet.json image:pbar_9_level_board"
+                },
+                {
+                  "Name": "ProgressImage",
+                  "Value": "set:pokemon_pet_packet.json image:pbar_9_level_schedule"
+                }
+              ],
+              "Type": "ProgressBar",
+              "Window": [
+                {
+                  "Name": "PokemonPlayerDialog-ExpTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonPlayerDialog-TitleBg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,181},{0,68},{0,476},{0,106}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "17 17 17 17"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:player.json image:img_9_titlebg_blue"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonPlayerDialog-TitleTxt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.741176 0.741176 0.741176 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "PokemonPlayerDialog-TitleIcon",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0,41},{0,50}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

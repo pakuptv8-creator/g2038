@@ -1,0 +1,260 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_count_edit",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,462},{0,104}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_count_edit-bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_count_edit-edit_bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0.315534,0},{0.851852,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_bag.json image:chb_9_words"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_count_edit-text",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,-10},{1,-10}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "MaxTextLength",
+                  "Value": "-1"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.623529 0.168627 0.0627451 1"
+                }
+              ],
+              "Type": "Edit"
+            }
+          ]
+        },
+        {
+          "Name": "pokemon_count_edit-btn_min",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{-0.407767,0},{0,0},{-0.230583,0},{0.925926,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_shop.json image:btn_0_min"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_shop.json image:btn_0_min"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_count_edit-btn_max",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0.407767,0},{0,0},{0.584951,0},{0.925926,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_shop.json image:btn_0_max"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_shop.json image:btn_0_max"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_count_edit-btn_sub",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{-0.23301,0},{0,0},{-0.106796,0},{0.962963,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "EnableLongTouch",
+              "Value": "true"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_shop.json image:btn_0_-"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_shop.json image:btn_0_-"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_count_edit-btn_add",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0.23301,0},{0,0},{0.359224,0},{0.962963,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "EnableLongTouch",
+              "Value": "true"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_shop.json image:btn_0_+"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_shop.json image:btn_0_+"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        }
+      ]
+    }
+  }
+}

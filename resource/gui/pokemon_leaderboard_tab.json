@@ -1,0 +1,94 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_leaderboard_tab",
+      "Property": [
+        {
+          "Name": "Material",
+          "Value": "CullBackLinear"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,142},{0,70}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "12 12 12 12"
+        },
+        {
+          "Name": "SoundName",
+          "Value": "9"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_leaderboard_tab-unselect",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_leaderboard.json image:chb_9_normal"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_leaderboard_tab-select",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_leaderboard.json image:chb_9_select"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_leaderboard_tab-icon",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,48},{0,48}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_leaderboard.json image:img_0_icon_battle"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

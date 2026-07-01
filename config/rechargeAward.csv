@@ -1,0 +1,6 @@
+n_id	n_type	n_goodType	n_pkmId	s_fullName	s_icon	n_count	n_condition	n_initValue
+表的Id	奖励阶段	奖励类型	宝可梦id	背包物品路径	图标	奖励个数	领奖条件	原价值
+n_id	60可领是阶段1,120可领是阶段2	1宝可梦2金币3背包物品	n_pkmId	s_fullName	s_icon	n_count	n_condition	n_initValue
+1	1	1	10500101		set:pokemonRechargeAward.json image:img_0_item_specail	1	60	1990
+2	1	3		myplugin/item_exp_02		20	60	4
+3	1	2			set:pokemonRechargeAward.json image:goldIcon	1000	60	5

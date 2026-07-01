@@ -1,0 +1,80 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonOpenScreen",
+      "Property": [
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.8"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonOpenScreen-Content",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,-10},{0,931},{0,590}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemonGuide.json image:openscreen"
+            }
+          ],
+          "Type": "Layout"
+        },
+        {
+          "Name": "PokemonOpenScreen-Tip",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,-60},{0,50},{0,-10}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Bottom"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "StaticText"
+        }
+      ]
+    }
+  }
+}

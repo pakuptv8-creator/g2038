@@ -1,0 +1,20 @@
+{
+  "Group": false,
+  "battleUse": false,
+  "canUse": true,
+  "desc": "item_spray_03_desc",
+  "dose": 60,
+  "icon": "set:g2038_pokemon_item.json image:g2038_item_repel_003",
+  "imposeTray": [
+    3
+  ],
+  "itemId": 203,
+  "itemName": "item_spray_03_name",
+  "itemType": 8,
+  "needSave": true,
+  "price": 10,
+  "rarity": 4,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 1
+}

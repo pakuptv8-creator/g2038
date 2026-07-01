@@ -1,0 +1,20 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "desc": "active_skill_35_desc",
+  "icon": "set:g2038_pokemon_skill.json image:g2038_skillbook_grass",
+  "imposeTray": [
+    4
+  ],
+  "itemId": 135,
+  "itemName": "active_skill_35_name",
+  "itemType": 4,
+  "needSave": true,
+  "price": 10,
+  "rarity": 3,
+  "sellingPrice": 1,
+  "skillBookType": 4,
+  "skillId": 104005,
+  "stack_count_max": 99,
+  "useTarget": 2
+}

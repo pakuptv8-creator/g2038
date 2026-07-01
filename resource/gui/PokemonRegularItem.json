@@ -1,0 +1,1220 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonRegularItem",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,260},{0,548}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonRegularItem-Panel",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,-13},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_bag.json image:chb_9_box"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonRegularItem-Bg1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_regular_gift.json image:img_0_green_dark"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonRegularItem-Bg2",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.00547445,0},{1,-6},{0.790146,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_regular_gift.json image:img_0_green_light"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonRegularItem-gift-icon",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.624088,0},{1.05668,0},{-0.240876,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_regular_gift.json image:img_0_regulargift_1"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonRegularItem-titlePanel",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.00809717,0},{0.410584,0},{0.923077,0},{0.472628,0}}"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonRegularItem-TitleBg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "0 20 10 10"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_regular_gift.json image:img_9_giftnameboard_green"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonRegularItem-TitleTxt",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,7},{0,0},{1,7},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    },
+                    {
+                      "Name": "MinFont",
+                      "Value": "PKM12"
+                    },
+                    {
+                      "Name": "AutoShrinkFont",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonRegularItem-remainCounts",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.171533,0},{0.639676,0},{-0.142336,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM14"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0.415686 0.172549 0 1"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonRegularItem-buyBtn",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.0492701,0},{0.797571,0},{0.0602189,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "TextShadow",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0.270588 0.211765 0.0352941 1"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.270588 0.211765 0.0352941 1"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemonMain.json image:btn_9_greenbtn"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                }
+              ],
+              "Type": "Button",
+              "Window": [
+                {
+                  "Name": "PokemonRegularItem-btn-discount",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-dis-diaIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.431472,0},{0,0},{0.598985,0},{0.55,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:icon_dimond"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-dis-price",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.624366,0},{-0.0166667,0},{0.832488,0},{0.466666,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM22"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.270588 0.411765 0.0352941 1"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.270588 0.411765 0.0352941 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-dis-firstPrice",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.137056,0},{0,0},{0.365482,0},{0.283333,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0 0 0 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-dis-line",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.126904,0},{0,0},{0.380711,0},{0.05,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "StretchType",
+                          "Value": "NineGrid"
+                        },
+                        {
+                          "Name": "StretchOffset",
+                          "Value": "1 1 1 1"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_shop.json image:img_0_underline"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRegularItem-btn-norCount",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-nor-diaIcon",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.279188,0},{0,0},{0.446701,0},{0.55,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:icon_dimond"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-nor-price",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.482233,0},{-0.0166667,0},{0.690355,0},{0.466666,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM22"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.270588 0.411765 0.0352941 1"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.270588 0.411765 0.0352941 1"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonRegularItem-timeIcon",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.267206,0},{-0.0127737,0},{0.336032,0},{0.0182482,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_regular_gift.json image:img_0_clock"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonRegularItem-remainTime",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.364372,0},{-0.0164234,0},{0.744939,0},{0.0072992,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM14"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.207843 0.827451 0 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonRegularItem-goodsPanel",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.224453,0},{0.931174,0},{0.051094,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonRegularItem-goodItem1",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.33913,0},{0.516556,0},{0.656521,0},{1,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-goodItemBg1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemIcon1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemNum1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0684932,0},{-0.0821918,0},{0.342466,0},{0.0684932,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.6 0.152941 0.0901961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRegularItem-goodItem2",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.682609,0},{0.516556,0},{1,0},{1,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-goodItemBg2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemIcon2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemNum2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0684932,0},{-0.0821918,0},{0.342466,0},{0.0684932,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.6 0.152941 0.0901961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRegularItem-goodItem3",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0.516556,0},{0.317391,0},{1,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-goodItemBg3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemIcon3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemNum3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0684932,0},{-0.0821918,0},{0.342466,0},{0.0684932,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.6 0.152941 0.0901961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRegularItem-goodItem4",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.33913,0},{0,0},{0.656521,0},{0.483444,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-goodItemBg4",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemIcon4",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemNum4",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0684932,0},{-0.0821918,0},{0.342466,0},{0.0684932,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.6 0.152941 0.0901961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRegularItem-goodItem5",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.682609,0},{0,0},{1,0},{0.483444,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-goodItemBg5",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemIcon5",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemNum5",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0684932,0},{-0.0821918,0},{0.342466,0},{0.0684932,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.6 0.152941 0.0901961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonRegularItem-goodItem6",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.317391,0},{0.483444,0}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonRegularItem-goodItemBg6",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemon_bag.json image:chb_0_quality_1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemIcon6",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0.890411,0},{0.890411,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonRegularItem-goodItemNum6",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0684932,0},{-0.0821918,0},{0.342466,0},{0.0684932,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.6 0.152941 0.0901961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

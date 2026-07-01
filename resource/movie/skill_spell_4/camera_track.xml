@@ -1,0 +1,22 @@
+<Track pos="-2.5,4.2,-7.34" yaw="-20" pitch="20"/>
+<CameraViewModeFrame viewMode="4" smooth="15" startTime="0"/>
+<CameraViewFrame pos="-2.5,4.2,-7.34" yaw="-20" pitch="20" distance="0" smooth="0" startTime="1" cameraMoveType="1"/>
+<CameraViewFrame pos="-2.5,4.2,-7.34" yaw="-20" pitch="20" distance="0" smooth="24" startTime="2" cameraMoveType="1"/>
+<CameraViewFrame pos="-2.5,4.2,-7.34" yaw="-20" pitch="20" distance="0" smooth="0" startTime="1202.0" cameraMoveType="1"/>
+<CameraViewFrame pos="-1,1.9,0" yaw="-80" pitch="0" distance="0" smooth="2" startTime="1203.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1,1.9,0" yaw="-110" pitch="0" distance="0" smooth="0" startTime="1303.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.07,1.9,0.117" yaw="-130" pitch="0" distance="0" smooth="2" startTime="1304.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.07,1.9,0.117" yaw="-140" pitch="0" distance="0" smooth="0" startTime="1404.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.15,1.9,0.283" yaw="-150" pitch="0" distance="0" smooth="2" startTime="1405.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.25,1.9,0.533" yaw="-155" pitch="0" distance="0" smooth="0" startTime="1505.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.3,1.9,0.677" yaw="-160" pitch="0" distance="0" smooth="2" startTime="1506.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.35,1.9,0.834" yaw="-160" pitch="0" distance="0" smooth="0" startTime="1606.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.4,1.9,1" yaw="-160" pitch="0" distance="0" smooth="2" startTime="1607.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.45,1.9,1.185" yaw="-160" pitch="0" distance="0" smooth="0" startTime="1707.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.5,1.9,1.38" yaw="-160" pitch="0" distance="0" smooth="2" startTime="1708.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.53,1.9,1.502" yaw="-160" pitch="0" distance="0" smooth="0" startTime="1808.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.55,1.9,1.58" yaw="-160" pitch="0" distance="0" smooth="4" startTime="1809.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.55,1.9,1.58" yaw="-160" pitch="0" distance="0" smooth="0" startTime="2009.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-1.55,1.9,1.58" yaw="-160" pitch="0" distance="0" smooth="28" startTime="2010.0" cameraMoveType="2"/>
+<CameraViewFrame pos="-2.5,4.2,-7.34" yaw="-20" pitch="20" distance="0" smooth="0" startTime="3410.0"/>
+<CameraViewFrame pos="-2.5,4.2,-7.34" yaw="-20" pitch="20" distance="0" smooth="2" startTime="3411.0"/>

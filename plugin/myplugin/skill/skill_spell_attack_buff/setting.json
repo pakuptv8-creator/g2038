@@ -1,0 +1,7 @@
+{
+    "type": "Buff",
+    "buffCfg": "myplugin/buff_spell_attack",
+    "buffTime": 40,
+    "castAction": "",
+    "isMainSkill": false
+}

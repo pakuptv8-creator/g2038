@@ -1,0 +1,19 @@
+{
+  "actorName": "npc_40102_showpet.actor",
+  "name": "",
+  "headTextHeight": 2.5,
+  "headTextScale": 0.25,
+  "unassailable": 1,
+  "collision": true,
+  "canClick": true,
+  "canHitching": false,
+  "castRealShadow": false,
+  "canFly": false,
+  "collisionGroup": 2,
+  "collisionMask": 1,
+  "checkBlockCollision": false,
+  "defaultView": 1,
+  "disableCheckTouch": true,
+  "disableShadow": true,
+  "editVolume": true
+}

@@ -1,0 +1,22 @@
+n_id	s_icon	n_type	n_type_int	n_rare	s_name	s_title	s_info	n_mutex	n_forever	n_lost_time	s_effect
+称号id	称号图标	道馆id:对应npc.csv的gym_id	npc分组:对应npc.csv的gym_progress	稀有度	徽章名	称号名	获取详情介绍	互斥称号ID	是否为永久	被抢夺后提醒时间	特效
+1	set:g2038_pokemon_badge.json image:g2038_badge_water_01	1	7	1	glory_1	glory_title_1	glory_info_1	0	1	0	g2038_rank_badge1.effect
+2	set:g2038_pokemon_badge.json image:g2038_badge_water_02	6	1	2	glory_2	glory_title_2	glory_info_2	0	1	0	g2038_rank_badge1.effect
+3	set:g2038_pokemon_badge.json image:g2038_badge_water_03	6	2	3	glory_3	glory_title_3	glory_info_3	0	1	0	g2038_rank_badge2.effect
+4	set:g2038_pokemon_badge.json image:g2038_badge_water_04	6	3	4	glory_4	glory_title_4	glory_info_4	0	1	0	g2038_rank_badge3.effect
+5	set:g2038_pokemon_badge.json image:g2038_badge_fire_01	2	7	1	glory_5	glory_title_5	glory_info_5	0	1	0	g2038_rank_badge1.effect
+6	set:g2038_pokemon_badge.json image:g2038_badge_fire_02	7	1	2	glory_6	glory_title_6	glory_info_6	0	1	0	g2038_rank_badge1.effect
+7	set:g2038_pokemon_badge.json image:g2038_badge_fire_03	7	2	3	glory_7	glory_title_7	glory_info_7	0	1	0	g2038_rank_badge2.effect
+8	set:g2038_pokemon_badge.json image:g2038_badge_fire_04	7	3	4	glory_8	glory_title_8	glory_info_8	0	1	0	g2038_rank_badge3.effect
+9	set:g2038_pokemon_badge.json image:g2038_badge_grass_01	3	7	1	glory_9	glory_title_9	glory_info_9	0	1	0	g2038_rank_badge1.effect
+10	set:g2038_pokemon_badge.json image:g2038_badge_grass_02	8	1	2	glory_10	glory_title_10	glory_info_10	0	1	0	g2038_rank_badge1.effect
+11	set:g2038_pokemon_badge.json image:g2038_badge_grass_03	8	2	3	glory_11	glory_title_11	glory_info_11	0	1	0	g2038_rank_badge2.effect
+12	set:g2038_pokemon_badge.json image:g2038_badge_grass_04	8	3	4	glory_12	glory_title_12	glory_info_12	0	1	0	g2038_rank_badge3.effect
+13	set:g2038_pokemon_badge.json image:g2038_badge_psy_01	4	7	1	glory_13	glory_title_13	glory_info_13	0	1	0	g2038_rank_badge1.effect
+14	set:g2038_pokemon_badge.json image:g2038_badge_psy_02	9	1	2	glory_14	glory_title_14	glory_info_14	0	1	0	g2038_rank_badge1.effect
+15	set:g2038_pokemon_badge.json image:g2038_badge_psy_03	9	2	3	glory_15	glory_title_15	glory_info_15	0	1	0	g2038_rank_badge2.effect
+16	set:g2038_pokemon_badge.json image:g2038_badge_psy_04	9	3	4	glory_16	glory_title_16	glory_info_16	0	1	0	g2038_rank_badge3.effect
+17	set:g2038_pokemon_badge.json image:g2038_badge_sp_01	5	7	1	glory_17	glory_title_17	glory_info_17	0	1	0	g2038_rank_badge1.effect
+18	set:g2038_pokemon_badge.json image:g2038_badge_sp_02	10	1	2	glory_18	glory_title_18	glory_info_18	0	1	0	g2038_rank_badge1.effect
+19	set:g2038_pokemon_badge.json image:g2038_badge_sp_03	10	2	3	glory_19	glory_title_19	glory_info_19	0	1	0	g2038_rank_badge2.effect
+20	set:g2038_pokemon_badge.json image:g2038_badge_sp_04	10	3	4	glory_20	glory_title_20	glory_info_20	0	1	0	g2038_rank_badge3.effect

@@ -1,0 +1,54 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_bag_tab_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,213},{0,112}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "15 15 15 15"
+        },
+        {
+          "Name": "SoundName",
+          "Value": "9"
+        },
+        {
+          "Name": "ImageName",
+          "Value": "set:pokemon_bag.json image:tab-9-Unselect"
+        }
+      ],
+      "Type": "StaticImage",
+      "Window": [
+        {
+          "Name": "pokemon_bag_tab_cell-icon",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,46},{0,46}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_bag.json image:img_0_fairyball"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

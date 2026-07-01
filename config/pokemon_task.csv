@@ -1,0 +1,27 @@
+字段名称	id	type	name	desc	min_level	max_level	gym	active_day	targets	condition	map	pos	ui_type	active_reward	exp_reward	item_reward	weight
+说明	任务编号	任务类型	任务名称	任务描述	等级下限	等级上限	道馆通关个数	玩家活跃天数	目标id	达成任务条件	目标地图	目标坐标	打开对应的界面	活跃度奖励	经验奖励	道具奖励	出现权重
+格式	数值								目标id#个数 如果多个用逗号分隔	数值(0/1) 	用逗号分隔	用逗号风格分割	对应界面的编号	数值	数值	道具id#个数	数值
+	1	6	task_1_name	task_1_desc	20	40	0	0	0#1	1			3	15	50	item_ticket_03#1	20
+	2	7	task_2_name	task_2_desc	20	40	0	0	item_exp_02#1	1			1	15	50	item_bless_03#2	20
+	3	2	task_3_name	task_3_desc	20	40	0	0	0#1	1				15	50	item_exp_02#2	20
+	4	3	task_4_name	task_4_desc	20	40	0	0	0#1	1				15	50	item_bless_18#2	20
+	5	5	task_5_name	task_5_desc	20	40	0	0	0#1	1			2	15	50	item_ticket_03#1	20
+	6	1	task_6_name	task_6_desc	20	40	0	0	0#1	0				15	50	item_exp_02#2	20
+	7	8	task_7_name	task_7_desc	20	40	0	0	0#1	0				15	50	item_bless_12#2	20
+	8	4	task_8_name	task_8_desc	20	40	1	0	0#1	0				15	50	item_ticket_03#1	20
+	9	6	task_9_name	task_9_desc	41	60	0	0	0#1	1			3	15	100	item_ticket_03#2	20
+	10	7	task_10_name	task_10_desc	41	60	0	0	item_exp_03#1	1			1	15	100	item_bless_03#4	20
+	11	2	task_11_name	task_11_desc	41	60	0	0	0#1	1				15	100	item_exp_02#4	20
+	12	3	task_12_name	task_12_desc	41	60	0	0	0#1	1				15	100	item_bless_18#4	20
+	13	5	task_13_name	task_13_desc	41	60	0	0	0#1	1			2	15	100	item_ticket_03#2	20
+	14	1	task_14_name	task_14_desc	41	60	0	0	0#1	1				15	100	item_exp_02#4	20
+	15	8	task_15_name	task_15_desc	41	60	0	0	0#2	0				15	100	item_bless_12#4	20
+	16	4	task_16_name	task_16_desc	41	60	1	0	0#2	0				15	100	item_ticket_03#2	20
+	17	6	task_17_name	task_17_desc	61	80	0	0	31002#1	1			3	15	150	item_ticket_03#3	20
+	18	7	task_18_name	task_18_desc	61	80	0	0	item_spray_02#1	1			1	15	150	item_bless_02#4	20
+	19	2	task_19_name	task_19_desc	61	80	0	0	0#1	1				15	150	item_exp_03#4	20
+	20	3	task_20_name	task_20_desc	61	80	0	0	0#1	1				15	150	item_bless_17#4	20
+	21	5	task_21_name	task_21_desc	61	80	0	0	0#1	1			2	15	150	item_ticket_03#3	20
+	22	1	task_22_name	task_22_desc	61	80	0	0	0#2	1				15	150	item_exp_03#4	20
+	23	8	task_23_name	task_23_desc	61	80	0	0	0#1	1				15	150	item_bless_11#4	20
+	24	4	task_24_name	task_24_desc	61	80	1	0	0#1	1				15	150	item_ticket_02#1	20

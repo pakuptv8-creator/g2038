@@ -1,0 +1,2006 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "PokemonLuckyDetails",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonLuckyDetails-BG",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 0 0.588235"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "PokemonLuckyDetails-content",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,1015},{0,656}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "20 20 20 20"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:pokemon_pet_packet.json image:img_9_tyboard"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "PokemonLuckyDetails-topBg",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,3},{1,-6},{0,86}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "20 20 20 20"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:pokemon_lucky_egg.json image:img_9_boxtop_blue"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "PokemonLuckyDetails-title",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,20},{0,124},{0,63}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM30"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextBorder",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextBorderColor",
+                                    "Value": "0.415686 0.172549 0 1"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "PokemonLuckyDetails-CloseBtn",
+                            "Property": [
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-15},{0,15},{0,43},{0,73}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM16"
+                                },
+                                {
+                                    "Name": "SoundName",
+                                    "Value": "6"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:pokemon_pet_packet.json image:btn_0_close"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonLuckyDetails-LeftLayout",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-head-Layout",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "BackgroundColor",
+                                            "Value": "0.996078 0.945098 0.835294 0"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0.0334975,0},{0.150915,0},{0.44335,0},{0.423781,0}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyDetails-headLBG",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "20 20 20 20"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:PokemonBook.json image:img_9_attributeboard"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyDetails-EvolutionTopBar",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,6},{1,-12},{0,56}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyDetails-EvolutionBoarder",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "20 20 20 20"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:PokemonBook.json image:img_9_attributeboard1"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-EvolutionTitle",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0.0432099,0},{0.3,0},{0.475309,0},{0.68,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM18"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "TextBorder",
+                                                                    "Value": "true"
+                                                                },
+                                                                {
+                                                                    "Name": "TextBorderColor",
+                                                                    "Value": "0.415686 0.172549 0 1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyDetails-EvolutionYellowHBG",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "BackgroundColor",
+                                                    "Value": "0.996078 0.945098 0.835294 0.980392"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0.368715,0},{0.922619,0},{0.888268,0}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyDetails-EvolutionYellowBG",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "ClipChild",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0.368715,0},{0.752404,0},{0.888268,0}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyDetails-Level0Layout",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,3},{0,0},{0,84},{0,81}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level0Icon",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,-4},{1,-4}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:g2038_pokemon_icon.json image:pet_13_2"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level0StarLytBG",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "DrawColor",
+                                                                    "Value": "0.25098 0 0.25098 0.5"
+                                                                },
+                                                                {
+                                                                    "Name": "BackgroundColor",
+                                                                    "Value": "0.25098 0 0.25098 0"
+                                                                },
+                                                                {
+                                                                    "Name": "Alpha",
+                                                                    "Value": "0.5"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{0,20}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_battle.json image:bg_6"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level0IconBG",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "10 10 10 10"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level0StarLyt",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{0,20}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level0Select",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,6},{1,6}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "10 10 10 10"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_battle.json image:select_1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyDetails-Level1Layout",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,113},{0,0},{0,194},{0,81}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level1Icon",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,-4},{1,-4}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:g2038_pokemon_icon.json image:pet_13_2"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level1StarLytBG",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "DrawColor",
+                                                                    "Value": "0.25098 0 0.25098 0.5"
+                                                                },
+                                                                {
+                                                                    "Name": "BackgroundColor",
+                                                                    "Value": "0.25098 0 0.25098 0"
+                                                                },
+                                                                {
+                                                                    "Name": "Alpha",
+                                                                    "Value": "0.5"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{0,20}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_battle.json image:bg_6"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level1IconBG",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "10 10 10 10"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level1StarLyt",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{0,20}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level1Select",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,6},{1,6}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "10 10 10 10"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_battle.json image:select_1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyDetails-Level2Layout",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,226},{0,0},{0,307},{0,81}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level2Icon",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,-4},{1,-4}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:g2038_pokemon_icon.json image:pet_13_2"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level2StarLytBG",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "DrawColor",
+                                                                    "Value": "0.25098 0 0.25098 0.5"
+                                                                },
+                                                                {
+                                                                    "Name": "BackgroundColor",
+                                                                    "Value": "0.25098 0 0.25098 0"
+                                                                },
+                                                                {
+                                                                    "Name": "Alpha",
+                                                                    "Value": "0.5"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{0,20}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_battle.json image:bg_6"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level2IconBG",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "10 10 10 10"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_pet_frame.json image:img_0_frame_orange"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level2StarLyt",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Touchable",
+                                                                    "Value": "false"
+                                                                },
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,0},{0,20}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Level2Select",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,0},{0,0},{1,6},{1,6}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Centre"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "10 10 10 10"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_battle.json image:select_1"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyDetails-trans0",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,87},{0,0},{0,113},{0,23}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:PokemonBook.json image:img_0_arrow"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "PokemonLuckyDetails-trans1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,200},{0,0},{0,226},{0,23}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:PokemonBook.json image:img_0_arrow"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-AttributeLayout",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,428},{0,313}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyDetails-AttributesBG",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "20 20 20 20"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:pokemon_lucky_egg.json image:img_9_singlecolor_bg"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyDetails-Detail-Attr-Layout",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "BackgroundColor",
+                                                            "Value": "0.996078 0.945098 0.835294 0"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,-10},{1,-10}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Detail-Hp-Text",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,-15},{0,10},{1,-45},{0,35}}"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.545098 0.243137 0.00392157 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticImage",
+                                                                    "Name": "PokemonLuckyDetails-Detail-Hp-Icon",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Material",
+                                                                            "Value": "CullBackLinear"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "ImageName",
+                                                                            "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hp"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Detail-Hp-Title",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.529412 0.243137 0.00392157 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Detail-Speed-Text",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,-15},{0,45},{1,-45},{0,70}}"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.545098 0.243137 0.00392157 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticImage",
+                                                                    "Name": "PokemonLuckyDetails-Detail-Speed-Icon",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Material",
+                                                                            "Value": "CullBackLinear"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "ImageName",
+                                                                            "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Detail-Speed-Title",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.529412 0.243137 0.00392157 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Detail-PAtk-Text",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,-15},{0,90},{1,-45},{0,115}}"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.545098 0.243137 0.00392157 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticImage",
+                                                                    "Name": "PokemonLuckyDetails-Detail-PAtk-Icon",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Material",
+                                                                            "Value": "CullBackLinear"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "ImageName",
+                                                                            "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicalattacks"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Detail-PAtk-Title",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.529412 0.243137 0.00392157 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Detail-PDef-Text",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,-15},{0,125},{1,-45},{0,150}}"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.545098 0.243137 0.00392157 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticImage",
+                                                                    "Name": "PokemonLuckyDetails-Detail-PDef-Icon",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Material",
+                                                                            "Value": "CullBackLinear"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "ImageName",
+                                                                            "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicaldefense"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Detail-PDef-Title",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.529412 0.243137 0.00392157 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Detail-SAtk-Text",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,-15},{0,170},{1,-45},{0,195}}"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.545098 0.243137 0.00392157 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticImage",
+                                                                    "Name": "PokemonLuckyDetails-Detail-SAtk-Icon",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Material",
+                                                                            "Value": "CullBackLinear"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "ImageName",
+                                                                            "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellattacks"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Detail-SAtk-Title",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.529412 0.243137 0.00392157 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Detail-SDef-Text",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,-15},{0,205},{1,-45},{0,230}}"
+                                                                },
+                                                                {
+                                                                    "Name": "HorizontalAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.545098 0.243137 0.00392157 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextHorzAlignment",
+                                                                    "Value": "Right"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticImage",
+                                                                    "Name": "PokemonLuckyDetails-Detail-SDef-Icon",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Material",
+                                                                            "Value": "CullBackLinear"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,0},{0,0},{0,32},{0,32}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "VerticalAlignment",
+                                                                            "Value": "Centre"
+                                                                        },
+                                                                        {
+                                                                            "Name": "ImageName",
+                                                                            "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellprotection"
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Detail-SDef-Title",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,45},{0,0},{0,45},{1,0}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.529412 0.243137 0.00392157 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextVertAlignment",
+                                                                            "Value": "Centre"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonLuckyDetails-RightLayout",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-PetShowLayout",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{-0.0985222,0},{-0.0472561,0},{0.258128,0},{0.592988,0}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyDetails-Shadow",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0.837017,0},{0.130952,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:PokemonBook.json image:circle_shadow"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "ActorWindow",
+                                            "Name": "PokemonLuckyDetails-EntityWindow",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-1},{0,-29},{0,419},{0,391}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ActorWindowActorName",
+                                                    "Value": ""
+                                                },
+                                                {
+                                                    "Name": "ActorWindowSkillName",
+                                                    "Value": ""
+                                                },
+                                                {
+                                                    "Name": "ActorWindowRotateX",
+                                                    "Value": "0"
+                                                },
+                                                {
+                                                    "Name": "ActorWindowRotateY",
+                                                    "Value": "0"
+                                                },
+                                                {
+                                                    "Name": "ActorWindowRotateZ",
+                                                    "Value": "0"
+                                                },
+                                                {
+                                                    "Name": "ActorWindowOffset",
+                                                    "Value": "0 0 0"
+                                                },
+                                                {
+                                                    "Name": "ActorWindowScale",
+                                                    "Value": "1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-InfoLayout",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{-0.107389,0},{0.158537,0},{0.236453,0},{0.257622,0}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyDetails-TypeBoard",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,51},{0,0},{0,349},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:pokemon_pet_packet.json image:img_9_petnameboard"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "PokemonLuckyDetails-PetName",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,27},{0,0},{0,143},{0,20}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Font",
+                                                            "Value": "PKM20"
+                                                        },
+                                                        {
+                                                            "Name": "TextColor",
+                                                            "Value": "0.564706 0.294118 0.0627451 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "PokemonLuckyDetails-ClassifyTypeImg",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0.186246,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:pokemon_pet_race.json image:img_0_race_all"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "PokemonLuckyDetails-SkillLayout",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0.0334975,0},{0.432927,0},{0.44335,0},{0.972561,0}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "PokemonLuckyDetails-SkillBG",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "20 20 20 20"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:PokemonBook.json image:img_9_attributeboard"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-PassiveTopBar",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,6},{0,6},{1,-6},{0,56}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "CheckBox",
+                                            "Name": "PokemonLuckyDetails-ActiveSkill",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "20 20 20 20"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM18"
+                                                },
+                                                {
+                                                    "Name": "SoundName",
+                                                    "Value": "9"
+                                                },
+                                                {
+                                                    "Name": "TextBorder",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0.415686 0.172549 0 1"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:PokemonBook.json image:chb_9_Common"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:PokemonBook.json image:chb_9_Common_checked"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "CheckBox",
+                                            "Name": "PokemonLuckyDetails-PassiveSkill",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0.5,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "20 20 20 20"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "PKM18"
+                                                },
+                                                {
+                                                    "Name": "SoundName",
+                                                    "Value": "9"
+                                                },
+                                                {
+                                                    "Name": "TextBorder",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0.415686 0.172549 0 1"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:PokemonBook.json image:chb_9_special"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:PokemonBook.json image:chb_9_special_checked"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-ActiveSkill-Layout",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0.175141,0},{0.910979,0},{0.977401,0}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-ActiveSkillDetail-Layout",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,380},{0,-12},{0,755},{0,143}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "PokemonLuckyDetails-PassiveSkill-Layout",
+                                    "Property": [
+                                        {
+                                            "Name": "AlwaysOnTop",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0.169492,0},{0.919881,0},{0.957628,0}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "PokemonLuckyDetails-Detail-Layout",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyDetails-Passive-List",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0.00358423,0},{0.796345,0},{0.523297,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Layout",
+                                                    "Name": "PokemonLuckyDetails-Passive-Desc",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{0.974194,0},{0.458781,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Bottom"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "StretchType",
+                                                            "Value": "NineGrid"
+                                                        },
+                                                        {
+                                                            "Name": "StretchOffset",
+                                                            "Value": "15 15 15 15"
+                                                        },
+                                                        {
+                                                            "Name": "LayoutBackImage",
+                                                            "Value": "set:pokemon_pet_packet.json image:img_9_skilldescribeboard"
+                                                        }
+                                                    ],
+                                                    "Window": [
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Passive-Desc-Icon-Bg",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,6},{0,5},{0,55},{0,54}}"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticText",
+                                                            "Name": "PokemonLuckyDetails-Passive-Desc-Name",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,70},{0,18},{0,132},{0,38}}"
+                                                                },
+                                                                {
+                                                                    "Name": "Font",
+                                                                    "Value": "PKM16"
+                                                                },
+                                                                {
+                                                                    "Name": "TextColor",
+                                                                    "Value": "0.74902 0.4 0.105882 1"
+                                                                },
+                                                                {
+                                                                    "Name": "TextVertAlignment",
+                                                                    "Value": "Centre"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "StaticImage",
+                                                            "Name": "PokemonLuckyDetails-Passive-Desc-Bg",
+                                                            "Property": [
+                                                                {
+                                                                    "Name": "Area",
+                                                                    "Value": "{{0,10},{0,-10},{1,-10},{0,50}}"
+                                                                },
+                                                                {
+                                                                    "Name": "VerticalAlignment",
+                                                                    "Value": "Bottom"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchType",
+                                                                    "Value": "NineGrid"
+                                                                },
+                                                                {
+                                                                    "Name": "StretchOffset",
+                                                                    "Value": "15 15 5 15"
+                                                                },
+                                                                {
+                                                                    "Name": "ImageName",
+                                                                    "Value": "set:pokemon_pet_packet.json image:img_9_skilldescribeboard_color"
+                                                                }
+                                                            ],
+                                                            "Window": [
+                                                                {
+                                                                    "Type": "StaticText",
+                                                                    "Name": "PokemonLuckyDetails-Passive-Desc-Text",
+                                                                    "Property": [
+                                                                        {
+                                                                            "Name": "Area",
+                                                                            "Value": "{{0,7},{0,5},{1,-7},{1,-5}}"
+                                                                        },
+                                                                        {
+                                                                            "Name": "Font",
+                                                                            "Value": "PKM14"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextColor",
+                                                                            "Value": "0.682353 0.168627 0 1"
+                                                                        },
+                                                                        {
+                                                                            "Name": "TextWordWrap",
+                                                                            "Value": "true"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,168 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_telegraph_detail_cell",
+      "Property": [
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,697},{0,65}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_telegraph_detail_cell-btn",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "24 24 24 24"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_pvp.json image:img_9_transfer_feasible_bg"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushBrightnessEnable",
+              "Value": "true"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_pvp.json image:img_9_transfer_feasible_bg"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_telegraph_detail_cell-info",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,215},{0,21}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM22"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_telegraph_detail_cell-lock",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,-24},{0,0},{0,14},{0,49}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pvp.json image:img_0_transfer_locked_icon"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_telegraph_detail_cell-complete",
+          "Property": [
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,-8},{0,0},{0,52},{0,52}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_pvp.json image:img_0_transfer_complete_icon"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

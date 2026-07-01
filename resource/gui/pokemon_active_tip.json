@@ -1,0 +1,46 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_active_tip",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,50},{0,30}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "LayoutBackImage",
+          "Value": "set:pokemon_task.json image:img_0_phasebgicon"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_active_tip-count",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,50},{0,23}}"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "StaticText"
+        }
+      ]
+    }
+  }
+}

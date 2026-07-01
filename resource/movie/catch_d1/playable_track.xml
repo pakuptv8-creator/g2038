@@ -1,0 +1,4 @@
+<ScriptFrame func="catch_fail_1" startTime="0"/>
+<ScriptFrame func="catch_fail_2" startTime="300"/>
+<ScriptFrame func="catch_fail_3" startTime="500"/>
+<ScriptFrame func="reset_default_camera" startTime="2000"/>

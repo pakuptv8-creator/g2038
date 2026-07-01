@@ -1,0 +1,10 @@
+n_id	s_name	n_base	n_addition	n_condition	s_throwAnim	s_ballActor	s_catchAnim
+1	精灵球	0.05	0		g2038_throw_01	g2038_ball_01.actor	g2038_catch_01
+2	高级球	0.3	0		g2038_throw_01	g2038_ball_02.actor	g2038_catch_02
+3	超级球	0.4	0		g2038_throw_01	g2038_ball_03.actor	g2038_catch_03
+4	大师球	1	0		g2038_throw_01	g2038_ball_04.actor	g2038_catch_04
+5	水球	0	0.45	2	g2038_throw_01	g2038_ball_05.actor	g2038_catch_05
+6	火球	0	0.45	3	g2038_throw_01	g2038_ball_07.actor	g2038_catch_07
+7	草球	0	0.45	4	g2038_throw_01	g2038_ball_06.actor	g2038_catch_06
+8	超能球	0	1	5	g2038_throw_01	g2038_ball_08.actor	g2038_catch_08
+9	特殊球	0	1	6	g2038_throw_01	g2038_ball_09.actor	g2038_catch_09

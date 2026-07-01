@@ -1,0 +1,21 @@
+{
+  "actorName": "g2038_rock_03.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -1.3217160288511,
+          0,
+          -0.87446008918502,
+          1.4300283984063,
+          1.855,
+          0.93510373842635
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "name": ""
+}

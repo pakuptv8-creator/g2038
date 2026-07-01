@@ -1,0 +1,22 @@
+{
+    "sound": {
+      "volume": 0.7,
+      "loop": false,
+      "selfOnly": true,
+      "sound": "/sound/battle_win.mp3"
+    },
+    "avoidBuff": [
+      "myplugin/bgm_buff_battle_win"
+    ],
+    "?removeBuff":"进入本音乐区域时默认播放的音乐",
+    "removeBuff": [
+      "myplugin/bgm_buff_main",
+      "myplugin/bgm_buff_battle_dao",
+      "myplugin/bgm_buff_battle_normal",
+      "myplugin/bgm_buff_battle_npc"
+    ],
+    "?legacyBuff":"离开本音乐区域时默认播放的音乐",
+    "legacyBuff": {
+      "cfg": "myplugin/bgm_buff_main"
+    }
+  }

@@ -1,0 +1,544 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_swap_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,1},{0,1},{0,433},{0,277}}"
+        },
+        {
+          "Name": "StretchType",
+          "Value": "NineGrid"
+        },
+        {
+          "Name": "StretchOffset",
+          "Value": "20 20 20 20"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_swap_cell-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_swap.json image:img_9_displayframe"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "pokemon_swap_cell-Level",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,18},{0,100},{0,33}}"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.52549 0.227451 0 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText",
+              "Window": [
+                {
+                  "Name": "pokemon_swap_cell-Name",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{1,0},{0,0},{2,0},{1,0}}"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.52549 0.227451 0 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_swap_cell-Icon",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,20},{0,47},{0,105},{0,132}}"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "pokemon_swap_cell-Icon-Border",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_swap.json image:img_9_avatar"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "pokemon_swap_cell-Star-Layout",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{1,5},{0,108},{1,25}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-Star-Img",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{0,108},{0,20}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_swap_cell-Attr-Layout",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,123},{0,45},{0,414},{0,168}}"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "20 20 20 20"
+                },
+                {
+                  "Name": "LayoutBackImage",
+                  "Value": "set:pokemon_swap.json image:img_9_bottom_data"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "pokemon_swap_cell-Hp-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-0.3,0},{0.0722892,0},{-0.205,0},{0.301205,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_hp"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-Hp-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.9,0},{1,0},{1.9,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.482353 0.243137 0.101961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "pokemon_swap_cell-PAtk-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0.0722892,0},{0.095,0},{0.301205,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicalattacks"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-PAtk-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.9,0},{1,0},{1.9,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.482353 0.243137 0.101961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "pokemon_swap_cell-PDef-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.3,0},{0.0722892,0},{0.395,0},{0.301205,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_physicaldefense"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-PDef-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.9,0},{1,0},{1.9,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.482353 0.243137 0.101961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "pokemon_swap_cell-Speed-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-0.3,0},{0.542169,0},{-0.205,0},{0.771085,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_speed"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-Speed-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.9,0},{1,0},{1.9,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.482353 0.243137 0.101961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "pokemon_swap_cell-SAtk-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0.542169,0},{0.095,0},{0.771085,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellattacks"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-SAtk-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.9,0},{1,0},{1.9,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.482353 0.243137 0.101961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "pokemon_swap_cell-SDef-Icon",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.3,0},{0.542169,0},{0.395,0},{0.771085,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_pet_attribute.json image:img_0_attribute_spellprotection"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "pokemon_swap_cell-SDef-Text",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0.9,0},{1,0},{1.9,0}}"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM14"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.482353 0.243137 0.101961 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "pokemon_swap_cell-Score",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,130},{0,-72},{0,210},{0,-52}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM18"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.52549 0.227451 0 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText",
+              "Window": [
+                {
+                  "Name": "pokemon_swap_cell-Score-Num",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{1,10},{0,0},{2,10},{1,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.360784 0.0901961 0.054902 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0.87451 0.0156863 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

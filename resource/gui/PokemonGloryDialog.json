@@ -1,0 +1,454 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonGloryDialog",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "DefaultWindow",
+      "Window": [
+        {
+          "Name": "PokemonGloryDialog-Mask",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "PokemonGloryDialog-Bg",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,676},{0,357}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "30 30 75 30"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_bag.json image:img_9_help"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonGloryDialog-Catch-Effect",
+              "Property": [
+                {
+                  "Name": "EffectFileName",
+                  "Value": "g2038_tanchuang_title.effect"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-160},{0,400},{0,-20}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryDialog-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{0,70}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "MinFont",
+                  "Value": "PKM12"
+                },
+                {
+                  "Name": "AutoShrinkFont",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.501961 0.25098 0.25098 1"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonGloryDialog-Close",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-20},{0,20},{0,21},{0,61}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonGloryDialog-Icon",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,101},{0,88},{0,228},{0,240}}"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemonMain.json image:img_0_defaulthead"
+                }
+              ],
+              "Type": "StaticImage"
+            },
+            {
+              "Name": "PokemonGloryDialog-TitleName",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,248},{0,98},{0,496},{0,120}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM30"
+                },
+                {
+                  "Name": "MinFont",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "AutoShrinkFont",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.0705882 0.635294 1 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonGloryDialog-Quality",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,248},{0,137},{0,496},{0,159}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.545098 0.278431 0.0470588 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonGloryDialog-Date",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,248},{0,163},{0,496},{0,185}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.545098 0.278431 0.0470588 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonGloryDialog-Source",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,248},{0,184},{0,554},{0,239}}"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.545098 0.278431 0.0470588 1"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "PokemonGloryDialog-Action",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-34},{0,273},{0,32}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "25 25 25 25"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.278431 0.411765 0.0666667 1"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_9_universal_green"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.278431 0.411765 0.0666667 0"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "PokemonGloryDialog-CatchBg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,-45},{1,-150},{0,27}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "70 70 0 0"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:player.json image:img_9_titleboard"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonGloryDialog-craw",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,-65},{0,162},{0,0}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:player.json image:img_0_crown"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonGloryDialog-CatchTitle",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0,50}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonGloryDialog-CatchTime",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{-0.0280112,0},{0.295858,0},{0.0420168,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "AutoSize",
+                  "Value": "true"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM12"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "0.890196 0.27451 0.235294 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "StaticText",
+              "Window": [
+                {
+                  "Name": "PokemonGloryDialog-Tips",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-35},{0,0},{0,-5},{0,30}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:player.json image:img_0_personaldetails_redexclamationmark"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

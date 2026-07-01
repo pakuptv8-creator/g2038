@@ -1,0 +1,112 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "GuideTipsDialog",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,326},{0,190}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "GuideTipsDialog-Bg",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "16 16 16 16"
+            },
+            {
+              "Name": "LayoutBackImage",
+              "Value": "set:pokemon_battle.json image:bg_4"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "GuideTipsDialog-Title",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{0,30}}"
+                },
+                {
+                  "Name": "TextAutoOmission",
+                  "Value": "false"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextColor",
+                  "Value": "1 0.847059 0 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "GuideTipsDialog-Info",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,30},{1,-30},{1,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextAutoOmission",
+                  "Value": "false"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "StaticText"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

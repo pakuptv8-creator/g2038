@@ -1,0 +1,19 @@
+{
+  "ballId": 8,
+  "battleUse": true,
+  "canUse": false,
+  "desc": "pokeball_psy_desc",
+  "icon": "set:g2038_pokemon_ball.json image:ball_psy",
+  "imposeTray": [
+    1
+  ],
+  "itemId": 8,
+  "itemName": "pokeball_psy_name",
+  "itemType": 1,
+  "needSave": true,
+  "price": 10,
+  "rarity": 4,
+  "sellingPrice": 1,
+  "stack_count_max": 99,
+  "useTarget": 3
+}

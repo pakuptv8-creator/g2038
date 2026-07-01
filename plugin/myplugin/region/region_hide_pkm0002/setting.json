@@ -1,0 +1,66 @@
+{
+  "target": "Player",
+  "regionId": 2,
+  "?minMonsterLevel": "怪物最小等级",
+  "minMonsterLevel": 5,
+  "?maxMonsterLevel": "怪物最大等级",
+  "maxMonsterLevel": 10,
+  "?flashRate": "闪光率百分比，1表示1%",
+  "flashRate": 1,
+  "?battleMapName": "战斗场景地图",
+  "battleMapName": "map002",
+  "?rarePoolList": "稀有度池列表",
+  "rarePoolList": [
+    {
+      "?rareID": "非常常见稀有度编号ID",
+      "rareID": 1,
+      "?rareWeight": "非常常见稀有度权重",
+      "rareWeight": 1000,
+      "?monsterList": "怪物列表",
+      "monsterList": [
+        {"monsterID":10200402,"monsterWeight":10}
+      ]
+    },
+    {
+      "?rareID": "常见稀有度编号ID",
+      "rareID": 2,
+      "?rareWeight": "常见稀有度权重",
+      "rareWeight": 1000,
+      "?monsterList": "怪物列表",
+      "monsterList": [
+        {"monsterID":10100201,"monsterWeight":10}
+      ]
+    },
+    {
+      "?rareID": "略稀有稀有度编号ID",
+      "rareID": 3,
+      "?rareWeight": "略稀有稀有度权重",
+      "rareWeight": 1000,
+      "?monsterList": "怪物列表",
+      "monsterList": [
+        {"monsterID":10300602,"monsterWeight":10}
+      ]
+    },
+    {
+      "?rareID": "稀有稀有度编号ID",
+      "rareID": 4,
+      "?rareWeight": "稀有稀有度权重",
+      "rareWeight": 1000,
+      "?monsterList": "怪物列表",
+      "monsterList": [
+        {"monsterID":10400203,"monsterWeight":10}
+      ]
+    },
+    {
+      "?rareID": "非常稀有稀有度编号ID",
+      "rareID": 5,
+      "?rareWeight": "非常稀有稀有度权重",
+      "rareWeight": 0,
+      "?monsterList": "怪物列表",
+      "monsterList": [
+        {"monsterID":10200203,"monsterWeight":10}
+      ]
+    }
+  ],
+  "type": "hide_pkm"
+}

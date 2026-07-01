@@ -1,0 +1,4 @@
+{
+  "moveFactor": -999,
+  "avoidBuff": ["myplugin/disable_move_buff"]
+}

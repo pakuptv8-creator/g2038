@@ -1,0 +1,1206 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "recharge_award",
+      "Property": [
+        {
+          "Name": "Touchable",
+          "Value": "false"
+        },
+        {
+          "Name": "AlwaysOnTop",
+          "Value": "true"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "recharge_award-gradient",
+          "Property": [
+            {
+              "Name": "BackgroundColor",
+              "Value": "0 0 0 0.705882"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "Layout"
+        },
+        {
+          "Name": "recharge_award-bg",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{-0.0347222,0},{0.721875,0},{0.729167,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemonRechargeAward.json image:img_0_board"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "recharge_award-title",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.36039,0},{0.118182,0},{0.922078,0},{0.241818,0}}"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "recharge_award-titleTxt",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "EnableTextColorRect",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.171484,0},{0,0},{0.828517,0},{0.632353,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "recharge_award-detailTxt",
+              "Property": [
+                {
+                  "Name": "EnableTextColorRect",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextColorLeftTop",
+                  "Value": "1 0.921569 0.270588 1"
+                },
+                {
+                  "Name": "TextColorRightTop",
+                  "Value": "0.988235 0.921569 0.270588 1"
+                },
+                {
+                  "Name": "TextColorLeftBottom",
+                  "Value": "0.968628 0.729412 0.0470588 1"
+                },
+                {
+                  "Name": "TextColorRightBottom",
+                  "Value": "0.968628 0.729412 0.0470588 1"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.0530303,0},{-0.0818182,0},{0.334415,0},{0.0036363,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "TextAutoOmission",
+                  "Value": "false"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.494118 0.0666667 0.00784314 1"
+                },
+                {
+                  "Name": "TextShadow",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0.494118 0.0666667 0.00784314 1"
+                },
+                {
+                  "Name": "TextWordWrap",
+                  "Value": "true"
+                }
+              ],
+              "Type": "StaticText"
+            },
+            {
+              "Name": "recharge_award-valueBg",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.482684,0},{0.292727,0},{0.890693,0},{0.403636,0}}"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "recharge_award-value-title",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0769231,0},{0,0},{0.408488,0},{0.311475,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.996078 0.878431 0.643137 1"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "recharge_award-value-dia",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.665783,0},{0,0},{0.753316,0},{0.540984,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemonMain.json image:icon_dimond"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "recharge_award-value-txt",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.761273,0},{0,0},{0.893899,0},{0.311475,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.984314 0.917647 0.243137 1"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "recharge_award-rechargeBtn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{-0.0649351,0},{-0.0727273,0},{0.180736,0},{0.0654547,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "15 15 15 15"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM22"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "204"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_blue"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_blue"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0.117647 0.564706 1 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextShadow",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0.117647 0.564706 1 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "recharge_award-receiveBtn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{-0.0649351,0},{-0.0727273,0},{0.180736,0},{0.0654547,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "15 15 15 15"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM24"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "11"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_green"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_green"
+                },
+                {
+                  "Name": "TextBorder",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextBorderColor",
+                  "Value": "0 0.294118 0.133333 1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextShadow",
+                  "Value": "true"
+                },
+                {
+                  "Name": "TextShadowColor",
+                  "Value": "0 0.294118 0.133333 1"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            },
+            {
+              "Name": "recharge_award-itemBox",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0.449134,0},{-0.309091,0},{0.942641,0},{-0.070909,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "recharge_award-awardItem_1",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.280702,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "SoundName",
+                      "Value": "11"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "recharge_award-itemBg_1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonRechargeAward.json image:img_0_item_board"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-itemIcon_1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0859375,0},{0.0839695,0},{0.867188,0},{0.847329,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-itemHighlight_1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "UI_Effect_firstTopUpIcon.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0138889,0},{-0.972222,0},{1.86111,0},{0.902778,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-count_1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.117188,0},{-0.114504,0},{0.367187,0},{0.160305,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextAutoOmission",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.494118 0.0666667 0.00784314 1"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0 1 0.666667 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.494118 0.0666667 0.00784314 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Bottom"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    },
+                    {
+                      "Name": "recharge_award-item-effect1",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "g2038_shouchong_kuang.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.02,0},{-0.89,0},{1.38,0},{0.46,0}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "Layout"
+                    }
+                  ]
+                },
+                {
+                  "Name": "recharge_award-awardItem_2",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.280702,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "SoundName",
+                      "Value": "11"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "recharge_award-itemBg_2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonRechargeAward.json image:img_0_item_board"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-itemIcon_2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0859375,0},{0.0839695,0},{0.867188,0},{0.847329,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-itemHighlight_2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "UI_Effect_firstTopUpIcon.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0138889,0},{-0.972222,0},{1.86111,0},{0.902778,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-count_2",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.117188,0},{-0.114504,0},{0.367187,0},{0.160305,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextAutoOmission",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.494118 0.0666667 0.00784314 1"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0 1 0.666667 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.494118 0.0666667 0.00784314 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Bottom"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "recharge_award-awardItem_3",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{0.280702,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "SoundName",
+                      "Value": "11"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "recharge_award-itemBg_3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonRechargeAward.json image:img_0_item_board"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-itemIcon_3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0.0859375,0},{0.0839695,0},{0.867188,0},{0.847329,0}}"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-itemHighlight_3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "EffectFileName",
+                          "Value": "UI_Effect_firstTopUpIcon.effect"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.0138889,0},{-0.972222,0},{1.86111,0},{0.902778,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "recharge_award-count_3",
+                      "Property": [
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{-0.117188,0},{-0.114504,0},{0.367187,0},{0.160305,0}}"
+                        },
+                        {
+                          "Name": "VerticalAlignment",
+                          "Value": "Bottom"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM18"
+                        },
+                        {
+                          "Name": "TextAutoOmission",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "TextBorder",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextBorderColor",
+                          "Value": "0.494118 0.0666667 0.00784314 1"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0 1 0.666667 1"
+                        },
+                        {
+                          "Name": "TextHorzAlignment",
+                          "Value": "Right"
+                        },
+                        {
+                          "Name": "TextShadow",
+                          "Value": "true"
+                        },
+                        {
+                          "Name": "TextShadowColor",
+                          "Value": "0.494118 0.0666667 0.00784314 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Bottom"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "recharge_award-batBg",
+              "Property": [
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.454545,0},{-0.0727273,0},{0.574675,0},{0.0454547,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Bottom"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "recharge_award-bar-title",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{0.384615,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM20"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.509804 0.2 0.0666667 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "recharge_award-bar-dia",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{-0.036036,0},{0,0},{0.261261,0},{0.507692,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemonMain.json image:icon_dimond"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "recharge_award-bar-txt",
+                  "Property": [
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "0.823529 0.329412 0.0509804 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "0.733333 0.27451 0.027451 1"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.45045,0},{-0.0307692,0},{1,0},{0.430769,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM24"
+                    },
+                    {
+                      "Name": "TextAutoOmission",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "0.494118 0.0666667 0.00784314 1"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0 0.188235 0.533333 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "recharge_award-closeBtn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0.021645,0},{0.12,0},{0.0660173,0},{0.194546,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "210"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_close"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemonRechargeAward.json image:btn_0_close"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

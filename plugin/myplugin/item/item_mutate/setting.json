@@ -1,0 +1,14 @@
+{
+  "battleUse": false,
+  "canUse": true,
+  "desc": "item_mutate_desc",
+  "icon": "set:g2038_pokemon_ticket.json image:item_mutate",
+  "imposeTray": [
+    2
+  ],
+  "itemId": 214,
+  "itemName": "item_mutate_name",
+  "needSave": true,
+  "rarity": 4,
+  "stack_count_max": 99
+}

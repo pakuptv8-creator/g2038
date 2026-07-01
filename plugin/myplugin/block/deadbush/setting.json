@@ -1,0 +1,94 @@
+{
+  "attractedLv": 1,
+  "emitWhenEnterOrLeave":true,
+  "blockId": 32,
+  "blockObjectOnCollision": false,
+  "blockType": "tallgrass",
+
+  "breakTime": 10,
+  "canPlaceFace": [
+    1
+  ],
+  "collidableWithObj": false,
+  "collisionBoxes": [
+    {
+      "max": {
+        "x": 0.1,
+        "y": 0.1,
+        "z": 0.1
+      },
+      "min": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "desc": "block_cube_Red_Coral_desc",
+  "dropGuardTime": 40,
+  "dropSelf": true,
+  "droplifetime": 1200,
+  "handBuff": "myplugin/no_weapon_buff",
+  "isOpaqueFullCube": false,
+  "itemPrice": 20,
+  "itemname": "block_cube_Red_Coral_name",
+  "levelScore": 10,
+  "lightOpacity": 0,
+  "needSave": true,
+"quads": [
+    {
+      "pos": [
+        {
+          "x": -0.1,
+          "y": 1.2,
+          "z": -0.1
+        },
+        {
+          "x": -0.1,
+          "y": 0,
+          "z": -0.1
+        },
+        {
+          "x": 1.1,
+          "y": 0,
+          "z": 1.1
+        },
+        {
+          "x": 1.1,
+          "y": 1.2,
+          "z": 1.1
+        }
+      ],
+      "texture": "deadbush.png"
+    },
+    {
+      "pos": [
+        {
+          "x": 1.1,
+          "y": 1.2,
+          "z": -0.1
+        },
+        {
+          "x": 1.1,
+          "y": 0,
+          "z": -0.1
+        },
+        {
+          "x": -0.1,
+          "y": 0,
+          "z": 1.1
+        },
+        {
+          "x": -0.1,
+          "y": 1.2,
+          "z": 1.1
+        }
+      ],
+      "texture": "deadbush.png"
+    }
+  ],
+  "rebirthTime": 5000,
+  "renderPassName": "SOLID_DOUBLE_FACE",
+  "skill": "myplugin/near_attack",
+  "stack_count_max": 999
+}

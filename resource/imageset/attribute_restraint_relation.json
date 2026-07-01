@@ -1,0 +1,86 @@
+{
+    "frames": {
+        "btn_0_downarrow": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 50,
+                "h": 50
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 50
+            }
+        },
+        "btn_0_uparrow": {
+            "frame": {
+                "x": 52,
+                "y": 1,
+                "w": 50,
+                "h": 50
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 50
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 50
+            }
+        },
+        "img_0_bottom": {
+            "frame": {
+                "x": 103,
+                "y": 1,
+                "w": 64,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 64
+            }
+        },
+        "img_0_skill": {
+            "frame": {
+                "x": 1,
+                "y": 66,
+                "w": 380,
+                "h": 201
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 380,
+                "h": 201
+            },
+            "sourceSize": {
+                "w": 380,
+                "h": 201
+            }
+        }
+    },
+    "meta": {
+        "image": "attribute_restraint_relation.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 382,
+            "h": 268
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

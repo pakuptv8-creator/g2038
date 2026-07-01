@@ -1,0 +1,47 @@
+{
+  "attractedLv": 1,
+  "blockId": 45,
+  "breakTime": 40,
+  "canConnectionFence": true,
+  "runBuff": [
+        "myplugin/sound_buff_walk"
+      ],  
+  "collisionBoxes": [
+    {
+      "max": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "min": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "desc": "block_cube_053_redBrick_desc",
+  "dropGuardTime": 40,
+  "dropSelf": true,
+  "droplifetime": 1200,
+  "emitLightInMaxLightMode": false,
+  "handBuff": "myplugin/no_weapon_buff",
+  "isOpaqueFullCube": true,
+  "itemExp": 100,
+  "itemPrice": 480,
+  "itemname": "block_cube_053_redBrick_name",
+  "levelScore": 240,
+  "lightOpacity": 15,
+  "needSave": true,
+  "renderPass": 0,
+  "skill": "myplugin/near_attack",
+  "stack_count_max": 999,
+  "texture": [
+    "block_cube_053_red_brick.png",
+    "block_cube_053_red_brick.png",
+    "block_cube_053_red_brick.png",
+    "block_cube_053_red_brick.png",
+    "block_cube_053_red_brick.png",
+    "block_cube_053_red_brick.png"
+  ]
+}

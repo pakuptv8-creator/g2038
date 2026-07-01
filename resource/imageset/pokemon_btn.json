@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "btn_0_confirm_no": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 198,
+                "h": 63
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 198,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 198,
+                "h": 63
+            }
+        },
+        "btn_0_confirm_yes": {
+            "frame": {
+                "x": 200,
+                "y": 1,
+                "w": 197,
+                "h": 63
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 197,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 197,
+                "h": 63
+            }
+        },
+        "btn_close_1": {
+            "frame": {
+                "x": 1,
+                "y": 65,
+                "w": 41,
+                "h": 41
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 41,
+                "h": 41
+            },
+            "sourceSize": {
+                "w": 41,
+                "h": 41
+            }
+        },
+        "btn_close_2": {
+            "frame": {
+                "x": 43,
+                "y": 65,
+                "w": 58,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 58,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 58,
+                "h": 58
+            }
+        },
+        "cancel": {
+            "frame": {
+                "x": 102,
+                "y": 65,
+                "w": 106,
+                "h": 56
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 106,
+                "h": 56
+            },
+            "sourceSize": {
+                "w": 106,
+                "h": 56
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_btn.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 398,
+            "h": 124
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

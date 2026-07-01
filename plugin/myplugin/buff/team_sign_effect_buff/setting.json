@@ -1,0 +1,10 @@
+{
+    "effect": {
+        "effect": "g2038_duizhangTips_1.effect",
+        "once": false,
+        "pos": {"x":0,"y":0,"z":0},
+        "scale": {"x":1,"y":1,"z":1},
+        "yaw": 180
+    },
+    "avoidBuff": ["myplugin/team_sign_effect_buff"]
+}

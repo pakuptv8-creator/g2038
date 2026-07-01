@@ -1,0 +1,2 @@
+<ScriptFrame func="fight_show_subtitle" startTime="1200"/>
+<ScriptFrame func="hide_subtitle" startTime="3500"/>

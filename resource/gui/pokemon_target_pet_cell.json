@@ -1,0 +1,282 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_target_pet_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,429},{0,169}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_target_pet_cell-frame",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,-1},{1,-1}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 100 20 40"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:bg_10"
+            }
+          ],
+          "Type": "StaticImage"
+        },
+        {
+          "Name": "pokemon_target_pet_cell-icon",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,16},{0,14},{0,76},{0,74}}"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_target_pet_cell-icon_frame",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,4},{1,4}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "10 10 10 10"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_battle.json image:select_head"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        },
+        {
+          "Name": "pokemon_target_pet_cell-pet_name",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,92},{0,14},{0,142},{0,34}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM18"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_target_pet_cell-player_name",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,16},{0,90},{0,66},{0,110}}"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM18"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_target_pet_cell-effect_text",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,92},{0,55},{0,142},{0,75}}"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_target_pet_cell-select",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:select_1"
+            }
+          ],
+          "Type": "StaticImage",
+          "Window": [
+            {
+              "Name": "pokemon_target_pet_cell-select_1",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-33},{0,6},{0,11},{0,48}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_battle.json image:select_arraw"
+                }
+              ],
+              "Type": "StaticImage"
+            }
+          ]
+        },
+        {
+          "Name": "pokemon_target_pet_cell-mask",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Visible",
+              "Value": "false"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "10 10 10 10"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_battle.json image:dead_mask"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

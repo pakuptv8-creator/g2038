@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "npc_interaction_dialogue_icon": {
+            "frame": {
+                "x": 75,
+                "y": 2,
+                "w": 64,
+                "h": 58
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 64,
+                "h": 58
+            },
+            "sourceSize": {
+                "w": 64,
+                "h": 58
+            }
+        },
+        "npc_interaction_exclamation_icon": {
+            "frame": {
+                "x": 2,
+                "y": 2,
+                "w": 29,
+                "h": 62
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 29,
+                "h": 62
+            },
+            "sourceSize": {
+                "w": 29,
+                "h": 62
+            }
+        },
+        "npc_interaction_question_icon": {
+            "frame": {
+                "x": 33,
+                "y": 2,
+                "w": 40,
+                "h": 60
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 40,
+                "h": 60
+            },
+            "sourceSize": {
+                "w": 40,
+                "h": 60
+            }
+        },
+        "npc_interaction_recoverfull": {
+            "frame": {
+                "x": 2,
+                "y": 89,
+                "w": 224,
+                "h": 224
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 224,
+                "h": 224
+            },
+            "sourceSize": {
+                "w": 224,
+                "h": 224
+            }
+        },
+        "npc_interaction_recovering": {
+            "frame": {
+                "x": 2,
+                "y": 315,
+                "w": 224,
+                "h": 224
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 224,
+                "h": 224
+            },
+            "sourceSize": {
+                "w": 224,
+                "h": 224
+            }
+        },
+        "npc_interaction_recoveringmid_icon": {
+            "frame": {
+                "x": 141,
+                "y": 2,
+                "w": 90,
+                "h": 85
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 85
+            },
+            "sourceSize": {
+                "w": 90,
+                "h": 85
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_npc.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 233,
+            "h": 541
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

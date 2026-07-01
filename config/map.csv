@@ -1,0 +1,8 @@
+id	level	born	title	desc	pokemon_level	pokemon_list	item_list	s_map_name	unlock_npc	pokemon_list_effect	item_list_effect
+场景id	推荐等级	出生点坐标	标题	地图介绍	产出宝可梦的等级	产出宝可梦列表	产出道具列表	所属地图	解锁地图的npcid	显示特效的序号，例如需要给配置的1和第3个图标加特效，就在配置表里的特效栏填1#3	显示特效的序号，例如需要给配置的1和第3个图标加特效，就在配置表里的特效栏填1#3
+1		-12,5,408	map_1_title	map_1_desc		10100301	pokeball_01,item_exp_01	map001	0		
+2	1,30	21,5,409	map_2_title	map_2_desc	1,30	10100101,10200201,10300201,10400201	item_ticket_02,pokeball_05,item_exp_01,item_revive_01	map001	20101		
+3	31,46	200,5,410	map_3_title	map_3_desc	31,46	10200601,10300301,10400601	item_ticket_02,pokeball_06,item_exp_02,item_revive_02	map001	20109		
+4	47,64	367,5,409	map_4_title	map_4_desc	47,64	10200601,10300301,10400601,10100201	item_ticket_02,pokeball_07,item_exp_03,item_revive_02	map001	30109		
+5	65,78	512,5,416	map_5_title	map_5_desc	65,78	10200701,10100801,10100901,10300701,10400701	item_ticket_02,item_mutate,pokeball_03,item_levelup_01,item_revive_02	map001	40109		
+6	79,90	622,5,385	map_6_title	map_6_desc	79,90	10500301,10200701,10100801,10100901,10300701,10400701	item_ticket_02,item_mutate,pokeball_04,item_levelup_01,item_revive_02	map001	50109		

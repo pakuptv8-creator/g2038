@@ -1,0 +1,26 @@
+{
+  "actorName": "g2038_daoguan_2.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -21,
+          0,
+          -34.431325348879,
+          27.013741897446,
+          1.00,
+          20.192270133634
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "canClick": true,
+  "collision": true,
+  "disableShadow": true,
+  "isClick": true,
+  "name": "",
+  "viewDistance": 288
+}

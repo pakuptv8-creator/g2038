@@ -1,0 +1,22 @@
+{
+  "actorName": "g2020_furniturebig.actor",
+  "base": "g2038_static_base",
+  "boundingVolume": {
+    "params": [
+      {
+        "params": [
+          -0.50486117604737,
+          0.0,
+          -0.54569960973018,
+          0.42051043091902,
+          4.9899999904633,
+          0.3866829939999
+        ],
+        "type": "Box"
+      }
+    ],
+    "type": "Composite"
+  },
+  "collision": true,
+  "name": ""
+}

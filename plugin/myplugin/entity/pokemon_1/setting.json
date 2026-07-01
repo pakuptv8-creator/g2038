@@ -1,0 +1,16 @@
+{
+  "base": "pet_base",
+  "actorName": "g2038_pet_06_1.actor",
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": false,
+  "enableAI": true,
+  "entityType": 3,
+  "hurtAction": {
+    "action": "hurt",
+    "time": 10
+  },
+  "maxHp": 999999,
+  "name": "",
+  "uiScale": 1.5
+}

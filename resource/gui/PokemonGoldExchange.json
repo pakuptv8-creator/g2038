@@ -1,0 +1,1452 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "PokemonGoldExchange",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+        },
+        {
+          "Name": "BackgroundColor",
+          "Value": "0 0 0 0.588235"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "PokemonGoldExchange-exchangePanel",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{0,798},{0,510}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Centre"
+            }
+          ],
+          "Type": "Layout",
+          "Window": [
+            {
+              "Name": "PokemonGoldExchange-bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "30 30 80 30"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:pokemon_bag.json image:img_9_help"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonGoldExchange-slider",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,173},{0,219},{0,476},{0,261}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "15 15 15 15"
+                    },
+                    {
+                      "Name": "Progress",
+                      "Value": "0.7"
+                    },
+                    {
+                      "Name": "ProgressBackImage",
+                      "Value": "set:pokemon_shop.json image:sbar_0_alertbg"
+                    },
+                    {
+                      "Name": "ProgressHeaderImage",
+                      "Value": "set:pokemon_shop.json image:sbar_0_alertbg_2"
+                    },
+                    {
+                      "Name": "ProgressImage",
+                      "Value": "set:pokemon_shop.json image:sbar_0_alertbg_1"
+                    },
+                    {
+                      "Name": "QuickSlide",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "Slider"
+                },
+                {
+                  "Name": "PokemonGoldExchange-sub_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,106},{0,215},{0,156},{0,265}}"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_shop.json image:btn_0_-"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_shop.json image:btn_0_-"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonGoldExchange-add_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,494},{0,215},{0,544},{0,265}}"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_shop.json image:btn_0_+"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_shop.json image:btn_0_+"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonGoldExchange-max_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,563},{0,215},{0,636},{0,265}}"
+                    },
+                    {
+                      "Name": "EnableTextColorRect",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "1 1 0.862745 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "1 1 0.862745 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "1 0.960784 0.6 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "1 0.960784 0.6 1"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_shop.json image:btn_0_max"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_shop.json image:btn_0_max"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonGoldExchange-cancel_btn",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,142},{0,-36},{0,339},{0,27}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "SoundName",
+                      "Value": "6"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_results.json image:btn_0_confirm_no"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_results.json image:btn_0_confirm_no"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonGoldExchange-confirm_btn",
+                  "Property": [
+                    {
+                      "Name": "Material",
+                      "Value": "CullBackLinear"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-142},{0,-36},{0,55},{0,27}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:pokemon_results.json image:btn_0_confirm_yes"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "PokemonGoldExchange-cube_bg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,230},{0,7},{0,375},{0,181}}"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 50"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonGoldExchange-cube_icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,41},{0,80},{0,107}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:candy_world_gold_exchange.json image:gold_exchange_cube_icon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-gold_cube_icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,19},{0,135},{0,52},{0,174}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:icon_dimond"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-cube_num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,60},{0,144},{0,102},{0,163}}"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.733333 0.25098 0.0196078 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonGoldExchange-gold_bg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,-231},{0,7},{0,-86},{0,181}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Right"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "10 10 10 50"
+                    }
+                  ],
+                  "Type": "StaticImage",
+                  "Window": [
+                    {
+                      "Name": "PokemonGoldExchange-golds_icon",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,41},{0,106},{0,120}}"
+                        },
+                        {
+                          "Name": "HorizontalAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:candy_world_gold_exchange.json image:gold_exchange_gold_icon"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-gold_icon",
+                      "Property": [
+                        {
+                          "Name": "Material",
+                          "Value": "CullBackLinear"
+                        },
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,16},{0,135},{0,55},{0,174}}"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:pokemonMain.json image:icon_coin"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-gold_num",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,60},{0,144},{0,102},{0,163}}"
+                        },
+                        {
+                          "Name": "TextColor",
+                          "Value": "0.733333 0.25098 0.0196078 1"
+                        },
+                        {
+                          "Name": "TextVertAlignment",
+                          "Value": "Centre"
+                        },
+                        {
+                          "Name": "Font",
+                          "Value": "PKM16"
+                        }
+                      ],
+                      "Type": "StaticText"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonGoldExchange-arrows",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,139},{0,44},{0,181}}"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:pokemon_shop.json image:img_0_arrow"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "PokemonGoldExchange-progress_text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,305},{0,305},{0,405},{0,326}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM22"
+                    },
+                    {
+                      "Name": "Visible",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.309804 0.121569 0.121569 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0.309804 0.121569 0.121569 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "CandyWorldHotExchange-bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                  "Name": "VerticalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "100 100 150 150"
+                },
+                {
+                  "Name": "ImageName",
+                  "Value": "set:candy_world_common.json image:panelBg2"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "CandyWorldHotExchange-hotbg",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{-0.205882,0},{0.927318,0},{0.394118,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:candy_world_gold_exchange.json image:hotBg"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-cont-bg",
+                  "Property": [
+                    {
+                      "Name": "DrawColor",
+                      "Value": "1 1 1 0.698039"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.0488722,0},{-0.668627,0},{0.260651,0},{-0.560784,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Alpha",
+                      "Value": "0.7"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "5 5 5 5"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:candy_world_gold_exchange.json image:limitBg"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-buy-counts",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.056391,0},{0.233333,0},{0.250627,0},{0.321568,0}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM14"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextWordWrap",
+                      "Value": "true"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-hot-gold-icon",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0.418546,0},{-0.433333,0},{0.454887,0},{-0.37647,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:candy_world_common.json image:iconGold"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-change-txt",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,370},{0,-225},{0,470},{0,-203}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.152941 0.215686 0.439216 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-hot-num-bg",
+                  "Property": [
+                    {
+                      "Name": "DrawColor",
+                      "Value": "1 1 1 0.498039"
+                    },
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,296},{0,-128},{0,453},{0,-87}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "Alpha",
+                      "Value": "0.5"
+                    },
+                    {
+                      "Name": "StretchType",
+                      "Value": "NineGrid"
+                    },
+                    {
+                      "Name": "StretchOffset",
+                      "Value": "5 5 5 5"
+                    },
+                    {
+                      "Name": "ImageName",
+                      "Value": "set:candy_world_gold_exchange.json image:hotNumBg"
+                    }
+                  ],
+                  "Type": "StaticImage"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-sub_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,244},{0,-127},{0,289},{0,-82}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:candy_world_common.json image:btnSubNum"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:candy_world_common.json image:btnSubNum"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-change_counts",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,300},{0,345},{0,449},{0,378}}"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM22"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.309804 0.121569 0.121569 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 1 0 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0.309804 0.121569 0.121569 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-add_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,459},{0,-127},{0,504},{0,-82}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:candy_world_common.json image:btnGetGold"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:candy_world_common.json image:btnGetGold"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-max_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,510},{0,-127},{0,599},{0,-82}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "EnableTextColorRect",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextColorLeftTop",
+                      "Value": "1 1 0.862745 1"
+                    },
+                    {
+                      "Name": "TextColorRightTop",
+                      "Value": "1 1 0.862745 1"
+                    },
+                    {
+                      "Name": "TextColorLeftBottom",
+                      "Value": "1 0.960784 0.6 1"
+                    },
+                    {
+                      "Name": "TextColorRightBottom",
+                      "Value": "1 0.960784 0.6 1"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:candy_world_common.json image:btnMax2"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:candy_world_common.json image:btnMax2"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button"
+                },
+                {
+                  "Name": "CandyWorldHotExchange-buy_btn",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,294},{0,-24},{0,502},{0,42}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Bottom"
+                    },
+                    {
+                      "Name": "NormalImage",
+                      "Value": "set:candy_world_common.json image:btnYellow"
+                    },
+                    {
+                      "Name": "PushBrightness",
+                      "Value": "0.25 0.25 0.25 0"
+                    },
+                    {
+                      "Name": "PushedImage",
+                      "Value": "set:candy_world_common.json image:btnYellow"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM16"
+                    }
+                  ],
+                  "Type": "Button",
+                  "Window": [
+                    {
+                      "Name": "PokemonGoldExchange-normal-hot-buy",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "Visible",
+                          "Value": "false"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "PokemonGoldExchange-hot_buy_price",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,97},{0,0},{0,147},{0,17}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Touchable",
+                              "Value": "false"
+                            },
+                            {
+                              "Name": "TextBorder",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextBorderColor",
+                              "Value": "0.701961 0.219608 0.0509804 1"
+                            },
+                            {
+                              "Name": "TextShadow",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextShadowColor",
+                              "Value": "0.701961 0.219608 0.0509804 1"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        },
+                        {
+                          "Name": "PokemonGoldExchange-hot-buy_icon",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0.240385,0},{0,0},{0.408654,0},{0.530303,0}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Touchable",
+                              "Value": "false"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:candy_world_common.json image:iconCube"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-dis-hot-buy",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        }
+                      ],
+                      "Type": "Layout",
+                      "Window": [
+                        {
+                          "Name": "PokemonGoldExchange-hot_first_price",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,25},{0,0},{0,75},{0,17}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Touchable",
+                              "Value": "false"
+                            },
+                            {
+                              "Name": "TextBorder",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextBorderColor",
+                              "Value": "0.701961 0.219608 0.0509804 1"
+                            },
+                            {
+                              "Name": "TextHorzAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "TextShadow",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextShadowColor",
+                              "Value": "0.701961 0.219608 0.0509804 1"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        },
+                        {
+                          "Name": "PokemonGoldExchange-hot-buy_line",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,25},{0,0},{0,75},{0,3}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Touchable",
+                              "Value": "false"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:candy_world_common.json image:line1"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        },
+                        {
+                          "Name": "PokemonGoldExchange-hot-dis_icon",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,75},{0,0},{0,110},{0,35}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Touchable",
+                              "Value": "false"
+                            },
+                            {
+                              "Name": "ImageName",
+                              "Value": "set:candy_world_common.json image:iconCube"
+                            }
+                          ],
+                          "Type": "StaticImage"
+                        },
+                        {
+                          "Name": "PokemonGoldExchange-hot_now_price",
+                          "Property": [
+                            {
+                              "Name": "Area",
+                              "Value": "{{0,115},{0,0},{0,165},{0,17}}"
+                            },
+                            {
+                              "Name": "VerticalAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Touchable",
+                              "Value": "false"
+                            },
+                            {
+                              "Name": "TextBorder",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextBorderColor",
+                              "Value": "0.701961 0.219608 0.0509804 1"
+                            },
+                            {
+                              "Name": "TextShadow",
+                              "Value": "true"
+                            },
+                            {
+                              "Name": "TextShadowColor",
+                              "Value": "0.701961 0.219608 0.0509804 1"
+                            },
+                            {
+                              "Name": "TextVertAlignment",
+                              "Value": "Centre"
+                            },
+                            {
+                              "Name": "Font",
+                              "Value": "PKM16"
+                            }
+                          ],
+                          "Type": "StaticText"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonGoldExchange-title_bg",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{0,0},{0.0392157,0},{0.406015,0},{0.107843,0}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "StretchType",
+                  "Value": "NineGrid"
+                },
+                {
+                  "Name": "StretchOffset",
+                  "Value": "30 30 10 0"
+                }
+              ],
+              "Type": "StaticImage",
+              "Window": [
+                {
+                  "Name": "PokemonGoldExchange-title_text",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                    },
+                    {
+                      "Name": "VerticalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "HorizontalAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "Font",
+                      "Value": "PKM30"
+                    },
+                    {
+                      "Name": "Touchable",
+                      "Value": "false"
+                    },
+                    {
+                      "Name": "TextBorder",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextBorderColor",
+                      "Value": "0.705882 0.25098 0.027451 1"
+                    },
+                    {
+                      "Name": "TextColor",
+                      "Value": "1 0.996078 0.870588 1"
+                    },
+                    {
+                      "Name": "TextHorzAlignment",
+                      "Value": "Centre"
+                    },
+                    {
+                      "Name": "TextShadow",
+                      "Value": "true"
+                    },
+                    {
+                      "Name": "TextShadowColor",
+                      "Value": "0.705882 0.25098 0.027451 1"
+                    },
+                    {
+                      "Name": "TextVertAlignment",
+                      "Value": "Centre"
+                    }
+                  ],
+                  "Type": "StaticText"
+                }
+              ]
+            },
+            {
+              "Name": "PokemonGoldExchange-tab-panel",
+              "Property": [
+                {
+                  "Name": "Area",
+                  "Value": "{{-0.135849,0},{0,0},{0,0},{1,0}}"
+                },
+                {
+                  "Name": "Touchable",
+                  "Value": "false"
+                },
+                {
+                  "Name": "Visible",
+                  "Value": "false"
+                }
+              ],
+              "Type": "Layout",
+              "Window": [
+                {
+                  "Name": "PokemonGoldExchange-tabBtn1",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,65},{0,108},{0,128}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonGoldExchange-tab-hot1",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:candy_world_gold_exchange.json image:tabHot1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-tab-hot2",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:candy_world_gold_exchange.json image:tabHot2"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                },
+                {
+                  "Name": "PokemonGoldExchange-tabBtn2",
+                  "Property": [
+                    {
+                      "Name": "Area",
+                      "Value": "{{0,0},{0,142},{0,108},{0,205}}"
+                    }
+                  ],
+                  "Type": "Layout",
+                  "Window": [
+                    {
+                      "Name": "PokemonGoldExchange-tab-normal1",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:candy_world_gold_exchange.json image:tabGold1"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    },
+                    {
+                      "Name": "PokemonGoldExchange-tab-normal2",
+                      "Property": [
+                        {
+                          "Name": "Area",
+                          "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                          "Name": "Touchable",
+                          "Value": "false"
+                        },
+                        {
+                          "Name": "ImageName",
+                          "Value": "set:candy_world_gold_exchange.json image:tabGold2"
+                        }
+                      ],
+                      "Type": "StaticImage"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "Name": "PokemonGoldExchange-close_btn",
+              "Property": [
+                {
+                  "Name": "Material",
+                  "Value": "CullBackLinear"
+                },
+                {
+                  "Name": "Area",
+                  "Value": "{{0,-22},{0,22},{0,19},{0,63}}"
+                },
+                {
+                  "Name": "HorizontalAlignment",
+                  "Value": "Right"
+                },
+                {
+                  "Name": "SoundName",
+                  "Value": "6"
+                },
+                {
+                  "Name": "NormalImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "PushBrightness",
+                  "Value": "0.25 0.25 0.25 0"
+                },
+                {
+                  "Name": "PushedImage",
+                  "Value": "set:pokemon_bag.json image:btn_0_close_1"
+                },
+                {
+                  "Name": "TextHorzAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "TextVertAlignment",
+                  "Value": "Centre"
+                },
+                {
+                  "Name": "Font",
+                  "Value": "PKM16"
+                }
+              ],
+              "Type": "Button"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

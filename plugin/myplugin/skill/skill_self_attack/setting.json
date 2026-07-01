@@ -1,0 +1,14 @@
+{
+    "type": "Buff",
+    "buffCfg": "myplugin/buff_self_hit",
+    "target": "self",
+    "skillTime":20,
+    "castAction": "attack1",
+    "castSound": {
+      "loop": false,
+      "selfOnly": false,
+      "sound": "/sound/skill_none.mp3",
+      "volume": 14
+    },
+    "isMainSkill": true
+  }

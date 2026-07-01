@@ -1,0 +1,114 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "pokemon_task_detail_cell",
+      "Property": [
+        {
+          "Name": "Area",
+          "Value": "{{0,0},{0,0},{0,554},{0,46}}"
+        }
+      ],
+      "Type": "Layout",
+      "Window": [
+        {
+          "Name": "pokemon_task_detail_cell-BtnDetail",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            },
+            {
+              "Name": "Touchable",
+              "Value": "false"
+            },
+            {
+              "Name": "StretchType",
+              "Value": "NineGrid"
+            },
+            {
+              "Name": "StretchOffset",
+              "Value": "20 20 20 20"
+            },
+            {
+              "Name": "NormalImage",
+              "Value": "set:pokemon_task.json image:img_9_transfer_bg"
+            },
+            {
+              "Name": "PushBrightness",
+              "Value": "0.25 0.25 0.25 0"
+            },
+            {
+              "Name": "PushBrightnessEnable",
+              "Value": "true"
+            },
+            {
+              "Name": "PushedImage",
+              "Value": "set:pokemon_task.json image:img_9_transfer_bg"
+            },
+            {
+              "Name": "TextHorzAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextVertAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "Button"
+        },
+        {
+          "Name": "pokemon_task_detail_cell-TextDetail",
+          "Property": [
+            {
+              "Name": "Area",
+              "Value": "{{0,35},{0,0},{0,485},{0,28}}"
+            },
+            {
+              "Name": "VerticalAlignment",
+              "Value": "Centre"
+            },
+            {
+              "Name": "TextColor",
+              "Value": "0.52549 0.227451 0 1"
+            },
+            {
+              "Name": "Font",
+              "Value": "PKM16"
+            }
+          ],
+          "Type": "StaticText"
+        },
+        {
+          "Name": "pokemon_task_detail_cell-CompleteIcon",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,-13},{0,-5},{0,47},{0,47}}"
+            },
+            {
+              "Name": "HorizontalAlignment",
+              "Value": "Right"
+            },
+            {
+              "Name": "ImageName",
+              "Value": "set:pokemon_task.json image:img_0_finishicon"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

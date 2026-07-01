@@ -1,0 +1,12 @@
+{
+  "actorName": "g2038_pet_06_1.actor",
+  "attackNpc": false,
+  "autoAttack": true,
+  "autoMove": true,
+  "enableAI": true,
+  "entityType": 2,
+  "isStatic": 1,
+  "maxHp": 50,
+  "name": "",
+  "patrolDistance": 3
+}

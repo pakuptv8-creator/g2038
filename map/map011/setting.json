@@ -1,0 +1,185 @@
+{
+  "canBreak": false,
+  "cameraCfg": {
+		"viewMode": 4,
+    "cameraView": {
+		  "pos": {
+		  	"x": 1.58,
+			  "y": 1.6,
+			  "z": -16
+		},
+		  "yaw": -5,
+		  "pitch": -10
+    }
+  },
+  "skyBox": [
+    {
+      "transition": 0,
+      "time": 0,
+      "texture": [
+        "myplugin/sky/AM_left.png",
+        "myplugin/sky/AM_right.png",
+        "myplugin/sky/AM_top.png",
+        "myplugin/sky/AM_bottom.png",
+        "myplugin/sky/AM_front.png",
+        "myplugin/sky/AM_back.png"
+      ]
+    }
+  ],
+  "saveMapPos": true,
+
+  "entity": [
+    {
+      "cfg": "myplugin/map3",
+      "ry": 0,
+      "rr": 0,
+      "pos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "pitch": 0,
+      "isNew": true
+    }
+  ],
+  "doctorPos": {
+    "x": 517,
+    "map": "map001",
+    "y": 5,
+    "z": 432
+  },
+  "dynamicBrightness": [
+    {
+      "brightness": {
+        "x": 0.6,
+        "y": 0.6,
+        "z": 0.6
+      }
+    }
+  ],
+  "//": "战斗坑位配置",
+  "battleFieldPos": {
+    "selfPos": [
+      {
+      "x": 0.75,
+      "y": 1.1,
+      "z": -7.25,
+      "yaw": 0
+      },
+      {
+      "x": -1.5,
+      "y": 1.1,
+      "z": -7.25,
+      "yaw": 0
+      },
+      {
+      "x": 2.5,
+      "y": 1.05,
+      "z": -7.25,
+      "yaw": 0
+      }
+    ],
+    "selfPetPos": [
+      {
+      "x": 0,
+      "y": 1.05,
+      "z": -2.75,
+      "yaw": 0
+      },
+      {
+      "x": -2,
+      "y": 1.05,
+      "z": -3.3,
+      "yaw": 0
+      },
+      {
+      "x": 2,
+      "y": 1.05,
+      "z": -3.3,
+      "yaw": 0
+      }
+    ],
+    "selfPetAirPos": [
+        {
+      "x": 0,
+      "y": 1.05,
+      "z": -2.75,
+      "yaw": 0
+      },
+      {
+      "x": -2,
+      "y": 1.05,
+      "z": -3.3,
+      "yaw": 0
+      },
+      {
+      "x": 2,
+      "y": 1.05,
+      "z": -3.3,
+      "yaw": 0
+      }
+    ],
+    "enemyPos": [
+      {
+      "x": -0.75,
+      "y": 1.1,
+      "z": 7.25,
+      "yaw": 180
+      },
+      {
+      "x": 1.5,
+      "y": 1.1,
+      "z": 7.25,
+      "yaw": 180
+      },
+      {
+      "x": -2.5,
+      "y": 1.1,
+      "z": 7.25,
+      "yaw": 180
+      }
+    ],
+    "enemyPetPos": [
+      {
+      "x": 0,
+      "y": 1.05,
+      "z": 2.75,
+      "yaw": 180
+      },
+      {
+      "x": 2,
+      "y": 1.05,
+      "z": 3.3,
+      "yaw": 180
+      },
+      {
+      "x": -2,
+      "y": 1.05,
+      "z": 3.3,
+      "yaw": 180
+      }
+    ],
+    "enemyPetAirPos": [
+      {
+      "x": 0,
+      "y": 1.05,
+      "z": 2.75,
+      "yaw": 0
+      },
+      {
+      "x": 2,
+      "y": 1.05,
+      "z": 3.3,
+      "yaw": 0
+      },
+      {
+      "x": -2,
+      "y": 1.05,
+      "z": 3.3,
+      "yaw": 0
+      }
+    ],
+    "/dropTime":"下落时间，单位帧",
+    "dropTime":10
+    }
+}

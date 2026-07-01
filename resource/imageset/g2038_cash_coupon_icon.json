@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "g2038_cash_coupon_icon_1": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "g2038_cash_coupon_icon_2": {
+            "frame": {
+                "x": 34,
+                "y": 1,
+                "w": 128,
+                "h": 128
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 128
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 128
+            }
+        }
+    },
+    "meta": {
+        "image": "g2038_cash_coupon_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 162,
+            "h": 129
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

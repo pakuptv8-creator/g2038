@@ -1,0 +1,46 @@
+{
+  "Dialog": {
+    "Window": {
+      "Name": "starBG",
+      "Property": [
+        {
+          "Name": "Material",
+          "Value": "CullBackLinear"
+        },
+        {
+          "Name": "Area",
+          "Value": "{{0,50},{0,50},{0,92.75},{0,90.5}}"
+        },
+        {
+          "Name": "VerticalAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "HorizontalAlignment",
+          "Value": "Centre"
+        },
+        {
+          "Name": "ImageName",
+          "Value": "set:g2038_pokemon_star.json image:img_0_bigsize_rareness0"
+        }
+      ],
+      "Type": "StaticImage",
+      "Window": [
+        {
+          "Name": "starBG-star",
+          "Property": [
+            {
+              "Name": "Material",
+              "Value": "CullBackLinear"
+            },
+            {
+              "Name": "Area",
+              "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+            }
+          ],
+          "Type": "StaticImage"
+        }
+      ]
+    }
+  }
+}

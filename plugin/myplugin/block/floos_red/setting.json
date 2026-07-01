@@ -1,0 +1,47 @@
+{
+  "attractedLv": 1,
+  "blockId": 3,
+  "breakTime": 40,
+  "runBuff": [
+        "myplugin/sound_buff_walk"
+      ],
+  "canConnectionFence": true,
+  "collisionBoxes": [
+    {
+      "max": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "min": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ],
+  "desc": "block_cube_007_dirt_desc",
+  "dropGuardTime": 40,
+  "dropSelf": true,
+  "droplifetime": 1200,
+  "emitLightInMaxLightMode": false,
+  "handBuff": "myplugin/no_weapon_buff",
+  "isOpaqueFullCube": true,
+  "itemExp": 50,
+  "itemPrice": 32,
+  "itemname": "block_cube_007_dirt_name",
+  "levelScore": 16,
+  "lightOpacity": 15,
+  "needSave": true,
+  "renderPass": 0,
+  "skill": "myplugin/near_attack",
+  "stack_count_max": 999,
+  "texture": [
+    "floos_red.png",
+    "floos_red.png",
+    "floos_red.png",
+    "floos_red.png",
+    "floos_red.png",
+    "floos_red.png"
+  ]
+}

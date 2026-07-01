@@ -1,0 +1,926 @@
+{
+    "noShowRewaitPlayerTip": true,
+    "noShowWaitPlayerTip": true,
+    "asyncUICreation": true,
+    "gameCfgVersion": 2,
+    "versionChangeAnnounceMinLev": 20,
+    "isCloseLotteryEntrance": true,
+    "?headFontHeight": "?头顶文字距离调整，默认为0，负数更低，整数更高",
+    "headFontHeight": -0.3,
+    "enablePreCreateUI": true,
+    "disableGetMouseOver": true,
+    "defaultBlockRenderPass": 0,
+    "catchBallYaw": 162,
+    "openGM": false,
+    "//": "商城单次购买上限",
+    "playerCfg": "myplugin/player1",
+    "?loginGiftProbability": "登陆自动弹礼包界面的概率，50是50%",
+    "loginGiftProbability": 100,
+    "?deadGiftProbability": "死亡自动弹礼包界面的概率，50是50%",
+    "deadGiftProbability": 50,
+    "?enablePhysicsSimulation": "是否使用物理模拟？关闭后只有碰撞检测，没有物理模拟",
+    "enablePhysicsSimulation": false,
+    "rotaryTableAnimation": {
+        "?rotaryTableRefreshTime": "多少ms刷新一次位置",
+        "rotaryTableRefreshTime": 2,
+        "?rotaryTableSpeedUpTime": "糖果转盘快速时间,单位毫秒ms",
+        "rotaryTableSpeedUpTime": 1000,
+        "?rotaryTableFastNum": "糖果转盘快速时需要转动的圈数",
+        "rotaryTableFastNum": 1,
+        "?rotaryTableSpeedDownTime": "糖果转盘减速时间,单位毫秒ms",
+        "rotaryTableSpeedDownTime": 3000,
+        "?rotaryTableSlowNum": "糖果转盘减速时需要转动的圈数",
+        "rotaryTableSlowNum": 1
+    },
+    "defaultMap": "map001",
+    "//": "医生回复点",
+    "doctorPos": {
+        "map": "map001",
+        "x": 36,
+        "y": 4,
+        "z": 389
+    },
+    "gloryHallMap": "map017",
+    "gloryHallOpenGymId": 3,
+    "gloryHallPos": {
+        "x": 0.5,
+        "y": 12,
+        "z": 0.5,
+        "yaw": 90,
+        "pitch": 15
+    },
+    "dailyLotteryEffectShowTimes": 12,
+    "dailyLotteryEffectShowInterval": 5,
+    "dailyLotteryMaxItemNum": 7,
+    "?dailyLotteryRTInterval": "每天抽奖刷新间隔,单位h",
+    "dailyLotteryRTInterval": 0.001,
+    "?dailyLotteryRT": "每天抽奖刷新时间点",
+    "dailyLotteryRT": {
+        "hour": 23,
+        "minute": 55,
+        "second": 0
+    },
+    "executeWaitTimeMap": {
+        "2": 10
+    },
+    "initPos": {
+        "x": -28,
+        "y": 4,
+        "z": 408,
+        "yaw": -90,
+        "pitch": 15
+    },
+    "enableNpcHost": true,
+    "?threadRespondEventMaxNum": "优化项，数字越大第一个界面加载的内容越快，但是会导致引擎启动卡顿时间越长",
+    "threadRespondEventMaxNum": 15,
+    "needHosting": true,
+    "defaultCameraView": [
+        {
+            "x": -4.2,
+            "y": 2.2,
+            "z": -4.2,
+            "yaw": -49,
+            "pitch": -2
+        },
+        {
+            "x": -2.5,
+            "y": 4.2,
+            "z": -7.34,
+            "yaw": -20,
+            "pitch": 20
+        }
+    ],
+    "saveMapPos": true,
+    "maxFps": 60,
+    "maxWaitCommandTime": 70,
+    "showInteractionUI": false,
+    "executeWaitTime": 180,
+    "playTime": -1,
+    "defaultSkillId": 1101001,
+    "disableExecUserScript": true,
+    "?luckyEggTabsSort": "十连抽tab顺序:1-限时，2-精英，3-普通",
+    "luckyEggTabsSort": [
+        1,
+        2,
+        3
+    ],
+    "?luckyEggSkipTime": "十连抽抽10次，宝可梦模型展示时间 1000 一秒，0不自动跳下一个",
+    "luckyEggSkipTime": 5000,
+    "?luckyEggFlashEndTime": "十连抽限时抽奖结束时间",
+    "luckyEggFlashEndTime": {
+        "year": 2024,
+        "month": 4,
+        "day": 19,
+        "hour": 0,
+        "min": 0,
+        "sec": 0
+    },
+    "noLoadHp": true,
+    "noLoadVp": true,
+    "avoidBattleTime": 60,
+    "avoidPVPBattleTime": 60,
+    "minPlayers": 1,
+    "maxPlayers": 999,
+    "needSave": true,
+    "guide": true,
+    "savePlayerDataInterval": 1200,
+    "needReport": true,
+    "enableUIAnimation": true,
+    "canJoinMidway": true,
+    "useNewQuadConfig": true,
+    "waitStartTime": 0,
+    "waitGoTime": 0,
+    "operationTime": 60,
+    "disableDrawSelectionBox": true,
+    "maxRound": 100,
+    "maxBuyCount": -1,
+    "cameraCfg": {
+        "viewModeConfig": [
+            {
+                "enable": false,
+                "viewFovAngle": 45
+            },
+            {
+                "enable": true,
+                "distance": 4.5,
+                "lockBodyRotation": false,
+                "horizontalFollow": false
+            },
+            {
+                "enable": false
+            },
+            {
+                "enable": true,
+                "distance": 4.5,
+                "lockBodyRotation": false,
+                "horizontalFollow": false
+            },
+            {
+                "enable": true,
+                "enableCollisionDetect": false,
+                "distance": 0,
+                "viewFovAngle": 45,
+                "lockBodyRotation": false,
+                "lockViewPos": true,
+                "lockSlideScreen": true
+            }
+        ],
+        "defaultView": 3
+    },
+    "analyticsData": {
+        "GameKey": "8bf1a21669f5886cba112ac7dc583258",
+        "SecretKey": "78cf573046808fe24077468dd4e2877aa7b1b90b",
+        "Custom01": "G2",
+        "Custom02": "038",
+        "GameKey_test": "8bf1a21669f5886cba112ac7dc583258",
+        "SecretKey_test": "78cf573046808fe24077468dd4e2877aa7b1b90b",
+        "GameKey_release": "8bf1a21669f5886cba112ac7dc583258",
+        "SecretKey_release": "78cf573046808fe24077468dd4e2877aa7b1b90b",
+        "GameKey_pioneer": "8bf1a21669f5886cba112ac7dc583258",
+        "SecretKey_pioneer": "78cf573046808fe24077468dd4e2877aa7b1b90b"
+    },
+    "///2": "--------------------------规则相关-----------------------------------",
+    "?maxHandPetsCnt": "最大上阵宠物数量",
+    "maxHandPetsCnt": 4,
+    "?maxBoxPetsCnt": "最大箱子宠物数量",
+    "maxBoxPetsCnt": 200,
+    "?bagCap": "背包上限",
+    "bagCap": 200,
+    "?handBagCap": "手包容量",
+    "handBagCap": 0,
+    "?swapLimitTime": "被拒绝后限制时长（s）",
+    "swapLimitTime": 60,
+    "?swapBanTime": "每次禁用时长（s）",
+    "swapBanTime": 180,
+    "?swapAutoCancelTime": "每次禁用时长（s）",
+    "swapAutoCancelTime": 30,
+    "?swapSureLockTime": "每次变动后 确认键锁定时长（s）",
+    "swapSureLockTime": 4,
+    "///": "宠物漫游特权",
+    "?dragAreaSize": "左侧拖拽显示区域直径，单位：pixel",
+    "dragAreaSize": 230,
+    "?dragAreaStartPoint": "左侧拖拽显示区域距离左边，底边距离，单位：pixel",
+    "dragAreaStartPoint": [
+        40,
+        -40
+    ],
+    "?dragAreaOffset": "左侧拖拽可操作区域修正度，exp：0.2代表可操作区域向显示区外延20%，-0.1则表示收缩10%",
+    "dragAreaOffset": 2,
+    "?InterractiveCameraSpdIn": "进入对话镜头追踪时间，单位：帧，默认10",
+    "InterractiveCameraSpdIn": 9,
+    "?InterractiveCameraSpdOut": "退出对话镜头追踪时间，单位：帧，默认10",
+    "InterractiveCameraSpdOut": 3,
+    "?clickPlayerDistance": "基础交互玩家最远距离",
+    "clickPlayerDistance": 5,
+    "disableBreakBlockProgress": true,
+    "hideItemBar": true,
+    "showPlayerList": false,
+    "hideSettingPlayerList": false,
+    "isShowPlayerControlUi": true,
+    "playerInfoUI": {
+        "isShowHp": false,
+        "isShowFood": false,
+        "isShowExp": false
+    },
+    "hideTeamStatusBar": true,
+    "hidehandItemName": true,
+    "hidePerSpec": true,
+    "isDragControl": true,
+    "skillJack": {
+        "hideAJack": true,
+        "hideBJack": true
+    },
+    "?personalShop": "隐藏左上角小房子",
+    "personalShop": false,
+    "?hidePKMThey": "暗雷遇怪步数权值",
+    "hidePKMThey": [
+        {
+            "theyNum": 6,
+            "probability": 5
+        },
+        {
+            "theyNum": 8,
+            "probability": 25
+        },
+        {
+            "theyNum": 10,
+            "probability": 45
+        },
+        {
+            "theyNum": 11,
+            "probability": 65
+        },
+        {
+            "theyNum": 12,
+            "probability": 85
+        },
+        {
+            "theyNum": 13,
+            "probability": 90
+        },
+        {
+            "theyNum": 14,
+            "probability": 95
+        },
+        {
+            "theyNum": 15,
+            "probability": 100
+        }
+    ],
+    "mainUiList": [
+        "pokemonMain"
+    ],
+    "baseMainWndListNormal": [
+        "toolbar",
+        "main",
+        "actionControl",
+        "interactionContainer"
+    ],
+    "rankThreshold": 5000,
+    "?maxRankLength": "战力高于rankThreshold的排行榜的个数,默认为4个, 游戏启动以后创建,策划可以在后期根据游戏玩家的数量来进行调整",
+    "maxRankLength": 10,
+    "?rankUploadTime": "玩家每隔x秒上传一次自己排行榜数据",
+    "rankUploadTime": 60,
+    "rankPerPage": 9,
+    "rankRefreshTime": 90,
+    "ranks": [
+        {
+            "type": 1,
+            "subRanks": [
+                {
+                    "size": 100,
+                    "keyPrefix": "pokemon_battle_power_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_water_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_fire_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_grass_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_super_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_special_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                }
+            ]
+        },
+        {
+            "type": 2,
+            "subRanks": [
+                {
+                    "size": 100,
+                    "keyPrefix": "pokemon_battle_power_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_water_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_fire_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_grass_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_super_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_special_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                }
+            ]
+        },
+        {
+            "type": 3,
+            "subRanks": [
+                {
+                    "size": 100,
+                    "keyPrefix": "pokemon_battle_power_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_water_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_fire_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_grass_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_super_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_special_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                }
+            ]
+        },
+        {
+            "type": 4,
+            "subRanks": [
+                {
+                    "size": 100,
+                    "keyPrefix": "pokemon_battle_power_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_water_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_fire_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_grass_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_super_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_special_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                }
+            ]
+        },
+        {
+            "type": 5,
+            "subRanks": [
+                {
+                    "size": 100,
+                    "keyPrefix": "pokemon_battle_power_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_water_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_fire_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_grass_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_super_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_special_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                }
+            ]
+        },
+        {
+            "type": 6,
+            "subRanks": [
+                {
+                    "size": 100,
+                    "keyPrefix": "pokemon_battle_power_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_water_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_fire_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_grass_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_super_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                },
+                {
+                    "size": 7,
+                    "keyPrefix": "pokemon_special_gym_pre_release_final_1",
+                    "keySufType": "CurWeek",
+                    "expireType": "NextWeek"
+                }
+            ]
+        }
+    ],
+    "?flyNumDistanceRatio": "飘字大小---距离系数，showHeight = maxHeight（填写的最大值） - distance*ratio",
+    "flyNumDistanceRatio": 1,
+    "?flyNumBaseHeight": "飘字大小---最小值，",
+    "flyNumBaseHeight": 40,
+    "?flyNumMaxHeight": "飘字大小---最大值，",
+    "flyNumMaxHeight": 50,
+    "?whiteAbsHeight": "飘字大小---白字固定大小，",
+    "whiteAbsHeight": 60,
+    "?whiteAbsWidthMax": "UI层飘字大小---白字最大值，以宽度为基准",
+    "?flyNumVanishTime": "飘字消亡时间，帧，默认20",
+    "flyNumVanishTime": 15,
+    "?flyNumMoveTime": "飘字移动时间，帧，默认20",
+    "flyNumMoveTime": 15,
+    "whiteUIWidthMax": 150,
+    "flyNumBeginOffsetPos": [
+        0,
+        1,
+        0
+    ],
+    "?enableShowEditEntityPosRot": "这个值，策划本地设为true就好，不要把truepush到远端，谁push谁是小狗",
+    "enableShowEditEntityPosRot": false,
+    "?disableGetMouseOver": "是否监控鼠标悬停，这里巨坑，click的hit判定依赖此项，此项为true时无法触发点选",
+    "/disableGetMouseOver": true,
+    "flyNumDistance": 1,
+    "?recoveryAnimationTime": "恢复血量动画播放事件 2=>2秒",
+    "recoveryAnimationTime": 2,
+    "plugins": [
+        "chat",
+        "new_video",
+        "limited_time_activity",
+        "subscribe_vip",
+        "story"
+    ],
+    "new_videoSetting": {
+        "HideUiWhiteList": [
+            "actionControl",
+            "videoMode"
+        ],
+        "AlphaTo0UiList": [
+            "actionControl"
+        ]
+    },
+    "dialogSetting": {
+        "watchTarget": true
+    },
+    "chatSetting": {
+        "?alignment": "布局方式：目前支持LT左上对齐，CB居中向下对齐,默认CB",
+        "alignment": {
+            "type": "CB",
+            "offset": [
+                0,
+                0,
+                0,
+                80
+            ],
+            "miniSize": [
+                449,
+                203,
+                336
+            ]
+        },
+        "?chatBar": "独立聊天入口，默认关闭",
+        "chatBar": true,
+        "?chatBarPos": "聊天入口位置，左上对齐，绝对坐标[x, y]",
+        "chatBarPos": [
+            355,
+            647
+        ],
+        "?chatLevel": "聊天界面层级，默认48，入口以此-1，喇叭商店以此-2",
+        "chatLevel": 50,
+        "?privateChannel": "私聊分页，默认false",
+        "privateChannel": true,
+        "?chtBarHeight": "单行聊天高度，不填默认28",
+        "chtBarHeight": 35,
+        "?chatFont": "聊天字体，默认HT16",
+        "chatFont": "HT16",
+        "?chatFontColor": "聊天文字颜色（不填则为黑色）",
+        "chatFontColor": "000000",
+        "?chatNiceNameColor": "聊天普通人名文字颜色（不填则为红色）",
+        "chatNiceNameColor": "ff0000",
+        "?familyVal": "家族面板读取的valueDef键名，如不填则不会出现家族分页",
+        "?familyIcon": "使用valueDef同步回调时机修改，如业务重写请自行派发Lib.emitEvent(Event.EVENT_FAMILY_ICON_CHANGE, value)",
+        "tabBgImg": {
+            "normal": "set:chat_main.json image:bg_page_normal_s",
+            "select": "set:chat_main.json image:bg_page_n"
+        },
+        "?tabIcon": "顺序为公屏，阵营，历史，私聊",
+        "tabIcon": [
+            {
+                "normal": "set:chat_main.json image:icon_common_chat_n",
+                "select": "set:chat_main.json image:icon_common_chat_s",
+                "point": "set:chat_main.json image:icon_chat_point"
+            },
+            {
+                "normal": "set:chat_main.json image:icon_common_chat_n",
+                "select": "set:chat_main.json image:icon_common_chat_s",
+                "point": "set:chat_main.json image:icon_family_point"
+            },
+            {
+                "normal": "set:chat_main.json image:icon_history_n",
+                "select": "set:chat_main.json image:icon_history_s",
+                "point": "set:chat_main.json image:icon_private_point"
+            },
+            {
+                "normal": "set:chat_main.json image:icon_private_chat_n",
+                "select": "set:chat_main.json image:icon_private_chat_s",
+                "point": "set:chat_main.json image:icon_private_point"
+            }
+        ],
+        "?maxChatsCnt": "单位：条，聊天队列最大数",
+        "maxChatsCnt": 200,
+        "?hideWaitTime": "单位：s，丢失焦点后的隐藏时间",
+        "hideWaitTime": 10,
+        "?voiceMaxTime": "单位：s，最长语音时间，默认59s",
+        "voiceMaxTime": 59,
+        "?voiceLastTime": "单位：s，语音倒计时开始时间，默认10s",
+        "voiceLastTime": 10,
+        "?maxMsgSize": "单位：条，文字聊天最大长度，中文算2，不填默认150条",
+        "maxMsgSize": 150,
+        "?duration": "发送语音间隔事件",
+        "duration": 1,
+        "?freeSoundPerDay": "每日免费语音次数",
+        "freeSoundPerDay": 5,
+        "infoSetting": {
+            "lvKey": "playerLevel"
+        }
+    },
+    "?worldCommonTipTime": "世界跑马灯停留时间",
+    "worldCommonTipTime": 5,
+    "hideNewMainChat": true,
+    "?hpPowerModifier": "血量战力系数",
+    "hpPowerModifier": -1,
+    "?speedPowerModifier": "速度战力系数",
+    "speedPowerModifier": -1,
+    "?pAtkPowerModifier": "物攻战力系数",
+    "pAtkPowerModifier": -1,
+    "?pDefPowerModifier": "物防战力系数",
+    "pDefPowerModifier": -1,
+    "?sAtkPowerModifier": "法功战力系数",
+    "sAtkPowerModifier": -1,
+    "?sDefPowerModifier": "法防战力系数",
+    "sDefPowerModifier": 1,
+    "?frequency": "多少时间计数一次 单位毫秒",
+    "?initialVelocity": "初始速度",
+    "?variateNode": "数度改变节点 单位是计数次数",
+    "?variate": "改变后的速度 这里个数需要跟variateNode内容对应",
+    "btnLongTriggerEfficiency": {
+        "frequency": 100,
+        "initialVelocity": 1,
+        "variateNode": [
+            3
+        ],
+        "variate": [
+            5
+        ]
+    },
+    "?offsetTime": "每日刷新 偏差时间 单位秒",
+    "offsetTime": 0,
+    "?requestInteractionCDTime": "发送请求pk、组队的cd",
+    "requestInteractionCDTime": 0,
+    "?pkDialogRefuseTime": "请求pk界面按钮计时",
+    "pkDialogRefuseTime": 10,
+    "?refuseInteractionCDTime": "拒绝请求pk、组队的cd",
+    "refuseInteractionCDTime": 30,
+    "useFDiamonds": false,
+    "dailyFDiamondsReward": [
+        1000,
+        500,
+        500,
+        500,
+        500
+    ],
+    "delayLoadRegionRangeMap": [
+        [
+            20,
+            0
+        ],
+        [
+            50,
+            10
+        ],
+        [
+            100,
+            20
+        ]
+    ],
+    "goldCoinExchangeContent": [
+        {
+            "cube": 30,
+            "gold": 3000
+        },
+        {
+            "cube": 60,
+            "gold": 6000
+        },
+        {
+            "cube": 90,
+            "gold": 9000
+        },
+        {
+            "cube": 120,
+            "gold": 12000
+        },
+        {
+            "cube": 150,
+            "gold": 15000
+        },
+        {
+            "cube": 180,
+            "gold": 18000
+        },
+        {
+            "cube": 210,
+            "gold": 21000
+        },
+        {
+            "cube": 240,
+            "gold": 24000
+        },
+        {
+            "cube": 270,
+            "gold": 27000
+        },
+        {
+            "cube": 300,
+            "gold": 30000
+        }
+    ],
+    "delayOpenMainWndTimeMap": {
+        "interactionContainer": 1
+    },
+    "qualityLevelData": {
+        "minLevel": [
+            0,
+            0,
+            2,
+            1,
+            0,
+            2,
+            2,
+            3,
+            0,
+            0,
+            0,
+            0.26,
+            0,
+            0,
+            0.1,
+            0,
+            0,
+            0,
+            2,
+            1,
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0.001
+        ],
+        "midLevel": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            3,
+            0.7,
+            2,
+            0,
+            0,
+            0,
+            0.4,
+            1,
+            0,
+            8,
+            0,
+            0,
+            1,
+            2,
+            1,
+            0,
+            0.8,
+            0.9,
+            1,
+            1,
+            1,
+            0,
+            0.001
+        ],
+        "maxLevel": [
+            2,
+            0,
+            0.6,
+            0.68,
+            0,
+            3,
+            0.4,
+            1,
+            1,
+            0,
+            0,
+            0.43,
+            1,
+            0,
+            8,
+            1,
+            0.3,
+            2,
+            2,
+            1,
+            0,
+            0.8,
+            0.9,
+            1,
+            1,
+            1,
+            0,
+            0.001
+        ]
+    },
+    "followPetPrivilege": {
+        "title": "gui_follow_pet_privilege_title",
+        "itemIcon": "set:pokemon_pet_packet.json image:icon_follow_item",
+        "itemName": "gui_follow_pet_privilege_name",
+        "itemBg": "set:pokemon_bag.json image:chb_0_quality_4",
+        "priceName": "gui_follow_pet_privilege_price_name",
+        "priceIcon": "set:pokemonMain.json image:icon_dimond",
+        "itemDesc": "gui_follow_pet_privilege_desc",
+        "priceNum": 100,
+        "coinId": 0
+    },
+    "handleUIThreshold" : 50,
+    "subscribe_vipSetting": {
+        "?coinAddition": "订阅会员战斗结算金币加成百分比 20 是%20",
+        "coinAddition": 20,
+        "?petExpAddition": "订阅会员战斗结算宠物经验加成百分比 20 是%20",
+        "petExpAddition": 20,
+        "?normalVipRewardName": "普V奖励itemName",
+        "normalVipRewardName": "myplugin/item_ticket_02",
+        "?normalVipRewardNum": "普V奖励数量",
+        "normalVipRewardNum": 30,
+        "?heightVipRewardName": "高V奖励itemName",
+        "heightVipRewardName": "myplugin/item_ticket_02",
+        "?heightVipRewardNum": "高V奖励数量",
+        "heightVipRewardNum": 50,
+        "?subscribeRewardItem": "订阅奖励描述显示item",
+        "subscribeRewardItem": [
+            {
+                "?itemText": "描述多语言",
+                "itemText": "subscribe_game_reward_item_tips1",
+                "?itemParma": "多语言的参数队列，对应 subscribe_vipSetting 的某个key",
+                "itemParma": [
+                    "petExpAddition"
+                ]
+            },
+            {
+                "?itemText": "描述多语言",
+                "itemText": "subscribe_game_reward_item_tips2",
+                "?itemParma": "多语言的参数队列，对应 subscribe_vipSetting 的某个key",
+                "itemParma": [
+                    "coinAddition"
+                ]
+            }
+        ],
+        "?vipRewardItem": "订阅VIP特权描述显示item",
+        "vipRewardItem": [
+            [
+                {
+                    "?itemText": "普V奖励描述多语言1",
+                    "itemText": "subscribe_game_reward_item_tips3",
+                    "?itemParma": "多语言的参数队列，对应 subscribe_vipSetting 的某个key",
+                    "itemParma": [
+                        "normalVipRewardNum"
+                    ]
+                }
+            ],
+            [
+                {
+                    "?itemText": "高V奖励描述多语言1",
+                    "itemText": "subscribe_game_reward_item_tips4",
+                    "?itemParma": "多语言的参数队列，对应 subscribe_vipSetting 的某个key",
+                    "itemParma": [
+                        "heightVipRewardNum"
+                    ]
+                }
+            ]
+        ]
+    },
+    "runSolveTouch": false
+}

@@ -1,0 +1,20 @@
+{
+    "canHitRider": true,
+    "collideEntity": 1,
+    "collideBlock": 0,
+    "hitInterval": 20,
+    "rotateSpeed": 0,
+    "boundingVolume": {
+        "params": [
+            8,
+            3,
+            8
+        ],
+        "type": "Box"
+    },
+    "lifeTime": 10,
+    "gravity": 0,
+    "moveSpeed": 0,
+    "moveAcc": 0,
+    "hitEntitySkill": "myplugin/skill_spell_hit_buff"
+}

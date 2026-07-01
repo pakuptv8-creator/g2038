@@ -1,0 +1,7 @@
+n_id	s_open_day	s_itemName	s_pkm_id	s_gym_icon	s_gold_icon
+道馆id	开放时间	物品奖励全名	宝可梦奖励id	道馆图标	奖励金币图标
+1水2火3草4自由	0~6=周日~周六，#隔开	s_itemName，#隔开	#隔开		没有不填
+1	1#5	myplugin/item_ticket_02#myplugin/item_ticket_03	10201201#10201001	set:g2038_pokemon_badge.json image:g2038_badge_water_04	set:pokemonRechargeAward.json image:goldIcon
+2	2#6	myplugin/item_ticket_02#myplugin/item_ticket_03	10301201#10301001	set:g2038_pokemon_badge.json image:g2038_badge_fire_04	set:pokemonRechargeAward.json image:goldIcon
+3	3#0	myplugin/item_ticket_02#myplugin/item_ticket_03	10401001#10401101	set:g2038_pokemon_badge.json image:g2038_badge_grass_04	set:pokemonRechargeAward.json image:goldIcon
+4	4#0	myplugin/item_ticket_02#myplugin/item_ticket_03	10100601#10100501	set:g2038_pokemon_badge.json image:g2038_badge_sp_04	set:pokemonRechargeAward.json image:goldIcon

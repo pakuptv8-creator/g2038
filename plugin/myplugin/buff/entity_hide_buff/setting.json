@@ -1,0 +1,4 @@
+{
+    "hide": 1,
+    "removeBuff": ["entity_show_buff"]
+}

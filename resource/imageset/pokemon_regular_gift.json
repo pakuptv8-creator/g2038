@@ -1,0 +1,338 @@
+{
+    "frames": {
+        "chb_9_checked": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 36,
+                "h": 68
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 68
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 68
+            }
+        },
+        "chb_9_normal": {
+            "frame": {
+                "x": 38,
+                "y": 1,
+                "w": 36,
+                "h": 69
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 36,
+                "h": 69
+            },
+            "sourceSize": {
+                "w": 36,
+                "h": 69
+            }
+        },
+        "img_0_blue_dark": {
+            "frame": {
+                "x": 75,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_blue_light": {
+            "frame": {
+                "x": 108,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_clock": {
+            "frame": {
+                "x": 141,
+                "y": 1,
+                "w": 17,
+                "h": 17
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 17,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 17,
+                "h": 17
+            }
+        },
+        "img_0_decoration": {
+            "frame": {
+                "x": 159,
+                "y": 1,
+                "w": 156,
+                "h": 143
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 156,
+                "h": 143
+            },
+            "sourceSize": {
+                "w": 156,
+                "h": 143
+            }
+        },
+        "img_0_green_dark": {
+            "frame": {
+                "x": 316,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_green_light": {
+            "frame": {
+                "x": 349,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_purple_dark": {
+            "frame": {
+                "x": 382,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_purple_light": {
+            "frame": {
+                "x": 415,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        },
+        "img_0_regulargift_1": {
+            "frame": {
+                "x": 448,
+                "y": 1,
+                "w": 261,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 261,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 261,
+                "h": 210
+            }
+        },
+        "img_0_regulargift_2": {
+            "frame": {
+                "x": 710,
+                "y": 1,
+                "w": 261,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 261,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 261,
+                "h": 210
+            }
+        },
+        "img_0_regulargift_3": {
+            "frame": {
+                "x": 972,
+                "y": 1,
+                "w": 261,
+                "h": 210
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 261,
+                "h": 210
+            },
+            "sourceSize": {
+                "w": 261,
+                "h": 210
+            }
+        },
+        "img_9_board": {
+            "frame": {
+                "x": 1234,
+                "y": 1,
+                "w": 72,
+                "h": 108
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 108
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 108
+            }
+        },
+        "img_9_giftnameboard_blue": {
+            "frame": {
+                "x": 1307,
+                "y": 1,
+                "w": 21,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 34
+            }
+        },
+        "img_9_giftnameboard_green": {
+            "frame": {
+                "x": 1329,
+                "y": 1,
+                "w": 21,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 34
+            }
+        },
+        "img_9_giftnameboard_purple": {
+            "frame": {
+                "x": 1351,
+                "y": 1,
+                "w": 21,
+                "h": 34
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 21,
+                "h": 34
+            },
+            "sourceSize": {
+                "w": 21,
+                "h": 34
+            }
+        },
+        "img_9_tabboard": {
+            "frame": {
+                "x": 1373,
+                "y": 1,
+                "w": 32,
+                "h": 32
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 32
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 32
+            }
+        }
+    },
+    "meta": {
+        "image": "pokemon_regular_gift.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1406,
+            "h": 212
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}
