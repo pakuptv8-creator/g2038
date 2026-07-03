@@ -35,60 +35,9 @@
   "levelScore": 10,
   "lightOpacity": 0,
   "needSave": true,
-"quads": [
-    {
-      "pos": [
-        {
-          "x": -0.1,
-          "y": 1.2,
-          "z": -0.1
-        },
-        {
-          "x": -0.1,
-          "y": 0,
-          "z": -0.1
-        },
-        {
-          "x": 1.1,
-          "y": 0,
-          "z": 1.1
-        },
-        {
-          "x": 1.1,
-          "y": 1.2,
-          "z": 1.1
-        }
-      ],
-      "texture": "tallgrass.png"
-    },
-    {
-      "pos": [
-        {
-          "x": 1.1,
-          "y": 1.2,
-          "z": -0.1
-        },
-        {
-          "x": 1.1,
-          "y": 0,
-          "z": -0.1
-        },
-        {
-          "x": -0.1,
-          "y": 0,
-          "z": 1.1
-        },
-        {
-          "x": -0.1,
-          "y": 1.2,
-          "z": 1.1
-        }
-      ],
-      "texture": "tallgrass.png"
-    }
-  ],
+"quads": [],
   "rebirthTime": 5000,
-  "renderPassName": "SOLID_DOUBLE_FACE",
+  "renderPassName": "ALPHA",
   "skill": "myplugin/near_attack",
   "stack_count_max": 999
 }

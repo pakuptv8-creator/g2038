@@ -346,6 +346,11 @@ function M:onOpen()
     UI:getWnd("pokemonGuide"):onShow(true, Me:getCurGuideIndex())
     Lib.emitEvent(Event.EVENT_HIDE_BLOCK_INPUT)
   end
+  World.Timer(1, function()
+    if UI:isOpen(self) then
+      self.btnJoin:CallHandler(UIEvent.EventButtonClick)
+    end
+  end)
 end
 
 function M:onClose()

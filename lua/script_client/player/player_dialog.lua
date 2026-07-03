@@ -9,6 +9,14 @@ function Player:showDialog(packet)
   self.targetId = packet.objID
   self.dialogType = packet.type
   self.dialogId = packet.dialogId
+
+  if self.actionId == Define.NPC_ACTION_TYPE.RECOVERY then
+    World.Timer(1, function()
+      self:onDialogConfirm()
+    end)
+    return
+  end
+
   local target = World.CurWorld:getEntity(self.targetId)
   if target then
     Lib.emitEvent(Event.EVENT_SHOW_DIALOG, packet.type, packet.dialogId, packet.objID)

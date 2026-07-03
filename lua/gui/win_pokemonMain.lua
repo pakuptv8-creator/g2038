@@ -449,6 +449,11 @@ function M:onShowDailyFDiamondsRewardWnd()
     self.txtPokemonMainRewardNuw:SetText(World.cfg.dailyFDiamondsReward[day])
     self.fDiamondsCount = World.cfg.dailyFDiamondsReward[day]
     self.lytPokemonMainDailyFDiamondsReward:SetVisible(true)
+    World.Timer(1, function()
+        if self.btnPokemonMainRewardConfirm:IsVisible() then
+            self.btnPokemonMainRewardConfirm:CallHandler(UIEvent.EventButtonClick)
+        end
+    end)
   end
 end
 

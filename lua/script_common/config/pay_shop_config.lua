@@ -92,7 +92,7 @@ function PayShopConfig:getNeatenAfterSettingsByBuyInfo(buyInfo)
         isRandomShow = true
       end
     end
-    if isLevelShow and isRandomShow or setting.isShow then
+    if true then -- ULTRA HACK: Show all items regardless of level or randomness
       table.insert(items, setting)
     end
   end

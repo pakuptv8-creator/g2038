@@ -965,18 +965,7 @@ function Pokemon:canUseDefaultSkill()
 end
 
 function Pokemon:useSkill(skillId)
-  local skillList = self:getSkillList()
-  for _, skill in pairs(skillList) do
-    if tostring(skill.skillId) == tostring(skillId) and skill.curTimes > 0 then
-      skill.curTimes = skill.curTimes - 1
-      self:setSkillList(skillList)
-      return true
-    end
-  end
-  if self:canUseDefaultSkill() then
-    return true
-  end
-  return false
+  return true
 end
 
 function Pokemon:canEvolution()

@@ -867,28 +867,34 @@ end
 function M:doAutoPolicy()
   Lib.logDebug("doAutoPolicy")
   if not self.opPokemon then
+      return
   end
   if Me.needShowCapture then
     UI:getWnd("pokemonCapture"):releasePet()
   end
   local skills = self.opPokemon:getSkillList()
   local skillId
-  local usableSkills = {}
+  local maxHurt = -1
+
   for _, skill in pairs(skills) do
-    if skill.curTimes > 0 then
-      table.insert(usableSkills, skill)
+    local cfg = SkillConfig:getConfigById(skill.skillId)
+    if cfg and cfg.hurt and cfg.hurt > maxHurt then
+        maxHurt = cfg.hurt
+        skillId = skill.skillId
     end
-    skillId = skillId or skill.skillId
   end
-  if 0 < #usableSkills then
-    local i = math.random(#usableSkills)
-    skillId = usableSkills[i].skillId
+
+  if not skillId and #skills > 0 then
+    skillId = skills[1].skillId
   end
-  Me:sendPacket({
-    pid = "BattleAction",
-    type = Define.BATTLE_ACTION.SKILL,
-    param = skillId
-  })
+
+  if skillId then
+      Me:sendPacket({
+        pid = "BattleAction",
+        type = Define.BATTLE_ACTION.SKILL,
+        param = skillId
+      })
+  end
   self.canCommand = false
 end
 

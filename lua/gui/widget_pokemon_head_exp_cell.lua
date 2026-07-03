@@ -84,31 +84,11 @@ end
 function M:startAnimation(pokemon, addExp)
   self.showLv = pokemon:getLevel()
   self.showExp = pokemon:getCurExp()
-  while 0 < addExp do
-    if addExp > self.showExp then
-      addExp = addExp - self.showExp
-      self.showLv = self.showLv - 1
-      self.showExp = PokemonConfig:getMaxExp(self.pokemon:getCfgId(), self.showLv)
-    else
-      self.showExp = self.showExp - addExp
-      addExp = 0
-    end
-  end
-  self.isTicking = true
+  self.isTicking = false
   self:refreshExp()
-  self.animationCancel()
-  self.animationCancel = World.Timer(1, function()
-    local isEnd = self:animationTick()
-    if isEnd then
-      self.showExp = self.pokemon:getCurExp()
-      self.isTicking = false
-      if self.tickDoneCallback then
-        self.tickDoneCallback()
-      end
-    end
-    self:refreshExp()
-    return not isEnd
-  end)
+  if self.tickDoneCallback then
+    self.tickDoneCallback()
+  end
 end
 
 function M:animationTick()
