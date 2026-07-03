@@ -1,0 +1,100 @@
+n_id			n_hurt_type	n_race	n_type	n_target	n_count	n_is_effect_triiger	n_hurt	n_skill_speed	n_accuracy	n_max_number	s_skill_effect	s_setting_full_name	s_name	s_describe	s_icon	n_score	n_setting_full_id
+技能id			伤害类型	种族属性	技能类型	技能目标	目标数量	是否是技能效果触发的技能，如反击、连击触发的技能,1-是，0-否(混乱除外)	威力	技能速度	命中	使用次数上限	效果列表	映射到技能表现	技能的名称	技能描述	图标	战斗力分数	(弃用)映射到技能表现
+数值			0-无；1-物理；2-法术；3-真实伤害	根据《种族表》填写，填0表示该技能不属于任何种族	1-主动；2-被动	1-自己；2-己方；3-敌方	1-单体；2；群体	0	整数值	整数值	整数值（填0表示必定命中）	整数值	根据《技能效果表》填写对应的效果列表	plugin名称	多语言	文字	路径	整数值	plugin id
+1101001	撞击		1	1	1	3	1	0	80	1000	100	15		skill_melee_timeline	active_skill_1101001_name	active_skill_1101001_desc		50	1
+1101002	抓击		1	1	1	3	1	0	120	1000	100	10		skill_melee_timeline	active_skill_1101002_name	active_skill_1101002_desc		75	1
+1101003	碎岩拳	对单体目标造成伤害，有30%的概率造成混乱，持续1-3回合	1	1	1	3	1	0	80	1000	75	10	11010031	skill_melee_timeline	active_skill_1101003_name	active_skill_1101003_desc		75	1
+1101004	尖石攻击	对单体目标造成伤害，有60%的概率造成混乱，持续2-5回合	1	1	1	3	1	0	100	1000	75	5	11010041	skill_bullet_timeline	active_skill_1101004_name	active_skill_1101004_desc		100	1
+1101005	麻痹连击	对单体目标造成伤害，有30%的概率造成麻痹，持续1-3回合	2	1	1	3	1	0	80	1000	85	10	11010051	skill_melee_timeline	active_skill_1101005_name	active_skill_1101005_desc		75	1
+1101006	麻痹花粉	对单体目标造成伤害，有60%的概率造成麻痹，持续2-5回合	2	1	1	3	1	0	100	1000	85	5	11010061	skill_singleSpell_timeline	active_skill_1101006_name	active_skill_1101006_desc		100	1
+1101007	钢铁皮肤	先发技能，提高自身30%的物防和法防，持续3回合	0	1	1	1	1	0	0	10000	100	10	11010071,11010072	skill_status_timeline	active_skill_1101007_name	active_skill_1101007_desc		75	1
+1101008	猛咬	先发技能，对单体目标造成伤害，并提高自身30%的物防和法防，持续5回合	1	1	1	3	1	0	60	10000	100	5	11010081,11010082	skill_singleSpell_timeline	active_skill_1101008_name	active_skill_1101008_desc		100	1
+1101009	血怒一击	对单体目标造成伤害，并提高自身30%的物攻，持续3回合	1	1	1	3	1	0	80	1000	85	10	11010091	skill_melee_timeline	active_skill_1101009_name	active_skill_1101009_desc		75	1
+1101010	奋力突击	对单体目标造成伤害，并提高自身30%的法攻，持续3回合	2	1	1	3	1	0	80	1000	85	10	11010101	skill_melee_timeline	active_skill_1101010_name	active_skill_1101010_desc		75	1
+1101011	高速气流	先发技能，对单体目标造成伤害，并提高自身20%的速度，持续3回合	2	1	1	3	1	0	80	10000	85	10	11010111	skill_singleSpell_timeline	active_skill_1101011_name	active_skill_1101011_desc		75	1
+1101012	低语吟唱	对单体目标造成伤害，并提高自身20%的命中，持续3回合	2	1	1	3	1	0	80	10000	100	10	11010121	skill_singleSpell_timeline	active_skill_1101012_name	active_skill_1101012_desc		75	1
+1101013	超声波	先发技能，降低目标30%的物防和法防，持续3回合	0	1	1	3	1	0	0	10000	100	10	11010131,11010132	skill_singleSpell_timeline	active_skill_1101013_name	active_skill_1101013_desc		75	1
+1101014	多重猛击	先发技能，对单体目标造成伤害，并降低目标30%的物防和法防，持续5回合	1	1	1	3	1	0	60	10000	100	5	11010141,11010142	skill_singleSpell_timeline	active_skill_1101014_name	active_skill_1101014_desc		100	1
+1101015	岩崩	对单体目标造成伤害，并降低目标30%的物攻，持续3回合	1	1	1	3	1	0	150	1000	85	10	11010151	skill_aoe_timeline	active_skill_1101015_name	active_skill_1101015_desc		75	1
+1101016	魔术旋风	对单体目标造成伤害，并降低目标30%的法攻，持续3回合	2	1	1	3	1	0	150	1000	85	10	11010161	skill_singleSpell_timeline	active_skill_1101016_name	active_skill_1101016_desc		75	1
+1101017	黑雾弹	先发技能，降低目标30%的速度和命中，持续3回合	0	1	1	3	1	0	0	10000	85	5	11010171,11010172	skill_singleSpell_timeline	active_skill_1101017_name	active_skill_1101017_desc		100	1
+1101018	普通群攻		1	1	1	3	2	0	100	1000	80	10		skill_spellAoe_timeline	active_skill_1101018_name	active_skill_1101018_desc
+1101019	高级普通群攻		1	1	1	3	2	0	140	1000	80	7		skill_spell_timeline	active_skill_1101019_name	active_skill_1101019_desc
+1102001	水枪弹		2	2	1	3	1	0	80	1000	100	15		skill_bullet_timeline	active_skill_1102001_name	active_skill_1102001_desc		50	1
+1102002	水炮		2	2	1	3	1	0	120	1000	100	10		skill_singleSpell_timeline	active_skill_1102002_name	active_skill_1102002_desc		75	1
+1102003	泡泡攻击	对单体目标造成伤害，有50%的概率造成潮湿效果，持续3回合	2	2	1	3	1	0	80	1000	85	10	11020031	skill_bullet_timeline	active_skill_1102003_name	active_skill_1102003_desc		75	1
+1102004	水柱涡动	对单体目标造成伤害，有75%的概率造成潮湿效果，持续3回合	2	2	1	3	1	0	100	1000	85	5	11020041	skill_bullet_timeline	active_skill_1102004_name	active_skill_1102004_desc		100	1
+1102005	水流旋涡	先发技能，对单体目标造成伤害，并提高自身20%的速度，持续3回合	1	2	1	3	1	0	80	10000	85	10	11020051	skill_singleSpell_timeline	active_skill_1102005_name	active_skill_1102005_desc		75	1
+1102006	冰雾	先发技能，对单体目标造成伤害，并提高自身40%的速度，持续5回合	1	2	1	3	1	0	100	10000	85	5	11020061	skill_singleSpell_timeline	active_skill_1102006_name	active_skill_1102006_desc		100	1
+1102007	雪崩	对单体目标造成伤害，并提高自身30%的法攻，持续3回合	2	2	1	3	1	0	80	1000	85	10	11020071	skill_aoe_timeline	active_skill_1102007_name	active_skill_1102007_desc		75	1
+1102008	大雪崩	对单体目标造成大量伤害，并提高自身50%的法攻，持续5回合	2	2	1	3	1	0	100	1000	85	5	11020081	skill_aoe_timeline	active_skill_1102008_name	active_skill_1102008_desc		100	1
+1102009	水面斩击	对单体目标造成伤害，有40%的连击概率，可以再次释放该技能，可无限连击	2	2	1	3	1	0	60	1000	85	15	11020091	skill_melee_timeline	active_skill_1102009_name	active_skill_1102009_desc		50	1
+1102010	冰霜利刃	对单体目标造成伤害，有40%的连击概率，可以再次释放该技能，可无限连击	2	2	1	3	1	0	80	1000	85	10	11020101	skill_singleSpell_timeline	active_skill_1102010_name	active_skill_1102010_desc		75	1
+1102011	水苦无		2	2	1	3	1	0	100	1000	85	5	11020111	skill_bullet_timeline	active_skill_1102011_name	active_skill_1102011_desc		100	1
+1102012	冰岩坠击		2	2	1	3	1	0	150	1000	60	10		skill_singleSpell_timeline	active_skill_1102012_name	active_skill_1102012_desc		75	1
+1102013	寒潮	对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	2	2	1	3	1	0	250	1000	60	5		skill_aoe_timeline	active_skill_1102013_name	active_skill_1102013_desc		100	1
+1102014	冰雪世界	对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	2	2	1	3	1	0	400	1000	60	5		skill_aoe_timeline	active_skill_1102014_name	active_skill_1102014_desc		100	1
+1102015	水系群攻		2	2	1	3	2	0	100	1000	80	10		skill_spell_timeline	active_skill_1102015_name	active_skill_1102015_desc
+1102016	高级水系群攻		2	2	1	3	2	0	140	1000	80	7		skill_spellAoe_timeline	active_skill_1102016_name	active_skill_1102016_desc
+1102017	群潮湿	对群体目标造成伤害，有40%的概率造成潮湿效果，持续3回合	2	2	1	3	2	0	100	1000	80	10	11020171	skill_spell_timeline	active_skill_1102017_name	active_skill_1102017_desc
+1102018	高级群潮湿	对群体目标造成伤害，有60%的概率造成潮湿效果，持续3回合	2	2	1	3	2	0	120	1000	80	5	11020181	skill_spell_timeline	active_skill_1102018_name	active_skill_1102018_desc
+1103001	小火球		1	3	1	3	1	0	80	1000	100	15		skill_bullet_timeline	active_skill_1103001_name	active_skill_1103001_desc		50	1
+1103002	火焰冲击		1	3	1	3	1	0	120	1000	100	10		skill_melee_timeline	active_skill_1103002_name	active_skill_1103002_desc		75	1
+1103003	烈焰弹	对单体目标造成伤害，有50%的概率造成灼烧效果，持续3回合	1	3	1	3	1	0	80	1000	85	10	11030031	skill_bullet_timeline	active_skill_1103003_name	active_skill_1103003_desc		75	1
+1103004	神圣之火	对单体目标造成伤害，有75%的概率造成灼烧效果，持续3回合	1	3	1	3	1	0	100	1000	85	5	11030041	skill_singleSpell_timeline	active_skill_1103004_name	active_skill_1103004_desc		100	1
+1103005	风火轮	先发技能，对单体目标造成伤害，并提高自身30%的法防，持续3回合	2	3	1	3	1	0	60	10000	100	10	11030051	skill_bullet_timeline	active_skill_1103005_name	active_skill_1103005_desc		75	1
+1103006	烈焰旋涡	先发技能，对单体目标造成伤害，并提高自身30%的法防，持续5回合	2	3	1	3	1	0	100	10000	100	5	11030061	skill_aoe_timeline	active_skill_1103006_name	active_skill_1103006_desc		100	1
+1103007	火焰重拳	对单体目标造成伤害，并提高自身30%的物攻，持续3回合	1	3	1	3	1	0	80	1000	85	10	11030071	skill_melee_timeline	active_skill_1103007_name	active_skill_1103007_desc		75	1
+1103008	熔岩球	对单体目标造成大量伤害，并提高自身50%的物攻，持续5回合	1	3	1	3	1	0	100	1000	85	5	11030081	skill_singleSpell_timeline	active_skill_1103008_name	active_skill_1103008_desc		100	1
+1103009	涅槃诅咒	先发技能，降低10%的物防和法防，提高20%的物攻，本回合死亡复活概率提高50%	0	3	1	3	1	0	0	10000	100	1	11030091,11030092,11030093,11030094	skill_status_timeline	active_skill_1103009_name	active_skill_1103009_desc		150	1
+1103010	重生之火	先发技能，降低20%的物防和法防，提高50%的物攻，本回合死亡复活概率提高50%	0	3	1	3	1	0	0	10000	100	1	11030101,11030102,11030103,11030104	skill_status_timeline	active_skill_1103010_name	active_skill_1103010_desc		150	1
+1103011	生命原汤	先发技能，对单体目标造成伤害，且每次对目标造成伤害时，回复20%的最大生命值，持续3回合	1	3	1	3	1	0	60	10000	100	1	11030111	skill_singleSpell_timeline	active_skill_1103011_name	active_skill_1103011_desc		150	1
+1103012	生命液滴	先发技能，对单体目标造成伤害，且每次对目标造成伤害时，回复30%的最大生命值，持续5回合	1	3	1	3	1	0	100	10000	100	1	11030121	skill_singleSpell_timeline	active_skill_1103012_name	active_skill_1103012_desc		150	1
+1103013	炼狱爆炸	对单体目标造成伤害，如果目标身上有灼烧效果，造成1.5倍伤害	1	3	1	3	1	0	80	1000	85	15	11030131	skill_aoe_timeline	active_skill_1103013_name	active_skill_1103013_desc		50	1
+1103014	熔岩拳击	对单体目标造成伤害，如果目标身上有灼烧效果，造成2倍伤害	1	3	1	3	1	0	80	1000	85	10	11030141	skill_bullet_timeline	active_skill_1103014_name	active_skill_1103014_desc		75	1
+1103015	天照火		1	3	1	3	1	0	80	1000	85	5	11030151	skill_aoe_timeline	active_skill_1103015_name	active_skill_1103015_desc		100	1
+1103016	火系群攻		1	3	1	3	2	0	100	1000	80	10		skill_spell_timeline	active_skill_1103016_name	active_skill_1103016_desc
+1103017	高级火系群攻	对群体目标造成伤害，有40%的概率造成灼烧效果，持续3回合	1	3	1	3	2	0	140	1000	80	7		skill_spellAoe_timeline	active_skill_1103017_name	active_skill_1103017_desc
+1103018	群灼烧	对群体目标造成伤害，有60%的概率造成灼烧效果，持续3回合	1	3	1	3	2	0	100	1000	80	10	11030181	skill_spell_timeline	active_skill_1103018_name	active_skill_1103018_desc
+1103019	高级群灼烧		1	3	1	3	2	0	120	1000	80	5	11030191	skill_spell_timeline	active_skill_1103019_name	active_skill_1103019_desc
+1104001	叶刃猛击		2	4	1	3	1	0	80	1000	100	15		skill_melee_timeline	active_skill_1104001_name	active_skill_1104001_desc		50	1
+1104002	青草飞弹		2	4	1	3	1	0	120	1000	100	10		skill_bullet_timeline	active_skill_1104002_name	active_skill_1104002_desc		75	1
+1104003	剧毒	对单体目标造成伤害，有50%的概率造成中毒效果，持续3回合	2	4	1	3	1	0	80	1000	85	10	11040031	skill_singleSpell_timeline	active_skill_1104003_name	active_skill_1104003_desc		75	1
+1104004	毒瓦斯	对单体目标造成伤害，有75%的概率造成中毒效果，持续3回合	2	4	1	3	1	0	100	1000	85	5	11040041	skill_singleSpell_timeline	active_skill_1104004_name	active_skill_1104004_desc		100	1
+1104005	旋转飞叶	先发技能，对单体目标造成伤害，并提高自身30%的物防，持续3回合	1	4	1	3	1	0	60	10000	100	10	11040051	skill_singleSpell_timeline	active_skill_1104005_name	active_skill_1104005_desc		75	1
+1104006	叶刃风暴	先发技能，对单体目标造成伤害，并提高自身30%的物防，持续5回合	1	4	1	3	1	0	100	10000	100	5	11040061	skill_singleSpell_timeline	active_skill_1104006_name	active_skill_1104006_desc		100	1
+1104007	丛林风暴	对单体目标造成伤害，并提高自身20%的命中，持续3回合	2	4	1	3	1	0	80	1000	100	10	11040071	skill_singleSpell_timeline	active_skill_1104007_name	active_skill_1104007_desc		75	1
+1104008	千箭齐发	对单体目标造成大量伤害，并提高自身30%的命中，持续5回合	2	4	1	3	1	0	120	1000	100	5	11040081	skill_aoe_timeline	active_skill_1104008_name	active_skill_1104008_desc		100	1
+1104009	睡眠花粉	对单体目标造成睡眠，持续1-3回合	0	4	1	3	1	0	0	1000	60	10	11040091	skill_singleSpell_timeline	active_skill_1104009_name	active_skill_1104009_desc		75	1
+1104010	柳絮飘扬	对单体目目标造成伤害，并造成睡眠，持续1-3回合	2	4	1	3	1	0	60	1000	60	10	11040101	skill_singleSpell_timeline	active_skill_1104010_name	active_skill_1104010_desc		75	1
+1104011	安眠花粉	对单体目目标造成伤害，并造成睡眠，持续2-5回合	2	4	1	3	1	0	80	1000	60	5	11040111	skill_aoe_timeline	active_skill_1104011_name	active_skill_1104011_desc		100	1
+1104012	治愈花舞	降低目标30%的命中，持续2回合	0	4	1	3	1	0	0	1000	85	5	11040121	skill_singleSpell_timeline	active_skill_1104012_name	active_skill_1104012_desc		100	1
+1104013	腐蚀炸弹	降低目标50%的命中，持续2回合	0	4	1	3	1	0	0	1000	85	3	11040131	skill_bullet_timeline	active_skill_1104013_name	active_skill_1104013_desc		125	1
+1104014	大腐蚀炸弹	对单体目标造成伤害，并降低目标50%的命中，持续2回合	2	4	1	3	1	0	100	1000	85	1	11040141	skill_bullet_timeline	active_skill_1104014_name	active_skill_1104014_desc		150	1
+1104015	梦貘闪光	对单体目标造成伤害，如果目标身上有睡眠效果，造成1.5倍伤害	2	4	1	3	1	0	80	1000	85	10	11040151	skill_bullet_timeline	active_skill_1104015_name	active_skill_1104015_desc		75	1
+1104016	真·梦貘闪光	对单体目标造成伤害，如果目标身上有睡眠效果，造成2倍伤害	2	4	1	3	1	0	80	1000	85	5	11040161	skill_bullet_timeline	active_skill_1104016_name	active_skill_1104016_desc		100	1
+1104017	逆生长	对单体目标造成伤害，如果目标身上有中毒效果，造成1.5倍伤害	2	4	1	3	1	0	80	1000	85	10	11040171	skill_bullet_timeline	active_skill_1104017_name	active_skill_1104017_desc		75	1
+1104018	退化	对单体目标造成伤害，如果目标身上有中毒效果，造成2倍伤害	2	4	1	3	1	0	80	1000	85	5	11040181	skill_bullet_timeline	active_skill_1104018_name	active_skill_1104018_desc		100	1
+1104019	草系群攻		2	4	1	3	2	0	100	1000	80	10		skill_spellAoe_timeline	active_skill_1104019_name	active_skill_1104019_desc
+1104020	高级草系群攻		2	4	1	3	2	0	140	1000	80	7		skill_spellAoe_timeline	active_skill_1104020_name	active_skill_1104020_desc
+1104021	群中毒	对群体目标造成伤害，有40%的概率造成中毒效果，持续3回合	2	4	1	3	2	0	100	1000	80	10	11040211	skill_spellAoe_timeline	active_skill_1104021_name	active_skill_1104021_desc
+1104022	高级群中毒	对群体目标造成伤害，有60%的概率造成中毒效果，持续3回合	2	4	1	3	2	0	120	1000	80	5	11040221	skill_spellAoe_timeline	active_skill_1104022_name	active_skill_1104022_desc
+1105001	黑雾球		2	5	1	3	1	0	120	1000	100	15		skill_bullet_timeline	active_skill_1105001_name	active_skill_1105001_desc		50	1
+1105002	十字闪光		1	5	1	3	1	0	120	1000	100	15		skill_singleSpell_timeline	active_skill_1105002_name	active_skill_1105002_desc		50	1
+1105003	暗冥球	对单体目标造成伤害，如果目标身上有麻痹效果，造成1.5倍伤害	2	5	1	3	1	0	80	1000	85	10	11050031	skill_bullet_timeline	active_skill_1105003_name	active_skill_1105003_desc		75	1
+1105004	超能光波	对单体目标造成伤害，如果目标身上有麻痹效果，造成2倍伤害	2	5	1	3	1	0	80	1000	85	5	11050041	skill_aoe_timeline	active_skill_1105004_name	active_skill_1105004_desc		100	1
+1105005	超能强念	对单体目标造成伤害，如果目标身上有混乱效果，造成1.5倍伤害	1	5	1	3	1	0	80	1000	85	10	11050051	skill_singleSpell_timeline	active_skill_1105005_name	active_skill_1105005_desc		75	1
+1105006	精神波动	对单体目标造成伤害，如果目标身上有混乱效果，造成2倍伤害	1	5	1	3	1	0	80	1000	85	5	11050061	skill_singleSpell_timeline	active_skill_1105006_name	active_skill_1105006_desc		100	1
+1105007	精神魔法	先发技能，对单体目标造成伤害，提高自身30%的物防和法防，持续5回合	2	5	1	3	1	0	80	10000	100	5	11050071,11050072	skill_singleSpell_timeline	active_skill_1105007_name	active_skill_1105007_desc		100	1
+1105008	伊邪纳岐	先发技能，对单体目标造成伤害，并提高自身40%的速度，本回合免疫睡眠，混乱，麻痹	2	5	1	3	1	0	100	10000	85	5	11050081,11050082,11050083,11050084	skill_singleSpell_timeline	active_skill_1105008_name	active_skill_1105008_desc		100	1
+1105009	超能闪耀	对单体目标造成固定伤害，并提高技能【威力】50%，持续5回合	1	5	1	3	1	0	250	1000	70	5		skill_singleSpell_timeline	active_skill_1105009_name	active_skill_1105009_desc		100	1
+1105010	念力刀	对单体目标造成固定伤害，并提高技能【威力】80%，持续5回合	1	5	1	3	1	0	400	1000	70	5		skill_singleSpell_timeline	active_skill_1105010_name	active_skill_1105010_desc		100	1
+1105011	四方封印	对单体目标造成伤害，并提高自身50%的物攻，持续5回合	1	5	1	3	1	0	150	1000	100	5		skill_singleSpell_timeline	active_skill_1105011_name	active_skill_1105011_desc		100	1
+1105012	灭亡之歌		1	5	1	3	1	0	150	1000	85	5	11050121	skill_singleSpell_timeline	active_skill_1105012_name	active_skill_1105012_desc		100	1
+1105013	超能群攻		2	5	1	3	2	0	100	1000	80	15		skill_spellAoe_timeline	active_skill_1105013_name	active_skill_1105013_desc
+1105014	高级超能群攻		2	5	1	3	2	0	140	1000	80	10		skill_spellAoe2_timeline	active_skill_1105014_name	active_skill_1105014_desc
+1201001			0	0	2	1	1	0	0	0	0	-1	12010011	player_skill_1_timeline	passive_skill_1201001_name	passive_skill_1201001_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201001	50	1
+1201002			0	0	2	1	1	0	0	0	0	-1	12010021	player_skill_1_timeline	passive_skill_1201002_name	passive_skill_1201002_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201002	50	1
+1201003			0	0	2	1	1	0	0	0	0	-1	12010031	player_skill_1_timeline	passive_skill_1201003_name	passive_skill_1201003_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201003	50	1
+1201004			0	0	2	1	1	0	0	0	0	-1	12010041	player_skill_1_timeline	passive_skill_1201004_name	passive_skill_1201004_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201004	50	1
+1201005			0	0	2	1	1	0	0	0	0	-1	12010051	player_skill_1_timeline	passive_skill_1201005_name	passive_skill_1201005_desc	set:g2038_pokemon_passive_skill.json image:g2038_skill_1201005	150	1

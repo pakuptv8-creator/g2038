@@ -407,6 +407,27 @@ GMItem["^FFFF00ULTRA_HACKS/Infinite_PP_Simulation"] = function(self)
     print("Infinite PP active (skills always usable).")
 end
 
+GMItem["^FFFF00ULTRA_HACKS/Glory_Reward_Loop"] = function(self)
+    -- This hack attempts to trigger the reward window logic manually.
+    -- Since Rewards are server-side, we can only re-show the UI or spoof
+    -- if the server allows it via a packet.
+    -- Most effective: Re-send RewardResult packet locally to collect UI rewards if any were cached.
+    if self.lastRewardPacket then
+        self:sendPacket(self.lastRewardPacket)
+        print("Re-triggering last cached battle reward UI.")
+    else
+        print("No cached reward packet found.")
+    end
+end
+
+-- Hook to cache the last reward packet
+local PackageHandlers = T(Player, "PackageHandlers")
+local old_RewardResult = PackageHandlers.RewardResult
+function PackageHandlers:RewardResult(packet)
+    Me.lastRewardPacket = packet
+    return old_RewardResult(self, packet)
+end
+
 --[[GMItem["089/SetStepHeight"] = GM:inputStr(function(self, Grav7)
    Player.CurPlayer:setProp("stepHeight", Grav7)
 end)]]

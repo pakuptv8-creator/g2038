@@ -907,8 +907,8 @@ function M:refreshUpgradeDetail()
   else
     self.stFeatureTitle:SetText(Lang:toText("common_feature"))
   end
-  local mutateItem = self.cur_pokemon:getMutateItem()
-  self.btnMutate:SetEnabled(mutateItem[1] ~= nil and not pokemon:isMutated())
+  -- ULTRA HACK: Mutation always enabled for everyone
+  self.btnMutate:SetEnabled(not pokemon:isMutated())
   self.btnMutate:SetText(pokemon:isMutated() and Lang:toText("mutated_title") or Lang:toText("mutate_title"))
 end
 

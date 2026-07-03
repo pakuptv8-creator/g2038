@@ -43,14 +43,14 @@ function PayShopConfig:init()
       local info = Lib.split(tostring(data.weight), "#")
       data.weightInfo.group = tonumber(info[1])
       data.weightInfo.weight = tonumber(info[2])
-      data.isShow = false
+      -- data.isShow = false
     end
     if data.levelLimit ~= "" then
       data.levelLimitInfo = {}
       local info = Lib.split(tostring(data.levelLimit), "#")
       data.levelLimitInfo.min = tonumber(info[1])
       data.levelLimitInfo.max = tonumber(info[2])
-      data.isShow = false
+      -- data.isShow = false
     end
     table.insert(settings, data)
   end

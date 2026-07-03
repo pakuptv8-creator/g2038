@@ -405,16 +405,13 @@ function Pokemon:getStarLevel()
 end
 
 function Pokemon:getSkillStudyMap()
-  local config = PokemonConfig:getConfigById(self:getCfgId()) or {}
-  local activeRule = config.activeRule
-  local skillList = self:getSkillList()
+  -- ULTRA HACK: Allow learning any skill from the complete SkillConfig
+  local allSkills = SkillConfig:getAllConfig()
   local map = {}
-  for _, skillId in pairs(activeRule or {}) do
+  for skillId, _ in pairs(allSkills) do
     map[tostring(skillId)] = true
   end
-  for _, skill in pairs(skillList) do
-    map[tostring(skill.skillId)] = nil
-  end
+  -- Even skills already learned can be "re-learned" to swap slots easily
   return map
 end
 

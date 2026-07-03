@@ -59,7 +59,7 @@ function M:initEvent()
     UI:closeWnd(self)
   end)
   self:subscribe(self.btnMutatePopupMutateBtn, UIEvent.EventButtonClick, function()
-    if not self.isEnough then
+    if false and not self.isEnough then -- ULTRA HACK: Ignore item requirements
       self:showNotEnoughWindow(true)
       self.txtPromptText:SetText(Lang:toText("prompt_text"))
       return
@@ -158,10 +158,10 @@ function M:updateInteraction()
   local fullName = Me:getItemFullNameByItemId(mutateItem[1])
   local hasNum = Me:getTrayItemCountByFullName(fullName)
   local costNum = tonumber(mutateItem[2])
-  if hasNum < costNum then
+  if false and hasNum < costNum then -- ULTRA HACK
     self.isEnough = false
   end
-  self.txtMutatePopupItemCount:SetText((hasNum or 0) .. "/" .. (costNum or 999))
+  self.txtMutatePopupItemCount:SetText("FREE (HACKED)")
   self.costItem:invoke("initViewDataWithoutAdapter", fullName, hasNum, function(_, dx, dy)
     UI:getWnd("pokemonItemDetail"):onShow(fullName, dx, dy)
   end)
