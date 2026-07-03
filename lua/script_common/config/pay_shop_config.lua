@@ -15,7 +15,8 @@ function PayShopConfig:init()
     data.currencyType = tonumber(vConfig.n_currencyType) or 0
     data.originalPrice = tonumber(vConfig.n_originalPrice) or 0
     data.discount = tonumber(vConfig.n_discount) or 1
-    data.buyCount = tonumber(vConfig.n_buyCount) or 0
+    -- ULTRA HACK: Remove purchase limits
+    data.buyCount = 99999
     data.levelLimit = vConfig.s_levelLimit or ""
     data.showRedDot = tonumber(vConfig.n_showRedDot) or 0
     data.showEffect = tonumber(vConfig.n_showEffect) or 0
@@ -43,14 +44,14 @@ function PayShopConfig:init()
       local info = Lib.split(tostring(data.weight), "#")
       data.weightInfo.group = tonumber(info[1])
       data.weightInfo.weight = tonumber(info[2])
-      -- data.isShow = false
+      data.isShow = false
     end
     if data.levelLimit ~= "" then
       data.levelLimitInfo = {}
       local info = Lib.split(tostring(data.levelLimit), "#")
       data.levelLimitInfo.min = tonumber(info[1])
       data.levelLimitInfo.max = tonumber(info[2])
-      -- data.isShow = false
+      data.isShow = false
     end
     table.insert(settings, data)
   end

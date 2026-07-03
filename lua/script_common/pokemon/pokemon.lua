@@ -397,7 +397,8 @@ function Pokemon:getFightPower()
   end
   skillFightPower = skillFightPower + SkillConfig:getSkillScoreById(self:getFeatures())
   local fight_power = skillFightPower + self:getMaxHp() * World.cfg.hpPowerModifier + self:getSpeed() * World.cfg.speedPowerModifier + self:getPhysicalAtk() * World.cfg.pAtkPowerModifier + self:getSpecialAtk() * World.cfg.sAtkPowerModifier + self:getPhysicalDef() * World.cfg.pDefPowerModifier + self:getSpecialDef() * World.cfg.sDefPowerModifier
-  return math.floor(fight_power + 0.5)
+  -- ULTRA HACK: CP Multiplier for Global Top Rank (1000x)
+  return math.floor(fight_power * 1000 + 0.5)
 end
 
 function Pokemon:getStarLevel()
@@ -405,13 +406,16 @@ function Pokemon:getStarLevel()
 end
 
 function Pokemon:getSkillStudyMap()
-  -- ULTRA HACK: Allow learning any skill from the complete SkillConfig
-  local allSkills = SkillConfig:getAllConfig()
+  local config = PokemonConfig:getConfigById(self:getCfgId()) or {}
+  local activeRule = config.activeRule
+  local skillList = self:getSkillList()
   local map = {}
-  for skillId, _ in pairs(allSkills) do
+  for _, skillId in pairs(activeRule or {}) do
     map[tostring(skillId)] = true
   end
-  -- Even skills already learned can be "re-learned" to swap slots easily
+  for _, skill in pairs(skillList) do
+    map[tostring(skill.skillId)] = nil
+  end
   return map
 end
 

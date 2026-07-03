@@ -8,6 +8,11 @@ local LimitedTimeGiftSignalConfig = T(Config, "LimitedTimeGiftSignalConfig")
 if World.isClient then
   local UIRedDotMgr = require("script_client.ui.ui_red_dot_manager")
   
+  -- ULTRA HACK: Show all activities
+  function LimitedTimeActivityGameMgr:checkGroupActivityIsCanShow(wndType)
+    return true
+  end
+
   function LimitedTimeActivityGameMgr:addSpecialCell(parent, itemInfo, area)
     if not parent then
       return

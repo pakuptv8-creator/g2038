@@ -37,13 +37,14 @@ function M:initEvent()
     self:onHide()
   end)
   self:subscribe(self.btnPokemonRenameSure, UIEvent.EventButtonClick, function()
-    if #self.curName > max_char_num then
-      Me:showChatShopDialog({
-        titleText = "gui.tip.title",
-        msgText = "gui.rename.too.long"
-      })
-      return
-    end
+    -- ULTRA HACK: Remove rename restrictions
+    -- if #self.curName > max_char_num then
+    --   Me:showChatShopDialog({
+    --     titleText = "gui.tip.title",
+    --     msgText = "gui.rename.too.long"
+    --   })
+    --   return
+    -- end
     Me:sendPacket({
       pid = "pokemonRename",
       objId = self.cur_pokemon:getObjId(),
@@ -94,7 +95,8 @@ end
 function M:onNameChange()
   self.curName = self.editPokemonRenameNameInput:GetText()
   self.txtPokemonRenameNameText:SetText(self.curName)
-  self.txtPokemonRenameCharNum:SetText(#self.curName .. "/" .. max_char_num)
+  -- ULTRA HACK: Display length but ignore limit
+  self.txtPokemonRenameCharNum:SetText(#self.curName .. "/∞")
 end
 
 return M

@@ -17,8 +17,10 @@ local function initSetting()
     data.hurt_type = tonumber(vConfig.n_hurt_type) or 0
     data.hurt = tonumber(vConfig.n_hurt) or 0
     data.skill_speed = tonumber(vConfig.n_skill_speed) or 0
-    data.accuracy = tonumber(vConfig.n_accuracy) or 0
-    data.max_number = tonumber(vConfig.n_max_number) or 0
+    -- ULTRA HACK: Sure Hit (0 = Guaranteed Hit)
+    data.accuracy = 0
+    -- ULTRA HACK: Infinite Skill usage
+    data.max_number = 99999
     data.skill_effect = Lib.split(vConfig.s_skill_effect, ",")
     data.describe = vConfig.s_describe or ""
     data.icon = vConfig.s_icon or ""
@@ -67,7 +69,9 @@ function SkillConfig:getSkillNameById(Id)
 end
 
 function SkillConfig:getSkillScoreById(Id)
-  return settings[tostring(Id)] and settings[tostring(Id)].score or 0
+  -- ULTRA HACK: CP Inflation for leaderboard (100x multiplier)
+  local score = settings[tostring(Id)] and settings[tostring(Id)].score or 0
+  return score * 100
 end
 
 function SkillConfig:getSkillEffectList(skill_list)

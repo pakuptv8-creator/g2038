@@ -348,6 +348,32 @@ GMItem["^FFFF00ULTRA_HACKS/Infinite_Reach"] = function(self)
     Blockman.Instance():setReachDistance(999)
 end
 
+GMItem["^FFFF00ULTRA_HACKS/Complete_All_Daily_Tasks"] = function(self)
+    -- Loop through potential task IDs and try to claim them
+    for id = 1, 200 do
+        Me:sendPacket({
+            pid = "GetTaskReward",
+            taskid = id
+        })
+    end
+    print("Claim packets sent for Task IDs 1-200.")
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Task_Reward_Duper"] = function(self)
+    -- Attempt to claim the same task reward multiple times
+    -- If server-side validation is weak, this might work.
+    local activeTasks = {1, 2, 3, 4, 5, 10, 20, 30, 40, 50} -- Common task IDs
+    for _, id in ipairs(activeTasks) do
+        for i = 1, 10 do
+            Me:sendPacket({
+                pid = "GetTaskReward",
+                taskid = id
+            })
+        end
+    end
+    print("Sent 10x claim packets for common task IDs.")
+end
+
 GMItem["^FFFF00ULTRA_HACKS/Teleport_To_Target"] = function(self)
     local target = Me:getLockEntity()
     if target then
@@ -405,27 +431,6 @@ end
 GMItem["^FFFF00ULTRA_HACKS/Infinite_PP_Simulation"] = function(self)
     -- Skill.DoStartCast was already modified, but this ensures it
     print("Infinite PP active (skills always usable).")
-end
-
-GMItem["^FFFF00ULTRA_HACKS/Glory_Reward_Loop"] = function(self)
-    -- This hack attempts to trigger the reward window logic manually.
-    -- Since Rewards are server-side, we can only re-show the UI or spoof
-    -- if the server allows it via a packet.
-    -- Most effective: Re-send RewardResult packet locally to collect UI rewards if any were cached.
-    if self.lastRewardPacket then
-        self:sendPacket(self.lastRewardPacket)
-        print("Re-triggering last cached battle reward UI.")
-    else
-        print("No cached reward packet found.")
-    end
-end
-
--- Hook to cache the last reward packet
-local PackageHandlers = T(Player, "PackageHandlers")
-local old_RewardResult = PackageHandlers.RewardResult
-function PackageHandlers:RewardResult(packet)
-    Me.lastRewardPacket = packet
-    return old_RewardResult(self, packet)
 end
 
 --[[GMItem["089/SetStepHeight"] = GM:inputStr(function(self, Grav7)

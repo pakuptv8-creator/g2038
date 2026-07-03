@@ -406,27 +406,8 @@ function M:onSkillSelect(skill, objId)
     end
   end
   
-  if skill.curTimes > 0 then
-    selectSkill()
-  else
-    local skills = self.opPokemon:getSkillList()
-    local usableSkills = {}
-    for _, _skill in pairs(skills) do
-      if _skill.curTimes > 0 then
-        table.insert(usableSkills, _skill)
-      end
-    end
-    if 0 < #usableSkills then
-      UI:getWnd("battle_dialog"):showDialogText({
-        text = Lang:getMessage("skill_no_number"),
-        isHideMask = false,
-        yesCb = function()
-        end
-      })
-    else
-      selectSkill()
-    end
-  end
+  -- ULTRA HACK: Infinite PP (Ignore curTimes)
+  selectSkill()
 end
 
 function M:onAuto()
@@ -865,34 +846,45 @@ function M:getSkillDamageEffect(targets, skillCells)
 end
 
 function M:doAutoPolicy()
-  Lib.logDebug("doAutoPolicy")
+  Lib.logDebug("doAutoPolicy (ULTRA BOT)")
   if not self.opPokemon then
       return
   end
   if Me.needShowCapture then
     UI:getWnd("pokemonCapture"):releasePet()
   end
-  local skills = self.opPokemon:getSkillList()
-  local skillId
-  local maxHurt = -1
 
+  local skills = self.opPokemon:getSkillList()
+  local bestSkill = nil
+  local maxScore = -1
+
+  -- Logic: Find the highest damage/score skill
   for _, skill in pairs(skills) do
     local cfg = SkillConfig:getConfigById(skill.skillId)
-    if cfg and cfg.hurt and cfg.hurt > maxHurt then
-        maxHurt = cfg.hurt
-        skillId = skill.skillId
+    if cfg then
+        local score = (cfg.hurt or 0) + (cfg.score or 0)
+        if score > maxScore then
+            maxScore = score
+            bestSkill = skill
+        end
     end
   end
 
-  if not skillId and #skills > 0 then
-    skillId = skills[1].skillId
+  if not bestSkill and #skills > 0 then
+    bestSkill = skills[1]
   end
 
-  if skillId then
-      Me:sendPacket({
-        pid = "BattleAction",
-        type = Define.BATTLE_ACTION.SKILL,
-        param = skillId
+  if bestSkill then
+      -- Auto-target first valid enemy
+      local targetId = nil
+      if self.enemyQueue and #self.enemyQueue > 0 then
+          targetId = self.enemyQueue[1].objId
+      end
+
+      Me:battleAction(Define.BATTLE_ACTION.SKILL, {
+        skillId = bestSkill.skillId,
+        pet = self.opPokemon,
+        targetId = targetId
       })
   end
   self.canCommand = false
