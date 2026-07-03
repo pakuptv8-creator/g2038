@@ -193,6 +193,16 @@ function M:onHide()
 end
 
 function M:onOpen()
+  World.Timer(10, function()
+    if UI:isOpen(self) then
+      for _, node in pairs(self.task_status_nodes) do
+        local status = node:data("status")
+        if status and status.finished == 1 and status.rewarded == 0 then
+          node:child("pokemon_task_cell-ltFunc"):CallHandler(UIEvent.EventWindowClick, 0, 0)
+        end
+      end
+    end
+  end)
 end
 
 function M:onClose()

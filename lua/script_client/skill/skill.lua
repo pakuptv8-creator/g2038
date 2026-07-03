@@ -42,8 +42,8 @@ end
 
 function Skill.DoStartCast(from, cfg, packet)
   if cfg.skillTime and cfg.isMainSkill then
-    local delayTime = packet.delayTime or 0
-    World.Timer(cfg.skillTime + delayTime, function()
+    local delayTime = 0
+    World.Timer(1, function()
       if from and from:isValid() then
         from:data("main").curCastMainSkill = nil
         from:resetCurSkillBaseInfo()

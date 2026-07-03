@@ -275,6 +275,12 @@ function M:showBattleResult(packet, fromBattle)
   }, {0, 100})
   if not packet.coin and not packet.exp then
     self:exchangeToShowPetUpPage(true)
+  else
+    World.Timer(1, function()
+      if self.btnBattleResultsRewardContinue:IsVisible() then
+        self.btnBattleResultsRewardContinue:CallHandler(UIEvent.EventButtonClick)
+      end
+    end)
   end
   if packet.pokemonList and 0 < #packet.pokemonList then
     Me.needShowCapture = true
@@ -322,7 +328,7 @@ function M:upDatePokemonList(right_away)
           end, 0)
           return
         end
-        local closeTimeWait = 2000
+        local closeTimeWait = 0
         if right_away then
           closeTimeWait = 0
         end
@@ -396,20 +402,12 @@ function M:showPokemonInfo(pokemon)
     self.txtBattleResultsDefVar:SetVisible(true)
     self.txtBattleResultsMAtkVar:SetVisible(true)
     self.txtBattleResultsMDefVar:SetVisible(true)
-    self.txtBattleResultsHpVar:SetText("+" .. 0)
-    self.txtBattleResultsSpdVar:SetText("+" .. 0)
-    self.txtBattleResultsAtkVar:SetText("+" .. 0)
-    self.txtBattleResultsDefVar:SetText("+" .. 0)
-    self.txtBattleResultsMAtkVar:SetText("+" .. 0)
-    self.txtBattleResultsMDefVar:SetText("+" .. 0)
-    local durFrame = 10
-    local time = 20
-    self.txtBattleResultsHpVar:SetTextWithJump("+" .. attrUp.add_maxHp, false, durFrame, time)
-    self.txtBattleResultsSpdVar:SetTextWithJump("+" .. attrUp.add_speed, false, durFrame, time)
-    self.txtBattleResultsAtkVar:SetTextWithJump("+" .. attrUp.add_pAtk, false, durFrame, time)
-    self.txtBattleResultsDefVar:SetTextWithJump("+" .. attrUp.add_pDef, false, durFrame, time)
-    self.txtBattleResultsMAtkVar:SetTextWithJump("+" .. attrUp.add_sAtk, false, durFrame, time)
-    self.txtBattleResultsMDefVar:SetTextWithJump("+" .. attrUp.add_sDef, false, durFrame, time)
+    self.txtBattleResultsHpVar:SetText("+" .. attrUp.add_maxHp)
+    self.txtBattleResultsSpdVar:SetText("+" .. attrUp.add_speed)
+    self.txtBattleResultsAtkVar:SetText("+" .. attrUp.add_pAtk)
+    self.txtBattleResultsDefVar:SetText("+" .. attrUp.add_pDef)
+    self.txtBattleResultsMAtkVar:SetText("+" .. attrUp.add_sAtk)
+    self.txtBattleResultsMDefVar:SetText("+" .. attrUp.add_sDef)
   else
     self.txtBattleResultsHpVar:SetVisible(false)
     self.txtBattleResultsSpdVar:SetVisible(false)
@@ -419,13 +417,7 @@ function M:showPokemonInfo(pokemon)
     self.txtBattleResultsMDefVar:SetVisible(false)
   end
   World.Timer(1, function()
-    UI:getWnd("battle_dialog"):showDialogText({
-      text = string.format(PokemonConfig:getColorByQuality(pokemon:getQuality()) .. Lang:getMessage("battle_result_pet_up"), pokemon:getName(), pokemon:getLevel()),
-      isHideMask = true,
-      yesCb = function()
-        self:checkStudyList()
-      end
-    })
+    self:checkStudyList()
   end)
 end
 
@@ -443,53 +435,13 @@ function M:showStudySKill(study_skillId)
   local skillList = pokemon:getSkillList()
   if #skillList < 4 then
     Me:pokemonStudySkill(pokemon:getObjId(), study_skillId, nil, function()
-      UI:getWnd("battle_dialog"):showDialogText({
-        text = string.format(PokemonConfig:getColorByQuality(pokemon:getQuality()) .. Lang:getMessage("battle_result_study_success"), pokemon:getName(), Lang:toText(SkillConfig:getSkillNameById(study_skillId))),
-        isHideMask = true,
-        yesCb = function()
-          self:checkStudyList()
-        end
-      })
+      self:checkStudyList()
     end)
     return
   end
-  self.imgBattleResultsUpgradeAbility:SetVisible(false)
-  self.lyUnlearnedSkill:SetVisible(true)
-  self.lySkillLayout:SetVisible(true)
-  self:refreshSKillList()
-  self.unlearnedItem:invoke("updateInfoById", study_skillId)
-  World.Timer(1, function()
-    UI:getWnd("battle_dialog"):showDialogText({
-      text = string.format(Lang:getMessage("battle_result_select_skill"), Lang:toText(SkillConfig:getSkillNameById(study_skillId))),
-      isHideMask = true,
-      yesCb = function()
-        Me:showChatShopDialog({
-          titleText = Lang:toText("gui.secondConfirm.title"),
-          msgText = Lang:toText("gui.confirm.replaceSkill")
-        }, function(confirm)
-          if confirm then
-            Me:pokemonStudySkill(pokemon:getObjId(), study_skillId, self.selectIndex, function()
-              self.lyUnlearnedSkill:SetVisible(false)
-              UI:getWnd("battle_dialog"):showDialogText({
-                text = string.format(PokemonConfig:getColorByQuality(pokemon:getQuality()) .. Lang:getMessage("battle_result_study_replay"), pokemon:getName(), Lang:toText(SkillConfig:getSkillNameById(study_skillId)), Lang:toText(SkillConfig:getSkillNameById(self.selectSkillId))),
-                isHideMask = true,
-                yesCb = function()
-                  self:checkStudyList()
-                end
-              })
-              self:refreshSKillList()
-            end)
-            return
-          end
-          self:showStudySKill(study_skillId)
-        end)
-      end,
-      noCb = function()
-        Me:pokemonGiveUpSkill(pokemon:getObjId(), study_skillId, function()
-          self:checkStudyList()
-        end)
-      end
-    })
+  -- Auto-replace first skill if full
+  Me:pokemonStudySkill(pokemon:getObjId(), study_skillId, 1, function()
+    self:checkStudyList()
   end)
 end
 

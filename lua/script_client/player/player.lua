@@ -623,12 +623,9 @@ function Player:getSkillSuitablePokemon(skillCfg)
   end
   local suitablePokemonList = {}
   PokemonManager:getPokemonList(packetPetList, function(pokemonList)
-    for _, cfgId in pairs(skillCfg.petsCanLearnList or {}) do
-      for _, pokemon in pairs(pokemonList) do
-        if pokemon:getCfgId() == cfgId then
-          table.insert(suitablePokemonList, pokemon)
-        end
-      end
+    -- ULTRA HACK: Any pet can learn any skill
+    for _, pokemon in pairs(pokemonList) do
+        table.insert(suitablePokemonList, pokemon)
     end
   end)
   return suitablePokemonList
@@ -646,14 +643,9 @@ function Player:checkIsInWatchCD(watchType)
 end
 
 function Player:requestWatchAd(watchType)
-  if self:checkIsInWatchCD(watchType) then
-    return
-  end
-  local adsId = Define.AdvertisingType.Battle
-  if watchType == Define.AdvertisingType.Battle then
-    adsId = Define.AdvertisingAdsId.Battle
-  else
-    return
-  end
-  CGame.instance:getShellInterface():onWatchAd(watchType, "", adsId)
+  -- ULTRA HACK: Instant Ad Complete
+  Me:sendPacket({
+    pid = "CSWatchCarAd",
+    watchType = watchType
+  })
 end

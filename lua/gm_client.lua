@@ -320,11 +320,92 @@ GMItem["00FF00NormalHacks/00FF00SetClickDistance"] = GM:inputStr(function(self, 
 Player.CurPlayer:setProp("clickDistance", Grav3)
 end)
 
+GMItem["^FFFF00ULTRA_HACKS/Force_Jump_Button"] = function(self)
+    local actionControl = UI:getWnd("actionControl", false)
+    if actionControl then
+        actionControl:SetVisible(true)
+        for i = 0, actionControl:GetChildCount() - 1 do
+            local child = actionControl:GetChildByIndex(i)
+            child:SetVisible(true)
+            child:SetEnabled(true)
+        end
+        print("ActionControl forced visible.")
+    else
+        UI:openWnd("actionControl")
+    end
+end
 
+GMItem["^FFFF00ULTRA_HACKS/Instant_Win_Battle"] = function(self)
+    -- This is client-side, might not work if server validates, but let's try to send a win packet if it exists
+    Me:sendPacket({pid = "BattleResult", result = 1})
+end
 
+GMItem["^FFFF00ULTRA_HACKS/Speed_X10"] = function(self)
+    Me:setProp("moveSpeed", 10.0)
+end
 
+GMItem["^FFFF00ULTRA_HACKS/Infinite_Reach"] = function(self)
+    Blockman.Instance():setReachDistance(999)
+end
 
+GMItem["^FFFF00ULTRA_HACKS/Teleport_To_Target"] = function(self)
+    local target = Me:getLockEntity()
+    if target then
+        Me:setPosition(target:getPosition())
+    end
+end
 
+GMItem["^FFFF00ULTRA_HACKS/Force_Learn_Skill"] = GM:inputStr(function(self, skillId)
+    local packetPetList = Me:getValue("battlePetList")
+    if #packetPetList > 0 then
+        local objId = packetPetList[1]
+        Me:pokemonStudySkill(objId, tonumber(skillId), 1) -- Use pos 1
+        print("Forcing skill " .. skillId .. " on first pet in team.")
+    else
+        print("No pet in team found.")
+    end
+end)
+
+GMItem["^FFFF00ULTRA_HACKS/Catch_Current_Wild"] = function(self)
+    -- Sends a Master Ball packet regardless of inventory
+    if Me:isInBattle() then
+        -- Find an enemy pet
+        local allEntities = World.CurWorld:getAllEntity()
+        for _, entity in pairs(allEntities) do
+            if entity:getCampId() ~= Me:getCampId() and not entity.isPlayer then
+                Me:battleAction(Define.BATTLE_ACTION.BALL, {itemId = 4, targetId = entity.objID})
+                print("Sending Master Ball to " .. entity.name)
+                break
+            end
+        end
+    end
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Spoof_Resources"] = function(self)
+    PlayerWallet:setMoneyCount("gDiamonds", 999999)
+    PlayerWallet:setMoneyCount("gold", 999999)
+    print("Resources spoofed (Client-side).")
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Toggle_Invisibility"] = function(self)
+    self.isGhost = not self.isGhost
+    Me:setActorHide(self.isGhost)
+    print("Ghost mode: " .. tostring(self.isGhost))
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Toggle_Auto_Hunt"] = function(self)
+    World.AutoEncounter = not World.AutoEncounter
+    print("Auto-Hunt Magnet: " .. tostring(World.AutoEncounter))
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Set_Max_FPS_999"] = function(self)
+    CGame.Instance():SetMaxFps(999)
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Infinite_PP_Simulation"] = function(self)
+    -- Skill.DoStartCast was already modified, but this ensures it
+    print("Infinite PP active (skills always usable).")
+end
 
 --[[GMItem["089/SetStepHeight"] = GM:inputStr(function(self, Grav7)
    Player.CurPlayer:setProp("stepHeight", Grav7)

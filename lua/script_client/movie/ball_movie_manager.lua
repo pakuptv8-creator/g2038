@@ -22,35 +22,16 @@ local function genMovieSequence(q)
 end
 
 function BallMovieManager.play(q, casterBp)
-  local cameraXOffset, cameraZOffset, cameraYawOffset = 0, 0, 0
-  if casterBp == 2 or casterBp == 8 then
-    cameraXOffset = 0
-    cameraZOffset = 0
-    cameraYawOffset = 0
-  elseif casterBp == 3 or casterBp == 9 then
-    cameraXOffset = 0
-    cameraZOffset = 0
-    cameraYawOffset = 0
+  local success = true
+  for i = 1, #q._data do
+    if not q._data[i] then
+      success = false
+      break
+    end
   end
-  Lib.emitEvent(Event.EVENT_PLAY_CUTSCENE, "catch_stage_1", function()
-    Lib.emitEvent(Event.EVENT_PLAY_CUTSCENE, "catch_stage_2", function()
-      if q:size() == 1 and q:front() == true then
-        Lib.setPlayableScriptParam("CatchSuccess", true)
-        MovieManager.playSequence({
-          "catch_success"
-        }, function()
-          Me:notifyStateReady(Define.READY_TYPE.CATCH)
-          Me.needShowCapture = true
-        end)
-      else
-        Lib.setPlayableScriptParam("CatchSuccess", false)
-        MovieManager.playSequence(genMovieSequence(q), function()
-          Me:notifyStateReady(Define.READY_TYPE.CATCH)
-          Me.needShowCapture = true
-        end)
-      end
-    end)
-  end)
+  Lib.setPlayableScriptParam("CatchSuccess", success)
+  Me:notifyStateReady(Define.READY_TYPE.CATCH)
+  Me.needShowCapture = true
 end
 
 return BallMovieManager

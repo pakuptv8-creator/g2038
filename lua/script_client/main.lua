@@ -87,11 +87,38 @@ function main:initClientGrassAni()
     Lib.subscribeEvent(Event.EVENT_BLOCK_POS_CHANGE, function(oldPos, curPos)
       self:actionGrassAni(oldPos, curPos)
     end)
+
+    local encounterTimer = 0
+    World.AutoEncounter = true
     World.LightTimer("grassCheck", 1, function()
       if Me.removed then
         return false
       end
       local curPos = Me:curBlockPos()
+
+      encounterTimer = encounterTimer + 1
+      if encounterTimer >= 20 then -- Every 1 second (approx 20 ticks)
+        encounterTimer = 0
+        if World.AutoEncounter and not Me:isInBattle() and not UI:isOpen("battle_pre_animation") then
+             local pos = Me:getPosition()
+             -- Simulate a small jitter to trick the server's distance-based encounter logic
+             Me:sendPacket({
+                pid = "ControlMovement",
+                pos = {x = pos.x + 0.01, y = pos.y, z = pos.z + 0.01},
+                pitch = Me:getRotationPitch(),
+                yaw = Me:getRotationYaw(),
+                moveState = 1
+             })
+             Me:sendPacket({
+                pid = "ControlMovement",
+                pos = pos,
+                pitch = Me:getRotationPitch(),
+                yaw = Me:getRotationYaw(),
+                moveState = 0
+             })
+        end
+      end
+
       if self.oldPos == curPos then
         return true
       end
@@ -155,6 +182,22 @@ end
 
 function main:setGlobalProperty()
   GlobalProperty.Instance():setBoolProperty("DisableCheckBlockTouch", true)
+
+  -- Force UI visibility for Jump and Toolbar
+  World.Timer(20, function()
+      local actionControl = UI:getWnd("actionControl", false)
+      if actionControl then
+          actionControl:SetVisible(true)
+          for i = 0, actionControl:GetChildCount() - 1 do
+              local child = actionControl:GetChildByIndex(i)
+              child:SetVisible(true)
+              child:SetEnabled(true)
+          end
+      end
+      local toolbar = UI:getWnd("toolbar", false)
+      if toolbar then toolbar:SetVisible(true) end
+      return true
+  end)
 end
 
 function main:initLog()

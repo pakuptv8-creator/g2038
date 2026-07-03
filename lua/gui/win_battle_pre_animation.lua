@@ -60,21 +60,7 @@ function M:initView(animationInfo)
 end
 
 function M:startUpdateTime()
-  if self.effectTimer then
-    LuaTimer:cancel(self.effectTimer)
-    self.effectTimer = nil
-  end
-  local curAnimation = animationList[self.meetType][self.curEffectId]
-  if not curAnimation then
-    Lib.emitEvent(Event.EVENT_FINISH_PRE_BATTLE_ANIMATION)
-    return
-  end
-  self:showEffectWithId(curAnimation)
-  local curTime = Define.PRE_ANIMATION_TIME[curAnimation]
-  self.effectTimer = LuaTimer:scheduleTimer(function()
-    self.curEffectId = self.curEffectId + 1
-    self:startUpdateTime()
-  end, curTime * 1000, 1)
+  Lib.emitEvent(Event.EVENT_FINISH_PRE_BATTLE_ANIMATION)
 end
 
 function M:showEffectWithId(curAnimation)
@@ -103,15 +89,8 @@ function M:showCloseAnimation()
   UI:closeWnd("pokemonEvolution")
   UI:closeWnd("battle_results")
   UI:closeWnd("battle_dialog")
-  UI:openWnd("battle_pre_animation")
-  local curAnimation = Define.PRE_BATTLE_ANIMATION.HIDE_BLOCK
-  self:showEffectWithId(curAnimation)
-  local curTime = Define.PRE_ANIMATION_TIME[curAnimation]
-  LuaTimer:cancel(self.effectTimer)
-  self.effectTimer = LuaTimer:scheduleTimer(function()
-    Me:startPlayBattleMove()
-    self:onHide()
-  end, curTime * 1000, 1)
+  Me:startPlayBattleMove()
+  self:onHide()
 end
 
 function M:onHide()

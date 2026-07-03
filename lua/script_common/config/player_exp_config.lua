@@ -70,16 +70,7 @@ function PlayerExpConfig:getPresentUnlockModByLv(lv)
 end
 
 function PlayerExpConfig:isOpenWithLvAndModID(modID, lv)
-  for _, setting in pairs(settings) do
-    if lv >= setting.lv and setting.unlockMod then
-      for key, val in pairs(setting.unlockMod) do
-        if modID == val then
-          return true
-        end
-      end
-    end
-  end
-  return false
+  return true -- ULTRA HACK: Everything is always unlocked regardless of level
 end
 
 function PlayerExpConfig:getLvByUnlockMod(modID)

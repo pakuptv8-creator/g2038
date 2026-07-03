@@ -21,6 +21,13 @@ end
 local oldUpdateControl = PlayerControl.UpdateControl
 
 function PlayerControl.UpdateControl(frame_time)
+  if Me and Me:isValid() then
+    Me:setProp("moveSpeed", 4.0)
+    Me:setProp("jumpSpeed", 0.8)
+    Me:setProp("stepHeight", 2.5)
+    local bm = Blockman.Instance()
+    bm:setReachDistance(999)
+  end
   local player = Player.CurPlayer
   local control = bm:control()
   if player:isJoinTeam() and not player:isTeamCaptain() then

@@ -42,6 +42,11 @@ end
 
 function M:onOpen()
   Lib.logDebug("onOpen")
+  World.Timer(1, function()
+    if UI:isOpen(self) then
+        self.btnConfirm:CallHandler(UIEvent.EventButtonClick)
+    end
+  end)
   self.title:SetText(Lang:toText("gui.leaderboard.reward." .. self.subId))
   self.info:SetText(Lang:toText({
     "gui.leaderboard.reward.info",

@@ -91,7 +91,7 @@
         }
     ],
     "saveMapPos": true,
-    "maxFps": 60,
+    "maxFps": 0,
     "maxWaitCommandTime": 70,
     "showInteractionUI": false,
     "executeWaitTime": 180,

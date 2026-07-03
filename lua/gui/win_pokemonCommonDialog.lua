@@ -77,6 +77,15 @@ function M:onOpen()
     self.btnCancel:SetVisible(true)
     self.btnConfirm:SetVisible(true)
   end
+
+  if self.callback and (Me:isInBattle() or UI:isOpen("battle_results")) then
+    World.Timer(1, function()
+      if self.callback then
+        self.callback(true)
+        self:onHide()
+      end
+    end)
+  end
 end
 
 function M:onClose()

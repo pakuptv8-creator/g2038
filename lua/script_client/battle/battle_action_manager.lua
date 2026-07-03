@@ -33,35 +33,9 @@ end
 
 function BattleActionManager:processRunaway(param)
   Lib.logDebug("BattleActionManager:processRunaway", param.result)
-  local wnd = UI:getWnd("battle_dialog")
-  wnd:setCloseFunc(function()
-    Me:notifyStateReady()
-  end)
+  Me:notifyStateReady()
   if Me.needShowCapture then
     UI:getWnd("pokemonCapture"):onShow()
-  end
-  if param.mode == Define.BATTLE_MODE.PVE then
-    if param.result then
-      wnd:showDialogText({
-        text = Lang:getMessage("novice_guide_runaway_1"),
-        autoCloseTime = 2000
-      })
-    else
-      wnd:showDialogText({
-        text = Lang:getMessage("novice_guide_runaway_2"),
-        autoCloseTime = 2000
-      })
-    end
-  elseif Me:getCampId() ~= param.campId then
-    wnd:showDialogText({
-      text = Lang:getMessage("novice_guide_runaway_3"),
-      autoCloseTime = 2000
-    })
-  else
-    wnd:showDialogText({
-      text = Lang:getMessage("novice_guide_runaway_4"),
-      autoCloseTime = 2000
-    })
   end
 end
 

@@ -88,6 +88,10 @@ function handles:BattleResult(packet)
         UI:getWnd("pokemonCapture"):onShow()
       end
     end
+    -- Auto-heal after battle
+    World.Timer(1, function()
+        Me:sendPacket({ pid = "recoveryAllByDoctor" })
+    end)
   end)
 end
 

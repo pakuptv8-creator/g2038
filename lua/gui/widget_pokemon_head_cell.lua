@@ -446,43 +446,7 @@ function M:updateInfo(pokemon)
   self.widget_item:invoke("onDataChanged", {pokemon = pokemon})
   self.txtPokemonHeadCellName:SetText(pokemon:getName())
   local curHP = math.ceil(hp)
-  if self.scene_type == Define.SCENE_TYPE.BATTLE then
-    if isJump then
-      local oldHP = self.txtPokemonHeadCellHpCount:GetText()
-      local durFrame = math.ceil(math.abs(curHP - tonumber(oldHP)) / 20)
-      local nowCurHp = tonumber(self.txtPokemonHeadCellHpCount:GetText())
-      local num = curHP - nowCurHp
-      local isAdd = true
-      if num < 0 then
-        isAdd = false
-      end
-      local count = num < 0 and num * -1 or num
-      local value = math.ceil(count / 20)
-      self.textTimer = LuaTimer:scheduleTimer(function()
-        if isAdd then
-          nowCurHp = nowCurHp + value
-          if nowCurHp > curHP then
-            nowCurHp = curHP
-          end
-        else
-          nowCurHp = nowCurHp - value
-          if nowCurHp < curHP then
-            nowCurHp = curHP
-          end
-        end
-        self.txtPokemonHeadCellHpCount:SetText(math.ceil(nowCurHp))
-        if nowCurHp == curHP then
-          LuaTimer:cancel(self.textTimer)
-          self.textTimer = nil
-        end
-      end, 50, 20)
-      Lib.logDebug("txtPokemonHeadCellHpCount SetTextWithJump", tonumber(oldHP) or "nil", curHP, durFrame)
-    else
-      self.txtPokemonHeadCellHpCount:SetText(curHP)
-    end
-  else
-    self.txtPokemonHeadCellHpCount:SetText(curHP)
-  end
+  self.txtPokemonHeadCellHpCount:SetText(curHP)
   if curHP < maxHP / 3 and 0 < curHP then
     if Me.platformUserId == self.pokemon:getMasterId() and not self.dontplay then
       self.dontplay = true
