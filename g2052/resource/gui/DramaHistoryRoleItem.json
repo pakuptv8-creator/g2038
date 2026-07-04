@@ -1,0 +1,134 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "DramaHistoryRoleItem",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,92},{0,36}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "DramaHistoryRoleItem-ContentPanel",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "DramaHistoryRoleItem-Name",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ClipChild",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,24},{0,0},{1,-4},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "AAA"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT14"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT8"
+                                },
+                                {
+                                    "Name": "AutoShrinkFont",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "DramaHistoryRoleItem-SelectBg",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,16},{0,16}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "20 20 20 20"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_teaming.json image:img_0_roles_sel01"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "DramaHistoryRoleItem-NormalBg",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Visible",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,16},{0,16}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "20 20 20 20"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_teaming.json image:img_0_roles_sel02"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

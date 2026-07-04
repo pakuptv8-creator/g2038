@@ -1,0 +1,702 @@
+
+
+language_start:g2052_lang
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+annivesary.announcement=Yıl Dönümü Duyurusu
+annivesary.tips=İpucu: Free City Özel Büyüme Fonu'nu satın alarak en az iki indirimli ürün kazanın.
+
+gui.limit.time.heart.warming.title=yürek ısıtan hediye
+gui.limit.time.heart.warming.integral=integral:{.}
+gui.limit.time.heart.warming.day1=ilk gün
+gui.limit.time.heart.warming.day2=sonraki gün
+gui.limit.time.heart.warming.day3=Üçüncü gün
+
+taskTitle_11=Oyuna toplam 1 arkadaş eklendi
+taskTitle_12=Kendinize yeni bir kariyer belirleyin
+taskTitle_13=Kendine yeni bir kıyafet ver
+taskTitle_14=Kendinize ait bir ev inşa edin
+taskTitle_15=Tüm görevleri bugün tamamlayın
+taskTitle_21=Oyuna toplam 3 arkadaş eklendi
+taskTitle_22=Küçük bir araç kullanarak 2 oyuncu yüklendi
+taskTitle_23=2 oyuncuya hediye eşyalar
+taskTitle_24=Sarılmalar veya diğer eylemlerle 2 oyuncuyla etkileşime geçin
+taskTitle_25=Tüm görevleri bugün tamamlayın
+taskTitle_31=Oyuna toplam 5 arkadaş eklendi
+taskTitle_32=Birinin evini ateşe vermek için çakmak veya bomba kullanın
+taskTitle_33=Oyuncuyu polis karakoluna kilitlemek için polis mesleğini kullanın
+taskTitle_34=İtfaiyeci mesleğini kullanarak yangını söndürmek
+taskTitle_35=Tüm görevleri bugün tamamlayın
+taskDesc_24=Oyuncuyla etkileşim kurmak için oyuncunun karakterine tıklamanız ve ardından açılır listeden etkileşim kurmak istediğiniz eylemi seçmeniz gerekir;
+taskDesc_32=Çakmak veya C4 bombasıyla donatıldığında, tutuşarak veya patlayarak yangın başlatmak için evin herhangi bir yerine tıklayın.
+taskDesc_34=Yangını söndürmek için yangının kaynağında bir yangın söndürücü veya itfaiye aracının sprinklerini kullanın
+gui.limit.time.heart.warming.house_fire=Eviniz alev aldı, yangın mı çıktı?
+
+g2052_gift_1100011=dedektif ceketi
+g2052_gift_1100012=tavşan
+g2052_gift_1100013=Süper bisiklet
+g2052_gift_1100014=Go Kart
+
+subscribe_game_reward_item_tips1=Bazı gcube evcil hayvanlarını deneyimleyebilirsiniz
+subscribe_game_reward_item_tips2=Bazı gcube araçlarını deneyimleyebilir
+subscribe_game_reward_item_tips3=Tüm Gcube konutlarını deneyimleyebilir
+subscribe_game_reward_item_tips4=Ev Afet Simülatörünün tüm özelliklerinin tadını çıkarın
+g2052.gui.buy_shop.preview_tip=Ön izleme
+g2052_face_image_desc=Tüm ödülleri kazanmak için 12 çekiliş\nİlk çekiliş ücretsizdir
+
+g2052_gift_20001=Bahçe temalı ev
+g2052_gift_20002=Arı sweatshirt
+g2052_gift_20003=Klasik arabalar
+g2052_gift_20004=Arı sırt çantası
+g2052_gift_20005=Kovboy seti
+g2052_gift_20006=Tavşan seti
+g2052_gift_20007=Kalp şekilli gözlükler
+g2052_gift_20008=Örme şapka
+g2052_gift_20009=Balkabağı kafası
+g2052_gift_20010=Mavi mayo
+g2052_gift_20011=Kahverengi at
+g2052_gift_20012=Kruvazör Araba
+g2052_gift_20013=Lüks motosiklet
+g2052_gift_20014=Gökkuşağı tek boynuzlu at
+g2052_gift_20015=Dağ üç tekerlekli bisiklet
+g2052_gift_20016=Dinozor seti
+g2052_gift_20017=Cadı seti
+g2052_gift_20018=Ayı maskesi
+g2052_gift_20019=Tavşan evcil hayvanı
+g2052_gift_20020=Cadılar Bayramı sınırlı sayıda tek tekerlekli bisiklet
+g2052_gift_20021=Motorsiklet kaskı
+g2052_gift_20022=Ayı şapkası
+g2052_gift_20023=Balo maskesi
+g2052_gift_20024=Plaj Şortu
+
+g2052_gift_40001=Bahçe temalı oda
+g2052_gift_40002=restoran temalı oda
+g2052_gift_40003=dinozor kıyafeti
+g2052_gift_40004=yeni konsept araba
+g2052_gift_40005=tavşan kıyafeti
+
+g2052.gui.business.confirm_buy=Satın alacağınızdan emin misiniz?
+
+g2052_clothing_20001=kot takım elbise
+g2052_clothing_20002=Düğün elbisesi
+g2052_clothing_20003=Spor giyim
+g2052_clothing_20004=Spor giyim
+g2052_clothing_20005=küçük bal ceketi
+g2052_clothing_20006=Plaj Şortu
+g2052_clothing_20007=çiçekli etek
+g2052_clothing_20008=Küçük arı sırt çantası
+g2052_clothing_20009=tavşan sırt çantası
+g2052_clothing_20010=Motorsiklet kaskı
+g2052_clothing_20011=köpek kafası
+g2052_clothing_20012=Örme şapka
+
+
+g2052.gui.drama.template.name4=dev
+g2052.gui.drama.template.name00=Yok
+g2052.gui.drama.template.desc3=Şehrin yerçekimi kayboldu, ne oldu?
+g2052.gui.drama.template.desc4=Dev geliyor! En büyük dev olabilir misin?
+g2052.gui.drama.hamburger.max=sen dolusun
+message.notice.name10=Yeni büyük burger ortaya çıktı!
+message.notice.name11={.}Büyük bir burger ye!
+
+g2052.gui.setting.FarClipSetting=Göz mesafesi(performansı düşürürse, daha iyi)
+g2052.gui.setting.FarClipSetting.low=düşük
+g2052.gui.setting.FarClipSetting.mid=İçeri
+g2052.gui.setting.FarClipSetting.high=yüksek
+
+g2052.gui.gift.send.normalTips=Sunum
+g2052.gui.gift.send.tips=Hediye
+g2052.gui.gift.send.title=Lütfen bir hediye seçin
+
+g2052.gui.dress.reset=Kostümü geri yükleyin
+g2052.gui.dress.reset.dec=Kostümün restore edilip edilmeyeceği
+
+g2052.gui.activity.to.unlock=Etkinlik Kilidi Açma
+
+g2052.gui.halloween.share.title=Paylaş
+g2052.gui.halloween.askFor.title=İstek
+g2052.gui.halloween.share.limit=▢FFFF8C00Maksimum hisse sayısına bugün ulaşıldı
+g2052.gui.halloween.accept.limit=▢FFFF8C00Diğer taraf bugün maksimum talep sayısına ulaştı
+g2052.gui.halloween.askFor.limit=▢FFFF8C00Bugünkü talep sayısı en yüksek seviyesine ulaştı
+g2052.gui.halloween.findGhost.limit=Bugün maksimum hayalet avı sayısına ulaşıldı
+g2052.gui.halloween.share.remain=Bugünün kalan hisseleri: {.}
+g2052.gui.halloween.accept.remain=Bugün kalan istekler: {.}
+g2052.gui.halloween.share.exist=▢FFFF8C00Şeker bugün birbirleriyle paylaşıldı
+g2052.gui.halloween.askFor.exist=▢FFFF8C00Diğer kişi bugün sizinle zaten tatlı paylaştı
+g2052.gui.halloween.askFor.ask=Kabul ediliyor mu ki {.} Tatlı isteği mi?
+g2052.gui.halloween.askFor.refuse={.} ▢FFFF8C00Tatlı isteğiniz reddedildi
+g2052.gui.halloween.start.day=Tekliften yararlanma {.} gün içinde başlıyor
+g2052.gui.halloween.start.hour={.} ödemeyi açmak için
+g2052.gui.halloween.exchange.condition=Maliyetler:{.} /{.}
+g2052.gui.halloween.exchange.fail=▢FFFF8C00Kefaret kriterlerini karşılamadıysanız lütfen şeker toplamaya devam edin
+g2052.gui.halloween.exchange.success=▢FF00FF00Kurtarılmış
+g2052.gui.halloween.exchange.desc=Bu ödülü kullanabilir miyim?
+g2052.gui.halloween.find.ghost.num=Keşfedilecek {.} hayalet kaldı
+
+g2052.gui.house.dismantle=Konutların yıkılması
+g2052.gui.house.dismantle.dec=Mevcut konut yıkılıyor mu?
+g2052.gui.home.list.is.open=Ev listeleri açık
+
+face_name_fukong=Yüzer
+face_name_zombie=Zombi
+face_name_panic=Panik
+face_name_crawl=Sürünmek
+face_name_mummy=Mumyalar
+face_name_backwalk=Geriye doğru yürümek
+face_name_skip=Atlama
+face_name_model=Model
+face_name_army=Askeri
+
+g2052.gui.drama.join=katıl
+
+g2052.gui.drama.template.title=Lütfen bir parti şablonu seçin
+g2052.gui.drama.template.name1=sel basmak
+g2052.gui.drama.template.name2=sis
+g2052.gui.drama.template.name3=ağırlıksızlık
+g2052.gui.drama.template.name0=özelleştirme
+g2052.gui.notify.party.create=bir {.} taraf oluşturdu
+g2052.gui.drama.title.tips=Lütfen parti başlığını değiştirin
+g2052.gui.drama.guide.tips1=Devam eden bir partiye katılın ve diğer oyuncularla farklı şehir ortamlarını deneyimleyin!
+g2052.gui.drama.guide.tips2=Oynamak için favori şehrinizi seçin ve kendi partinizi yaratın!
+g2052.gui.drama.guide.tips3=Farklı şablonlar seçin, şehrin farklı sürprizleri olacak, gelin ve deneyimleyin!
+g2052.gui.drama.guide.tips4=Partiyi başlatmak ve özel şehrinize hemen girmek için tıklayın!
+g2052.gui.drama.template.desc1=Günlerce şiddetli yağan yağmurlar, şehir taşkınlarına neden oluyor, taşkınlarda nasıl yaşanır?
+g2052.gui.drama.template.desc2=Şehir bilinmeyen bir sisle kaplandı, ayaklarınıza dikkat edin!
+g2052.gui.drama.template.desc0=Özel şablon, öne çıkan iki şehrin oynanışının bir birleşimidir.
+
+message.notice.name7=Bar ve balo salonu açık
+message.notice.name8=Bar ve dans salonu kapalı
+message.notice.name9=Birisi jailbreak yapıyor!
+
+gui.update7.desc=FC Party oynanışı güncellendi ve çeşitli ilginç harita şablonları kullanıma sunuldu;
+
+gui.shop.vip.desc1=VIP'ye özel ev, kıyafet ve araç içeriğinin kilidini açın
+
+shortmessage.title1=merhaba~
+shortmessage.title2=kahkaha
+shortmessage.title3=İle oyna
+shortmessage.title4=benim evime gel
+shortmessage.title5=okula git
+shortmessage.title6=oyun oynamak
+shortmessage.title7=bu iyi
+shortmessage.title8=reddetmek
+shortmessage.title9=teşekkürler~
+shortmessage.title10=hayranlık
+shortmessage.title11=tatlı
+shortmessage.title12=Çok yakışıklı!
+shortmessage.title13=beni takip et
+shortmessage.title14=ve daha fazlası
+shortmessage.title15=bir dakika bekle
+gui.short.lang1=merhaba~
+gui.short.lang2=hahaha
+gui.short.lang3=Haydi birlikte oynayalım
+gui.short.lang4=oynamak için evime gelmek ister misin
+gui.short.lang5=Okula git!
+gui.short.lang6=Oyun oynamak ister misin
+gui.short.lang7=TAMAM!
+gui.short.lang8=istemiyorum
+gui.short.lang9=teşekkürler~
+gui.short.lang10=Vay!
+gui.short.lang11=çok güzel
+gui.short.lang12=Çok yakışıklı!
+gui.short.lang13=benimle gel~
+gui.short.lang14=Beni bekle!
+gui.short.lang15=bir dakika bekle~
+g2052.gui.short.chat.tips =Sohbet çok hızlı, lütfen {.} saniye içinde yeniden yazın!
+
+language_end:new
+
+g2052.gui.marketing.super.gift=değer paketi
+g2052.gui.marketing.hint=Geçiş şunları içerir:
+g2052.gui.marketing.buy=Satın almak
+
+g2052.gui.marketing.item.name1=VIP ev
+g2052.gui.marketing.item.name2=VIP araç
+g2052.gui.marketing.item.name3=VIP giyim
+g2052.gui.marketing.item.name4=VIP arsa
+g2052.gui.marketing.item.name5=araç ivmesi
+g2052.gui.marketing.item.name6=Renk değişimi
+g2052.gui.marketing.item.name7=sohbet rozeti
+g2052.gui.marketing.item.name8=
+
+g2052.gui.profession.recommend.time.count=Arayüz {.} saniye sonra kapanır
+g2052.gui.car.player.in.forbid.area=Mevcut alanda araçlar üretilemez
+g2052.gui.car.in.forbid.area=Araç üretimi başarısız oldu, lütfen açık alana gidin
+g2052.gui.car.no.room=Doğma yeri diğer araçlar tarafından işgal edildi
+
+guide_script_title=Parti nasıl gidiyor?
+guide_script_desc1=Karakterler ve oynanış tasarlayın, partinizi yaratın
+guide_script_desc2=Veya herkesin oynadığı bir partiye katılın
+
+g2052.gui.drama.join.tips={.} partiye katıldı
+g2052.gui.drama.cur.drama=mevcut parti
+g2052.gui.drama.history=tarih partisi
+g2052.gui.drama.confirm.dissolve=Partiyi bölmek istediğinden emin misin?
+g2052.gui.drama.amend=Partiyi değiştir
+g2052.gui.drama.confirm.leave=Partiden ayrılmak istediğinden emin misin?
+
+
+guide_guide_script=FC partisi
+g2052.gui.drama.title=parti listesi
+g2052.gui.drama.news=son parti
+g2052.gui.drama.create=Parti oluştur
+g2052.gui.drama.recent=son parti
+g2052.gui.drama.leave=partiden ayrıl
+g2052.gui.drama.mine=benim partim
+g2052.gui.drama.dissolve=ayrılık partisi
+g2052.gui.drama.full.tips=Parti dolu, lütfen başka bir parti seçin
+g2052.gui.drama.detail.title1={.}'nin partisi
+g2052.gui.drama.editor.drama=parti bilgileri
+
+
+g2052.gui.occupation.others=Bu {.} başka birine ait
+g2052.gui.occupation.own=zaten bir {.} var
+g2052.gui.occupation.goods=soyunma
+
+g2052.gui.create.vip=özel arsa
+
+guide_script_desc3=En sevdiğiniz karakter olarak oynayın ve herkesle oynayın!
+
+gui.shop.vip.name=VIP Şifresi
+
+gui.shop.vip.desc2=Evler ve araçlar için renk değiştiren özelliklerin kilidini açın
+gui.shop.vip.desc3=Araç hızı artırma işlevinin kilidini açın
+gui.shop.vip.desc4=Münhasır arazi kullanım hakları elde edin
+gui.shop.vip.desc5=Sohbet VIP rozetleri ve sohbet balonları alın
+
+
+message.notice.bad.weather_4=Tahmin: Bir saat içinde gök gürültülü fırtınalar!
+message.notice.bad.weather_5=Hava Durumu: Bir saat içinde yüksek sıcaklık!
+message.notice.bad.weather_6=Tahmin: Bir saat içinde kar!
+message.notice.bad.weather_7=Hava Durumu: Bir saat içinde kum fırtınası!
+message.notice.bad.weather_8=Tahmin: Bir saat içinde yoğun sis!
+message.notice.bad.weather_9={.}Şiddetli Hava Tetiklendi!
+
+g2052.gui.world_chat.invite=oynamaya davet et
+g2052.gui.world_chat.ignore=Mesajları engelle
+g2052.gui.world_chat.ignored=engellendi
+g2052.gui.world_chat.ignore.tips=Bu oyuncu engellendi
+
+
+g2052.gui.chat.system.login=FreeCity'ye hoş geldiniz{.}!
+
+g2052.gui.vehicle.part.color=renk ayarla
+g2052.gui.vehicle.gearshift=vardiya
+
+
+g2052.gui.confirm=Evet
+g2052.gui.cancel=İptal
+
+g2052.gui.announcement.main_title=Yeni sürüm önizlemesi
+g2052.gui.announcement.new=Yenile
+g2052.gui.announcement.activity=Aktivite
+gui.update.clothes.title=yeni giyinmek
+gui.update.car.title=Yeni araç
+gui.update.scene.title=yeni sahne
+gui.update.house.title=yeni konut
+gui.update.prop.title=yeni sahne
+gui.update.face.title=yeni emoji
+gui.update.title=Fonksiyonel değişiklikler
+g2052.gui.tendering.sign.go_land=gitmek
+
+g2052.gui.phone.ignore_call=artık arama almıyor
+g2052.gui.setting.reset_player=karakteri sıfırla
+message.notice.name1=Banka uyarısı tetiklendi
+message.notice.name2=Banka kasası kapıları kapanmak üzere
+message.notice.name3=Banka kasa kapıları kapalı
+message.notice.name4={.} evi yanıyor
+message.notice.name5=Kasanız kör oldu
+message.notice.name6={.} yardım istiyor
+
+g2052.gui.peakday.title=Hafta sonları giriş yapın
+g2052.gui.peakday.title2=hediye almak
+g2052.gui.peakday.text3=Ödül olarak evcil hayvanlardan birini seçin
+g2052.gui.peakday.text1=Etkinlik başlangıç ​​geri sayımı:
+g2052.gui.activity.day= {.}gün{.}saat
+g2052.gui.peakday.button1=almak
+g2052.gui.peakday.button2=Alınan
+g2052.gui.peakday.no.select.item=Lütfen önce bir ödül seçin
+g2052.gui.peakday.get.reward.success=başarıyla alındı
+
+gui.shop.title=Mağaza
+gui.confirm.purchase=Yerleşme
+gui.whether.confirm.buy={.} satın almak istiyor musunuz?
+gui.insufficient.funds=Yetersiz bakiye
+gui.still.missing=Ayrıca {.} eksik
+gui.whether.enter.recharge=Şarj arayüzüne girdiniz mi?
+gui.goods.already.have=sahip olunan
+gui.buy.succeed=Başarılı satın alma
+gui.buy.succeed.dec=Sahipsin: {.}
+gui.do.not.repeat.purchase=Başarısız satın alma
+
+
+g2052.gui.house.create.cd=Bekleme süresi:{.}s
+g2052.gui.house.create.is.cd=Ev soğuyor, lütfen daha sonra tekrar deneyin
+
+g2052.gui.part.content.init=İçerik
+g2052.gui.part.content.top_title=Arka fon
+g2052.gui.part.content.bottom_title=Metin
+
+g2052.gui.interact.player_action1=taşıma
+g2052.gui.interact.player_action2=ayı
+g2052.gui.interact.player_action3=tutmak
+g2052.gui.interact.player_action4=sarılmak
+
+g2052.gui.scene.name.square_ice01=Yabanmersini
+g2052.gui.scene.name.square_ice02=çilek
+g2052.gui.scene.name.square_ice03=vanilya
+g2052.gui.scene.name.square_ice04=Taro
+g2052.gui.scene.name.square_ice05=Mango
+g2052.gui.scene.name.square_ice06=çikolata
+
+g2052.gui.dyeing.part.color={.}renk
+g2052.gui.part.custom_hair=saç
+
+g2052.gui.interact.tips=Davet gönderildi
+g2052.gui.transfer.fail=Taşınan durum iletilemez
+g2052.gui.props.loading_success=sepete eklendi
+g2052.gui.props.unload_success=rafa geri koy
+
+ui.chat.chatMsgType9=Yakında
+ui.chat.friend.near =▢FFFFFFFF Yakındaki arkadaşlar
+ui.chat.friend.apply=▢FFFFFFFF Arkadaşlık İsteği
+ui.chat.friend.list=▢FFFFFFFF Arkadaş Listesi
+ui.chat.friend.applyFriend=▢FFFFFFFF Yeni arkadaşlar
+ui.chat.friend.gameFriend=▢FF4A2942 Arkadaşlarınızla oynayın
+ui.chat.friend.platformFriend=▢FF4A2942 Platform arkadaşları
+ui.chat.friend.recent_contact=▢FFFFFFFF Son kişiler
+ui.chat.friend.offline=▢FF78476C çevrimdışı
+ui.chat.friend.online=▢FF07BE14 çevrimiçi
+ui.chat.number=▢FF4A2942{.}/{.}
+ui.chat.playerInfo.name=▢FFFFFFFF{.}
+ui.chat.friend.name=▢FF926787{.}
+
+g2052.gui.interactive.refuse =Diğer oyuncu isteği reddetti
+g2052.gui.interactive.fail =etkileşim kurulamadı
+g2052.gui.password.error=wrong password
+
+g2052.gui.dance.dance_title =Hareketler
+face_name_happy=Mutlu
+face_name_unhappy=Üzgün
+face_name_angry=Sinirli
+face_name_laugh=çok komik
+face_name_cheer=tezahürat
+face_name_shyness=Utangaç
+face_name_cry=Ağla
+face_name_wave=Selamlaşmak
+face_name_bye=Güle güle
+face_name_yes=Kabul etmek
+face_name_no=Reddetmek
+face_name_handshake=El sıkışmak
+face_name_fear=Korkmak
+face_name_cute=Tatlı
+face_name_naughty=Bozuk
+face_name_love1=Sevgi göster (L)
+face_name_love2=Sevgi göster (R)
+face_name_salute=Selamlamak
+face_name_clap=Alkışlamak
+face_name_point=işaret etmek
+face_name_scratch=Kafası karışmış
+face_name_boring=Sıkılmış
+face_name_dizzy=Başı dönmek
+face_name_freeze=Donmak
+face_name_wounded=yaralı
+face_name_fall=Düşmek
+face_name_sneak=gizlice
+face_name_raisehand=Eller yukarı
+face_name_arrested=kelepçeli
+face_name_warm-up=Isınmak
+dance_name_hot=Sıcak dans
+dance_name_locking=Kilitleme
+dance_name_shake1=salıncak dans 1
+dance_name_shake2=salıncak dans 2
+dance_name_scissors=salıncak dans 3
+dance_name_slide=Slayt Adımı
+dance_name_thomas=Ara Dans
+dance_name_1=dans 1
+dance_name_2=dans 2
+dance_name_3=dans 3
+dance_name_4=dans 4
+dance_name_5=dans 5
+dance_name_6=dans 6
+dance_name_7=dans 7
+dance_name_8=dans 8
+dance_name_9=dans 9
+dance_name_robot=haşhaş
+face_name_fall2=aşağı 2
+face_name_sit1=oturmak
+face_name_sit2=otur 2
+face_name_wallstand1=duvara karşı durmak
+face_name_wallstand2=duvara karşı durmak 2
+face_name_salute2=selam 2
+face_name_strong=kuvvetli
+face_name_death=Ölüm
+
+g2052.gui.time.monday=Pazartesi
+g2052.gui.time.tuesday=Salı
+g2052.gui.time.wednesday=Çarşamba
+g2052.gui.time.thursday=Perşembe
+g2052.gui.time.friday=Cuma
+g2052.gui.time.saturday=Cumartesi
+g2052.gui.time.sunday=Pazar
+g2052.gui.profession.main_title =Uzmanlık alanı
+g2052.gui.profession.main_name =İsim
+g2052.gui.profession.main_introduce =Tanıtım
+g2052.gui.profession.color_name =İsim
+g2052.gui.profession.color_introduce =Tanıtım
+g2052.gui.profession.color_edit =Girmek
+g2052.gui.profession.career_name1 =polis
+g2052.gui.profession.career_name2 =Güvenlik görevlisi
+g2052.gui.profession.career_name3 =Adli
+g2052.gui.profession.career_name4=Mağaza
+g2052.gui.profession.career_name5=Şef
+g2052.gui.profession.career_name6=Burger Memuru
+g2052.gui.profession.career_name7=Şarkıcı
+g2052.gui.profession.career_name8=Müzisyen
+g2052.gui.profession.career_name9=DJ
+g2052.gui.profession.career_name10=Profesör
+g2052.gui.profession.career_name11=dondurma memuru
+g2052.gui.profession.career_name12=SWAT.
+g2052.gui.profession.career_name13=doktor
+g2052.gui.profession.career_name14=Hasta
+g2052.gui.profession.career_name15=itfaiyeci
+g2052.gui.profession.career_name16=kıyafet
+g2052.gui.profession.career_name17=rahip
+g2052.gui.profession.career_name18=oyuncu
+g2052.gui.profession.career_name19=Garson
+g2052.gui.profession.career_name20=temizleyici
+g2052.gui.profession.career_name21=Veteriner hekim
+g2052.gui.profession.career_name22=Cankurtaran
+g2052.gui.profession.career_name23=Hemşire
+g2052.gui.profession.career_name24=Çocuk
+g2052.gui.profession.career_name25=berber
+g2052.gui.profession.career_name26=sürücü
+g2052.gui.profession.career_name27=Yatak
+g2052.gui.profession.career_name28=postacı
+g2052.gui.profession.career_name29=atlet
+g2052.gui.profession.career_name30=Pilot
+g2052.gui.profession.career_name31=Bilim insanı
+g2052.gui.profession.career_name32=pizzacı
+g2052.gui.profession.career_name33=barista
+g2052.gui.profession.career_name34=patenci
+g2052.gui.profession.career_name35=Kılıç ustası
+g2052.gui.profession.career_name36=Atıcı
+g2052.gui.profession.career_name37=tekvando ustası
+g2052.gui.profession.career_name38=makyaj sanatçısı
+g2052.gui.profession.career_name39=Astronot
+g2052.gui.profession.career_name40=Öğretmen
+g2052.gui.profession.career_name41=doktor
+g2052.gui.profession.career_name42=Avukat
+g2052.gui.profession.career_name43=Palyaço
+g2052.gui.profession.career_name44=Terzi
+g2052.gui.profession.career_name45=Yargıç
+g2052.gui.profession.career_name46=Öğrenci
+g2052.gui.profession.career_name47=müdür
+g2052.gui.profession.career_name48=oyuncu
+g2052.gui.profession.career_name49=Foodie
+g2052.gui.profession.career_name50=model
+g2052.gui.profession.career_name51=çiftçi
+g2052.gui.profession.career_name52=taksi sürücüsü
+g2052.gui.profession.career_name53=denizci
+g2052.gui.profession.career_name54=balıkçı
+g2052.gui.profession.career_name55=Kaptan
+g2052.gui.profession.career_name56=kolektör
+g2052.gui.profession.career_name57=ev sahibi
+g2052.gui.profession.career_name58=hizmetçi
+g2052.gui.profession.career_name59=yazar
+g2052.gui.profession.career_name60=Çalışan
+g2052.gui.profession.career_name61=muhabir
+g2052.gui.profession.career_name62=dansçı
+g2052.gui.profession.career_name63=otobüs şöförü
+g2052.gui.profession.career_name64=asker
+g2052.gui.profession.career_name65=Turist rehberi
+g2052.gui.profession.career_name66=ressam
+g2052.gui.profession.career_name67=bahçıvan
+g2052.gui.profession.career_name68=Mimar
+g2052.gui.profession.career_name69=milletvekili
+g2052.gui.profession.career_name70=gangster
+g2052.gui.profession.career_name71=mahkum
+
+g2052.gui.drama.hot=Trend olan
+g2052.gui.drama.likes=En Beğenilenler
+g2052.gui.drama.friend=oynayan arkadaşlar
+g2052.gui.drama.change.role=Karakteri değiştir
+g2052.gui.drama.drama.desc=Gel ve birlikte oyna
+g2052.gui.drama.role.name=Karakter {.}
+g2052.gui.drama.role.desc=Lütfen içerik girin
+g2052.gui.drama.editor.role=Karakter Bilgileri
+
+g2052.gui.drama.like.ranking=Liderler Sıralaması
+g2052.gui.drama.use=Kullanmak
+
+g2052.prop.send.CDTime=İşlem çok hızlı, lütfen daha sonra tekrar deneyin
+g2052.gui.phone.call_wait=İşlem çok hızlı, lütfen daha sonra tekrar deneyin
+g2052.gui.phone.career_success_tips=Arama başarılı, konum paylaşıldı
+
+g2052.gui.child.name =İsim
+g2052.gui.child.edit.placeholder =Bebeğin adını ayarla
+g2052.gui.child.edit.name =bebeğin adı
+
+g2052.gui.house.title =ev
+g2052.gui.bag.title =Sırt çantası
+g2052.gui.appearance.title =Görünüm
+g2052.gui.shape.scale.is.max =Bu zaten maksimum vücut figürü
+g2052.gui.shape.scale.is.min =Bu zaten minimum vücut figürü
+
+g2052.gui.create =Yaratmak
+g2052.gui.house.remould =ev Yenileme
+g2052.event.house.on.fire=Eviniz FIREEEEEE'de!
+g2052.gui.house.remould.dec=Başka bir eve geçmek istediğinizden emin misiniz?
+g2052.gui.friend.pop.add.limit=erişime izin vermek
+g2052.gui.friend.pop.unfreeze=ziyarete izin verilmiyor
+g2052.gui.house.move=taşınmak
+g2052.gui.house.move.dec=Evi taşımak istediğinden emin misin?
+g2052.gui.house.brief.introduction=ev profili
+g2052.gui.owner.ask.you.leave=Sahibi ayrılmanızı istiyor
+gui.shop.house.event.desc=Yangın, sel, elektrik kesintisi, kasırga, gök gürültüsü, helikopter, hayalet, ghast, UFO, sis, deprem, göktaşı gibi evi kontrol edebilen afet olayları
+gui.shop.house.event.name=afet simülatörü
+g2052.gui.house.disaster.title=afet listesi
+g2052.gui.house.disaster.limit=Aynı anda yalnızca {.} etkinlikleri etkinleştirilebilir
+house.event.name1=ateş
+house.event.name2=sel basmak
+house.event.name3=güç kesintisi
+house.event.name4=kasırga
+house.event.name5=Fırtına bulutu
+house.event.name6=helikopter
+house.event.name7=hayalet
+house.event.name8=dehşet
+house.event.name9=UFO
+house.event.name10=sis
+house.event.name11=deprem
+house.event.name12=göktaşı
+
+g2052.event.explode.vault.gate =%s bankanın kapısını patlattı
+g2052.event.explode.house.safe =%s evinizi soydu
+g2052.event.alarm.of.fire={.} numaralı ev yanıyor!
+
+g2052.gui.car.title=araç
+g2052.gui.car.forbid.use=Araç şu anda kullanılamıyor
+g2052.gui.car.region.forbid.use=Araçlar bu alanda mevcut değildir
+
+g2052.gui.appearance.forbid=Sürüş sırasında görünüşünüzü değiştiremezsiniz
+g2052.gui.appearance.forbid.jump.fall=Havada kıyafetlerinizi değiştiremezsiniz
+g2052.gui.partner.title=Bebek
+g2052.gui.billboard.edit={.}İlan panosu
+g2052.gui.click.input.click=Lütfen buraya girin
+
+g2052.gui.appearance.forbid.swim=Yüzerken kıyafetinizi değiştiremezsiniz
+
+gui.house.bgm.title=Müzik
+g2052.gui.friend.top.title=Arkadaş Sistemi
+g2052.gui.friend.tab.friend=Arkadaşım
+g2052.gui.friend.tab.near=Yakındaki oyuncu
+g2052.gui.friend.tab.request=Arkadaşlık isteği
+g2052.gui.friend.delete.title=Arkadaşı sil
+g2052.gui.friend.delete.desc=Bu arkadaşı silmek istediğinden emin misin?
+g2052.gui.friend.agree.success=Başarıyla eklendi
+g2052.gui.friend.refuse=Reddedildi
+g2052.gui.friend.lang=Dilim
+g2052.gui.friend.again=Tekrar deneyin
+g2052.gui.friend.none.friend=lütfen arkadaş ekleyin
+g2052.gui.friend.none.near=Yakınlarda oyuncu yok
+g2052.gui.friend.none.request=istek alınmadı
+g2052.gui.friend.invite=Hey, takılmak ister misin?
+g2052.gui.friend.invite.btn=Davet et
+g2052.gui.friend.pop.invite=misafir olarak davet et
+g2052.gui.chat.private.target=İle
+g2052.gui.chat.private.NewFrom=İtibaren
+g2052.gui.chat.private.from=Sana fısılda:
+g2052.gui.world_chat.title=Küresel Sohbet
+g2052.gui.world_chat.lang.tips={.} Sohbet Kanalına geçildi
+g2052.gui.world_chat.block={.} Sohbet Kanalını Engelledi
+g2052.gui.world_chat.cancel_block={.} Sohbet Kanalının engellemesi kaldırıldı
+
+g2052.gui.setting.voiceSetting=Ses Ayarları
+
+
+g2052.gui.setting.video=Video modu
+g2052.gui.video.tab1=filtre
+g2052.gui.video.tab2=hava Durumu
+g2052.gui.video.tab3=ekran efektleri
+g2052.gui.video.handle.tab1=özel efektler
+g2052.gui.video.handle.tab2=kullanıcı arayüzünü gizle
+g2052.gui.video.handle.tab3=ayarları gizle
+g2052.gui.video.handle.type101=retro
+g2052.gui.video.handle.type102=siyah ve beyaz
+g2052.gui.video.handle.type103=yüksek kontrast
+g2052.gui.video.handle.type104=siberpunk
+g2052.gui.video.handle.type105=Parıltı
+g2052.gui.video.handle.type106=sonbahar günü
+g2052.gui.video.handle.type107=dolunay gecesi
+g2052.gui.video.handle.type108=güneşli
+g2052.gui.video.handle.type201=güneşli
+g2052.gui.video.handle.type202=yağmur
+g2052.gui.video.handle.type203=karlı gün
+g2052.gui.video.handle.type204=yıldızlı gökyüzü
+g2052.gui.video.handle.type205=gun batimi
+g2052.gui.video.handle.type301=film siyah sınır
+g2052.gui.video.handle.type302=el feneri
+g2052.gui.video.handle.type303=hız hattı
+g2052.gui.video.handle.type304=doji
+g2052.gui.video.handle.type305=Kelebek
+g2052.gui.video.handle.type306=noktalar
+g2052.gui.video.hide.setting.data1=adı gizle
+g2052.gui.video.hide.setting.data2=oyuncuyu gizle
+g2052.gui.video.hide.setting.data3=Kendini gizle
+
+guide_role_title=rol nedir?
+guide_role_desc1=En sevdiğin kıyafetleri seç
+guide_role_desc2=Vücut ölçünüzü ve cilt tonunuzu ayarlayın
+guide_role_desc3=En sevdiğiniz emojiyi değiştirin
+guide_house_title=Kendi evinizi nasıl inşa edersiniz?
+guide_house_desc1=Açık bir alan seçin ve panosuna tıklayın
+guide_house_desc2=Favori ev şablonunuzu seçin
+guide_house_desc3=Eviniz hazır, bir göz atalım!
+guide_profession_title=Meslek nedir?
+guide_profession_desc1=kendine güzel bir isim ver
+guide_profession_desc2=Tercih ettiğiniz kariyer durumunu seçin
+guide_profession_desc3=Bu bilgi kafanızda görüntülenecektir.
+guide_baby_title=evlat edinme nedir?
+guide_baby_desc1=En sevdiğin bebeği seç
+guide_baby_desc2=Bebeğiniz sizinle oynayacak!
+guide_dace_title=eylem nedir?
+guide_dace_desc1=Bir eylem seçin ve karakteriniz animasyonu oynayacak
+guide_dace_desc2=Devam edin ve diğer oyunculara merhaba demeye çalışın!
+guide_car_title=Araba nasıl kullanılır?
+guide_car_desc1=Tercih ettiğiniz arabayı seçin
+guide_car_desc2=Dünyayı gezmek için arabaya binin
+guide_prop_title=sahne nasıl kullanılır
+guide_prop_desc1=Kullanmak istediğiniz aksesuarları seçin
+guide_prop_desc2=Modları değiştirmek için sağ düğmeye tıklayın
+guide_prop_desc3=Sahne kullanmak için ekrana dokunun
+
+
+g2052.gui.tendering.email.send_btn=göndermek
+g2052.gui.tendering.email.title=Belediye başkanı yeşil kanal önerdi
+g2052.gui.tendering.email.tips=Sayın Onursal Belediye Başkanımız Lütfen Önerilerinizi Yazınız
+g2052.gui.tendering.email.send_success=Başarıyla gönderildi
+g2052.gui.tendering.email.send_fail=gönderilemedi
+
+
+g2052.gui.tendering.tips=ipucu
+g2052.gui.bidding_rank.preview_tip=ipucu
+
+ui.cash.coupon.expend = Bu sefer {.} oyun jetonu + {.} Altın Rubik Gcube tüketildi
+ui.cash.coupon.tips =Gold Rubik'in Gcube'ü önce oyun jetonlarını tüketir. Platform etkinlikleri elde edilir.
+
+g2052.advertisement.use.car.tips=GCube’ı ücretsiz denemek için videoları izleyin
+g2052.advertisement.use.car.cd.tips=Tekrar izlemeden önce {.} saniye bekleyin
+
+g2052.gui.advertisement.draw.out.of.count=Bugün için yenileme hakkınız tükenmiş
+g2052.gui.advertisement.draw.reward.all.gain=Tüm altın küp eşyalarınızı zaten aldınız
+g2052.gui.advertisement.draw.fail=Yenileme başarısız
+g2052.gui.advertisement.lock.slot.fail=Ödül kilitlenemedi
+g2052.gui.advertisement.win.title=Ödül Merkezi
+g2052.gui.advertisement.win.content.normal=Bir kez yenileyerek 3 altın küp eşyasını ücretsiz kullanın\nYenileyerek 2 aynı öğe ile kullanım x2 veya 3 aynı öğe ile kullanım x5 elde edin
+g2052.gui.advertisement.win.content.reward.all.gain=Tüm altın küp eşyalarınızı zaten aldınız
+g2052.gui.advertisement.win.refresh.title=Yenile
+g2052.gui.advertisement.draw.success=Ödül çantanıza gönderildi
+
+language_end:g2052_lang

@@ -1,0 +1,340 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "ChatContentItem",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,100},{0,100},{0,536},{0,126}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "ChatContentItem-typeBg",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,5},{0,1},{0,83},{0,29}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "5 5 5 5"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:chat.json image:img_9_chat_tab"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "ChatContentItem-typeStr",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,5},{0,0},{0,83},{0,30}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "Text"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "AutoShrinkFont",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextAutoOmission",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextBorder",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "ChatContentItem-VipIcon",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,2},{0,34},{0,24}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ChatContentItem-VipImage",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0.9,0},{0.9,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_main.json image:icon_0_vip"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "ChatContentItem-Text",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,5},{0,0},{1,-5},{0,30}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "刚桂花糕方式好几天然后他好几天人"
+                        },
+                        {
+                            "Name": "TextAutoOmission",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "TextWordWrap",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextShadow",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextShadowColor",
+                            "Value": "0.286275 0.286275 0.286275 1"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "ChatContentItem-Sound-Bar",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,80},{0,0},{0,160},{0,36}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "30 30 18 18"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_chat_box.json image:img_9_bubble_other"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ChatContentItem-Point",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-5},{0,5},{0,2},{0,12}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_common.json image:img_0_red_dot"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "ChatContentItem-Sound-Time",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-15},{0,0},{0,5},{0,20}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "10"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT14"
+                                },
+                                {
+                                    "Name": "TextAutoOmission",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0 0 0 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ChatContentItem-Effect",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,15},{0,0},{0,32},{0,24}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_chat_box.json image:img_0_voiceicon_other"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "ChatContentItem-Open-Player",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0.501961 1 1 0"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,80},{0,0},{0,180},{0,30}}"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "ChatContentItem-Emoji",
+                    "Property": [
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,100},{0,-2},{0,135},{0,33}}"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:emoji.json image:img_0_phiz_good"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "ChatContentItem-HornIcon",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,8},{0,1},{0,21},{0,25}}"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_chat_box.json image:icon_0_horn"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "BiddingTabItem",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,50},{0,50},{0,246},{0,96}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Button",
+                    "Name": "BiddingTabItem-Btn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "23 23 23 23"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mod.json image:btn_9_pagination05"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mod.json image:btn_9_pagination01"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "BiddingTabItem-Label",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{0,35}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "AAA"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT18"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT8"
+                                },
+                                {
+                                    "Name": "AutoShrinkFont",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0 0 0 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

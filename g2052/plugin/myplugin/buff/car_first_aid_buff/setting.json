@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2052_car_jiuhujingbao.mp3",
+        "loop": true,
+        "volume": 0.7,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/car_first_aid_buff"
+    ],
+    "sync": "all"
+}

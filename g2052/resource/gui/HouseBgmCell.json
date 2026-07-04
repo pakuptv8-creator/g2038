@@ -1,0 +1,132 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "HouseBgmCell",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,50},{0,50},{0,296},{0,94}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "HouseBgmCell-icon",
+                    "Property": [
+                        {
+                            "Name": "Material",
+                            "Value": "CullBackLinear"
+                        },
+                        {
+                            "Name": "DrawColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,14},{0,0},{0,49},{0,35}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_function.json image:icon_0_music"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "HouseBgmCell-effect",
+                    "Property": [
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "EffectFileName",
+                            "Value": "g2052_icon_music.effect"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,14},{0,0},{0,49},{0,35}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "HouseBgmCell-line",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,50},{0,10}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "--------------------------------------"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "HouseBgmCell-name",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,63},{0,7},{0,242},{0,37}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "Musec"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT20"
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

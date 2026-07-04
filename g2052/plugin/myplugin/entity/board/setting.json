@@ -1,0 +1,97 @@
+{
+  "name": "", 
+  "actorName": "g2052_school_board.actor",
+  "base": "adorn_base",
+  "collision": false,
+  "viewDistance": 64,
+  "clickProps": [
+    {
+      "func": "clickPublicDrawing"
+    }
+  ],
+  "entityType": 2,
+  "interaction": {
+    "offset": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "radius": 5
+  },
+  "interactionUI": [
+    {
+      "cfgKey": "interactionUI",
+      "centerBtns": [
+        {
+          "customCheckCanShow": {
+            "conditions": [
+              {
+                "compareType": "==",
+                "key": "isInTheInteraction",
+                "objType": "self",
+                "type": "func",
+                "args": [
+                  1
+                ],
+                "value": false
+              }
+            ],
+            "funcName": "CheckShowBoardInterruptUI"
+          },
+          "image": "set:g2052_interaction_icon.json image:click",
+          "event": "interact_board_drawing",
+          "site": 1,
+          "imageSize": {
+            "width": "65",
+            "height": "65"
+          },
+          "widgetFileName": "widget_button_image_center",
+          "enableTextBorder": true
+        }
+      ],
+      "followParams": {
+        "followScenePos": false,
+        "offset": {
+          "x": 0,
+          "y": 1.5,
+          "z": -0.9
+        }
+      }
+    }
+  ],
+  "sceneUI": {
+    "key": "previewPalette",
+    "width": 2.15,
+    "viewDistance": 32,
+    "rotate": {
+      "x": 10,
+      "y": -90,
+      "z": 0
+    },
+    "position": {
+      "x": -0.01,
+      "y": 1.44,
+      "z": -0.12
+    }
+  },
+  "ridePos": [
+    {
+      "ctrl": false,
+      "out": {
+        "x": 0.6,
+        "y": 0.5,
+        "z": 0
+      },
+      "passengerAction": {
+        "base": "g2052_boy_draw"
+      },
+      "pos": {
+        "x": 0.6,
+        "y": 0.05,
+        "z": 0
+      },
+      "view": true,
+      "yaw": 90
+    }
+  ]
+}

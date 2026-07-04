@@ -1,0 +1,15 @@
+{
+    "?sound": {
+        "sound": "",
+        "loop": true,
+        "volume": 0.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/player_swimIdle_buff"
+    ]
+}

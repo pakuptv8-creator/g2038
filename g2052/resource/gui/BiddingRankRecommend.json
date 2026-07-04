@@ -1,0 +1,84 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "BiddingRankRecommend",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "BiddingRankRecommend-RecommendLyt",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,262},{0,0},{1,0},{1,-42}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "BiddingRankRecommend-RecommendList",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0.117994,0},{0.86444,0},{0.951327,0}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "BiddingRankRecommend-RecommendRefresh",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-77},{0,37},{0,14},{0,80}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_tender.json image:rbtn_0_efresh01"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_tender.json image:rbtn_0_efresh01"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

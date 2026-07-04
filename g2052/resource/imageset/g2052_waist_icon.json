@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "waist_02": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 130,
+                "h": 130
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 130
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 130
+            }
+        },
+        "waist_06": {
+            "frame": {
+                "x": 1,
+                "y": 132,
+                "w": 130,
+                "h": 130
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 130,
+                "h": 130
+            },
+            "sourceSize": {
+                "w": 130,
+                "h": 130
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_waist_icon.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 131,
+            "h": 262
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

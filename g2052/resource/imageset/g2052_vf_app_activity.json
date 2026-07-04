@@ -1,0 +1,122 @@
+{
+    "frames": {
+        "btn_0_close": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 34,
+                "h": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 34,
+                "h": 24
+            }
+        },
+        "btn_0_common01": {
+            "frame": {
+                "x": 36,
+                "y": 1,
+                "w": 288,
+                "h": 84
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 288,
+                "h": 84
+            },
+            "sourceSize": {
+                "w": 288,
+                "h": 84
+            }
+        },
+        "img_0_activity01": {
+            "frame": {
+                "x": 325,
+                "y": 1,
+                "w": 351,
+                "h": 155
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 351,
+                "h": 155
+            },
+            "sourceSize": {
+                "w": 351,
+                "h": 155
+            }
+        },
+        "img_0_activity02": {
+            "frame": {
+                "x": 677,
+                "y": 1,
+                "w": 346,
+                "h": 271
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 346,
+                "h": 271
+            },
+            "sourceSize": {
+                "w": 346,
+                "h": 271
+            }
+        },
+        "img_0_congratulations02": {
+            "frame": {
+                "x": 1,
+                "y": 273,
+                "w": 885,
+                "h": 143
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 885,
+                "h": 143
+            },
+            "sourceSize": {
+                "w": 885,
+                "h": 143
+            }
+        },
+        "img_0_congratulations_bg": {
+            "frame": {
+                "x": 1,
+                "y": 417,
+                "w": 512,
+                "h": 288
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 512,
+                "h": 288
+            },
+            "sourceSize": {
+                "w": 512,
+                "h": 288
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_vf_app_activity.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 1023,
+            "h": 705
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

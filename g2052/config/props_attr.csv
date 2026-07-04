@@ -1,0 +1,10 @@
+s_name	n_isBombInteract	n_canIgnite	n_isPublicCrime
+道具名称	是否会被爆炸触发交互（1是）	是否引燃物（1是）	是否零件被破坏后触发定罪（1是）
+house_baoxianxiang_door	1		
+bank_doorG01	1		1
+bank_doorG02	1		1
+bank_doorG03	1		1
+small_fire_point	1		
+box_yinghang01	1		
+boxa	1		
+bank_door	1		1

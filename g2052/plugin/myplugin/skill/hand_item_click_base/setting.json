@@ -1,0 +1,10 @@
+{
+  "type":"Buff",
+  "buffCfg": "myplugin/can_not_move_buff",
+  "target": "self",
+  "buffTime": 10,
+  "castAction": "idle",
+  "castActionTime": 20,
+  "pos": "itemSkill",
+  "callBackSelfDefineSkill": "clickHandItemStyleSwitch"
+}

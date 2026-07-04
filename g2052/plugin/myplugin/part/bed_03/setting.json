@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "cd_qc_c",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/zhuzhaia/cd_qc_c.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_square_men05",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_square_men05.mesh",
+        "materialAlpha": "1",
+        "useCollide": "false",
+        "useGravity": "false"
+    }
+}

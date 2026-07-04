@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_photo01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 92,
+                "h": 95
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 95
+            }
+        },
+        "img_0_photo02": {
+            "frame": {
+                "x": 1,
+                "y": 97,
+                "w": 92,
+                "h": 95
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 92,
+                "h": 95
+            },
+            "sourceSize": {
+                "w": 92,
+                "h": 95
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_tender.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 93,
+            "h": 192
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

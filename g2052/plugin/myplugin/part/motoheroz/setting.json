@@ -1,0 +1,267 @@
+{
+  "children": [
+    {
+      "attributes": {
+        "alwaysAction": "g2052_boy_motohero_idle_01"
+      },
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-44.7288513183594 y:0.755500316619873 z:-0.381999969482422",
+        "useCollide": "false",
+        "position": "x:0.023647 y:0.755500 z:-0.382000",
+        "scale": "x:3 y:5 z:1",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "driverSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {
+        "alwaysAction": "g2052_boy_motohero_ride_01"
+      },
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-44.7918472290039 y:0.878000140190125 z:-0.843000173568726",
+        "useCollide": "false",
+        "position": "x:-0.039349 y:0.878000 z:-0.843000",
+        "scale": "x:3 y:5 z:1",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "passengerSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "massCenter": "x:-44.75 y:0.306080430746078 z:0.0502874366939068",
+        "useForCollision": "false",
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "mesh": "asset/car/mesh/g2052_motoheroz_colorchange.mesh",
+        "friction": "0.37",
+        "exists_baked_data": "false",
+        "name": "colorchange",
+        "collisionGroup": "4",
+        "useCollide": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "needSync": "false",
+        "restitution": "0.3",
+        "useGravity": "false",
+        "position": "x:0.002499 y:0.306080 z:0.050287",
+        "selectable": "false"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_motoheroz_headlight_02.mesh",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:0.301918 y:0.067079 z:1.223052",
+        "massCenter": "x:-44.4505805969238 y:0.0670790374279022 z:1.22305190563202",
+        "selectable": "false",
+        "name": "headlight",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_motoheroz_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.016499 y:-0.534378 z:1.283000",
+        "massCenter": "x:-45.7689971923828 y:-0.534378051757812 z:1.28299999237061",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_motoheroz_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.016499 y:-0.534378 z:1.283000",
+        "massCenter": "x:-43.7360000610352 y:-0.534378051757812 z:1.28299999237061",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_motoheroz_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.016499 y:-0.534378 z:-1.283000",
+        "massCenter": "x:-45.7689971923828 y:-0.534378051757812 z:-1.28299999237061",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_motoheroz_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.016499 y:-0.534378 z:-1.283000",
+        "massCenter": "x:-43.7360000610352 y:-0.534378051757812 z:-1.28299999237061",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_motoheroz_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:0.038498 y:0.292622 z:-1.110000",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_motoheroz_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-0.296844 y:0.067079 z:1.222998",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    }
+  ],
+  "class": "MeshPart",
+  "properties": {
+    "collisionFidelity": "1",
+    "collisionGroup": "4",
+    "density": "1000",
+    "friction": "0.37",
+    "cameraCollideEnable": "false",
+    "mesh": "asset/car/mesh/g2052_motoheroz.mesh",
+    "name": "motoheroz",
+    "restitution": "0.3",
+    "rotation": "x:0 y:0 z:0",
+    "position": "x:0.0 y:0.0 z:0"
+  }
+}

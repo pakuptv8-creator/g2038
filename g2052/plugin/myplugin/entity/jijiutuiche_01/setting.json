@@ -1,0 +1,76 @@
+{
+    "runBuff": [
+        "myplugin/trolley_run_buff"
+    ],
+    "collision": false,
+    "base": "trolley_base",
+    "rideOnCombineCollision": true,
+    "actorName": "g2052_prop_jijiutuiche.actor",
+    "ridePos": [
+        {
+            "小孩乘车": "",
+            "yaw": 0,
+            "pos": {
+                "y": 0.27,
+                "z": 1.55,
+                "x": 0
+            },
+            "out": {
+                "y": 0,
+                "z": 0.5,
+                "x": 0.5
+            },
+            "ctrl": false,
+            "view": false,
+            "passengerAction": {
+                "base": "sleep1"
+            },
+            "?attachPoint": "ride1"
+        }
+    ],
+    "attachPoints": [
+        {
+            "name": "ride1",
+            "bone": "s_jijiutuiche",
+            "rotation": {
+                "x": 0,
+                "y": -90,
+                "z": 90
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "scale": 0.5,
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        }
+    ],
+    "collider": {
+        "type": "Box",
+        "offset": {
+            "x": -0.05,
+            "y": 0.7,
+            "z": 0.85
+        },
+        "extent": {
+            "x": 1,
+            "y": 0.6,
+            "z": 2
+        }
+    },
+    "nearPropsCenterOffset": {
+        "1.2": 2.5
+    },
+    "nearProps": {},
+    "enterProps": [
+        "ride_on_index"
+    ],
+    "checkEnterEvent": true,
+    "rideOnFollowRotate": true,
+    "jumpToRideOff": true,
+    "brightnessScale": 1.7,
+    "forbidFurnitureAction": true,
+    "fixBodyTurn": true
+}

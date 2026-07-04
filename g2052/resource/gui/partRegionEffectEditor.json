@@ -1,0 +1,1912 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "partRegionEffectEditor",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,-1},{0,16},{0,136},{0,389}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "partRegionEffectEditor-selectPart",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,3},{0,5},{0,136},{0,81}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-partTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,4},{0,3},{0,130},{0,27}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "零件信息："
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-partId",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,6},{0,31},{0,130},{0,54}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "Id：XXXXX"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-partIdName",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,6},{0,54},{0,130},{0,77}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "name：XXXXX"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partRegionEffectEditor-partList",
+                            "Property": [
+                                {
+                                    "Name": "Visible",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,3},{0,75},{0,132},{0,103}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partRegionEffectEditor-contain",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,39},{0,3},{0,89},{0,28}}"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "包含："
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "partRegionEffectEditor-data1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,97},{0,6},{0,122},{0,31}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "partRegionEffectEditor-dataSelect1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Visible",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,25},{0,25}}"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_mod.json image:icon_0_like"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-dataId1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,22},{0,22}}"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "99"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "partRegionEffectEditor-data2",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,128},{0,6},{0,153},{0,31}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "partRegionEffectEditor-dataSelect2",
+                                            "Property": [
+                                                {
+                                                    "Name": "Visible",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,25},{0,25}}"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_mod.json image:icon_0_like"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-dataId2",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,22},{0,22}}"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "99"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "partRegionEffectEditor-data3",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,160},{0,6},{0,185},{0,31}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "partRegionEffectEditor-dataSelect3",
+                                            "Property": [
+                                                {
+                                                    "Name": "Visible",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,25},{0,25}}"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_mod.json image:icon_0_like"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-dataId3",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,22},{0,22}}"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "99"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "partRegionEffectEditor-data4",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,192},{0,6},{0,217},{0,31}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_mod.json image:icon_0_like01"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "partRegionEffectEditor-dataSelect4",
+                                            "Property": [
+                                                {
+                                                    "Name": "Visible",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,25},{0,25}}"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_mod.json image:icon_0_like"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-dataId4",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,22},{0,22}}"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "99"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "partRegionEffectEditor-addData",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,2},{0,1},{0,34},{0,33}}"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "partRegionEffectEditor-config",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,6},{0,114},{0,138},{0,272}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-configtitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-1},{0,5},{0,130},{0,31}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "数据配置："
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-effect",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,4},{0,33},{0,57},{0,58}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "特效："
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Edit",
+                            "Name": "partRegionEffectEditor-effectInput",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,63},{0,37},{0,330},{0,60}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "15 15 15 15"
+                                },
+                                {
+                                    "Name": "EditBackImage",
+                                    "Value": "set:g2052_environment.json image:ing_0_environment03"
+                                },
+                                {
+                                    "Name": "MaxTextLength",
+                                    "Value": "-1"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-pos",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,4},{0,62},{0,57},{0,87}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "位置偏移："
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Edit",
+                            "Name": "partRegionEffectEditor-posInput",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,104},{0,66},{0,329},{0,89}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "15 15 15 15"
+                                },
+                                {
+                                    "Name": "EditBackImage",
+                                    "Value": "set:g2052_environment.json image:ing_0_environment03"
+                                },
+                                {
+                                    "Name": "MaxTextLength",
+                                    "Value": "-1"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "partRegionEffectEditor-posHandle",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,27},{0,224},{0,49}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-posXAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,20},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-posXSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,39},{0,0},{0,59},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-posYAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,73},{0,0},{0,93},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-posYSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,109},{0,0},{0,129},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-posZAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,151},{0,0},{0,171},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-posZSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,187},{0,0},{0,207},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-posX",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-83},{0,0},{0,-63},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "X"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-posY",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-10},{0,0},{0,10},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "Y"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-posZ",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,67},{0,0},{0,87},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "Z"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-scale",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,4},{0,121},{0,57},{0,146}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "大小："
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Edit",
+                            "Name": "partRegionEffectEditor-scaleInput",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,63},{0,125},{0,330},{0,148}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "15 15 15 15"
+                                },
+                                {
+                                    "Name": "EditBackImage",
+                                    "Value": "set:g2052_environment.json image:ing_0_environment03"
+                                },
+                                {
+                                    "Name": "MaxTextLength",
+                                    "Value": "-1"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "partRegionEffectEditor-scaleHandle",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,28},{0,224},{0,50}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-scaleXAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,20},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-scaleXSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,39},{0,0},{0,59},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-scaleYAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,73},{0,0},{0,93},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-scaleYSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,109},{0,0},{0,129},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-scaleZAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,151},{0,0},{0,171},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-scaleZSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,187},{0,0},{0,207},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-scaleX",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-83},{0,0},{0,-63},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "X"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-scaleY",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-10},{0,0},{0,10},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "Y"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-scalesZ",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,67},{0,0},{0,87},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "Z"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partRegionEffectEditor-yaw",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,4},{0,181},{0,57},{0,206}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "角度："
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Edit",
+                            "Name": "partRegionEffectEditor-yawInput",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,63},{0,185},{0,330},{0,208}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "15 15 15 15"
+                                },
+                                {
+                                    "Name": "EditBackImage",
+                                    "Value": "set:g2052_environment.json image:ing_0_environment03"
+                                },
+                                {
+                                    "Name": "MaxTextLength",
+                                    "Value": "-1"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "partRegionEffectEditor-yawHandle",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,28},{0,224},{0,50}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-yawXAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,20},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-yawXSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,39},{0,0},{0,59},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-yawYAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,73},{0,0},{0,93},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-yawYSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,109},{0,0},{0,129},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-yawZAddBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,151},{0,0},{0,171},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "partRegionEffectEditor-yawZSubBtn",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,187},{0,0},{0,207},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_less"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:btn_0_add"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-yawX",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-83},{0,0},{0,-63},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "X"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-yawY",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-10},{0,0},{0,10},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "Y"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partRegionEffectEditor-yawZ",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,67},{0,0},{0,87},{0,20}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "Z"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partRegionEffectEditor-saveBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,7},{0,408},{0,132},{0,456}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "10 10 10 10"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "保存"
+                        },
+                        {
+                            "Name": "BtnTextColor",
+                            "Value": "0 0 1 1"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partRegionEffectEditor-closeBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,137},{0,409},{0,286},{0,457}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "10 10 10 10"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "退出"
+                        },
+                        {
+                            "Name": "BtnTextColor",
+                            "Value": "0 0 1 1"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partRegionEffectEditor-lockBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,7},{0,358},{0,132},{0,406}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "10 10 10 10"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "锁定"
+                        },
+                        {
+                            "Name": "BtnTextColor",
+                            "Value": "0 0 1 1"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partRegionEffectEditor-clearDateBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,132},{0,358},{0,285},{0,406}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "10 10 10 10"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "清空当前数据"
+                        },
+                        {
+                            "Name": "BtnTextColor",
+                            "Value": "0 0 1 1"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_chat.json image:img_9_input02"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partRegionEffectEditor-delBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,12},{0,464},{0,102},{0,507}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "删除数据"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_environment.json image:img_0_current"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_environment.json image:img_0_current"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Edit",
+                    "Name": "partRegionEffectEditor-delInput",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,113},{0,468},{0,207},{0,504}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "15 15 15 15"
+                        },
+                        {
+                            "Name": "EditBackImage",
+                            "Value": "set:g2052_environment.json image:ing_0_environment03"
+                        },
+                        {
+                            "Name": "MaxTextLength",
+                            "Value": "-1"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

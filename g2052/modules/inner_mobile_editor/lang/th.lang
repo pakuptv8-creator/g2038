@@ -1,0 +1,19 @@
+
+
+language_start:mobile_editor
+
+language_start:new
+
+language_end:new
+
+ui.select.ground =ระบบภาคพื้นดิน
+ui.env.ground.color =สีพื้น
+ui.env.ground.texture =แผนที่พื้นดิน
+ui.env.light.skylight=แสงอาทิตย์
+ui.env.light.ambient.light =แสงรอบข้าง
+ui.env.light.intensity =ความเข้มของแสง
+ui.env.bgm= เพลงประกอบ
+ui.env.weather =สภาพอากาศ
+ui.env.skybox =skybox
+
+language_end:mobile_editor

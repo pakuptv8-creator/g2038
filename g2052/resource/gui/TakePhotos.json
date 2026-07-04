@@ -1,0 +1,124 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "TakePhotos",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Level",
+                    "Value": "51"
+                },
+                {
+                    "Name": "AlwaysOnTop",
+                    "Value": "true"
+                },
+                {
+                    "Name": "EnableLongTouch",
+                    "Value": "true"
+                },
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 0 0.254902"
+                },
+                {
+                    "Name": "TextColorLeftTop",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "TextColorRightTop",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "TextColorLeftBottom",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "TextColorRightBottom",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,1},{0,3},{1,1},{1,3}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Button",
+                    "Name": "TakePhotos-close",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-23},{0,20},{0,47},{0,90}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_buttons.json image:btn_0_close01"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_buttons.json image:btn_0_close01"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "TakePhotos-action",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,-59},{0,70},{0,14}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_buttons.json image:btn_0_photo_shoot"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_buttons.json image:btn_0_photo_shoot"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

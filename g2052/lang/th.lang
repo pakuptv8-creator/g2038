@@ -1,0 +1,702 @@
+
+
+language_start:g2052_lang
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+annivesary.announcement=ประกาศวันครบรอบปี
+annivesary.tips=คำแนะนำ: ซื้อกองทุนพัฒนาเฉพาะของ Free City เพื่อรับสินค้าลดราคาอย่างน้อยสองชิ้น
+
+gui.limit.time.heart.warming.title=ของขวัญอันอบอุ่นใจ
+gui.limit.time.heart.warming.integral=อินทิกรัล:{.}
+gui.limit.time.heart.warming.day1=วันแรก
+gui.limit.time.heart.warming.day2=วันถัดไป
+gui.limit.time.heart.warming.day3=วันที่สาม
+
+taskTitle_11=เพิ่มเพื่อนในเกมทั้งหมด 1 คน
+taskTitle_12=กำหนดอาชีพใหม่ให้กับตัวเอง
+taskTitle_13=มอบชุดใหม่ให้กับตัวเอง
+taskTitle_14=สร้างบ้านของคุณเอง
+taskTitle_15=เสร็จสิ้นภารกิจทั้งหมดในวันนี้
+taskTitle_21=เพิ่มเพื่อนในเกมทั้งหมด 3 คน
+taskTitle_22=โหลดผู้เล่น 2 คนโดยใช้ยานพาหนะขนาดเล็ก
+taskTitle_23=มอบไอเทมให้กับผู้เล่น 2 คน
+taskTitle_24=โต้ตอบกับผู้เล่น 2 คนด้วยการกอดหรือการกระทำอื่น ๆ
+taskTitle_25=เสร็จสิ้นภารกิจทั้งหมดในวันนี้
+taskTitle_31=เพิ่มเพื่อนในเกมทั้งหมด 5 คน
+taskTitle_32=ใช้ไฟแช็คหรือระเบิดจุดไฟเผาบ้านของใครบางคน
+taskTitle_33=ใช้อาชีพตำรวจเพื่อล็อคผู้เล่นเข้าสถานีตำรวจ
+taskTitle_34=ดับไฟโดยใช้อาชีพนักผจญเพลิง
+taskTitle_35=เสร็จสิ้นภารกิจทั้งหมดในวันนี้
+taskDesc_24=หากต้องการโต้ตอบกับผู้เล่น คุณต้องคลิกที่ตัวละครของผู้เล่น จากนั้นเลือกการกระทำที่คุณต้องการโต้ตอบในรายการป๊อปอัป
+taskDesc_32=เมื่อติดตั้งไฟแช็กหรือระเบิด C4 ให้คลิกที่ใดก็ได้ในบริเวณบ้านเพื่อเริ่มไฟด้วยการจุดไฟหรือระเบิด
+taskDesc_34=ใช้ถังดับเพลิงหรือสปริงเกอร์รถดับเพลิงที่ต้นเพลิงเพื่อดับไฟ
+gui.limit.time.heart.warming.house_fire=บ้านของคุณถูกไฟไหม้ ไฟไหม้หรือเปล่า?
+
+g2052_gift_1100011=เสื้อนักสืบ
+g2052_gift_1100012=กระต่าย
+g2052_gift_1100013=ซูเปอร์ไบค์
+g2052_gift_1100014=โกคาร์ท
+
+subscribe_game_reward_item_tips1=คุณสามารถสัมผัสกับสัตว์เลี้ยง gcube บางตัวได้
+subscribe_game_reward_item_tips2=สามารถสัมผัสยานพาหนะ gcube บางรุ่นได้
+subscribe_game_reward_item_tips3=สามารถสัมผัสประสบการณ์ที่อยู่อาศัย Gcube ทั้งหมด
+subscribe_game_reward_item_tips4=เพลิดเพลินไปกับฟีเจอร์ทั้งหมดของ House Disaster Simulator
+g2052.gui.buy_shop.preview_tip=ดูตัวอย่าง
+g2052_face_image_desc=12 งวด ลุ้นรับรางวัลทั้งหมด\nงวดแรกฟรี
+
+g2052_gift_20001=บ้านธีมสวน
+g2052_gift_20002=เสื้อสเวตเตอร์ผึ้ง
+g2052_gift_20003=รถคลาสสิค
+g2052_gift_20004=กระเป๋าเป้ผึ้ง
+g2052_gift_20005=ชุดคาวบอย
+g2052_gift_20006=ชุดกระต่าย
+g2052_gift_20007=แว่นรูปหัวใจ
+g2052_gift_20008=หมวกถัก
+g2052_gift_20009=หัวฟักทอง
+g2052_gift_20010=เสื้อสีฟ้า
+g2052_gift_20011=ม้าสีน้ำตาล
+g2052_gift_20012=รถครุยเซอร์
+g2052_gift_20013=มอเตอร์ไซค์หรู
+g2052_gift_20014=ยูนิคอร์นสีรุ้ง
+g2052_gift_20015=รถสามล้อเสือภูเขา
+g2052_gift_20016=ชุดไดโนเสาร์
+g2052_gift_20017=ชุดแม่มด
+g2052_gift_20018=หน้ากากหมี
+g2052_gift_20019=สัตว์เลี้ยงกระต่าย
+g2052_gift_20020=จักรยานล้อเดียวรุ่นลิมิเต็ดสำหรับวันฮาโลวีน
+g2052_gift_20021=หมวกกันน็อคมอเตอร์ไซค์
+g2052_gift_20022=หมวกหมี
+g2052_gift_20023=หน้ากากงานพรอม
+g2052_gift_20024=กางเกงขาสั้นชายหาด
+
+g2052_gift_40001=ห้องธีมสวน
+g2052_gift_40002=ห้องธีมร้านอาหาร
+g2052_gift_40003=ชุดไดโนเสาร์
+g2052_gift_40004=รถแนวคิดใหม่
+g2052_gift_40005=ชุดกระต่าย
+
+g2052.gui.business.confirm_buy=แน่ใจว่าจะซื้อ?
+
+g2052_clothing_20001=ชุดยีนส์
+g2052_clothing_20002=ชุดแต่งงาน
+g2052_clothing_20003=ชุดกีฬา
+g2052_clothing_20004=ชุดกีฬา
+g2052_clothing_20005=ขนน้ำผึ้งเล็กน้อย
+g2052_clothing_20006=กางเกงขาสั้นชายหาด
+g2052_clothing_20007=กระโปรงลายดอก
+g2052_clothing_20008=เป้ผึ้งน้อย
+g2052_clothing_20009=กระเป๋าเป้กระต่าย
+g2052_clothing_20010=หมวกกันน็อคมอเตอร์ไซค์
+g2052_clothing_20011=หัวสุนัข
+g2052_clothing_20012=หมวกถัก
+
+
+g2052.gui.drama.template.name4=ยักษ์!
+g2052.gui.drama.template.name00=ไม่มี
+g2052.gui.drama.template.desc3=แรงโน้มถ่วงของเมืองหายไปเกิดอะไรขึ้น?
+g2052.gui.drama.template.desc4=ยักษ์มาแล้ว! เธอจะเป็นยักษ์ใหญ่ได้ไหม?
+g2052.gui.drama.hamburger.max=คุณกินอิ่มแล้ว
+message.notice.name10=แฮมเบอร์เกอร์ใหม่มาแล้ว!
+message.notice.name11={.}กินเบอร์เกอร์ชิ้นใหญ่
+
+g2052.gui.setting.FarClipSetting=ระยะการดู (ประสิทธิภาพที่ต่ำกว่าจะดีกว่า)
+g2052.gui.setting.FarClipSetting.low=ต่ำ
+g2052.gui.setting.FarClipSetting.mid=ปานกลาง
+g2052.gui.setting.FarClipSetting.high=สูง
+
+g2052.gui.gift.send.normalTips=ให้ออกไป
+g2052.gui.gift.send.tips=ของขวัญ
+g2052.gui.gift.send.title=กรุณาเลือกของขวัญ
+
+g2052.gui.dress.reset=คืนค่าแต่งตัว
+g2052.gui.dress.reset.dec=ไม่ว่าจะคืนชุด
+
+g2052.gui.activity.to.unlock=ปลดล็อคเหตุการณ์
+
+g2052.gui.halloween.share.title=แบ่งปัน
+g2052.gui.halloween.askFor.title=ขอ
+g2052.gui.halloween.share.limit=▢FFFF8C00ถึงจำนวนสูงสุดของการแชร์วันนี้แล้ว
+g2052.gui.halloween.accept.limit=▢FFFF8C00จำนวนครั้งที่อีกฝ่ายร้องขอในวันนี้ถึงขีดจำกัดสูงสุดแล้ว
+g2052.gui.halloween.askFor.limit=▢FFFF8C00ถึงจำนวนสูงสุดของคำขอสำหรับวันนี้แล้ว
+g2052.gui.halloween.findGhost.limit=จำนวนการล่าผีวันนี้ถึงขีดจำกัดแล้ว
+g2052.gui.halloween.share.remain=หุ้นที่เหลือของวันนี้: {.}
+g2052.gui.halloween.accept.remain=คำขอที่เหลืออยู่ในวันนี้: {.}
+g2052.gui.halloween.share.exist=▢FFFF8C00แบ่งปันขนมกันวันนี้
+g2052.gui.halloween.askFor.exist=▢FFFF8C00อีกฝ่ายได้แบ่งปันขนมกับคุณในวันนี้
+g2052.gui.halloween.askFor.ask=คุณเห็นด้วยกับคำขอขนมของ {.} หรือไม่
+g2052.gui.halloween.askFor.refuse={.} ▢FFFF8C00ปฏิเสธคำขอขนมของคุณ
+g2052.gui.halloween.start.day=เริ่มการแลกรับใน {.} วัน
+g2052.gui.halloween.start.hour={.} เพื่อเปิดไถ่ถอน
+g2052.gui.halloween.exchange.condition=ใช้จ่าย: {.}/{.}
+g2052.gui.halloween.exchange.fail=▢FFFF8C00ไม่ตรงตามเงื่อนไขการแลก โปรดเก็บลูกอมต่อไป
+g2052.gui.halloween.exchange.success=▢FF00FF00แลกแล้ว
+g2052.gui.halloween.exchange.desc=แลกรางวัลนี้ไหม
+g2052.gui.halloween.find.ghost.num=เหลืออีก{.}ผีที่ต้องถูกค้นพบ
+
+g2052.gui.house.dismantle=ที่อยู่อาศัยพังยับเยิน
+g2052.gui.house.dismantle.dec=รื้อถอนที่อยู่อาศัยที่มีอยู่?
+g2052.gui.home.list.is.open=เปิดรายการบ้าน
+
+face_name_fukong=ลอยน้ำ
+face_name_zombie=ซอมบี้
+face_name_panic=ตื่นตกใจ
+face_name_crawl=คลาน
+face_name_mummy=มัมมี่
+face_name_backwalk=เดินถอยหลัง
+face_name_skip=เด้ง
+face_name_model=แบบอย่าง
+face_name_army=ทหาร
+
+g2052.gui.drama.join=เข้าร่วม
+
+g2052.gui.drama.template.title=โปรดเลือกเทมเพลตปาร์ตี้
+g2052.gui.drama.template.name1=น้ำท่วม
+g2052.gui.drama.template.name2=หมอก
+g2052.gui.drama.template.name3=ไร้น้ำหนัก
+g2052.gui.drama.template.name0=ปรับแต่ง
+g2052.gui.notify.party.create=สร้าง {.} ปาร์ตี้
+g2052.gui.drama.title.tips=กรุณาแก้ไขชื่อปาร์ตี้
+g2052.gui.drama.guide.tips1=เข้าร่วมปาร์ตี้ต่อเนื่องและสัมผัสกับสภาพแวดล้อมของเมืองที่แตกต่างกันกับผู้เล่นคนอื่น!
+g2052.gui.drama.guide.tips2=เลือกเมืองที่คุณชื่นชอบเพื่อเล่นและสร้างปาร์ตี้ของคุณเอง!
+g2052.gui.drama.guide.tips3=เลือกรูปแบบที่แตกต่างกัน เมืองจะมีความประหลาดใจที่แตกต่างกัน มาสัมผัสมัน!
+g2052.gui.drama.guide.tips4=คลิกเพื่อเริ่มปาร์ตี้และเข้าสู่เมืองสุดพิเศษของคุณทันที!
+g2052.gui.drama.template.desc1=ฝนตกหนักหลายวัน น้ำท่วมเมือง อยู่อย่างไรให้น้ำท่วม
+g2052.gui.drama.template.desc2=เมืองนี้ปกคลุมไปด้วยหมอกที่ไม่รู้จัก ระวังเท้าของคุณ!
+g2052.gui.drama.template.desc0=เทมเพลตที่กำหนดเองเป็นการผสมผสานระหว่างการเล่นเกมของทั้งสองเมืองที่โดดเด่น
+
+message.notice.name7=บาร์และห้องบอลรูมเปิดให้บริการแล้ว
+message.notice.name8=บาร์และห้องเต้นรำปิดให้บริการ
+message.notice.name9=มีคนแหกคุก!
+
+gui.update7.desc=การเล่นเกม FC Party ได้รับการอัปเดตและมีการเปิดตัวเทมเพลตแผนที่ที่น่าสนใจมากมาย
+
+gui.shop.vip.desc1=ปลดล็อกบ้าน เสื้อผ้า ยานพาหนะเฉพาะ VIP 
+
+shortmessage.title1=สวัสดี~
+shortmessage.title2=หัวเราะ
+shortmessage.title3=เล่นกับ
+shortmessage.title4=มาที่บ้านของฉัน
+shortmessage.title5=ไปโรงเรียน
+shortmessage.title6=เล่นเกมส์
+shortmessage.title7=มันดี
+shortmessage.title8=ปฏิเสธ
+shortmessage.title9=ขอบคุณค่ะ~
+shortmessage.title10=ชื่นชม
+shortmessage.title11=สวย
+shortmessage.title12=หล่อมาก!
+shortmessage.title13=ปฏิบัติตามฉัน
+shortmessage.title14=และอื่น ๆ อีกมากมาย
+shortmessage.title15=รอสักครู่
+gui.short.lang1=สวัสดี~
+gui.short.lang2=ฮ่าๆๆๆ
+gui.short.lang3=มาเล่นกันเถอะ
+gui.short.lang4=มาเล่นที่บ้านฉันไหม
+gui.short.lang5=
+gui.short.lang6=อยากเล่นเกม
+gui.short.lang7=ตกลง!
+gui.short.lang8=ไม่ต้องการ
+gui.short.lang9=ขอบคุณค่ะ~
+gui.short.lang10=โว้ว!
+gui.short.lang11=สวยมาก
+gui.short.lang12=หล่อมาก!
+gui.short.lang13=มากับฉัน~
+gui.short.lang14=รอฉันด้วย!
+gui.short.lang15=รอสักครู่~
+g2052.gui.short.chat.tips =แชทเร็วเกินไป โปรดพิมพ์ใหม่ในอีก {.} วินาที!
+
+language_end:new
+
+g2052.gui.marketing.super.gift=แพ็กของขวัญสุดคุ้ม
+g2052.gui.marketing.hint=Pass รวบรวมของไว้ดังต่อไปนี้
+g2052.gui.marketing.buy=ซื้อ
+
+g2052.gui.marketing.item.name1=บ้าน VIP
+g2052.gui.marketing.item.name2=ยานพาหนะ VIP
+g2052.gui.marketing.item.name3=ชุด VIP
+g2052.gui.marketing.item.name4=ที่ดิน VIP
+g2052.gui.marketing.item.name5=การเร่งยานพาหนะ 
+g2052.gui.marketing.item.name6=สลับสี
+g2052.gui.marketing.item.name7=ตราแชต
+g2052.gui.marketing.item.name8=
+
+g2052.gui.profession.recommend.time.count=อินเทอร์เฟซจะปิดหลังผ่านไป {.} วินาที
+g2052.gui.car.player.in.forbid.area=ไม่สามารถเรียกยานพาหนะได้ในพื้นที่ปัจจุบัน
+g2052.gui.car.in.forbid.area=เรียกยานพาหนะล้มเหลว โปรดลองอีกครั้งในพื้นที่เปิด
+g2052.gui.car.no.room=จุดเรียกยานพาหนะไม่ว่าง
+
+guide_script_title=วิธีเล่นในปาร์ตี้
+guide_script_desc1=ออกแบบวิธีเล่นและเหล่าตัวละคร
+guide_script_desc2=หรือเข้าร่วมปาร์ตี้ของผู้อื่น
+
+g2052.gui.drama.join.tips={.} ได้เข้าร่วมปาร์ตี้
+g2052.gui.drama.cur.drama=ปาร์ตี้ปัจจุบัน
+g2052.gui.drama.history=ประวัติปาร์ตี้
+g2052.gui.drama.confirm.dissolve=แน่ใจหรือไม่ว่าจะยุบปาร์ตี้?
+g2052.gui.drama.amend=แก้ไขปาร์ตี้
+g2052.gui.drama.confirm.leave=แน่ใจหรือไม่ว่าจะออกจากปาร์ตี้?
+
+
+guide_guide_script=ปาร์ตี้ FC
+g2052.gui.drama.title=รายชื่อปาร์ตี้
+g2052.gui.drama.news=ปาร์ตี้ใหม่ที่สุด
+g2052.gui.drama.create=สร้างปาร์ตี้
+g2052.gui.drama.recent=ปาร์์ตี้ล่าสุด
+g2052.gui.drama.leave=ออกจากปาร์ตี้
+g2052.gui.drama.mine=ปาร์ตี้ี้ของฉัน
+g2052.gui.drama.dissolve=ยุบปาร์ตี้
+g2052.gui.drama.full.tips=ปาร์ตี้เต็มแล้ว โปรดปาร์ตี้อื่น
+g2052.gui.drama.detail.title1=ปาร์ตี้ของ {.}
+g2052.gui.drama.editor.drama=ข้อมูลปาร์ตี้
+
+
+g2052.gui.occupation.others= {.} มีคนเป็นเจ้าของแล้ว
+g2052.gui.occupation.own=คุณเป็นเจ้าของ {.} แล้ว
+g2052.gui.occupation.goods=ล็อกเกอร์
+
+g2052.gui.create.vip=ที่ดินส่วนตัว
+
+guide_script_desc3=เล่นในสิ่ง ที่คุณชอบทุกคนเล่น!
+
+gui.shop.vip.name=VIP PASS
+
+gui.shop.vip.desc2=ปลดล็อกฟังก์ชันสวิตช์เปลี่ยนสีสำหรับบ้านและยานพาหนะ
+gui.shop.vip.desc3=ปลดล็อกฟังก์ชันเพิ่มความเร็วยานพาหนะ
+gui.shop.vip.desc4=ปลดล็อกสิทธิ์การใช้ที่ดินพิเศษ 
+gui.shop.vip.desc5=ได้รับตราแชต VIP และกรอบแชต
+
+
+message.notice.bad.weather_4=พยากรณ์อากาศ: พายุฝนกำลังจะมาในอีกหนึ่งชั่วโมง
+message.notice.bad.weather_5=พยากรณ์อากาศ: คลื่นความร้อนกำลังจะมาในอีกหนึ่งชั่วโมง
+message.notice.bad.weather_6=พยากรณ์อากาศ: หิมะกำลังจะมาในอีกหนึ่งชั่วโมง
+message.notice.bad.weather_7=พยากรณ์อากาศ: พายุทรายกำลังจะมาในอีกหนึ่งชั่วโมง
+message.notice.bad.weather_8=พยากรณ์อากาศ: หมอกกำลังจะมาในอีกหนึ่งชั่วโมง
+message.notice.bad.weather_9={.}เกิดสภาพอากาศเลวร้าย!
+
+g2052.gui.world_chat.invite=ชวนเพื่อมาเล่นด้วยกัน
+g2052.gui.world_chat.ignore=บล็อกข้อความ
+g2052.gui.world_chat.ignored=บล็อกแล้ว
+g2052.gui.world_chat.ignore.tips=ได้บล็อกข้อความจากผู้เล่นนี้
+
+
+g2052.gui.chat.system.login=ยินดีต้อนรับ{.}สู่ FreeCity!
+
+g2052.gui.vehicle.part.color=กำหนดสี
+g2052.gui.vehicle.gearshift=กะ
+
+
+g2052.gui.confirm=ใช่
+g2052.gui.cancel=ยกเลิก
+
+g2052.gui.announcement.main_title=ตัวอย่างแพตช์ใหม่
+g2052.gui.announcement.new=อัปเดต
+g2052.gui.announcement.activity=กิจกรรม
+gui.update.clothes.title=ชุดใหม่
+gui.update.car.title=รถใหม่
+gui.update.scene.title=ฉากใหม่
+gui.update.house.title=บ้านใหม่ ๆ
+gui.update.prop.title=ไอเทมใหม่
+gui.update.face.title=อีโมตใหม่
+gui.update.title=การเปลี่ยนแปลงฟังก์ชัน
+g2052.gui.tendering.sign.go_land=ไป
+
+g2052.gui.phone.ignore_call=ปิดรับการโทรเข้า
+g2052.gui.setting.reset_player=รีเซ็ตตัวละคร
+message.notice.name1=สัญญาณเตือนภัยธนาคารดัง
+message.notice.name2=ตู้นิรภัยธนาคารกำลังจะปิด
+message.notice.name3=ตู้นิรภัยธนาคารปิดแล้ว
+message.notice.name4=เกิดไฟไหม้ขึ้นที่บ้านหมายเลข {.}
+message.notice.name5=ตู้เซฟของคุณถุกขโมย
+message.notice.name6={.} กำลังขอความช่วยเหลือ
+
+g2052.gui.peakday.title=เข้าสู่ระบบในวันหยุดสุดสัปดาห์
+g2052.gui.peakday.title2=รับของขวัญ
+g2052.gui.peakday.text3=สามารถเลือกสัตว์เลี้ยงหนึ่งตัวเพื่อเป็นรางวัล
+g2052.gui.peakday.text1=นับถอยหลังเวลาเริ่มกิจกรรม:
+g2052.gui.activity.day= {.} วัน {.} ชั่วโมง
+g2052.gui.peakday.button1=รับ
+g2052.gui.peakday.button2=ได้รับแล้ว
+g2052.gui.peakday.no.select.item=โปรดเลือกรางวัลก่อน
+g2052.gui.peakday.get.reward.success=ได้รับเรียบร้อยแล้ว
+
+gui.shop.title=ร้านค้า
+gui.confirm.purchase=คิดเงิน
+gui.whether.confirm.buy=ยืนยันที่จะซื้อ {.} หรือไม่?
+gui.insufficient.funds=เงินไม่พอ
+gui.still.missing=ยังขาด {.}
+gui.whether.enter.recharge=ไปที่หน้าเติมเงินหรือไม่?
+gui.goods.already.have=เป็นเจ้าของแล้ว
+gui.buy.succeed=ซื้อสำเร็จ
+gui.buy.succeed.dec=ได้รับ {.}
+gui.do.not.repeat.purchase=ซื้อไม่สำเร็จ
+
+
+g2052.gui.house.create.cd=เวลารอ:{.}s
+g2052.gui.house.create.is.cd=บ้านอยู่ระหว่างคูลดาวน์ โปรดลองใหม่อีกครั้ง
+
+g2052.gui.part.content.init=เนื้อหา
+g2052.gui.part.content.top_title=พื้นหลัง
+g2052.gui.part.content.bottom_title=ตัวอักษร
+
+g2052.gui.interact.player_action1=แบก
+g2052.gui.interact.player_action2=แบกรับ
+g2052.gui.interact.player_action3=ถือ
+g2052.gui.interact.player_action4=กอด
+
+g2052.gui.scene.name.square_ice01=บลูเบอร์รี
+g2052.gui.scene.name.square_ice02=สตรอว์เบอร์รี
+g2052.gui.scene.name.square_ice03=วานิลลา
+g2052.gui.scene.name.square_ice04=เผือก
+g2052.gui.scene.name.square_ice05=มะม่วง
+g2052.gui.scene.name.square_ice06=ช็อคโกแลต
+
+g2052.gui.dyeing.part.color={.}สี
+g2052.gui.part.custom_hair=ผม
+
+g2052.gui.interact.tips=ส่งคำเชิญแล้ว
+g2052.gui.transfer.fail=ไม่สามารถเทเลพอร์ตในสถานะที่บรรทุกได้
+g2052.gui.props.loading_success=เพิ่มในตะกร้าสินค้าแล้ว
+g2052.gui.props.unload_success=กลับไปที่ชั้นวางแล้ว
+
+ui.chat.chatMsgType9=ที่อยู่ใกล้เคียง
+ui.chat.friend.near =▢FFFFFFFF เพื่อนที่อยู่ใกล้เคียง
+ui.chat.friend.apply=▢FFFFFFFF คำขอเป็นเพื่อน
+ui.chat.friend.list=▢FFFFFFFF รายชื่อเพื่อน
+ui.chat.friend.applyFriend=▢FFFFFFFF เพื่อนใหม่
+ui.chat.friend.gameFriend=▢FF4A2942 เล่นกับเพื่อน
+ui.chat.friend.platformFriend=▢FF4A2942 เพื่อนในแพลตฟอร์ม
+ui.chat.friend.recent_contact=▢FFFFFFFF ติดต่อกันล่าสุด
+ui.chat.friend.offline=▢FF78476C ออฟไลน์
+ui.chat.friend.online=▢FF07BE14 ออนไลน์
+ui.chat.number=▢FF4A2942{.}/{.}
+ui.chat.playerInfo.name=▢FFFFFFFF{.}
+ui.chat.friend.name=▢FF926787{.}
+
+g2052.gui.interactive.refuse =ผู้เล่นปฏิเสธคำขอเป็นเพื่อน
+g2052.gui.interactive.fail =การโต้ตอบล้มเหลว
+g2052.gui.password.error=รหัสผ่านไม่ถูกต้อง
+
+g2052.gui.dance.dance_title =อีโมต
+face_name_happy=มีความสุข
+face_name_unhappy=เศร้า
+face_name_angry=โกรธ
+face_name_laugh=หัวเราะ
+face_name_cheer=ร่าเริง
+face_name_shyness=อาย
+face_name_cry=ร้องไห้
+face_name_wave=ทักทาย
+face_name_bye=บอกลา
+face_name_yes=เห็นด้วย
+face_name_no=ปฏิเสธ
+face_name_handshake=จับมือ
+face_name_fear=กลัว
+face_name_cute=น่ารัก
+face_name_naughty=ดื้อ
+face_name_love1=รักนะ (ซ้าย)
+face_name_love2=รักนะ (ขวา)
+face_name_salute=คำนับ
+face_name_clap=ปรบมือ
+face_name_point=ชี้
+face_name_scratch=สงสัย
+face_name_boring=เบื่อ
+face_name_dizzy=มึนหัว
+face_name_freeze=ตัวสั่น
+face_name_wounded=บาดเจ็บ
+face_name_fall=ล้ม
+face_name_sneak=แอบดู
+face_name_raisehand=ยกมือขึ้น
+face_name_arrested=ถูกจับกุม
+face_name_warm-up=ยืดเส้นยืดสาย
+dance_name_hot=เต้นรำ
+dance_name_locking=เต้นล็อก
+dance_name_shake1=เต้นส่าย 1
+dance_name_shake2=เต้นส่าย 2
+dance_name_scissors=เต้นส่าย 3
+dance_name_slide=สไลด์
+dance_name_thomas=เต้นเบรกแดนซ์
+dance_name_1=เต้น 1
+dance_name_2=เต้น 2
+dance_name_3=เต้น 3
+dance_name_4=เต้น 4
+dance_name_5=เต้น 5
+dance_name_6=เต้น 6
+dance_name_7=เต้น 7
+dance_name_8=เต้น 8
+dance_name_9=เต้น 9
+dance_name_robot=เต้นป๊อปปิ้ง
+face_name_fall2=หกล้ม
+face_name_sit1=นั่งลง
+face_name_sit2=นั่งลง 2
+face_name_wallstand1=พิงกำแพง
+face_name_wallstand2=พิงกำแพง 2
+face_name_salute2=วันทยหัตถ์ 2
+face_name_strong=แข็งแรง
+face_name_death=ตาย
+
+g2052.gui.time.monday=จันทร์
+g2052.gui.time.tuesday=อังคาร
+g2052.gui.time.wednesday=พุธ
+g2052.gui.time.thursday=พฤหัส
+g2052.gui.time.friday=ศุกร์
+g2052.gui.time.saturday=เสาร์
+g2052.gui.time.sunday=อาทิตย์
+g2052.gui.profession.main_title =อาชีพ
+g2052.gui.profession.main_name =ชื่อ
+g2052.gui.profession.main_introduce =คำแนะนำตัว
+g2052.gui.profession.color_name =ชื่อ
+g2052.gui.profession.color_introduce =คำแนะนำตัว
+g2052.gui.profession.color_edit =ใส่
+g2052.gui.profession.career_name1 =ตำรวจ
+g2052.gui.profession.career_name2 =ยาม
+g2052.gui.profession.career_name3 =อาชญากร
+g2052.gui.profession.career_name4=ร้านค้า
+g2052.gui.profession.career_name5=เชฟ
+g2052.gui.profession.career_name6=เสมียนเบอร์เกอร์
+g2052.gui.profession.career_name7=นักร้อง
+g2052.gui.profession.career_name8=นักดนตรี
+g2052.gui.profession.career_name9=ดีเจ
+g2052.gui.profession.career_name10=ศาสตราจารย์
+g2052.gui.profession.career_name11=คนขายไอศกรีม
+g2052.gui.profession.career_name12=หน่วยรบพิเศษ
+g2052.gui.profession.career_name13=หมอ
+g2052.gui.profession.career_name14=คนไข้
+g2052.gui.profession.career_name15=นักดับเพลิง
+g2052.gui.profession.career_name16=ชุด
+g2052.gui.profession.career_name17=นักบวช
+g2052.gui.profession.career_name18=ผู้เล่น
+g2052.gui.profession.career_name19=พนักงานเสิร์ฟ
+g2052.gui.profession.career_name20=พนักงานทำความสะอาด
+g2052.gui.profession.career_name21=สัตวแพทย์
+g2052.gui.profession.career_name22=หน่วยกู้ภัย
+g2052.gui.profession.career_name23=พยาบาล
+g2052.gui.profession.career_name24=เด็ก
+g2052.gui.profession.career_name25=ช่างทำผม
+g2052.gui.profession.career_name26=คนขับรถ
+g2052.gui.profession.career_name27=เตียง
+g2052.gui.profession.career_name28=บุรุษไปรษณีย์
+g2052.gui.profession.career_name29=นักกีฬา
+g2052.gui.profession.career_name30=นักบิน
+g2052.gui.profession.career_name31=นักวิทยาศาสตร์
+g2052.gui.profession.career_name32=คนทำพิซซ่า
+g2052.gui.profession.career_name33=บาริสต้า
+g2052.gui.profession.career_name34=นักสเกต
+g2052.gui.profession.career_name35=ผู้เชี่ยวชาญด้านดาบ
+g2052.gui.profession.career_name36=นักยิงธนู
+g2052.gui.profession.career_name37=ผู้เชี่ยวชาญด้านเทควันโด
+g2052.gui.profession.career_name38=ช่างแต่งหน้า
+g2052.gui.profession.career_name39=นักบินอวกาศ
+g2052.gui.profession.career_name40=ครู
+g2052.gui.profession.career_name41=หมอ
+g2052.gui.profession.career_name42=ทนาย
+g2052.gui.profession.career_name43=ตัวตลก
+g2052.gui.profession.career_name44=ช่างตัดเสื้อ
+g2052.gui.profession.career_name45=ผู้พิพากษา
+g2052.gui.profession.career_name46=นักเรียน
+g2052.gui.profession.career_name47=ผู้อำนวยการ
+g2052.gui.profession.career_name48=เกมเมอร์
+g2052.gui.profession.career_name49=นักชิม
+g2052.gui.profession.career_name50=นักเดินแบบ
+g2052.gui.profession.career_name51=ชาวสวน
+g2052.gui.profession.career_name52=คนขับแท็กซี่
+g2052.gui.profession.career_name53=กะลาสีเรือ
+g2052.gui.profession.career_name54=ชาวประมง
+g2052.gui.profession.career_name55=กัปตัน
+g2052.gui.profession.career_name56=นักสะสม
+g2052.gui.profession.career_name57=โฮสต์
+g2052.gui.profession.career_name58=คนรับใช้
+g2052.gui.profession.career_name59=นักเขียน
+g2052.gui.profession.career_name60=แรงงาน
+g2052.gui.profession.career_name61=ผู้รายงานข่าว
+g2052.gui.profession.career_name62=นักเต้น
+g2052.gui.profession.career_name63=คนขับรถบัส
+g2052.gui.profession.career_name64=ทหาร
+g2052.gui.profession.career_name65=ไกด์ทัวร์
+g2052.gui.profession.career_name66=จิตรกร
+g2052.gui.profession.career_name67=คนทำสวน
+g2052.gui.profession.career_name68=สถาปนิก
+g2052.gui.profession.career_name69=ส.ส.
+g2052.gui.profession.career_name70=อันธพาล
+g2052.gui.profession.career_name71=นักโทษ
+
+g2052.gui.drama.hot=ติดเทรนด์
+g2052.gui.drama.likes=ถูกใจเยอะที่สุด
+g2052.gui.drama.friend=เพื่อนที่กำลังเล่น
+g2052.gui.drama.change.role=เปลี่ยนตัวละคร
+g2052.gui.drama.drama.desc=มาเล่นกันเถอะ
+g2052.gui.drama.role.name=ตัวละคร {.}
+g2052.gui.drama.role.desc=กรุณากรอกข้อมูล
+g2052.gui.drama.editor.role=ข้อมููลตัวละคร
+
+g2052.gui.drama.like.ranking=กระดานคะแนน
+g2052.gui.drama.use=ใช้
+
+g2052.prop.send.CDTime=การดำเนินการบ่อยเกินไป โปรดลองอีกครั้งในภายหลัง
+g2052.gui.phone.call_wait=การดำเนินการบ่อยเกินไป โปรดลองอีกครั้งในภายหลัง
+g2052.gui.phone.career_success_tips=โทรสำเร็จและแชร์ตำแหน่งแล้ว
+
+g2052.gui.child.name =ชื่อ
+g2052.gui.child.edit.placeholder =ตั้งชื่อเด็ก
+g2052.gui.child.edit.name =ชื่อเด็ก
+
+g2052.gui.house.title =บ้าน
+g2052.gui.bag.title =กระเป๋า
+g2052.gui.appearance.title =ลักษณะ
+g2052.gui.shape.scale.is.max =ขนาดตัวใหญ่สุดแล้ว
+g2052.gui.shape.scale.is.min =ขนาดตัวเล็กสุดแล้ว
+
+g2052.gui.create =สร้าง
+g2052.gui.house.remould =ตกแต่งบ้าน
+g2052.event.house.on.fire=บ้านของคุณไฟไหม้แล้วววววว!
+g2052.gui.house.remould.dec=คุณแน่ใจหรือไม่ว่าต้องการจะเปลี่ยนบ้าน?
+g2052.gui.friend.pop.add.limit=ไม่อนุญาตให้เข้า
+g2052.gui.friend.pop.unfreeze=อนุญาตให้เข้าได้
+g2052.gui.house.move=ย้ายบ้าน
+g2052.gui.house.move.dec=คุณแน่ใจหรือไม่ที่จะย้ายบ้าน?
+g2052.gui.house.brief.introduction=รายละเอียดบ้าน
+g2052.gui.owner.ask.you.leave=เจ้าของบ้านขอให้คุณออกไป
+gui.shop.house.event.desc=สามารถควบคุมประเภทภัยพิบัติที่เกิดขึ้นในบ้านได้ รวมไปถึง ไฟไหม้ น้ำท่วม ไฟดับ พายุทอร์นาโด พายุฝน เฮลิคอปเตอร์ วิญญาณ หมอก อุกกาบาต UFO แผ่นดินไหว ต่าง ๆ
+gui.shop.house.event.name=จำลองภัยพิบัติ
+g2052.gui.house.disaster.title=รายชื่อภัยพิบัติ
+g2052.gui.house.disaster.limit=สามารถเกิดขึ้นพร้อมกันได้แค่ {.} ประเภท
+house.event.name1=ไฟไหม้
+house.event.name2=น้ำท่วม
+house.event.name3=ไฟดับ
+house.event.name4=พายุทอร์นาโด
+house.event.name5=พายุฝน
+house.event.name6=เฮลิคอปเตอร์
+house.event.name7=วิญญาณ
+house.event.name8=ผีอาฆาต
+house.event.name9=UFO
+house.event.name10=หมอก
+house.event.name11=แผ่นดินไหว
+house.event.name12=อุกกาบาต
+
+g2052.event.explode.vault.gate =%s ระเบิดประตูธนาคาร
+g2052.event.explode.house.safe =%s ปล้นบ้านคุณ
+g2052.event.alarm.of.fire=บ้าน {.} ไฟไหม้!
+
+g2052.gui.car.title=ยานพาหนะ
+g2052.gui.car.forbid.use=ไม่สามารถใช้ยานพาหนะได้ในตอนนี้
+g2052.gui.car.region.forbid.use=ห้ามขับขี่ยานพาหนะในพื้นที่นี้
+
+g2052.gui.appearance.forbid=ไม่สามารถเปลี่ยนเสื้อผ้าได้ขณะนั่งอยู่
+g2052.gui.appearance.forbid.jump.fall=ไม่สามารถเปลี่ยนเสื้อผ้าตอนอยู่บนอากาศได้
+g2052.gui.partner.title=เด็ก
+g2052.gui.billboard.edit=ป้ายประกาศ
+g2052.gui.click.input.click=โปรดใส่รายละเอียด
+
+g2052.gui.appearance.forbid.swim=ไม่สามารถเปลี่ยนเสื้อผ้าได้ขณะว่ายน้ำ
+
+gui.house.bgm.title=เพลง
+g2052.gui.friend.top.title=ระบบเพื่อน
+g2052.gui.friend.tab.friend=เพื่อนของฉัน
+g2052.gui.friend.tab.near=ผู้เล่นใกล้เคียง
+g2052.gui.friend.tab.request=คำขอเป็นเพื่อน
+g2052.gui.friend.delete.title=ลบเพื่อน
+g2052.gui.friend.delete.desc=คุณแน่ใจหรือไม่ว่าจะลบเพื่อนคนนี้?
+g2052.gui.friend.agree.success=เพิ่มสำเร็จ
+g2052.gui.friend.refuse=ปฏิเสธ
+g2052.gui.friend.lang=ภาษา
+g2052.gui.friend.again=ลองอีกครั้ง
+g2052.gui.friend.none.friend=โปรดเพิ่มเพื่อน
+g2052.gui.friend.none.near=ไม่มีผู้เล่นที่อยู่ใกล้เคียง
+g2052.gui.friend.none.request=ไม่มีคำขอในตอนนี้
+g2052.gui.friend.invite=สวัสดี ไปเล่นด้วยกันมั้ย?
+g2052.gui.friend.invite.btn=เชิญ
+g2052.gui.friend.pop.invite=เชิญในฐานะแขก
+g2052.gui.chat.private.target=ถึง
+g2052.gui.chat.private.NewFrom=จาก
+g2052.gui.chat.private.from=กระซิบถึงคุณ:
+g2052.gui.world_chat.title=แชตโลก
+g2052.gui.world_chat.lang.tips=เปลี่ยนไปช่องแชต {.}
+g2052.gui.world_chat.block=บล็อกช่องแชต {.}
+g2052.gui.world_chat.cancel_block=ปลดบล็อกช่องแชต {.}
+
+g2052.gui.setting.voiceSetting=ตั้งค่าเสียง
+
+
+g2052.gui.setting.video=โหมดวิดีโอ
+g2052.gui.video.tab1=ฟิลเตอร์
+g2052.gui.video.tab2=สภาพอากาศ
+g2052.gui.video.tab3=เอฟเฟกต์หน้าจอ
+g2052.gui.video.handle.tab1=เอฟเฟกต์พิเศษ
+g2052.gui.video.handle.tab2=ซ่อน UI
+g2052.gui.video.handle.tab3=ซ่อนการตั้งค่า
+g2052.gui.video.handle.type101=ย้อนยุค
+g2052.gui.video.handle.type102=ขาวดำ
+g2052.gui.video.handle.type103=ความชัดแสงสูง
+g2052.gui.video.handle.type104=ไซเบอร์พังค์
+g2052.gui.video.handle.type105=เรืองแสง
+g2052.gui.video.handle.type106=ฤดูใบไม้ร่วง
+g2052.gui.video.handle.type107=คืนวันเพ็ญ
+g2052.gui.video.handle.type108=ฟ้าโปร่ง
+g2052.gui.video.handle.type201=แดดออก
+g2052.gui.video.handle.type202=ฝนตก
+g2052.gui.video.handle.type203=หิมะตก
+g2052.gui.video.handle.type204=คืนดาวเต็มฟ้า
+g2052.gui.video.handle.type205=ยามเย็น
+g2052.gui.video.handle.type301=ภาพยนตร์
+g2052.gui.video.handle.type302=ไฟฉาย
+g2052.gui.video.handle.type303=เอฟเฟกต์การ์ตูน
+g2052.gui.video.handle.type304=กางเขน
+g2052.gui.video.handle.type305=ผีเสื้อ
+g2052.gui.video.handle.type306=จุด
+g2052.gui.video.hide.setting.data1=ซ่อนชื่อ
+g2052.gui.video.hide.setting.data2=ซ่อนผู้เล่น
+g2052.gui.video.hide.setting.data3=ซ่อนตัวเอง
+
+guide_role_title=คุณรับบทเป็นใคร?
+guide_role_desc1=โปรดเลือกชุดของคุณ
+guide_role_desc2=ปรับขนาดร่างกายและสีผิว
+guide_role_desc3=เลือกอิโมจิโปรดของคุณ
+guide_house_title=สร้างบ้านของคุณอย่างไร?
+guide_house_desc1=เลือกที่ว่างและคลิกที่ป้ายไม้
+guide_house_desc2=เลือกแบบบ้านของคุณ
+guide_house_desc3=บ้านของคุณสร้างเสร็จแล้ว เข้ามาดูสิ!
+guide_profession_title=อาชีพของคุณคืออะไร?
+guide_profession_desc1=บอกชื่อของคุณสิ!
+guide_profession_desc2=เลือกอาชีพที่คุณชอบ
+guide_profession_desc3=ข้อมูลนี้จะแสดงอยู่เหนือหัวของคุณ
+guide_baby_title=คุณอยากเลี้ยงอะไร?
+guide_baby_desc1=เลือกเด็กที่คุณชอบ
+guide_baby_desc2=เด็กจะตามคุณทุกที่ทีคุณไ่ป!
+guide_dace_title=ท่าทางของคุณคืออะไร?
+guide_dace_desc1=เลือกท่าทางและตัวละครของคุณจะทำตาม
+guide_dace_desc2=พูดคุยกับผู้เล่นคนอื่นกันเถอะ!
+guide_car_title=ใช้ยานพาหนะอย่างไร?
+guide_car_desc1=เลือกยานพาหนะที่ชอบ
+guide_car_desc2=ขี่ยานพาหนะและไปเที่ยวรอบๆ กัน
+guide_prop_title=ใช้ไอเทมอย่างไร?
+guide_prop_desc1=เลือกไอเทมที่ต้องการใช้
+guide_prop_desc2=กดปุ่มขวาเพื่อสลับโหมด
+guide_prop_desc3=แตะเพื่อใช้ไอเทม
+
+
+g2052.gui.tendering.email.send_btn=ส่ง
+g2052.gui.tendering.email.title=นายกเทศมนตรีเสนอช่องเขียว
+g2052.gui.tendering.email.tips=ถึงนายกเทศมนตรีที่เคารพ, โปรดระบุการเสนอของท่าน
+g2052.gui.tendering.email.send_success=ส่งสำเร็จ
+g2052.gui.tendering.email.send_fail=การส่งล้มเหลว
+
+
+g2052.gui.tendering.tips=คำใบ้
+g2052.gui.bidding_rank.preview_tip=คำใบ้ประมูล
+
+ui.cash.coupon.expend = ครั้งนี้ใช้โทเค็นเกม {.} รายการ + Gcube ทองรูบิค {.} รายการ
+ui.cash.coupon.tips =Gold Rubik's Gcube ใช้โทเค็นเกมก่อน ได้รับกิจกรรมแพลตฟอร์ม
+
+g2052.advertisement.use.car.tips= ดูวิดีโอเพื่อทดลอง GCube ฟรี
+g2052.advertisement.use.car.cd.tips=รอ {.} วินาทีก่อนดูอีกครั้ง
+
+g2052.gui.advertisement.draw.out.of.count=จำนวนการรีเฟรชสำหรับวันนี้หมดแล้ว
+g2052.gui.advertisement.draw.reward.all.gain=คุณได้รับไอเท็มจากลูกบาศก์ทองคำทั้งหมดแล้ว
+g2052.gui.advertisement.draw.fail=การรีเฟรชล้มเหลว
+g2052.gui.advertisement.lock.slot.fail=ไม่สามารถล็อครางวัลได้
+g2052.gui.advertisement.win.title=ศูนย์รางวัล
+g2052.gui.advertisement.win.content.normal=รีเฟรชครั้งหนึ่งเพื่อใช้ไอเท็มจากลูกบาศก์ทองคำ 3 ชิ้นฟรี\nรีเฟรชเพื่อรับไอเท็มเหมือนกัน 2 ชิ้นใช้ x2 หรือ 3 ชิ้นใช้ x5
+g2052.gui.advertisement.win.content.reward.all.gain=คุณได้รับไอเท็มจากลูกบาศก์ทองคำทั้งหมดแล้ว
+g2052.gui.advertisement.win.refresh.title=รีเฟรช
+g2052.gui.advertisement.draw.success=รางวัลได้ถูกส่งไปยังกระเป๋าของคุณแล้ว
+
+language_end:g2052_lang

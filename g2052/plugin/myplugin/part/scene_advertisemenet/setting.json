@@ -1,0 +1,62 @@
+{
+    "attributes": [],
+    "children": [
+        {
+            "attributes": [],
+            "class": "EffectPart",
+            "customProperties": [],
+            "properties": {
+                "bakeTextureWeight": "1",
+                "batchType": "Static",
+                "canAcceptShadow": "true",
+                "canGenerateShadow": "true",
+                "effectFilePath": "asset/effect/g2052_advertisement.effect",
+                "isVisible": "true",
+                "loopCount": "1",
+                "loopInterval": "0.0",
+                "loopReset": "false",
+                "maxViewDistance": "48",
+                "name": "EffectPart",
+                "visible": "true",
+                "position": "x:-23.249002456665 y:1.76800000667572 z:-39.3190002441406",
+                "useForCollision": "false",
+                "useAnchor": "true",
+                "scaleByParent": "true"
+            }
+        }
+    ],
+    "class": "Part",
+    "customProperties": [],
+    "properties": {
+        "restitution": "0.3",
+        "bakeLightIntensity": "1",
+        "bakeTextureWeight": "1",
+        "batchType": "Static",
+        "bloom": "false",
+        "useGravity": "false",
+        "receiveShadow": "true",
+        "position": "x:-23.266996383667 y:1.78999996185303 z:-39.3289985656738",
+        "canAcceptShadow": "true",
+        "canGenerateShadow": "true",
+        "castShadow": "true",
+        "useForCollision": "false",
+        "collisionGroup": "1",
+        "useCollide": "false",
+        "customThreshold": "1",
+        "density": "2.2",
+        "discardAlpha": "0.0",
+        "exists_baked_data": "false",
+        "friction": "0.37",
+        "useAnchor": "true",
+        "isVisible": "true",
+        "massCenter": "x:-23.266996383667 y:1.78999996185303 z:-39.3289985656738",
+        "material": "",
+        "materialAlpha": "0",
+        "staticObject": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "staticBatchNo": "",
+        "name": "scene_advertisement",
+        "needSync": "false",
+        "occlusionBlocker": "false"
+    }
+}

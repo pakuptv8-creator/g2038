@@ -1,0 +1,66 @@
+{
+  "settingKey": "guideHelper",
+  "tipsPos": {
+    "left": {
+      "x": [0,0],
+      "HAlign": 2
+    },
+    "right": {
+      "x": [0,50],
+      "HAlign": 0
+    }
+  },
+  "guideCfg": {
+    "dramaMain": [
+      {
+        "highLightNode": {
+          "parent": "dramaMain",
+          "node":"DramaItem",
+          "index": 0,
+          "fingerNode":{
+            "node":"DramaItem-JoinBtn"
+          }
+        },
+        "tips": {
+          "tipsPos": "left",
+          "lang": "g2052.gui.drama.guide.tips1"
+        },
+        "activeCondition": "dramaItemListShowed"
+      },
+      {
+        "highLightNode": {
+          "parent": "dramaMain",
+          "node":"DramaMain-CreateScript"
+        },
+        "tips": {
+          "tipsPos": "left",
+          "lang": "g2052.gui.drama.guide.tips2"
+        }
+      }
+    ],
+    "dramaTemplate": [
+      {
+        "highLightNode": {
+          "parent": "dramaTemplate",
+          "node":"DramaTemplateItem"
+        },
+        "tips": {
+          "tipsPos": "right",
+          "lang": "g2052.gui.drama.guide.tips3"
+        }
+      }
+    ],
+    "dramaTemplateEdit": [
+      {
+        "highLightNode": {
+          "parent": "dramaTemplateEdit",
+          "node":"DramaTemplateEdit-EnterBtn"
+        },
+        "tips": {
+          "tipsPos": "right",
+          "lang": "g2052.gui.drama.guide.tips4"
+        }
+      }
+    ]
+  }
+}

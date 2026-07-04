@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_wodian_door",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_wodian_door.mesh",
+        "materialAlpha": "1",
+        "useCollide": "false",
+        "useGravity": "false"
+    }
+}

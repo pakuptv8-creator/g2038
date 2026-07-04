@@ -1,0 +1,228 @@
+{
+  "settingKey": "skateSetting",
+  "?forceJumpOneFrameAddVal": "跳跃蓄力每帧（每秒20帧）增加的值，1为最大值",
+  "forceJumpOneFrameAddVal": 0.08,
+  "?turnMaxAngleSpeed": "每帧（每秒20帧）可旋转_最大角角度,这个3个系数还不能调整到满意",
+  "turnMaxAngleSpeed": 3,
+  "?turnDefaultAngleSpeed": "每帧（每秒20帧）旋转角度_初始值",
+  "turnDefaultAngleSpeed": 0.1,
+  "?turnAngleOneFrameAddVal": "每帧（每秒20帧）的旋转角度_增加值",
+  "turnAngleOneFrameAddVal": 0.3,
+  "defaultJumpFactor": {
+    "?JumpFactor":"跳台速度系数，乘法关系",
+    "up": 1.5,
+    "forward": 1.5
+  },
+  "?fallJudgeAngle": "落地时判断扑街的角度",
+  "fallJudgeAngle": {
+    "pitch": 15,
+    "roll": 15
+  },
+  "?boxBalanceAreaVal": "平衡条区间值",
+  "boxBalanceAreaVal": {
+    "2": [0,20],
+    "1.5": [20,45],
+    "1": [45,55],
+    "1.6": [55,80],
+    "2.1": [80,100]
+  },
+  "?boxBalanceMaxVal": "平衡条最大值",
+  "boxBalanceMaxVal": 100,
+  "?boxBalanceClickReduce": "平衡条点击减少值",
+  "boxBalanceClickReduce": 15,
+  "?boxBalanceFailCd": "平衡打破后的box交互CD（每幀，每秒20幀）",
+  "boxBalanceFailCd": 40,
+  "?defaultRotateSpeed": "在空中旋转的速度（每幀，每秒20幀）",
+  "defaultRotateSpeed": 20,
+  "?autoRotateSpeed": "在空中旋转自动复位速度（每幀，每秒20幀）",
+  "autoRotateSpeed": 10,
+  "?jumpUpGravity": "跳跃上升时的重力",
+  "jumpUpGravity": 0.12,
+  "?jumpDownGravity": "跳跃下降时的重力",
+  "jumpDownGravity": 0.08,
+  "?boxMoveSpeed": "滑杆上的速度",
+  "boxMoveSpeed": 0.7,
+  "?cinemachineCfg":"新摄像机配置",
+  "cinemachineCfg": {
+    "?skateStepOn": "---上板镜头---",
+    "skateStepOn": {
+      "aim": {
+        "type": "SameAsFollowTarget"
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          0,
+          2.5,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 8,
+        "distanceRange": [8,8]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    },
+    "?skateFollow": "---正常移動跟随镜头---",
+    "skateFollow": {
+      "aim": {
+        "type": "SameAsFollowTarget",
+        "damping": 0
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          0,
+          1.5,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 5,
+        "distanceRange": [5,5]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    },
+    "?skateCameraDrag": "---拖拽屏幕时的镜头---",
+    "skateCameraDrag": {
+      "aim": {
+        "type": "POV"
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          0,
+          1.75,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 5.5,
+        "distanceRange": [5.5,5.5]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    },
+    "?skateFly": "---空中上升时镜头---",
+    "skateFly": {
+      "aim": {
+        "type": "POV"
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          0,
+          0.5,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 10,
+        "distanceRange": [10,10]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    },
+    "?skateFlyDown": "---空中下落时镜头---",
+    "skateFlyDown": {
+      "aim": {
+        "type": "POV"
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          0,
+          2,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 5.5,
+        "distanceRange": [5.5,5.5]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    },
+    "?flyDownOnGround": "---腾空落地镜头---",
+    "flyDownOnGround": {
+      "aim": {
+        "type": "POV"
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          0,
+          0.5,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 4,
+        "distanceRange": [4,4]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    },
+    "?boxSlip":"---滑杆时镜头---",
+    "boxSlip": {
+      "aim": {
+        "type": "SameAsFollowTarget",
+        "damping": 1
+      },
+      "body": {
+        "localspace": true,
+        "offset": [
+          -1,
+          1.5,
+          0
+        ],
+        "type": "FocusRound",
+        "distance": 5,
+        "distanceRange": [5,5]
+      },
+      "avoider": {
+        "type" :"ZoomIn"
+      }
+    }
+  },
+  "?cameraTime": "摄像机各种状态切换时间配置，单位：秒",
+  "cameraTime": {
+    "?touchDragEnter": "镜头切换平滑时间（秒）：跟随镜头 →→→ 拖拽镜头",
+    "touchDragEnter": 0.2,
+    "?touchDragExit": "镜头切换平滑时间（秒）：拖拽镜头 →→→ 跟随镜头",
+    "touchDragExit": 1,
+    "?stepOnSkate": "镜头切换平滑时间（秒）：原生站立镜头 →→→ 上滑板镜头",
+    "stepOnSkate": 0.5,
+    "?flyUp": "镜头切换平滑时间（秒）：跟随镜头 →→→ 跳台跳跃上升镜头",
+    "flyUp": 0.15,
+    "?flyFallDown": "镜头切换平滑时间（秒）：跳台跳跃上升镜头 →→→ 跳台跳跃下降镜头",
+    "flyFallDown": 0.8,
+    "?flyFallOnGround": "镜头切换平滑时间（秒）：跳台落地镜头 →→→ 跟随镜头",
+    "flyFallOnGround": 0.1,
+    "?enterBoxSlip": "镜头切换平滑时间（秒）：其他镜头 →→→ box镜头",
+    "enterBoxSlip": 0.2,
+    "?flyFallOnGroundToDrag": "镜头切换平滑时间（秒）：跳台落地镜头 →→→ 拖拽镜头",
+    "flyFallOnGroundToDrag": 0.5,
+    "?flyOnGround": "镜头切换平滑时间（秒）：跳台跳跃下降镜头 →→→ 跳台落地镜头",
+    "flyOnGround": 0.1
+  },
+  "?delayResetCameraTime": "拖拽松手后延迟恢复镜头时间 单位：帧 20帧1秒",
+  "delayResetCameraTime": 36,
+  "?disappearTime": "动作名提示消失时间 单位：帧 20帧1秒",
+  "disappearTime": 20,
+  "?actionDeduction": "动作扣分系数",
+  "actionDeduction": {
+    "jump": 0.5,
+    "flyRotate": 50
+  },
+  "?actionComboTime": "combo时间 帧 20帧1秒",
+  "actionComboTime": 60,
+  "?freeStyleTime": "freeStyle持续时间 20帧1秒",
+  "freeStyleTime": 6000,
+  "?freeStyleSettlementTime": "freeStyle结算时间 20帧1秒",
+  "freeStyleSettlementTime": 100,
+  "?randomIdleInterval": "随机idle动作间隔时间 20帧1秒",
+  "randomIdleInterval": 200
+}

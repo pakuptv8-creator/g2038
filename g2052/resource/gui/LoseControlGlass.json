@@ -1,0 +1,50 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "LoseControlGlass",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Level",
+                    "Value": "1"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "LoseControlGlass-Image",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "256 256 144 144"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_props_bg.json image:img_0_out_of_control_bg"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,3 @@
+n_id	s_name	n_trigger_interval	n_trigger_probability	n_notified_profession
+唯一索引	备注	事件触发间隔（秒为单位）	事件触发概率（0 - 100）	通知职业的id
+1	火灾	999	0	15

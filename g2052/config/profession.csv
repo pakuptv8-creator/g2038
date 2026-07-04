@@ -1,0 +1,74 @@
+n_id	n_sortId	s_sceneIcon	s_careerName	n_isHideCareer	n_isNoCall		
+职业id	排序id	职业图标	职业名多语言	是否隐藏职业	是否禁止手机呼叫		
+				0否1是，默认0	0否1禁止 默认0		
+1	1	asset/effect/image/g2052_icon_job_002.png	g2052.gui.profession.career_name1				警察
+12	2	asset/effect/image/g2052_icon_job_012.png	g2052.gui.profession.career_name12				特警
+2	3	asset/effect/image/g2052_icon_job_003.png	g2052.gui.profession.career_name2				保安
+15	4	asset/effect/image/g2052_icon_job_015.png	g2052.gui.profession.career_name15				消防员
+64	5	asset/effect/image/g2052_icon_job_064.png	g2052.gui.profession.career_name64				军人
+3	6	asset/effect/image/g2052_icon_job_001.png	g2052.gui.profession.career_name3	1	1		罪犯
+71	7	asset/effect/image/g2052_icon_job_071.png	g2052.gui.profession.career_name71		1		囚犯
+70	8	asset/effect/image/g2052_icon_job_070.png	g2052.gui.profession.career_name70		1		匪帮
+9	9	asset/effect/image/g2052_icon_job_009.png	g2052.gui.profession.career_name9		1		DJ
+8	10	asset/effect/image/g2052_icon_job_008.png	g2052.gui.profession.career_name8		1		音乐家
+7	11	asset/effect/image/g2052_icon_job_007.png	g2052.gui.profession.career_name7		1		歌手
+4	12	asset/effect/image/g2052_icon_job_004.png	g2052.gui.profession.career_name4		1		商店店员
+6	13	asset/effect/image/g2052_icon_job_006.png	g2052.gui.profession.career_name6		1		汉堡店员
+11	14	asset/effect/image/g2052_icon_job_011.png	g2052.gui.profession.career_name11		1		雪糕店员
+32	15	asset/effect/image/g2052_icon_job_032.png	g2052.gui.profession.career_name32		1		披萨店员
+33	16	asset/effect/image/g2052_icon_job_033.png	g2052.gui.profession.career_name33		1		咖啡店员
+16	17	asset/effect/image/g2052_icon_job_016.png	g2052.gui.profession.career_name16		1		服装店员
+25	18	asset/effect/image/g2052_icon_job_025.png	g2052.gui.profession.career_name25		1		理发店员
+30	19	asset/effect/image/g2052_icon_job_030.png	g2052.gui.profession.career_name30		1		飞行员
+39	20	asset/effect/image/g2052_icon_job_039.png	g2052.gui.profession.career_name39		1		宇航员
+13	21	asset/effect/image/g2052_icon_job_013.png	g2052.gui.profession.career_name13				医生
+41	22	asset/effect/image/g2052_icon_job_041.png	g2052.gui.profession.career_name41				外科医生
+21	23	asset/effect/image/g2052_icon_job_021.png	g2052.gui.profession.career_name21				宠物医生
+23	24	asset/effect/image/g2052_icon_job_023.png	g2052.gui.profession.career_name23				护士
+14	25	asset/effect/image/g2052_icon_job_014.png	g2052.gui.profession.career_name14		1		病人
+24	26	asset/effect/image/g2052_icon_job_024.png	g2052.gui.profession.career_name24		1		小孩
+46	27	asset/effect/image/g2052_icon_job_046.png	g2052.gui.profession.career_name46		1		学生
+40	28	asset/effect/image/g2052_icon_job_040.png	g2052.gui.profession.career_name40		1		教师
+10	29	asset/effect/image/g2052_icon_job_010.png	g2052.gui.profession.career_name10		1		教授
+47	30	asset/effect/image/g2052_icon_job_047.png	g2052.gui.profession.career_name47		1		校长
+26	31	asset/effect/image/g2052_icon_job_026.png	g2052.gui.profession.career_name26				司机
+52	32	asset/effect/image/g2052_icon_job_052.png	g2052.gui.profession.career_name52				出租车司机
+63	33	asset/effect/image/g2052_icon_job_063.png	g2052.gui.profession.career_name63				公交司机
+35	34	asset/effect/image/g2052_icon_job_035.png	g2052.gui.profession.career_name35		1		剑术大师
+36	35	asset/effect/image/g2052_icon_job_036.png	g2052.gui.profession.career_name36		1		弓箭射手
+37	36	asset/effect/image/g2052_icon_job_037.png	g2052.gui.profession.career_name37		1		跆拳道馆长
+29	37	asset/effect/image/g2052_icon_job_029.png	g2052.gui.profession.career_name29		1		运动员
+34	38	asset/effect/image/g2052_icon_job_034.png	g2052.gui.profession.career_name34		1		溜冰员
+22	39	asset/effect/image/g2052_icon_job_022.png	g2052.gui.profession.career_name22				救生员
+5	40	asset/effect/image/g2052_icon_job_005.png	g2052.gui.profession.career_name5		1		厨师
+49	41	asset/effect/image/g2052_icon_job_049.png	g2052.gui.profession.career_name49		1		美食家
+19	42	asset/effect/image/g2052_icon_job_019.png	g2052.gui.profession.career_name19		1		服务员
+55	43	asset/effect/image/g2052_icon_job_055.png	g2052.gui.profession.career_name55		1		船长
+53	44	asset/effect/image/g2052_icon_job_053.png	g2052.gui.profession.career_name53		1		水手
+54	45	asset/effect/image/g2052_icon_job_054.png	g2052.gui.profession.career_name54		1		渔夫
+17	46	asset/effect/image/g2052_icon_job_017.png	g2052.gui.profession.career_name17		1		教堂
+42	47	asset/effect/image/g2052_icon_job_042.png	g2052.gui.profession.career_name42				律师
+45	48	asset/effect/image/g2052_icon_job_045.png	g2052.gui.profession.career_name45		1		法官
+69	49	asset/effect/image/g2052_icon_job_069.png	g2052.gui.profession.career_name69	1	1		议员
+43	50	asset/effect/image/g2052_icon_job_043.png	g2052.gui.profession.career_name43		1		小丑
+31	51	asset/effect/image/g2052_icon_job_031.png	g2052.gui.profession.career_name31		1		科学家
+38	52	asset/effect/image/g2052_icon_job_038.png	g2052.gui.profession.career_name38		1		化妆师
+62	53	asset/effect/image/g2052_icon_job_062.png	g2052.gui.profession.career_name62		1		舞蹈家
+44	54	asset/effect/image/g2052_icon_job_044.png	g2052.gui.profession.career_name44		1		裁缝
+50	55	asset/effect/image/g2052_icon_job_050.png	g2052.gui.profession.career_name50		1		模特
+51	56	asset/effect/image/g2052_icon_job_051.png	g2052.gui.profession.career_name51		1		农民
+56	57	asset/effect/image/g2052_icon_job_056.png	g2052.gui.profession.career_name56		1		收藏家
+57	58	asset/effect/image/g2052_icon_job_057.png	g2052.gui.profession.career_name57		1		主持人
+61	59	asset/effect/image/g2052_icon_job_061.png	g2052.gui.profession.career_name61		1		记者
+59	60	asset/effect/image/g2052_icon_job_059.png	g2052.gui.profession.career_name59		1		作家
+65	61	asset/effect/image/g2052_icon_job_065.png	g2052.gui.profession.career_name65		1		导游
+66	62	asset/effect/image/g2052_icon_job_066.png	g2052.gui.profession.career_name66		1		画家
+67	63	asset/effect/image/g2052_icon_job_067.png	g2052.gui.profession.career_name67		1		花匠
+68	64	asset/effect/image/g2052_icon_job_068.png	g2052.gui.profession.career_name68		1		建筑师
+18	65	asset/effect/image/g2052_icon_job_018.png	g2052.gui.profession.career_name18		1		玩家
+48	66	asset/effect/image/g2052_icon_job_048.png	g2052.gui.profession.career_name48		1		游戏玩家
+27	67	asset/effect/image/g2052_icon_job_027.png	g2052.gui.profession.career_name27		1		起床战争玩家
+20	68	asset/effect/image/g2052_icon_job_020.png	g2052.gui.profession.career_name20				清洁工
+58	69	asset/effect/image/g2052_icon_job_058.png	g2052.gui.profession.career_name58				佣人
+60	70	asset/effect/image/g2052_icon_job_060.png	g2052.gui.profession.career_name60				工人
+28	71	asset/effect/image/g2052_icon_job_028.png	g2052.gui.profession.career_name28				邮递员

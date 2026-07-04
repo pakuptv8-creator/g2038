@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "tree02",
+        "useAnchor": "true",
+        "scale": "x:0.5 y:0.5 z:0.5",
+        "materialAlpha": "1",
+        "useGravity": "false",
+        "mesh": "asset/scene/mesh/tree02.mesh"
+    }
+}

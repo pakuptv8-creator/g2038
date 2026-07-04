@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_fuzhuangdian_jiaju04",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_fuzhuangdian_jiaju04.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false",
+        "scale": "x:0.5 y:0.5 z:0.5"
+    }
+}

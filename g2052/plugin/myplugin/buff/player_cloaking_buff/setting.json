@@ -1,0 +1,10 @@
+{
+    "needSave": false,
+    "alpha": 0.5,
+    "delayTime": 20,
+    "alphaTime": 100,
+    "avoidBuff": [
+        "myplugin/player_cloaking_buff"
+    ],
+    "sync": "other"
+}

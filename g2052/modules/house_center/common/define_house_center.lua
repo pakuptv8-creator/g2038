@@ -1,0 +1,11 @@
+Define.AREA_LIMIT_TYPE = {
+  NOT_LIMIT = 0,
+  NOT_HOST = 1,
+  NOT_FRIEND = 2
+}
+Define.DRIVE_TYPE = {
+  ALL = 0,
+  NOT_HOST = 1,
+  NOT_FRIEND = 2
+}
+Define.HOUSE_EVENT_GHOST_TYPE = {GHOST = 1, EVIL = 2}

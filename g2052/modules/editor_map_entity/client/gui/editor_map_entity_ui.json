@@ -1,0 +1,254 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "editor_map_entity_ui",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "editor_map_entity_ui_entity_list_lyt",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0.411765 0.352941 0.396078 1"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,2},{0,1},{1,2},{0,151}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "editor_map_entity_ui_scene_obj_linfo_0",
+                            "Property": [
+                                {
+                                    "Name": "BackgroundColor",
+                                    "Value": "0.411765 0.352941 0.396078 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,200},{1,-150}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "editor_map_entity_ui_scene_obj_list",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0.411765 0.352941 0.396078 0.941176"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,50},{0,150},{1,-150}}"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "editor_map_entity_ui_scene_obj_linfo",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0.411765 0.352941 0.396078 1"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,250},{1,-150}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Button",
+                            "Name": "editor_map_entity_ui-Delect",
+                            "Property": [
+                                {
+                                    "Name": "BackgroundColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,186},{0,4},{0,236},{0,34}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "删除"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT14"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT14"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "editor_map_entity_ui-save",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 0 0.784314"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,100},{0,50}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "save"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "editor_map_entity_ui-close",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 0 0.784314"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,105},{0,0},{0,205},{0,50}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "close"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "editor_map_entity_ui-add",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "1 0 0 1"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,241},{0,58},{0,291},{0,88}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "添加"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT12"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT12"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Edit",
+                    "Name": "editor_map_entity_ui-newScene",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 1 1"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,156},{0,57},{0,236},{0,87}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "input ui name"
+                        },
+                        {
+                            "Name": "MaxTextLength",
+                            "Value": "-1"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

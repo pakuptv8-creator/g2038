@@ -1,0 +1,69 @@
+s_dec	功能负责人	s_func	s_sync	s_triggers	s_precondition	s_bindRelation	s_nextInteract	s_p1	s_p2	s_p3	s_p4	s_p5	s_p6	s_p7	s_p8
+描述		对应回调	同步类型	触发时机 零件相关需要 1 点击 2碰撞 3结束碰撞 4交互UI 5零件之间碰撞开始 6零件直接碰撞结束 7时刻触发，8零件生成时	触发条件（1手持某物 2某种身份 3零件碰撞 4宅主本人 5消耗某物）	零件名#零件名#零件名 同组下的零件绑定关系，绑定后同时只能一个人交互	触发下个交互事件 （延时#事件#当前零件交互的启动CD)	参数1	参数2	参数3	参数4	参数5	参数6	参数7	参数8
+申请房屋	罗心铭	onApplyHouse	server												
+拾取物品	罗心铭	onPickProp	server	2				1001#50;1002#30 ---  物品id#权重;物品id#权重 物品id与props 关联 	是否移除交互的零件： 1 是，默认0否	拾取物品后的初始buff 序号： 默认1					
+拾取物品并隐藏	何洛鸣	onPrintPaperInteract	server	1#4				交互获得的物品id：2014							
+生成物品并作位移	何洛鸣	onPrinterInteract	server	1#4				创建打印纸资源名：myplugin/paper	打印纸相对打印机创建的偏移量：0#0.6#0.1	打印纸相对打印机打印结束的偏移量：0.8#0.6#0.1	打印纸移动的时间（帧）：40	打印背景音效：dayinji			
+游泳区域	孟浩	onTouchWater	server	2#3											
+攀爬区域	孟浩	onTouchLadder	server	2#3				角度	速度						
+人物换装	黄建浩	onDressUp	server					appearance表id	部位id#部位id(如果需要生效随机部位,第一个参数要去掉)						
+人物职业更新	何洛鸣	onChangeProfession	server	4				职业ID							
+家具类交互	何洛鸣	onFurnitureInteract	server	1				第一个位置的动作#x#y#z上车偏移量#x#y#z下车偏移量x_y_z>sit1#0.6#-0.5#0#0.6#-0.5#0	1#1#1  体型偏移x#y#z,增大为正数						
+家具类交互-乘骑带置换	何洛鸣	onVehicleToOnePart	server	2				jiguangchuang_m 被当载具的零件名	sleep1#0#0#0#-90#90#0 乘坐后的动作、位置、旋转	0#0#0 下车的位置偏移					
+家具类交互-可控制旋转	罗心铭	rideFixedPointVehicle	server					1#1#1   挂点偏移 不需要就不填 2同理	1#1#1 初始旋转	30 最大旋转角度	1 速率放大 1为默认值 大于1加快 小于1减慢 不为负数	 动作名	z   旋转轴默认z  只有 x y z 三种参数有效		
+传送	罗心铭	onEnterPortal	server	2				map001#0#100#0  ---  地图name#x#y#z#yaw							
+旋转	罗心铭	operationPartRotate	server	1				-90     旋转角度	0#0#1     旋转轴	0#0#-0.5  基点偏移 初始是几何中心	1=任意内容不循环 	20 单位帧 还原时间	20 单位帧 平滑移动时间	结束回调fun	crash 旋转时碰撞
+位移	罗心铭	operationPartMove	server	1				1#0#0    位移方向	1= 任意内容不循环 	20 单位帧 还原时间	1  任意内容同级零件一起移动	20 单位帧 平滑移动时间			
+循环-停顿位移	覃健才	operationPartMoveLoop	server	1				1#0#0    位移方向	平滑时间帧	停顿时间 帧					
+开关控制	罗心铭	onTriggerAssociated	server	1				key1#key2#key3   触发key partName	1  打开时 s_triggers 类型	1  关闭时 s_triggers 类型  不写默认点击	未触发时mesh	触发时mesh	附带fun（非part交互）	是否是一对一的零件交互 1是 默认0 否	默认1（不填） 向上多少层的父节点
+多零件开关控制	何洛鸣	onCascadeState	server	0				box_sleep1#box_sleep2 可以控制当前零件的零件名	bedshow#box_show2 当前零件可以控制的零件						
+播放特效	黄建浩	playEffectOnPart	server	1				g2052_small_fire.effect 特效名字	0#0#0 位置偏移	1 scale	0 yaw	特效消亡时间(即特效生成后多久时间消失)，单位帧		reset 是否消亡	延迟 帧
+播放有条件限制特效	覃健才	playLimitEffectOnPart	server	1				g2052_small_fire.effect 特效名字	0#0#0 位置偏移	1 scale	0 yaw	特效消亡时间(即特效生成后多久时间消失)，单位帧	特效重生时间（即消亡后多久时间再次重生）单位帧	手持道具Id	
+主要区域	罗心铭	onAreaMonitoring	server	2#3				1  是否上报	soundKey						
+房子区域	罗心铭	onHouseAreaMonitoring	server	2#3				1  是否上报	soundKey						
+3d音效区域	罗心铭	onControlArea3dSound	server	2#3				soundKey  	偏移量 0#1.5#0     不填以区域中心为目标放置	持续时间  不填 离开区域去除  填 在区域内过时间去除					
+警察局直升机刷新区域	何洛鸣	onHelicopterMonitoring	server	2#3				1  是否上报	soundKey						
+滑滑梯触发部件	覃健才	onSlideLadderInteract	server	2				对用entity配置	对应entity位置偏移量，x#y#z#yaw	滑梯动作时长	对应滑滑梯的partId，格式为id:XXXXXX				
+秋千触发部件	覃健才	onSwingInteract	server	2				第一个位置的动作#x#y#z上车偏移量#x#y#z下车偏移量>sit1#0.6#-0.5#0#0.6#-0.5#0	第二个位置的参数						
+(特定)炸弹	黄建浩	onExplodeBarrier	server					myplugin/detonate_bomb_skill							
+(特定)秘境黑板事件	覃健才	OnSecretBlackboard	server					partId#partId,黑板显示的零件Id	Id:partId, 满足条件后显示的零件id，如秘境传送门	满足条件后（传送门开启之后）多久恢复原始状态（单位帧）	满足条件后传送坐标，如map001#174#20#-226#-116				
+(特定)许愿币碰撞	何洛鸣	onGoldCoinEffect	server	5				特效名：g2021_chest_15.effect	特效偏移量：0#1.5#0	特效缩放倍数：2	有碰撞效果的零件名：pengquan_w#xxx#xxx				
+零件改名	罗心铭	switchPartName	server					需要改名的 零件名    name1#name2   当是name1时会改成name2 反之亦然							
+零件变色	罗心铭	changePartColor	server					238,184,90,1   rgba	0.5  零件本身的透明度，不改变则不填	1 是否改变辉光开关 1是 0否默认0					
+零件显示隐藏	何洛鸣	onUpdatePartShow	server	1#2#7				key1#key2   触发key partName，控制其他零件显示隐藏，控制自己则不填	自己的初始显示状态（1显示 0隐藏）						
+更换零件部件	何洛鸣	onChangePartMesh	server	1				roadblock_a.mesh#floorlamp.mesh  可更换的零件mesh							
+点火零件	黄建浩	onLightOnFire	server	1				特效名（支持多个特效切换）：g2052_small_fire.effect#g2030_ranshao.effect	1 scale	2 引发大火索引，不填则默认只要触发都会引发大火	如果不是触发火灾的话触发交互事件的名字	触发延迟时间	音效名和音量（需要跟特效数量一致）：house_fire.mp3,1#house_fire.mp3,2		
+打开监控视角	黄建浩	openMonitorView	client	1				监视器组id（monitor表） 1002							
+住宅锁	罗心铭	operatePartInteractLock	server	1				house_damen_l#house_damen_r#box_house_damen  涉及到的零件同组下	house  如果是住宅填这个不是就不填	asset/house/mesh/2052_lock01.mesh  正常状态	asset/house/mesh/2052_lock02.mesh    锁状态				
+触发密码开关	黄建浩	triggerPasswordInput	server	1				正确密码	密码正确触发的零件名字						
+电视屏幕（单张）	罗心铭	onWatchTelevision	server	4				图片名 #分割 2052_tiehua01.png#2052_tiehua02.png	1  设置为1 则有换台ui						
+电视屏幕（多张）	罗心铭	operationTelevision	server	1				图片名 #分割 2052_tiehua01.png#2052_tiehua02.png	left_btn#right_btn  同个打组的控制开关name						
+电视控制按钮	罗心铭	operatingInTaiwan	server					图片切换操作方式1减 2加 3随机 							
+切换贴花内容	罗心铭	onTogglesDecalContent	server					图片名 #分割 2052_tiehua01.png#2052_tiehua02.png	1 初始内容 不填就是没有						
+UI-点击招标公示栏-编辑器	何洛鸣	onClickBiddingNoticeBoard	server	0											
+UI-点击招标公示栏-排行榜	何洛鸣	onClickBiddingNoticeRank	server	0											
+UI-点击打开蛋蛋屋传送界面	何洛鸣	onOpenTenderingTransfer	client	1											
+UI-点击告示牌打开日报界面	何洛鸣	openAnnouncementUI	client	1											
+弹簧床	罗心铭	triggerSpringBed	client	2				0.5 系数           起跳速度=系数*高度	1 最小高度	10 最大高度					
+编辑墙-文本	何洛鸣	onEditPartContentShow	server	0				-5#-5#0   3DUI相对零件的位置偏移	0#90#0 3DUI旋转	20  3DUI可视距离	400#800  3DUI的宽高	g2052.gui.part.content.init  3DUI的初始文本	FF0000  3DUI的文本初始颜色	FFFF00 3DUI的背景初始颜色不填则无背景色	
+取消手持道具交互	何洛鸣	onCancelHandSomeItem	server	1				1018#1019   可移除的手持道具ID，不填则移除所有手持							
+更新子节点特效的显示隐藏	何洛鸣	onUpdateChildEffect	server	1				EffectPart1#EffectPart2  需要隐藏的特效零件名（只隐藏自己的子节点的） 	20 延迟多少帧执行，默认不延迟						
+创建零件载具并移动，滑杆	何洛鸣	onCreateMovePart	server	1				myplugin/elevator  创建的零件	1#0#0 创建零件相当于交互零件的偏移	g2052_boy_sit_floor#0#0#0#0#0#0  零件载具的动作位置旋转	0#0#-6  载具移动的偏移方向	80  载具移动的时间 帧	0#0#0  下车相对载具零件的偏移	0.4 载具零件距离交互零件的水平距离，这里配置了参数2的xz就失效	
+定点载具（旋转不位移）	罗心铭	rideFixedPointVehicle	server					1#1#1   挂点偏移 不需要就不填 2同理	1#1#1 初始旋转	30 最大旋转角度	1 速率放大 1为默认值 大于1加快 小于1减慢 不为负数	动作名	z   旋转轴默认z  只有 x y z 三种参数有效    		
+触发打开颜色选择界面	黄建浩	triggerColorSelect	server					部件名，比如头发的话就是custom_hair							
+家具改名	何洛鸣	switchFurnitureName	server					需要改名的 零件名    name1#name2   当是name1时会改成name2 反之亦然，同时会更改家具上人的动作							
+点击拍照	何洛鸣	onPlayerPhotograph	server	1				3DUI的宽度：200	UI相对零件的位置偏移量：0#2#0	UI的旋转朝向xyz：0#0#0	UI的可视距离半径为  4	照片actor缩放大小： 0.5			
+零件文本	何洛鸣	onInitTextDecalText	client					1#xxx#HT18#FF00FF#0#1$2#...   面序号1#多语言#字号HT18#颜色FF00FF#0左1中2右对齐#0上1中2下对齐$面序号2#。。。							
+悬浮区域	何洛鸣	onUpdateFloatArea	server	2#3				myplugin/float_area_buff   漂浮区域的buff，控制漂浮动作映射	0.05 漂浮是水平移动的速度	2#12#7  漂浮范围：最小#最大#速度控制水平线	0.01#0.06  上升的反重力：最小#最大	0.001#0.006 下落的重力：最小#最大	partName#name2  这些零件有开启状态，当前零件才能触发		
+添加区域buff	何洛鸣	addBuffOnPlayer	server	2#3				myplugin/player_on_fire_buff  进入区域添加的buff名	400  buff持续时间帧	small_fire_point#fireState#onFire  触发条件零件名#状态#状态值	partName#name2  这些零件有开启状态，当前零件才能触发				
+房屋事件-幽灵开关	林树彬	onUpdateHouseGhost	server					1（1=幽灵，2=恶魂）	house_event_ghost_point （幽灵刷新点零件名称）	5 （幽灵刷新点激活间隔秒数）	2 （幽灵出现持续秒数）	xxx （幽灵探测器触发点名称）			
+幽灵探测器触发点	林树彬	setGhostDetectorStyle	server	2#3	1#1006 （必须持有探测器）			1（进入时设置的道具状态）	2（离开时设置的道具状态）	1008（幽灵探测器物品id）	xxx（幽灵刷新点零件名称）				
+地震	林树彬	onEarthquake	server					0.3（一次震动的幅度）	0.5（一次震动的时间）	2（震动持续最少秒数）	5（震动持续最多秒数）	3（震动停止最少秒数）	6（震动停止最多秒数）	house3_yizi（地震特效刷新点零件）	
+物品占用	何洛鸣	onOccupationPart	server	1				60 物品占用的时间（秒，-1为永久）	g2052.gui.occupation.goods 占用物品的多语言	school_test_door#xxx  占用后触发的零件交互	school_test_name  赋名零件名	2#HT18#100#20FF00FF#1#1    面序号(0~5)#字号HT18#文本宽#文本高颜色FF00FF#0左1中2右对齐#0上1中2下对齐			
+发送提示消息	林树彬	onSendMessageNotice	server					1（消息id）	1（break时是否执行，1执行，不填不执行）	2 （break时的消息id）	1 （特殊广播类型：1-特定职业）	1 （广播子类型：目前支持职业id）	1 （信息填充类型：1-触发玩家的名称）		
+船刷新区域	何洛鸣	onShipMonitoring	server	2#3				1  是否上报	soundKey						
+创建零件载具并移动，斜坡	何洛鸣	onWithPartDirMove	server	2#3  2开始滑动3取消滑动				myplugin/elevator  创建的零件	1#0#0 创建零件相当于玩家位置的偏移	g2052_boy_sit_floor#0#0#0#0#0#0  零件载具的动作位置旋转	0.7 移动速度（每帧）				
+房屋渲染调整	罗心铭	onControlHouseLight	server	1	正常情况1 0等于关闭  不填默认0										
+万圣节奖励兑换	何洛鸣	onHalloweenExchange	server	1				是否需要头顶文字提示1需要 0不需要	对应对应表的id						
+发送快捷短语	何洛鸣	onPartSendShortMsg	server	1				1 对应快捷短语的id	1  1显示头顶气泡，否则不显示	1  1播放相关动作，否则不	1  1显示在小聊天框，否则不显示				
+拾取巨人汉堡	何洛鸣	onGiantHamburger	server	2											

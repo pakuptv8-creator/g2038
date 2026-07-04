@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_fangzi05_huaping",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/zhuzhaie/g2052_fangzi05_huaping.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

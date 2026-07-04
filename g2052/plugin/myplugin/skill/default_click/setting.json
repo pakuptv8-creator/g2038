@@ -1,0 +1,10 @@
+{
+  "castActionTime": 0,
+  "castAction": "",
+  "startAction": "",
+  "stopAction": "",
+  "touchTime": 1,
+  "type": "Click",
+  "isClick": true,
+  "priority": -1
+}

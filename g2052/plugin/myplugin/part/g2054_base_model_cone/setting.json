@@ -1,0 +1,12 @@
+{
+    "class": "Part",
+    "properties": {
+        "useAnchor": "true",
+        "shape": "4",
+        "useGravity": "false"
+    },
+    "attributes": {
+        "textureIndex": 1,
+        "color": "r:1.0 g:1.0 b:1.0 a:1.0"
+    }
+}

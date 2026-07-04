@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "prop_niunai",
+        "useAnchor": "true",
+        "mesh": "asset/prop/mesh/prop_niunai.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

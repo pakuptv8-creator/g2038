@@ -1,0 +1,71 @@
+{
+    "name": "",
+    "runBuff": [
+        "myplugin/bike_run_buff"
+    ],
+    "base": "trolley_base",
+    "actorName": "g2020_car11.actor",
+    "moveSpeed": 0.57,
+    "bodyTurnSpeed": 30,
+    "collisionGroup": 2,
+    "brightnessScale": 1.7,
+    "checkPartTouchEvent": true,
+    "jumpSpeed": 1,
+    "posSyncDelay": 5,
+    "ridePos": [
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0,
+                "z": 0.08
+            },
+            "out": {
+                "x": 0,
+                "y": 0.7,
+                "z": -0.2
+            },
+            "ctrl": true,
+            "view": false,
+            "rideAction": {
+                "base": "idle",
+                "run": "run",
+                "idle": "idle",
+                "fly": "run",
+                "jump1": "run",
+                "jump2": "run",
+                "jump_fall": "run",
+                "jump3":"run"
+            },
+            "passengerAction": {
+                "base": "g2020_barrow",
+                "run": "g2020_barrow",
+                "idle": "g2020_barrow",
+                "jump1": "g2020_barrow",
+                "jump2": "g2020_barrow",
+                "jump_fall": "g2020_barrow",
+                "jump3":"g2020_barrow"
+            },
+            "?attachPoint": "ride1"
+        }
+    ],
+    "attachPoints": [
+        {
+            "name": "ride1",
+            "bone": "b_spine",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        }
+    ],
+    "fixBodyTurn": true
+}

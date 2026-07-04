@@ -1,0 +1,566 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "BiddingRankList",
+            "Property": [
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 0 0.784314"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                    "Name": "VerticalAlignment",
+                    "Value": "Centre"
+                },
+                {
+                    "Name": "HorizontalAlignment",
+                    "Value": "Centre"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "BiddingRankList-RankLyt",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,-60}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Layout",
+                            "Name": "BiddingRankList-RankLyt-RankList",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,-25},{0,848},{0,525}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "BiddingRankList-RankLyt-NextPage",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,539},{0,-12},{0,601},{0,50}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_toggle"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_toggle"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "BiddingRankList-RankLyt-BeforePage",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-539},{0,-13},{0,-477},{0,49}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Rotate",
+                                    "Value": "180"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_toggle"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_toggle"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "BiddingRankList-RankLyt-PageNumBg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,272},{0,152},{0,301}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "14 14 14 14"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_tender.json image:img_9_turn_page"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "BiddingRankList-RankLyt-PageNum",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-1},{0,272},{0,49},{0,322}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "1/46"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT18"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT18"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Edit",
+                            "Name": "BiddingRankList-RankLyt-PageInput",
+                            "Property": [
+                                {
+                                    "Name": "DrawColor",
+                                    "Value": "1 1 1 0"
+                                },
+                                {
+                                    "Name": "Alpha",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,273},{0,130},{0,303}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "10"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT18"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT18"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 1 1 0"
+                                },
+                                {
+                                    "Name": "MaxTextLength",
+                                    "Value": "-1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "BiddingRankList-Title",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{0,60}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "BiddingRankList-Title-Bg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_chat.json image:img_9_chat09"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "BiddingRankList-Title-CloseBg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,60},{1,0}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_chat.json image:img_9_chat04"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "BiddingRankList-Title-CloseImg",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,5},{0,13},{0,48},{0,56}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_buttons.json image:btn_0_back"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "BiddingRankList-Title-Close",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,60},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "BiddingRankList-Title-Finder",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-25},{0,0},{0,378},{0.633333,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "BiddingRankList-Title-Finder-Bg",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "19 19 19 19"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_chat_box.json image:img_9_chat_bg03"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "BiddingRankList-Title-Finder-Find",
+                                    "Property": [
+                                        {
+                                            "Name": "DrawColor",
+                                            "Value": "0.945098 0.745098 0.0784314 1"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,15},{0,-1},{0,39},{0,23}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_icon.json image:icon_0_search"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_icon.json image:icon_0_search"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Edit",
+                                    "Name": "BiddingRankList-Title-Finder-Edit",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,50},{0,0},{0,394},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "MaxTextLength",
+                                            "Value": "-1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "BiddingRankList-Title-TitleName",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,85},{0,-1},{0,135},{0,49}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "New StaticText"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT20"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "HT20"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "BiddingRankList-Title-Audit-Status",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,128},{0,7},{0,228},{0,47}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Button",
+                                    "Name": "BiddingRankList-Audit-Select",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,100},{0,40}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "16 16 16 16"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "All"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_function.json image:img_0_colour03"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_function.json image:img_0_colour03"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

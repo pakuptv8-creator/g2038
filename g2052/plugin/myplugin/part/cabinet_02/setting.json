@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "house02_bingxiang",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/zhuzhaib/house02_bingxiang.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "MobileEditorWidgetModelCommonSecondary",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,198},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "MobileEditorWidgetModelCommonSecondary-bg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "0 0 82 0"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_mobile_editor_common.json image:img_9_library02"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "MobileEditorWidgetModelCommonSecondary-editorIcon",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.030303,0},{0.0347222,0},{0.207071,0},{0.0861111,0}}"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_ground"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "MobileEditorWidgetModelCommonSecondary-editorName",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.247475,0},{0.0319444,0},{0.676768,0},{0.0805555,0}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "ground"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "GridView",
+                    "Name": "MobileEditorWidgetModelCommonSecondary-gridView",
+                    "Property": [
+                        {
+                            "Name": "ClipChild",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,10},{1,0},{0.909722,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "ItemAlignment",
+                            "Value": "Left"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

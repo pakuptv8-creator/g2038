@@ -1,0 +1,15 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/scene/mesh/g2052_zhubao01.mesh",
+        "name": "bank_baoshi",
+        "position": "x:0 y:0 z:0",
+        "scale": "x:0.4 y:0.4 z:0.4",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.25
+    }
+}

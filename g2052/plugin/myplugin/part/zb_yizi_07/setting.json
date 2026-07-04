@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "kanhu_yaoyi02",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/kanhu_yaoyi02.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

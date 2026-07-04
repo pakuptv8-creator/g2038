@@ -1,0 +1,8 @@
+if World.isClient then
+  Event.EVENT_CLIENT_HANDLE_TICK = Event.register("EVENT_CLIENT_HANDLE_TICK")
+  Event.EVENT_CLICK_SCREEN = Event.register("EVENT_CLICK_SCREEN")
+  Event.EVENT_ENTER_VIDEO_MODEL = Event.register("EVENT_ENTER_VIDEO_MODEL")
+  Event.EVENT_ENTITY_MOVE_STATUS_CHANGE = Event.register("EVENT_ENTITY_MOVE_STATUS_CHANGE")
+  Event.EVENT_CHANGE_FAR_CLIP = Event.register("EVENT_CHANGE_FAR_CLIP")
+else
+end

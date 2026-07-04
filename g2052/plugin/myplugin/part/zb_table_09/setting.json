@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "hw_zhuozi",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/hw_zhuozi.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

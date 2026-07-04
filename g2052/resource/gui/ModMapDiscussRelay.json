@@ -1,0 +1,194 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "ModMapDiscussRelay",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,732},{0,58}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "ModMapDiscussRelay-Bg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "30 30 30 30"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_mod.json image:img_9_top02"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "ModMapDiscussRelay-InputView",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,15},{0,0},{0,627},{0,39}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "ModMapDiscussRelay-Input-Bg",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "19 19 19 19"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_mod.json image:img_9_search"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "ModMapDiscussRelay-Input-Show",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,-20},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Edit",
+                            "Name": "ModMapDiscussRelay-Input",
+                            "Property": [
+                                {
+                                    "Name": "DrawColor",
+                                    "Value": "1 1 1 0"
+                                },
+                                {
+                                    "Name": "Alpha",
+                                    "Value": "0"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "19 19 19 19"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 1 1 0"
+                                },
+                                {
+                                    "Name": "EditBackImage",
+                                    "Value": "set:g2052_mod.json image:img_9_search"
+                                },
+                                {
+                                    "Name": "TextOffset",
+                                    "Value": "10"
+                                },
+                                {
+                                    "Name": "MaxTextLength",
+                                    "Value": "-1"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "ModMapDiscussRelay-RelayBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-13},{0,3},{0,69},{0,51}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_chat.json image:btn_0_send"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_chat.json image:btn_0_send"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

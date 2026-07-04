@@ -1,0 +1,7 @@
+{
+    "1hide": 1,
+	"1hideDeep": 0.4,
+    "hideActor" : 1,
+    "disableSkillsStatus": 1,
+    "deadRemove": true
+}

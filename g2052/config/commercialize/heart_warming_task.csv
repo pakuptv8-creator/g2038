@@ -1,0 +1,18 @@
+n_taskId	n_activityId	n_taskType	unname1	n_targetNum	n_isAccumulative	n_taskDay	n_rewardNum	s_taskTitle	s_taskDesc		unname2
+任务ID	所属的活动ID	任务类型	备注	任务目标数量	是否是累计任务	属第几日任务	任务奖励积分	任务标题	任务说明		备注
+唯一key		默认1		默认是1	0 不是，1 是，默认0	默认1，最大3	默认0				任务类型备注
+11	110001	1	累计在游戏内添加1个好友	1	1	1	5	taskTitle_11			1添加好友
+12	110001	2	给自己设定一个新的职业			1	5	taskTitle_12			2选职业
+13	110001	3	给自己更换一件新的装扮			1	5	taskTitle_13			3跟换装扮
+14	110001	4	建造一个属于自己的房子			1	5	taskTitle_14			4建房子
+15	110001	11	完成今日所有的任务			1	10	taskTitle_15			5载具载其他玩家
+21	110001	1	累计在游戏内添加3个好友	3	1	2	5	taskTitle_21			6赠送玩家道具
+22	110001	5	使用小型载具装载过2个玩家	2		2	5	taskTitle_22			7玩家动作互动
+23	110001	6	给2个玩家赠送过道具	2		2	5	taskTitle_23			8点燃别人房子
+24	110001	7	与2个玩家进行拥抱或其他动作互动	2		2	5	taskTitle_24	taskDesc_24		9警察职业把玩家关进警局
+25	110001	11	完成今日所有的任务			2	10	taskTitle_25			10消防员职业灭火
+31	110001	1	累计在游戏内添加5个好友	5	1	3	5	taskTitle_31			11完成当天所有任务
+32	110001	8	使用打火机或炸弹引燃别人的房子			3	5	taskTitle_32	taskDesc_32		
+33	110001	9	使用警察职业把玩家关进警局			3	5	taskTitle_33			
+34	110001	10	使用消防员职业进行一次灭火			3	5	taskTitle_34	taskDesc_34		
+35	110001	11	完成今日所有的任务			3	20	taskTitle_35			

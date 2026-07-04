@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "polysurface138",
+        "useAnchor": "true",
+        "scale": "x:0.6 y:0.6 z:0.6",
+        "materialAlpha": "1",
+        "useGravity": "false",
+        "mesh": "asset/scene/mesh/polysurface138.mesh"
+    }
+}

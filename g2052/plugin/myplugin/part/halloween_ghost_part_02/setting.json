@@ -1,0 +1,41 @@
+{
+    "children": [
+        {
+            "attributes": {},
+            "properties": {
+                "useAnchor": "true",
+                "effectFilePath": "asset/actor/youling/g2052_halloween_youling2.effect",
+                "name": "halloween_ghost_effect2",
+                "visible": "true",
+                "scaleByParent": "true",
+                "loopInterval": "0.0",
+                "maxViewDistance": "32",
+                "useForCollision": "false",
+                "position": "x:0 y:0 z:0",
+                "loopCount": "-1"
+            },
+            "customProperties": {},
+            "class": "EffectPart"
+        }
+    ],
+    "class": "Part",
+    "properties": {
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:0 y:0 z:0",
+        "useGravity": "false",
+        "offsetPosy": 0.09,
+        "useCollide": "false",
+        "density": "2.2",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-25.5868244171143 y:-0.514912247657776 z:0.322997897863388",
+        "restitution": "0.3",
+        "selectable": "false",
+        "name": "halloween_ghost_part_02",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+    }
+}

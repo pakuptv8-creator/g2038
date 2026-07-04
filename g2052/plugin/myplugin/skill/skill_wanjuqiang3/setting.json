@@ -1,0 +1,17 @@
+{
+    "castAction": "g2052_skill_gun3",
+    "castActionTime": -1,
+    "type": "Base",
+    "isClick": true,
+    "isTouch": false,
+    "touchTime": 0,
+    "cdTime": 10,
+    "priority": -2,
+    "?isGun": true,
+    "castSound": {
+        "sound": "/sound/g2052_wanjuqiang.mp3",
+        "loop": false,
+        "selfOnly": false,
+        "volume": 0.2
+    }
+}

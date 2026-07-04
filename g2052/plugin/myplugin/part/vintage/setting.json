@@ -1,0 +1,272 @@
+{
+  "children": [
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "needSync": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useAnchor": "true",
+        "friction": "0.37",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_vintage_car_colorchange.mesh",
+        "collisionGroup": "4",
+        "useCollide": "false",
+        "position": "x:-0.000000 y:-0.226000 z:-0.037134",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "cameraCollideEnable": "false",
+        "massCenter": "x:-20.7860012054443 y:-0.226 z:-0.0371339321136475",
+        "selectable": "false",
+        "name": "colorchange"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-20.1518287658691 y:-0.266 z:-0.0750021040439606",
+        "useCollide": "false",
+        "position": "x:0.634172 y:-0.266000 z:-0.075002",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "driverSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-21.3408374786377 y:-0.266341626644135 z:-0.0750021040439606",
+        "useCollide": "false",
+        "position": "x:-0.554836 y:-0.266342 z:-0.075002",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "passengerSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_vintage_car_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.111000 y:-0.614446 z:-1.640134",
+        "massCenter": "x:-21.8970012664795 y:-0.614445626735687 z:-1.64013433456421",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_vintage_car_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.091000 y:-0.614446 z:2.157866",
+        "massCenter": "x:-21.8770008087158 y:-0.614445626735687 z:2.15786600112915",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "rotation": "x:0 y:180 z:0",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_vintage_car_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.076000 y:-0.614446 z:2.157866",
+        "massCenter": "x:-19.7100009918213 y:-0.614445626735687 z:2.15786600112915",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "rotation": "x:0 y:180 z:0",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_vintage_car_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.091000 y:-0.614446 z:-1.640134",
+        "massCenter": "x:-19.6950016021729 y:-0.614445626735687 z:-1.64013433456421",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_changpengche_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:1.172283 y:-0.322717 z:-3.012000",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_changpengche_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-1.075710 y:-0.321717 z:-3.023000",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_changpengche_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-0.112482 y:0.019836 z:3.310532",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_changpengche_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:1.985418 y:0.017045 z:3.310705",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    }
+  ],
+  "class": "MeshPart",
+  "properties": {
+    "collisionFidelity": "1",
+    "collisionGroup": "4",
+    "cameraCollideEnable": "false",
+    "density": "1000",
+    "friction": "0.37",
+    "mesh": "asset/car/mesh/g2052_vintage_car.mesh",
+    "name": "vintage",
+    "restitution": "0.3",
+    "rotation": "x:0 y:0 z:0",
+    "position": "x:0.0 y:0.0 z:0"
+  }
+}

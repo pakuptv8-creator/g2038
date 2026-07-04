@@ -1,0 +1,5 @@
+n_id	n_typeId	n_sortId	n_activityId	s_goodsList	s_faceImage	s_title	s_desc
+唯一id	拍脸图类型	排序ID	所属的活动ID	#隔开，最多三个	背景图	标题多语言	标题多语言
+	1钓鱼2打折商店	从小到大	钓鱼才有	奖励id或商品ID列表			
+1	1	1	20001	20001002#20001001#20001003	set:g2052_shop_new.json image:img_0_bg	钓鱼标题	g2052_face_image_desc
+2	1	2	20002	20002002#20002001#20002003	set:g2052_shop_new.json image:img_0_bg	钓鱼标题	g2052_face_image_desc

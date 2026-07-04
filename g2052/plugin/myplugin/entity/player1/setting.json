@@ -1,0 +1,675 @@
+{
+    "walkBuff": [
+        "myplugin/player_walk_buff"
+    ],
+    "sprintBuff": [
+        "myplugin/player_sprint_buff"
+    ],
+    "runBuff": [
+        "myplugin/player_run_buff"
+    ],
+    "jumpBuff": [
+        "myplugin/player_jump_buff"
+    ],
+    "swimmingIdleBuff": [
+        "myplugin/player_swimIdle_buff"
+    ],
+    "swimmingBuff": [
+        "myplugin/player_swim_buff"
+    ],
+    "climbBuff": [
+        "myplugin/player_climb_buff"
+    ],
+    "pushForce": 1,
+    "touchdownPosY": -10,
+    "disableShadow": true,
+    "castRealShadow": true,
+    "actorName": "g2052_boy.actor",
+    "actorGirlName": "g2052_girl.actor",
+    "brightnessScale": 1.7,
+    "canTurnHead": false,
+    "checkBlockTouchEvent": false,
+    "checkEnterEvent": false,
+    "needCheckTouch": false,
+    "disableCheckTouch": true,
+    "checkTouchEvent": true,
+    "checkEntityTouchEvent": false,
+    "gravity": 0.15,
+    "collisionGroup": 2,
+    "?catchRobberInfo": "抓劫匪相关",
+    "catchRobberInfo": {
+        "handcuffsID": 1603000000,
+        "releaseRobberTime": 1200,
+        "catchRobberRideId": 4
+    },
+    "": "秋千相关",
+    "?swingMinTime": "秋千摇摆半程最小时间，单位帧，摇摆的高度角 = 时间 * 每帧摇摆的角度",
+    "swingMinTime": 10,
+    "?swingMinAnglePerFrame": "每帧摇摆的角度",
+    "swingMinAnglePerFrame": 1,
+    "": "篮球相关",
+    "basketBallMaxForce": 16,
+    "basketBallMinForce": 10,
+    "?backForceRate": "背后扔球（点击屏幕下半区）力度折损倍率",
+    "backForceRate": 0.7,
+    "?playBasketballCD": "cd,单位帧",
+    "playBasketballCD": 20,
+    "?basketBallLifeTime": "篮球生命周期，帧",
+    "basketBallLifeTime": 80,
+    "?maxBasketBallCount": "可以扔出的最大篮球数量",
+    "maxBasketBallCount": 3,
+    "basketBallAngleLimit": [
+        60,
+        120
+    ],
+    "throwBasketBallAction": "g2052_basketball_shoot",
+    "throwBasketBallActionTime": 15,
+    "": "许愿币相关",
+    "goldCoinMaxForce": 6,
+    "goldCoinMinForce": 2,
+    "goldCoinItemId": 2002,
+    "?wishGoldCoinCD": "单位帧",
+    "wishGoldCoinCD": 40,
+    "goldCoinAngleLimit": [
+        60,
+        120
+    ],
+    "throwGoldCoinAction": "g2052_basketball_shoot",
+    "throwGoldCoinActionTime": 15,
+    "?goldTorque": "金币力的旋转",
+    "goldTorque": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "stepHeight": 0.5,
+    "disableUnanchorStep": true,
+    "defaultSkills": [
+        "myplugin/default_click"
+    ],
+    "collider": {
+        "extent": {
+            "x": 0.3,
+            "y": 1.5,
+            "z": 0.3
+        },
+        "type": "Box"
+    },
+    "canInteract": 1,
+    "canClick": true,
+    "clickProps": [
+        "clickPlayerInteraction"
+    ],
+    "interaction": {
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "radius": 3
+    },
+    "interactionUI": [
+        {
+            "aroundBtns": [],
+            "aroundParams": {
+                "endAngle": 90,
+                "radius": 40,
+                "startAngle": -90
+            },
+            "cfgKey": "interactionUI",
+            "followParams": {
+                "followScenePos": false,
+                "offset": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                }
+            }
+        },
+        {
+            "centerBtns": [],
+            "cfgKey": "interactionUI",
+            "followParams": {
+                "followScenePos": false,
+                "offset": {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0
+                }
+            }
+        }
+    ],
+    "ridePos": [
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0.3,
+                "y": 0.2,
+                "z": -0.1
+            },
+            "out": {
+                "x": 0.25,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_back",
+                "sprint": "g2052_boy_run_back",
+                "run": "g2052_boy_run_back",
+                "sneak": "g2052_boy_run_back",
+                "walk": "g2052_boy_run_back",
+                "jump1": "g2052_boy_back",
+                "jump2": "g2052_boy_back",
+                "jump3": "g2052_boy_back",
+                "jump_fall": "g2052_boy_back"
+            },
+            "attachPoint": "ride1",
+            "passengerAction": {
+                "base": "g2052_boy_beback"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.6,
+                "z": -0.1
+            },
+            "out": {
+                "x": 0.25,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_shoulder",
+                "sprint": "g2052_boy_run_shoulder",
+                "run": "g2052_boy_run_shoulder",
+                "sneak": "g2052_boy_run_shoulder",
+                "walk": "g2052_boy_run_shoulder",
+                "jump1": "g2052_boy_shoulder",
+                "jump2": "g2052_boy_shoulder",
+                "jump3": "g2052_boy_shoulder",
+                "jump_fall": "g2052_boy_shoulder"
+            },
+            "attachPoint": "ride2",
+            "passengerAction": {
+                "base": "g2052_boy_sit_shoulder"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.4,
+                "z": 0.3
+            },
+            "out": {
+                "x": 0.25,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_pick",
+                "sprint": "g2052_boy_run_pick",
+                "run": "g2052_boy_run_pick",
+                "sneak": "g2052_boy_run_pick",
+                "walk": "g2052_boy_run_pick",
+                "jump1": "g2052_boy_pick",
+                "jump2": "g2052_boy_pick",
+                "jump3": "g2052_boy_pick",
+                "jump_fall": "g2052_boy_pick"
+            },
+            "attachPoint": "ride3",
+            "passengerAction": {
+                "base": "g2052_boy_bepick"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": -0.22,
+                "y": 0.15,
+                "z": 0.4
+            },
+            "out": {
+                "x": 0.25,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_carry",
+                "sprint": "g2052_boy_run_carry",
+                "run": "g2052_boy_run_carry",
+                "sneak": "g2052_boy_run_carry",
+                "walk": "g2052_boy_run_carry",
+                "jump1": "g2052_boy_carry",
+                "jump2": "g2052_boy_carry",
+                "jump3": "g2052_boy_carry",
+                "jump_fall": "g2052_boy_carry"
+            },
+            "attachPoint": "ride4",
+            "passengerAction": {
+                "base": "g2052_boy_becarried"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": -0.03,
+                "z": -0.1
+            },
+            "out": {
+                "x": 0,
+                "y": 0,
+                "z": 0.8
+            },
+            "rideAction": {
+                "base": "double_babytrolley_idle",
+                "walk": "double_babytrolley_walk",
+                "run": "double_babytrolley_run",
+                "sprint": "double_babytrolley_run",
+                "idle": "double_babytrolley_idle",
+                "jump1": "double_babytrolley_idle",
+                "jump2": "double_babytrolley_idle",
+                "jump3": "double_babytrolley_idle"
+            },
+            "passengerAction": {
+                "base": "idle"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": -0.03,
+                "z": 0.5
+            },
+            "out": {
+                "x": 0,
+                "y": 0,
+                "z": 0.8
+            },
+            "rideAction": {
+                "base": "double_babytrolley_idle",
+                "walk": "double_babytrolley_walk",
+                "run": "double_babytrolley_run",
+                "sprint": "double_babytrolley_run",
+                "idle": "double_babytrolley_idle",
+                "jump1": "double_babytrolley_idle",
+                "jump2": "double_babytrolley_idle",
+                "jump3": "double_babytrolley_idle"
+            },
+            "passengerAction": {
+                "base": "idle"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.6,
+                "z": -0.1
+            },
+            "out": {
+                "x": 0.25,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_jugaogao",
+                "sprint": "g2052_boy_jugaogao_run",
+                "run": "g2052_boy_jugaogao_run",
+                "sneak": "g2052_boy_jugaogao",
+                "walk": "g2052_boy_jugaogao_run",
+                "jump1": "g2052_boy_jugaogao",
+                "jump2": "g2052_boy_jugaogao",
+                "jump3": "g2052_boy_jugaogao",
+                "jump_fall": "g2052_boy_jugaogao"
+            },
+            "attachPoint": "liftPet",
+            "passengerAction": {
+                "base": "jugaogao"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 1.5,
+                "y": 0,
+                "z": 0
+            },
+            "out": {
+                "x": 1,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_playwithpet",
+                "sprint": "g2052_boy_playwithpet",
+                "run": "g2052_boy_playwithpet",
+                "sneak": "g2052_boy_playwithpet",
+                "walk": "g2052_boy_playwithpet",
+                "jump1": "g2052_boy_playwithpet",
+                "jump2": "g2052_boy_playwithpet",
+                "jump3": "g2052_boy_playwithpet",
+                "jump_fall": "g2052_boy_playwithpet"
+            },
+            "attachPoint": "playWithPet",
+            "passengerAction": {
+                "base": "play"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "out": {
+                "x": 1,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_boy_jingquan_play",
+                "sprint": "g2052_boy_jingquan_play",
+                "run": "g2052_boy_jingquan_play",
+                "sneak": "g2052_boy_jingquan_play",
+                "walk": "g2052_boy_jingquan_play",
+                "jump1": "g2052_boy_jingquan_play",
+                "jump2": "g2052_boy_jingquan_play",
+                "jump3": "g2052_boy_jingquan_play",
+                "jump_fall": "g2052_boy_jingquan_play"
+            },
+            "attachPoint": "playWithDog",
+            "passengerAction": {
+                "base": "play"
+            },
+            "ctrl": false,
+            "view": false
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "out": {
+                "x": 3,
+                "y": -1,
+                "z": 0
+            },
+            "rideAction": {
+                "idle": "g2052_dance_scissors",
+                "sprint": "g2052_dance_scissors",
+                "run": "g2052_dance_scissors",
+                "sneak": "g2052_dance_scissors",
+                "walk": "g2052_dance_scissors",
+                "jump1": "g2052_dance_scissors",
+                "jump2": "g2052_dance_scissors",
+                "jump3": "g2052_dance_scissors",
+                "jump_fall": "g2052_dance_scissors"
+            },
+            "attachPoint": "playWithbaby",
+            "passengerAction": {
+                "base": "play"
+            },
+            "ctrl": false,
+            "view": false
+        }
+    ],
+    "attachPoints": [
+        {
+            "name": "rideSelf",
+            "bone": "b_pelvis",
+            "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": false,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "rideOther",
+            "bone": "b_pelvis",
+            "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": false,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride1",
+            "bone": "s_back",
+            "position": {
+                "y": 0,
+                "z": 0.4,
+                "x": -0.3
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride2",
+            "bone": "s_back",
+            "position": {
+                "y": 0,
+                "z": 0.2,
+                "x": 0.2
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride3",
+            "bone": "b_spine",
+            "position": {
+                "y": -0.1,
+                "z": -0.4,
+                "x": 0.2
+            },
+            "rotation": {
+                "y": -90,
+                "z": 90,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride4",
+            "bone": "b_spine",
+            "position": {
+                "y": -0.3,
+                "z": 0.3,
+                "x": 0.3
+            },
+            "rotation": {
+                "y": 90,
+                "z": 20,
+                "x": 90
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride5",
+            "bone": "b_spine",
+            "position": {
+                "y": 0,
+                "z": -2,
+                "x": 0
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "liftPet",
+            "bone": "s_back",
+            "position": {
+                "y": 0,
+                "z": -0.8,
+                "x": 0
+            },
+            "rotation": {
+                "y": 0,
+                "z": -90,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "playWithPet",
+            "bone": "",
+            "position": {
+                "y": 0,
+                "z": 0,
+                "x": 1.5
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "playWithDog",
+            "bone": "",
+            "position": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "playWithbaby",
+            "bone": "",
+            "position": {
+                "y": 0,
+                "z": 0,
+                "x": 3
+            },
+            "rotation": {
+                "y": 0,
+                "z": 0,
+                "x": 0
+            },
+            "scale": 1,
+            "propagateScaling": true,
+            "alignWorldYAxis": false,
+            "matchActorOrientation": false
+        }
+    ],
+    "skillList": [
+        {
+            "fullName": "/jump_trigger"
+        }
+    ],
+    "bodyTurnSpeed": 60.0,
+    "bodyTurnMin": 50.0,
+    "bodyTurnMax": 75.0,
+    "": "奔跑的基础速度",
+    "moveSpeed": 0.3,
+    "": "行走速率倍数",
+    "walkSpeedRate": 0.6,
+    "": "疾跑速率倍数",
+    "sprintUpRate": 1.35,
+    "": "奔跑摇杆起始距离",
+    "runRadius": 80,
+    "": "疾跑摇杆起始距离",
+    "sprintRadius": 250,
+    "jumpSpeed": 0.9,
+    "jumpHeight": 0.5,
+    "eyeHeight": 1.62,
+    "checkPartTouchEvent": true,
+    "enableMovementWhenHurt": 1,
+    "rideOnFollowRotate": true,
+    "slideAngle": 10,
+    "headTextScale": 1,
+    "headTextMinScale": 0.1,
+    "undamageable": 1,
+    "posSyncDelay": 5,
+    "rotateCheckCollide": true,
+    "autoRotateColliderBox": true,
+    "rotateCheckCollideProp": 0,
+    "rideOnCombineCollision": true,
+    "name": "",
+    "fixBodyTurn": true
+}

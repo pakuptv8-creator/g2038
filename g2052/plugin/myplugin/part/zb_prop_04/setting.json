@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "camera_01",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/camera_01.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

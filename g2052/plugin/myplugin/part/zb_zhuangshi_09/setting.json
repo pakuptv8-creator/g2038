@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "2052_dt_03",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/ditan/2052_dt_03.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

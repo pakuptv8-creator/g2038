@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/car_huaban_run.mp3",
+        "loop": true,
+        "volume": 0.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/huaban_run_buff"
+    ],
+    "sync": "other"
+}

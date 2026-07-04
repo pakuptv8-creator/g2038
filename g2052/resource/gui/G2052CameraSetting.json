@@ -1,0 +1,524 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "G2052CameraSetting",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                    "Name": "AutoSize",
+                    "Value": "true"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "G2052CameraSetting-ViewSetting",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.0117188,0},{0.0347222,0},{0.961719,0},{0.229167,0}}"
+                        },
+                        {
+                            "Name": "AutoSize",
+                            "Value": "true"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "G2052CameraSetting-ViewSettingTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{0,48}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_setting.json image:bg_title_line"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "G2052CameraSetting-ViewSettingTitleText",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,30},{0,0},{0,80},{0,50}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "view"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "G2052CameraSetting-ViewSettingOp",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,48},{1,0},{1,0}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "G2052CameraSetting-ViewSettingOpPanel",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,3},{0,20},{1,3},{0,60}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Slider",
+                                            "Name": "G2052CameraSetting-ViewSettingBar",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-50},{0,0},{0,400},{0,22}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "4 4 8 8"
+                                                },
+                                                {
+                                                    "Name": "Progress",
+                                                    "Value": "0.5"
+                                                },
+                                                {
+                                                    "Name": "ProgressBackImage",
+                                                    "Value": "set:g2052_setting.json image:slide_bar_bg"
+                                                },
+                                                {
+                                                    "Name": "ProgressImage",
+                                                    "Value": "set:g2052_setting.json image:slide_bar"
+                                                },
+                                                {
+                                                    "Name": "ProgressHeaderImage",
+                                                    "Value": "set:g2052_setting.json image:slide_block"
+                                                },
+                                                {
+                                                    "Name": "ProgressDirectionReverse",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "QuickSlide",
+                                                    "Value": "true"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-ViewSettingTextBig",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,15},{0,0},{0,65},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "bigbig"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-ViewSettingTextSmall",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-520},{0,0},{0,-470},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "small"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-ViewSettingTextCur",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,20},{0,0},{0,70},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "cur"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-ViewSettingTextNum",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,140},{0,0},{0,190},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "0"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0.960784 0.788235 0.266667 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "G2052CameraSetting-SensitiveSetting",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.0117188,0},{0.229167,0},{0.961719,0},{0.409722,0}}"
+                        },
+                        {
+                            "Name": "AutoSize",
+                            "Value": "true"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "G2052CameraSetting-SensitiveSettingTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{1,0},{0,48}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_setting.json image:bg_title_line"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "G2052CameraSetting-SensitiveSettingTitleText",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,30},{0,0},{0,80},{0,50}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "sensitive"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "G2052CameraSetting-SensitiveSettingOp",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,48},{1,0},{1,0}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "G2052CameraSetting-SensitiveSettingOpPanel",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,20},{1,0},{0,60}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Slider",
+                                            "Name": "G2052CameraSetting-SensitiveSettingBar",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-50},{0,0},{0,400},{0,22}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "4 4 8 8"
+                                                },
+                                                {
+                                                    "Name": "Progress",
+                                                    "Value": "0.5"
+                                                },
+                                                {
+                                                    "Name": "ProgressBackImage",
+                                                    "Value": "set:g2052_setting.json image:slide_bar_bg"
+                                                },
+                                                {
+                                                    "Name": "ProgressImage",
+                                                    "Value": "set:g2052_setting.json image:slide_bar"
+                                                },
+                                                {
+                                                    "Name": "ProgressHeaderImage",
+                                                    "Value": "set:g2052_setting.json image:slide_block"
+                                                },
+                                                {
+                                                    "Name": "ProgressDirectionReverse",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "QuickSlide",
+                                                    "Value": "true"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-SensitiveSettingTextBig",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,15},{0,0},{0,65},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "bigbig"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-SensitiveSettingTextSmall",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-520},{0,0},{0,-470},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "small"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Right"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-SensitiveSettingTextCur",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,20},{0,0},{0,70},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "cur"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "G2052CameraSetting-SensitiveSettingTextNum",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,140},{0,0},{0,190},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "0"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0.960784 0.788235 0.266667 1"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

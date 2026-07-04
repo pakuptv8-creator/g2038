@@ -1,0 +1,92 @@
+
+
+language_start:g2052commercialize
+
+gui.limit.time.activity.gold.wheel.title=행운의 수레바퀴
+gui.limit.time.activity.gold.wheel.help=◇황금 루빅스 큐브를 사용하여 턴테이블을 1회 플레이하고 24시간마다 반값 기회를 잡으세요
+
+gui.limit.time.activity.optional.title=프라이빗 커스터마이징
+gui.limit.time.activity.optional.help=none
+gui.limit.time.activity.optional.tips=선택적 경품을 받으려면 {.} 맞춤형 선물 패키지를 구매하세요.
+gui.limit.time.activity.optional.receive=받다
+gui.limit.time.activity.optional.received=받았다
+gui.limit.time.activity.optional.custom=맞춤 제작
+gui.limit.time.activity.optional.buy=구입하다
+gui.limit.time.activity.optional.custom.big=커스텀 어워드
+gui.limit.time.activity.optional.continue=계속하다
+gui.limit.time.activity.optional.custom.normal={.}번째 보상 사용자 정의
+gui.limit.time.activity.day.limit.counts={.}/일
+optional_name_pack0=복지패키지
+optional_name_pack1=프라이빗 커스터마이징 1
+optional_name_pack2=프라이빗 커스터마이징 2
+optional_name_pack3=프라이빗 커스터마이징 3
+optional_name_pack9=큰 선물
+
+gui.limit.time.activity.buy.one.title=물건을 사다
+gui.limit.time.activity.buy.one.desc=항목 설명
+
+gui.limit.time.card.congratulations1=주간 카드 보상
+gui.limit.time.card.congratulations2=월간 카드 보상
+gui.limit.time.card.residue=남은 기간: {.}일
+gui.limit.time.card.help=◇구매한 날부터 매일 로그인하면 해당 일일 보상을 받을 수 있습니다. \n◇모든 보상을 바로 사용하려면 다음 날 로그인하세요.
+gui.limit.time.activity.card.title=월간 카드
+gui.limit.time.activity.card.title2=돈 월간 카드
+gui.limit.time.activity.card.title1=주간 쿠폰 카드
+gui.limit.time.activity.card.tip1=매일 이용 가능
+gui.limit.time.activity.card.tip2=총 사용 가능
+
+gui.limit.time.activity.discount.title=미스터리 샵
+gui.limit.time.activity.discount.help=none
+gui.limit.time.activity.discount.desc=보세요, 매일 다른 상품이 있습니다!
+gui.limit.time.activity.discount.refresh=다음 제품 새로고침 시간: {.}
+
+gui.limit.time.activity.title=기간 한정 이벤트
+gui.limit.time.activity.fisherman.gift=어부의 선물
+gui.limit.time.combined.title=선물 가방
+gui.limit.time.activity.week.gift=주간 선물 팩
+gui.limit.time.activity.month.gift=월간 선물 팩
+gui.limit.time.activity.draw.title=기간 한정 복권
+
+
+gui.limit.time.activity.is.have=소유
+gui.limit.time.combined.purchased=구입했다
+gui.limit.time.buy.success=구매 성공
+gui.limit.time.buy.fail=구매 실패
+gui.limit.time.buy.confirm=구매하시겠습니까?
+gui.limit.time.common.tips=팁
+gui.limit.time.activity.continue=계속하다...
+gui.limit.time.activity.confirm.tips=확신하는
+gui.limit.time.activity.cancel.tips=취소
+gui.limit.time.activity.reward.dec=보상 설명
+gui.limit.time.activity.click.on.the.screen.to.continue=  계속하려면 화면을 클릭하세요. >>
+gui.limit.time.activity.congratulations=축하합니다
+gui.limit.time.activity.end=이벤트가 종료되었습니다
+gui.limit.time.activity.free.bought=무료
+gui.limit.time.activity.buy.title=선물 구매
+gui.limit.time.activity.gift.desc=선물 내용
+gui.limit.time.activity.soul.out=Sold out
+gui.limit.time.activity.limit.counts={.} 개 남았습니다.
+
+gui.limit.time.activity.draw.preview=보상 미리보기
+gui.limit.time.activity.draw.tip={.} 무승부가 확실합니다!
+gui.limit.time.activity.draw.single=1 회
+gui.limit.time.activity.draw.ten=10 회
+gui.limit.time.activity.draw.help=◇골든 루빅스 큐브를 사용하여 상금 풀에서 보상을 뽑고 지정된 추첨 횟수에 도달하면 반드시 큰 상을 받게 됩니다.；\n◇상금 풀 상금은 정기적으로 순환되며 추첨 횟수도 재설정됩니다.
+
+gui.limit.time.activity.free=처음으로 무료
+gui.limit.time.activity.click.button.btn.tip1=낚시를 시작하려면 화면 하단의 버튼을 클릭하십시오.
+gui.limit.time.activity.click.button.btn.tip2=이번에는 어떤 보물을 잡을까?
+gui.limit.time.activity.must.win.lottery=낚시마다 다른 보상을 주어야 합니다!
+gui.limit.time.activity.fisherman.dec=여기요! 보물이 많은 호수를 찾았으니, 함께 보물을 잡는 방법을 찾아봅시다!
+gui.limit.time.activity.fishing=어업
+gui.limit.time.activity.click.skip=애니메이션 건너뛰기 클릭
+gui.limit.time.combined.off=OFF
+gui.limit.time.combined.limit=▢FFE92E4E{.}▢FF913C08회 구매 제한
+gui.limit.time.activity.signal.tip=각 패키지는▢FFFFFF001▢FFFFFFFF회 구매로 제한됩니다
+
+gui.limit.time.activity.help=이벤트 설명
+gui.limit.time.activity.must.win.lottery.help=◇낚시를 할 때마다 상금 풀에서 상금을 받을 수 있으며 상금은 반복되지 않습니다. 즉, 이미 획득한 상금은 앞으로 뽑히지 않습니다.\n◇각 낚시 비용은 다른 양의 황금입니다 루빅스 큐브(낚시 횟수에 따라 증가), 구체적인 가격은 ↓\n1회: 0\n2회: 29\n3회: 39\n4회: 59\n5회: 99\n6회: 129\n7회: 159\n8번째: 199\n9번째: 199\n10번째: 199\n11번째: 249\n12번째: 299
+gui.limit.time.activity.week.gift.help=이벤트 설명
+gui.limit.time.activity.month.gift.help=이벤트 설명
+
+language_end:g2052commercialize

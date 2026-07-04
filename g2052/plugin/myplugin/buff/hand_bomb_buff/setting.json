@@ -1,0 +1,6 @@
+{
+  "skin": {
+    "gun": "g2052_prop_c4"
+  },
+  "skill": "myplugin/bomb_place_click"
+}

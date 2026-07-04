@@ -1,0 +1,3 @@
+n_id	n_sort	s_name	n_type	s_icon	s_bgImg	s_dec	n_currency	n_price	n_initPrice	n_percent
+id	排序	名称	特权类型 1vip 2灾难	图标 	背景卡	描述  #分割	货币类型  0金魔方	真实价格	初始价格	百分比
+1001	10	gui.shop.house.event.name	2	set:g2052_main.json image:icon_0_shop01	set:g2052_store.json image:img_0_vip_bg05	gui.shop.house.event.desc	0	150	0	0

@@ -1,0 +1,2 @@
+n_id	s_partID	s_effectName	s_pos	s_scale	s_rotation	n_yaw
+序号	零件id，在map地图获取	特效文件路径	位置偏移，不填的话就是取当前的世界坐标，格式为1#1#1	缩放大小，默认为1#1#1	旋转，默认为0#0#0	默认为0

@@ -1,0 +1,6 @@
+{
+    "?extraMotionY" : "控制飞行器上升速度，用完记得移除",
+    "extraMotionY" : 0.08,
+    "replace" : true,
+    "removeBuff": ["aircraft_control_down"]
+}

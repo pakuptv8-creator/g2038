@@ -1,0 +1,16 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/g2052_prop_kaochuan1.mesh",
+        "name": "baijian_kaochuan1",
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:90 y:180 z:180",
+        "scale": "x:1.5 y:1.5 z:1.5",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.06
+    }
+}

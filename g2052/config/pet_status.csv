@@ -1,0 +1,4 @@
+n_id	s_tip	s_performanceBuff	n_priority	s_statusRemoveCond	s_interactSatisfyKey	s_interactSatisfyBuff	n_interactSatisfyBuffDuration	n_interactSatisfyBuffDelay
+key(按顺序排序)	备注	进入状态添加buff	优先级(数字越大越优先)	解除状态条件，#分割(1移动 2点击宠物 3交互)	交互满足事件Key	得到满足需要添加的buff路径	满足buff持续时间	满足buff执行延迟时间
+1	饥饿	myplugin/pet_status_hungry_buff	20	3	feed	myplugin/pet_status_satisfy_buff	60	40
+2	打盹	myplugin/pet_status_nap_buff	80	1#2#3				

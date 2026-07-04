@@ -1,0 +1,68 @@
+{
+    "driverJumpShiled": true,
+    "isTrolley": true,
+    "canClick": true,
+    "canMove": true,
+    "collision": true,
+    "collisionGroup": 32,
+    "autoDebusFromRide": true,
+    "collisionCamp": 1,
+    "attachBuff": "myplugin/trolley_buff",
+    "bodyTurnMax": 361,
+    "bodyTurnMin": 361,
+    "rotateCheckCollide": true,
+    "autoRotateColliderBox": true,
+    "needCheckTouch": true,
+    "name": "",
+    "rideOnCombineCollision": false,
+    "disableShadow": true,
+    "moveSpeed": 0.3,
+    "isClick": true,
+    "jumpToRideOff": false,
+    "rideOnImmediately": true,
+    "onlyPlayerCanRide": true,
+    "nearProps": {
+        "1.2": [
+            "ride_on_index"
+        ]
+    },
+    "collider": {
+        "type": "Compound",
+        "offset": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "rotation": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "child": [
+            {
+                "type": "Box",
+                "extent": {
+                    "x": 1,
+                    "y": 1,
+                    "z": 2
+                },
+                "offset": {
+                    "x": 0,
+                    "y": 0.5,
+                    "z": 0
+                },
+                "rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                }
+            },
+            {
+                "type": "Capsule",
+                "radius": 0.3,
+                "height": 2
+            }
+        ]
+    },
+    "fixBodyTurn": true
+}

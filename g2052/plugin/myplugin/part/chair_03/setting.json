@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "chair01",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/chair01.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_police_bangongzhuozi",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_police_bangongzhuozi.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

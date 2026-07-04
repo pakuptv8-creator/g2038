@@ -1,0 +1,3 @@
+<TimeLine time="23000"/>
+<Track name="camera_track" type="camera"/>
+<Track name="ui_track" type="ui"/>

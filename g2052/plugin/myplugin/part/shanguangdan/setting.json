@@ -1,0 +1,13 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "1",
+        "mesh": "asset/prop/mesh/g2052_prop_shanguangdan.mesh",
+        "name": "shanguangdan",
+        "position": "x:0 y:0 z:0.3",
+        "shape": "2",
+        "restitution": "2.5",
+        "collisionFidelity": "5",
+        "collisionGroup": "2"
+    }
+}

@@ -1,0 +1,1 @@
+Event.EVENT_CONNECTOR_MSG = Event.register("EVENT_CONNECTOR_MSG")

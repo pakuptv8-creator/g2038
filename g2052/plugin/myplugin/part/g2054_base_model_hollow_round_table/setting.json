@@ -1,0 +1,16 @@
+{
+    "class": "PartOperation",
+    "properties": {
+        "useOriginalColor": "true",
+        "useGravity": "false",
+        "customThreshold": "1",
+        "materialAlpha": "1",
+        "mergeShapesDataKey": "8416014609074487297",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "useAnchor": "true"
+    },
+    "attributes": {
+        "textureIndex": 1,
+        "color": "r:1.0 g:1.0 b:1.0 a:1.0"
+    }
+}

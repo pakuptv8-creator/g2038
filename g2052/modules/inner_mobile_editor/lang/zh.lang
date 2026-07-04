@@ -1,0 +1,76 @@
+
+
+language_start:mobile_editor
+
+language_start:new
+ui.select.object_color=颜色
+ui.select.object_material=材质
+
+ui.create.out_of_range = 超过可视范围，请稍微离近一些
+
+ui.select.translate =显示移动轴
+ui.select.scale =开启缩放模式
+ui.select.rotate =开启旋转模式
+ui.select.space.local =开启本地坐标系模式
+ui.select.space.world =开启世界坐标系模式
+
+ui.unselect.translate =隐藏移动轴
+ui.unselect.scale =关闭缩放模式
+ui.unselect.rotate =关闭旋转模式
+
+ui.select.duplicate =复制成功
+ui.select.delete =删除成功
+ui.select.group =组合成功
+ui.disable.group =无法组合
+ui.select.ungroup =解除组合成功
+ui.disable.ungroup =无法解除组合
+ui.select.multiple =已开启多选模式
+ui.select.material =已打开材质与颜色选择界面
+ui.disable.material =模型无法编辑材质
+ui.unselect.multiple =多选模式已关闭
+ui.select.undo =撤销
+ui.select.redo =恢复
+
+ui.enter.rect =进入框选状态
+ui.exit.rect =退出框选状态
+ui.setting.upload.map.tips=你确定要上传你的作品吗？
+ui.setting.join.bidding=参与投标
+ui.setting.upload=上传
+ui.setting.upload.push=上传发布
+ui.setting.map.reset=地图恢复
+ui.setting.exit.edit=退出编辑
+ui.setting.upload.success=上传成功
+ui.setting.upload.fail=上传失败
+ui.setting.save=保存
+ui.setting.not.save=不保存
+ui.setting.save.success=保存成功
+ui.setting.exit_tips=退出前你要保存这个作品吗？
+ui.setting.map_reset_tips=你要进行地图恢复吗？（该操作不能撤回）
+ui.setting.map_reset_template=恢复到初始模板
+ui.setting.map_reset_remote=恢复到最新上传
+ui.setting.remote.not_data=没有地图数据
+ui.setting.screen.shot.success=截图成功
+
+ui.create.limit=地图物件已到达上限
+ui.bidding.limit_count=未达到参与投标的物件数量
+
+ui.select.model.game=游戏
+ui.select.model.geometry=几何体
+ui.select.model.outdoor=室外
+ui.select.model.plant=植物
+ui.select.model.indoor=室内
+ui.select.model.props=道具
+
+language_end:new
+
+ui.select.ground =地面系统
+ui.env.ground.color =地面颜色
+ui.env.ground.texture =地面贴图
+ui.env.light.skylight=太阳光
+ui.env.light.ambient.light =环境光
+ui.env.light.intensity =光照强度
+ui.env.bgm= 背景音乐
+ui.env.weather =天气
+ui.env.skybox =天空盒
+
+language_end:mobile_editor

@@ -1,0 +1,67 @@
+{
+  "/ScanningCDTime": "多少帧更新一次交互按钮",
+  "ScanningCDTime": 5,
+  "/ShowInteractRange": "显示交互按钮的距离",
+  "ShowInteractRange": 4,
+  "/HideInteractRange": "隐藏交互按钮的距离",
+  "HideInteractRange": 5.5,
+  "/MaxInteractNum": "显示最大玩家按钮数量",
+  "MaxInteractNum": 1,
+  "/NoOperationTime": "按钮无操作时消失的时间 秒",
+  "NoOperationTime": 15,
+  "/signalParams": "单个按钮配置",
+  "signalParams": {
+      "widgetFileName": "widget_click_button",
+      "image": "set:g2052_interaction_icon.json image:click",
+      "imageSize": {
+        "width": "73",
+        "height": "73"
+      },
+      "/offset": "按钮偏移量",
+      "offset": {
+        "x": 0,
+        "y": 0.3,
+        "z": 0
+      }
+    },
+  "/multipleParams": "多按钮配置",
+  "multipleParams": {
+    "normalParams": {
+      "startAngle": 100,
+      "endAngle": -100,
+      "radius": 110
+    },
+    "halloweenParams": {
+      "startAngle": 55,
+      "endAngle": -55,
+      "radius": 125
+    },
+    "imageSize": {
+      "width": "76",
+      "height": "96"
+    },
+    "propsSize": {
+      "width": "76",
+      "height": "76"
+    },
+    "/offset": "按钮偏移量",
+    "offset": {
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "widgetFileName": "widget_click_action",
+    "propsFileName": "widget_click_button",
+    "propsBackground": "set:g2052_function.json image:img_0_roles03",
+    "sendGiftImage": "set:g2052_function.json image:img_0_action05",
+    "sendGiftTitle": "g2052.gui.gift.send.tips",
+    "sendNormalTitle": "g2052.gui.gift.send.normalTips",
+    "candyFileName": "widget_click_candy",
+    "candyShareImage": "set:g2052_halloween.json image:icon_0_halloween02",
+    "candyAcceptImage": "set:g2052_halloween.json image:icon_0_halloween01",
+    "candyShareTitle": "g2052.gui.halloween.share.title",
+    "candyAcceptTitle": "g2052.gui.halloween.askFor.title"
+  },
+  "/playerPopHideDis": "玩家卡片消失的距离配置",
+  "playerPopHideDis": 14
+}

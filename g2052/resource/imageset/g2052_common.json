@@ -1,0 +1,50 @@
+{
+    "frames": {
+        "img_0_red_dot": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 13,
+                "h": 12
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 12
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 12
+            }
+        },
+        "img_9_tip_points": {
+            "frame": {
+                "x": 15,
+                "y": 1,
+                "w": 33,
+                "h": 24
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 33,
+                "h": 24
+            },
+            "sourceSize": {
+                "w": 33,
+                "h": 24
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_common.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 48,
+            "h": 25
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

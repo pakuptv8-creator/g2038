@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "bank_qiantai",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/bank_qiantai.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

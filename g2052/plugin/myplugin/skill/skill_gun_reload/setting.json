@@ -1,0 +1,15 @@
+{
+  "castAction": "g2052_skill_reload1",
+  "castActionTime": 14,
+  "type": "Reload",
+  "reloadTime": 14,
+  "containerKey": "gun",
+  "reloadType": "Custom",
+  "priority": -3,
+  "castSound": {
+    "sound": "/sound/g2052_gun_reload.mp3",
+    "loop": false,
+    "selfOnly": false,
+    "volume": 1
+}
+}

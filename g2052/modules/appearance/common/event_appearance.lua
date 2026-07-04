@@ -1,0 +1,6 @@
+if World.isClient then
+  Event.EVENT_APPEARANCE_INFO_UPDATE = Event.register("EVENT_APPEARANCE_INFO_UPDATE")
+  Event.EVENT_SHAPE_SCALE_UPDATE = Event.register("EVENT_SHAPE_SCALE_UPDATE")
+  Event.EVENT_DRESS_FREE_AD_TIME = Event.register("EVENT_DRESS_FREE_AD_TIME")
+else
+end

@@ -1,0 +1,10 @@
+{
+    "needSave": false,
+    "actionMap": {
+        "idle": "eat"
+    },
+    "sync": "all",
+    "avoidBuff": [
+        "myplugin/pet_status_eat_buff"
+    ]
+}

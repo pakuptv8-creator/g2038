@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "prop_gouwulan",
+        "useAnchor": "true",
+        "mesh": "asset/prop/mesh/prop_gouwulan.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,10 @@
+n_id	unname1	n_newModule	s_uiName	s_title	s_imgs	s_dec
+序号	备注	新模块 1 为新	ui名	标题 多语言	图片 #分割	对应图片介绍 #分割 多语言
+1	角色	0	role	guide_role_title	set:g2052_novice_guide.json image:img_0_roles01#set:g2052_novice_guide.json image:img_0_roles02#set:g2052_novice_guide.json image:img_0_roles03	guide_role_desc1#guide_role_desc2#guide_role_desc3
+2	房屋	0	cameraSwitch	guide_house_title	set:g2052_novice_guide.json image:img_0_house01#set:g2052_novice_guide.json image:img_0_house02#set:g2052_novice_guide.json image:img_0_house03	guide_house_desc1#guide_house_desc2#guide_house_desc3
+3	载具	0	car	guide_car_title	set:g2052_novice_guide.json image:img_0_car01#set:g2052_novice_guide.json image:img_0_car02	guide_car_desc1#guide_car_desc2
+4	职业	0	professionWnd	guide_profession_title	set:g2052_novice_guide.json image:img_0_career01#set:g2052_novice_guide.json image:img_0_career02#set:g2052_novice_guide.json image:img_0_career03	guide_profession_desc1#guide_profession_desc2#guide_profession_desc3
+5	背包	0	g2052Bag	guide_prop_title	set:g2052_novice_guide.json image:img_0_props01#set:g2052_novice_guide.json image:img_0_props02#set:g2052_novice_guide.json image:img_0_props03	guide_prop_desc1#guide_prop_desc2#guide_prop_desc3
+6	动作	0	dance	guide_dace_title	set:g2052_novice_guide.json image:img_0_action01#set:g2052_novice_guide.json image:img_0_action02	guide_dace_desc1#guide_dace_desc2
+7	伙伴	0	partner	guide_baby_title	set:g2052_novice_guide.json image:img_0_pets01#set:g2052_novice_guide.json image:img_0_pets02	guide_baby_desc1#guide_baby_desc2
+8	剧本	1	dramaMain	guide_script_title	set:g2052_novice_guide.json image:img_0_teaming01#set:g2052_novice_guide.json image:img_0_teaming02#set:g2052_novice_guide.json image:img_0_teaming03	guide_script_desc1#guide_script_desc2#guide_script_desc3

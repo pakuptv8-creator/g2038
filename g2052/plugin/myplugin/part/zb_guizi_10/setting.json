@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "house_chugui01",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/house_chugui01.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

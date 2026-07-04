@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "2052_prop_book",
+        "useAnchor": "true",
+        "mesh": "asset/prop/mesh/2052_prop_book.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_jinggai01a",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_jinggai01a.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,92 @@
+
+
+language_start:g2052commercialize
+
+gui.limit.time.activity.gold.wheel.title=Schicksalsrad
+gui.limit.time.activity.gold.wheel.help=◇Geben Sie den Golden Rubik's Cube aus, um einmal am Plattenteller zu spielen, und erhalten Sie alle 24 Stunden eine Chance zum halben Preis
+
+gui.limit.time.activity.optional.title=Private Anpassung
+gui.limit.time.activity.optional.help=none
+gui.limit.time.activity.optional.tips=Kaufen Sie {.} personalisierte Geschenkpakete, um optionale Preise zu erhalten
+gui.limit.time.activity.optional.receive=erhalten
+gui.limit.time.activity.optional.received=erhalten
+gui.limit.time.activity.optional.custom=Mass angefertigt
+gui.limit.time.activity.optional.buy=Besorgen
+gui.limit.time.activity.optional.custom.big=Benutzerdefinierte Auszeichnungen
+gui.limit.time.activity.optional.continue=fortsetzen
+gui.limit.time.activity.optional.custom.normal=Passen Sie die {.}-te Belohnung an
+gui.limit.time.activity.day.limit.counts={.} pro Tag
+optional_name_pack0=Wohlfahrtspaket
+optional_name_pack1=Private Anpassung 1
+optional_name_pack2=Private Anpassung 2
+optional_name_pack3=Private Anpassung 3
+optional_name_pack9=großes Geschenk
+
+gui.limit.time.activity.buy.one.title=Gegenstände kaufen
+gui.limit.time.activity.buy.one.desc=Artikelbeschreibung
+
+gui.limit.time.card.congratulations1=Wöchentliche Kartenbelohnungen
+gui.limit.time.card.congratulations2=Monatliche Kartenprämien
+gui.limit.time.card.residue=Rest: {.} Tag
+gui.limit.time.card.help=◇ Melden Sie sich ab dem Tag des Kaufs jeden Tag an, um die entsprechenden täglichen Belohnungen zu erhalten. \n◇Melde dich am nächsten Tag an, um alle Prämien direkt einzulösen.
+gui.limit.time.activity.card.title=Monatskarte
+gui.limit.time.activity.card.title2=Geld Monatskarte
+gui.limit.time.activity.card.title1=Wöchentliche Gutscheinkarte
+gui.limit.time.activity.card.tip1=Täglich verfügbar
+gui.limit.time.activity.card.tip2=insgesamt vorhanden
+
+gui.limit.time.activity.discount.title=Mystery-Shop
+gui.limit.time.activity.discount.help=none
+gui.limit.time.activity.discount.desc=Schaut doch mal vorbei, es gibt jeden Tag andere Leckereien!
+gui.limit.time.activity.discount.refresh=Nächste Produktaktualisierung: {.}
+
+gui.limit.time.activity.title=Aktivität
+gui.limit.time.activity.fisherman.gift=Geschenk des Fischers
+gui.limit.time.combined.title=Geschenktasche
+gui.limit.time.activity.week.gift=Wöchentliches Geschenkpaket
+gui.limit.time.activity.month.gift=Monatliches Geschenkpaket
+gui.limit.time.activity.draw.title=Zeitlich begrenzte Lotterie
+
+
+gui.limit.time.activity.is.have=Besitz
+gui.limit.time.combined.purchased=Gekauft
+gui.limit.time.buy.success=Kauf erfolgreich
+gui.limit.time.buy.fail=Kauf gescheitert
+gui.limit.time.buy.confirm=Sind Sie sicher zu kaufen?
+gui.limit.time.common.tips=Tipps
+gui.limit.time.activity.continue=fortsetzen...
+gui.limit.time.activity.confirm.tips=Sicher
+gui.limit.time.activity.cancel.tips=Absagen
+gui.limit.time.activity.reward.dec=Belohnungsbeschreibung
+gui.limit.time.activity.click.on.the.screen.to.continue=  Klicken Sie auf den Bildschirm, um fortzufahren >>
+gui.limit.time.activity.congratulations=Herzliche Glückwünsche
+gui.limit.time.activity.end=Die Veranstaltung ist vorbei
+gui.limit.time.activity.free.bought=Frei
+gui.limit.time.activity.buy.title=Geschenkpaket kaufen
+gui.limit.time.activity.gift.desc=Paket Inhalt
+gui.limit.time.activity.soul.out=Sold out
+gui.limit.time.activity.limit.counts={.} links
+
+gui.limit.time.activity.draw.preview=Vergeben
+gui.limit.time.activity.draw.tip={.} Unentschieden sicher!
+gui.limit.time.activity.draw.single=1 Unentschieden
+gui.limit.time.activity.draw.ten=10 Unentschieden
+gui.limit.time.activity.draw.help=◇Geben Sie den Golden Rubik's Cube aus, um Belohnungen aus dem Preispool zu ziehen, und wenn Sie die angegebene Anzahl von Ziehungen erreichen, gewinnen Sie definitiv einen großen Preis；\n◇Die Preise des Preispools werden regelmäßig rotiert und die Anzahl der Ziehungen wird ebenfalls zurückgesetzt.
+
+gui.limit.time.activity.free=Erstmal frei
+gui.limit.time.activity.click.button.btn.tip1=Klicken Sie auf die Schaltfläche unten auf dem Bildschirm, um mit dem Angeln zu beginnen
+gui.limit.time.activity.click.button.btn.tip2=Welchen Schatz wirst du dieses Mal fangen?
+gui.limit.time.activity.must.win.lottery=Jeder Fischfang muss unterschiedliche Belohnungen geben!
+gui.limit.time.activity.fisherman.dec=Hey! Ich habe einen See mit vielen Schätzen gefunden, lass uns gemeinsam einen Weg finden, die Schätze zu fangen!
+gui.limit.time.activity.fishing=Angeln
+gui.limit.time.activity.click.skip=Klicken Sie hier, um die Animation zu überspringen
+gui.limit.time.combined.off=OFF
+gui.limit.time.combined.limit=▢FF913C08Beschränken Sie▢FFE92E4E{.}▢FF913C08Käufe
+gui.limit.time.activity.signal.tip=Jedes Paket ist auf▢FFFFFF001▢FFFFFFFFKauf begrenzt
+
+gui.limit.time.activity.help=Eventbeschreibung
+gui.limit.time.activity.must.win.lottery.help=◇Sie können jedes Mal, wenn Sie angeln, einen Preis aus dem Preispool erhalten, und die Preise werden nicht wiederholt, das heißt, die Preise, die Sie bereits gewonnen haben, werden in Zukunft nicht mehr gezogen;\n◇Jeder Fischfang kostet eine andere Menge an Golden Rubik's Cube (erhöht sich mit der Anzahl der Angelzeiten), Der spezifische Preis beträgt ↓\n1. Mal: ​​0\n2. Mal: ​​29\n3. Mal: ​​39\n4. Mal: ​​59\n5. Mal: ​​99\n6. Mal: ​​129\n7. Mal: 159\n8. Mal: ​​199\n9. Mal: ​​199\n10. Mal: ​​199\n11. Mal: ​​249\n12. Mal: ​​299
+gui.limit.time.activity.week.gift.help=Eventbeschreibung
+gui.limit.time.activity.month.gift.help=Eventbeschreibung
+
+language_end:g2052commercialize

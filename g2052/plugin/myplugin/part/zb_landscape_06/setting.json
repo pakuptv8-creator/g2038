@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_xiaofang_panzhai",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_xiaofang_panzhai.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

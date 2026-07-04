@@ -1,0 +1,960 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "FacePhotoWnd",
+            "Property": [
+                {
+                    "Name": "Level",
+                    "Value": "51"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                },
+                {
+                    "Name": "enableSilpOutOfBounds",
+                    "Value": "false"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "FacePhotoWnd-mask",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 0 0.470588"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-1},{0,1},{1,-1},{1,1}}"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "FacePhotoWnd-wnd",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,986},{0,552}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "enableSilpOutOfBounds",
+                            "Value": "false"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "FacePhotoWnd-panelBg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,986},{0,552}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "10 10 10 10"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_shop_new.json image:img_0_bg"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "FacePhotoWnd-close",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-20},{0,20},{0,13},{0,52}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Right"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "FacePhotoWnd-closeImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,33},{0,32}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_shop_new.json image:btn_0_close"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "FacePhotoWnd-frame1",
+                            "Property": [
+                                {
+                                    "Name": "EffectFileName",
+                                    "Value": "fisherman_gift_gold.effect"
+                                },
+                                {
+                                    "Name": "EffectScale",
+                                    "Value": "1.5 1.5"
+                                },
+                                {
+                                    "Name": "EffectOffset",
+                                    "Value": "0 -0.53 0"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,201},{0,148},{0,350}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_shop_new.json image:img_0_bubble1"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "FacePhotoWnd-icon1",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,-50},{1,-50}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "FacePhotoWnd-goBtn1",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,170},{0,208},{0,245}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "50 50 20 20"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "HT20"
+                                        },
+                                        {
+                                            "Name": "MinFont",
+                                            "Value": "HT14"
+                                        },
+                                        {
+                                            "Name": "AutoShrinkFont",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "BtnTextColor",
+                                            "Value": "0 0 0 1"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_shop_new.json image:btn_9_go"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_shop_new.json image:btn_9_go"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "FacePhotoWnd-goText1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,180},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "GO"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT24"
+                                                },
+                                                {
+                                                    "Name": "MinFont",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "AutoShrinkFont",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "enableSilpOutOfBounds",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0 0 0 1"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "FacePhotoWnd-frame2",
+                            "Property": [
+                                {
+                                    "Name": "EffectScale",
+                                    "Value": "1.5 1.5"
+                                },
+                                {
+                                    "Name": "EffectOffset",
+                                    "Value": "0 -0.53 0"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-225},{0,201},{0,-77},{0,350}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_shop_new.json image:img_0_bubble1"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "FacePhotoWnd-icon2",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,-50},{1,-50}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "FacePhotoWnd-goBtn2",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,170},{0,208},{0,245}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "50 50 20 20"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "HT20"
+                                        },
+                                        {
+                                            "Name": "MinFont",
+                                            "Value": "HT14"
+                                        },
+                                        {
+                                            "Name": "AutoShrinkFont",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "BtnTextColor",
+                                            "Value": "0 0 0 1"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_shop_new.json image:btn_9_go"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_shop_new.json image:btn_9_go"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "FacePhotoWnd-goText2",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,180},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "GO"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT24"
+                                                },
+                                                {
+                                                    "Name": "MinFont",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "AutoShrinkFont",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "enableSilpOutOfBounds",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0 0 0 1"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "FacePhotoWnd-frame3",
+                            "Property": [
+                                {
+                                    "Name": "EffectScale",
+                                    "Value": "1.5 1.5"
+                                },
+                                {
+                                    "Name": "EffectOffset",
+                                    "Value": "0 -0.53 0"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,225},{0,201},{0,373},{0,350}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_shop_new.json image:img_0_bubble1"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "FacePhotoWnd-icon3",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{1,-50},{1,-50}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "FacePhotoWnd-goBtn3",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,170},{0,208},{0,245}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Bottom"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "50 50 20 20"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "HT20"
+                                        },
+                                        {
+                                            "Name": "MinFont",
+                                            "Value": "HT14"
+                                        },
+                                        {
+                                            "Name": "AutoShrinkFont",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "BtnTextColor",
+                                            "Value": "0 0 0 1"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_shop_new.json image:btn_9_go"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_shop_new.json image:btn_9_go"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "FacePhotoWnd-goText3",
+                                            "Property": [
+                                                {
+                                                    "Name": "Touchable",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,180},{0,50}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "GO"
+                                                },
+                                                {
+                                                    "Name": "Font",
+                                                    "Value": "HT24"
+                                                },
+                                                {
+                                                    "Name": "MinFont",
+                                                    "Value": "HT14"
+                                                },
+                                                {
+                                                    "Name": "AutoShrinkFont",
+                                                    "Value": "true"
+                                                },
+                                                {
+                                                    "Name": "enableSilpOutOfBounds",
+                                                    "Value": "false"
+                                                },
+                                                {
+                                                    "Name": "TextColor",
+                                                    "Value": "0 0 0 1"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "FacePhotoWnd-timeBg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,39},{0,143},{0,171},{0,177}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "20 20 17 17"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_shop_new.json image:img_9_time_bottom"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "FacePhotoWnd-timeIcon",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,12},{0,0},{0,38},{0,25}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_shop_new.json image:img_0_time"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "FacePhotoWnd-timeText",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,46},{0,0},{1,-7},{1,0}}"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "12d 23h"
+                                        },
+                                        {
+                                            "Name": "Font",
+                                            "Value": "PKM16"
+                                        },
+                                        {
+                                            "Name": "MinFont",
+                                            "Value": "HT6"
+                                        },
+                                        {
+                                            "Name": "AutoShrinkFont",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "enableSilpOutOfBounds",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorderColor",
+                                            "Value": "1 1 1 1"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "FacePhotoWnd-descText",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,370},{0,500},{0,430}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "111rthrthr"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "HT20"
+                                },
+                                {
+                                    "Name": "AutoShrinkFont",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextWordWrap",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextBreakWord",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "FacePhotoWnd-titleText",
+                            "Property": [
+                                {
+                                    "Name": "EnableTextColorRect",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextColorLeftTop",
+                                    "Value": "0.101961 0.482353 1 1"
+                                },
+                                {
+                                    "Name": "TextColorRightTop",
+                                    "Value": "0.101961 0.482353 1 1"
+                                },
+                                {
+                                    "Name": "TextColorLeftBottom",
+                                    "Value": "0.137255 0.764706 1 1"
+                                },
+                                {
+                                    "Name": "TextColorRightBottom",
+                                    "Value": "0.137255 0.764706 1 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,40},{0,24},{0,490},{0,127}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "1111111111111"
+                                },
+                                {
+                                    "Name": "Font",
+                                    "Value": "PKM35"
+                                },
+                                {
+                                    "Name": "MinFont",
+                                    "Value": "PKM30"
+                                },
+                                {
+                                    "Name": "AutoShrinkFont",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "TextWordWrap",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextBreakWord",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextShadowColor",
+                                    "Value": "1 1 1 1"
+                                },
+                                {
+                                    "Name": "TextBorder",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextBorderColor",
+                                    "Value": "1 1 1 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "FacePhotoWnd-titleImage",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,40},{0,24},{0,580},{0,141}}"
+                                },
+                                {
+                                    "Name": "enableSilpOutOfBounds",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_shop_new.json image:text_zh"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

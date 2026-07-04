@@ -1,0 +1,703 @@
+
+
+language_start:g2052_lang
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+annivesary.announcement=주년 할인 행사
+annivesary.tips=참고: Free City 전용 성장 펀드를 구매하면 특가 상품을 최소 2개 이상 받을 수 있습니다.
+
+gui.limit.time.heart.warming.title=마음이 따뜻해지는 선물
+gui.limit.time.heart.warming.integral=완전한:{.}
+gui.limit.time.heart.warming.day1=첫날
+gui.limit.time.heart.warming.day2=다음날
+gui.limit.time.heart.warming.day3=세번째 날
+
+taskTitle_11=게임에 총 1명의 친구를 추가했습니다.
+taskTitle_12=새로운 직업을 설정하세요
+taskTitle_13=새로운 옷을 입혀보세요
+taskTitle_14=나만의 집을 짓다
+taskTitle_15=오늘 모든 작업을 완료하세요.
+taskTitle_21=게임에 총 3명의 친구를 추가했습니다.
+taskTitle_22=소형 차량을 사용하여 2명의 플레이어를 태웠습니다.
+taskTitle_23=2명의 플레이어에게 아이템 선물
+taskTitle_24=포옹이나 기타 동작을 통해 2명의 플레이어와 상호 작용
+taskTitle_25=오늘 모든 작업을 완료하세요.
+taskTitle_31=게임에 총 5명의 친구를 추가했습니다.
+taskTitle_32=라이터나 폭탄을 사용하여 누군가의 집에 불을 지릅니다.
+taskTitle_33=경찰 직업을 사용하여 플레이어를 경찰서에 가두세요
+taskTitle_34=소방관 직업을 사용하여 화재를 진압하십시오.
+taskTitle_35=오늘 모든 작업을 완료하세요.
+taskDesc_24=플레이어와 상호 작용하려면 플레이어의 캐릭터를 클릭한 다음 팝업 목록에서 상호 작용하려는 작업을 선택해야 합니다.
+taskDesc_32=라이터나 C4 폭탄을 장착한 경우 집 주변 아무 곳이나 클릭하면 불이 붙거나 폭발하여 불이 붙습니다.
+taskDesc_34=화재 발생 지점에서 소화기나 소방차의 스프링클러를 사용하여 불을 끄십시오.
+gui.limit.time.heart.warming.house_fire=당신의 집에 불이 붙었습니다. 그것이 화재를 일으켰나요?
+
+g2052_gift_1100011=탐정 코트
+g2052_gift_1100012=토끼
+g2052_gift_1100013=슈퍼바이크
+g2052_gift_1100014=카트를 타다
+
+subscribe_game_reward_item_tips1=gcube 애완동물을 체험할 수 있습니다.
+subscribe_game_reward_item_tips2=일부 gcube 차량을 경험할 수 있습니다.
+subscribe_game_reward_item_tips3=Gcube 레지던스 전체 체험 가능
+subscribe_game_reward_item_tips4=House Disaster Simulator의 모든 기능을 즐겨보세요
+g2052.gui.buy_shop.preview_tip=시사
+g2052_face_image_desc=12번의 추첨을 통해 모든 상품 획득\n첫 번째 추첨은 무료입니다.
+
+g2052_gift_20001=정원테마하우스
+g2052_gift_20002=꿀벌 스웨트셔츠
+g2052_gift_20003=클래식 자동차
+g2052_gift_20004=꿀벌 배낭
+g2052_gift_20005=카우보이 세트
+g2052_gift_20006=토끼 세트
+g2052_gift_20007=하트 모양 안경
+g2052_gift_20008=니트 모자
+g2052_gift_20009=호박 머리
+g2052_gift_20010=블루 저지
+g2052_gift_20011=갈색 말
+g2052_gift_20012=크루저 자동차
+g2052_gift_20013=럭셔리 오토바이
+g2052_gift_20014=무지개 유니콘
+g2052_gift_20015=산악 세발자전거
+g2052_gift_20016=공룡 세트
+g2052_gift_20017=마녀 세트
+g2052_gift_20018=곰 마스크
+g2052_gift_20019=토끼 애완동물
+g2052_gift_20020=할로윈 한정판 외발자전거
+g2052_gift_20021=오토바이 헬멧
+g2052_gift_20022=곰 모자
+g2052_gift_20023=무도회 마스크
+g2052_gift_20024=비치 반바지
+
+g2052_gift_40001=가든테마룸
+g2052_gift_40002=레스토랑 테마룸
+g2052_gift_40003=공룡 슈트
+g2052_gift_40004=신개념 자동차
+g2052_gift_40005=토끼 옷
+
+g2052.gui.business.confirm_buy=구매하시겠습니까?
+
+g2052_clothing_20001=데님 수트
+g2052_clothing_20002=웨딩 드레스
+g2052_clothing_20003=운동복
+g2052_clothing_20004=운동복
+g2052_clothing_20005=작은 꿀 코트
+g2052_clothing_20006=해변 반바지
+g2052_clothing_20007=플로럴 스커트
+g2052_clothing_20008=작은 꿀벌 배낭
+g2052_clothing_20009=토끼 배낭
+g2052_clothing_20010=오토바이 헬멧
+g2052_clothing_20011=개 머리
+g2052_clothing_20012=니트 모자
+
+
+g2052.gui.drama.template.name4=거인
+g2052.gui.drama.template.name00=무
+g2052.gui.drama.template.desc3=중력이 사라졌습니다. 무슨 일이 일어났을까요?
+g2052.gui.drama.template.desc4=거인 강림!당신은 가장 큰 거인이 될 수 있습니까?
+g2052.gui.drama.hamburger.max=너는 이미 배가 부르게 먹었다
+message.notice.name10=새로운 빅햄버거가 떴다!
+message.notice.name11={.}버거 크게 드세요!
+
+g2052.gui.setting.FarClipSetting=시야 거리 (낮을수록 성능이 우수)
+g2052.gui.setting.FarClipSetting.low=낮음
+g2052.gui.setting.FarClipSetting.mid=가운데
+g2052.gui.setting.FarClipSetting.high=높음
+
+g2052.gui.gift.send.normalTips=양보하다
+g2052.gui.gift.send.tips=선물
+g2052.gui.gift.send.title=선물을 선택해 주세요
+
+g2052.gui.dress.reset=복원 드레스
+g2052.gui.dress.reset.dec=드레스 복원 여부
+
+g2052.gui.activity.to.unlock=이벤트 잠금 해제
+
+g2052.gui.halloween.share.title=공유하다
+g2052.gui.halloween.askFor.title=요구하다
+g2052.gui.halloween.share.limit=▢FFFF8C00오늘 최대 주식 수에 도달했습니다.
+g2052.gui.halloween.accept.limit=▢FFFF8C00오늘 상대방이 요청한 횟수가 상한에 도달한 횟수
+g2052.gui.halloween.askFor.limit=▢FFFF8C00오늘의 최대 요청 수에 도달했습니다.
+g2052.gui.halloween.findGhost.limit=오늘 유령 사냥 횟수가 한계에 도달했습니다
+g2052.gui.halloween.share.remain=오늘의 남은 주식: {.}
+g2052.gui.halloween.accept.remain=오늘 남은 요청: {.}
+g2052.gui.halloween.share.exist=▢FFFF8C00오늘은 서로 사탕을 나눠먹었다
+g2052.gui.halloween.askFor.exist=▢FFFF8C00상대방이 오늘 당신과 사탕을 나눠 먹었습니다.
+g2052.gui.halloween.askFor.ask={.}의 사탕 요청에 동의하십니까?
+g2052.gui.halloween.askFor.refuse={.}▢FFFF8C00이(가) 사탕 요청을 거부했습니다.
+g2052.gui.halloween.start.day=사용은 {.}일 후에 시작됩니다.
+g2052.gui.halloween.start.hour={.} 교환 열기
+g2052.gui.halloween.exchange.condition=경비:{.}/{.}
+g2052.gui.halloween.exchange.fail=▢FFFF8C00교환 조건이 충족되지 않습니다. 계속해서 사탕을 수집하세요.
+g2052.gui.halloween.exchange.success=▢FF00FF00구속
+g2052.gui.halloween.exchange.desc=이 보상을 사용하시겠습니까?
+g2052.gui.halloween.find.ghost.num=발견 대기 중인 유령이 {.}명 남아 있습니다
+
+g2052.gui.house.dismantle=철거 주택
+g2052.gui.house.dismantle.dec=기존 주택을 철거?
+g2052.gui.home.list.is.open=홈 목록이 열렸습니다.
+
+face_name_fukong=떠 있는
+face_name_zombie=좀비
+face_name_panic=공황
+face_name_crawl=기다
+face_name_mummy=미라
+face_name_backwalk=뒤로 걷다
+face_name_skip=잘 튀는
+face_name_model=모델
+face_name_army=군인
+
+g2052.gui.drama.join=가입하다
+
+g2052.gui.drama.template.title=파티 템플릿을 선택하세요.
+g2052.gui.drama.template.name1=홍수
+g2052.gui.drama.template.name2=안개
+g2052.gui.drama.template.name3=무중력
+g2052.gui.drama.template.name0=사용자 정의
+g2052.gui.notify.party.create={.} 파티를 만들었습니다
+g2052.gui.drama.title.tips=파티 제목을 수정하십시오
+g2052.gui.drama.guide.tips1=진행중인 파티에 참여하고 다른 플레이어와 다른 도시 환경을 경험하십시오!
+g2052.gui.drama.guide.tips2=좋아하는 도시를 선택하여 플레이하고 나만의 파티를 만드세요!
+g2052.gui.drama.guide.tips3=다른 템플릿을 선택하면 도시에 다른 놀라움이 있을 것입니다. 와서 경험해 보세요!
+g2052.gui.drama.guide.tips4=클릭하여 파티를 시작하고 즉시 전용 도시에 입장하십시오!
+g2052.gui.drama.template.desc1=며칠간 집중호우로 도시홍수 원인, 홍수생활 방법
+g2052.gui.drama.template.desc2=알 수 없는 안개에 휩싸인 도시, 발 조심하세요!
+g2052.gui.drama.template.desc0=사용자 정의 템플릿은 두 주요 도시의 게임 플레이를 융합한 것입니다.
+
+message.notice.name7=바와 볼룸이 열려 있습니다.
+message.notice.name8=바와 댄스홀은 문을 닫습니다.
+message.notice.name9=누군가가 탈옥 중입니다!
+
+gui.update7.desc=FC 파티 게임 플레이가 업데이트되었으며 다양하고 흥미로운 맵 템플릿이 출시되었습니다.
+
+gui.shop.vip.desc1=VIP 전용 주택, 의류 및 차량 콘텐츠 잠금 해제
+
+shortmessage.title1=안녕하세요~
+shortmessage.title2=웃다
+shortmessage.title3=플레이
+shortmessage.title4=우리 집으로와
+shortmessage.title5=학교에 가다
+shortmessage.title6=게임을하다
+shortmessage.title7=그것은 좋다
+shortmessage.title8=거부하다
+shortmessage.title9=감사합니다~
+shortmessage.title10=감탄
+shortmessage.title11=예쁜
+shortmessage.title12=너무 잘생겼어!
+shortmessage.title13=나를 따라와
+shortmessage.title14=그리고 더 많은
+shortmessage.title15=잠깐 기다려요
+gui.short.lang1=안녕하세요~
+gui.short.lang2=ㅋㅋㅋㅋ
+gui.short.lang3=같이 놀자
+gui.short.lang4=우리 집에 놀러 올래?
+gui.short.lang5=학교에 가십시오!
+gui.short.lang6=게임을 하고싶다
+gui.short.lang7=확인!
+gui.short.lang8=원하지 않는다
+gui.short.lang9=감사합니다~
+gui.short.lang10=대박!
+gui.short.lang11=너무 아름다워
+gui.short.lang12=너무 잘생겼어!
+gui.short.lang13=나랑 가자~
+gui.short.lang14=날 기다려!
+gui.short.lang15=잠깐~
+g2052.gui.short.chat.tips =Chatta troppo velocemente, ridigita tra {.} secondi!
+
+language_end:new
+
+g2052.gui.marketing.super.gift=밸류 팩
+g2052.gui.marketing.hint=패스에는 다음이 포함됩니다.
+g2052.gui.marketing.buy=구입하다
+
+g2052.gui.marketing.item.name1=VIP 하우스
+g2052.gui.marketing.item.name2=VIP 차량
+g2052.gui.marketing.item.name3=VIP 의류
+g2052.gui.marketing.item.name4=VIP 플롯
+g2052.gui.marketing.item.name5=차량 가속
+g2052.gui.marketing.item.name6=색상 변경
+g2052.gui.marketing.item.name7=채팅 배지
+g2052.gui.marketing.item.name8=
+
+g2052.gui.profession.recommend.time.count=인터페이스가 {.}초 후에 닫힙니다.
+g2052.gui.car.player.in.forbid.area=현재 지역에서 차량을 생성할 수 없습니다.
+g2052.gui.car.in.forbid.area=차량 생성에 실패했습니다. 열린 공간으로 이동하십시오.
+g2052.gui.car.no.room=스폰 위치가 다른 차량에 의해 점유되고 있습니다.
+
+guide_script_title=파티는 어때?
+guide_script_desc1=캐릭터와 게임 플레이를 디자인하고 파티를 만드세요
+guide_script_desc2=또는 모두가 플레이하는 파티에 참여하세요.
+
+g2052.gui.drama.join.tips={.} 파티에 합류했습니다
+g2052.gui.drama.cur.drama=현재 파티
+g2052.gui.drama.history=역사 파티
+g2052.gui.drama.confirm.dissolve=파티를 끊으시겠습니까?
+g2052.gui.drama.amend=파티 수정
+g2052.gui.drama.confirm.leave=파티에서 나가시겠습니까?
+
+
+guide_guide_script=FC 파티
+g2052.gui.drama.title=파티 목록
+g2052.gui.drama.news=최신 파티
+g2052.gui.drama.create=파티 만들기
+g2052.gui.drama.recent=최신 파티
+g2052.gui.drama.leave=파티를 떠나다
+g2052.gui.drama.mine=나의 파티
+g2052.gui.drama.dissolve=파티를 해산하다
+g2052.gui.drama.full.tips=해당 파티의 유저들이 모두 찼습니다. 다른 파티를 선택해주세요
+g2052.gui.drama.detail.title1={.}의 파티
+g2052.gui.drama.editor.drama=파티 정보
+
+
+g2052.gui.occupation.others=이 {.}은(는) 다른 사람의 것입니다.
+g2052.gui.occupation.own=당신은 이미 {.}
+g2052.gui.occupation.goods=사물함
+
+g2052.gui.create.vip=개인 음모
+
+guide_script_desc3=좋아하는 역할로 놀아, 우리 같이 놀자!
+
+gui.shop.vip.name=VIP 패스
+
+gui.shop.vip.desc2=집과 차량의 색상 변경 기능 잠금 해제
+gui.shop.vip.desc3=차량 속도 부스트 기능 잠금 해제
+gui.shop.vip.desc4=전용 토지 사용권 획득
+gui.shop.vip.desc5=채팅 VIP 배지 및 채팅 풍선 받기
+
+
+message.notice.bad.weather_4=예보: 한 시간 후 뇌우!
+message.notice.bad.weather_5=일기예보: 한 시간 만에 최고 기온!
+message.notice.bad.weather_6=예보: 한 시간 후에 눈이 온다!
+message.notice.bad.weather_7=일기예보: 한 시간 후의 모래 폭풍!
+message.notice.bad.weather_8=예보: 한 시간 안에 짙은 안개!
+message.notice.bad.weather_9={.}악천후 발생!
+
+g2052.gui.world_chat.invite=게임에 초대하다
+g2052.gui.world_chat.ignore=메시지 차단
+g2052.gui.world_chat.ignored=막힌
+g2052.gui.world_chat.ignore.tips=이 플레이어는 차단되었습니다
+
+
+g2052.gui.chat.system.login=FreeCity에 오신 것을 환영합니다.{.}
+
+g2052.gui.vehicle.part.color=색상 설정
+g2052.gui.vehicle.gearshift=옮기다
+
+
+g2052.gui.confirm=예
+g2052.gui.cancel=취소
+
+g2052.gui.announcement.main_title=새 버전 미리보기
+g2052.gui.announcement.new=고쳐 쓰다
+g2052.gui.announcement.activity=활동
+gui.update.clothes.title=새로운 드레스
+gui.update.car.title=새 차량
+gui.update.scene.title=새로운 장면
+gui.update.house.title=앞다리
+gui.update.prop.title=새로운 소품
+gui.update.face.title=새로운 이모티콘
+gui.update.title=기능적 변화
+g2052.gui.tendering.sign.go_land=이동
+
+g2052.gui.phone.ignore_call=더 이상 전화를 받지 않습니다
+g2052.gui.setting.reset_player=문자 재설정
+message.notice.name1=은행 경고가 발생했습니다.
+message.notice.name2=은행 금고 문이 닫히려고 합니다.
+message.notice.name3=은행 금고 문이 닫혀 있습니다.
+message.notice.name4={.} 집에 불이 났어요
+message.notice.name5=당신의 금고는 눈이 멀었습니다
+message.notice.name6={.}이(가) 도움을 요청하고 있습니다.
+
+g2052.gui.peakday.title=주말에 게임에 로그인
+g2052.gui.peakday.title2=선물을 받다
+g2052.gui.peakday.text3=보상으로 애완 동물을 선택하십시오
+g2052.gui.peakday.text1=이벤트 시작 카운트다운: 
+g2052.gui.activity.day={.}일{.}시간
+g2052.gui.peakday.button1=받다
+g2052.gui.peakday.button2=받았다
+g2052.gui.peakday.no.select.item=
+g2052.gui.peakday.get.reward.success=성공적으로 수신됨
+
+gui.shop.title=가게
+gui.confirm.purchase=합의
+gui.whether.confirm.buy=당신은 구입하길 원하나요 {.}?
+gui.insufficient.funds=잔액 불충분
+gui.still.missing=또한 누락된 {.}
+gui.whether.enter.recharge=충전 인터페이스를 입력했습니까?
+gui.goods.already.have=소유
+gui.buy.succeed=성공적인 구매
+gui.buy.succeed.dec=당신은 가지고있다: {.}
+gui.do.not.repeat.purchase=구매 실패
+
+
+g2052.gui.house.create.cd=대기 시간:{.}s
+g2052.gui.house.create.is.cd=집이 진정되었습니다. 나중에 다시 시도해 주세요.
+
+g2052.gui.part.content.init=콘텐츠
+g2052.gui.part.content.top_title=배경
+g2052.gui.part.content.bottom_title=텍스트
+
+g2052.gui.interact.player_action1=적재
+g2052.gui.interact.player_action2=곰
+g2052.gui.interact.player_action3=잡고 있다
+g2052.gui.interact.player_action4=껴안다
+
+g2052.gui.scene.name.square_ice01=블루베리
+g2052.gui.scene.name.square_ice02=딸기
+g2052.gui.scene.name.square_ice03=바닐라
+g2052.gui.scene.name.square_ice04=타로
+g2052.gui.scene.name.square_ice05=망고
+g2052.gui.scene.name.square_ice06=초콜릿
+
+g2052.gui.dyeing.part.color={.}색깔
+g2052.gui.part.custom_hair=머리카락
+
+g2052.gui.interact.tips=초대장 전송됨
+g2052.gui.transfer.fail=휴대 상태를 전송할 수 없습니다.
+g2052.gui.props.loading_success=장바구니에 추가
+g2052.gui.props.unload_success=다시 선반에 올려 놓으십시오
+
+ui.chat.chatMsgType9=가까운
+ui.chat.friend.near =▢FFFFFFFF 주변 친구들
+ui.chat.friend.apply=▢FFFFFFFF 친구 요청
+ui.chat.friend.list=▢FFFFFFFF 친구 목록
+ui.chat.friend.applyFriend=▢FFFFFFFF 새로운 친구
+ui.chat.friend.gameFriend=▢FF4A2942 친구와 함께 플레이
+ui.chat.friend.platformFriend=▢FF4A2942 플랫폼 친구
+ui.chat.friend.recent_contact=▢FFFFFFFF 최근 연락처
+ui.chat.friend.offline=▢FF78476C 오프라인
+ui.chat.friend.online=▢FF07BE14 온라인
+ui.chat.number=▢FF4A2942{.}/{.}
+ui.chat.playerInfo.name=▢FFFFFFFF{.}
+ui.chat.friend.name=▢FF926787{.}
+
+g2052.gui.interactive.refuse =다른 플레이어가 요청을 거부했습니다
+g2052.gui.interactive.fail =상호작용 실패
+g2052.gui.password.error=wrong password
+
+g2052.gui.dance.dance_title =변
+face_name_happy=행복하다
+face_name_unhappy=슬퍼
+face_name_angry=화난
+face_name_laugh=ㅋ ㅋ ㅋ
+face_name_cheer=환호
+face_name_shyness=수줍은
+face_name_cry=울다
+face_name_wave=환영하다
+face_name_bye=안녕
+face_name_yes=동의하다
+face_name_no=거절하다
+face_name_handshake=악수하다
+face_name_fear=두려움
+face_name_cute=귀여워
+face_name_naughty=버릇
+face_name_love1=애정표현(L)
+face_name_love2=애정표현(R)
+face_name_salute=경례
+face_name_clap=박수
+face_name_point=가리키는
+face_name_scratch=혼란스러운
+face_name_boring=지루한
+face_name_dizzy=어지러운
+face_name_freeze=얼다
+face_name_wounded=부상
+face_name_fall=떨어지다
+face_name_sneak=좀도둑
+face_name_raisehand=손 들어
+face_name_arrested=수갑
+face_name_warm-up=워밍업
+dance_name_hot=핫 댄스
+dance_name_locking=잠금
+dance_name_shake1=스윙댄스 1
+dance_name_shake2=스윙댄스 2
+dance_name_scissors=스윙댄스 3
+dance_name_slide=슬라이드 스텝
+dance_name_thomas=브레이크 댄스
+dance_name_1=댄스 1
+dance_name_2=댄스 2
+dance_name_3=댄스 3
+dance_name_4=댄스 4
+dance_name_5=댄스 5
+dance_name_6=댄스 6
+dance_name_7=댄스 7
+dance_name_8=댄스 8
+dance_name_9=댄스 9
+dance_name_robot=터지는
+face_name_fall2=아래로 2
+face_name_sit1=앉아
+face_name_sit2=앉다 2
+face_name_wallstand1=벽에 기대어 서다
+face_name_wallstand2=벽에 기대어 2
+face_name_salute2=경례 2
+face_name_strong=강한
+face_name_death=죽음
+
+g2052.gui.time.monday=월요일
+g2052.gui.time.tuesday=화요일
+g2052.gui.time.wednesday=수요일
+g2052.gui.time.thursday=목요일
+g2052.gui.time.friday=금요일
+g2052.gui.time.saturday=토요일
+g2052.gui.time.sunday=일요일
+g2052.gui.profession.main_title =직업
+g2052.gui.profession.main_name =이름
+g2052.gui.profession.main_introduce =소개
+g2052.gui.profession.color_name =이름
+g2052.gui.profession.color_introduce =소개
+g2052.gui.profession.color_edit =입력하다
+g2052.gui.profession.career_name1 =경관
+g2052.gui.profession.career_name2 =경비원
+g2052.gui.profession.career_name3 =범인
+g2052.gui.profession.career_name4=가게
+g2052.gui.profession.career_name5=요리사
+g2052.gui.profession.career_name6=버거 점원
+g2052.gui.profession.career_name7=가수
+g2052.gui.profession.career_name8=음악가
+g2052.gui.profession.career_name9=디제이
+g2052.gui.profession.career_name10=교수
+g2052.gui.profession.career_name11=아이스크림 점원
+g2052.gui.profession.career_name12=구타.
+g2052.gui.profession.career_name13=의사
+g2052.gui.profession.career_name14=인내심있는
+g2052.gui.profession.career_name15=소방수
+g2052.gui.profession.career_name16=차림새
+g2052.gui.profession.career_name17=성직자
+g2052.gui.profession.career_name18=플레이어
+g2052.gui.profession.career_name19=웨이터/웨이트리스
+g2052.gui.profession.career_name20=청소기
+g2052.gui.profession.career_name21=수의사
+g2052.gui.profession.career_name22=근위대
+g2052.gui.profession.career_name23=간호사
+g2052.gui.profession.career_name24=아이
+g2052.gui.profession.career_name25=이발사
+g2052.gui.profession.career_name26=운전사
+g2052.gui.profession.career_name27=침대
+g2052.gui.profession.career_name28=우편 집배원
+g2052.gui.profession.career_name29=운동 선수
+g2052.gui.profession.career_name30=조종사
+g2052.gui.profession.career_name31=과학자
+g2052.gui.profession.career_name32=피자 점원
+g2052.gui.profession.career_name33=바리스타
+g2052.gui.profession.career_name34=스케이팅 선수
+g2052.gui.profession.career_name35=검술의 달인
+g2052.gui.profession.career_name36=사수
+g2052.gui.profession.career_name37=태권도 마스터
+g2052.gui.profession.career_name38=메이크업 아티스트
+g2052.gui.profession.career_name39=우주 비행사
+g2052.gui.profession.career_name40=선생님
+g2052.gui.profession.career_name41=의사
+g2052.gui.profession.career_name42=변호사
+g2052.gui.profession.career_name43=시골뜨기
+g2052.gui.profession.career_name44=재단사
+g2052.gui.profession.career_name45=판사
+g2052.gui.profession.career_name46=학생
+g2052.gui.profession.career_name47=교장
+g2052.gui.profession.career_name48=게임 플레이어
+g2052.gui.profession.career_name49=미식가
+g2052.gui.profession.career_name50=모델
+g2052.gui.profession.career_name51=농장주
+g2052.gui.profession.career_name52=택시 운전사
+g2052.gui.profession.career_name53=선원
+g2052.gui.profession.career_name54=어부
+g2052.gui.profession.career_name55=선장
+g2052.gui.profession.career_name56=수집기
+g2052.gui.profession.career_name57=주최자
+g2052.gui.profession.career_name58=하녀
+g2052.gui.profession.career_name59=작가
+g2052.gui.profession.career_name60=노동자
+g2052.gui.profession.career_name61=보고자
+g2052.gui.profession.career_name62=춤추는 사람
+g2052.gui.profession.career_name63=버스 운전사
+g2052.gui.profession.career_name64=군인
+g2052.gui.profession.career_name65=관광 가이드
+g2052.gui.profession.career_name66=화가
+g2052.gui.profession.career_name67=정원사
+g2052.gui.profession.career_name68=건축가
+g2052.gui.profession.career_name69=의원
+g2052.gui.profession.career_name70=갱 단원
+g2052.gui.profession.career_name71=죄인
+
+g2052.gui.drama.hot=트렌드
+g2052.gui.drama.likes=최다 좋아요
+g2052.gui.drama.friend=놀고 있는 친구
+g2052.gui.drama.change.role=캐릭터 변경
+g2052.gui.drama.drama.desc=같이 놀러오세요
+g2052.gui.drama.role.name=성격 {.}
+g2052.gui.drama.role.desc=내용을 입력해주세요
+g2052.gui.drama.editor.role=캐릭터 정보
+
+g2052.gui.drama.like.ranking=리더보드
+g2052.gui.drama.use=사용
+
+g2052.prop.send.CDTime=작업이 너무 빠릅니다. 나중에 다시 시도해 주세요.
+g2052.gui.phone.call_wait=작업이 너무 빠릅니다. 나중에 다시 시도해 주세요.
+g2052.gui.phone.career_success_tips=통화 성공, 위치 공유
+
+g2052.gui.child.name =이름
+g2052.gui.child.edit.placeholder =아기 이름 설정
+g2052.gui.child.edit.name =아기의 이름
+
+g2052.gui.house.title =집
+g2052.gui.bag.title =배낭
+g2052.gui.appearance.title =모습
+g2052.gui.shape.scale.is.max =이것은 이미 최대 바디 피규어입니다
+g2052.gui.shape.scale.is.min =이것은 이미 최소한의 신체 수치입니다.
+
+g2052.gui.create =만들다
+g2052.gui.house.remould =하우스 리노베이션
+g2052.event.house.on.fire=당신의 집은 FIREEEEEE에 있습니다!
+g2052.gui.house.remould.dec=다른 집으로 바꾸시겠습니까?
+g2052.gui.friend.pop.add.limit=액세스 허용
+g2052.gui.friend.pop.unfreeze=방문 불가
+g2052.gui.house.move=이사하다
+g2052.gui.house.move.dec=집을 옮기시겠습니까?
+g2052.gui.house.brief.introduction=집 프로필
+g2052.gui.owner.ask.you.leave=주인이 나가라고 한다
+gui.shop.house.event.desc=화재, 홍수, 정전, 토네이도, 뇌운, 헬리콥터, 유령, 가스트, UFO, 안개, 지진, 운석 등 집을 제어할 수 있는 재난 이벤트
+gui.shop.house.event.name=재난 시뮬레이터
+g2052.gui.house.disaster.title=재해 목록
+g2052.gui.house.disaster.limit={.} 이벤트만 동시에 활성화할 수 있습니다.
+house.event.name1=불
+house.event.name2=홍수
+house.event.name3=정전
+house.event.name4=폭풍
+house.event.name5=뇌운
+house.event.name6=헬리콥터
+house.event.name7=귀신
+house.event.name8=유령
+house.event.name9=UFO
+house.event.name10=안개
+house.event.name11=지진
+house.event.name12=운석
+
+g2052.event.explode.vault.gate =%s이(가) 은행 문을 폭파했습니다.
+g2052.event.explode.house.safe =%s이(가) 집을 털었습니다
+g2052.event.alarm.of.fire=집 #{.}이 불타고 있습니다!
+
+g2052.gui.car.title=차량
+g2052.gui.car.forbid.use=현재 차량을 이용할 수 없습니다
+g2052.gui.car.region.forbid.use=이 지역에서는 차량을 이용할 수 없습니다.
+
+g2052.gui.appearance.forbid=라이딩 중에는 외모를 변경할 수 없습니다.
+g2052.gui.appearance.forbid.jump.fall=공중에서 의상을 변경할 수 없습니다.
+g2052.gui.partner.title=아기
+g2052.gui.billboard.edit={.}광고 게시판
+g2052.gui.click.input.click=여기에 입력하십시오
+
+g2052.gui.appearance.forbid.swim=수영 중에는 복장을 변경할 수 없습니다.
+
+gui.house.bgm.title=음악
+g2052.gui.friend.top.title=친구 시스템
+g2052.gui.friend.tab.friend=내 친구
+g2052.gui.friend.tab.near=근처에 있는 플레이어
+g2052.gui.friend.tab.request=친구 요청
+g2052.gui.friend.delete.title=친구 삭제
+g2052.gui.friend.delete.desc=이 친구를 삭제하시겠습니까?
+g2052.gui.friend.agree.success=성공적으로 추가됨
+g2052.gui.friend.refuse=거부됨
+g2052.gui.friend.lang=언어
+g2052.gui.friend.again=다시 시도하십시오
+g2052.gui.friend.none.friend=친구를 추가해주세요
+g2052.gui.friend.none.near=근처에 플레이어가 없습니다
+g2052.gui.friend.none.request=수신된 요청 없음
+g2052.gui.friend.invite=이봐, 놀고 싶어?
+g2052.gui.friend.invite.btn=초대
+g2052.gui.friend.pop.invite=손님으로 초대
+g2052.gui.chat.private.target=에게
+g2052.gui.chat.private.NewFrom=에서
+g2052.gui.chat.private.from=당신에게 속삭입니다:
+g2052.gui.world_chat.title=글로벌 채팅
+g2052.gui.world_chat.lang.tips={.} 채팅 채널로 전환
+g2052.gui.world_chat.block={.} 채팅 채널 차단됨
+g2052.gui.world_chat.cancel_block={.} 채팅 채널 차단 해제
+
+g2052.gui.setting.voiceSetting=음성 설정
+
+
+g2052.gui.setting.video=비디오 모드
+g2052.gui.video.tab1=필터
+g2052.gui.video.tab2=날씨
+g2052.gui.video.tab3=화면 효과
+g2052.gui.video.handle.tab1=특수 효과
+g2052.gui.video.handle.tab2=UI 숨기기
+g2052.gui.video.handle.tab3=설정 숨기기
+g2052.gui.video.handle.type101=복고풍
+g2052.gui.video.handle.type102=검정색과 흰색
+g2052.gui.video.handle.type103=고대비
+g2052.gui.video.handle.type104=사이버펑크
+g2052.gui.video.handle.type105=불타는 듯한 빛깔
+g2052.gui.video.handle.type106=가을날
+g2052.gui.video.handle.type107=보름달 밤
+g2052.gui.video.handle.type108=햇볕이 잘 드는
+g2052.gui.video.handle.type201=햇볕이 잘 드는
+g2052.gui.video.handle.type202=비
+g2052.gui.video.handle.type203=눈이 오는 날
+g2052.gui.video.handle.type204=별이 빛나는 하늘
+g2052.gui.video.handle.type205=일몰
+g2052.gui.video.handle.type301=영화 검은 테두리
+g2052.gui.video.handle.type302=플래시
+g2052.gui.video.handle.type303=스피드 라인
+g2052.gui.video.handle.type304=도지
+g2052.gui.video.handle.type305=나비
+g2052.gui.video.handle.type306=점
+g2052.gui.video.hide.setting.data1=이름을 숨기다
+g2052.gui.video.hide.setting.data2=플레이어 숨기기
+g2052.gui.video.hide.setting.data3=몸을 숨기다
+
+guide_role_title=역할이란 무엇입니까?
+guide_role_desc1=마음에 드는 옷을 골라
+guide_role_desc2=몸의 크기와 피부톤을 조절하세요.
+guide_role_desc3=좋아하는 이모티콘 교체
+guide_house_title=자신의 집을 짓는 방법?
+guide_house_desc1=열린 공간을 선택하고 해당 보드를 클릭하십시오.
+guide_house_desc2=좋아하는 집 템플릿을 선택하십시오
+guide_house_desc3=집이 준비되었습니다. 살펴보겠습니다!
+guide_profession_title=직업이란 무엇입니까?
+guide_profession_desc1=자신에게 멋진 이름을 지어주세요
+guide_profession_desc2=선호하는 직업 상태를 선택하십시오
+guide_profession_desc3=이 정보는 머리에 표시됩니다
+guide_baby_title=입양이란?
+guide_baby_desc1=좋아하는 아기를 선택하십시오
+guide_baby_desc2=당신의 아기는 당신과 함께 놀 것입니다!
+guide_dace_title=액션이란?
+guide_dace_desc1=액션을 선택하면 캐릭터가 애니메이션을 재생합니다.
+guide_dace_desc2=다른 플레이어들에게 인사를 해보세요!
+guide_car_title=차를 어떻게 사용합니까?
+guide_car_desc1=선호하는 차량을 선택하세요
+guide_car_desc2=차를 타고 세계를 여행하다
+guide_prop_title=소품을 사용하는 방법
+guide_prop_desc1=사용할 소품을 선택하세요
+guide_prop_desc2=모드를 전환하려면 오른쪽 버튼을 클릭하십시오
+guide_prop_desc3=소품을 사용하려면 화면을 탭하세요.
+
+
+g2052.gui.tendering.email.send_btn=보내다
+g2052.gui.tendering.email.title=시장은 녹색 채널을 제안
+g2052.gui.tendering.email.tips=존경하는 시장님, 건의사항을 적어 주십시오.
+g2052.gui.tendering.email.send_success=성공적으로 보냈습니다
+g2052.gui.tendering.email.send_fail=전송 실패
+
+
+g2052.gui.tendering.tips=힌트
+g2052.gui.bidding_rank.preview_tip=힌트
+
+ui.cash.coupon.expend = 이번에는 {.} 게임 토큰 + {.} Gold Rubik's Gcube를 소비했습니다.
+ui.cash.coupon.tips =Gold Rubik의 Gcube는 먼저 게임 토큰을 소비합니다. 플랫폼 활동을 얻습니다.
+
+g2052.advertisement.use.car.tips=동영상을 시청하여 GCube 무료 체험을 해보세요.
+g2052.advertisement.use.car.cd.tips=Wait {.} seconds before watching again
+
+g2052.gui.advertisement.draw.out.of.count=오늘의 새로고침 횟수가 모두 소진되었습니다
+g2052.gui.advertisement.draw.reward.all.gain=이미 모든 골드 큐브 아이템을 획득했습니다
+g2052.gui.advertisement.draw.fail=새로고침 실패
+g2052.gui.advertisement.lock.slot.fail=보상 잠금에 실패했습니다
+g2052.gui.advertisement.win.title=리워드 센터
+g2052.gui.advertisement.win.content.normal=한 번 새로고침하면 골드 큐브 아이템 3개를 무료로 사용할 수 있습니다\n새로고침하여 동일한 아이템 2개를 얻으면 사용 횟수 x2, 3개를 얻으면 사용 횟수 x5
+g2052.gui.advertisement.win.content.reward.all.gain=이미 모든 골드 큐브 아이템을 획득했습니다
+g2052.gui.advertisement.win.refresh.title=새로고침
+g2052.gui.advertisement.draw.success=보상이 가방에 지급되었습니다
+
+
+language_end:g2052_lang

@@ -1,0 +1,703 @@
+
+
+language_start:g2052_lang
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+annivesary.announcement=周年記念セール
+annivesary.tips=ご注意：Free City専用成長基金を購入すると、特価商品を2点以上獲得できます。
+
+gui.limit.time.heart.warming.title=心温まる贈り物
+gui.limit.time.heart.warming.integral=積分：{。}
+gui.limit.time.heart.warming.day1=初日
+gui.limit.time.heart.warming.day2=次の日
+gui.limit.time.heart.warming.day3=三日目
+
+taskTitle_11=ゲーム内に合計1人のフレンドを追加しました
+taskTitle_12=新しいキャリアを設定しましょう
+taskTitle_13=新しい衣装を自分に与えてください
+taskTitle_14=自分だけの家を建てよう
+taskTitle_15=今日すべてのタスクを完了してください
+taskTitle_21=ゲームに合計 3 人のフレンドが追加されました
+taskTitle_22=小型車両を使用して 2 人のプレーヤーを搭載
+taskTitle_23=2人のプレイヤーにアイテムをプレゼント
+taskTitle_24=ハグやその他のアクションで 2 人のプレイヤーと対話します
+taskTitle_25=今日すべてのタスクを完了してください
+taskTitle_31=ゲームに合計5人のフレンドが追加されました
+taskTitle_32=ライターや爆弾を使って他人の家に火をつける
+taskTitle_33=警察の職業を利用してプレイヤーを警察署に閉じ込めます
+taskTitle_34=消防士の職業を使って火を消す
+taskTitle_35=今日すべてのタスクを完了してください
+taskDesc_24=プレーヤーと対話するには、プレーヤーのキャラクターをクリックし、ポップアップ リストで対話したいアクションを選択する必要があります。
+taskDesc_32=ライターまたは C4 爆弾を装備している場合、家のエリアのどこかをクリックすると、点火または爆発して火災が発生します。
+taskDesc_34=火元で消火器や消防車のスプリンクラーを使用して火を消してください。
+gui.limit.time.heart.warming.house_fire=あなたの家が火事になりました、それが火事の引き金になりましたか？
+
+g2052_gift_1100011=探偵コート
+g2052_gift_1100012=バニー
+g2052_gift_1100013=スーパーバイク
+g2052_gift_1100014=ゴーカート
+
+subscribe_game_reward_item_tips1=ジーキューブのペットを体験できます
+subscribe_game_reward_item_tips2=一部のGcube車両を体験できます
+subscribe_game_reward_item_tips3=Gcubeの全レジデンスを体験できる
+subscribe_game_reward_item_tips4=住宅災害シミュレーターのすべての機能をお楽しみください
+g2052.gui.buy_shop.preview_tip=プレビュー
+g2052_face_image_desc=12 回の抽選ですべての賞品を獲得\n最初の抽選は無料です
+
+g2052_gift_20001=庭園をテーマにした家
+g2052_gift_20002=ミツバチのスウェットシャツ
+g2052_gift_20003=クラシックカー
+g2052_gift_20004=ミツバチのバックパック
+g2052_gift_20005=カウボーイセット
+g2052_gift_20006=うさぎセット
+g2052_gift_20007=ハート型のメガネ
+g2052_gift_20008=ニット帽
+g2052_gift_20009=パンプキンヘッド
+g2052_gift_20010=ブルージャージ
+g2052_gift_20011=茶色の馬
+g2052_gift_20012=クルーザーカー
+g2052_gift_20013=高級バイク
+g2052_gift_20014=レインボーユニコーン
+g2052_gift_20015=マウンテン三輪車
+g2052_gift_20016=恐竜セット
+g2052_gift_20017=魔女セット
+g2052_gift_20018=クマのマスク
+g2052_gift_20019=ペットのバニー
+g2052_gift_20020=ハロウィン限定の一輪車
+g2052_gift_20021=オートバイのヘルメット
+g2052_gift_20022=クマの帽子
+g2052_gift_20023=プロムマスク
+g2052_gift_20024=ビーチショーツ
+
+g2052_gift_40001=ガーデンテーマルーム
+g2052_gift_40002=レストランテーマルーム
+g2052_gift_40003=恐竜スーツ
+g2052_gift_40004=ニューコンセプトカー
+g2052_gift_40005=ウサギのスーツ
+
+g2052.gui.business.confirm_buy=購入してもよろしいですか？
+
+g2052_clothing_20001=デニムスーツ
+g2052_clothing_20002=ウェディングドレス
+g2052_clothing_20003=スポーツウェア
+g2052_clothing_20004=スポーツウェア
+g2052_clothing_20005=リトルハニーコート
+g2052_clothing_20006=ビーチショーツ
+g2052_clothing_20007=花柄スカート
+g2052_clothing_20008=リトルビー バックパック
+g2052_clothing_20009=バニーバックパック
+g2052_clothing_20010=オートバイのヘルメット
+g2052_clothing_20011=犬の頭
+g2052_clothing_20012=ニット帽
+
+
+g2052.gui.drama.template.name4=巨人
+g2052.gui.drama.template.name00=無
+g2052.gui.drama.template.desc3=都市の重力がなくなりました何が起きたのでしょう?
+g2052.gui.drama.template.desc4=巨人降臨!最大の巨人になれるか?
+g2052.gui.drama.hamburger.max=もうお腹いっぱいですね
+message.notice.name10=新しいビッグバーガーが登場!
+message.notice.name11={.}でっかいハンバーガーをどうぞ！
+
+g2052.gui.setting.FarClipSetting=スタジア（低いほど性能が良い）
+g2052.gui.setting.FarClipSetting.low=低い
+g2052.gui.setting.FarClipSetting.mid=中
+g2052.gui.setting.FarClipSetting.high=高い
+
+g2052.gui.gift.send.normalTips=プレゼン
+g2052.gui.gift.send.tips=贈り物
+g2052.gui.gift.send.title=プレゼントを選んでください
+
+g2052.gui.dress.reset=衣装の復元
+g2052.gui.dress.reset.dec=衣装の修復の可否
+
+g2052.gui.activity.to.unlock=イベントロック解除
+
+g2052.gui.halloween.share.title=シェア
+g2052.gui.halloween.askFor.title=リクエスト
+g2052.gui.halloween.share.limit=▢FFFF8C00本日、上限数に達しました
+g2052.gui.halloween.accept.limit=▢FFFF8C00相手が今日の要求数の上限に達したため
+g2052.gui.halloween.askFor.limit=▢FFFF8C00本日、リクエスト数が上限に達しました
+g2052.gui.halloween.findGhost.limit=本日、ゴーストハンティングの上限数を達成しました。
+g2052.gui.halloween.share.remain=今日の残りのシェア: {.}
+g2052.gui.halloween.accept.remain=今日の残りのリクエスト: {.}
+g2052.gui.halloween.share.exist=▢FFFF8C00今日もお菓子を分け合いました
+g2052.gui.halloween.askFor.exist=▢FFFF8C00今日は相手がもうお菓子を分けてくれたので
+g2052.gui.halloween.askFor.ask=ということで合意されましたか{.}お菓子のリクエスト？
+g2052.gui.halloween.askFor.refuse={.} ▢FFFF8C00お菓子のリクエストはお断りします
+g2052.gui.halloween.start.day=引き換えは {.} 日後に始まります
+g2052.gui.halloween.start.hour={.} で引き換えを開始
+g2052.gui.halloween.exchange.condition=費用:{.} /{.}
+g2052.gui.halloween.exchange.fail=▢FFFF8C00引き換え条件を満たしていない場合は、引き続きキャンディーを集めてください
+g2052.gui.halloween.exchange.success=▢FF00FF00リディーマイド
+g2052.gui.halloween.exchange.desc=この報酬は引き換えですか？
+g2052.gui.halloween.find.ghost.num=残り{.}体の幽霊が発見される
+
+g2052.gui.house.dismantle=住居の取り壊し
+g2052.gui.house.dismantle.dec=既存の住居は取り壊されるのですか？
+g2052.gui.home.list.is.open=住宅展示場オープン
+
+face_name_fukong=浮遊
+face_name_zombie=ゾンビ
+face_name_panic=パニック
+face_name_crawl=クロール
+face_name_mummy=ミュウミュウ
+face_name_backwalk=後ろ向きで歩く
+face_name_skip=ジャンピング
+face_name_model=モデル
+face_name_army=ミリタリー
+
+g2052.gui.drama.join=参加する
+
+g2052.gui.drama.template.title=パーティーテンプレートを選択してください
+g2052.gui.drama.template.name1=洪水
+g2052.gui.drama.template.name2=霧
+g2052.gui.drama.template.name3=無重力
+g2052.gui.drama.template.name0=カスタマイズ
+g2052.gui.notify.party.create={.} パーティーを作成しました
+g2052.gui.drama.title.tips=パーティーのタイトルを変更してください
+g2052.gui.drama.guide.tips1=進行中のパーティーに参加して、他のプレイヤーとさまざまな都市環境を体験してください!
+g2052.gui.drama.guide.tips2=お気に入りの都市を選んでプレイし、自分だけのパーティーを作りましょう!
+g2052.gui.drama.guide.tips3=さまざまなテンプレートを選択すると、街にはさまざまな驚きがあります。ぜひ体験してください!
+g2052.gui.drama.guide.tips4=クリックしてパーティーを開始し、すぐにあなただけの都市に入りましょう!
+g2052.gui.drama.template.desc1=何日も続く豪雨、都市洪水の原因、洪水の中での暮らし方
+g2052.gui.drama.template.desc2=街は未知の霧に覆われています。足元にご注意ください。
+g2052.gui.drama.template.desc0=カスタム テンプレートは、注目の 2 つの都市のゲームプレイを融合したものです。
+
+message.notice.name7=バーとボールルームは営業中
+message.notice.name8=バーとダンスホールは閉鎖されています
+message.notice.name9=誰かが脱獄しています！
+
+gui.update7.desc=FC パーティーのゲームプレイが更新され、さまざまな興味深いマップ テンプレートがリリースされました。
+
+gui.shop.vip.desc1=VIP 限定の住居、衣類、乗り物コンテンツのロックを解除する
+
+shortmessage.title1=こんにちは〜
+shortmessage.title2=笑う
+shortmessage.title3=と遊ぶ
+shortmessage.title4=私の家にいらっしゃい
+shortmessage.title5=学校に行く
+shortmessage.title6=ゲームをする
+shortmessage.title7=それは良いです
+shortmessage.title8=拒絶
+shortmessage.title9=ありがとう〜
+shortmessage.title10=感嘆
+shortmessage.title11=かわいい
+shortmessage.title12=とてもハンサムな！
+shortmessage.title13=フォローしてください
+shortmessage.title14=などなど
+shortmessage.title15=ちょっと待って
+gui.short.lang1=こんにちは〜
+gui.short.lang2=ハハハ
+gui.short.lang3=一緒に遊ぼう
+gui.short.lang4=私の家に遊びに来ませんか
+gui.short.lang5=学校に行く！
+gui.short.lang6=ゲームで遊びたい
+gui.short.lang7=わかった！
+gui.short.lang8=したくない
+gui.short.lang9=ありがとう〜
+gui.short.lang10=うわあ！
+gui.short.lang11=とても美しい
+gui.short.lang12=とてもハンサムな！
+gui.short.lang13=私と一緒に来てください〜
+gui.short.lang14=私を待っててください！
+gui.short.lang15=ちょっと待って〜
+g2052.gui.short.chat.tips =チャットが速すぎます。{.} 秒後にもう一度入力してください!
+
+language_end:new
+
+g2052.gui.marketing.super.gift=バリューパック
+g2052.gui.marketing.hint=パスには以下が含まれます
+g2052.gui.marketing.buy=買う
+
+g2052.gui.marketing.item.name1=VIP ハウス
+g2052.gui.marketing.item.name2=VIP車両
+g2052.gui.marketing.item.name3=VIP服
+g2052.gui.marketing.item.name4=VIPプロット
+g2052.gui.marketing.item.name5=車両の加速
+g2052.gui.marketing.item.name6=色変更
+g2052.gui.marketing.item.name7=チャットバッジ
+g2052.gui.marketing.item.name8=
+
+g2052.gui.profession.recommend.time.count=インターフェイスは {.} 秒後に閉じます
+g2052.gui.car.player.in.forbid.area=現在のエリアでは車両をスポーンできません
+g2052.gui.car.in.forbid.area=車両の生成に失敗しました。オープン エリアに移動してください
+g2052.gui.car.no.room=スポーン地点が他の車両に占拠されている
+
+guide_script_title=パーティーはどうですか？
+guide_script_desc1=キャラクターとゲームプレイをデザインし、あなたのパーティーを作りましょう
+guide_script_desc2=または、みんなが遊んでいるパーティーに参加する
+
+g2052.gui.drama.join.tips={.} がパーティーに参加しました
+g2052.gui.drama.cur.drama=現在の党
+g2052.gui.drama.history=歴史パーティー
+g2052.gui.drama.confirm.dissolve=パーティーを解散してもよろしいですか？
+g2052.gui.drama.amend=パーティーを変更する
+g2052.gui.drama.confirm.leave=パーティーから抜けてもよろしいですか？
+
+
+guide_guide_script=FCパーティー
+g2052.gui.drama.title=パーティーリスト
+g2052.gui.drama.news=最新のパーティー
+g2052.gui.drama.create=パーティーを作成する
+g2052.gui.drama.recent=最近のパーティー
+g2052.gui.drama.leave=パーティーを離れる
+g2052.gui.drama.mine=私のパーティー
+g2052.gui.drama.dissolve=解散パーティー
+g2052.gui.drama.full.tips=パーティーは満員です。別のパーティーを選択してください
+g2052.gui.drama.detail.title1={.}のパーティー
+g2052.gui.drama.editor.drama=パーティー情報
+
+
+g2052.gui.occupation.others=この {.} は他の誰かのものです
+g2052.gui.occupation.own=あなたはすでに {.} を持っています
+g2052.gui.occupation.goods=ロッカー
+
+g2052.gui.create.vip=プライベートプロット
+
+guide_script_desc3=好きなキャラクターを演じて、みんなで遊ぼう!
+
+gui.shop.vip.name=VIPパス
+
+gui.shop.vip.desc2=家や車の色が変わる機能をアンロック
+gui.shop.vip.desc3=車速ブースト機能のロックを解除する
+gui.shop.vip.desc4=専用土地使用権の取得
+gui.shop.vip.desc5=チャット VIP バッジとチャット バブルを取得する
+
+
+message.notice.bad.weather_4=予報: 1時間以内に雷雨!
+message.notice.bad.weather_5=天気予報：1時間で最高気温！
+message.notice.bad.weather_6=天気予報: 1 時間後に雪が降る!
+message.notice.bad.weather_7=天気予報: あと 1 時間で砂嵐！
+message.notice.bad.weather_8=予報: 1時間後に濃霧！
+message.notice.bad.weather_9={.}悪天候が発生しました!
+
+g2052.gui.world_chat.invite=遊びに誘う
+g2052.gui.world_chat.ignore=メッセージをブロックする
+g2052.gui.world_chat.ignored=ブロックされた
+g2052.gui.world_chat.ignore.tips=このプレイヤーはブロックされました
+
+
+g2052.gui.chat.system.login={.}FreeCity へようこそ!
+
+g2052.gui.vehicle.part.color=色を設定する
+g2052.gui.vehicle.gearshift=シフト
+
+
+g2052.gui.confirm=はい
+g2052.gui.cancel=キャンセル
+
+g2052.gui.announcement.main_title=新しいバージョンのプレビュー
+g2052.gui.announcement.new=更新する
+g2052.gui.announcement.activity=アクティビティ
+gui.update.clothes.title=新しいドレスアップ
+gui.update.car.title=新車
+gui.update.scene.title=新しいシーン
+gui.update.house.title=新しい住居
+gui.update.prop.title=新しい小道具
+gui.update.face.title=新しい絵文字
+gui.update.title=機能の変更
+g2052.gui.tendering.sign.go_land=に行く
+
+g2052.gui.phone.ignore_call=もう電話を受けない
+g2052.gui.setting.reset_player=文字をリセット
+message.notice.name1=銀行アラートがトリガーされました
+message.notice.name2=銀行の金庫室の扉が閉まろうとしている
+message.notice.name3=銀行の金庫室の扉は閉まっています
+message.notice.name4=家 {.} が燃えている
+message.notice.name5=あなたの金庫は盲目になりました
+message.notice.name6={.} が助けを求めています
+
+g2052.gui.peakday.title=週末にゲームにログインする
+g2052.gui.peakday.title2=贈り物を受け取る
+g2052.gui.peakday.text3=報酬としてペットを選ぶ
+g2052.gui.peakday.text1=イベント開始カウントダウン：
+g2052.gui.activity.day={.}日{.}時間
+g2052.gui.peakday.button1=领取
+g2052.gui.peakday.button2=已领取
+g2052.gui.peakday.no.select.item=最初に報酬を選択してください
+g2052.gui.peakday.get.reward.success=正常に受信されました
+
+gui.shop.title=店
+gui.confirm.purchase=決済
+gui.whether.confirm.buy=買いたいですか {.}？
+gui.insufficient.funds=残高不足
+gui.still.missing={.}もありません
+gui.whether.enter.recharge=充電インターフェースに入りましたか？
+gui.goods.already.have=所有
+gui.buy.succeed=購入成功
+gui.buy.succeed.dec=あなたが持っている： {.}
+gui.do.not.repeat.purchase=購入に失敗しました
+
+
+g2052.gui.house.create.cd=待ち時間：{.}s
+g2052.gui.house.create.is.cd=家はクールダウンしています。後でもう一度やり直してください
+
+g2052.gui.part.content.init=コンテンツ
+g2052.gui.part.content.top_title=バックグラウンド
+g2052.gui.part.content.bottom_title=文章
+
+g2052.gui.interact.player_action1=運ぶ
+g2052.gui.interact.player_action2=くま
+g2052.gui.interact.player_action3=所有
+g2052.gui.interact.player_action4=抱擁
+
+g2052.gui.scene.name.square_ice01=ブルーベリー
+g2052.gui.scene.name.square_ice02=いちご
+g2052.gui.scene.name.square_ice03=バニラ
+g2052.gui.scene.name.square_ice04=太郎
+g2052.gui.scene.name.square_ice05=マンゴー
+g2052.gui.scene.name.square_ice06=チョコレート
+
+g2052.gui.dyeing.part.color={.}色
+g2052.gui.part.custom_hair=髪
+
+g2052.gui.interact.tips=招待状が送られました
+g2052.gui.transfer.fail=搬送状態は送信できません
+g2052.gui.props.loading_success=バスケットに追加
+g2052.gui.props.unload_success=棚に戻す
+
+ui.chat.chatMsgType9=近く
+ui.chat.friend.near =▢FFFFFFFF近くの友達
+ui.chat.friend.apply=▢FFFFFFFFフレンドリクエスト
+ui.chat.friend.list=▢FFFFFFFFフレンドリスト
+ui.chat.friend.applyFriend=▢FFFFFFFF新しい友達
+ui.chat.friend.gameFriend=▢FF4A2942友達と遊ぶ
+ui.chat.friend.platformFriend=▢FF4A2942プラットフォームの友達
+ui.chat.friend.recent_contact=▢FFFFFFFF最近の連絡先
+ui.chat.friend.offline=▢FF78476Cオフライン
+ui.chat.friend.online=▢FF07BE14オンライン
+ui.chat.number=▢FF4A2942{.}/{.}
+ui.chat.playerInfo.name=▢FFFFFFFF{.}
+ui.chat.friend.name=▢FF926787{.}
+
+g2052.gui.interactive.refuse =他のプレイヤーがリクエストを拒否しました
+g2052.gui.interactive.fail =対話に失敗しました
+g2052.gui.password.error=wrong password
+
+g2052.gui.dance.dance_title =モーション
+face_name_happy=幸せ
+face_name_unhappy=悲しい
+face_name_angry=怒り
+face_name_laugh=笑
+face_name_cheer=応援
+face_name_shyness=シャイ
+face_name_cry=泣く
+face_name_wave=挨拶
+face_name_bye=さようなら
+face_name_yes=同意
+face_name_no=ごみ
+face_name_handshake=握手をする
+face_name_fear=恐れ
+face_name_cute=かわいい
+face_name_naughty=甘やかされて育った
+face_name_love1=愛情を示す（L）
+face_name_love2=愛情を示す（R）
+face_name_salute=敬礼
+face_name_clap=拍手
+face_name_point=に向けて
+face_name_scratch=混乱している
+face_name_boring=退屈
+face_name_dizzy=めまいが
+face_name_freeze=氷結
+face_name_wounded=負傷者
+face_name_fall=落ちる
+face_name_sneak=スニーク
+face_name_raisehand=ハンズアップ
+face_name_arrested=カフ付き
+face_name_warm-up=準備し始める
+dance_name_hot=ホットダンス
+dance_name_locking=ロック
+dance_name_shake1=スウィングダンス1
+dance_name_shake2=スウィングダンス2
+dance_name_scissors=スウィングダンス3
+dance_name_slide=スライドステップ
+dance_name_thomas=ブレイクダンス
+dance_name_1=ダンス1
+dance_name_2=ダンス2
+dance_name_3=ダンス3
+dance_name_4=ダンス4
+dance_name_5=ダンス5
+dance_name_6=ダンス6
+dance_name_7=ダンス7
+dance_name_8=ダンス8
+dance_name_9=ダンス9
+dance_name_robot=飛び出る
+face_name_fall2=ダウン2
+face_name_sit1=座って下さい
+face_name_sit2=座る 2
+face_name_wallstand1=壁に立ち向かう
+face_name_wallstand2=壁に立ち向かう 2
+face_name_salute2=敬礼 2
+face_name_strong=強い
+face_name_death=死
+
+g2052.gui.time.monday=月曜
+g2052.gui.time.tuesday=火曜日
+g2052.gui.time.wednesday=水曜日
+g2052.gui.time.thursday=木曜日
+g2052.gui.time.friday=金曜日
+g2052.gui.time.saturday=土曜日
+g2052.gui.time.sunday=日曜日
+g2052.gui.profession.main_title =職業
+g2052.gui.profession.main_name =名前
+g2052.gui.profession.main_introduce =序章
+g2052.gui.profession.color_name =名前
+g2052.gui.profession.color_introduce =序章
+g2052.gui.profession.color_edit =入力
+g2052.gui.profession.career_name1 =警官
+g2052.gui.profession.career_name2 =警備員
+g2052.gui.profession.career_name3 =犯罪的
+g2052.gui.profession.career_name4=店
+g2052.gui.profession.career_name5=シェフ
+g2052.gui.profession.career_name6=バーガークラーク
+g2052.gui.profession.career_name7=歌手
+g2052.gui.profession.career_name8=音楽家
+g2052.gui.profession.career_name9=DJ
+g2052.gui.profession.career_name10=教授
+g2052.gui.profession.career_name11=アイスクリーム店員
+g2052.gui.profession.career_name12=SWAT。
+g2052.gui.profession.career_name13=医者
+g2052.gui.profession.career_name14=忍耐強い
+g2052.gui.profession.career_name15=消防士
+g2052.gui.profession.career_name16=衣装
+g2052.gui.profession.career_name17=祭司
+g2052.gui.profession.career_name18=プレーヤー
+g2052.gui.profession.career_name19=ウェイターウェイトレス
+g2052.gui.profession.career_name20=クリーナー
+g2052.gui.profession.career_name21=獣医
+g2052.gui.profession.career_name22=ライフガード
+g2052.gui.profession.career_name23=看護婦
+g2052.gui.profession.career_name24=子
+g2052.gui.profession.career_name25=床屋
+g2052.gui.profession.career_name26=運転者
+g2052.gui.profession.career_name27=ベッド
+g2052.gui.profession.career_name28=郵便配達員
+g2052.gui.profession.career_name29=アスリート
+g2052.gui.profession.career_name30=パイロット
+g2052.gui.profession.career_name31=科学者
+g2052.gui.profession.career_name32=ピザ店員
+g2052.gui.profession.career_name33=バリスタ
+g2052.gui.profession.career_name34=スケーター
+g2052.gui.profession.career_name35=ソードマスター
+g2052.gui.profession.career_name36=シューター
+g2052.gui.profession.career_name37=テコンドーマスター
+g2052.gui.profession.career_name38=メイクアップアーティスト
+g2052.gui.profession.career_name39=宇宙飛行士
+g2052.gui.profession.career_name40=教師
+g2052.gui.profession.career_name41=医者
+g2052.gui.profession.career_name42=弁護士
+g2052.gui.profession.career_name43=ピエロ
+g2052.gui.profession.career_name44=仕立て
+g2052.gui.profession.career_name45=審判
+g2052.gui.profession.career_name46=学生
+g2052.gui.profession.career_name47=校長
+g2052.gui.profession.career_name48=ゲームプレイヤー
+g2052.gui.profession.career_name49=食通
+g2052.gui.profession.career_name50=モデル
+g2052.gui.profession.career_name51=農家
+g2052.gui.profession.career_name52=タクシードライバー
+g2052.gui.profession.career_name53=セーラー
+g2052.gui.profession.career_name54=漁師
+g2052.gui.profession.career_name55=キャプテン
+g2052.gui.profession.career_name56=コレクタ
+g2052.gui.profession.career_name57=ホスト
+g2052.gui.profession.career_name58=メイド
+g2052.gui.profession.career_name59=作家
+g2052.gui.profession.career_name60=ワーカー
+g2052.gui.profession.career_name61=レポーター
+g2052.gui.profession.career_name62=踊り子
+g2052.gui.profession.career_name63=バス運転手
+g2052.gui.profession.career_name64=兵隊
+g2052.gui.profession.career_name65=観光ガイド
+g2052.gui.profession.career_name66=画家
+g2052.gui.profession.career_name67=庭師
+g2052.gui.profession.career_name68=建築家
+g2052.gui.profession.career_name69=MP
+g2052.gui.profession.career_name70=ギャング
+g2052.gui.profession.career_name71=囚人
+
+g2052.gui.drama.hot=トレンド
+g2052.gui.drama.likes=最多いいね
+g2052.gui.drama.friend=遊んでいる友達
+g2052.gui.drama.change.role=キャラクター変更
+g2052.gui.drama.drama.desc=一緒に遊びに来てください
+g2052.gui.drama.role.name=キャラクター {。}
+g2052.gui.drama.role.desc=内容を入力してください
+g2052.gui.drama.editor.role=キャラクター情報
+
+g2052.gui.drama.like.ranking=リーダーボード
+g2052.gui.drama.use=使用する
+
+g2052.prop.send.CDTime=操作が速すぎます。しばらくしてからもう一度お試しください
+g2052.gui.phone.call_wait=操作が速すぎます。しばらくしてからもう一度お試しください
+g2052.gui.phone.career_success_tips=通話に成功し、場所を共有
+
+g2052.gui.child.name =名前
+g2052.gui.child.edit.placeholder =赤ちゃんの名前を設定する
+g2052.gui.child.edit.name =赤ちゃんの名前
+
+g2052.gui.house.title =家
+g2052.gui.bag.title =バックパック
+g2052.gui.appearance.title =外観
+g2052.gui.shape.scale.is.max =これはすでに最大の体型です
+g2052.gui.shape.scale.is.min =これはすでに最小の体型です
+
+g2052.gui.create =作成
+g2052.gui.house.remould =家の改修
+g2052.event.house.on.fire=あなたの家はFIREEEEEEにあります！
+g2052.gui.house.remould.dec=別の家に変えてよろしいですか？
+g2052.gui.friend.pop.add.limit=アクセスを許可します
+g2052.gui.friend.pop.unfreeze=訪問は許可されていません
+g2052.gui.house.move=引越し
+g2052.gui.house.move.dec=家を移動してもよろしいですか？
+g2052.gui.house.brief.introduction=家のプロフィール
+g2052.gui.owner.ask.you.leave=所有者はあなたに去るように頼みます
+gui.shop.house.event.desc=火災、洪水、停電、竜巻、雷雲、ヘリコプター、幽霊、ガスト、UFO、霧、地震、隕石など、家を支配できる災害事象
+gui.shop.house.event.name=災害シミュレーター
+g2052.gui.house.disaster.title=災害一覧
+g2052.gui.house.disaster.limit=同時に有効にできるのは {.} イベントのみです
+house.event.name1=火
+house.event.name2=洪水
+house.event.name3=停電
+house.event.name4=竜巻
+house.event.name5=雷雲
+house.event.name6=ヘリコプター
+house.event.name7=幽霊
+house.event.name8=ガスト
+house.event.name9=UFO
+house.event.name10=霧
+house.event.name11=地震
+house.event.name12=隕石
+
+g2052.event.explode.vault.gate =%sは銀行のドアを爆破しました
+g2052.event.explode.house.safe =%sはあなたの家を奪った
+g2052.event.alarm.of.fire=家＃{.}が燃えています！
+
+g2052.gui.car.title=車両
+g2052.gui.car.forbid.use=車両は現在利用できません
+g2052.gui.car.region.forbid.use=この地域では車両は利用できません
+
+g2052.gui.appearance.forbid=乗車中は見た目を変えることはできません
+g2052.gui.appearance.forbid.jump.fall=空中で衣装を変えることはできません
+g2052.gui.partner.title=赤ちゃん
+g2052.gui.billboard.edit={.}ビルボード
+g2052.gui.click.input.click=ここに入力してください
+
+g2052.gui.appearance.forbid.swim=水泳中は服装を変更できません
+
+gui.house.bgm.title=音楽
+g2052.gui.friend.top.title=フレンドシステム
+g2052.gui.friend.tab.friend=私の友人
+g2052.gui.friend.tab.near=近くのプレーヤー
+g2052.gui.friend.tab.request=友達リクエスト
+g2052.gui.friend.delete.title=友達を削除する
+g2052.gui.friend.delete.desc=この友達を削除してもよろしいですか？
+g2052.gui.friend.agree.success=正常に追加されました
+g2052.gui.friend.refuse=拒否されました
+g2052.gui.friend.lang=言語
+g2052.gui.friend.again=再試行する
+g2052.gui.friend.none.friend=友達を追加してください
+g2052.gui.friend.none.near=近くにプレイヤーはいない
+g2052.gui.friend.none.request=リクエストはありません
+g2052.gui.friend.invite=ねえ、たむろしたいですか？
+g2052.gui.friend.invite.btn=招待
+g2052.gui.friend.pop.invite=ゲストとして招待
+g2052.gui.chat.private.target=に
+g2052.gui.chat.private.NewFrom=から
+g2052.gui.chat.private.from=あなたへのささやき：
+g2052.gui.world_chat.title=グローバルチャット
+g2052.gui.world_chat.lang.tips={.} チャット チャネルに切り替えました
+g2052.gui.world_chat.block={.} チャット チャンネルをブロックしました
+g2052.gui.world_chat.cancel_block={.}チャットチャンネルのブロックを解除しました
+
+g2052.gui.setting.voiceSetting=ボイス設定
+
+
+g2052.gui.setting.video=ビデオモード
+g2052.gui.video.tab1=フィルター
+g2052.gui.video.tab2=天気
+g2052.gui.video.tab3=スクリーン効果
+g2052.gui.video.handle.tab1=特殊効果
+g2052.gui.video.handle.tab2=UIを非表示
+g2052.gui.video.handle.tab3=設定を非表示
+g2052.gui.video.handle.type101=レトロ
+g2052.gui.video.handle.type102=黒と白
+g2052.gui.video.handle.type103=ハイコントラスト
+g2052.gui.video.handle.type104=サイバーパンク
+g2052.gui.video.handle.type105=輝き
+g2052.gui.video.handle.type106=秋の日
+g2052.gui.video.handle.type107=満月の夜
+g2052.gui.video.handle.type108=日当たりの良い
+g2052.gui.video.handle.type201=日当たりの良い
+g2052.gui.video.handle.type202=雨
+g2052.gui.video.handle.type203=雪の日
+g2052.gui.video.handle.type204=星空
+g2052.gui.video.handle.type205=日没
+g2052.gui.video.handle.type301=映画の黒い境界線
+g2052.gui.video.handle.type302=懐中電灯
+g2052.gui.video.handle.type303=スピードライン
+g2052.gui.video.handle.type304=同事
+g2052.gui.video.handle.type305=蝶
+g2052.gui.video.handle.type306=ドット
+g2052.gui.video.hide.setting.data1=名前を隠す
+g2052.gui.video.hide.setting.data2=プレーヤーを隠す
+g2052.gui.video.hide.setting.data3=身を隠す
+
+guide_role_title=役割とは何ですか？
+guide_role_desc1=あなたの好きな服を選んでください
+guide_role_desc2=体のサイズと肌の色を調整します
+guide_role_desc3=お気に入りの絵文字を置き換えます
+guide_house_title=自分の家を建てるには？
+guide_house_desc1=オープンスペースを選び、そのボードをクリックします
+guide_house_desc2=お気に入りの家のテンプレートを選択してください
+guide_house_desc3=あなたの家は準備ができています、見てみましょう！
+guide_profession_title=職業とは何ですか？
+guide_profession_desc1=自分に素敵な名前を付けてください
+guide_profession_desc2=ご希望のキャリアステータスを選択してください
+guide_profession_desc3=この情報はあなたの頭に表示されます
+guide_baby_title=養子縁組とは何ですか？
+guide_baby_desc1=あなたの好きな赤ちゃんを選んでください
+guide_baby_desc2=あなたの赤ちゃんはあなたと遊ぶでしょう！
+guide_dace_title=アクションとは何ですか？
+guide_dace_desc1=アクションを選択すると、キャラクターがアニメーションを再生します
+guide_dace_desc2=さあ、他のプレイヤーに挨拶してみてください！
+guide_car_title=車の使い方は？
+guide_car_desc1=お好みの車をお選びください
+guide_car_desc2=車に乗って世界を旅する
+guide_prop_title=小道具の使い方
+guide_prop_desc1=使用したい小道具を選択してください
+guide_prop_desc2=右ボタンをクリックしてモードを切り替えます
+guide_prop_desc3=小道具を使用するには画面をタップします
+
+
+g2052.gui.tendering.email.send_btn=送信
+g2052.gui.tendering.email.title=市長がグリーンチャンネルを提案
+g2052.gui.tendering.email.tips=親愛なる名誉市長、あなたの提案を書いてください
+g2052.gui.tendering.email.send_success=正常に送信されました
+g2052.gui.tendering.email.send_fail=送信に失敗しました
+
+
+g2052.gui.tendering.tips=ヒント
+g2052.gui.bidding_rank.preview_tip=ヒント
+
+ui.cash.coupon.expend = 今回は {.} ゲーム トークン + {.} ゴールド ルービック Gcube を消費しました
+ui.cash.coupon.tips =ゴールド ルービック Gcube は、最初にゲーム トークンを消費します。 プラットフォーム アクティビティが取得されます。
+
+g2052.advertisement.use.car.tips=ビデオを視聴して、GCubeの無料トライアルを体験します
+g2052.advertisement.use.car.cd.tips=再度視聴する前に{.}秒待ってください
+
+g2052.gui.advertisement.draw.out.of.count=本日の更新回数は使い切りました
+g2052.gui.advertisement.draw.reward.all.gain=すでにすべてのゴールドキューブアイテムを取得しました
+g2052.gui.advertisement.draw.fail=更新に失敗しました
+g2052.gui.advertisement.lock.slot.fail=報酬のロックに失敗しました
+g2052.gui.advertisement.win.title=リワードセンター
+g2052.gui.advertisement.win.content.normal=1回更新すると、ゴールドキューブアイテムを3回無料で使用できます\n更新して、同じアイテムを2個で使用回数x2、または3個で使用回数x5を獲得
+g2052.gui.advertisement.win.content.reward.all.gain=すでにすべてのゴールドキューブアイテムを取得しました
+g2052.gui.advertisement.win.refresh.title=更新
+g2052.gui.advertisement.draw.success=報酬がバッグに送られました
+
+
+language_end:g2052_lang

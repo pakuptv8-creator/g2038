@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "dayinji",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/dayinji.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

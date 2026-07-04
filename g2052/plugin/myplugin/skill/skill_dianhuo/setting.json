@@ -1,0 +1,8 @@
+{
+  "castAction": "g2052_skill_dianhuo",
+  "castActionTime": -1,
+  "type": "Click",
+  "isClick": true,
+  "cdTime": 20,
+  "priority": -2
+}

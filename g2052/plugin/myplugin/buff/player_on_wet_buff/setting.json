@@ -1,0 +1,25 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            10
+        ]
+    },
+    "effect": {
+        "effect": "g2052_weather_wet_1.effect",
+        "once": false,
+        "pos": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+        },
+        "yaw": 0
+    },
+    "sync": "all",
+    "fixTime": "reset"
+}

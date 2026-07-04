@@ -1,0 +1,19 @@
+
+
+language_start:mobile_editor
+
+language_start:new
+
+language_end:new
+
+ui.select.ground =sistem tanah
+ui.env.ground.color =warna dasar
+ui.env.ground.texture =peta tanah
+ui.env.light.skylight=cahaya matahari
+ui.env.light.ambient.light =cahaya sekitar
+ui.env.light.intensity =Intensitas cahaya
+ui.env.bgm= Latarbelakang musik
+ui.env.weather =cuaca
+ui.env.skybox =kotak langit
+
+language_end:mobile_editor

@@ -1,0 +1,274 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "MobileEditorSetting",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "MobileEditorSetting-bg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,23},{0,86},{0,259},{0,292}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "55 55 10 10"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_mobile_editor_common.json image:img_9_settingswindow"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "Button",
+                            "Name": "MobileEditorSetting-uploadBtn",
+                            "Property": [
+                                {
+                                    "Name": "DrawColor",
+                                    "Value": "0.2 0.211765 0.219608 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,23},{0,188},{0,73}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "5 25 25 5"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "MobileEditorSetting-uploadBtnText",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,-2},{1,0},{1,-2}}"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "Upload issued"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "MobileEditorSetting-mapResetBtn",
+                            "Property": [
+                                {
+                                    "Name": "DrawColor",
+                                    "Value": "0.2 0.211765 0.219608 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,77},{0,188},{0,127}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "5 25 25 5"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "MobileEditorSetting-mapResetBtnText",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,-2},{1,0},{1,-2}}"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "map reset"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "MobileEditorSetting-exitBtn",
+                            "Property": [
+                                {
+                                    "Name": "DrawColor",
+                                    "Value": "0.2 0.211765 0.219608 1"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,131},{0,188},{0,181}}"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "5 25 25 5"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "MobileEditorSetting-exitBtnText",
+                                    "Property": [
+                                        {
+                                            "Name": "Touchable",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,-2},{1,0},{1,-2}}"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "exit btn"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

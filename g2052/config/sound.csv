@@ -1,0 +1,4 @@
+SoundId	IsRepeat	RepeatInterval_min	RepeatInterval_max	SoundFile	Type	SubType	Desc
+0	0	0	0	plugin/myplugin/sound/g2052_ui_click			通用UI点击音效
+1	0	0	0	plugin/myplugin/sound/g2052_ui_open			通用菜单打开音效
+2	0	0	0	plugin/myplugin/sound/g2052_ui_close			通用菜单关闭音效

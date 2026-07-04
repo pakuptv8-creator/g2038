@@ -1,0 +1,58 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "StaticText",
+            "Name": "widget_notify_cell",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,100},{0,44}}"
+                },
+                {
+                    "Name": "Text",
+                    "Value": "New StaticText"
+                },
+                {
+                    "Name": "Font",
+                    "Value": "HT18"
+                },
+                {
+                    "Name": "MinFont",
+                    "Value": "HT18"
+                },
+                {
+                    "Name": "TextVertAlignment",
+                    "Value": "Centre"
+                },
+                {
+                    "Name": "TextCharaterRotation",
+                    "Value": "false"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "widget_notify_cell-vip",
+                    "Property": [
+                        {
+                            "Name": "Visible",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0,36},{0,31}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_main.json image:icon_0_vip"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

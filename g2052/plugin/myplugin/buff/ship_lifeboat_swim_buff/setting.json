@@ -1,0 +1,16 @@
+{
+    "sound": {
+        "sound": "/sound/lifeboat_run.mp3",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/ship_lifeboat_swim_buff"
+    ],
+    "sync": "other"
+}

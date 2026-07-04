@@ -1,0 +1,21 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "useGravity": "false",
+        "useCollide": "false",
+        "bloom": "false",
+        "useAnchor": "true",
+        "staticObject": "false",
+        "mesh": "asset/prop/mesh/2052_prop_zhaopian03.mesh",
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "metalness": "0",
+        "roughness": "0.9",
+        "rotation": "x:90 y:0 z:0",
+        "name": "printing_paper2",
+        "restitution": "0.3",
+        "position": "x:0 y:0 z:0",
+        "materialOffset": "x:1 y:1 z:1.0"
+    }
+}

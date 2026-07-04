@@ -1,0 +1,18 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "MobileEditorClickMask",
+            "Property": [
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 1 0"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ]
+        }
+    }
+}

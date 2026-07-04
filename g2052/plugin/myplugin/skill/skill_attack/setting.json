@@ -1,0 +1,14 @@
+{
+    "castAction": "g2052_boy_attack",
+    "castActionTime": -1,
+    "type": "Base",
+    "isClick": true,
+    "cdTime": 18,
+    "priority": -2,
+    "castSound": {
+        "sound": "/sound/g2052_fire_stick.mp3",
+        "loop": false,
+        "selfOnly": false,
+        "volume": 1
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "2052_bayi",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/2052_bayi.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

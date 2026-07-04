@@ -1,0 +1,964 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "CarOperation",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Level",
+                    "Value": "51"
+                },
+                {
+                    "Name": "AlwaysOnTop",
+                    "Value": "true"
+                },
+                {
+                    "Name": "EnableLongTouch",
+                    "Value": "true"
+                },
+                {
+                    "Name": "TextColorLeftTop",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "TextColorRightTop",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "TextColorLeftBottom",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "TextColorRightBottom",
+                    "Value": "0 0 0 0"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "CarOperation-ContentPanel",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "CarOperation-operationBtn",
+                            "Property": [
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,400},{0,78},{0,460},{0,138}}"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "CarOperation-oBtnIcon",
+                                    "Property": [
+                                        {
+                                            "Name": "Material",
+                                            "Value": "CullBackLinear"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,60},{0,60}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_main.json image:icon_0_carriers"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticImage",
+                            "Name": "CarOperation-btnListBg",
+                            "Property": [
+                                {
+                                    "Name": "Material",
+                                    "Value": "CullBackLinear"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,475},{0,15},{0,835},{0,150}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "20 20 20 30"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "CarOperation-SpeedShow",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,6},{0,0},{0,126},{1,0}}"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "CarOperation-SpeedCircle",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,12},{0,76},{0,88}}"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_function.json image:icon_0_speed01"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-SpeedKe",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{0,76},{0,76}}"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_speed03"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-SpeedPointer",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Touchable",
+                                                            "Value": "false"
+                                                        },
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{0,76},{0,76}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "Rotate",
+                                                            "Value": "-130"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_speed02"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "CarOperation-SpeedTxtBg",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,-20},{0,87},{0,1}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Bottom"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "StretchType",
+                                                    "Value": "NineGrid"
+                                                },
+                                                {
+                                                    "Name": "StretchOffset",
+                                                    "Value": "13 13 0 0"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg05"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "CarOperation-SpeedNum",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                                                        },
+                                                        {
+                                                            "Name": "Text",
+                                                            "Value": "0KM/H"
+                                                        },
+                                                        {
+                                                            "Name": "TextColor",
+                                                            "Value": "0.945098 0.745098 0.0784314 1"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Name": "CarOperation-TopOperation",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-4},{0,0},{0.965116,-112},{0.911111,0}}"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Right"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn1",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,2},{0,12},{0,59},{0,72}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon1",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn2",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,60},{0,12},{0,117},{0,72}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon2",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn3",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,118},{0,12},{0,175},{0,72}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon3",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn4",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,176},{0,12},{0,233},{0,72}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon4",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn5",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,2},{0,64},{0,59},{0,124}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon5",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn6",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,60},{0,64},{0,117},{0,124}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon6",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn7",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,118},{0,64},{0,175},{0,124}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon7",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Button",
+                                            "Name": "CarOperation-OperationBtn8",
+                                            "Property": [
+                                                {
+                                                    "Name": "Material",
+                                                    "Value": "CullBackLinear"
+                                                },
+                                                {
+                                                    "Name": "DrawColor",
+                                                    "Value": "1 1 1 0.2"
+                                                },
+                                                {
+                                                    "Name": "Alpha",
+                                                    "Value": "0.2"
+                                                },
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,176},{0,64},{0,233},{0,124}}"
+                                                },
+                                                {
+                                                    "Name": "BtnTextColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextShadowColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "TextBorderColor",
+                                                    "Value": "0 0 0 0.2"
+                                                },
+                                                {
+                                                    "Name": "NormalImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "PushedImage",
+                                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                                },
+                                                {
+                                                    "Name": "TextHorzAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "TextVertAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "PushBrightness",
+                                                    "Value": "0.25 0.25 0.25 0"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "StaticImage",
+                                                    "Name": "CarOperation-icon8",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Material",
+                                                            "Value": "CullBackLinear"
+                                                        },
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-1},{0,-5},{0,47},{0,43}}"
+                                                        },
+                                                        {
+                                                            "Name": "VerticalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "HorizontalAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "ImageName",
+                                                            "Value": "set:g2052_function.json image:icon_0_information"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

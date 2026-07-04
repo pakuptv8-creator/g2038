@@ -1,0 +1,36 @@
+n_awardId	name	n_awardType	n_itemId	s_itemName	n_itemCount	s_itemIcon	s_showName	s_showDesc	n_quality	s_actor_name	n_actor_scale	n_actor_rotateY	s_actor_uiOffset	n_actor_rotateX		
+奖励物品ID	备注	物品类型 1装扮 2宠物 3载具 4房子(对应商品表ID)	相关货物全名	相关货物全名	奖励物品数	图标	物品名多语言	物品描述多语言	品质	actor名	actor缩放	actor左右角度	actor偏移	actor上下角度		
+		各游戏自己定义	物品数据是根据ID读表的	物品数据是根据路径的		是否使用配置图标				装扮、宠物不需要填			x#y 			
+20001	花园房	4	107		1	set:g2052_architecture_icon.json image:g2052_icon_house7	g2052_gift_20001	g2052_gift_20001	5	g2052_house_flower.actor	0.24	-15	70#-50	13		球衣1
+20002	蜜蜂卫衣	1	12031		1	set:g2052_tops_icon.json image:g2052_tops_209	g2052_gift_20002	g2052_gift_20002	5		0.42	0	100#33	0		南瓜头
+20003	老爷车	3	2010		1	set:g2052_car_icon.json image:car_icon_laoye	g2052_gift_20003	g2052_gift_20003	5	g2052_car_vintage_car.actor	0.18	30	105#-90	15		针织帽
+20004	蜜蜂背包	1	24011		1	set:g2052_bag_icon.json image:bag_12	g2052_gift_20004	g2052_gift_20004	4		0.42	180	100#33	0		心形眼镜
+20005	西部牛仔套	1	11030		1	set:g2052_suit_icon.json image:g2052_clothing_suits_20	g2052_gift_20005	g2052_gift_20005	4		0.4	0	100#33	0		兔子套
+20006	兔子套	1	11026		1	set:g2052_suit_icon.json image:g2052_clothing_suits_24	g2052_gift_20006	g2052_gift_20006	4		0.39	0	100#38	0		西部牛仔套
+20007	心形眼镜	1	23016		1	set:g2052_head_icon.json image:head_14	g2052_gift_20007	g2052_gift_20007	4		0.42	0	100#33	0		蜜蜂背包
+20008	针织帽	1	21025		1	set:g2052_hat_icon.json image:hat_12	g2052_gift_20008	g2052_gift_20008	3		0.41	0	100#33	0		蜜蜂卫衣
+20009	南瓜头	1	21023		1	set:g2052_hat_icon.json image:hat_30	g2052_gift_20009	g2052_gift_20009	3		0.41	0	100#33	0		马1
+20010	球衣1	1	11031		1	set:g2052_suit_icon.json image:g2052_clothing_suits_27	g2052_gift_20010	g2052_gift_20010	3	g2052_car_cruiser.actor	0.42	0	100#33	0		巡逻车
+20011	马1	2	11		1	set:g2052_children_icon.json image:g2052_icon_ma_02	g2052_gift_20011	g2052_gift_20011	3	g2052_car_vintage_car.actor	0.35	-70	130#0	0		老爷车
+20012	巡逻车	3	2014		1	set:g2052_car_icon.json image:car_icon_xunluo	g2052_gift_20012	g2052_gift_20012	3	g2052_car_cruiser.actor	0.17	30	115#-40	15		花园房
+20013	豪华摩托	3	1010		1	set:g2052_car_icon.json image:car_icon_motomodern	g2052_gift_20013	g2052_gift_20013	5	g2052_car_modernmotor.actor	0.33	42	90#-45	15		摩托车头盔
+20014	彩虹马坐骑	2	2003		1	set:g2052_children_icon.json image:g2052_pet_caihongma	g2052_gift_20014	g2052_gift_20014	5		0.28	-35	120#5	0		王子面罩
+20015	恐龙套	1	11022		1	set:g2052_suit_icon.json image:g2052_clothing_suits_25	g2052_gift_20016	g2052_gift_20016	5		0.42	0	100#33	0		小熊套头
+20016	山地三轮	3	1011		1	set:g2052_car_icon.json image:car_icon_motohero	g2052_gift_20015	g2052_gift_20015	4	g2052_car_motohero.actor	0.29	40	110#-40	15		沙滩裤
+20017	魔女套	1	11028		1	set:g2052_suit_icon.json image:g2052_clothing_suits_40	g2052_gift_20017	g2052_gift_20017	4		0.38	0	100#40	0		小熊口罩
+20018	小熊口罩	1	23014		1	set:g2052_head_icon.json image:head_12	g2052_gift_20018	g2052_gift_20018	4		0.42	0	100#33	0		魔女套
+20019	兔女郎	2	1018		1	set:g2052_children_icon.json image:g2052_pet_tunvlang	g2052_gift_20019	g2052_gift_20019	4		0.51	0	100#5	0		恐龙套
+20020	万圣节限定独轮车	3	1014		1	set:g2052_car_icon.json image:car_dulunche	g2052_gift_20020	g2052_gift_20020	3	g2020_car11.actor	0.45	50	100#-25	15		兔女郎
+20021	摩托车头盔	1	21024		1	set:g2052_hat_icon.json image:hat_15	g2052_gift_20021	g2052_gift_20021	3		0.42	0	100#33	0		彩虹马坐骑
+20022	小熊套头	1	21022		1	set:g2052_hat_icon.json image:hat_16	g2052_gift_20022	g2052_gift_20022	3	g2020_car11.actor	0.42	0	100#33	0		万圣节限定独轮车
+20023	王子面罩	1	23015		1	set:g2052_head_icon.json image:head_13	g2052_gift_20023	g2052_gift_20023	3	g2052_car_motohero.actor	0.42	0	100#33	0		山地三轮
+20024	沙滩裤	1	13020		1	set:g2052_pants_icon.json image:g2052_pant_111	g2052_gift_20024	g2052_gift_20024	3	g2052_car_modernmotor.actor	0.42	0	100#33	0		豪华摩托
+40001	花园房	4	107		1	set:g2052_architecture_icon.json image:g2052_icon_house7	g2052_gift_40001	g2052_gift_40001	5		0.42	0	0#0	0		花园房
+40002	餐厅房	4	112		1	set:g2052_architecture_icon.json image:g2052_icon_house12	g2052_gift_40002	g2052_gift_40002	5		0.42	0	0#0	0		餐厅房
+40003	恐龙套	1	11022		1	set:g2052_suit_icon.json image:g2052_clothing_suits_25	g2052_gift_40003	g2052_gift_40003	5		0.42	0	0#0	0		恐龙套
+40004	概念车	3	2017		1	set:g2052_car_icon.json image:car_icon_lambo	g2052_gift_40004	g2052_gift_40004	5		0.42	0	0#0	0		概念车
+40005	兔子套	1	11026		1	set:g2052_suit_icon.json image:g2052_clothing_suits_24	g2052_gift_40005	g2052_gift_40005	5		0.42	0	0#0	0		兔子套
+1100011	侦探上衣	1	12033		1	set:g2052_new_dress.json image:g2052_tops_14	g2052_gift_1100011	g2052_gift_1100011	4		0.42	0	100#33	0		
+1100012	小兔子	2	1019		1	set:g2052_new_dress.json image:pet_tuzi	g2052_gift_1100012	g2052_gift_1100012	4		0.51	0	100#5	0		
+1100013	超级摩托	3	1015		1	set:g2052_new_dress.json image:car_motuo2	g2052_gift_1100013	g2052_gift_1100013	5	g2052_car_motuo02.actor	0.42	0	100#33	0		
+1100014	卡丁车	3	1016		1	set:g2052_new_dress.json image:car_f2	g2052_gift_1100014	g2052_gift_1100014	5	g2052_car_f2.actor	0.42	0	100#33	0		

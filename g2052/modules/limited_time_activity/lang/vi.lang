@@ -1,0 +1,92 @@
+
+
+language_start:g2052commercialize
+
+gui.limit.time.activity.gold.wheel.title=Vòng quay may mắn
+gui.limit.time.activity.gold.wheel.help=◇Sử dụng Khối Rubik Vàng để chơi bàn quay một lần và nhận cơ hội giảm một nửa sau mỗi 24 giờ
+
+gui.limit.time.activity.optional.title=Tùy chỉnh riêng
+gui.limit.time.activity.optional.help=none
+gui.limit.time.activity.optional.tips=Mua gói quà tùy chỉnh {.} để nhận giải thưởng tùy chọn
+gui.limit.time.activity.optional.receive=nhận
+gui.limit.time.activity.optional.received=nhận
+gui.limit.time.activity.optional.custom=tùy chỉnh thực hiện
+gui.limit.time.activity.optional.buy=Mua
+gui.limit.time.activity.optional.custom.big=Giải thưởng tùy chỉnh
+gui.limit.time.activity.optional.continue=tiếp tục
+gui.limit.time.activity.optional.custom.normal=Tùy chỉnh phần thưởng thứ {.}
+gui.limit.time.activity.day.limit.counts={.} mỗi ngày
+optional_name_pack0=gói phúc lợi
+optional_name_pack1=Tùy chỉnh riêng 1
+optional_name_pack2=Tùy chỉnh riêng tư 2
+optional_name_pack3=Tùy chỉnh riêng 3
+optional_name_pack9=món quà lớn
+
+gui.limit.time.activity.buy.one.title=mua hàng
+gui.limit.time.activity.buy.one.desc=mô tả món hàng
+
+gui.limit.time.card.congratulations1=Phần thưởng thẻ hàng tuần
+gui.limit.time.card.congratulations2=Thưởng thẻ hàng tháng
+gui.limit.time.card.residue=Còn lại: {.} ngày
+gui.limit.time.card.help=◇Kể từ ngày mua, hãy đăng nhập hàng ngày để nhận phần thưởng hàng ngày tương ứng. \n◇Đăng nhập vào ngày hôm sau để đổi trực tiếp tất cả phần thưởng.
+gui.limit.time.activity.card.title=thẻ tháng
+gui.limit.time.activity.card.title2=tiền thẻ hàng tháng
+gui.limit.time.activity.card.title1=Phiếu giảm giá hàng tuần
+gui.limit.time.activity.card.tip1=Có sẵn hàng ngày
+gui.limit.time.activity.card.tip2=toàn bộ
+
+gui.limit.time.activity.discount.title=cửa hàng bí ẩn
+gui.limit.time.activity.discount.help=none
+gui.limit.time.activity.discount.desc=Hãy xem, có những món quà khác nhau mỗi ngày!
+gui.limit.time.activity.discount.refresh=Làm mới sản phẩm tiếp theo: {.}
+
+gui.limit.time.activity.title=Hoạt động
+gui.limit.time.activity.fisherman.gift=món quà của ngư dân
+gui.limit.time.combined.title=Túi quà
+gui.limit.time.activity.week.gift=Gói quà hàng tuần
+gui.limit.time.activity.month.gift=Gói quà hàng tháng
+gui.limit.time.activity.draw.title=Xổ số thời gian giới hạn
+
+
+gui.limit.time.activity.is.have=Đã có
+gui.limit.time.combined.purchased=đã mua
+gui.limit.time.buy.success=Mua thành công
+gui.limit.time.buy.fail=Mua thất bại
+gui.limit.time.buy.confirm=Bạn có chắc chắn để mua?
+gui.limit.time.common.tips=Gợi ý
+gui.limit.time.activity.continue=tiếp tục...
+gui.limit.time.activity.confirm.tips=Chắc chắn rồi
+gui.limit.time.activity.cancel.tips=Hủy bỏ
+gui.limit.time.activity.reward.dec=mô tả phần thưởng
+gui.limit.time.activity.click.on.the.screen.to.continue=  Nhấp vào màn hình để tiếp tục >>
+gui.limit.time.activity.congratulations=Xin chúc mừng
+gui.limit.time.activity.end=Sự kiện kết thúc
+gui.limit.time.activity.free.bought=Tự do
+gui.limit.time.activity.buy.title=Mua gói quà
+gui.limit.time.activity.gift.desc=Nội dung gói
+gui.limit.time.activity.soul.out=Sold out
+gui.limit.time.activity.limit.counts={.} bên trái
+
+gui.limit.time.activity.draw.preview=Phần thưởng
+gui.limit.time.activity.draw.tip={.} trận hòa là chắc chắn!
+gui.limit.time.activity.draw.single=Rút 1 lần
+gui.limit.time.activity.draw.ten=Rút 10 lần
+gui.limit.time.activity.draw.help=◇Sử dụng Khối Rubik vàng để rút phần thưởng từ kho giải thưởng và nếu bạn đạt được số lần rút quy định, bạn chắc chắn sẽ giành được giải thưởng lớn；\n◇Các giải thưởng trong nhóm giải thưởng được luân chuyển thường xuyên và số lần quay thưởng cũng sẽ được đặt lại.
+
+gui.limit.time.activity.free=lần đầu tiên miễn phí
+gui.limit.time.activity.click.button.btn.tip1=Nhấp vào nút ở cuối màn hình để bắt đầu câu cá
+gui.limit.time.activity.click.button.btn.tip2=Kho báu nào bạn sẽ bắt lần này?
+gui.limit.time.activity.must.win.lottery=Mỗi lần câu cá phải cho phần thưởng khác nhau!
+gui.limit.time.activity.fisherman.dec=Chào! Tôi đã tìm thấy một cái hồ có rất nhiều kho báu trong đó, chúng ta hãy cùng nhau tìm cách bắt được kho báu nhé!
+gui.limit.time.activity.fishing=đánh bắt cá
+gui.limit.time.activity.click.skip=Nhấp để bỏ qua hoạt ảnh
+gui.limit.time.combined.off=OFF
+gui.limit.time.combined.limit=▢FF913C08Giới hạn▢FFE92E4E{.}▢FF913C08lần mua
+gui.limit.time.activity.signal.tip=Mỗi gói chỉ được mua▢FFFFFF001▢FFFFFFFFlần
+
+gui.limit.time.activity.help=Mô tả sự kiện
+gui.limit.time.activity.must.win.lottery.help=◇Bạn có thể nhận được một giải thưởng từ nhóm giải thưởng mỗi khi bạn câu cá và các giải thưởng không được lặp lại, nghĩa là các giải thưởng bạn đã giành được sẽ không được rút ra trong tương lai;\n◇Mỗi lần câu cá sẽ tốn một lượng Vàng khác nhau Khối Rubik (tăng theo số lần câu), Giá cụ thể là ↓\nLần 1: 0\nLần 2: 29\nLần 3: 39\nLần 4: 59\nLần 5: 99\nLần 6: 129\nLần 7: 159\nLần 8: 199\nLần 9: 199\nLần 10: 199\nLần 11: 249\nLần 12: 299
+gui.limit.time.activity.week.gift.help=Mô tả sự kiện
+gui.limit.time.activity.month.gift.help=Mô tả sự kiện
+
+language_end:g2052commercialize

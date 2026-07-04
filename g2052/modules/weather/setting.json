@@ -1,0 +1,77 @@
+{
+	"?dailySwitchCount": "每日切换天气次数",
+	"dailySwitchCount": 1,
+	"specialEffectCheckTime": 30,
+	"wetEffectCheckTimer": 3,
+	"stormPlayerBuffer": "myplugin/player_on_wet_buff",
+	"faceDuration": 3,
+	"hotFaceId": 40036,
+	"coldFaceId": 40037,
+	"coldActionId": 40,
+	"coldActionDuration": 3,
+	"slideDuration": 0,
+	"mustSwitchTime": 4320,
+
+	"forbidChangeFaceSuits": {
+		"g2052_suit_23": true,
+		"g2052_hat_23": true
+	},
+
+	"floodDelay": 5,
+	"floodPartIds": [
+		"8809260714981638145"
+	],
+	"snowDelay": 5,
+	"snowPartIds": [
+		"8795187759860105217"
+	],
+	"sandDelay": 3,
+	"sandPartIds": [
+	],
+
+	"bigTornadoMaxExist": 2,
+	"bigTornado": {
+		"8804741663402770433" : {
+			"createInterval": 10,
+			"moveTime": 300,
+			"moveSpeed": [1, 0, 0]
+		},
+		"8809272063133368321" : {
+			"createInterval": 5,
+			"moveTime": 300,
+			"moveSpeed": [1, 0, 0.05]
+		},
+		"8809273303922573313" : {
+			"createInterval": 10,
+			"moveTime": 100,
+			"moveSpeed": [-0.5, 0, -0.1]
+		},
+		"8809273471534383105" : {
+			"createInterval": 10,
+			"moveTime": 400,
+			"moveSpeed": [1, 0, -0.5]
+		},
+		"8809273627332673537" : {
+			"createInterval": 20,
+			"moveTime": 500,
+			"moveSpeed": [-1, 0, 1]
+		},
+		"8809273942935568385" : {
+			"createInterval": 10,
+			"moveTime": 1000,
+			"moveSpeed": [0.5, 0, 0.1]
+		},
+		"8809274423321427969" : {
+			"createInterval": 10,
+			"moveTime": 200,
+			"moveSpeed": [0, 0, -0.5]
+		}
+		
+	},
+	"smallTornadoIds": [
+	],
+
+	"hotLightIntensityInc": 0.0,
+
+	"last":"last"
+}

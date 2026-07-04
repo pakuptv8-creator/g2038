@@ -1,0 +1,184 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2052_pet_4.actor" Originalscale="1 1 1" Skeleton="g2042_pet_36_3.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2042_pet_36_3.skin" ChangeColor = "1.48437e+25 6.80008e-33 2.75587e+23 2.01125e-19" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="body" SlaveName="3" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2042_pet_36_3_1.skin" ChangeColor = "0 8.71796e-39 8.71796e-39 2.28927e-38" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+			<BodyPart MasterName="effect" SlaveName="1" LodName="0" DefaultUse="false" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Effect>
+					<FileName value="g2042_pet_Skill_04_02.effect"/>
+					<SocketName value="Bip001_L_Foot"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_04_02.effect"/>
+					<SocketName value="Bip001_R_Foot"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_04_02.effect"/>
+					<SocketName value="Bip001_L_Hand"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+				<Effect>
+					<FileName value="g2042_pet_Skill_04_02.effect"/>
+					<SocketName value="Bip001_R_Hand"/>
+					<Position_X value="0"/>
+					<Position_Y value="0"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="90"/>
+					<scale value="0.7"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+				</Effect>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="eat" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_eat.anim" BeginTime = "0" Times = "1" Length = "2.566" FadeTime = "0.2" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="fly" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_fly.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2042_seesaw" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_idle_01.anim" BeginTime = "0" Times = "-1" Length = "5.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="happy" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_pet_caihongma_eat_01.anim" BeginTime = "0" Times = "1" Length = "1.866" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_idle_01.anim" BeginTime = "0" Times = "-1" Length = "5.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jugaogao" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_jugaogao.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.2" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pickup" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_pickup.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_evolve_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="pose_idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_idle_01.anim" BeginTime = "0" Times = "-1" Length = "5.566" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<ColorChange BeginTime = "0" R = "255" G = "255" B = "255" A = "1" Cascade = "true"  SmoothTime = "0.1"  DurationTime = "0.2"  ResumeTime = "0.2">
+				</ColorChange>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_walk.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.25" Channel = "" TimeScale = "1.2">
+				</Animation>
+			</Skill>
+			<Skill Name="skill" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.9" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_Skill_04_01.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0.4"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.5"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="2"/>
+					<TimeScale value="0.5"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+			</Skill>
+			<Skill Name="sleep" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_sleep.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="stroke" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_36_3_stroke.anim" BeginTime = "0" Times = "1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2042_pet_36_3_fly.anim"/>
+				<Anim Name="g2042_pet_36_3_pickup.anim"/>
+				<Anim Name="g2042_pet_36_3_stroke.anim"/>
+				<Anim Name="g2042_pet_36_3_walk.anim"/>
+				<Anim Name="g2042_pet_36_3_pose.anim"/>
+				<Anim Name="g2042_pet_36_3_idle_01.anim"/>
+				<Anim Name="g2042_pet_36_3_idle_02.anim"/>
+				<Anim Name="g2052_pet_caihongma_sleep.anim"/>
+				<Anim Name="g2052_pet_caihongma_jugaogao.anim"/>
+				<Anim Name="g2042_pet_36_3_eat.anim"/>
+				<Anim Name="g2042_pet_36_3_jugaogao.anim"/>
+				<Anim Name="g2042_pet_36_3_sleep.anim"/>
+				<Anim Name="g2052_pet_caihongma_eat_01.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

@@ -1,0 +1,18 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2052_boy_sprint.mp3",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            10
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/player_walk_buff",
+        "myplugin/player_idle_buff"
+    ],
+    "sync": "other"
+}

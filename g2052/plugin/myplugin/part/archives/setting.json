@@ -1,0 +1,14 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/scene2/currency/g2052_police_archives.mesh",
+        "name": "archives",
+        "position": "x:0 y:0 z:0",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.25
+    }
+}

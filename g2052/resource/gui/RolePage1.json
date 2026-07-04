@@ -1,0 +1,48 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "RolePage1",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,343},{0,411}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Layout",
+                    "Name": "RolePage1-TabContainer",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,9},{0,0},{0,54},{1,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "RolePage1-ContentContainer",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-9},{0,0},{0,263},{1,-9}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

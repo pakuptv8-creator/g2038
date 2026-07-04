@@ -1,0 +1,12 @@
+{
+    "class": "Part",
+    "properties": {
+        "name": "elevator_car",
+        "useAnchor": "true",
+        "materialAlpha": "0",
+        "useGravity": "false",
+        "useCollide": "false",
+        "collisionGroup": "16",
+        "scale": "x:0.01 y:0.01 z:0.01"
+    }
+}

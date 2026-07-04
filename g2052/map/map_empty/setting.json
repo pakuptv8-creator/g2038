@@ -1,0 +1,9 @@
+{
+    "canBreak": true,
+    "hideCloud": true,
+    "initPos": {
+        "x": 0,
+        "y": 35,
+        "z": 0
+    }
+}

@@ -1,0 +1,36 @@
+{
+  "open": true,
+  "?type": "urlImage 网络图,joint 手工拼接,second 第二版,slide 滑动版",
+  "type": "slide",
+  "?webImage": "urlImage 网络图,web端地址key,announcementImage和announcementImage2",
+  "webImage": "announcementImage",
+  "debug": false,
+  "vision": 14,
+  "showDay": 7,
+  "?viewTime": "强制玩家阅读公告的时间，单位秒",
+  "viewTime": 0,
+  "urlUI": {
+    "imageSize": {
+      "h": 670,
+      "w": 1166
+    }
+  },
+  "jointUI": {
+    "openScaleAnim": {
+      "peakInfo": [
+        {
+          "scale": 0.5,
+          "timeStamp": 0
+        },
+        {
+          "scale": 1.2,
+          "timeStamp": 10
+        },
+        {
+          "scale": 1,
+          "timeStamp": 15
+        }
+      ]
+    }
+  }
+}

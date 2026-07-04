@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "jiaotang_yizi",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/jiaotang_yizi.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

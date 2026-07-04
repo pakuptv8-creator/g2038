@@ -1,0 +1,4 @@
+n_id	n_activityId	n_sortId	s_roundsTime	s_continueTime	n_notResetData
+id	活动id	排序	开始轮次时间 默认 0-0-0-0-0-0 	持续时间 0-0-0-0 天-时-分-秒	不重置购买 填1
+1	20001	1	2023-1-12	7-0-0-0	1
+2	20002	2	2023-1-12	7-0-0-0	1

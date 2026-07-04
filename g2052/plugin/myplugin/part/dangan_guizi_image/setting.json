@@ -1,0 +1,19 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "position": "x:29.87001991272 y:32.421905517578 z:-131.68",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "bloom": "false",
+        "name": "dangan_guizi_image",
+        "staticObject": "false",
+        "mesh": "asset/prop/mesh/2052_prop_zhaopian03.mesh",
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "metalness": "0",
+        "roughness": "0.9",
+        "rotation": "x:-90 y:0 z:0",
+        "restitution": "0.3",
+        "useGravity": "false"
+    }
+}

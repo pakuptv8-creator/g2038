@@ -1,0 +1,38 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "ModAuthorMedalItem",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,50},{0,50},{0,187},{0,75}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "ModAuthorMedalItem-Bg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "12.5 12.5 12.5 12.5"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_mod.json image:img_9_name_bg"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "coinName": "gold_coin",
+        "icon": "set:g2043_common.json image:img_0_gold"
+    },
+	{
+		"coinName": "silver_coin",
+		"icon": "set:g2043_common.json image:img_0_silver"
+	},
+    {
+        "coinName": "fDiamonds",
+        "icon": "set:diamond.json image:Diamond-icon2.png"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/2052_prop_tiantianquan01.mesh",
+        "name": "baijian_tiantianquan",
+        "position": "x:0 y:0 z:0",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.1
+    }
+}

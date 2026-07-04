@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "bangongyizi02",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/bangongyizi02.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

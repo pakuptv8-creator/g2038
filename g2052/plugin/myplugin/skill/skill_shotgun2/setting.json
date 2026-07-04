@@ -1,0 +1,23 @@
+{
+    "castAction": "g2052_skill_shotgun_fire2",
+    "castActionTime": 10,
+    "type": "Base",
+    "isClick": true,
+    "isTouch": false,
+    "touchTime": 0,
+    "cdTime": 10,
+    "priority": -2,
+    "containerKey": "shotgun",
+    "container": {
+        "takeNum": 1,
+        "initCapacity": 4,
+        "maxCapacity": 4,
+        "autoReloadSkill": "myplugin/skill_shotgun_reload"
+    },
+    "castSound": {
+        "sound": "/sound/g2052_fire_shotgun.mp3",
+        "loop": false,
+        "selfOnly": false,
+        "volume": 1
+    }
+}

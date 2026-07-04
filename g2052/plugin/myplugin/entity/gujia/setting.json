@@ -1,0 +1,56 @@
+{
+  "name": "",
+  "actorName": "g2052_gujia.actor",
+  "clickProps": [
+    {
+      "func": "clickPublicPerformer"
+    }
+  ],
+  "performActions": [
+    {
+      "weight": 50,
+      "action": "g2052_gujia_1",
+      "duration": 2
+    },
+    {
+      "weight": 50,
+      "action": "g2052_gujia_2",
+      "duration": 3
+    },
+    {
+      "weight": 50,
+      "action": "g2052_gujia_3",
+      "duration": 4
+    }
+  ],
+  "actionSoundKey": "gujia",
+  "base": "adorn_base",
+  "collision": false,
+  "viewDistance": 64,
+  "interactionUI": [
+    {
+      "cfgKey": "interactionUI",
+      "centerBtns": [
+        {
+          "image": "set:g2052_interaction_icon.json image:click",
+          "event": "interact_public_performer",
+          "site": 1,
+          "imageSize": {
+            "width": "65",
+            "height": "65"
+          },
+          "widgetFileName": "widget_button_image_center",
+          "enableTextBorder": true
+        }
+      ],
+      "followParams": {
+        "followScenePos": false,
+        "offset": {
+          "x": 0,
+          "y": 2.1,
+          "z": 0
+        }
+      }
+    }
+  ]
+}

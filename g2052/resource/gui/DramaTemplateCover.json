@@ -1,0 +1,38 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "DramaTemplateCover",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,100},{0,100},{0,566},{0,346}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "DramaTemplateCover-CoverIcon",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "ImageName",
+                            "Value": "set:g2052_teaming.json image:img_0_teaming02"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

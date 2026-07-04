@@ -1,0 +1,74 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "ModSearchPopularItem",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,50},{0,50},{0,170},{0,96}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Button",
+                    "Name": "ModSearchPopularItem-Btn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{1,0}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "23 23 0 0"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "abcdefg"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT14"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "BtnTextColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mod.json image:btn_9_pagination03"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mod.json image:btn_9_pagination03"
+                        },
+                        {
+                            "Name": "TextRenderOffset",
+                            "Value": "0 -3"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

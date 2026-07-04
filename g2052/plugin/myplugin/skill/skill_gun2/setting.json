@@ -1,0 +1,23 @@
+{
+    "castAction": "g2052_skill_gun_fire2",
+    "castActionTime": 6,
+    "type": "Base",
+    "isClick": true,
+    "isTouch": true,
+    "touchTime": 0,
+    "cdTime": 4,
+    "priority": -2,
+    "containerKey": "gun",
+    "container": {
+        "takeNum": 1,
+        "initCapacity": 20,
+        "maxCapacity": 20,
+        "autoReloadSkill": "myplugin/skill_gun_reload"
+    },
+    "castSound": {
+        "sound": "/sound/g2052_fire_gun.mp3",
+        "loop": false,
+        "selfOnly": false,
+        "volume": 1
+    }
+}

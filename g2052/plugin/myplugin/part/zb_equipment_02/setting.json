@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "yinshuiji",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/yinshuiji.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

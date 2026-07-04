@@ -1,0 +1,96 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2052_pet_3.actor" Originalscale="1 1 1" Skeleton="g2042_pet_3_3.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="0">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="body" SlaveName="1" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2042_pet_3_3.skin" ChangeColor = "1.64969e-32 1.64966e-32 1.64963e-32 1.6496e-32" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="eat" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_pet_cow_eat.anim" BeginTime = "0" Times = "1" Length = "3.133" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="fly" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_fly.anim" BeginTime = "0" Times = "-1" Length = "1.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="g2042_seesaw" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_idle.anim" BeginTime = "0" Times = "-1" Length = "5.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="happy" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_pet_cow_eat_01.anim" BeginTime = "0" Times = "1" Length = "1.833" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_idle.anim" BeginTime = "0" Times = "-1" Length = "5.033" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jugaogao" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_pet_cow_jugaogao.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pickup" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_pickup.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="pose_1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_pose.anim" BeginTime = "0" Times = "1" Length = "2.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+				<Effect>
+					<FileName value="g2042_pet_evolve_1.effect"/>
+					<SocketName value="BuSuiFu"/>
+					<BeginTime value="0"/>
+					<Times value="1"/>
+					<Position_X value="0"/>
+					<Position_Y value="0.3"/>
+					<Position_Z value="0"/>
+					<yaw value="0"/>
+					<pitch value="0"/>
+					<roll value="0"/>
+					<scale value="0.5"/>
+					<TimeScale value="1"/>
+					<Alpha value="1"/>
+					<CycleTime value="-1"/>
+					<FollowActor value="true"/>
+					<Persist value="false"/>
+					<isSlowdownValuable value="true"/>
+				</Effect>
+				<HitFly  beginTime = "0" durationTime = "0.5" high = "1" >
+				</HitFly>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_walk.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sleep" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_pet_cow_sleep.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="stroke" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2042_pet_3_3_stroke.anim" BeginTime = "0" Times = "1" Length = "2.7" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2042_pet_3_3_fly.anim"/>
+				<Anim Name="g2042_pet_3_3_idle.anim"/>
+				<Anim Name="g2042_pet_3_3_pickup.anim"/>
+				<Anim Name="g2042_pet_3_3_stroke.anim"/>
+				<Anim Name="g2042_pet_3_3_walk.anim"/>
+				<Anim Name="g2042_pet_3_3_pose.anim"/>
+				<Anim Name="g2052_pet_cow_eat.anim"/>
+				<Anim Name="g2052_pet_cow_sleep.anim"/>
+				<Anim Name="g2052_pet_cow_jugaogao.anim"/>
+				<Anim Name="g2052_pet_cow_eat_01.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

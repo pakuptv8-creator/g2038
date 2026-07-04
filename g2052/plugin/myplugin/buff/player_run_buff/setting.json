@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2052_boy_run.mp3",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            10
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/player_run_buff"
+    ],
+    "sync": "other"
+}

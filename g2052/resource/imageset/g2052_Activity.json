@@ -1,0 +1,32 @@
+{
+    "frames": {
+        "icon_0_fisherman02": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 72,
+                "h": 72
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 72,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 72,
+                "h": 72
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_Activity.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 73,
+            "h": 73
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

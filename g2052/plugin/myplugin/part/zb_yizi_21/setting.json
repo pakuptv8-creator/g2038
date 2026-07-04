@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "kanhu_tangyi",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/kanhu_tangyi.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/g2052_prop_pizza.mesh",
+        "name": "baijian_pizza",
+        "position": "x:0 y:0 z:0",
+        "rotation": "x:200 y:180 z:5",
+        "scale": "x:1.7 y:1.7 z:1.7",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.03
+    }
+}

@@ -1,0 +1,52 @@
+<Animation animName="TextColorFlicker" sync="false" loop="true" time="2000">
+	<SubAnimation animType="TextColor" time="100" color="1.0,1.0,0.0,1.0"/>
+	<SubAnimation animType="TextColor" time="100" color="1.0,0.0,0.0,1.0"/>
+</Animation>
+<Animation animName="ScreenWhiteFlicker" sync="false">
+	<SubAnimation animType="BackgroundColor" time="4000" valueStart="1.0,1.0,1.0,1.0" valueEnd="1.0,1.0,1.0,0.0"/>
+</Animation>
+
+<Animation animName="goldFly1" sync="false">
+<SubAnimation animType="move" time="500" moveStart="-0.45,0,0,0" moveEnd="-0.5,0,-0.15,0"/>
+</Animation>
+<Animation animName="goldEffectFly1" sync="false">
+<SubAnimation animType="move" time="500" moveStart="-0.56,0,-0.05,0" moveEnd="-0.61,0,-0.2,0"/>
+</Animation>
+<Animation animName="goldEffectSize1" sync="true">
+<SubAnimation animType="move" time="500" moveStart="-0.6,0,-0.2,0" moveEnd="-0.56,0,-0.48,0"/>
+<SubAnimation animType="ChangeSize" time="500" sizeStart="0.0, 60.0, 0.0, 60.0" sizeEnd="0.0, 30.0, 0.0, 30.0"/>
+</Animation>
+<Animation animName="goldFly2" sync="false">
+<SubAnimation animType="move" time="500" moveStart="-0.45,0,0,0" moveEnd="-0.4,0,-0.15,0"/>
+</Animation>
+<Animation animName="goldEffectFly2" sync="false">
+<SubAnimation animType="move" time="500" moveStart="-0.56,0,-0.05,0" moveEnd="-0.51,0,-0.2,0"/>
+</Animation>
+<Animation animName="goldEffectSize2" sync="true">
+<SubAnimation animType="move" time="500" moveStart="-0.5,0,-0.2,0" moveEnd="-0.56,0,-0.48,0"/>
+<SubAnimation animType="ChangeSize" time="500" sizeStart="0.0, 60.0, 0.0, 60.0" sizeEnd="0.0, 30.0, 0.0, 30.0"/>
+</Animation>
+
+<Animation animName="pet_line1" sync="false">
+	<SubAnimation animType="ChangeSize" time="197" sizeStart="0.0, 11.0, 0.0, 0.0" sizeEnd="0.0, 11.0, 0.0, 36.0"/>
+</Animation>
+<Animation animName="pet_line2" sync="false">
+	<SubAnimation animType="ChangeSize" time="1680" sizeStart="0.0, 11.0, 0.0, 0.0" sizeEnd="0.0, 11.0, 0.0, 56.0"/>
+</Animation>
+<Animation animName="pet_line3" sync="false">
+	<SubAnimation animType="ChangeSize" time="197" sizeStart="0.0, 0.0, 0.0, 10.0" sizeEnd="0.0, 0.0, 0.0, 10.0"/>
+	<SubAnimation animType="ChangeSize" time="833" sizeStart="0.0, 0.0, 0.0, 10.0" sizeEnd="0.0, 162.0, 0.0, 10.0"/>
+</Animation>
+<Animation animName="friendTipMove" sync="false">
+<SubAnimation animType="move" time="2000" moveStart="0,0,0,-131" moveEnd="0,0,0,13"/>
+<SubAnimation animType="move" time="10000" moveStart="0,0,0,13" moveEnd="0,0,0,13"/>
+</Animation>
+<Animation animName="friendTipStatic" sync="false">
+<SubAnimation animType="move" time="5000" moveStart="0,0,0,13" moveEnd="0,0,0,13"/>
+</Animation>
+<Animation animName="dramaHistory" sync="false">
+<SubAnimation animType="move" time="300" moveStart="0,500,0,0" moveEnd="0,0,0,0"/>
+</Animation>
+<Animation animName="dramaRanking" sync="false">
+<SubAnimation animType="move" time="200" moveStart="0,400,0,0" moveEnd="0,0,0,0"/>
+</Animation>

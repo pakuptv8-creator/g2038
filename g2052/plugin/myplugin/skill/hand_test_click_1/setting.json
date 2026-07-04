@@ -1,0 +1,5 @@
+{
+  "base":"hand_item_click_base",
+  "icon": "set:g2042_operation_button.json image:btn_0_balloon_ordinary",
+  "pushImage" : "set:g2042_operation_button.json image:btn_0_balloon_ordinary"
+}

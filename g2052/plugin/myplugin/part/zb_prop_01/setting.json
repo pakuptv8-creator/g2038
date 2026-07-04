@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "boxa",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/boxa.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_yueqi_08",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_yueqi_08.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

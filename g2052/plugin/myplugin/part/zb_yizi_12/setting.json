@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_house001_yizi_01",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/g2052_house001_yizi_01.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

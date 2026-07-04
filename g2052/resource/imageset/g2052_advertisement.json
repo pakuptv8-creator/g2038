@@ -1,0 +1,140 @@
+{
+    "frames": {
+        "btn_0_advertisement": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 50,
+                "h": 40
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 50,
+                "h": 40
+            },
+            "sourceSize": {
+                "w": 50,
+                "h": 40
+            }
+        },
+        "btn_0_close": {
+            "frame": {
+                "x": 52,
+                "y": 1,
+                "w": 37,
+                "h": 37
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 37,
+                "h": 37
+            },
+            "sourceSize": {
+                "w": 37,
+                "h": 37
+            }
+        },
+        "btn_0_refresh": {
+            "frame": {
+                "x": 90,
+                "y": 1,
+                "w": 128,
+                "h": 63
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 128,
+                "h": 63
+            },
+            "sourceSize": {
+                "w": 128,
+                "h": 63
+            }
+        },
+        "icon_0_advertisement": {
+            "frame": {
+                "x": 1,
+                "y": 65,
+                "w": 79,
+                "h": 79
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 79,
+                "h": 79
+            },
+            "sourceSize": {
+                "w": 79,
+                "h": 79
+            }
+        },
+        "img_0_lock1": {
+            "frame": {
+                "x": 81,
+                "y": 65,
+                "w": 89,
+                "h": 138
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 89,
+                "h": 138
+            },
+            "sourceSize": {
+                "w": 89,
+                "h": 138
+            }
+        },
+        "img_0_lock2": {
+            "frame": {
+                "x": 1,
+                "y": 204,
+                "w": 93,
+                "h": 140
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 93,
+                "h": 140
+            },
+            "sourceSize": {
+                "w": 93,
+                "h": 140
+            }
+        },
+        "img_9_bottom": {
+            "frame": {
+                "x": 95,
+                "y": 204,
+                "w": 32,
+                "h": 64
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 32,
+                "h": 64
+            },
+            "sourceSize": {
+                "w": 32,
+                "h": 64
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_advertisement.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 218,
+            "h": 344
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

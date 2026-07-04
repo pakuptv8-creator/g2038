@@ -1,0 +1,15 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/g2052_food_model_apple.mesh",
+        "name": "pingguo_pet",
+        "position": "x:0 y:0 z:0",
+        "scale": "x:1.4 y:1.4 z:1.4",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.15
+    }
+}

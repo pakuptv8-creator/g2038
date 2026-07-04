@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/horse_run.mp3",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/horse_run_buff"
+    ],
+    "sync": "other"
+}

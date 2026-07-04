@@ -1,0 +1,15 @@
+n_id	s_tabIcon	n_category	s_categoryIcon
+分类索引	分类索引图标（可以不填）	大索引	大索引图标
+11	set:g2052_function.json image:icon_0_sets	1	set:g2052_function.json image:icon_0_men01
+12	set:g2052_function.json image:icon_0_men01	1	set:g2052_function.json image:icon_0_men01
+13	set:g2052_function.json image:icon_0_men02	1	set:g2052_function.json image:icon_0_men01
+14	set:g2052_function.json image:icon_0_female01	1	set:g2052_function.json image:icon_0_men01
+15	set:g2052_function.json image:icon_0_female02	1	set:g2052_function.json image:icon_0_men01
+16	set:g2052_function.json image:icon_0_shoes	1	set:g2052_function.json image:icon_0_men01
+21	set:g2052_function.json image:icon_0_hats	2	set:g2052_function.json image:icon_0_hats
+22	set:g2052_function.json image:icon_0_hairstyles	2	set:g2052_function.json image:icon_0_hats
+23	set:g2052_function.json image:icon_0_face	2	set:g2052_function.json image:icon_0_hats
+24	set:g2052_function.json image:icon_0_back	2	set:g2052_function.json image:icon_0_hats
+25	set:g2052_function.json image:icon_0_waist	2	set:g2052_function.json image:icon_0_hats
+31		3	set:g2052_function.json image:icon_0_body
+41		4	set:g2052_function.json image:icon_0_face

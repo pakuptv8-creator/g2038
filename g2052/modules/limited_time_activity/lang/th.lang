@@ -1,0 +1,92 @@
+
+
+language_start:g2052commercialize
+
+gui.limit.time.activity.gold.wheel.title=วงล้อแห่งโชคลาภ
+gui.limit.time.activity.gold.wheel.help=◇ใช้ Golden Rubik's Cube เพื่อเล่นเครื่องเล่นแผ่นเสียง 1 ครั้ง และรับโอกาสลดครึ่งราคาทุกๆ 24 ชั่วโมง
+
+gui.limit.time.activity.optional.title=การปรับแต่งส่วนตัว
+gui.limit.time.activity.optional.help=none
+gui.limit.time.activity.optional.tips=ซื้อแพ็คเกจของขวัญที่กำหนดเอง {.} เพื่อรับรางวัลเสริม
+gui.limit.time.activity.optional.receive=รับ
+gui.limit.time.activity.optional.received=ได้รับ
+gui.limit.time.activity.optional.custom=ทำเอง
+gui.limit.time.activity.optional.buy=ซื้อ
+gui.limit.time.activity.optional.custom.big=รางวัลที่กำหนดเอง
+gui.limit.time.activity.optional.continue=ดำเนินต่อ
+gui.limit.time.activity.optional.custom.normal=ปรับแต่งรางวัลที่ {.}
+gui.limit.time.activity.day.limit.counts={.} ต่อวัน
+optional_name_pack0=ชุดสวัสดิการ
+optional_name_pack1=การปรับแต่งส่วนตัว1
+optional_name_pack2=การปรับแต่งส่วนตัว2
+optional_name_pack3=การปรับแต่งส่วนตัว3
+optional_name_pack9=ของขวัญชิ้นใหญ่
+
+gui.limit.time.activity.buy.one.title=ซื้อสินค้า
+gui.limit.time.activity.buy.one.desc=รายละเอียดสินค้า
+
+gui.limit.time.card.congratulations1=รางวัลการ์ดรายสัปดาห์
+gui.limit.time.card.congratulations2=รางวัลบัตรรายเดือน
+gui.limit.time.card.residue=เหลืออีก {.} วัน
+gui.limit.time.card.help=◇ตั้งแต่วันที่ซื้อ เข้าสู่ระบบทุกวันเพื่อรับรางวัลรายวันที่เกี่ยวข้อง \n◇เข้าสู่ระบบในวันถัดไปเพื่อแลกรับรางวัลทั้งหมดโดยตรง
+gui.limit.time.activity.card.title=บัตรรายเดือน
+gui.limit.time.activity.card.title2=บัตรเงินรายเดือน
+gui.limit.time.activity.card.title1=บัตรคูปองรายสัปดาห์
+gui.limit.time.activity.card.tip1=มีให้บริการทุกวัน
+gui.limit.time.activity.card.tip2=ที่มีอยู่ทั้งหมด
+
+gui.limit.time.activity.discount.title=ร้านลึกลับ
+gui.limit.time.activity.discount.help=none
+gui.limit.time.activity.discount.desc=ลองดูสิ มีสารพัดที่แตกต่างกันทุกวัน!
+gui.limit.time.activity.discount.refresh=การรีเฟรชผลิตภัณฑ์ครั้งถัดไป: {.}
+
+gui.limit.time.activity.title=เหตุการณ์จำกัดเวลา
+gui.limit.time.activity.fisherman.gift=ของขวัญของชาวประมง
+gui.limit.time.combined.title=แพ็คเกจจำกัดเวลา
+gui.limit.time.activity.week.gift=ชุดของขวัญรายสัปดาห์
+gui.limit.time.activity.month.gift=ชุดของขวัญรายเดือน
+gui.limit.time.activity.draw.title=หวยจำกัดเวลา
+
+
+gui.limit.time.activity.is.have=เป็นเจ้าของแล้ว
+gui.limit.time.combined.purchased=ซื้อแล้ว
+gui.limit.time.buy.success=การซื้อสำเร็จ
+gui.limit.time.buy.fail=การซื้อล้มเหลว
+gui.limit.time.buy.confirm=แน่ใจว่าจะซื้อ?
+gui.limit.time.common.tips=เคล็ดลับ
+gui.limit.time.activity.continue=ดำเนินต่อ...
+gui.limit.time.activity.confirm.tips=แน่นอน
+gui.limit.time.activity.cancel.tips=ยกเลิก
+gui.limit.time.activity.reward.dec=คำอธิบายรางวัล
+gui.limit.time.activity.click.on.the.screen.to.continue=  คลิกที่หน้าจอเพื่อดำเนินการต่อ >>
+gui.limit.time.activity.congratulations=ยินดีด้วย
+gui.limit.time.activity.end=เหตุการณ์สิ้นสุดลงแล้ว
+gui.limit.time.activity.free.bought=ฟรี
+gui.limit.time.activity.buy.title=ซื้อชุดของขวัญ
+gui.limit.time.activity.gift.desc=เนื้อหาแพคเกจ
+gui.limit.time.activity.soul.out=Sold out
+gui.limit.time.activity.limit.counts={.} ซ้าย
+
+gui.limit.time.activity.draw.preview=ตัวอย่างรางวัล
+gui.limit.time.activity.draw.tip={.} เสมอแน่นอน!
+gui.limit.time.activity.draw.single=สุ่ม 1 ครั้ง
+gui.limit.time.activity.draw.ten=สุ่ม 10 ครั้ง
+gui.limit.time.activity.draw.help=◇ใช้ลูกบาศก์รูบิคทองคำเพื่อจับรางวัลจากกองรางวัล และหากคุณจับถึงจำนวนที่กำหนด คุณจะได้รับรางวัลใหญ่อย่างแน่นอน；\n◇รางวัลรวมรางวัลจะหมุนเวียนเป็นประจำ และจำนวนการจับรางวัลก็จะถูกรีเซ็ตด้วย
+
+gui.limit.time.activity.free=ครั้งแรกฟรี
+gui.limit.time.activity.click.button.btn.tip1=คลิกปุ่มที่ด้านล่างของหน้าจอเพื่อเริ่มตกปลา
+gui.limit.time.activity.click.button.btn.tip2=คุณจะจับสมบัติอะไรในครั้งนี้?
+gui.limit.time.activity.must.win.lottery=การตกปลาแต่ละครั้งจะต้องให้รางวัลที่แตกต่างกัน!
+gui.limit.time.activity.fisherman.dec=เฮ้! ฉันพบทะเลสาบที่มีสมบัติมากมายอยู่ในนั้น มาหาวิธีจับสมบัติด้วยกันเถอะ!
+gui.limit.time.activity.fishing=ตกปลา
+gui.limit.time.activity.click.skip=คลิกเพื่อข้ามภาพเคลื่อนไหว
+gui.limit.time.combined.off=OFF
+gui.limit.time.combined.limit=▢FF913C08จำกัดการซื้อ▢FFE92E4E{.}▢FF913C08ครั้ง
+gui.limit.time.activity.signal.tip=แต่ละแพ็คเกจจำกัดการซื้อ▢FFFFFF001▢FFFFFFFFครั้ง
+
+gui.limit.time.activity.help=คำอธิบายเหตุการณ์
+gui.limit.time.activity.must.win.lottery.help=◇คุณสามารถรับรางวัลจากเงินรางวัลรวมทุกครั้งที่คุณตกปลา และรางวัลจะไม่ซ้ำกัน นั่นคือรางวัลที่คุณชนะแล้วจะไม่ถูกจับรางวัลในอนาคต\n◇การตกปลาแต่ละครั้งจะมีราคาทองคำต่างกัน Rubik's Cube (เพิ่มขึ้นตามจำนวนครั้งที่ตกปลา) ราคาเฉพาะคือ ↓\nครั้งที่ 1: 0\nครั้งที่ 2: 29\nครั้งที่ 3: 39\nครั้งที่ 4: 59\nครั้งที่ 5: 99\nครั้งที่ 6: 129\nครั้งที่ 7: 159\nครั้งที่ 8: 199\nครั้งที่ 9: 199\nครั้งที่ 10: 199\nครั้งที่ 11: 249\nครั้งที่ 12: 299
+gui.limit.time.activity.week.gift.help=คำอธิบายเหตุการณ์
+gui.limit.time.activity.month.gift.help=คำอธิบายเหตุการณ์
+
+language_end:g2052commercialize

@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "zhong",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/zhong.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

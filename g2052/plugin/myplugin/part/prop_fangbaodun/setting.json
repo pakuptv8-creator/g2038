@@ -1,0 +1,15 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "useGravity": "false",
+        "mesh": "asset/prop/mesh/prop_fangbaodun.mesh",
+        "useAnchor": "true",
+        "scale": "x:0.225196 y:0.225196 z:0.225196",
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "name": "prop_fangbaodun"
+    }
+}

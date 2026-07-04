@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "bayi",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/bayi.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

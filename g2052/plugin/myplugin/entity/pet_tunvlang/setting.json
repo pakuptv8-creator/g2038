@@ -1,0 +1,36 @@
+{
+    "base": "pet_base",
+    "name": "",
+    "interactionSecUI": {
+        "cfgKey": "interactionSecUI",
+        "aroundBtns": [
+            {
+                "event": "play_with_pet",
+                "image": "set:g2052_pet.json image:img_0_play",
+                "imageSize": {
+                    "height": "87",
+                    "width": "86"
+                },
+                "widgetFileName": "widget_button_image_center",
+                "cameraAnimationTime": 0.5,
+                "hideOnClick": true
+            }
+        ],
+        "aroundParams": {
+            "endAngle": 90,
+            "startAngle": -90,
+            "radius": 70
+        },
+        "followParams": {
+            "followScenePos": false,
+            "offset": {
+                "x": 0,
+                "y": 1.2,
+                "z": 0
+            },
+            "resetWhenHide": true
+        }
+    },
+    "fixBodyTurn": true,
+    "rejectStateChange": true
+}

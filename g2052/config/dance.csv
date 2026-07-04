@@ -1,0 +1,72 @@
+n_id	n_sort	s_danceName	s_actionName	n_actionTime	n_showRight	s_chatActionMap	
+序号	排序	动作多语言名	动作名	动作时间	是否显示在动作列表	聊天动作关键字	
+					1显示0不显示，默认1	#隔开，如ha#哈哈#hh	
+1	1	face_name_wave	g2052_face_wave	-1		hi#hello#HI#HELLO	打招呼
+2	6	face_name_zombie	g2052_face_zombie_walk	-1		zombie#ZOMBIE	僵尸
+3	8	face_name_panic	g2052_face_panic_walk	-1		panic#PANIC	恐慌
+4	5	face_name_crawl	g2052_face_crawl	-1			爬行
+5	3	face_name_mummy	g2052_face_mummy_walk	-1			木乃伊
+6	12	face_name_sneak	g2052_face_sneak_walk	-1			潜行
+7	2	face_name_fukong	g2052_dance_fukong	-1			浮空
+8	11	face_name_backwalk	g2052_face_backwalk	-1			倒着走
+9	10	face_name_skip	g2052_face_child_walk	-1			蹦跳
+10	13	face_name_model	g2052_face_catwalk	-1			模特
+11	14	face_name_army	g2052_face_army_walk	-1			军队
+12	17	face_name_yes	g2052_face_yes	-1		yes#YES	同意
+13	15	face_name_no	g2052_face_no	-1		no#NO	拒绝
+14	4	face_name_fall	g2052_face_siwang1	9999			倒下
+15	7	face_name_fall2	g2052_face_siwang2	9999			倒下2
+16	16	face_name_unhappy	g2052_face_unhappy	-1		sad#SAD	伤心
+17	9	face_name_cry	g2052_face_cry	-1			哭泣
+18	22	face_name_bye	g2052_face_bye	-1		bye#BYE	再见
+19	21	face_name_cheer	g2052_face_cheer	-1			欢呼
+20	26	face_name_happy	g2052_face_happy	-1			开心
+21	20	face_name_laugh	g2052_face_laugh	-1		lol#LOL	大笑
+22	24	face_name_angry	g2052_face_angry	-1			生气
+23	23	face_name_raisehand	g2052_face_raisehand	-1			举起手
+24	27	face_name_arrested	g2052_face_arrested	-1			被拷住
+25	25	face_name_cute	g2052_face_cute	-1			可爱
+26	18	face_name_sit1	g2052_boy_sit4	-1			坐下
+27	19	face_name_sit2	g2052_boy_sit5	-1			坐下2
+28	30	face_name_wallstand1	g2052_boy_wallstand1	-1			靠墙站
+29	31	face_name_wallstand2	g2052_boy_wallstand2	-1			靠墙站2
+30	28	face_name_salute	g2052_face_salute	-1			行礼
+31	29	face_name_salute2	g2052_face_xingli	9999			行礼2
+32	32	face_name_strong	g2052_face_muscle	-1			强壮
+33	33	face_name_point	g2052_face_point	-1			指向
+34	34	face_name_handshake	g2052_face_handshake	-1		shake#SHAKE	握手
+35	35	face_name_naughty	g2052_face_naughty	-1			撒娇
+36	36	face_name_shyness	g2052_face_shyness	-1			害羞
+37	37	face_name_clap	g2052_face_clap	-1			鼓掌
+38	38	face_name_fear	g2052_face_fear	-1			恐惧
+39	39	face_name_wounded	g2052_face_wounded	-1			受伤
+40	40	face_name_freeze	g2052_face_freeze	-1			寒冷
+41	41	face_name_dizzy	g2052_face_dizzy	-1			眩晕
+42	42	face_name_scratch	g2052_face_scratch	-1			疑惑
+43	43	face_name_boring	g2052_face_boring	-1			无聊
+44	44	face_name_love1	g2052_face_love1	9999			左示爱
+45	45	face_name_love2	g2052_face_love2	9999			右示爱
+46	46	face_name_warm-up	g2052_face_warm-up	-1			热身运动
+47	47	dance_name_hot	g2052_dance_hot	-1			热舞
+48	48	dance_name_locking	g2052_dance_locking	-1			锁舞 
+49	49	dance_name_shake1	g2052_dance_shake1	-1			摇摆舞1
+50	50	dance_name_shake2	g2052_dance_shake2	-1			摇摆舞2
+51	51	dance_name_scissors	g2052_dance_scissors	-1			摇摆舞3
+52	52	dance_name_slide	g2052_dance_slide	-1			滑步舞
+53	53	dance_name_thomas	g2052_dance_thomas	-1			霹雳舞
+54	54	dance_name_1	g2052_face_dance1	-1			跳舞1
+55	55	dance_name_2	g2052_face_dance2	-1			跳舞2
+56	56	dance_name_3	g2052_face_dance3	-1			跳舞3
+57	57	dance_name_4	g2052_face_dance4	-1			跳舞4
+58	58	dance_name_5	g2052_face_dance5	-1			跳舞5
+59	59	dance_name_6	g2052_face_dance6	-1			跳舞6
+60	60	dance_name_7	g2052_face_dance7	-1			跳舞7
+61	61	dance_name_8	g2052_face_dance8	-1			跳舞8
+62	62	dance_name_9	g2052_face_dance9	-1			跳舞9
+63	63	face_name_float	g2052_face_float	-1	0	float#FLOAT	浮空
+64	64	face_name_spin	g2052_face_spin	-1	0	spin#SPIN	自转
+65	65	face_name_hero	g2052_face_hero	-1	0	hero#HERO	英雄
+66	66	face_name_fly	g2052_face_fly	-1	0	fly#FLY	飞行
+67	67	face_name_bedwars	g2052_face_bedwars	-1	0	Bed Wars#BedWars#bedwars#bed wars#BED WARS#BEDWARS	起床战争
+68	68	face_name_playtogether	g2052_face_playtogether	-1	0	playtogether#PLAYTOGETHER#PLAY TOGETHER	一起玩
+69	69	face_name_frog	g2052_face_frog	-1	0	frog#FROG	青蛙

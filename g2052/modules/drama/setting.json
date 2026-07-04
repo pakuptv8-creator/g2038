@@ -1,0 +1,129 @@
+{
+  "/dramaPageSize": "剧本列表一页显示数量",
+  "dramaPageSize": 4,
+  "/listShowDescMax": "剧本列表显示的介绍最大字数",
+  "listShowDescMax": 40,
+  "/refreshTime": "剧本界面信息定时刷新 秒",
+  "refreshTime": 30,
+  "/amendCDTime": "剧本修改CD 秒",
+  "amendCDTime": 30,
+  "/roleDefaultCount": "剧本默认角色数量",
+  "roleDefaultCount": 20,
+  "/roleMinCount": "剧本最小角色数量",
+  "roleMinCount": 5,
+  "/roleMaxCount": "剧本最大角色数量",
+  "roleMaxCount": 25,
+  "/dramaNameMaxLen": "剧本名最大字数",
+  "dramaNameMaxLen": 20,
+  "/dramaDescMaxLen": "剧本介绍最大字数",
+  "dramaDescMaxLen": 100,
+  "/roleNameMaxLen": "角色名最大字数",
+  "roleNameMaxLen": 15,
+  "/roleDescMaxLen": "角色介绍最大字数",
+  "roleDescMaxLen": 30,
+  "/likeRankingPageSize": "点赞排行榜一页显示数量",
+  "likeRankingPageSize": 20,
+  "clickLikeEffect":{
+    "posOffsetX":32,
+    "posOffsetY":-25,
+    "size":150
+  },
+  "/roleColor": "剧本内角色名颜色",
+  "roleColor": "00F0FF",
+  "/modFreshTime": "模板封面定时刷新频率 秒",
+  "modFreshTime": 5,
+  "/modMoveTime": "模板封面自动翻页动画时长 秒",
+  "modMoveTime": 0.4,
+  "sendItToTheMaster": false,
+  "/notifyPartyDisplayTime": "派对通知显示时间 秒",
+  "notifyPartyDisplayTime": 6,
+  "/giantSetting": "巨人模板相关配置",
+  "giantSetting":{
+    "/initShapeScale": "巨人初始体型倍数",
+    "initShapeScale": 3,
+    "/minShapeScale": "巨人体型最小倍数",
+    "minShapeScale": 1,
+    "/maxShapeScale": "巨人最大体型倍数",
+    "maxShapeScale": 5,
+    "/stepShapeScale": "巨人每次变化体型倍数",
+    "stepShapeScale": 0.2,
+    "/shapeMoveSpeed": "巨人体型变化倍数的移动速率系数",
+    "shapeMoveSpeed": 0.05,
+    "/shapeJumpSpeed": "巨人体型变化倍数的跳跃高度系数",
+    "shapeJumpSpeed": 0.1,
+    "/shapeEyeHeight": "巨人体型变化倍数的摄像机高度系数",
+    "shapeEyeHeight": 0.3,
+    "/hamburgerScale": "一个汉堡提升体型倍数",
+    "hamburgerScale": 0.1,
+    "/hamburgerEffectNum": "拾取汉堡最大有效个数",
+    "hamburgerEffectNum": 10,
+    "/hamburgerAction": "吃巨人汉堡的动作",
+    "hamburgerAction": "g2052_boy_eat_hanbao",
+    "/hamburgerDelayTime": "吃汉堡后体型变化延时时间 帧",
+    "hamburgerDelayTime": 22,
+    "/hamburgerCfg": "汉堡part路径",
+    "hamburgerCfg": "myplugin/hanbao_giant",
+    "/hamburgerCD": "汉堡刷新CD 秒",
+    "hamburgerCD": 60,
+    "/hamburgerMaxNum": "一次生成汉堡数量",
+    "hamburgerMaxNum": 3,
+    "/hamburgerBornList": "巨人汉堡出生点",
+    "hamburgerBornList": [
+      {
+        "mapName": "map001",
+        "position": {
+          "x": -70,
+          "y": 1,
+          "z": -10
+        }
+      },
+      {
+        "mapName": "map001",
+        "position": {
+          "x": -16,
+          "y": 1,
+          "z": -10
+        }
+      },
+      {
+        "mapName": "map001",
+        "position": {
+          "x": 38,
+          "y": 1,
+          "z": 1
+        }
+      },
+      {
+        "mapName": "map001",
+        "position": {
+          "x": 38,
+          "y": 1,
+          "z": 85
+        }
+      },
+      {
+        "mapName": "map001",
+        "position": {
+          "x": -70,
+          "y": 1,
+          "z": 85
+        }
+      },
+      {
+        "mapName": "map001",
+        "position": {
+          "x": -28,
+          "y": 1,
+          "z": 52
+        }
+      }
+    ]
+  },
+  "?templateExclusionContent": " Define.DramaTemplateKey = { FLOOD = 1,-- 洪水 FOG = 2,-- 迷雾 Flight = 3,-- 失重、飞行 Giant = 4,-- 巨人} Define.BTN_SORT = { ROLE = 1, PROFESSION = 2, BABY = 3, BAG = 4, ACTION = 5, CAR = 6, HOUSE = 7}",
+  "templateExclusionContent": {
+    "3": { "6": [1005,1006,1007] }
+  },
+  "configVersion": 2052004,
+  "?minOnlinePlayerLimits": "房间最小限制人数 大于这个值不会停止派对分配",
+  "minOnlinePlayerLimits": 10
+}

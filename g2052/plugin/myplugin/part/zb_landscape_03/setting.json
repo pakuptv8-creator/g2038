@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "greenplant_c",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/greenplant_c.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

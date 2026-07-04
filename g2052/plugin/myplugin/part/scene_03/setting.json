@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "streetlamp02",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/streetlamp02.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

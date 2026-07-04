@@ -1,0 +1,13 @@
+{
+    "needSave": false,
+    "forceToIdle": true,
+    "avoidBuff": [
+        "myplugin/player_idle_buff"
+    ],
+    "removeBuff": [
+        "myplugin/player_run_buff",
+        "myplugin/player_walk_buff",
+        "myplugin/player_sprint_buff"
+    ],
+    "sync": "all"
+}

@@ -1,0 +1,9 @@
+{
+  "castAction": "g2052_skill_watering",
+  "castActionTime": -1,
+  "type": "Base",
+  "isClick": true,
+  "cdTime": 10,
+  "priority": -2,
+  "callBackSelfDefineSkill": "tryToPutOutFire"
+}

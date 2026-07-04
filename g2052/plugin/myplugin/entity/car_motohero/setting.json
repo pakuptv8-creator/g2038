@@ -1,0 +1,113 @@
+{
+    "runBuff": [
+        "myplugin/motuo_run_buff"
+    ],
+    "jumpBuff": [
+        "myplugin/motuo_jump_buff"
+    ],
+    "name": "",
+    "base": "trolley_base",
+    "actorName": "g2052_car_motohero.actor",
+    "moveSpeed": 0.8,
+    "bodyTurnSpeed": 30,
+    "collisionGroup": 2,
+    "brightnessScale": 1.7,
+    "checkPartTouchEvent": true,
+    "jumpSpeed": 0.6,
+    "posSyncDelay": 5,
+    "ridePos": [
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.05,
+                "z": 0
+            },
+            "out": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "ctrl": true,
+            "view": false,
+            "rideAction": {
+                "base": "idle",
+                "run": "run",
+                "fly": "run",
+                "idle": "idle",
+                "jump_fall": "run",
+                "jump": "run",
+                "jump2": "run",
+                "jump3": "run"
+            },
+            "passengerAction": {
+                "base": "g2052_boy_motohero_idle",
+                "run": "g2052_boy_motohero_run",
+                "idle": "g2052_boy_motohero_idle",
+                "jump": "g2052_boy_motohero_idle",
+                "jump2": "g2052_boy_motohero_idle",
+                "jump3": "g2052_boy_motohero_idle"
+            },
+            "?attachPoint": "ride1"
+        },
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 1.3,
+                "z": -0.8
+            },
+            "out": {
+                "x": 0,
+                "y": 0,
+                "z": -0.5
+            },
+            "ctrl": false,
+            "view": false,
+            "passengerAction": {
+                "base": "g2052_boy_motohero_ride_01",
+                "run": "g2052_boy_motohero_ride_01",
+                "idle": "g2052_boy_motohero_ride_01",
+                "jump": "g2052_boy_motohero_ride_01",
+                "jump2": "g2052_boy_motohero_ride_01",
+                "jump3": "g2052_boy_motohero_ride_01"
+            },
+            "?attachPoint": "ride2"
+        }
+    ],
+    "attachPoints": [
+        {
+            "name": "ride1",
+            "bone": "s_1",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        },
+        {
+            "name": "ride2",
+            "bone": "s_2",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        }
+    ],
+    "fixBodyTurn": true
+}

@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "object007",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/object007.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "actorName": "g2052_girl.actor",
+    "gravity": 0.08,
+    "collisionGroup": 1,
+    "collisionMask": 6,
+    "checkBlockTouchEvent": false,
+    "isMayorStatue": true,
+    "checkTouchEvent": false,
+    "brightnessScale": 1.3,
+    "fixBodyTurn": true
+}

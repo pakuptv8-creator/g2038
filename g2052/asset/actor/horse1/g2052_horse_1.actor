@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "GB2312"?>
+<ActorTemplates>
+	<ActorTemplate name="g2052_horse_1.actor" Originalscale="1 1 1" Skeleton="g2052_horse_1.skel" AttackScale="1" TextHeight="0" IsShowShadow="true" WoundBone="" WoundAngle="25" SelectedRingSize="1" SoundName1="" SoundName2="" SoundName3="" SoundName4="" SoundName5="" SoundFileNum="0" Volume="0.8" MinDistance="1" MaxDistance="16" IntervalTime="2" Alpha="1" ThreadPriority="1">
+		<SubActors>
+		</SubActors>
+		<BodyParts>
+			<BodyPart MasterName="mutex_name0" SlaveName="group0" LodName="0" DefaultUse="true" EdgeColor="1 1 1 1" ColorParams="1 1 1 1">
+				<Skin MeshName = "g2052_horse_1.skin" ChangeColor = "1.4013e-45 -0.487196 0.0893673 -0.567287" UVSpeed = "0 0" LocalAlpha = "1" LocalBrightnessScale = "1" UseBloom = "false" UseTransparentNearestSlice = "false" OverlayColor = "1 1 1 1" SpecularColor = "1 1 1 1" SpecularCoef = "0.15" SpecularStrength = "1">
+				</Skin>
+			</BodyPart>
+		</BodyParts>
+		<Skills>
+			<Skill Name="eat" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_eat.anim" BeginTime = "0" Times = "-1" Length = "1.066" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="idle" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_idle.anim" BeginTime = "0" Times = "-1" Length = "4.033" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jugaogao" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_jugaogao.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.25" Channel = "" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jump1" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_jump1.anim" BeginTime = "0" Times = "1" Length = "0.2" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jump2" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_jump2.anim" BeginTime = "0" Times = "1" Length = "0.566" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jump3" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_jump3.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="jump4" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_jump4.anim" BeginTime = "0" Times = "1" Length = "0.533" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="run" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_run.anim" BeginTime = "0" Times = "-1" Length = "0.633" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="sleep" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_sleep.anim" BeginTime = "0" Times = "-1" Length = "1.366" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+			<Skill Name="walk" EnableWound="false" UserDefineTime="-2" TextMode="0">
+				<Animation Name = "g2052_horse_walk.anim" BeginTime = "0" Times = "-1" Length = "1.233" FadeTime = "0.05" Channel = "upper" TimeScale = "1">
+				</Animation>
+			</Skill>
+		</Skills>
+		<Anims>
+				<Anim Name="g2052_horse_eat.anim"/>
+				<Anim Name="g2052_horse_jump1.anim"/>
+				<Anim Name="g2052_horse_jump3.anim"/>
+				<Anim Name="g2052_horse_run.anim"/>
+				<Anim Name="g2052_horse_sleep.anim"/>
+				<Anim Name="g2052_horse_walk.anim"/>
+				<Anim Name="g2052_horse_idle.anim"/>
+				<Anim Name="g2052_horse_jump4.anim"/>
+				<Anim Name="g2052_horse_jump2.anim"/>
+				<Anim Name="g2052_horse_jugaogao.anim"/>
+		</Anims>
+	</ActorTemplate>
+</ActorTemplates>

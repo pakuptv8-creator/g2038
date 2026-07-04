@@ -1,0 +1,104 @@
+{
+    "frames": {
+        "img_0_color_plate01": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 281,
+                "h": 250
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 281,
+                "h": 250
+            },
+            "sourceSize": {
+                "w": 281,
+                "h": 250
+            }
+        },
+        "img_0_color_plate02": {
+            "frame": {
+                "x": 283,
+                "y": 1,
+                "w": 16,
+                "h": 250
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 16,
+                "h": 250
+            },
+            "sourceSize": {
+                "w": 16,
+                "h": 250
+            }
+        },
+        "img_0_color_plate03": {
+            "frame": {
+                "x": 300,
+                "y": 1,
+                "w": 13,
+                "h": 15
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 13,
+                "h": 15
+            },
+            "sourceSize": {
+                "w": 13,
+                "h": 15
+            }
+        },
+        "img_0_color_plate04": {
+            "frame": {
+                "x": 314,
+                "y": 1,
+                "w": 10,
+                "h": 10
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 10,
+                "h": 10
+            },
+            "sourceSize": {
+                "w": 10,
+                "h": 10
+            }
+        },
+        "img_0_color_selection": {
+            "frame": {
+                "x": 325,
+                "y": 1,
+                "w": 14,
+                "h": 17
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 14,
+                "h": 17
+            },
+            "sourceSize": {
+                "w": 14,
+                "h": 17
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_color_plate.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 339,
+            "h": 251
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

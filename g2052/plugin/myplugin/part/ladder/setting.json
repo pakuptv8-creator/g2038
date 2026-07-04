@@ -1,0 +1,71 @@
+{
+  "children": [
+    {
+      "class": "Part",
+      "properties": {
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "materialAlpha": "0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "name": "box_climb_house",
+        "position": "x:0.523652076721191 y:0.964 z:-0.0290001034736633",
+        "restitution": "0.3",
+        "rotation": "x:8.99999237060547 y:-90.0000076293945 z:0",
+        "scale": "x:0.609997 y:1.57003 z:0.100999",
+        "selectable": "false",
+        "staticObject": "false",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useForCollision": "false",
+        "useGravity": "false"
+      }
+    },
+    {
+      "class": "MeshPart",
+      "properties": {
+        "customThreshold": "1",
+        "density": "2.2",
+		"friction": "0.37",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "mesh": "asset\/prop\/mesh\/g2052_prop_ladder.mesh",
+        "name": "g2052_prop_ladder",
+        "position": "x:0.0 y:1.095 z:0",
+        "restitution": "0.3",
+        "roughness": "0.9",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true",
+        "useAnchor": "true",
+        "useCollide": "true",
+        "useForCollision": "false",
+        "useGravity": "false"
+      }
+    },
+    {
+      "class": "Part",
+      "properties": {
+        "customThreshold": "1",
+        "density": "2.2",
+        "friction": "0.37",
+        "materialAlpha": "0",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "name": "box_climb_house",
+        "position": "x:-0.535384893417358 y:0.964 z:-0.0290003772825003",
+        "restitution": "0.3",
+        "rotation": "x:8.99999237060547 y:90.0000076293945 z:0",
+        "scale": "x:0.609997 y:1.57003 z:0.100999",
+        "selectable": "false",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useForCollision": "false",
+        "useGravity": "false"
+      }
+    }
+  ],
+  "class": "Model",
+  "customProperties": [],
+  "properties": {
+    "name": "ladder",
+    "position": "x:0 y:0 z:0.0"
+  }
+}

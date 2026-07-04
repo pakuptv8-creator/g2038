@@ -1,0 +1,274 @@
+{
+    "children": [
+        {
+            "class": "MeshPart",
+            "properties": {
+                "collisionFidelity": "1",
+                "collisionGroup": "16",
+                "density": "2.2",
+                "friction": "0.37",
+                "mesh": "asset/car/mesh/g2052_car_mianbaoche01_colorchange.mesh",
+                "name": "colorchange",
+                "useGravity": "false",
+                "position": "x:0 y:0.273 z:-0.014",
+                "restitution": "0.3",
+                "rotation": "x:0 y:0 z:0",
+                "roughness": "0.9",
+                "useCollide": "false",
+                "staticObject": "false",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "class": "MeshPart",
+            "properties": {
+                "collisionFidelity": "1",
+                "collisionGroup": "16",
+                "density": "2.2",
+                "friction": "0.37",
+                "mesh": "asset/car/mesh/chelun02.mesh",
+                "name": "chelun_rear",
+                "useGravity": "false",
+                "position": "x:-1.1499955654144 y:-0.99310147762299 z:-1.745997428894",
+                "restitution": "0.3",
+                "rotation": "x:0 y:180 z:0",
+                "roughness": "0.9",
+                "useCollide": "false",
+                "staticObject": "false",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "class": "MeshPart",
+            "properties": {
+                "collisionFidelity": "1",
+                "collisionGroup": "16",
+                "density": "2.2",
+                "useGravity": "false",
+                "friction": "0.37",
+                "mesh": "asset/car/mesh/chelun02.mesh",
+                "name": "chelun_rear",
+                "useCollide": "false",
+                "position": "x:1.1499977111816 y:-0.99310147762299 z:-1.745997428894",
+                "restitution": "0.3",
+                "useAnchor": "true",
+                "roughness": "0.9",
+                "staticObject": "false"
+            }
+        },
+        {
+            "class": "MeshPart",
+            "properties": {
+                "collisionFidelity": "1",
+                "collisionGroup": "16",
+                "density": "2.2",
+                "friction": "0.37",
+                "mesh": "asset/car/mesh/chelun02.mesh",
+                "name": "chelun_front",
+                "useCollide": "false",
+                "position": "x:-1.1499955654144 y:-0.99310147762299 z:2.1840019226074",
+                "restitution": "0.3",
+                "rotation": "x:0 y:180 z:0",
+                "roughness": "0.9",
+                "useGravity": "false",
+                "staticObject": "false",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "class": "MeshPart",
+            "properties": {
+                "collisionFidelity": "1",
+                "collisionGroup": "16",
+                "density": "2.2",
+                "friction": "0.37",
+                "mesh": "asset/car/mesh/chelun02.mesh",
+                "name": "chelun_front",
+                "useAnchor": "true",
+                "position": "x:1.1499977111816 y:-0.99310147762299 z:2.1840019226074",
+                "restitution": "0.3",
+                "useGravity": "false",
+                "roughness": "0.9",
+                "useCollide": "false",
+                "staticObject": "false"
+            }
+        },
+        {
+            "attributes": [],
+            "class": "Part",
+            "properties": {
+                "collisionGroup": "8",
+                "materialAlpha": "0",
+                "staticObject": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "useGravity": "false",
+                "name": "driverSeat",
+                "useCollide": "false",
+                "position": "x:0.7 y:-0.1 z:1.2",
+                "restitution": "0.3",
+                "rotation": "x:90 y:0 z:-0.00011078684474342",
+                "scale": "x:0.568 y:0.562985 z:0.130995",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "attributes": [],
+            "class": "Part",
+            "properties": {
+                "collisionGroup": "8",
+                "materialAlpha": "0",
+                "staticObject": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "useGravity": "false",
+                "name": "passengerSeat",
+                "useCollide": "false",
+                "position": "x:-0.78 y:-0.1 z:1.2",
+                "restitution": "0.3",
+                "rotation": "x:90 y:0 z:-0.00011078684474342",
+                "scale": "x:0.568 y:0.562985 z:0.130995",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "attributes": [],
+            "class": "Part",
+            "properties": {
+                "collisionGroup": "8",
+                "materialAlpha": "0",
+                "staticObject": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "useGravity": "false",
+                "name": "passengerSeat",
+                "useCollide": "false",
+                "position": "x:-0.32 y:-0.1 z:-0.19",
+                "restitution": "0.3",
+                "rotation": "x:90 y:0 z:-0.00011078684474342",
+                "scale": "x:0.568 y:0.562985 z:0.130995",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "attributes": [],
+            "class": "Part",
+            "properties": {
+                "collisionGroup": "8",
+                "materialAlpha": "0",
+                "staticObject": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "useGravity": "false",
+                "name": "passengerSeat",
+                "useCollide": "false",
+                "position": "x:0.71 y:-0.1 z:-1.6",
+                "restitution": "0.3",
+                "rotation": "x:90 y:0 z:-0.00011078684474342",
+                "scale": "x:0.568 y:0.562985 z:0.130995",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "attributes": [],
+            "class": "Part",
+            "properties": {
+                "collisionGroup": "8",
+                "materialAlpha": "0",
+                "staticObject": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "useGravity": "false",
+                "name": "passengerSeat",
+                "useCollide": "false",
+                "position": "x:-0.71 y:-0.1 z:-1.56",
+                "restitution": "0.3",
+                "rotation": "x:90 y:0 z:-0.00011078684474342",
+                "scale": "x:0.568 y:0.562985 z:0.130995",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "attributes": [],
+            "class": "Part",
+            "properties": {
+                "collisionGroup": "8",
+                "materialAlpha": "0",
+                "staticObject": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "useGravity": "false",
+                "name": "passengerSeat",
+                "useCollide": "false",
+                "position": "x:0 y:1.3 z:-2.45",
+                "restitution": "0.3",
+                "rotation": "x:90 y:180 z:-0.00011078684474342",
+                "scale": "x:0.568 y:0.562985 z:0.130995",
+                "useAnchor": "true"
+            }
+        },
+        {
+            "class": "EffectPart",
+            "properties": {
+                "effectFilePath": "asset/effect/g2052_car_qiandeng.effect",
+                "loopCount": "-1",
+                "loopInterval": "0.0",
+                "loopReset": "false",
+                "name": "headlight",
+                "maxViewDistance": "64",
+                "visible": "false",
+                "position": "x:-1.05 y:-0.42 z:2.59",
+                "scale": "x:1 y:0.999996 z:0.999996",
+                "scaleByParent": "true"
+            }
+        },
+        {
+            "class": "EffectPart",
+            "properties": {
+                "effectFilePath": "asset/effect/g2052_car_qiandeng.effect",
+                "loopCount": "-1",
+                "loopInterval": "0.0",
+                "loopReset": "false",
+                "name": "headlight",
+                "maxViewDistance": "64",
+                "visible": "false",
+                "position": "x:1 y:-0.42 z:2.59",
+                "scaleByParent": "true"
+            }
+        },
+        {
+            "class": "EffectPart",
+            "properties": {
+                "effectFilePath": "asset/effect/g2052_car_shuangshan.effect",
+                "loopCount": "-1",
+                "loopInterval": "0.0",
+                "loopReset": "false",
+                "name": "flashinglight",
+                "maxViewDistance": "64",
+                "visible": "false",
+                "position": "x:-1.04 y:-0.49 z:-3.03",
+                "scaleByParent": "true"
+            }
+        },
+        {
+            "class": "EffectPart",
+            "properties": {
+                "effectFilePath": "asset/effect/g2052_car_shuangshan.effect",
+                "loopCount": "-1",
+                "loopInterval": "0.0",
+                "loopReset": "false",
+                "name": "flashinglight",
+                "maxViewDistance": "64",
+                "visible": "false",
+                "position": "x:1.05 y:-0.49 z:-3.03",
+                "scaleByParent": "true"
+            }
+        }
+    ],
+    "class": "MeshPart",
+    "properties": {
+        "collisionFidelity": "1",
+        "collisionGroup": "4",
+        "density": "1000",
+        "friction": "0.37",
+        "mesh": "asset/car/mesh/g2052_car_mianbaoche01.mesh",
+        "name": "mianbaoche",
+        "cameraCollideEnable": "false",
+        "restitution": "0.3",
+        "position": "x:0.0 y:0.0 z:0"
+    }
+}

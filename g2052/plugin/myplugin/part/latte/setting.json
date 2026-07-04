@@ -1,0 +1,14 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/g2052_prop_latte.mesh",
+        "name": "baijian_latte",
+        "position": "x:0 y:0 z:0",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.17
+    }
+}

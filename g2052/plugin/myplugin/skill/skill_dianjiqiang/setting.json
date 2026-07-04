@@ -1,0 +1,17 @@
+{
+    "castAction": "g2052_skill_dianjiqiang_fire",
+    "castActionTime": 13,
+    "type": "Base",
+    "isClick": true,
+    "isTouch": true,
+    "touchTime": 0,
+    "cdTime": 15,
+    "priority": -2,
+    "?isGun": true,
+    "castSound": {
+        "sound": "/sound/g2052_fire_dianjiqiang.mp3",
+        "loop": false,
+        "selfOnly": false,
+        "volume": 1
+    }
+}

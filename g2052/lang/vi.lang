@@ -1,0 +1,702 @@
+
+
+language_start:g2052_lang
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+annivesary.announcement=Khuyến Mãi Kỷ Niệm
+annivesary.tips=Lưu ý: Mua Quỹ Phát Triển độc quyền Free City để nhận ít nhất hai mặt hàng giảm giá.
+
+gui.limit.time.heart.warming.title=món quà ấm lòng
+gui.limit.time.heart.warming.integral=tích phân:{.}
+gui.limit.time.heart.warming.day1=ngày đầu tiên
+gui.limit.time.heart.warming.day2=ngày hôm sau
+gui.limit.time.heart.warming.day3=Ngày thứ ba
+
+taskTitle_11=Đã thêm tổng cộng 1 người bạn trong trò chơi
+taskTitle_12=Đặt cho mình một sự nghiệp mới
+taskTitle_13=Hãy cho mình một bộ trang phục mới
+taskTitle_14=Xây dựng một ngôi nhà của riêng bạn
+taskTitle_15=Hoàn thành mọi nhiệm vụ ngày hôm nay
+taskTitle_21=Đã thêm tổng cộng 3 người bạn trong trò chơi
+taskTitle_22=Tải 2 người chơi bằng một chiếc xe nhỏ
+taskTitle_23=Quà tặng cho 2 người chơi
+taskTitle_24=Tương tác với 2 người chơi bằng những cái ôm hoặc hành động khác
+taskTitle_25=Hoàn thành mọi nhiệm vụ ngày hôm nay
+taskTitle_31=Đã thêm tổng cộng 5 người bạn trong trò chơi
+taskTitle_32=Dùng bật lửa hoặc bom đốt nhà người khác
+taskTitle_33=Dùng nghề cảnh sát để nhốt người chơi vào đồn cảnh sát
+taskTitle_34=Dập tắt đám cháy bằng nghề cứu hỏa
+taskTitle_35=Hoàn thành mọi nhiệm vụ ngày hôm nay
+taskDesc_24=Để tương tác với người chơi, bạn cần nhấp vào nhân vật của người chơi, sau đó chọn hành động bạn muốn tương tác trong danh sách bật lên;
+taskDesc_32=Khi trang bị bật lửa hoặc bom C4, hãy click vào bất kỳ vị trí nào trong khu vực ngôi nhà để bắt lửa bằng cách bốc cháy hoặc phát nổ.
+taskDesc_34=Dùng bình chữa cháy hoặc bình phun nước của xe cứu hỏa tại nguồn lửa để dập lửa
+gui.limit.time.heart.warming.house_fire=Nhà bạn cháy, có gây cháy không?
+
+g2052_gift_1100011=áo khoác thám tử
+g2052_gift_1100012=chú thỏ
+g2052_gift_1100013=siêu xe
+g2052_gift_1100014=đi kart
+
+subscribe_game_reward_item_tips1=Bạn có thể trải nghiệm một số thú cưng gcube
+subscribe_game_reward_item_tips2=Có thể trải nghiệm một số xe gcube
+subscribe_game_reward_item_tips3=Có thể trải nghiệm tất cả các khu dân cư Gcube
+subscribe_game_reward_item_tips4=Tận hưởng tất cả các tính năng của House Disaster Simulator
+g2052.gui.buy_shop.preview_tip=Xem trước
+g2052_face_image_desc=12 lần rút thăm để giành được tất cả các giải thưởng\nLần rút thăm đầu tiên là miễn phí
+
+g2052_gift_20001=Ngôi nhà chủ đề vườn
+g2052_gift_20002=Áo len hình con ong
+g2052_gift_20003=Xe cổ điển
+g2052_gift_20004=Ba lô ong
+g2052_gift_20005=Bộ cao bồi
+g2052_gift_20006=Bộ thỏ
+g2052_gift_20007=Kính hình trái tim
+g2052_gift_20008=Mũ len
+g2052_gift_20009=Đầu bí ngô
+g2052_gift_20010=Áo xanh
+g2052_gift_20011=ngựa nâu
+g2052_gift_20012=Xe tuần dương
+g2052_gift_20013=Xe máy hạng sang
+g2052_gift_20014=Kỳ lân cầu vồng
+g2052_gift_20015=Xe ba bánh leo núi
+g2052_gift_20016=Bộ khủng long
+g2052_gift_20017=Bộ phù thủy
+g2052_gift_20018=Mặt nạ gấu
+g2052_gift_20019=Thỏ cưng
+g2052_gift_20020=Xe đạp một bánh phiên bản giới hạn Halloween
+g2052_gift_20021=Mũ bảo hiểm xe máy
+g2052_gift_20022=Mũ gấu
+g2052_gift_20023=mặt nạ vũ hội
+g2052_gift_20024=Quần short đi biển
+
+g2052_gift_40001=Phòng chủ đề vườn
+g2052_gift_40002=Phòng chủ đề nhà hàng
+g2052_gift_40003=bộ đồ khủng long
+g2052_gift_40004=khái niệm xe mới
+g2052_gift_40005=bộ đồ thỏ
+
+g2052.gui.business.confirm_buy=Bạn có chắc chắn để mua?
+
+g2052_clothing_20001=bộ đồ denim
+g2052_clothing_20002=Váy cưới
+g2052_clothing_20003=đồ thể thao
+g2052_clothing_20004=đồ thể thao
+g2052_clothing_20005=áo khoác mật ong nhỏ
+g2052_clothing_20006=quần đùi đi biển
+g2052_clothing_20007=váy hoa
+g2052_clothing_20008=Ba lô con ong nhỏ
+g2052_clothing_20009=ba lô thỏ
+g2052_clothing_20010=mũ bảo hiểm xe máy
+g2052_clothing_20011=đầu chó
+g2052_clothing_20012=Mũ len
+
+
+g2052.gui.drama.template.name4=Người khổng lồ
+g2052.gui.drama.template.name00=Không có
+g2052.gui.drama.template.desc3=Trọng lực của thành phố đã biến mất.
+g2052.gui.drama.template.desc4=Người khổng lồ đang đến! Bạn có thể trở thành người khổng lồ lớn nhất?
+g2052.gui.drama.hamburger.max=Bạn đã có đủ
+message.notice.name10=Hambuger mới xuất hiện!
+message.notice.name11={.} Ăn một cái hamburger bự!
+
+g2052.gui.setting.FarClipSetting=Khoảng cách nhìn mặt (càng hạ suất, càng tốt)
+g2052.gui.setting.FarClipSetting.low=thấp
+g2052.gui.setting.FarClipSetting.mid=trong
+g2052.gui.setting.FarClipSetting.high=Cao hơn
+
+g2052.gui.gift.send.normalTips=phát phần thưởng
+g2052.gui.gift.send.tips=Quà tặng
+g2052.gui.gift.send.title=Hãy chọn một món quà
+
+g2052.gui.dress.reset=khôi phục lại trang phục
+g2052.gui.dress.reset.dec=Có phục hồi trang phục không
+
+g2052.gui.activity.to.unlock=mở khóa sự kiện
+
+g2052.gui.halloween.share.title=đăng lại
+g2052.gui.halloween.askFor.title=hỏi về
+g2052.gui.halloween.share.limit=▢FFFF8C00Số lượng cổ phiếu tối đa ngày hôm nay đã đạt được
+g2052.gui.halloween.accept.limit=▢FFFF8C00Số lần bên kia yêu cầu hôm nay đã đạt đến giới hạn trên
+g2052.gui.halloween.askFor.limit=▢FFFF8C00Đã đạt đến số lượng yêu cầu tối đa cho ngày hôm nay
+g2052.gui.halloween.findGhost.limit=Số lượng các cuộc săn ma ngày nay đã đạt đến giới hạn
+g2052.gui.halloween.share.remain=Số cổ phiếu còn lại của ngày hôm nay: {.}
+g2052.gui.halloween.accept.remain=Các yêu cầu còn lại hôm nay: {.}
+g2052.gui.halloween.share.exist=▢FFFF8C00Hôm nay chia sẻ kẹo với nhau
+g2052.gui.halloween.askFor.exist=▢FFFF8C00Bên kia đã chia sẻ kẹo với bạn hôm nay
+g2052.gui.halloween.askFor.ask=Bạn có đồng ý với yêu cầu kẹo của {.} Không?
+g2052.gui.halloween.askFor.refuse={.} ▢FFFF8C00đã từ chối yêu cầu kẹo của bạn
+g2052.gui.halloween.start.day=Đổi thưởng sẽ bắt đầu sau {.} Ngày nữa
+g2052.gui.halloween.start.hour={.} để mở phần đổi thưởng
+g2052.gui.halloween.exchange.condition=dùng: {.} / {.}
+g2052.gui.halloween.exchange.fail=▢FFFF8C00Các điều kiện đổi thưởng không được đáp ứng, vui lòng tiếp tục thu thập kẹo
+g2052.gui.halloween.exchange.success=▢FF00FF00chuộc lại
+g2052.gui.halloween.exchange.desc=Đổi phần thưởng này?
+g2052.gui.halloween.find.ghost.num={.} bóng ma còn lại sẽ được khám phá
+
+g2052.gui.house.dismantle=nhà bị phá hủy
+g2052.gui.house.dismantle.dec=Phá dỡ những ngôi nhà hiện có?
+g2052.gui.home.list.is.open=Đã mở danh sách nhà
+
+face_name_fukong=Nổi
+face_name_zombie=thây ma
+face_name_panic=hoảng loạn
+face_name_crawl=bò
+face_name_mummy=xác ướp
+face_name_backwalk=đi ngược
+face_name_skip=nảy
+face_name_model=người mẫu
+face_name_army=lính
+
+g2052.gui.drama.join=tham gia vào
+
+g2052.gui.drama.template.title=Vui lòng chọn một mẫu tiệc
+g2052.gui.drama.template.name1=lụt
+g2052.gui.drama.template.name2=sương mù
+g2052.gui.drama.template.name3=không trọng lượng
+g2052.gui.drama.template.name0=tùy chỉnh
+g2052.gui.notify.party.create=đã tạo một bữa tiệc {.}
+g2052.gui.drama.title.tips=Vui lòng sửa đổi tên đảng
+g2052.gui.drama.guide.tips1=Tham gia một bữa tiệc liên tục và trải nghiệm các môi trường thành phố khác nhau với những người chơi khác!
+g2052.gui.drama.guide.tips2=Chọn thành phố yêu thích của bạn để chơi và tạo bữa tiệc của riêng bạn!
+g2052.gui.drama.guide.tips3=Hãy chọn những mẫu khác nhau, thành phố sẽ có những bất ngờ khác nhau, hãy đến và trải nghiệm nhé!
+g2052.gui.drama.guide.tips4=Nhấp để bắt đầu bữa tiệc và bước vào thành phố độc quyền của bạn ngay lập tức!
+g2052.gui.drama.template.desc1=Mưa lớn nhiều ngày gây ngập lụt đô thị thì làm sao sống được trong lũ
+g2052.gui.drama.template.desc2=Thành phố được bao phủ trong một màn sương mù không xác định, hãy cẩn thận với đôi chân của bạn!
+g2052.gui.drama.template.desc0=Mẫu tùy chỉnh là sự kết hợp giữa lối chơi của hai thành phố nổi bật
+
+message.notice.name7=Quầy bar và phòng khiêu vũ đang mở cửa
+message.notice.name8=Quán bar và vũ trường đóng cửa
+message.notice.name9=Ai đó đang bẻ khóa!
+
+gui.update7.desc=Cách chơi của FC Party đã được cập nhật và một loạt các mẫu bản đồ thú vị đã được tung ra;
+
+gui.shop.vip.desc1=Mở khóa đặc quyền VIP: Nhà đặc quyền, trang phục và phương tiện cực xịn!
+
+shortmessage.title1=xin chào ~
+shortmessage.title2=cười
+shortmessage.title3=Chơi với
+shortmessage.title4=đến nhà của tôi
+shortmessage.title5=đi học
+shortmessage.title6=chơi game
+shortmessage.title7=nó tốt
+shortmessage.title8=Từ chối
+shortmessage.title9=Cảm ơn bạn ~
+shortmessage.title10=sự khâm phục
+shortmessage.title11=đẹp
+shortmessage.title12=Rất đẹp trai!
+shortmessage.title13=theo tôi
+shortmessage.title14=và nhiều cái khác
+shortmessage.title15=đợi tí
+gui.short.lang1=xin chào ~
+gui.short.lang2=Hahaha
+gui.short.lang3=chúng ta hãy chơi cùng nhau
+gui.short.lang4=Bạn có muốn đến nhà tôi chơi không?
+gui.short.lang5=Đi học!
+gui.short.lang6=Muốn chơi một trò chơi
+gui.short.lang7=ĐƯỢC RỒI!
+gui.short.lang8=không muốn
+gui.short.lang9=Cảm ơn bạn ~
+gui.short.lang10=Ái chà!
+gui.short.lang11=rất đẹp
+gui.short.lang12=Rất đẹp trai!
+gui.short.lang13=đi với tôi ~
+gui.short.lang14=Chờ tôi!
+gui.short.lang15=đợi một chút ~
+g2052.gui.short.chat.tips =Trò chuyện quá nhanh, vui lòng nhập lại sau {.} Giây!
+
+language_end:new
+
+g2052.gui.marketing.super.gift=Gói Giá Trị Khủng
+g2052.gui.marketing.hint=Vé bao gồm những phần thưởng sau
+g2052.gui.marketing.buy=Mua
+
+g2052.gui.marketing.item.name1=Nhà VIP
+g2052.gui.marketing.item.name2=Phương tiện VIP
+g2052.gui.marketing.item.name3=Trang phục VIP
+g2052.gui.marketing.item.name4=Đất VIP
+g2052.gui.marketing.item.name5=Tăng tốc phương tiện
+g2052.gui.marketing.item.name6=Đổi Màu
+g2052.gui.marketing.item.name7=Huy hiệu trò chuyện
+g2052.gui.marketing.item.name8=
+
+g2052.gui.profession.recommend.time.count=Giao diện sẽ đóng sau {.} giây
+g2052.gui.car.player.in.forbid.area=Không thể gọi phương tiện ở vị trí này
+g2052.gui.car.in.forbid.area=Gọi phương tiện thất bại, hãy thử lại ở khu vực khác
+g2052.gui.car.no.room=Vị trí hiện tại đang có phương tiện khác, không thể gọi phương tiện
+
+guide_script_title=Phòng chơi chơi thế nào?
+guide_script_desc1=Tạo phòng của bạn, tự thiết kế lối chơi và nhân vật bạn muốn
+guide_script_desc2=Hoặc tham gia phòng chơi của người khác
+
+g2052.gui.drama.join.tips={.} đã vào phòng chơi
+g2052.gui.drama.cur.drama=Phòng hiện tại
+g2052.gui.drama.history=Lịch sử Phòng chơi
+g2052.gui.drama.confirm.dissolve=Xác nhận giải tán phòng chơi?
+g2052.gui.drama.amend=Chỉnh sửa phòng
+g2052.gui.drama.confirm.leave=Xác nhận thoát phòng chơi?
+
+
+guide_guide_script=Phòng chơi
+g2052.gui.drama.title=Danh sách phòng
+g2052.gui.drama.news=Phòng mới nhất
+g2052.gui.drama.create=Tạo phòng
+g2052.gui.drama.recent=Phòng gần đây
+g2052.gui.drama.leave=Thoát phòng
+g2052.gui.drama.mine=Phòng của tôi
+g2052.gui.drama.dissolve=Giải tán phòng
+g2052.gui.drama.full.tips=Phòng chơi đã đầy. Hãy chọn phòng khác nhé
+g2052.gui.drama.detail.title1=Phòng của {.}
+g2052.gui.drama.editor.drama=Thông tin phòng
+
+
+g2052.gui.occupation.others={.} này thuộc về người khác
+g2052.gui.occupation.own=Bạn đã có một {.} rồi
+g2052.gui.occupation.goods=Tủ khóa
+
+g2052.gui.create.vip=Đất tư nhân
+
+guide_script_desc3=Hãy làm những gì bạn thích và mọi người cùng chơi với nhau!
+
+gui.shop.vip.name=VÉ VIP
+
+gui.shop.vip.desc2=Mở khóa tính năng: Đổi màu cho nhà và phương tiện
+gui.shop.vip.desc3=Mở khóa tính năng: Tăng tốc nhanh cho phương tiện
+gui.shop.vip.desc4=Nhận Đặc quyền sử dụng đất đai
+gui.shop.vip.desc5=Nhận Khung chat và Bong bóng chat VIP
+
+
+message.notice.bad.weather_4=Dự báo thời tiết: 1 tiếng sau sẽ có mưa bão!
+message.notice.bad.weather_5=Dự báo thời tiết: 1 tiếng sau nhiệt độ sẽ tăng!
+message.notice.bad.weather_6=Dự báo thời tiết: 1 tiếng sau sẽ có tuyết!
+message.notice.bad.weather_7=Dự báo thời tiết: 1 tiếng sau sẽ có bão cát!
+message.notice.bad.weather_8=Dự báo thời tiết: 1 tiếng sau sẽ có sương mù!
+message.notice.bad.weather_9={.} Đã kích hoạt thời tiết khắc nghiệt!
+
+g2052.gui.world_chat.invite=Mời chơi cùng
+g2052.gui.world_chat.ignore=Ẩn tin nhắn
+g2052.gui.world_chat.ignored=Đã ẩn
+g2052.gui.world_chat.ignore.tips=Đã ẩn tin nhắn người chơi
+
+
+g2052.gui.chat.system.login=Chào mừng {.} Đến với FreeCity!
+
+g2052.gui.vehicle.part.color=thiết lập màu sắc
+g2052.gui.vehicle.gearshift=sự thay đổi
+
+
+g2052.gui.confirm=Đúng
+g2052.gui.cancel=Hủy
+
+g2052.gui.announcement.main_title=Xem trước phiên bản mới
+g2052.gui.announcement.new=Cập nhật
+g2052.gui.announcement.activity=Sự kiện
+gui.update.clothes.title=Trang trí mới
+gui.update.car.title=Xe mới
+gui.update.scene.title=Cảnh vật mới
+gui.update.house.title=Nhà ở mới
+gui.update.prop.title=Vật phẩm mới
+gui.update.face.title=Biểu cảm mới
+gui.update.title=Thay đổi tính năng
+g2052.gui.tendering.sign.go_land=Vào
+
+g2052.gui.phone.ignore_call=Không nhận cuộc gọi
+g2052.gui.setting.reset_player=Làm mới nhân vật
+message.notice.name1=Ngân hàng đã kích hoạt chuông báo
+message.notice.name2=Cửa kho bạc ngân hàng sắp đóng
+message.notice.name3=Cửa kho bạc ngân hàng đã đóng
+message.notice.name4=Nhà số {.} đã cháy
+message.notice.name5=Tủ bảo hiểm của bạn đã bị trộm
+message.notice.name6={.} đang cần hỗ trợ
+
+g2052.gui.peakday.title=Đăng nhập vào cuối tuần
+g2052.gui.peakday.title2=Nhận quà
+g2052.gui.peakday.text3=Chọn 1 thú nuôi để nhận thưởng
+g2052.gui.peakday.text1=Đếm ngược sự kiện: 
+g2052.gui.activity.day={.} ngày {.} giờ
+g2052.gui.peakday.button1=Nhận
+g2052.gui.peakday.button2=Đã nhận
+g2052.gui.peakday.no.select.item=
+g2052.gui.peakday.get.reward.success=Đã nhận thành công
+
+gui.shop.title=Cửa hàng
+gui.confirm.purchase=Tổng cộng
+gui.whether.confirm.buy=Xác nhận mua {.}?
+gui.insufficient.funds=Số dư chưa đủ
+gui.still.missing=Còn thiếu {.}
+gui.whether.enter.recharge=Xác nhận vào nạp?
+gui.goods.already.have=Đã có
+gui.buy.succeed=Mua thành công
+gui.buy.succeed.dec=Bạn nhận được: {.}
+gui.do.not.repeat.purchase=Mua thất bại
+
+
+g2052.gui.house.create.cd=Thời gian chờ: {.} s
+g2052.gui.house.create.is.cd=Nhà đang đếm ngược, hãy thử lại sau
+
+g2052.gui.part.content.init=Nội dung
+g2052.gui.part.content.top_title=Bối cảnh
+g2052.gui.part.content.bottom_title=Văn bản
+
+g2052.gui.interact.player_action1=Cõng
+g2052.gui.interact.player_action2=Đội đầu
+g2052.gui.interact.player_action3=Bế
+g2052.gui.interact.player_action4=Ôm
+
+g2052.gui.scene.name.square_ice01=Việt quất
+g2052.gui.scene.name.square_ice02=Dâu tây
+g2052.gui.scene.name.square_ice03=Va ni
+g2052.gui.scene.name.square_ice04=Khoai môn
+g2052.gui.scene.name.square_ice05=Xoài
+g2052.gui.scene.name.square_ice06=Sô cô la
+
+g2052.gui.dyeing.part.color=Màu {.}
+g2052.gui.part.custom_hair=Tóc
+
+g2052.gui.interact.tips=Đã gửi lời mời
+g2052.gui.transfer.fail=Đang được chở không thể dịch chuyển
+g2052.gui.props.loading_success=Đã cho vào giỏ hàng
+g2052.gui.props.unload_success=Đã trả lại kệ hàng
+
+ui.chat.chatMsgType9=Xung quanh
+ui.chat.friend.near =▢FFFFFFFFNgười xung quanh
+ui.chat.friend.apply=▢FFFFFFFFXin kết bạn
+ui.chat.friend.list=▢FFFFFFFFDanh sách bạn bè
+ui.chat.friend.applyFriend=▢FFFFFFFFBạn mới
+ui.chat.friend.gameFriend=▢FF4A2942Bạn chơi cùng
+ui.chat.friend.platformFriend=▢FF4A2942Bạn BMG
+ui.chat.friend.recent_contact=▢FFFFFFFFLiên hệ gần đây
+ui.chat.friend.offline=▢FF78476CNgoại tuyến
+ui.chat.friend.online=▢FF07BE14Trực tuyến
+ui.chat.number=▢FF4A2942{.}/{.}
+ui.chat.playerInfo.name=▢FFFFFFFF{.}
+ui.chat.friend.name=▢FF926787{.}
+
+g2052.gui.interactive.refuse =Đối phương đã từ chối
+g2052.gui.interactive.fail =Tương tác thất bại
+g2052.gui.password.error=Sai mật khẩu
+
+g2052.gui.dance.dance_title =Động tác
+face_name_happy=Vui vẻ
+face_name_unhappy=Buồn
+face_name_angry=Giận
+face_name_laugh=Cười to
+face_name_cheer=Hoan hô
+face_name_shyness=Xấu hổ
+face_name_cry=Khóc
+face_name_wave=Chào
+face_name_bye=Tạm biệt
+face_name_yes=Đồng ý
+face_name_no=Từ chối
+face_name_handshake=Bắt tay
+face_name_fear=Sợ
+face_name_cute=Đáng yêu
+face_name_naughty=Làm nũng
+face_name_love1=Thể hiện tình cảm trái
+face_name_love2=Thể hiện tình cảm phải
+face_name_salute=Cúi chào
+face_name_clap=Vỗ tay
+face_name_point=Chỉ tay
+face_name_scratch=Bối rối
+face_name_boring=Nhám chán
+face_name_dizzy=Choáng
+face_name_freeze=Lạnh
+face_name_wounded=Bị thương
+face_name_fall=Gục ngã
+face_name_sneak=Lén lút
+face_name_raisehand=Giơ tay
+face_name_arrested=Bị bắt
+face_name_warm-up=Khởi động
+dance_name_hot=Nóng bỏng
+dance_name_locking=Nhảy Locking
+dance_name_shake1=Lắc lư 1
+dance_name_shake2=Lắc lư 2
+dance_name_scissors=Lắc lư 3
+dance_name_slide=Nhảy lướt
+dance_name_thomas=Break dance
+dance_name_1=Nhảy múa 1
+dance_name_2=Nhảy múa 2
+dance_name_3=Nhảy múa 3
+dance_name_4=Nhảy múa 4
+dance_name_5=Nhảy múa 5
+dance_name_6=Nhảy múa 6
+dance_name_7=Nhảy múa 7
+dance_name_8=Nhảy múa 8
+dance_name_9=Nhảy múa 9
+dance_name_robot=Nhảy robot
+face_name_fall2=Thất vọng 2
+face_name_sit1=Ngồi xuống
+face_name_sit2=Ngồi xuống 2
+face_name_wallstand1=Dựa tường
+face_name_wallstand2=Dựa tường 2
+face_name_salute2=Cúi chào 2
+face_name_strong=Mạnh mẽ
+face_name_death=Bay màu
+
+g2052.gui.time.monday=Thứ 2
+g2052.gui.time.tuesday=Thứ 3
+g2052.gui.time.wednesday=Thứ 4
+g2052.gui.time.thursday=Thứ 5
+g2052.gui.time.friday=Thứ 6
+g2052.gui.time.saturday=Thứ 7
+g2052.gui.time.sunday=Chủ nhật
+g2052.gui.profession.main_title =Vai trò
+g2052.gui.profession.main_name =Tên
+g2052.gui.profession.main_introduce =Giới thiệu
+g2052.gui.profession.color_name =Tên
+g2052.gui.profession.color_introduce =Giới thiệu
+g2052.gui.profession.color_edit =Nhập nội dung
+g2052.gui.profession.career_name1 =Cảnh sát
+g2052.gui.profession.career_name2 =Bảo vệ
+g2052.gui.profession.career_name3 =Tội phạm
+g2052.gui.profession.career_name4=Bán hàng
+g2052.gui.profession.career_name5=Đầu bếp
+g2052.gui.profession.career_name6=Thư ký Burger
+g2052.gui.profession.career_name7=Ca sĩ
+g2052.gui.profession.career_name8=Nhạc sĩ
+g2052.gui.profession.career_name9=DJ
+g2052.gui.profession.career_name10=Giáo sư
+g2052.gui.profession.career_name11=nhân viên bán kem
+g2052.gui.profession.career_name12=Đặc nhiệm
+g2052.gui.profession.career_name13=Bác sĩ
+g2052.gui.profession.career_name14=Bệnh nhân
+g2052.gui.profession.career_name15=Lính cứu hỏa
+g2052.gui.profession.career_name16=Bán quần áo
+g2052.gui.profession.career_name17=Thầy tu
+g2052.gui.profession.career_name18=Người chơi
+g2052.gui.profession.career_name19=Phục vụ
+g2052.gui.profession.career_name20=Lao công
+g2052.gui.profession.career_name21=Bác sĩ thú y
+g2052.gui.profession.career_name22=Cứu hộ
+g2052.gui.profession.career_name23=Y tá
+g2052.gui.profession.career_name24=Trẻ con
+g2052.gui.profession.career_name25=Thợ làm tóc
+g2052.gui.profession.career_name26=Tài xế
+g2052.gui.profession.career_name27=Giường
+g2052.gui.profession.career_name28=Đưa thư
+g2052.gui.profession.career_name29=Vận động viên
+g2052.gui.profession.career_name30=Phi công
+g2052.gui.profession.career_name31=Nhà khoa học
+g2052.gui.profession.career_name32=pizza
+g2052.gui.profession.career_name33=Pha chế cafe
+g2052.gui.profession.career_name34=Người trượt ván
+g2052.gui.profession.career_name35=Kiếm sư
+g2052.gui.profession.career_name36=Xạ thủ
+g2052.gui.profession.career_name37=Thầy Taekwondo
+g2052.gui.profession.career_name38=Thợ trang điểm
+g2052.gui.profession.career_name39=Phi hành gia
+g2052.gui.profession.career_name40=Giáo viên
+g2052.gui.profession.career_name41=Bác sĩ
+g2052.gui.profession.career_name42=Luật sư
+g2052.gui.profession.career_name43=Chú hề
+g2052.gui.profession.career_name44=Thợ may
+g2052.gui.profession.career_name45=Quan tòa
+g2052.gui.profession.career_name46=Học sinh
+g2052.gui.profession.career_name47=Hiệu trưởng
+g2052.gui.profession.career_name48=Người chơi
+g2052.gui.profession.career_name49=Nhà ẩm thực
+g2052.gui.profession.career_name50=Người mẫu
+g2052.gui.profession.career_name51=Nông dân
+g2052.gui.profession.career_name52=Tài xế taxi
+g2052.gui.profession.career_name53=Thủy thủ
+g2052.gui.profession.career_name54=Ngư dân
+g2052.gui.profession.career_name55=Thuyền trưởng
+g2052.gui.profession.career_name56=Nhà sưu tập
+g2052.gui.profession.career_name57=Dẫn chương trình
+g2052.gui.profession.career_name58=Người làm
+g2052.gui.profession.career_name59=Nhà văn
+g2052.gui.profession.career_name60=Công nhân
+g2052.gui.profession.career_name61=Nhà báo
+g2052.gui.profession.career_name62=Vũ công
+g2052.gui.profession.career_name63=Tài xế xe buýt
+g2052.gui.profession.career_name64=Bộ đội
+g2052.gui.profession.career_name65=HDV du lịch
+g2052.gui.profession.career_name66=Họa sĩ
+g2052.gui.profession.career_name67=Người làm vườn
+g2052.gui.profession.career_name68=Kiến trúc sư
+g2052.gui.profession.career_name69=Nghị sĩ
+g2052.gui.profession.career_name70=Nghị viên
+g2052.gui.profession.career_name71=Xã hội đen
+
+g2052.gui.drama.hot=Xu hướng
+g2052.gui.drama.likes=Thích nhiều nhất
+g2052.gui.drama.friend=Bạn bè đang chơi
+g2052.gui.drama.change.role=Đổi nhân vật
+g2052.gui.drama.drama.desc=Cùng chơi nào
+g2052.gui.drama.role.name=Nhân vật {.}
+g2052.gui.drama.role.desc=Hãy nhập nội dung
+g2052.gui.drama.editor.role=Thông tin nhân vật
+
+g2052.gui.drama.like.ranking=Bảng xếp hạng
+g2052.gui.drama.use=Sử dụng
+
+g2052.prop.send.CDTime=Thao tác quá nhanh, hãy thử lại sau
+g2052.gui.phone.call_wait=Thao tác quá nhanh, hãy thử lại sau
+g2052.gui.phone.career_success_tips=Gọi thành công, đã chia sẻ vị trí
+
+g2052.gui.child.name =Tên
+g2052.gui.child.edit.placeholder =Đặt tên em bé
+g2052.gui.child.edit.name =Tên em bé
+
+g2052.gui.house.title =Nhà ở
+g2052.gui.bag.title =Ba lô
+g2052.gui.appearance.title =Ngoại hình
+g2052.gui.shape.scale.is.max =Ngoại hình đã lớn nhất
+g2052.gui.shape.scale.is.min =Ngoại hình đã nhỏ nhất
+
+g2052.gui.create =Tạo
+g2052.gui.house.remould =Sửa nhà
+g2052.event.house.on.fire=Nhà bạn CHÁYYY rồi!
+g2052.gui.house.remould.dec=Xác nhận đổi nhà khác?
+g2052.gui.friend.pop.add.limit=Không cho thăm
+g2052.gui.friend.pop.unfreeze=Cho phép thăm
+g2052.gui.house.move=Dọn nhà
+g2052.gui.house.move.dec=Xác nhận dọn nhà không?
+g2052.gui.house.brief.introduction=Giới thiệu
+g2052.gui.owner.ask.you.leave=Chủ phòng mời bạn rời đi
+gui.shop.house.event.desc=Có thể điều khiển sự kiện tai nạn xuất hiện trong nhà, cháy, lụt, cúp điện, vòi rồng, sấm chớp, trực thăng, hồn ma, ác quỷ, UFO, suơng mù, động đất, thiên thạch v,v.
+gui.shop.house.event.name=Mô phỏng tai nạn
+g2052.gui.house.disaster.title=Danh sách tai nạn
+g2052.gui.house.disaster.limit=Chỉ có thể mở cùng lúc {.} sự kiện
+house.event.name1=Cháy
+house.event.name2=Lũ lụt
+house.event.name3=Cúp điện
+house.event.name4=Vòi rồng
+house.event.name5=Sấm chớp
+house.event.name6=Trực thăng
+house.event.name7=Hồn ma
+house.event.name8=Ác quỷ
+house.event.name9=UFO
+house.event.name10=Sương mù
+house.event.name11=Động đất
+house.event.name12=Thiên thạch
+
+g2052.event.explode.vault.gate =%s đã làm nổ cửa ngân hàng
+g2052.event.explode.house.safe =Nhà bạn bị cướp bởi %s
+g2052.event.alarm.of.fire=Nhá số {.} đang cháy
+
+g2052.gui.car.title=Xe cộ
+g2052.gui.car.forbid.use=Chưa thể sử dụng xe
+g2052.gui.car.region.forbid.use=Khu này cấm chạy xe
+
+g2052.gui.appearance.forbid=Xuống rồi mới thay đồ được!
+g2052.gui.appearance.forbid.jump.fall=Không thể vừa bay vừa thay đồ!
+g2052.gui.partner.title=Em bé
+g2052.gui.billboard.edit={.}Bảng quảng cáo
+g2052.gui.click.input.click=Hãy nhập nội dung
+
+g2052.gui.appearance.forbid.swim=Đang bơi không thể thay đồ!
+
+gui.house.bgm.title=Âm nhạc
+g2052.gui.friend.top.title=Hệ thống bạn bè
+g2052.gui.friend.tab.friend=Bạn của mình
+g2052.gui.friend.tab.near=Người xung quanh
+g2052.gui.friend.tab.request=Mời bạn
+g2052.gui.friend.delete.title=Xóa bạn
+g2052.gui.friend.delete.desc=Xác nhận xóa bạn này?
+g2052.gui.friend.agree.success=Có bạn mới rồi!
+g2052.gui.friend.refuse=Đã từ chối
+g2052.gui.friend.lang=Ngôn ngữ
+g2052.gui.friend.again=Thử lại
+g2052.gui.friend.none.friend=Mời kết bạn
+g2052.gui.friend.none.near=Xung quanh không có ai
+g2052.gui.friend.none.request=Chưa có lời mời
+g2052.gui.friend.invite=Này, đi chơi đi?
+g2052.gui.friend.invite.btn=Mời
+g2052.gui.friend.pop.invite=Mời làm khách
+g2052.gui.chat.private.target=Gửi đến
+g2052.gui.chat.private.NewFrom=Từ
+g2052.gui.chat.private.from=Thì thầm với bạn:
+g2052.gui.world_chat.title=Chat thế giới
+g2052.gui.world_chat.lang.tips=Đã đổi sang kênh chat {.}
+g2052.gui.world_chat.block=Đã ẩn kênh chat {.}
+g2052.gui.world_chat.cancel_block=Đã bỏ ẩn kênh chat {.}
+
+g2052.gui.setting.voiceSetting=Cài đặt giọng nói
+
+
+g2052.gui.setting.video=Chế độ quay video
+g2052.gui.video.tab1=Bộ lọc
+g2052.gui.video.tab2=Thời tiết
+g2052.gui.video.tab3=HIệu ứng hình ảnh
+g2052.gui.video.handle.tab1=HIệu ứng
+g2052.gui.video.handle.tab2=Ẩn UI
+g2052.gui.video.handle.tab3=Cài đặt UI
+g2052.gui.video.handle.type101=Cổ điển
+g2052.gui.video.handle.type102=Trắng đen
+g2052.gui.video.handle.type103=Tương phản cao
+g2052.gui.video.handle.type104=Cyberpunk
+g2052.gui.video.handle.type105=Sáng chói
+g2052.gui.video.handle.type106=Sáng mùa thu
+g2052.gui.video.handle.type107=Đêm trăng tròn
+g2052.gui.video.handle.type108=Trời trong xanh
+g2052.gui.video.handle.type201=Trời nắng
+g2052.gui.video.handle.type202=Trời mưa
+g2052.gui.video.handle.type203=Tuyết rơi
+g2052.gui.video.handle.type204=Nhiều sao
+g2052.gui.video.handle.type205=Ánh hoàng hôn
+g2052.gui.video.handle.type301=Phim điện ảnh
+g2052.gui.video.handle.type302=Đèn pin
+g2052.gui.video.handle.type303=Đường tốc độ
+g2052.gui.video.handle.type304=Chữ thập
+g2052.gui.video.handle.type305=Bướm
+g2052.gui.video.handle.type306=Điểm tròn
+g2052.gui.video.hide.setting.data1=Ẩn tên
+g2052.gui.video.hide.setting.data2=Ẩn người chơi
+g2052.gui.video.hide.setting.data3=Ẩn bản thân
+
+guide_role_title=Nhân vật là gì?
+guide_role_desc1=Hãy chọn trang phục bạn thích
+guide_role_desc2=Điều chỉnh cơ thể và màu da
+guide_role_desc3=Đổi biểu cảm bạn thích
+guide_house_title=Xây nhà bản thân mình thế nào?
+guide_house_desc1=Chọn 1 mảnh đất trống, và nhấn vào mảnh gỗ
+guide_house_desc2=Chọn ngôi nhà mà bạn thích
+guide_house_desc3=Ngôi nhà của bạn đã xây xong, vào tham quan nào!
+guide_profession_title=Nghề nghiệp là gì?
+guide_profession_desc1=Đặt cho mình 1 cái tên cực ngầu
+guide_profession_desc2=Chọn nghề nghiệp mà bạn thích
+guide_profession_desc3=Trên đầu bạn sẽ hiện các thông tin này
+guide_baby_title=Nhận nuôi là gì?
+guide_baby_desc1=Chọn baby mà bạn thích
+guide_baby_desc2=Baby sẽ chơi cùng với bạn!
+guide_dace_title=Động tác là gì?
+guide_dace_desc1=Chọn 1 động tác, nhân vật của bạn sẽ thực hiện hành động này
+guide_dace_desc2=Mau thử đi chào hỏi những người chơi khác nào!
+guide_car_title=Chạy xe như thế nào?
+guide_car_desc1=Hãy chọn xe mà bạn thích
+guide_car_desc2=Rồi leo lên chạy vi vu nào
+guide_prop_title=Dùng vật phẩm thế nào
+guide_prop_desc1=Hãy chọn món đồ cần dùng
+guide_prop_desc2=Nhấn nút bên phải để đổi chế độ
+guide_prop_desc3=Nhấn màn hình để dùng vật phẩm
+
+
+g2052.gui.tendering.email.send_btn=Gửi
+g2052.gui.tendering.email.title=Kênh xanh của Thị Trưởng
+g2052.gui.tendering.email.tips=Thị Trưởng Danh Dự thân mến, hãy viết ý kiến của ngài
+g2052.gui.tendering.email.send_success=Gửi thành công
+g2052.gui.tendering.email.send_fail=Gửi thất bại
+
+
+g2052.gui.tendering.tips=dấu hiệu
+g2052.gui.bidding_rank.preview_tip=dấu hiệu
+
+ui.cash.coupon.expend = Lần này đã tiêu tốn {.} mã thông báo trò chơi + {.} Gcube vàng Rubik
+ui.cash.coupon.tips =Gcube vàng Rubik tiêu thụ mã thông báo trò chơi trước. Các hoạt động nền tảng thu được.
+
+g2052.advertisement.use.car.tips=Xem video để dùng thử GCube miễn phí
+g2052.advertisement.use.car.cd.tips=Đợi {.} giây trước khi xem lại
+
+g2052.gui.advertisement.draw.out.of.count=Số lần làm mới hôm nay đã hết
+g2052.gui.advertisement.draw.reward.all.gain=Bạn đã nhận tất cả các vật phẩm từ khối lập phương vàng
+g2052.gui.advertisement.draw.fail=Làm mới thất bại
+g2052.gui.advertisement.lock.slot.fail=Khóa phần thưởng thất bại
+g2052.gui.advertisement.win.title=Trung Tâm Phần Thưởng
+g2052.gui.advertisement.win.content.normal=Làm mới một lần để sử dụng 3 vật phẩm khối lập phương vàng miễn phí\nLàm mới để nhận 2 vật phẩm giống nhau với số lần sử dụng x2 hoặc 3 vật phẩm giống nhau với số lần sử dụng x5
+g2052.gui.advertisement.win.content.reward.all.gain=Bạn đã nhận tất cả các vật phẩm từ khối lập phương vàng
+g2052.gui.advertisement.win.refresh.title=Làm mới
+g2052.gui.advertisement.draw.success=Phần thưởng đã được gửi vào ba lô của bạn
+
+language_end:g2052_lang

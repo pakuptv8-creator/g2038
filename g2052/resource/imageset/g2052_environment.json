@@ -1,0 +1,284 @@
+{
+    "frames": {
+        "icon_0_music": {
+            "frame": {
+                "x": 1,
+                "y": 1,
+                "w": 18,
+                "h": 14
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 18,
+                "h": 14
+            },
+            "sourceSize": {
+                "w": 18,
+                "h": 14
+            }
+        },
+        "img_0_current": {
+            "frame": {
+                "x": 20,
+                "y": 1,
+                "w": 75,
+                "h": 43
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 75,
+                "h": 43
+            },
+            "sourceSize": {
+                "w": 75,
+                "h": 43
+            }
+        },
+        "img_0_music_bg": {
+            "frame": {
+                "x": 96,
+                "y": 1,
+                "w": 344,
+                "h": 72
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 344,
+                "h": 72
+            },
+            "sourceSize": {
+                "w": 344,
+                "h": 72
+            }
+        },
+        "img_0_progress01": {
+            "frame": {
+                "x": 441,
+                "y": 1,
+                "w": 23,
+                "h": 51
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 23,
+                "h": 51
+            },
+            "sourceSize": {
+                "w": 23,
+                "h": 51
+            }
+        },
+        "ing_0_environment01": {
+            "frame": {
+                "x": 465,
+                "y": 1,
+                "w": 61,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 61
+            }
+        },
+        "ing_0_environment02": {
+            "frame": {
+                "x": 527,
+                "y": 1,
+                "w": 61,
+                "h": 61
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 61,
+                "h": 61
+            },
+            "sourceSize": {
+                "w": 61,
+                "h": 61
+            }
+        },
+        "ing_0_environment03": {
+            "frame": {
+                "x": 589,
+                "y": 1,
+                "w": 71,
+                "h": 71
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 71,
+                "h": 71
+            },
+            "sourceSize": {
+                "w": 71,
+                "h": 71
+            }
+        },
+        "ing_0_illumination01": {
+            "frame": {
+                "x": 1,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_illumination02": {
+            "frame": {
+                "x": 49,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_music01": {
+            "frame": {
+                "x": 97,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_music02": {
+            "frame": {
+                "x": 145,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_skybox01": {
+            "frame": {
+                "x": 193,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_skybox02": {
+            "frame": {
+                "x": 241,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_weather01": {
+            "frame": {
+                "x": 289,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        },
+        "ing_0_weather02": {
+            "frame": {
+                "x": 337,
+                "y": 74,
+                "w": 47,
+                "h": 44
+            },
+            "offset": {
+                "x": 0,
+                "y": 0,
+                "w": 47,
+                "h": 44
+            },
+            "sourceSize": {
+                "w": 47,
+                "h": 44
+            }
+        }
+    },
+    "meta": {
+        "image": "g2052_environment.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 661,
+            "h": 119
+        },
+        "scale": "1",
+        "type": "frame"
+    }
+}

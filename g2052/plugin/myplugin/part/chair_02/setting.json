@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "bank_shafa",
+        "useAnchor": "true",
+        "scale": "x:0.7 y:1.0 z:0.7",
+        "materialAlpha": "1",
+        "useGravity": "false",
+        "mesh": "asset/scene/mesh/bank_shafa.mesh"
+    }
+}

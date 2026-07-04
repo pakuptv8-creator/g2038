@@ -1,0 +1,16 @@
+{
+    "sound": {
+        "sound": "/sound/g2052_boy_swim.mp3",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            10
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/player_swim_buff"
+    ],
+    "sync": "other"
+}

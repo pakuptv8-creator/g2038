@@ -1,0 +1,399 @@
+{
+  "children": [
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "needSync": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useAnchor": "true",
+        "friction": "0.37",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_colorchange.mesh",
+        "collisionGroup": "4",
+        "useCollide": "false",
+        "position": "x:-0.000000 y:-0.267000 z:-0.000000",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "cameraCollideEnable": "false",
+        "massCenter": "x:-67.7690124511719 y:-0.267 z:0",
+        "selectable": "false",
+        "name": "colorchange"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "materialAlpha": "0.533",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-67.7791442871094 y:0.498417854309082 z:0.833168625831604",
+        "useCollide": "false",
+        "position": "x:-0.010132 y:0.498418 z:0.833169",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "useGravity": "false",
+        "collisionGroup": "4",
+        "selectable": "false",
+        "name": "minicooper_glass",
+        "friction": "0.37",
+        "mesh": "asset/car/mesh/g2052_minicooper_glass.mesh",
+        "cameraCollideEnable": "false"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-67.1489181518555 y:-0.198912054300308 z:-0.0430020689964294",
+        "useCollide": "false",
+        "position": "x:0.620094 y:-0.198912 z:-0.043002",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "driverSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-68.4399261474609 y:-0.260253638029099 z:0.0719979405403137",
+        "useCollide": "false",
+        "position": "x:-0.670914 y:-0.260254 z:0.071998",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "passengerSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_flashing_01.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:0.906998 y:-0.067497 z:-2.344000",
+        "massCenter": "x:-66.8620147705078 y:-0.0674968883395195 z:-2.34400010108948",
+        "selectable": "false",
+        "name": "flashinglightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_flashing_02.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.905998 y:-0.071497 z:-2.335999",
+        "massCenter": "x:-68.6750106811523 y:-0.0714968889951706 z:-2.33599925041199",
+        "selectable": "false",
+        "name": "flashinglightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_headlight_01.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.981667 y:-0.352232 z:2.282598",
+        "massCenter": "x:-68.7506790161133 y:-0.352232158184052 z:2.2825984954834",
+        "selectable": "false",
+        "name": "headlightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_headlight_02.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:0.975754 y:-0.349568 z:2.278406",
+        "massCenter": "x:-66.7932586669922 y:-0.349568426609039 z:2.27840566635132",
+        "selectable": "false",
+        "name": "headlightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_tyre.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.107361 y:-0.752436 z:1.522384",
+        "massCenter": "x:-68.8763732910156 y:-0.75243616104126 z:1.52238416671753",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_tyre.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.107361 y:-0.752436 z:-1.380616",
+        "massCenter": "x:-68.8763732910156 y:-0.75243616104126 z:-1.38061594963074",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_tyre.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.129639 y:-0.752436 z:1.522384",
+        "massCenter": "x:-66.6393737792969 y:-0.75243616104126 z:1.52238416671753",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "mesh": "asset/car/mesh/g2052_minicooper_tyre.mesh",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.129639 y:-0.752436 z:-1.380616",
+        "massCenter": "x:-66.6393737792969 y:-0.75243616104126 z:-1.38061594963074",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/g2052_car_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-0.981667 y:-0.066232 z:2.043599",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_minicooper_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-0.905998 y:-0.071497 z:-2.366999",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "loopInterval": "0.0",
+        "rotation": "x:-0.850995540618896 y:-36.948299407959 z:-10.9483280181885",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_minicooper_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "useForCollision": "false",
+        "useAnchor": "true",
+        "maxViewDistance": "64",
+        "position": "x:0.893005 y:-0.050091 z:-2.375771",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/g2052_car_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:0.975754 y:-0.063568 z:2.039406",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    }
+  ],
+  "class": "MeshPart",
+  "properties": {
+    "collisionFidelity": "1",
+    "collisionGroup": "4",
+    "density": "1000",
+    "friction": "0.37",
+    "cameraCollideEnable": "false",
+    "mesh": "asset/car/mesh/g2052_minicooper.mesh",
+    "name": "minicooper",
+    "restitution": "0.3",
+    "selectable": "false",
+    "rotation": "x:0 y:0 z:0",
+    "position": "x:0.0 y:0.0 z:0"
+  }
+}

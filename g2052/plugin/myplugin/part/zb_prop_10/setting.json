@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_xiaofang_youtong",
+        "useAnchor": "true",
+        "scale": "x:0.4 y:0.4z:0.4",
+        "materialAlpha": "1",
+        "useGravity": "false",
+        "mesh": "asset/scene/mesh/g2052_xiaofang_youtong.mesh"
+    }
+}

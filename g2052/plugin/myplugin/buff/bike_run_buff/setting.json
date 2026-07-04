@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/zixingche.mp3",
+        "loop": true,
+        "volume": 1,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/bike_run_buff"
+    ],
+    "sync": "other"
+}

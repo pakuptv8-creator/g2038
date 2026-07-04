@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "bank_gdoor",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/bank_gdoor.mesh",
+        "materialAlpha": "1",
+        "useCollide": "false",
+        "useGravity": "false"
+    }
+}

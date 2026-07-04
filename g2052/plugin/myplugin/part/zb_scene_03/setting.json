@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g0520_chengsizhe_a",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g0520_chengsizhe_a.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

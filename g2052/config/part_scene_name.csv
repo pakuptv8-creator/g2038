@@ -1,0 +1,14 @@
+n_id	s_partName	s_showName	s_showOffset	n_showRange	n_isAutoScale	n_minScale	n_maxScale
+序号id	零件名	显示的零件多语言	3dui位移偏移量	3dui可视距离	是否根据距离缩放大小，0否1是，默认否	最小缩放	最大缩放
+1	square_ice01	g2052.gui.scene.name.square_ice01	0#0.5#0	10	0	0.1	1
+2	square_ice02	g2052.gui.scene.name.square_ice02	0#0.5#0	10	0	0.1	1
+3	square_ice03	g2052.gui.scene.name.square_ice03	0#0.5#0	10	0	0.1	1
+4	square_ice04	g2052.gui.scene.name.square_ice04	0#0.5#0	10	0	0.1	1
+5	square_ice05	g2052.gui.scene.name.square_ice05	0#0.5#0	10	0	0.1	1
+6	square_ice06	g2052.gui.scene.name.square_ice06	0#0.5#0	10	0	0.1	1
+7	icecream_ice01	g2052.gui.scene.name.square_ice01	0#0.5#0	10	0	0.1	1
+8	icecream_ice02	g2052.gui.scene.name.square_ice02	0#0.5#0	10	0	0.1	1
+9	icecream_ice03	g2052.gui.scene.name.square_ice03	0#0.5#0	10	0	0.1	1
+10	icecream_ice04	g2052.gui.scene.name.square_ice04	0#0.5#0	10	0	0.1	1
+11	icecream_ice05	g2052.gui.scene.name.square_ice05	0#0.5#0	10	0	0.1	1
+12	icecream_ice06	g2052.gui.scene.name.square_ice06	0#0.5#0	10	0	0.1	1

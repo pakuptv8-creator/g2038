@@ -1,0 +1,9 @@
+{
+    "needSave": false,
+    "sync": "all",
+    "avoidBuff": [
+        "myplugin/pet_speed_up_buff_1"
+    ],
+    "moveSpeed": 1.2,
+    "speedUpAction": "g2052_horse_runfast"
+}

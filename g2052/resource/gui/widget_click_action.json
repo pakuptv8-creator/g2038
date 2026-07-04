@@ -1,0 +1,126 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Button",
+            "Name": "widget_click_action",
+            "Property": [
+                {
+                    "Name": "BackgroundColor",
+                    "Value": "0 0 1 0"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{0,76},{0,96}}"
+                },
+                {
+                    "Name": "VerticalAlignment",
+                    "Value": "Centre"
+                },
+                {
+                    "Name": "HorizontalAlignment",
+                    "Value": "Centre"
+                },
+                {
+                    "Name": "TextHorzAlignment",
+                    "Value": "Centre"
+                },
+                {
+                    "Name": "TextVertAlignment",
+                    "Value": "Centre"
+                },
+                {
+                    "Name": "PushBrightness",
+                    "Value": "0.25 0.25 0.25 0"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticImage",
+                    "Name": "widget_click_action-background",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{0.791667,0}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "AutoSize",
+                            "Value": "true"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticImage",
+                    "Name": "widget_click_action-image",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{0.791667,0}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "AutoSize",
+                            "Value": "true"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "widget_click_action-text",
+                    "Property": [
+                        {
+                            "Name": "Touchable",
+                            "Value": "false"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{1,0},{0.208333,0}}"
+                        },
+                        {
+                            "Name": "VerticalAlignment",
+                            "Value": "Bottom"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "AutoSize",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT8"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextWordWrap",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextBorder",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

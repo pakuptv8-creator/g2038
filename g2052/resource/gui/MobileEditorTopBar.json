@@ -1,0 +1,218 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "MobileEditorTopBar",
+            "Property": [
+                {
+                    "Name": "Touchable",
+                    "Value": "false"
+                },
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{0.111111,0}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Button",
+                    "Name": "MobileEditorTopBar-settingBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.0125,0},{0.2,0},{0.059375,0},{0.95,0}}"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_settings"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_settings"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "MobileEditorTopBar-saveBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.071875,0},{0.2,0},{0.11875,0},{0.95,0}}"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_save"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_save"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "MobileEditorTopBar-undoBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.151562,0},{0.2,0},{0.198437,0},{0.95,0}}"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_undo02"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_undo02"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "MobileEditorTopBar-redoBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.210938,0},{0.2,0},{0.257813,0},{0.95,0}}"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_restore02"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_0_restore02"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "MobileEditorTopBar-playBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,-310},{0,16},{0,-177},{0,71}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "8 14 12 10"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_mobile_editor_common.json image:btn_9_play"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "MobileEditorTopBar-playBtnTxt",
+                            "Property": [
+                                {
+                                    "Name": "Touchable",
+                                    "Value": "false"
+                                },
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,-3},{0,133},{0,52}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "PLAY"
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "0 0 0 1"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

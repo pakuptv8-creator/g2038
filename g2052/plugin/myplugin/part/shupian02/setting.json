@@ -1,0 +1,15 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/prop_shupian_02.mesh",
+        "name": "baijian_shupiana_02",
+        "position": "x:0 y:0 z:0",
+        "scale": "x:0.4 y:0.4 z:0.4",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.13
+    }
+}

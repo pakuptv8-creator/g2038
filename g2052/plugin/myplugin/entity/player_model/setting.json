@@ -1,0 +1,7 @@
+{
+    "actorName": "g2052_boy.actor",
+    "collision": false,
+    "gravity": 0,
+    "disableShadow": true,
+    "fixBodyTurn": true
+}

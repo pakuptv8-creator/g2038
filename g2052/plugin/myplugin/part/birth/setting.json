@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "birth",
+        "useAnchor": "true",
+        "mesh": "",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

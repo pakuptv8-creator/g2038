@@ -1,0 +1,19 @@
+
+
+language_start:mobile_editor
+
+language_start:new
+
+language_end:new
+
+ui.select.ground =地上システム
+ui.env.ground.color =地色
+ui.env.ground.texture =グラウンドマップ
+ui.env.light.skylight=日光
+ui.env.light.ambient.light =周囲光
+ui.env.light.intensity =光強度
+ui.env.bgm= バックグラウンドミュージック
+ui.env.weather =天気
+ui.env.skybox =スカイボックス
+
+language_end:mobile_editor

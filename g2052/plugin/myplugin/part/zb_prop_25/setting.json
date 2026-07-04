@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "feibiao",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/feibiao.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

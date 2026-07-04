@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "2052_sf_02",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/shafa/2052_sf_02.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

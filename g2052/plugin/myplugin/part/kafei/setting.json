@@ -1,0 +1,15 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "density": "2.2",
+        "mesh": "asset/prop/mesh/g2052_drink_model_tea.mesh",
+        "name": "baijian_kafei",
+        "position": "x:0 y:0 z:0",
+        "scale": "x:1.25 y:1.25 z:1.25",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "useCollide": "false",
+        "useGravity": "false",
+        "offsetPosy": 0.1
+    }
+}

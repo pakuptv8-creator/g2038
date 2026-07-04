@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "2052_shoumaiji",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/2052_shoumaiji.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

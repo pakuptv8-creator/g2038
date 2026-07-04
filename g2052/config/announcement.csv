@@ -1,0 +1,3 @@
+n_id	s_title	s_desc	s_icon	n_tagType	s_mapPos	s_uiName
+序号	标题多语言	描述多语言	内容图片	标签类型 0没有1活动2新	前往的目的地 map001#x#y#z	前往的活动UI名
+1	guide_guide_script	gui.update7.desc	set:g2052_publicity.json image:img_0_publicity08	0		DramaMain

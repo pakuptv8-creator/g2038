@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "firehydrant",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/firehydrant.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

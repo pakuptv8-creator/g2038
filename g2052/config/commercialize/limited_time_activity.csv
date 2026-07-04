@@ -1,0 +1,6 @@
+n_id	n_type	n_sortId	s_startTime	s_endTime	s_updateTime	n_commonWnd	s_tabName	s_tabJson	s_tabBgRes	s_textColorLeftTop	s_textColorRightTop	s_textColorLeftBottom	s_textColorRightBottom
+活动id	活动类型 1礼包 2必中抽奖  3组合限时 4独立限时	排序id，从小到大	开始时间 默认 0-0-0-0-0-0 	结束时间 默认 0-0-0-0-0-0 	刷新时间	通用大窗口 1 限时活动	标签名	打开界面 lua名 去win_	按钮图片	标签文字颜色  左上	 右上	 左下	 右下
+20001	2	1	2022-11-24	2022-12-05		1	gui.limit.time.activity.fisherman.gift	mustWinLottery	set:limited_time_activity.json image:btn_0_fisherman01	1 0.87 0.63 1	1 0.87 0.63 1	1 0.73 0.2 1	1 0.73 0.2 1
+20002	2	1	2024-4-5	2024-4-10		1	gui.limit.time.activity.fisherman.gift	mustWinLottery	set:limited_time_activity.json image:btn_0_fisherman01	1 0.87 0.63 1	1 0.87 0.63 1	1 0.73 0.2 1	1 0.73 0.2 1
+40001	4	2	2023-1-2	2023-1-3									
+110001	11	3	2024-4-1	2044-4-1		1	gui.limit.time.heart.warming.title	heartWarmGiftWnd	set:g2052_heart_gift.json image:chb_0_heart_warming_gift	1 0.92 0.97 1	1 0.92 0.97 1	1 0.53 0.85 1	1 0.53 0.85 1

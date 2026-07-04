@@ -1,0 +1,12 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "mesh": "asset/prop/mesh/g2052_c4.mesh",
+        "name": "g2052_c4_bomb",
+        "position": "x:0 y:0 z:0",
+        "restitution": "0.3",
+        "useAnchor": "true",
+        "offsetPosy": 0.1,
+        "collisionGroup": "2"
+    }
+}

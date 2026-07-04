@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "bk6men",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/bk6men.mesh",
+        "materialAlpha": "1",
+        "useCollide": "false",
+        "useGravity": "false"
+    }
+}

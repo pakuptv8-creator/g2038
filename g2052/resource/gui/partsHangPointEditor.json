@@ -1,0 +1,1882 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "partsHangPointEditor",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,4},{0,18},{0,188},{0,496}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "StaticText",
+                    "Name": "partsHangPointEditor-curPartTitle",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,2},{0,3},{0,183},{0,31}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "当前选中零件："
+                        },
+                        {
+                            "Name": "TextColor",
+                            "Value": "1 0 0 1"
+                        },
+                        {
+                            "Name": "TextWordWrap",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticImage",
+                            "Name": "partsHangPointEditor-bg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,1},{0,32},{0,358},{0,84}}"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "5 5 5 5"
+                                },
+                                {
+                                    "Name": "ImageName",
+                                    "Value": "set:g2052_environment.json image:img_0_music_bg"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-curPartType",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,8},{0,29},{0,186},{0,54}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "type：clickPlayerInteraction"
+                                },
+                                {
+                                    "Name": "TextBorder",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-curPartCfg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,8},{0,55},{0,186},{0,81}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "cfg：myPlugin/XXXXX"
+                                },
+                                {
+                                    "Name": "TextBorder",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "partsHangPointEditor-triggerBg",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,7},{0,88},{0,179},{0,210}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-triggerTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-5},{0,1},{0,169},{0,26}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "触发类型选择："
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-clickTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,1},{0,28},{0,31},{0,58}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-clickSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-clickTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "点击触发"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-collisionTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,1},{0,56},{0,31},{0,86}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-collisionSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-collisionTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "碰撞时触发"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-collisionEndTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,1},{0,85},{0,31},{0,115}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-collisionEndSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-collisionEndTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "结束碰撞时触发"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-UITrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,1},{0,112},{0,31},{0,142}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-UISelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-UITriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "交互UI触发"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-partCollideStartTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,181},{0,28},{0,211},{0,58}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-partCollideStartSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-partCollideStartTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "零件之间碰撞开始"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-partCollideStopTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,181},{0,56},{0,211},{0,86}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-partCollideStopSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-partCollideStopTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "零件直接碰撞结束"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-gameTimeTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,183},{0,85},{0,213},{0,115}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-gameTimeSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-gameTimeTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "游戏时间点触发"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-partCreateTrigger",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,183},{0,112},{0,213},{0,142}}"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "30 30 0 0"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_buttons.json image:btn_0_rejection"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_function.json image:img_9_box_bg03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "StaticImage",
+                                    "Name": "partsHangPointEditor-partCreateSelectImg",
+                                    "Property": [
+                                        {
+                                            "Name": "Visible",
+                                            "Value": "false"
+                                        },
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,0},{0,30},{0,30}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "30 30 0 0"
+                                        },
+                                        {
+                                            "Name": "ImageName",
+                                            "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "StaticText",
+                                    "Name": "partsHangPointEditor-partCreateTriggerDec",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,66},{0,-2},{0,163},{0,20}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "零件生成时触发"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextBorder",
+                                            "Value": "true"
+                                        },
+                                        {
+                                            "Name": "TextCharaterRotation",
+                                            "Value": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "partsHangPointEditor-spSetting",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,3},{0,231},{0,179},{0,419}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-s_pTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,-1},{0,0},{0,178},{0,31}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "s_p参数设置："
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp1",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,34},{0,289},{0,64}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp2",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,80},{0,290},{0,110}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp3",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,125},{0,289},{0,155}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp4",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,170},{0,289},{0,200}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp5",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,215},{0,292},{0,245}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp6",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,260},{0,290},{0,290}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp7",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,306},{0,290},{0,336}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-sp8",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,2},{0,342},{0,290},{0,372}}"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "partsHangPointEditor-funcLyt",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,1},{0,611},{0,183},{0,644}}"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-funcTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,0},{0,0},{0,171},{0,33}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "功能回调设置："
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Button",
+                            "Name": "partsHangPointEditor-funcListBtn",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,334},{0,-2},{0,371},{0,31}}"
+                                },
+                                {
+                                    "Name": "NormalImage",
+                                    "Value": "set:g2052_main.json image:img_0_props_column03"
+                                },
+                                {
+                                    "Name": "PushedImage",
+                                    "Value": "set:g2052_main.json image:img_0_props_column03"
+                                },
+                                {
+                                    "Name": "TextHorzAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "TextVertAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "PushBrightness",
+                                    "Value": "0.25 0.25 0.25 0"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-funcListBg",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,434},{0,-81},{0,734},{0,293}}"
+                                },
+                                {
+                                    "Name": "VerticalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "HorizontalAlignment",
+                                    "Value": "Centre"
+                                },
+                                {
+                                    "Name": "StretchType",
+                                    "Value": "NineGrid"
+                                },
+                                {
+                                    "Name": "StretchOffset",
+                                    "Value": "15 15 95 5"
+                                },
+                                {
+                                    "Name": "LayoutBackImage",
+                                    "Value": "set:gta_common_icon.json image:cashpackagebottomborderup"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Layout",
+                                    "Name": "partsHangPointEditor-funcList",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,0},{0,41},{0,300},{0,328}}"
+                                        },
+                                        {
+                                            "Name": "VerticalAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "HorizontalAlignment",
+                                            "Value": "Centre"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Layout",
+                            "Name": "partsHangPointEditor-funcType",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,142},{0,-2},{0,318},{0,39}}"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Button",
+                                    "Name": "partsHangPointEditor-serverFuncBtn",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,-1},{0,2},{0,34},{0,37}}"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_main.json image:img_0_direction06"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_operation.json image:img_0_flight01"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "partsHangPointEditor-serverFuncSelected",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,35},{0,35}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partsHangPointEditor-serverFuncDec",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,37},{0,2},{0,87},{0,34}}"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "server"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Button",
+                                    "Name": "partsHangPointEditor-clientFuncBtn",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,100},{0,2},{0,135},{0,37}}"
+                                        },
+                                        {
+                                            "Name": "NormalImage",
+                                            "Value": "set:g2052_main.json image:img_0_direction06"
+                                        },
+                                        {
+                                            "Name": "PushedImage",
+                                            "Value": "set:g2052_operation.json image:img_0_flight01"
+                                        },
+                                        {
+                                            "Name": "TextHorzAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "TextVertAlignment",
+                                            "Value": "Centre"
+                                        },
+                                        {
+                                            "Name": "PushBrightness",
+                                            "Value": "0.25 0.25 0.25 0"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "StaticImage",
+                                            "Name": "partsHangPointEditor-clientFuncSelected",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,0},{0,0},{0,35},{0,35}}"
+                                                },
+                                                {
+                                                    "Name": "VerticalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "HorizontalAlignment",
+                                                    "Value": "Centre"
+                                                },
+                                                {
+                                                    "Name": "ImageName",
+                                                    "Value": "set:g2052_buttons.json image:btn_0_agree"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "StaticText",
+                                            "Name": "partsHangPointEditor-clientFuncDec",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,37},{0,2},{0,87},{0,34}}"
+                                                },
+                                                {
+                                                    "Name": "Text",
+                                                    "Value": "client"
+                                                },
+                                                {
+                                                    "Name": "TextCharaterRotation",
+                                                    "Value": "false"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partsHangPointEditor-closeBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,5},{0,649},{0,80},{0,696}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "5 5 1 2"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "取消"
+                        },
+                        {
+                            "Name": "BtnTextColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_buttons.json image:btn_0_no"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_buttons.json image:btn_0_no"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "partsHangPointEditor-saveBtn",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,86},{0,646},{0,168},{0,697}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "20 20 20 20"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "保存"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT20"
+                        },
+                        {
+                            "Name": "TextBorder",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "NormalImage",
+                            "Value": "set:g2052_function.json image:img_9_box_bg04"
+                        },
+                        {
+                            "Name": "PushedImage",
+                            "Value": "set:g2052_function.json image:img_9_box_bg04"
+                        },
+                        {
+                            "Name": "TextRenderOffset",
+                            "Value": "0 -5"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Name": "partsHangPointEditor-clickTipEffect",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,396},{0,97},{0,629},{0,217}}"
+                        },
+                        {
+                            "Name": "StretchType",
+                            "Value": "NineGrid"
+                        },
+                        {
+                            "Name": "StretchOffset",
+                            "Value": "0 0 10 10"
+                        },
+                        {
+                            "Name": "LayoutBackImage",
+                            "Value": "set:g2052_environment.json image:img_0_music_bg"
+                        }
+                    ],
+                    "Window": [
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-tipEffectTitle",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,4},{0,-1},{0,205},{0,25}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "点击触发时提示特效："
+                                },
+                                {
+                                    "Name": "TextColor",
+                                    "Value": "1 0 0 1"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-tipEffect",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,7},{0,27},{0,85},{0,55}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "特效名："
+                                },
+                                {
+                                    "Name": "TextBorder",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Edit",
+                                    "Name": "partsHangPointEditor-tipEffectInput",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,80},{0,1},{0,265},{0,31}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 10"
+                                        },
+                                        {
+                                            "Name": "EditBackImage",
+                                            "Value": "set:g2052_environment.json image:ing_0_environment03"
+                                        },
+                                        {
+                                            "Name": "TextOffset",
+                                            "Value": "5"
+                                        },
+                                        {
+                                            "Name": "MaxTextLength",
+                                            "Value": "-1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "StaticText",
+                            "Name": "partsHangPointEditor-tipEffectOffset",
+                            "Property": [
+                                {
+                                    "Name": "Area",
+                                    "Value": "{{0,7},{0,57},{0,85},{0,85}}"
+                                },
+                                {
+                                    "Name": "Text",
+                                    "Value": "特效偏移："
+                                },
+                                {
+                                    "Name": "TextBorder",
+                                    "Value": "true"
+                                },
+                                {
+                                    "Name": "TextCharaterRotation",
+                                    "Value": "false"
+                                }
+                            ],
+                            "Window": [
+                                {
+                                    "Type": "Edit",
+                                    "Name": "partsHangPointEditor-tipEffectOffsetInput",
+                                    "Property": [
+                                        {
+                                            "Name": "Area",
+                                            "Value": "{{0,98},{0,2},{0,283},{0,32}}"
+                                        },
+                                        {
+                                            "Name": "StretchType",
+                                            "Value": "NineGrid"
+                                        },
+                                        {
+                                            "Name": "StretchOffset",
+                                            "Value": "10 10 10 10"
+                                        },
+                                        {
+                                            "Name": "Text",
+                                            "Value": "0#0#0"
+                                        },
+                                        {
+                                            "Name": "EditBackImage",
+                                            "Value": "set:g2052_environment.json image:ing_0_environment03"
+                                        },
+                                        {
+                                            "Name": "TextOffset",
+                                            "Value": "5"
+                                        },
+                                        {
+                                            "Name": "MaxTextLength",
+                                            "Value": "-1"
+                                        }
+                                    ],
+                                    "Window": [
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "partsHangPointEditor-tipEffectPosXLyt",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,-5},{0,32},{0,45},{0,62}}"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Button",
+                                                    "Name": "partsHangPointEditor-tipEffectPosXAddBtn",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-4},{0,2},{0,22},{0,28}}"
+                                                        },
+                                                        {
+                                                            "Name": "NormalImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                                        },
+                                                        {
+                                                            "Name": "PushedImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "PushBrightness",
+                                                            "Value": "0.25 0.25 0.25 0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Button",
+                                                    "Name": "partsHangPointEditor-tipEffectPosXSubBtn",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,37},{0,2},{0,62},{0,29}}"
+                                                        },
+                                                        {
+                                                            "Name": "NormalImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_less"
+                                                        },
+                                                        {
+                                                            "Name": "PushedImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_less"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "PushBrightness",
+                                                            "Value": "0.25 0.25 0.25 0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "partsHangPointEditor-tipEffectPosX",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,21},{0,5},{0,39},{0,25}}"
+                                                        },
+                                                        {
+                                                            "Name": "Text",
+                                                            "Value": "X"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "partsHangPointEditor-tipEffectPosYLyt",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,68},{0,32},{0,118},{0,62}}"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Button",
+                                                    "Name": "partsHangPointEditor-tipEffectPosYAddBtn",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-4},{0,2},{0,22},{0,28}}"
+                                                        },
+                                                        {
+                                                            "Name": "NormalImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                                        },
+                                                        {
+                                                            "Name": "PushedImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "PushBrightness",
+                                                            "Value": "0.25 0.25 0.25 0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Button",
+                                                    "Name": "partsHangPointEditor-tipEffectPosYSubBtn",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,37},{0,2},{0,62},{0,29}}"
+                                                        },
+                                                        {
+                                                            "Name": "NormalImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_less"
+                                                        },
+                                                        {
+                                                            "Name": "PushedImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_less"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "PushBrightness",
+                                                            "Value": "0.25 0.25 0.25 0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "partsHangPointEditor-tipEffectPosY",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,21},{0,5},{0,39},{0,25}}"
+                                                        },
+                                                        {
+                                                            "Name": "Text",
+                                                            "Value": "Y"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "Layout",
+                                            "Name": "partsHangPointEditor-tipEffectPosZLyt",
+                                            "Property": [
+                                                {
+                                                    "Name": "Area",
+                                                    "Value": "{{0,138},{0,32},{0,188},{0,62}}"
+                                                }
+                                            ],
+                                            "Window": [
+                                                {
+                                                    "Type": "Button",
+                                                    "Name": "partsHangPointEditor-tipEffectPosZAddBtn",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,-4},{0,2},{0,22},{0,28}}"
+                                                        },
+                                                        {
+                                                            "Name": "NormalImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                                        },
+                                                        {
+                                                            "Name": "PushedImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_add"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "PushBrightness",
+                                                            "Value": "0.25 0.25 0.25 0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Button",
+                                                    "Name": "partsHangPointEditor-tipEffectPosZSubBtn",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,37},{0,2},{0,62},{0,29}}"
+                                                        },
+                                                        {
+                                                            "Name": "NormalImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_less"
+                                                        },
+                                                        {
+                                                            "Name": "PushedImage",
+                                                            "Value": "set:g2052_function.json image:btn_0_less"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "PushBrightness",
+                                                            "Value": "0.25 0.25 0.25 0"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "StaticText",
+                                                    "Name": "partsHangPointEditor-tipEffectPosZ",
+                                                    "Property": [
+                                                        {
+                                                            "Name": "Area",
+                                                            "Value": "{{0,21},{0,5},{0,39},{0,25}}"
+                                                        },
+                                                        {
+                                                            "Name": "Text",
+                                                            "Value": "Z"
+                                                        },
+                                                        {
+                                                            "Name": "TextHorzAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextVertAlignment",
+                                                            "Value": "Centre"
+                                                        },
+                                                        {
+                                                            "Name": "TextCharaterRotation",
+                                                            "Value": "false"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

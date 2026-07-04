@@ -1,0 +1,18 @@
+{
+    "name": "",
+    "cfgName": "myplugin/halloween_ghost_02",
+    "actorName": "g2052_halloween_youling2.actor",
+    "moveSpeed": 0,
+    "brightnessScale": 1.7,
+    "gravity": 0,
+    "viewDistance": "32",
+    "deathEffect": {
+        "effect": "g2052_halloween_tang1.effect",
+        "time": 30
+    },
+    "deadSound": {
+        "volume": 1,
+        "loop": false,
+        "sound": "asset/sound/g2052_youling_dead.mp3"
+      }
+}

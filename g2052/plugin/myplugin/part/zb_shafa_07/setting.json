@@ -1,0 +1,11 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2052_shafa",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/g2052_shafa.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false",
+        "scale": "x:0.4 y:0.4 z:0.4"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "mainDriver": true,
+  "avoidBuff": [
+    "myplugin/main_driver"
+  ],
+  "scale": {
+    "x": 1,
+    "y": 1,
+    "z": 1
+  }
+}

@@ -1,0 +1,92 @@
+
+
+language_start:g2052commercialize
+
+gui.limit.time.activity.gold.wheel.title=Rueda de la fortuna
+gui.limit.time.activity.gold.wheel.help=◇Gasta el cubo de Rubik dorado para tocar el tocadiscos una vez y obtén una oportunidad a mitad de precio cada 24 horas
+
+gui.limit.time.activity.optional.title=Personalización privada
+gui.limit.time.activity.optional.help=none
+gui.limit.time.activity.optional.tips=Compre {.} paquetes de regalo personalizados para recibir premios opcionales
+gui.limit.time.activity.optional.receive=recibir
+gui.limit.time.activity.optional.received=recibió
+gui.limit.time.activity.optional.custom=por encargo
+gui.limit.time.activity.optional.buy=Comprar
+gui.limit.time.activity.optional.custom.big=Premios personalizados
+gui.limit.time.activity.optional.continue=Seguir
+gui.limit.time.activity.optional.custom.normal=Personaliza la {.}ésima recompensa
+gui.limit.time.activity.day.limit.counts={.} por día
+optional_name_pack0=paquete de bienestar
+optional_name_pack1=Personalización privada 1
+optional_name_pack2=Personalización privada 2
+optional_name_pack3=Personalización privada 3
+optional_name_pack9=gran regalo
+
+gui.limit.time.activity.buy.one.title=comprar artículos
+gui.limit.time.activity.buy.one.desc=Descripción del Artículo
+
+gui.limit.time.card.congratulations1=Recompensas de tarjetas semanales
+gui.limit.time.card.congratulations2=Recompensas de tarjetas mensuales
+gui.limit.time.card.residue=Restante: {.} día
+gui.limit.time.card.help=◇Desde el día de la compra, inicie sesión todos los días para obtener las recompensas diarias correspondientes. \n◇Inicie sesión al día siguiente para canjear todas las recompensas directamente.
+gui.limit.time.activity.card.title=tarjeta mensual
+gui.limit.time.activity.card.title2=dinero tarjeta mensual
+gui.limit.time.activity.card.title1=Tarjeta de cupones semanales
+gui.limit.time.activity.card.tip1=recibir diariamente
+gui.limit.time.activity.card.tip2=disponible en total
+
+gui.limit.time.activity.discount.title=Tenda misteriosa
+gui.limit.time.activity.discount.help=none
+gui.limit.time.activity.discount.desc=¡Echa un vistazo, hay golosinas diferentes todos los días!
+gui.limit.time.activity.discount.refresh=Próxima actualización del producto: {.}
+
+gui.limit.time.activity.title=Actividad
+gui.limit.time.activity.fisherman.gift=Regalo de pescador
+gui.limit.time.combined.title=Regalo
+gui.limit.time.activity.week.gift=Paquete de regalo semanal
+gui.limit.time.activity.month.gift=Paquete de regalo mensual
+gui.limit.time.activity.draw.title=Lotería
+
+
+gui.limit.time.activity.is.have=Obtenido
+gui.limit.time.combined.purchased=Comprado
+gui.limit.time.buy.success=¡Compra procesada!
+gui.limit.time.buy.fail=La compra falló
+gui.limit.time.buy.confirm=¿Estás seguro de comprar?
+gui.limit.time.common.tips=Nota
+gui.limit.time.activity.continue=Seguir...
+gui.limit.time.activity.confirm.tips=Por supuesto
+gui.limit.time.activity.cancel.tips=Cancelar
+gui.limit.time.activity.reward.dec=descripción de la recompensa
+gui.limit.time.activity.click.on.the.screen.to.continue=  Haga clic en la pantalla para continuar >>
+gui.limit.time.activity.congratulations=Felicidades
+gui.limit.time.activity.end=el evento ha terminado
+gui.limit.time.activity.free.bought=Libre
+gui.limit.time.activity.buy.title=Comprar paquete de regalo
+gui.limit.time.activity.gift.desc=Contenido del paquete
+gui.limit.time.activity.soul.out=Sold out
+gui.limit.time.activity.limit.counts={.} izquierda
+
+gui.limit.time.activity.draw.preview=Otorgar
+gui.limit.time.activity.draw.tip={.} sorteo seguro!
+gui.limit.time.activity.draw.single=1 tirada
+gui.limit.time.activity.draw.ten=10 sorteos
+gui.limit.time.activity.draw.help=◇Gasta el Cubo de Rubik dorado para obtener recompensas del pozo de premios y, si alcanzas el número especificado de sorteos, definitivamente ganarás un gran premio；\n◇Los premios del pozo de premios se rotan periódicamente y el número de sorteos también se restablecerá.
+
+gui.limit.time.activity.free=Primera vez gratis
+gui.limit.time.activity.click.button.btn.tip1=Haga clic en el botón en la parte inferior de la pantalla para comenzar a pescar
+gui.limit.time.activity.click.button.btn.tip2=¿Qué tesoro atraparás esta vez?
+gui.limit.time.activity.must.win.lottery=¡Cada pesca debe dar recompensas diferentes!
+gui.limit.time.activity.fisherman.dec=¡Oye! Encontré un lago con muchos tesoros, ¡encontremos una manera de atrapar los tesoros juntos!
+gui.limit.time.activity.fishing=Pescar
+gui.limit.time.activity.click.skip=Haga clic para saltar la animación
+gui.limit.time.combined.off=OFF
+gui.limit.time.combined.limit=▢FF913C08Limite▢FFE92E4E{.}▢FF913C08compras
+gui.limit.time.activity.signal.tip=Cada paquete está limitado a▢FFFFFF001▢FFFFFFFFcompra
+
+gui.limit.time.activity.help=Descripción del evento
+gui.limit.time.activity.must.win.lottery.help=◇Puedes obtener un premio del pozo de premios cada vez que pescas, y los premios no se repiten, es decir, los premios que ya has ganado no se sortearán en el futuro;\n◇Cada pesca cuesta una cantidad diferente de Golden Cubo de Rubik (aumentado con el número de veces de pesca), el precio específico es ↓\n1ª vez: 0\n2ª vez: 29\n3ª vez: 39\n4ª vez: 59\n5ª vez: 99\n6ª vez: 129\n7ª vez: 159\n8ª vez: 199\n9ª vez: 199\n10ª vez: 199\n11ª vez: 249\n12ª vez: 299
+gui.limit.time.activity.week.gift.help=Descripción del evento
+gui.limit.time.activity.month.gift.help=Descripción del evento
+
+language_end:g2052commercialize

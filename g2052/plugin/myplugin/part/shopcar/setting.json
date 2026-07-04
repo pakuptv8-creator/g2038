@@ -1,0 +1,410 @@
+{
+  "children": [
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-31.1498355865479 y:-0.74391233921051 z:1.41099774837494",
+        "useCollide": "false",
+        "position": "x:0.919165 y:-0.743912 z:1.410998",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "driverSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-33.0768432617188 y:-0.744253993034363 z:1.41099774837494",
+        "useCollide": "false",
+        "position": "x:-1.007843 y:-0.744254 z:1.410998",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "passengerSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "needSync": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.069000 y:-0.803132 z:-1.168000",
+        "massCenter": "x:-32.1380004882812 y:-0.803132295608521 z:-1.16800010204315",
+        "mesh": "asset/car/mesh/g2052_shopcar_cartext.mesh",
+        "name": "shopcar_cartext",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "useForCollision": "false",
+        "needSync": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.562000 y:-0.332132 z:-1.136000",
+        "massCenter": "x:-30.5069999694824 y:-0.332132458686829 z:-1.1360000371933",
+        "mesh": "asset/car/mesh/g2052_shopcar_cemen.mesh",
+        "name": "shopcar_cemen",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_shopcar_colorchange.mesh",
+        "collisionGroup": "4",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.018932 y:-0.395182 z:-0.043421",
+        "massCenter": "x:-32.0879325866699 y:-0.39518204331398 z:-0.0434209108352661",
+        "selectable": "false",
+        "name": "colorchange",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "children": [
+        {
+          "attributes": {},
+          "properties": {
+            "audioFilePath": "asset/sound/g2052_car_shopbgm.mp3",
+            "maxDistance": "30",
+            "loopState": "true",
+            "multiPly": "1.0",
+            "useForCollision": "false",
+            "useAnchor": "true",
+            "name": "Sound",
+            "position": "x:0.569183 y:1.377088 z:-0.391002",
+            "losslessDistance": "5.0",
+            "volume": "1.0"
+          },
+          "customProperties": {},
+          "class": "AudioNode"
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-31.4998168945312 y:1.37708830833435 z:-0.401002138853073",
+        "useCollide": "false",
+        "position": "x:0.569183 y:1.377088 z:-0.401002",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "shopyinxiao",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {}
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "exists_baked_data": "false",
+        "needSync": "false",
+        "collisionGroup": "8",
+        "useForCollision": "false",
+        "useAnchor": "true",
+        "position": "x:-0.005535 y:-1.424659 z:-1.158849",
+        "restitution": "0.3",
+        "massCenter": "x:-32.074535369873 y:-1.42465853691101 z:-1.15884900093079",
+        "useGravity": "false",
+        "cameraCollideEnable": "false",
+        "scale": "x:2.87396 y:0.199997 z:3.78694",
+        "friction": "0.37",
+        "travel" : "true",
+        "name": "carfloor"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_shopcar_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.334999 y:-1.854132 z:2.206001",
+        "massCenter": "x:-33.4039993286133 y:-1.85413217544556 z:2.20600080490112",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_shopcar_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.334999 y:-1.854132 z:-1.843999",
+        "massCenter": "x:-33.4039993286133 y:-1.85413217544556 z:-1.84399926662445",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "rotation": "x:0 y:-179.999984741211 z:0",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_shopcar_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.337999 y:-1.854132 z:2.206001",
+        "massCenter": "x:-30.7310009002686 y:-1.85413217544556 z:2.20600080490112",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "rotation": "x:0 y:-179.999984741211 z:0",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_shopcar_tyre_01.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.337999 y:-1.854132 z:-1.843999",
+        "massCenter": "x:-30.7310009002686 y:-1.85413217544556 z:-1.84399926662445",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_shopcar_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:1.170000 y:-1.252132 z:-3.209000",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_shopcar_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-1.132008 y:-1.252132 z:-3.209000",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_shopcar_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-1.055000 y:-1.256132 z:3.058999",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_shopcar_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:1.070236 y:-1.261281 z:3.059990",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "loopInterval": "0.0",
+        "rotation": "x:0 y:90 z:0",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_shopcar_light.effect",
+        "name": "effect_Visible",
+        "visible": "true",
+        "scaleByParent": "true",
+        "useForCollision": "false",
+        "useAnchor": "true",
+        "maxViewDistance": "64",
+        "position": "x:1.377693 y:1.652942 z:-0.503765",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    }
+  ],
+  "class": "MeshPart",
+  "properties": {
+    "collisionFidelity": "1",
+    "collisionGroup": "4",
+    "selectable": "false",
+    "density": "1000",
+    "friction": "0.37",
+    "cameraCollideEnable": "false",
+    "mesh": "asset/car/mesh/g2052_shopcar.mesh",
+    "name": "shopcar",
+    "restitution": "0.3",
+    "rotation": "x:0 y:0 z:0",
+    "position": "x:0.0 y:0.0 z:0"
+  }
+}

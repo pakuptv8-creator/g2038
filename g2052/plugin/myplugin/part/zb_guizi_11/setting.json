@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "kanhu_guizi01",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/kanhu_guizi01.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

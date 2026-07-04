@@ -1,0 +1,92 @@
+
+
+language_start:g2052commercialize
+
+gui.limit.time.activity.gold.wheel.title=Roda keberuntungan
+gui.limit.time.activity.gold.wheel.help=◇ Habiskan Golden Rubik's Cube untuk memainkan turntable satu kali, dan dapatkan peluang setengah harga setiap 24 jam
+
+gui.limit.time.activity.optional.title=Kustomisasi pribadi
+gui.limit.time.activity.optional.help=none
+gui.limit.time.activity.optional.tips=Beli {.} paket hadiah khusus untuk menerima hadiah opsional
+gui.limit.time.activity.optional.receive=menerima
+gui.limit.time.activity.optional.received=diterima
+gui.limit.time.activity.optional.custom=dibuat khusus
+gui.limit.time.activity.optional.buy=Membeli
+gui.limit.time.activity.optional.custom.big=Penghargaan Kustom
+gui.limit.time.activity.optional.continue=melanjutkan
+gui.limit.time.activity.optional.custom.normal=Sesuaikan hadiah ke-{.}
+gui.limit.time.activity.day.limit.counts={.} per hari
+optional_name_pack0=Paket kesejahteraan
+optional_name_pack1=Kustomisasi pribadi 1
+optional_name_pack2=Kustomisasi pribadi 2
+optional_name_pack3=Kustomisasi pribadi 3
+optional_name_pack9=hadiah besar
+
+gui.limit.time.activity.buy.one.title=membeli barang
+gui.limit.time.activity.buy.one.desc=Keterangan Barang
+
+gui.limit.time.card.congratulations1=Hadiah Kartu Mingguan
+gui.limit.time.card.congratulations2=Hadiah Kartu Bulanan
+gui.limit.time.card.residue=Tersisa: {.} hari
+gui.limit.time.card.help=◇Dari hari pembelian, login setiap hari untuk mendapatkan hadiah harian yang sesuai. \n◇Masuk keesokan harinya untuk menukarkan semua hadiah secara langsung.
+gui.limit.time.activity.card.title=kartu bulanan
+gui.limit.time.activity.card.title2=kartu uang bulanan
+gui.limit.time.activity.card.title1=Kartu kupon mingguan
+gui.limit.time.activity.card.tip1=Tersedia setiap hari
+gui.limit.time.activity.card.tip2=total
+
+gui.limit.time.activity.discount.title=toko misteri
+gui.limit.time.activity.discount.help=none
+gui.limit.time.activity.discount.desc=Lihatlah, ada barang yang berbeda setiap hari!
+gui.limit.time.activity.discount.refresh=Penyegaran produk berikutnya: {.}
+
+gui.limit.time.activity.title=Aktivitas
+gui.limit.time.activity.fisherman.gift=Pemberian nelayan
+gui.limit.time.combined.title=Tas hadiah
+gui.limit.time.activity.week.gift=Paket hadiah mingguan
+gui.limit.time.activity.month.gift=Paket hadiah bulanan
+gui.limit.time.activity.draw.title=Lotere waktu terbatas
+
+
+gui.limit.time.activity.is.have=Dimiliki
+gui.limit.time.combined.purchased=Dibeli
+gui.limit.time.buy.success=Pembelian berhasil
+gui.limit.time.buy.fail=Pembelian gagal
+gui.limit.time.buy.confirm=Apakah Anda yakin untuk membeli?
+gui.limit.time.common.tips=Tips
+gui.limit.time.activity.continue=melanjutkan...
+gui.limit.time.activity.confirm.tips=Tentu
+gui.limit.time.activity.cancel.tips=Membatalkan
+gui.limit.time.activity.reward.dec=deskripsi hadiah
+gui.limit.time.activity.click.on.the.screen.to.continue=  Klik pada layar untuk melanjutkan >>
+gui.limit.time.activity.congratulations=Selamat
+gui.limit.time.activity.end=Acara selesai
+gui.limit.time.activity.free.bought=Gratis
+gui.limit.time.activity.buy.title=Membeli paket hadiah
+gui.limit.time.activity.gift.desc=Lsi paket
+gui.limit.time.activity.soul.out=Sold out
+gui.limit.time.activity.limit.counts={.} kiri
+
+gui.limit.time.activity.draw.preview=Menghadiahkan
+gui.limit.time.activity.draw.tip={.} seri pasti!
+gui.limit.time.activity.draw.single=1 seri
+gui.limit.time.activity.draw.ten=10 kali seri
+gui.limit.time.activity.draw.help=◇Habiskan Kubus Rubik Emas untuk menarik hadiah dari kumpulan hadiah, dan jika Anda mencapai jumlah pengundian yang ditentukan, Anda pasti akan memenangkan hadiah besar；\n◇Hadiah kumpulan hadiah diputar secara teratur, dan jumlah pengundian juga akan diatur ulang.
+
+gui.limit.time.activity.free=Pertama kali gratis
+gui.limit.time.activity.click.button.btn.tip1=Klik tombol di bagian bawah layar untuk mulai memancing
+gui.limit.time.activity.click.button.btn.tip2=Harta karun apa yang akan kamu tangkap kali ini?
+gui.limit.time.activity.must.win.lottery=Setiap memancing harus memberikan hadiah yang berbeda!
+gui.limit.time.activity.fisherman.dec=Hai! Saya menemukan sebuah danau dengan banyak harta karun di dalamnya, mari kita cari cara untuk menangkap harta karun itu bersama-sama!
+gui.limit.time.activity.fishing=Penangkapan ikan
+gui.limit.time.activity.click.skip=Klik untuk melewati animasi
+gui.limit.time.combined.off=OFF
+gui.limit.time.combined.limit=▢FF913C08Batasi▢FFE92E4E{.}▢FF913C08pembelian
+gui.limit.time.activity.signal.tip=Setiap paket dibatasi untuk▢FFFFFF001▢FFFFFFFFpembelian
+
+gui.limit.time.activity.help=Deskripsi acara
+gui.limit.time.activity.must.win.lottery.help=◇Anda bisa mendapatkan hadiah dari kumpulan hadiah setiap kali Anda memancing, dan hadiah tidak diulangi, yaitu hadiah yang telah Anda menangkan tidak akan diundi di masa mendatang;\n◇Setiap memancing membutuhkan jumlah Emas yang berbeda Kubus Rubik (meningkat dengan jumlah waktu memancing), Harga spesifiknya adalah ↓\nkali pertama: 0\nkali kedua: 29\nkali ketiga: 39\nkali keempat: 59\nkali kelima: 99\nkali keenam: 129\n7 kali: 159\n8 kali: 199\n9 kali: 199\n10 kali: 199\n11 kali: 249\n12 kali: 299
+gui.limit.time.activity.week.gift.help=Deskripsi acara
+gui.limit.time.activity.month.gift.help=Deskripsi acara
+
+language_end:g2052commercialize

@@ -1,0 +1,703 @@
+
+
+language_start:g2052_lang
+
+——————翻译同学你好，绿色为新增，红字为机翻————————
+language_start:new
+
+annivesary.announcement=Promotion Anniversaire
+annivesary.tips=Astuce: Achetez le Fonds de Croissance exclusif Free City pour obtenir au moins deux articles en promotion.
+
+gui.limit.time.heart.warming.title=cadeau réconfortant
+gui.limit.time.heart.warming.integral=intégral:{.}
+gui.limit.time.heart.warming.day1=premier jour
+gui.limit.time.heart.warming.day2=le jour suivant
+gui.limit.time.heart.warming.day3=Le troisième jour
+
+taskTitle_11=Ajout d'un ami au total dans le jeu
+taskTitle_12=Fixez-vous une nouvelle carrière
+taskTitle_13=Offrez-vous une nouvelle tenue
+taskTitle_14=Construisez votre propre maison
+taskTitle_15=Terminez toutes les tâches aujourd'hui
+taskTitle_21=Ajout d'un total de 3 amis dans le jeu
+taskTitle_22=Chargé 2 joueurs en utilisant un petit véhicule
+taskTitle_23=Objets offerts à 2 joueurs
+taskTitle_24=Interagissez avec 2 joueurs avec des câlins ou d'autres actions
+taskTitle_25=Terminez toutes les tâches aujourd'hui
+taskTitle_31=Ajout d'un total de 5 amis dans le jeu
+taskTitle_32=Utiliser un briquet ou une bombe pour mettre le feu à la maison de quelqu'un
+taskTitle_33=Utilisez le métier de policier pour enfermer le joueur dans le commissariat
+taskTitle_34=Éteindre un incendie en faisant appel au métier de pompier
+taskTitle_35=Terminez toutes les tâches aujourd'hui
+taskDesc_24=Pour interagir avec le joueur, vous devez cliquer sur le personnage du joueur, puis sélectionner une action avec laquelle vous souhaitez interagir dans la liste contextuelle ;
+taskDesc_32=Lorsque vous êtes équipé d'un briquet ou d'une bombe C4, cliquez n'importe où dans la zone de la maison pour allumer un feu en allumant ou en explosant.
+taskDesc_34=Utilisez un extincteur ou un arroseur de camion de pompiers à la source de l'incendie pour éteindre le feu.
+gui.limit.time.heart.warming.house_fire=Votre maison a pris feu, cela a-t-il déclenché un incendie ?
+
+g2052_gift_1100011=manteau de détective
+g2052_gift_1100012=lapin
+g2052_gift_1100013=superbike
+g2052_gift_1100014=faire du karting
+
+subscribe_game_reward_item_tips1=Vous pouvez découvrir des animaux de compagnie gcube
+subscribe_game_reward_item_tips2=Peut expérimenter certains véhicules gcube
+subscribe_game_reward_item_tips3=Peut découvrir toutes les résidences Gcube
+subscribe_game_reward_item_tips4=Profitez de toutes les fonctionnalités de House Disaster Simulator
+g2052.gui.buy_shop.preview_tip=Aperçu
+g2052_face_image_desc=12 tirages pour remporter tous les cadeaux\nLe premier tirage est gratuit
+
+g2052_gift_20001=Maison à thème jardin
+g2052_gift_20002=Sweat abeille
+g2052_gift_20003=Voitures classiques
+g2052_gift_20004=Sac à dos abeille
+g2052_gift_20005=Ensemble de cow-boy
+g2052_gift_20006=Ensemble lapin
+g2052_gift_20007=Verres en forme de coeur
+g2052_gift_20008=Bonnet tricoté
+g2052_gift_20009=Tête de citrouille
+g2052_gift_20010=Maillot bleu
+g2052_gift_20011=Cheval brun
+g2052_gift_20012=Voiture de croisière
+g2052_gift_20013=Moto de luxe
+g2052_gift_20014=Licorne arc-en-ciel
+g2052_gift_20015=Tricycle de montagne
+g2052_gift_20016=Ensemble de dinosaures
+g2052_gift_20017=Ensemble de sorcière
+g2052_gift_20018=Masque d'ours
+g2052_gift_20019=Animal de compagnie lapin
+g2052_gift_20020=Monocycle Halloween en édition limitée
+g2052_gift_20021=Casque de moto
+g2052_gift_20022=Chapeau d'ours
+g2052_gift_20023=Masque de bal
+g2052_gift_20024=Short de plage
+
+g2052_gift_40001=Chambre thème jardin
+g2052_gift_40002=Salle à thème restaurant
+g2052_gift_40003=costume de dinosaure
+g2052_gift_40004=nouveau concept-car
+g2052_gift_40005=costume de lapin
+
+g2052.gui.business.confirm_buy=Êtes-vous sûr d'acheter?
+
+g2052_clothing_20001=costume en jean
+g2052_clothing_20002=Robe de mariée
+g2052_clothing_20003=vêtements de sport
+g2052_clothing_20004=vêtements de sport
+g2052_clothing_20005=petit manteau de miel
+g2052_clothing_20006=Short de plage
+g2052_clothing_20007=Jupe fleurie
+g2052_clothing_20008=Petit sac à dos abeille
+g2052_clothing_20009=sac à dos lapin
+g2052_clothing_20010=casque de moto
+g2052_clothing_20011=tête de chien
+g2052_clothing_20012=Bonnet tricoté
+
+
+g2052.gui.drama.template.name4=géant
+g2052.gui.drama.template.name00=sans
+g2052.gui.drama.template.desc3=La gravité de la ville a disparu. Que s’est-il passé?
+g2052.gui.drama.template.desc4=Les géants descendent! Pouvez-vous devenir le plus grand géant?
+g2052.gui.drama.hamburger.max=Vous êtes déjà plein
+message.notice.name10=Le nouveau big burger est arrivé!
+message.notice.name11={.}Prenez un gros burger !
+
+g2052.gui.setting.FarClipSetting=Göz mesafesi(plus la performance est faible, mieux c'est)
+g2052.gui.setting.FarClipSetting.low=Faible
+g2052.gui.setting.FarClipSetting.mid=Moyenne
+g2052.gui.setting.FarClipSetting.high=Élevé
+
+g2052.gui.gift.send.normalTips=Présentation du site
+g2052.gui.gift.send.tips=Cadeau
+g2052.gui.gift.send.title=Veuillez choisir un cadeau
+
+g2052.gui.dress.reset=Restaurer le costume
+g2052.gui.dress.reset.dec=L'opportunité de restaurer le costume
+
+g2052.gui.activity.to.unlock=Déverrouillage de l'événement
+
+g2052.gui.halloween.share.title=Partager
+g2052.gui.halloween.askFor.title=Demande
+g2052.gui.halloween.share.limit=▢FFFF8C00Le nombre maximum d'actions a été atteint aujourd'hui
+g2052.gui.halloween.accept.limit=▢FFFF8C00L'autre partie a atteint le nombre maximal de demandes aujourd'hui.
+g2052.gui.halloween.askFor.limit=▢FFFF8C00Le nombre de demandes a atteint son maximum aujourd'hui
+g2052.gui.halloween.findGhost.limit=Le nombre maximum de chasseurs de fantômes a été atteint aujourd'hui.
+g2052.gui.halloween.share.remain=Partages restants aujourd'hui : {.}
+g2052.gui.halloween.accept.remain=Demandes restantes aujourd'hui : {.}
+g2052.gui.halloween.share.exist=▢FFFF8C00Des bonbons ont été partagés avec les uns et les autres aujourd'hui
+g2052.gui.halloween.askFor.exist=▢FFFF8C00L'autre personne a déjà partagé des bonbons avec vous aujourd'hui.
+g2052.gui.halloween.askFor.ask=Est-il convenu que {.} demande de sucreries ?
+g2052.gui.halloween.askFor.refuse={.} ▢FFFF8C00Votre demande de bonbons a été refusée
+g2052.gui.halloween.start.day=L'échange commence dans {.} jours
+g2052.gui.halloween.start.hour={.} pour ouvrir le rachat
+g2052.gui.halloween.exchange.condition=Coûts:{.} /{.}
+g2052.gui.halloween.exchange.fail=▢FFFF8C00Veuillez continuer à collecter des bonbons si vous n'avez pas rempli les critères d'échange.
+g2052.gui.halloween.exchange.success=▢FF00FF00Racheté
+g2052.gui.halloween.exchange.desc=Est-ce que je rachète cette récompense ?
+g2052.gui.halloween.find.ghost.num={.} fantômes restant à découvrir
+
+g2052.gui.house.dismantle=Démolition de logements
+g2052.gui.house.dismantle.dec=L'habitation existante est-elle en cours de démolition ?
+g2052.gui.home.list.is.open=Les annonces de maisons sont ouvertes
+
+face_name_fukong=Flottant
+face_name_zombie=Zombie
+face_name_panic=Panique
+face_name_crawl=Crawl
+face_name_mummy=Momies
+face_name_backwalk=Marche à reculons
+face_name_skip=Sauter
+face_name_model=Modèle
+face_name_army=Militaire
+
+g2052.gui.drama.join=se joindre à
+
+g2052.gui.drama.template.title=Lütfen bir parti şablonu seçin
+g2052.gui.drama.template.name1=sel basmak
+g2052.gui.drama.template.name2=sis
+g2052.gui.drama.template.name3=ağırlıksızlık
+g2052.gui.drama.template.name0=özelleştirme
+g2052.gui.notify.party.create=bir {.} taraf oluşturdu
+g2052.gui.drama.title.tips=Lütfen parti başlığını değiştirin
+g2052.gui.drama.guide.tips1=Devam eden bir partiye katılın ve diğer oyuncularla farklı şehir ortamlarını deneyimleyin!
+g2052.gui.drama.guide.tips2=Oynamak için favori şehrinizi seçin ve kendi partinizi yaratın!
+g2052.gui.drama.guide.tips3=Farklı şablonlar seçin, şehrin farklı sürprizleri olacak, gelin ve deneyimleyin!
+g2052.gui.drama.guide.tips4=Partiyi başlatmak ve özel şehrinize hemen girmek için tıklayın!
+g2052.gui.drama.template.desc1=Günlerce şiddetli yağan yağmurlar, şehir taşkınlarına neden oluyor, taşkınlarda nasıl yaşanır?
+g2052.gui.drama.template.desc2=Şehir bilinmeyen bir sisle kaplandı, ayaklarınıza dikkat edin!
+g2052.gui.drama.template.desc0=Özel şablon, öne çıkan iki şehrin oynanışının bir birleşimidir.
+
+message.notice.name7=Bar ve balo salonu açık
+message.notice.name8=Bar ve dans salonu kapalı
+message.notice.name9=Birisi jailbreak yapıyor!
+
+gui.update7.desc=FC Party oynanışı güncellendi ve çeşitli ilginç harita şablonları kullanıma sunuldu;
+
+gui.shop.vip.desc1=Débloquez du contenu exclusif pour la maison, les vêtements et les véhicules
+
+shortmessage.title1=bonjour ~
+shortmessage.title2=rire
+shortmessage.title3=Joue avec
+shortmessage.title4=viens chez moi
+shortmessage.title5=va à l'école
+shortmessage.title6=jouer à des jeux
+shortmessage.title7=c'est bon
+shortmessage.title8=rejeter
+shortmessage.title9=Merci ~
+shortmessage.title10=admiration
+shortmessage.title11=jolie
+shortmessage.title12=Si beau!
+shortmessage.title13=suis-moi
+shortmessage.title14=et beaucoup plus
+shortmessage.title15=attendez une minute
+gui.short.lang1=bonjour ~
+gui.short.lang2=hahaha
+gui.short.lang3=jouons ensemble
+gui.short.lang4=Voudriez-vous venir chez moi pour jouer
+gui.short.lang5=Va à l'école!
+gui.short.lang6=Vouloir jouer un jeu
+gui.short.lang7=D'ACCORD!
+gui.short.lang8=ne veux pas
+gui.short.lang9=Merci ~
+gui.short.lang10=Waouh !
+gui.short.lang11=si belle
+gui.short.lang12=Si beau!
+gui.short.lang13=viens avec moi ~
+gui.short.lang14=Attends-moi!
+gui.short.lang15=attends une minute~
+g2052.gui.short.chat.tips =Chat trop rapide, veuillez retaper dans {.} secondes !
+
+language_end:new
+
+g2052.gui.marketing.super.gift=pack de valeur
+g2052.gui.marketing.hint=Le pass comprend les éléments suivants
+g2052.gui.marketing.buy=Acheter
+
+g2052.gui.marketing.item.name1=Maison VIP
+g2052.gui.marketing.item.name2=Véhicule VIP
+g2052.gui.marketing.item.name3=Vêtements VIP
+g2052.gui.marketing.item.name4=Parcelle VIP
+g2052.gui.marketing.item.name5=accélération du véhicule
+g2052.gui.marketing.item.name6=changement de couleur
+g2052.gui.marketing.item.name7=insigne de chat
+g2052.gui.marketing.item.name8=
+
+g2052.gui.profession.recommend.time.count=L'interface se ferme après {.} secondes
+g2052.gui.car.player.in.forbid.area=Les véhicules ne peuvent pas être générés dans la zone actuelle
+g2052.gui.car.in.forbid.area=La génération du véhicule a échoué, veuillez vous rendre dans la zone ouverte
+g2052.gui.car.no.room=L'emplacement d'apparition est occupé par d'autres véhicules
+
+guide_script_title=Comment se passe la fête ?
+guide_script_desc1=Concevez des personnages et un gameplay, créez votre groupe
+guide_script_desc2=Ou rejoignez une fête où tout le monde joue
+
+g2052.gui.drama.join.tips={.} a rejoint le groupe
+g2052.gui.drama.cur.drama=fête en cours
+g2052.gui.drama.history=fête de l'histoire
+g2052.gui.drama.confirm.dissolve=Êtes-vous sûr de vouloir interrompre la fête ?
+g2052.gui.drama.amend=Modifier la fête
+g2052.gui.drama.confirm.leave=Êtes-vous sûr de vouloir quitter la fête ?
+
+
+guide_guide_script=Parti FC
+g2052.gui.drama.title=liste des partis
+g2052.gui.drama.news=dernière fête
+g2052.gui.drama.create=Créer une fête
+g2052.gui.drama.recent=fête récente
+g2052.gui.drama.leave=quitter la fête
+g2052.gui.drama.mine=ma fête
+g2052.gui.drama.dissolve=fête de rupture
+g2052.gui.drama.full.tips=La fête est pleine, veuillez choisir une autre fête
+g2052.gui.drama.detail.title1=la fête de {.}
+g2052.gui.drama.editor.drama=informations sur la fête
+
+
+g2052.gui.occupation.others=Ce {.} appartient à quelqu'un d'autre
+g2052.gui.occupation.own=vous avez déjà un {.}
+g2052.gui.occupation.goods=casier
+
+g2052.gui.create.vip=terrain privé
+
+guide_script_desc3=Incarnez les personnages que vous aimez et jouez ensemble!
+
+gui.shop.vip.name=badge de priorité VIP
+
+gui.shop.vip.desc2=Débloquez des fonctions de changement de couleur pour les maisons et les véhicules
+gui.shop.vip.desc3=Déverrouiller la fonction d'accélération de la vitesse du véhicule
+gui.shop.vip.desc4=Obtenir des droits exclusifs d'utilisation des terres
+gui.shop.vip.desc5=Obtenez des badges vip de chat et des bulles de chat
+
+
+message.notice.bad.weather_4=Prévisions : orages dans une heure !
+message.notice.bad.weather_5=Prévisions météo : Haute température dans une heure !
+message.notice.bad.weather_6=Prévision : Neige dans une heure !
+message.notice.bad.weather_7=Météo : Tempête de sable dans une heure !
+message.notice.bad.weather_8=Prévision : Brouillard épais dans une heure !
+message.notice.bad.weather_9={.}Temps violent déclenché !
+
+g2052.gui.world_chat.invite=inviter à jouer
+g2052.gui.world_chat.ignore=Bloquer les messages
+g2052.gui.world_chat.ignored=bloqué
+g2052.gui.world_chat.ignore.tips=Ce joueur a été bloqué
+
+
+g2052.gui.chat.system.login=Bienvenue{.} à FreeCity !
+
+g2052.gui.vehicle.part.color=définir la couleur
+g2052.gui.vehicle.gearshift=décalage
+
+
+g2052.gui.confirm=Oui
+g2052.gui.cancel=Annuler
+
+g2052.gui.announcement.main_title=Aperçu de la nouvelle version
+g2052.gui.announcement.new=renouveler
+g2052.gui.announcement.activity=Activité
+gui.update.clothes.title=nouvelle robe
+gui.update.car.title=Nouveau véhicule
+gui.update.scene.title=nouvelle scène
+gui.update.house.title=nouvelle résidence
+gui.update.prop.title=nouveaux accessoires
+gui.update.face.title=nouvel émoji
+gui.update.title=Changements fonctionnels
+g2052.gui.tendering.sign.go_land=aller à
+
+g2052.gui.phone.ignore_call=ne plus recevoir d'appels
+g2052.gui.setting.reset_player=réinitialiser le caractère
+message.notice.name1=L'alerte bancaire a été déclenchée
+message.notice.name2=Les portes des chambres fortes sont sur le point de fermer
+message.notice.name3=Les portes des chambres fortes sont fermées
+message.notice.name4=La maison {.} est en feu
+message.notice.name5=Votre coffre-fort est devenu aveugle
+message.notice.name6={.} demande de l'aide
+
+g2052.gui.peakday.title=Connexion le week-end
+g2052.gui.peakday.title2=recevoir un cadeau
+g2052.gui.peakday.text3=Choisissez un animal de compagnie comme récompense
+g2052.gui.peakday.text1=Compte à rebours du début de l'événement :
+g2052.gui.activity.day= {.}jours{.}heures
+g2052.gui.peakday.button1=recevoir
+g2052.gui.peakday.button2=reçu
+g2052.gui.peakday.no.select.item=Veuillez d'abord sélectionner une récompense
+g2052.gui.peakday.get.reward.success=Reçu avec succès
+
+gui.shop.title=Boutique
+gui.confirm.purchase=Règlement
+gui.whether.confirm.buy=Veux-tu acheter {.}?
+gui.insufficient.funds=Solde insuffisant
+gui.still.missing=Il manque également {.}
+gui.whether.enter.recharge=Êtes-vous entré dans l'interface de recharge?
+gui.goods.already.have=Possédé
+gui.buy.succeed=Achat réussi
+gui.buy.succeed.dec=Tu as: {.}
+gui.do.not.repeat.purchase=Échec de l'achat
+
+
+g2052.gui.house.create.cd=Temps d'attente:{.}s
+g2052.gui.house.create.is.cd=La maison est refroidie, veuillez réessayer plus tard
+
+g2052.gui.part.content.init=Contenu
+g2052.gui.part.content.top_title=Arrière plan
+g2052.gui.part.content.bottom_title=Texte
+
+g2052.gui.interact.player_action1=portant
+g2052.gui.interact.player_action2=ours
+g2052.gui.interact.player_action3=tenir
+g2052.gui.interact.player_action4=étreinte
+
+g2052.gui.scene.name.square_ice01=myrtille
+g2052.gui.scene.name.square_ice02=fraise
+g2052.gui.scene.name.square_ice03=vanille
+g2052.gui.scene.name.square_ice04=Taro
+g2052.gui.scene.name.square_ice05=mangue
+g2052.gui.scene.name.square_ice06=Chocolat
+
+g2052.gui.dyeing.part.color={.}Couleur
+g2052.gui.part.custom_hair=Cheveu
+
+g2052.gui.interact.tips=Invitation envoyée
+g2052.gui.transfer.fail=L'état porté ne peut pas être transmis
+g2052.gui.props.loading_success=ajouté au panier
+g2052.gui.props.unload_success=remettre sur étagère
+
+ui.chat.chatMsgType9=À proximité
+ui.chat.friend.near =▢FFFFFFFF Amis à proximité
+ui.chat.friend.apply=▢FFFFFFFF Demande d'ami
+ui.chat.friend.list=▢FFFFFFFF Liste d'amis
+ui.chat.friend.applyFriend=▢FFFFFFFF Nouveaux amis
+ui.chat.friend.gameFriend=▢FF4A2942 Jouez avec des amis
+ui.chat.friend.platformFriend=▢FF4A2942 Amis de la plate-forme
+ui.chat.friend.recent_contact=▢FFFFFFFF Contacts récents
+ui.chat.friend.offline=▢FF78476C hors ligne
+ui.chat.friend.online=▢FF07BE14 en ligne
+ui.chat.number=▢FF4A2942{.}/{.}
+ui.chat.playerInfo.name=▢FFFFFFFF{.}
+ui.chat.friend.name=▢FF926787{.}
+
+g2052.gui.interactive.refuse =L'autre joueur a rejeté la demande
+g2052.gui.interactive.fail =Échec de l'interaction
+g2052.gui.password.error=wrong password
+
+g2052.gui.dance.dance_title =Mouvements
+face_name_happy=Content
+face_name_unhappy=Triste
+face_name_angry=En colère
+face_name_laugh=MDR
+face_name_cheer=Applaudir
+face_name_shyness=Timide
+face_name_cry=Cri
+face_name_wave=Saluer
+face_name_bye=Au revoir
+face_name_yes=Accepter
+face_name_no=Refuser
+face_name_handshake=Serrer la main
+face_name_fear=Peur
+face_name_cute=Mignon
+face_name_naughty=Gâté
+face_name_love1=Montrer de l'affection (L)
+face_name_love2=Montrer de l'affection (R)
+face_name_salute=Saluer
+face_name_clap=Applaudir
+face_name_point=Pointer vers
+face_name_scratch=Embrouillé
+face_name_boring=Ennuyait
+face_name_dizzy=Étourdi
+face_name_freeze=Geler
+face_name_wounded=Blessé
+face_name_fall=Tomber
+face_name_sneak=Se faufiler
+face_name_raisehand=Les mains en l'air
+face_name_arrested=menotté
+face_name_warm-up=Réchauffer
+dance_name_hot=Danse chaude
+dance_name_locking=Verrouillage
+dance_name_shake1=Danse swing 1
+dance_name_shake2=danse swing 2
+dance_name_scissors=danse swing 3
+dance_name_slide=Étape de diapositive
+dance_name_thomas=Pause Danse
+dance_name_1=Danse 1
+dance_name_2=Danse 2
+dance_name_3=Danse 3
+dance_name_4=Danse 4
+dance_name_5=Danse 5
+dance_name_6=Danse 6
+dance_name_7=Danse 7
+dance_name_8=Danse 8
+dance_name_9=Danse 9
+dance_name_robot=Popping
+face_name_fall2=vers le bas 2
+face_name_sit1=s'asseoir
+face_name_sit2=asseyez-vous 2
+face_name_wallstand1=debout contre le mur
+face_name_wallstand2=debout contre le mur 2
+face_name_salute2=Salut 2
+face_name_strong=fort
+face_name_death=Décès
+
+g2052.gui.time.monday=Lundi
+g2052.gui.time.tuesday=mardi
+g2052.gui.time.wednesday=mercredi
+g2052.gui.time.thursday=Jeudi
+g2052.gui.time.friday=vendredi
+g2052.gui.time.saturday=samedi
+g2052.gui.time.sunday=dimanche
+g2052.gui.profession.main_title =Métier
+g2052.gui.profession.main_name =Nom
+g2052.gui.profession.main_introduce =introduction
+g2052.gui.profession.color_name =Nom
+g2052.gui.profession.color_introduce =introduction
+g2052.gui.profession.color_edit =Entrer
+g2052.gui.profession.career_name1 =Policier
+g2052.gui.profession.career_name2 =Garde de sécurité
+g2052.gui.profession.career_name3 =Criminel
+g2052.gui.profession.career_name4=Boutique
+g2052.gui.profession.career_name5=Chef
+g2052.gui.profession.career_name6=Hamburger
+g2052.gui.profession.career_name7=Chanteuse
+g2052.gui.profession.career_name8=Musicien
+g2052.gui.profession.career_name9=DJ
+g2052.gui.profession.career_name10=Professeur
+g2052.gui.profession.career_name11=Crème glacée
+g2052.gui.profession.career_name12=ÉCRASER.
+g2052.gui.profession.career_name13=Docteur
+g2052.gui.profession.career_name14=Patient
+g2052.gui.profession.career_name15=Pompier
+g2052.gui.profession.career_name16=Tenue
+g2052.gui.profession.career_name17=Prêtre
+g2052.gui.profession.career_name18=Joueur
+g2052.gui.profession.career_name19=Serveur serveuse
+g2052.gui.profession.career_name20=Nettoyeur
+g2052.gui.profession.career_name21=Vétérinaire
+g2052.gui.profession.career_name22=Sauveteur
+g2052.gui.profession.career_name23=Infirmière
+g2052.gui.profession.career_name24=Enfant
+g2052.gui.profession.career_name25=Coiffeur
+g2052.gui.profession.career_name26=Chauffeur
+g2052.gui.profession.career_name27=Lit
+g2052.gui.profession.career_name28=Facteur
+g2052.gui.profession.career_name29=Athlète
+g2052.gui.profession.career_name30=Pilote
+g2052.gui.profession.career_name31=Le scientifique
+g2052.gui.profession.career_name32=pizzas
+g2052.gui.profession.career_name33=Barrista
+g2052.gui.profession.career_name34=Patineur
+g2052.gui.profession.career_name35=Maître de l'épée
+g2052.gui.profession.career_name36=Tireur
+g2052.gui.profession.career_name37=Maître de taekwondo
+g2052.gui.profession.career_name38=Maquilleur
+g2052.gui.profession.career_name39=Astronaute
+g2052.gui.profession.career_name40=Prof
+g2052.gui.profession.career_name41=Docteur
+g2052.gui.profession.career_name42=Avocat
+g2052.gui.profession.career_name43=Pitre
+g2052.gui.profession.career_name44=Tailleur
+g2052.gui.profession.career_name45=Juge
+g2052.gui.profession.career_name46=Élève
+g2052.gui.profession.career_name47=Directeur
+g2052.gui.profession.career_name48=joueur
+g2052.gui.profession.career_name49=fin gourmet
+g2052.gui.profession.career_name50=maquette
+g2052.gui.profession.career_name51=fermier
+g2052.gui.profession.career_name52=conducteur de taxi
+g2052.gui.profession.career_name53=marin
+g2052.gui.profession.career_name54=pêcheur
+g2052.gui.profession.career_name55=capitaine
+g2052.gui.profession.career_name56=collectionneur
+g2052.gui.profession.career_name57=héberger
+g2052.gui.profession.career_name58=Femme de ménage
+g2052.gui.profession.career_name59=écrivain
+g2052.gui.profession.career_name60=Ouvrier
+g2052.gui.profession.career_name61=journaliste
+g2052.gui.profession.career_name62=Danseur
+g2052.gui.profession.career_name63=conducteur de bus
+g2052.gui.profession.career_name64=soldat
+g2052.gui.profession.career_name65=Guide touristique
+g2052.gui.profession.career_name66=peintre
+g2052.gui.profession.career_name67=jardinier
+g2052.gui.profession.career_name68=architecte
+g2052.gui.profession.career_name69=député
+g2052.gui.profession.career_name70=bandit
+g2052.gui.profession.career_name71=prisonnier
+
+g2052.gui.drama.hot=Tendance
+g2052.gui.drama.likes=Le plus de J'aime
+g2052.gui.drama.friend=Amis jouant
+g2052.gui.drama.change.role=Changement de caractère
+g2052.gui.drama.drama.desc=Venez jouer ensemble
+g2052.gui.drama.role.name=Personnage {.}
+g2052.gui.drama.role.desc=Veuillez entrer du contenu
+g2052.gui.drama.editor.role=Informations sur le personnage
+
+g2052.gui.drama.like.ranking=Classement
+g2052.gui.drama.use=Utilisation
+
+g2052.prop.send.CDTime=L'opération est trop rapide, veuillez réessayer plus tard
+g2052.gui.phone.call_wait=L'opération est trop rapide, veuillez réessayer plus tard
+g2052.gui.phone.career_success_tips=Appel réussi, emplacement partagé
+
+g2052.gui.child.name =Nom
+g2052.gui.child.edit.placeholder =Définir le nom de bébé
+g2052.gui.child.edit.name =Nom de bébé
+
+g2052.gui.house.title =loger
+g2052.gui.bag.title =Sac à dos
+g2052.gui.appearance.title =Apparence
+g2052.gui.shape.scale.is.max =C'est déjà la silhouette maximale
+g2052.gui.shape.scale.is.min =C'est déjà la silhouette minimale
+
+g2052.gui.create =Créer
+g2052.gui.house.remould =Rénovation de maison
+g2052.event.house.on.fire=Votre maison est sur FIREEEEEE !
+g2052.gui.house.remould.dec=Êtes-vous sûr de vouloir changer de maison?
+g2052.gui.friend.pop.add.limit=permettre l'accès
+g2052.gui.friend.pop.unfreeze=pas autorisé à visiter
+g2052.gui.house.move=déménager
+g2052.gui.house.move.dec=Êtes-vous sûr de vouloir déménager?
+g2052.gui.house.brief.introduction=Profil de la maison
+g2052.gui.owner.ask.you.leave=Le propriétaire vous demande de partir
+gui.shop.house.event.desc=Événements catastrophiques pouvant contrôler la maison, y compris incendie, inondation, panne de courant, tornade, nuage orageux, hélicoptère, fantôme, épouvante, OVNI, brouillard, tremblement de terre, météorite
+gui.shop.house.event.name=simulateur de catastrophe
+g2052.gui.house.disaster.title=Liste des catastrophes
+g2052.gui.house.disaster.limit=Seuls les événements {.} peuvent être activés en même temps
+house.event.name1=Feu
+house.event.name2=inondation
+house.event.name3=panne électrique
+house.event.name4=tornade
+house.event.name5=Nuage orageux
+house.event.name6=hélicoptère
+house.event.name7=fantôme
+house.event.name8=épouvantable
+house.event.name9=OVNI
+house.event.name10=brouillard
+house.event.name11=tremblement de terre
+house.event.name12=météorite
+
+g2052.event.explode.vault.gate =%s a fait sauter la porte de la banque
+g2052.event.explode.house.safe =%s a cambriolé votre maison
+g2052.event.alarm.of.fire=La maison #{.} est en feu !
+
+g2052.gui.car.title=véhicule
+g2052.gui.car.forbid.use=Le véhicule est actuellement indisponible
+g2052.gui.car.region.forbid.use=Les véhicules ne sont pas disponibles dans cette zone
+
+g2052.gui.appearance.forbid=Vous ne pouvez pas changer votre apparence en roulant
+g2052.gui.appearance.forbid.jump.fall=Vous ne pouvez pas changer vos tenues en l'air
+g2052.gui.partner.title=De bébé
+g2052.gui.billboard.edit={.}Panneau d'affichage
+g2052.gui.click.input.click=Veuillez entrer ici
+
+g2052.gui.appearance.forbid.swim=Vous ne pouvez pas changer de tenue en nageant
+
+gui.house.bgm.title=Musique
+g2052.gui.friend.top.title=Système d'amis
+g2052.gui.friend.tab.friend=Mon ami
+g2052.gui.friend.tab.near=Joueur à proximité
+g2052.gui.friend.tab.request=Demande d'ami
+g2052.gui.friend.delete.title=Supprimer un ami
+g2052.gui.friend.delete.desc=Êtes-vous sûr de vouloir supprimer cet ami ?
+g2052.gui.friend.agree.success=Ajouté avec succès
+g2052.gui.friend.refuse=Rejeté
+g2052.gui.friend.lang=Langue
+g2052.gui.friend.again=Essayer à nouveau
+g2052.gui.friend.none.friend=Veuillez ajouter des amis
+g2052.gui.friend.none.near=Il n'y a pas de joueurs à proximité
+g2052.gui.friend.none.request=Aucune demande reçue
+g2052.gui.friend.invite=Hé, tu veux sortir ?
+g2052.gui.friend.invite.btn=Inviter
+g2052.gui.friend.pop.invite=Inviter en tant qu'invité
+g2052.gui.chat.private.target=À
+g2052.gui.chat.private.NewFrom=À partir de
+g2052.gui.chat.private.from=Je te murmure :
+g2052.gui.world_chat.title=Chat mondial
+g2052.gui.world_chat.lang.tips=Passé au canal de chat {.}
+g2052.gui.world_chat.block=Bloqué le canal de chat {.}
+g2052.gui.world_chat.cancel_block=Débloqué le canal de chat {.}
+
+g2052.gui.setting.voiceSetting=Paramètres vocaux
+
+
+g2052.gui.setting.video=Mode vidéo
+g2052.gui.video.tab1=filtre
+g2052.gui.video.tab2=la météo
+g2052.gui.video.tab3=effets d'écran
+g2052.gui.video.handle.tab1=effets spéciaux
+g2052.gui.video.handle.tab2=masquer l'interface utilisateur
+g2052.gui.video.handle.tab3=masquer les paramètres
+g2052.gui.video.handle.type101=rétro
+g2052.gui.video.handle.type102=noir et blanc
+g2052.gui.video.handle.type103=contraste élevé
+g2052.gui.video.handle.type104=Cyberpunk
+g2052.gui.video.handle.type105=lueur
+g2052.gui.video.handle.type106=jour d'automne
+g2052.gui.video.handle.type107=nuit de pleine lune
+g2052.gui.video.handle.type108=ensoleillé
+g2052.gui.video.handle.type201=ensoleillé
+g2052.gui.video.handle.type202=pluie
+g2052.gui.video.handle.type203=jour de neige
+g2052.gui.video.handle.type204=ciel étoilé
+g2052.gui.video.handle.type205=coucher de soleil
+g2052.gui.video.handle.type301=bordure noire du film
+g2052.gui.video.handle.type302=lampe de poche
+g2052.gui.video.handle.type303=ligne de vitesse
+g2052.gui.video.handle.type304=doji
+g2052.gui.video.handle.type305=Papillon
+g2052.gui.video.handle.type306=des points
+g2052.gui.video.hide.setting.data1=masquer le nom
+g2052.gui.video.hide.setting.data2=masquer le joueur
+g2052.gui.video.hide.setting.data3=cache toi
+
+guide_role_title=Qu'est-ce qu'un rôle ?
+guide_role_desc1=Choisissez vos vêtements préférés
+guide_role_desc2=Ajustez la taille de votre corps et le teint de votre peau
+guide_role_desc3=Remplacez votre emoji préféré
+guide_house_title=Comment construire sa propre maison ?
+guide_house_desc1=Choisissez un espace ouvert et cliquez sur son tableau
+guide_house_desc2=Choisissez votre modèle de maison préféré
+guide_house_desc3=Votre maison est prête, jetons un œil !
+guide_profession_title=Qu'est-ce qu'un métier ?
+guide_profession_desc1=Donnez-vous un joli nom
+guide_profession_desc2=Choisissez votre statut de carrière préféré
+guide_profession_desc3=Cette information sera affichée sur votre tête
+guide_baby_title=Qu'est-ce que l'adoption ?
+guide_baby_desc1=Choisissez votre bébé préféré
+guide_baby_desc2=Votre bébé jouera avec vous !
+guide_dace_title=Qu'est-ce que l'action ?
+guide_dace_desc1=Choisissez une action et votre personnage jouera l'animation
+guide_dace_desc2=Allez-y et essayez de dire bonjour aux autres joueurs !
+guide_car_title=Comment utiliser la voiture ?
+guide_car_desc1=Choisissez votre voiture préférée
+guide_car_desc2=Conduisez une voiture pour parcourir le monde
+guide_prop_title=comment utiliser les accessoires
+guide_prop_desc1=Choisissez les accessoires que vous souhaitez utiliser
+guide_prop_desc2=Cliquez sur le bouton droit pour changer de mode
+guide_prop_desc3=Appuyez sur l'écran pour utiliser les accessoires
+
+
+g2052.gui.tendering.email.send_btn=envoyer
+g2052.gui.tendering.email.title=Le maire propose une voie verte
+g2052.gui.tendering.email.tips=Cher maire honoraire, veuillez écrire vos suggestions
+g2052.gui.tendering.email.send_success=Bien envoyé
+g2052.gui.tendering.email.send_fail=Échec de l'envoi
+
+
+g2052.gui.tendering.tips=indice
+g2052.gui.bidding_rank.preview_tip=indice
+
+ui.cash.coupon.expend = Cette fois, j'ai consommé {.} jetons de jeu + {.} Gcube Gold Rubik's
+ui.cash.coupon.tips =Le Gold Rubik's Gcube consomme d'abord les jetons de jeu. Les activités de la plateforme sont obtenues.
+
+g2052.advertisement.use.car.tips=Regardez des vidéos pour un essai gratuit de GCube
+g2052.advertisement.use.car.cd.tips=Attendez {.} secondes avant de regarder à nouveau
+
+g2052.gui.advertisement.draw.out.of.count=Le nombre de rafraîchissements pour aujourd'hui est épuisé
+g2052.gui.advertisement.draw.reward.all.gain=Vous avez déjà obtenu tous les objets du cube doré
+g2052.gui.advertisement.draw.fail=Échec du rafraîchissement
+g2052.gui.advertisement.lock.slot.fail=Échec du verrouillage de la récompense
+g2052.gui.advertisement.win.title=Centre de Récompenses
+g2052.gui.advertisement.win.content.normal=Rafraîchissez une fois pour utiliser gratuitement 3 objets du cube doré\nRafraîchissez pour obtenir 2 objets identiques avec utilisation x2, ou 3 objets identiques avec utilisation x5
+g2052.gui.advertisement.win.content.reward.all.gain=Vous avez déjà obtenu tous les objets du cube doré
+g2052.gui.advertisement.win.refresh.title=Rafraîchir
+g2052.gui.advertisement.draw.success=La récompense a été envoyée dans votre sac à dos
+
+
+language_end:g2052_lang

@@ -1,0 +1,591 @@
+{
+  "children": [
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_colorchange.mesh",
+        "collisionGroup": "4",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.012993 y:0.058000 z:0.013000",
+        "massCenter": "x:-62.6930465698242 y:0.0579999871551991 z:0.0129999937489629",
+        "selectable": "false",
+        "name": "colorchange",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.136002 y:-0.618543 z:1.727847",
+        "massCenter": "x:-61.5440521240234 y:-0.618542909622192 z:1.72784686088562",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.153992 y:-0.618543 z:1.727847",
+        "massCenter": "x:-63.8340454101562 y:-0.618542909622192 z:1.72784686088562",
+        "selectable": "false",
+        "name": "chelun_front",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:1.124008 y:-0.618543 z:-1.932153",
+        "massCenter": "x:-61.5560455322266 y:-0.618542909622192 z:-1.93215346336365",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_tyre.mesh",
+        "collisionGroup": "16",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-1.153992 y:-0.618543 z:-1.932153",
+        "massCenter": "x:-63.8340454101562 y:-0.618542909622192 z:-1.93215346336365",
+        "selectable": "false",
+        "name": "chelun_rear",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-61.8778915405273 y:-0.369912087917328 z:0.061997938901186",
+        "useCollide": "false",
+        "position": "x:0.802162 y:-0.369912 z:0.061998",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "driverSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "materialAlpha": "0",
+        "useForCollision": "false",
+        "exists_baked_data": "false",
+        "useAnchor": "true",
+        "massCenter": "x:-63.5858840942383 y:-0.431253641843796 z:0.176997944712639",
+        "useCollide": "false",
+        "position": "x:-0.905830 y:-0.431254 z:0.176998",
+        "scale": "x:0.769996 y:0.700997 z:0.601996",
+        "restitution": "0.3",
+        "collisionGroup": "8",
+        "needSync": "false",
+        "selectable": "false",
+        "name": "passengerSeat",
+        "friction": "0.37",
+        "cameraCollideEnable": "false",
+        "materialOffset": "x:1 y:1 z:1.0"
+      },
+      "customProperties": {},
+      "class": "Part"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "rotation": "x:-12.0000009536743 y:3.13703776555485e-06 z:-179.999984741211",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_headlight.mesh",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:0.812004 y:-0.368543 z:3.046846",
+        "massCenter": "x:-61.868049621582 y:-0.368543058633804 z:3.04684638977051",
+        "selectable": "false",
+        "name": "headlightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_headlight.mesh",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.840988 y:-0.368543 z:3.046846",
+        "massCenter": "x:-63.5210418701172 y:-0.368543058633804 z:3.04684638977051",
+        "selectable": "false",
+        "name": "headlightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "rotation": "x:0 y:3.81742902391125e-05 z:0",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_flashing_01.mesh",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:0.765808 y:0.062427 z:-3.027294",
+        "massCenter": "x:-61.9142456054688 y:0.0624266341328621 z:-3.02729415893555",
+        "selectable": "false",
+        "name": "flashinglightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "density": "2.2",
+        "useGravity": "false",
+        "useForCollision": "false",
+        "lodData": {
+          "lodModelItem": {}
+        },
+        "cameraCollideEnable": "false",
+        "useAnchor": "true",
+        "exists_baked_data": "false",
+        "mesh": "asset/car/mesh/g2052_lambo_flashing.mesh",
+        "collisionGroup": "8",
+        "useCollide": "false",
+        "needSync": "false",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "restitution": "0.3",
+        "position": "x:-0.798058 y:0.085553 z:-3.042312",
+        "massCenter": "x:-63.4781112670898 y:0.0855526328086853 z:-3.04231238365173",
+        "selectable": "false",
+        "name": "flashinglightmesh",
+        "friction": "0.37"
+      },
+      "customProperties": {},
+      "class": "MeshPart"
+    },
+    {
+      "attributes": {},
+      "children": [
+        {
+          "attributes": {},
+          "children": [
+            {
+              "attributes": {},
+              "properties": {
+                "density": "2.2",
+                "useGravity": "false",
+                "useForCollision": "false",
+                "lodData": {
+                  "lodModelItem": {}
+                },
+                "cameraCollideEnable": "false",
+                "useAnchor": "true",
+                "exists_baked_data": "false",
+                "mesh": "asset/car/mesh/g2052_lambo_door_02_01.mesh",
+                "collisionGroup": "8",
+                "useCollide": "false",
+                "needSync": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "restitution": "0.3",
+                "position": "x:0.937611 y:0.376421 z:0.096587",
+                "massCenter": "x:-61.7424430847168 y:0.376420676708221 z:0.0965871065855026",
+                "selectable": "false",
+                "name": "lambo_zhuangshi",
+                "friction": "0.37"
+              },
+              "customProperties": {},
+              "class": "MeshPart"
+            },
+            {
+              "attributes": {},
+              "properties": {
+                "useAnchor": "true",
+                "effectFilePath": "asset/effect/car_effect/g2052_car_lambo_light_2.effect",
+                "name": "effect_Visible",
+                "visible": "true",
+                "scaleByParent": "true",
+                "loopInterval": "0.0",
+                "maxViewDistance": "64",
+                "useForCollision": "false",
+                "position": "x:1.453079 y:-0.001999 z:0.081000",
+                "loopCount": "-1"
+              },
+              "customProperties": {},
+              "class": "EffectPart"
+            }
+          ],
+          "class": "MeshPart",
+          "properties": {
+            "density": "2.2",
+            "useGravity": "false",
+            "lodData": {
+              "lodModelItem": {}
+            },
+            "useForCollision": "false",
+            "needSync": "false",
+            "exists_baked_data": "false",
+            "useAnchor": "true",
+            "collisionGroup": "8",
+            "useCollide": "false",
+            "cameraCollideEnable": "false",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "restitution": "0.3",
+            "position": "x:0.947014 y:0.099477 z:0.033644",
+            "massCenter": "x:-61.733039855957 y:0.0994770526885986 z:0.0336439236998558",
+            "mesh": "asset/car/mesh/g2052_lambo_door_02_02.mesh",
+            "name": "colorchange",
+            "friction": "0.37"
+          },
+          "customProperties": {}
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "density": "2.2",
+        "exists_baked_data": "false",
+        "useGravity": "false",
+        "useCollide": "false",
+        "materialAlpha": "0",
+        "name": "lambo_door_l",
+        "restitution": "0.3",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "needSync": "false",
+        "massCenter": "x:-62.3 y:0.742999970912933 z:-0.0230000019073486",
+        "useForCollision": "false",
+        "friction": "0.37",
+        "useAnchor": "true",
+        "cameraCollideEnable": "false",
+        "position": "x:0.380054 y:0.743000 z:-0.023000"
+      },
+      "customProperties": {}
+    },
+    {
+      "attributes": {},
+      "children": [
+        {
+          "attributes": {},
+          "children": [
+            {
+              "attributes": {},
+              "properties": {
+                "density": "2.2",
+                "useGravity": "false",
+                "useForCollision": "false",
+                "lodData": {
+                  "lodModelItem": {}
+                },
+                "cameraCollideEnable": "false",
+                "useAnchor": "true",
+                "exists_baked_data": "false",
+                "mesh": "asset/car/mesh/g2052_lambo_door_01_01.mesh",
+                "collisionGroup": "8",
+                "useCollide": "false",
+                "needSync": "false",
+                "materialOffset": "x:1 y:1 z:1.0",
+                "restitution": "0.3",
+                "position": "x:-1.448738 y:-0.001563 z:0.093194",
+                "massCenter": "x:-64.128791809082 y:-0.00156278908252716 z:0.0931935012340546",
+                "selectable": "false",
+                "name": "lambo_zhuangshi",
+                "friction": "0.37"
+              },
+              "customProperties": {},
+              "class": "MeshPart"
+            },
+            {
+              "attributes": {},
+              "properties": {
+                "useAnchor": "true",
+                "effectFilePath": "asset/effect/car_effect/g2052_car_lambo_light_1.effect",
+                "name": "effect_Visible",
+                "visible": "true",
+                "scaleByParent": "true",
+                "loopInterval": "0.0",
+                "maxViewDistance": "64",
+                "useForCollision": "false",
+                "position": "x:-1.509926 y:0.005001 z:0.062000",
+                "loopCount": "-1"
+              },
+              "customProperties": {},
+              "class": "EffectPart"
+            }
+          ],
+          "class": "MeshPart",
+          "properties": {
+            "density": "2.2",
+            "useGravity": "false",
+            "lodData": {
+              "lodModelItem": {}
+            },
+            "useForCollision": "false",
+            "needSync": "false",
+            "exists_baked_data": "false",
+            "useAnchor": "true",
+            "collisionGroup": "8",
+            "useCollide": "false",
+            "cameraCollideEnable": "false",
+            "materialOffset": "x:1 y:1 z:1.0",
+            "restitution": "0.3",
+            "position": "x:-0.972004 y:0.103175 z:0.033935",
+            "massCenter": "x:-63.6520576477051 y:0.10317450761795 z:0.0339352115988731",
+            "mesh": "asset/car/mesh/g2052_lambo_door_01_02.mesh",
+            "name": "colorchange",
+            "friction": "0.37"
+          },
+          "customProperties": {}
+        }
+      ],
+      "class": "Part",
+      "properties": {
+        "density": "2.2",
+        "exists_baked_data": "false",
+        "useGravity": "false",
+        "useCollide": "false",
+        "materialAlpha": "0",
+        "name": "lambo_door_r",
+        "restitution": "0.3",
+        "materialOffset": "x:1 y:1 z:1.0",
+        "needSync": "false",
+        "massCenter": "x:-63.0700378417969 y:0.735 z:-0.0100000007078052",
+        "useForCollision": "false",
+        "friction": "0.37",
+        "useAnchor": "true",
+        "cameraCollideEnable": "false",
+        "position": "x:-0.389984 y:0.735000 z:-0.010000"
+      },
+      "customProperties": {}
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_lambo_light_3.effect",
+        "name": "effect_Visible",
+        "visible": "true",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-0.024818 y:-0.065912 z:0.090998",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/g2052_car_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:0.799011 y:-0.368543 z:3.046846",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/g2052_car_qiandeng.effect",
+        "name": "headlight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:-0.853981 y:-0.368543 z:3.046846",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "useAnchor": "true",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_lambo_houdeng.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "loopInterval": "0.0",
+        "maxViewDistance": "64",
+        "useForCollision": "false",
+        "position": "x:0.710815 y:0.023427 z:-3.081294",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    },
+    {
+      "attributes": {},
+      "properties": {
+        "loopInterval": "0.0",
+        "rotation": "x:0 y:2.25731e-12 z:0",
+        "effectFilePath": "asset/effect/car_effect/g2052_car_lambo_houdeng_1.effect",
+        "name": "flashinglight",
+        "visible": "false",
+        "scaleByParent": "true",
+        "useForCollision": "false",
+        "useAnchor": "true",
+        "maxViewDistance": "64",
+        "position": "x:-0.769051 y:0.046917 z:-3.113122",
+        "loopCount": "-1"
+      },
+      "customProperties": {},
+      "class": "EffectPart"
+    }
+  ],
+  "class": "MeshPart",
+  "properties": {
+    "collisionFidelity": "1",
+    "collisionGroup": "4",
+    "density": "1000",
+    "friction": "0.37",
+    "cameraCollideEnable": "false",
+    "mesh": "asset/car/mesh/g2052_lambo.mesh",
+    "name": "lambo",
+    "restitution": "0.3",
+    "selectable": "false",
+    "rotation": "x:0 y:0 z:0",
+    "position": "x:0.0 y:0.0 z:0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2052_car_jingbao.mp3",
+        "loop": true,
+        "volume": 0.7,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/car_alarm_buff"
+    ],
+    "sync": "all"
+}

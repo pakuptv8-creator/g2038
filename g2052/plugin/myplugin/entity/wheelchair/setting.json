@@ -1,0 +1,73 @@
+{
+    "runBuff": [
+        "myplugin/bike_run_buff"
+    ],
+    "?jumpBuff": [
+        "myplugin/dianlv_jump_buff"
+    ],
+    "name": "",
+    "base": "trolley_base",
+    "actorName": "g2052_car_wheelchair.actor",
+    "moveSpeed": 0.5,
+    "bodyTurnSpeed": 30,
+    "collisionGroup": 2,
+    "checkPartTouchEvent": true,
+    "jumpSpeed": 0.5,
+    "ridePos": [
+        {
+            "yaw": 0,
+            "pos": {
+                "x": 0,
+                "y": 0.1,
+                "z": 0
+            },
+            "out": {
+                "x": 0,
+                "y": 0.7,
+                "z": -0.2
+            },
+            "ctrl": true,
+            "view": false,
+            "rideAction": {
+                "base": "idle",
+                "run": "run",
+                "idle": "idle",
+                "fly": "run",
+                "jump": "run",
+                "jump2": "run",
+                "jump3": "run",
+                "jump_fall": "run"
+            },
+            "passengerAction": {
+                "base": "g2052_boy_wheelchair_idle",
+                "run": "g2052_boy_wheelchair_run",
+                "idle": "g2052_boy_wheelchair_idle",
+                "jump": "g2052_boy_wheelchair_run",
+                "jump2": "g2052_boy_wheelchair_run",
+                "jump3": "g2052_boy_wheelchair_run"
+            },
+            "?attachPoint": "ride1"
+        }
+    ],
+    "attachPoints": [
+        {
+            "name": "ride1",
+            "bone": "s_1",
+            "rotation": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "position": {
+                "x": 0,
+                "y": 0,
+                "z": 0
+            },
+            "propagateScaling": true,
+            "matchActorOrientation": false
+        }
+    ],
+    "nearProps": {},
+    "brightnessScale": 1.7,
+    "fixBodyTurn": true
+}

@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/motuoyouxiji.mp3",
+        "loop": false,
+        "volume": 0.5,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "removeBuff": [
+        "myplugin/motuo_jump_buff"
+    ],
+    "sync": "other"
+}

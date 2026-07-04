@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "g2025_house_bar03",
+        "useAnchor": "true",
+        "mesh": "asset/house/mesh/jiaju/chufang/g2025_house_bar03.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

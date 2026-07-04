@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "yinhangshafa",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/yinhangshafa.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

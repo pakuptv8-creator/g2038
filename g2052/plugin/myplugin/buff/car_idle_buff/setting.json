@@ -1,0 +1,17 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2052_car_idle.mp3",
+        "loop": true,
+        "volume": 2,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/car_idle_buff"
+    ],
+    "sync": "self"
+}

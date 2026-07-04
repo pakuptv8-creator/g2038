@@ -1,0 +1,6 @@
+{
+    "?extraMotionY" : "控制在水中的下沉速度，用完记得移除",
+    "extraMotionY" : -0.1,
+    "replace" : true,
+    "removeBuff": ["aircraft_control_up"]
+}

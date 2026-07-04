@@ -1,0 +1,18 @@
+{
+    "needSave": false,
+    "sound": {
+        "sound": "/sound/g2052_car_down.mp3",
+        "loop": true,
+        "volume": 0.3,
+        "rollOffType": "LINEAR",
+        "distance": [
+            1,
+            5
+        ]
+    },
+    "avoidBuff": [
+        "myplugin/car_speed_down_buff",
+        "myplugin/car_speed_up_buff"
+    ],
+    "sync": "self"
+}

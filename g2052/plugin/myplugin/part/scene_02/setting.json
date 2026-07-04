@@ -1,0 +1,10 @@
+{
+    "class": "MeshPart",
+    "properties": {
+        "name": "floorlamp",
+        "useAnchor": "true",
+        "mesh": "asset/scene/mesh/floorlamp.mesh",
+        "materialAlpha": "1",
+        "useGravity": "false"
+    }
+}

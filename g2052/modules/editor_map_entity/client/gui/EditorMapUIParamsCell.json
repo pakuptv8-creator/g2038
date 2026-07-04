@@ -1,0 +1,148 @@
+{
+    "Dialog": {
+        "Window": {
+            "Type": "Layout",
+            "Name": "EditorMapUIParamsCell",
+            "Property": [
+                {
+                    "Name": "Area",
+                    "Value": "{{0,0},{0,0},{1,0},{0,50}}"
+                }
+            ],
+            "Window": [
+                {
+                    "Type": "Edit",
+                    "Name": "EditorMapUIParamsCell-Key",
+                    "Property": [
+                        {
+                            "Name": "ClipChild",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0.3,0},{1,0}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "3131"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "MaxTextLength",
+                            "Value": "-1"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Edit",
+                    "Name": "EditorMapUIParamsCell-Value",
+                    "Property": [
+                        {
+                            "Name": "ClipChild",
+                            "Value": "true"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.5,0},{0,0},{0.8,0},{1,0}}"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "MaxTextLength",
+                            "Value": "-1"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Button",
+                    "Name": "EditorMapUIParamsCell-Del",
+                    "Property": [
+                        {
+                            "Name": "BackgroundColor",
+                            "Value": "0 0 0 1"
+                        },
+                        {
+                            "Name": "Area",
+                            "Value": "{{0,0},{0,0},{0.2,0},{1,0}}"
+                        },
+                        {
+                            "Name": "HorizontalAlignment",
+                            "Value": "Right"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "-"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT35"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT35"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "PushBrightness",
+                            "Value": "0.25 0.25 0.25 0"
+                        }
+                    ]
+                },
+                {
+                    "Type": "StaticText",
+                    "Name": "EditorMapUIParamsCell-Type",
+                    "Property": [
+                        {
+                            "Name": "Area",
+                            "Value": "{{0.3,0},{0,0},{0.5,0},{1,0}}"
+                        },
+                        {
+                            "Name": "Text",
+                            "Value": "New StaticText"
+                        },
+                        {
+                            "Name": "Font",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "MinFont",
+                            "Value": "HT10"
+                        },
+                        {
+                            "Name": "TextHorzAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextVertAlignment",
+                            "Value": "Centre"
+                        },
+                        {
+                            "Name": "TextCharaterRotation",
+                            "Value": "false"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
