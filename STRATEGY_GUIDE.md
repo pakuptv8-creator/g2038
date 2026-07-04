@@ -68,3 +68,7 @@ By hacking the shop, you can now see items that were previously hidden or used o
    - **CAP:** Automatically stops at **5 stars** (Manual upgrade required for 6-star).
    - **MATERIAL PROTECTION:** Turtlemage is never used as fodder.
    - Prioritizes 1-2 star pets first to clear inventory space.
+
+8. **Instant Max Level (Food Burst):**
+   - Use **ULTRA_HACKS -> Instant_Max_Level_Team** to immediately consume available food and raise your entire team to their current star-cap.
+   - Visual leveling animations have been set to **0 seconds**.

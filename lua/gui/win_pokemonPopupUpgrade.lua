@@ -1,8 +1,8 @@
 local PokemonConfig = T(Config, "PokemonConfig")
 local UIRedDotMgr = require("script_client.ui.ui_red_dot_manager")
 local recordTimerCallback
-local smoothTime = 20
-local jumpLevelTime = 3
+local smoothTime = 1
+local jumpLevelTime = 0
 local color = {
   level = "\226\150\162FF9B0081",
   maxLevel = "\226\150\162FF9F5F9F"
@@ -145,6 +145,7 @@ function M:onShow(pokemon, timerCallback)
   self.maxLevel = PokemonConfig:getStarConfig(self.pokemon:getStar()).levelMax
   self:refresh(false)
   self.mask:SetTouchable(false)
+  self.mask:SetVisible(false) -- User wants speed
   recordTimerCallback = timerCallback
   self:onChecked(1)
 end
@@ -214,7 +215,7 @@ end
 
 function M:startTick()
   self.sid = Me:playSoundByKey("upgrade_bar")
-  self.mask:SetTouchable(true)
+  self.mask:SetTouchable(false) -- User wants speed
   self.timeWait = 0
   if self.barTickCancel then
     self.barTickCancel()

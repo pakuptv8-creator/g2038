@@ -443,6 +443,44 @@ GMItem["^FFFF00ULTRA_HACKS/Toggle_Auto_StarUp"] = function(self)
     print("Auto Star-Up (Epic/Rare): " .. tostring(World.AutoStarUp))
 end
 
+GMItem["^FFFF00ULTRA_HACKS/Instant_Max_Level_Team"] = function(self)
+    local battlePetList = Me:getValue("battlePetList") or {}
+    local expItems = Me:getItemsCfgByItemType(Define.ITEM_TYPE.EXP)
+    local bestItem = nil
+    for fullName, cfg in pairs(expItems) do
+        if Me:getTrayItemCountByFullName(fullName) > 0 then
+            if not bestItem or cfg.itemId > bestItem.itemId then
+                bestItem = cfg
+            end
+        end
+    end
+
+    if not bestItem then
+        print("No EXP food found in inventory!")
+        return
+    end
+
+    local PokemonConfig = T(Config, "PokemonConfig")
+    Me:getPokemonList(battlePetList, function(pets)
+        for _, pet in pairs(pets) do
+            local maxLevel = PokemonConfig:getStarConfig(pet:getStar()).levelMax
+            local currentLevel = pet:getLevel()
+            local needed = maxLevel - currentLevel
+
+            if needed > 0 then
+                print("INSTANT LEVEL: Upgrading " .. pet:getName() .. " to " .. maxLevel)
+                for i = 1, needed do
+                    Me:useExpItem({
+                        objId = pet:getObjId(),
+                        fullName = bestItem.fullName,
+                        type = Define.USE_EXP_ITEM_TYPE.ONCE_LEVEL
+                    })
+                end
+            end
+        end
+    end)
+end
+
 --[[GMItem["089/SetStepHeight"] = GM:inputStr(function(self, Grav7)
    Player.CurPlayer:setProp("stepHeight", Grav7)
 end)]]
