@@ -224,16 +224,20 @@ function main:setGlobalProperty()
           local processed = 0
           local materialsUsed = {}
 
-          -- Find candidates (Epic/Rare/Legendary pets in box)
+          -- Find candidates (Epic/Rare pets in box, NO LEGENDARY, NO TURTLEMAGE)
           for _, pet in pairs(pokemonList) do
               if processed >= 5 then break end -- Limit to 5 upgrades per tick to avoid kicks
 
               local star = pet:getStar()
               local quality = pet:getQuality()
               local petId = pet:getObjId()
+              local cfgId = pet:getCfgId()
 
-              -- Only auto-upgrade up to 5 stars as requested
-              if star < 5 and not isInTeam(petId) and not materialsUsed[petId] then
+              -- ONLY EPIC (2) or RARE (??) but NOT LEGENDARY (3+) and NOT TURTLEMAGE (10201001)
+              -- User: "all epic and rare except turtle... don't raise legendary"
+              -- Define.POKEMON_QUALITY.EPIC is 1 or 2? Let's check logic.
+              -- Legendaries (Apophis/Waspthorn) are quality 3. Epic/Rare are 1 and 2.
+              if star < 5 and quality < 3 and cfgId ~= 10201001 and not isInTeam(petId) and not materialsUsed[petId] then
                   local starCfg = PokemonConfig:getStarConfig(star)
                   local cost = starCfg.starUpCost -- [count, star_level]
 

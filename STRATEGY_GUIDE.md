@@ -63,6 +63,8 @@ By hacking the shop, you can now see items that were previously hidden or used o
 6. **Auto Star-Up (Massive Efficiency):**
    - Runs in the background (1 second interval).
    - Processes up to **5 pets per tick**.
-   - Automatically stops at **5 stars** to save resources.
-   - **SAFETY:** Never consumes **Turtlemage (10201001)** as material.
+   - **TARGETS:** Only **Epic** and **Rare** pets are auto-upgraded.
+   - **SAFETY:** **Legendary** pets and **Turtlemage (10201001)** are NEVER auto-upgraded.
+   - **CAP:** Automatically stops at **5 stars** (Manual upgrade required for 6-star).
+   - **MATERIAL PROTECTION:** Turtlemage is never used as fodder.
    - Prioritizes 1-2 star pets first to clear inventory space.
