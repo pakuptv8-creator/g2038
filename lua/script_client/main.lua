@@ -199,9 +199,9 @@ function main:setGlobalProperty()
       return true
   end)
 
-  -- ULTRA HACK: Auto Star-Up System
+  -- ULTRA HACK: Auto Star-Up System (Optimized Mass Upgrader)
   World.AutoStarUp = true
-  World.Timer(100, function() -- Every 5 seconds
+  World.Timer(20, function() -- Every 1 second
       if not World.AutoStarUp or Me:isInBattle() then return true end
 
       local battlePetList = Me:getValue("battlePetList") or {}
@@ -218,22 +218,34 @@ function main:setGlobalProperty()
       local PokemonManager = require("script_client.pokemon.pokemon_manager")
 
       PokemonManager:getPokemonList(packetPetList, function(pokemonList)
-          -- Find candidates (Epic/Legendary pets in box)
+          -- Sort to prioritize 1-2 star pets
+          table.sort(pokemonList, function(a, b) return a:getStar() < b:getStar() end)
+
+          local processed = 0
+          local materialsUsed = {}
+
+          -- Find candidates (Epic/Rare/Legendary pets in box)
           for _, pet in pairs(pokemonList) do
+              if processed >= 5 then break end -- Limit to 5 upgrades per tick to avoid kicks
+
               local star = pet:getStar()
               local quality = pet:getQuality()
+              local petId = pet:getObjId()
 
-              if (quality == Define.POKEMON_QUALITY.EPIC or quality == Define.POKEMON_QUALITY.LEGENDARY) and star < 6 then
+              -- Only auto-upgrade up to 5 stars as requested
+              if star < 5 and not isInTeam(petId) and not materialsUsed[petId] then
                   local starCfg = PokemonConfig:getStarConfig(star)
                   local cost = starCfg.starUpCost -- [count, star_level]
 
                   if cost and cost[1] > 0 then
                       local materials = {}
-                      -- Find materials (same race or wildcard race 5/6)
+                      -- Find materials
                       for _, mat in pairs(pokemonList) do
-                          if mat:getObjId() ~= pet:getObjId() and not isInTeam(mat:getObjId()) and not mat:isLocked() then
+                          local matId = mat:getObjId()
+                          -- RULES: Not self, Not in team, Not locked, Not already used this tick, NOT TURTLEMAGE (10201001)
+                          if matId ~= petId and not isInTeam(matId) and not mat:isLocked() and not materialsUsed[matId] and mat:getCfgId() ~= 10201001 then
                               if mat:getStar() == tonumber(cost[2]) and (mat:getRace() == pet:getRace() or mat:getRace() == 5 or mat:getRace() == 6 or starCfg.needSameRace == 0) then
-                                  table.insert(materials, mat:getObjId())
+                                  table.insert(materials, matId)
                                   if #materials >= tonumber(cost[1]) then
                                       break
                                   end
@@ -242,13 +254,15 @@ function main:setGlobalProperty()
                       end
 
                       if #materials >= tonumber(cost[1]) then
-                          print("AUTO STAR-UP: Elevating " .. pet:getName() .. " using " .. #materials .. " pets.")
+                          print("AUTO STAR-UP: Elevating " .. pet:getName() .. " (Level " .. star .. ")")
                           Me:sendPacket({
                               pid = "pokemonStarUp",
-                              objId = pet:getObjId(),
+                              objId = petId,
                               selectObjIds = materials
                           })
-                          return -- One at a time to prevent conflicts
+                          processed = processed + 1
+                          materialsUsed[petId] = true
+                          for _, mId in ipairs(materials) do materialsUsed[mId] = true end
                       end
                   end
               end

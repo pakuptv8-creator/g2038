@@ -60,3 +60,9 @@ By hacking the shop, you can now see items that were previously hidden or used o
 3. **Infinite PP:** Skills no longer consume usage points. Spam your strongest moves forever.
 4. **Sure-Hit Hack:** All player skills now have an internal accuracy of 0 (Guaranteed Hit).
 5. **Shop Limit Bypass:** Discounted items and skills in the shop can now be bought up to 99,999 times.
+6. **Auto Star-Up (Massive Efficiency):**
+   - Runs in the background (1 second interval).
+   - Processes up to **5 pets per tick**.
+   - Automatically stops at **5 stars** to save resources.
+   - **SAFETY:** Never consumes **Turtlemage (10201001)** as material.
+   - Prioritizes 1-2 star pets first to clear inventory space.
