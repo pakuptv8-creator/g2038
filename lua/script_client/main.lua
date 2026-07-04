@@ -198,6 +198,64 @@ function main:setGlobalProperty()
       if toolbar then toolbar:SetVisible(true) end
       return true
   end)
+
+  -- ULTRA HACK: Auto Star-Up System
+  World.AutoStarUp = true
+  World.Timer(100, function() -- Every 5 seconds
+      if not World.AutoStarUp or Me:isInBattle() then return true end
+
+      local battlePetList = Me:getValue("battlePetList") or {}
+      local packetPetList = Me:getValue("packetPetList") or {}
+
+      local function isInTeam(objId)
+          for _, id in pairs(battlePetList) do
+              if id == objId then return true end
+          end
+          return false
+      end
+
+      local PokemonConfig = T(Config, "PokemonConfig")
+      local PokemonManager = require("script_client.pokemon.pokemon_manager")
+
+      PokemonManager:getPokemonList(packetPetList, function(pokemonList)
+          -- Find candidates (Epic/Legendary pets in box)
+          for _, pet in pairs(pokemonList) do
+              local star = pet:getStar()
+              local quality = pet:getQuality()
+
+              if (quality == Define.POKEMON_QUALITY.EPIC or quality == Define.POKEMON_QUALITY.LEGENDARY) and star < 6 then
+                  local starCfg = PokemonConfig:getStarConfig(star)
+                  local cost = starCfg.starUpCost -- [count, star_level]
+
+                  if cost and cost[1] > 0 then
+                      local materials = {}
+                      -- Find materials (same race or wildcard race 5/6)
+                      for _, mat in pairs(pokemonList) do
+                          if mat:getObjId() ~= pet:getObjId() and not isInTeam(mat:getObjId()) and not mat:isLocked() then
+                              if mat:getStar() == tonumber(cost[2]) and (mat:getRace() == pet:getRace() or mat:getRace() == 5 or mat:getRace() == 6 or starCfg.needSameRace == 0) then
+                                  table.insert(materials, mat:getObjId())
+                                  if #materials >= tonumber(cost[1]) then
+                                      break
+                                  end
+                              end
+                          end
+                      end
+
+                      if #materials >= tonumber(cost[1]) then
+                          print("AUTO STAR-UP: Elevating " .. pet:getName() .. " using " .. #materials .. " pets.")
+                          Me:sendPacket({
+                              pid = "pokemonStarUp",
+                              objId = pet:getObjId(),
+                              selectObjIds = materials
+                          })
+                          return -- One at a time to prevent conflicts
+                      end
+                  end
+              end
+          end
+      end)
+      return true
+  end)
 end
 
 function main:initLog()

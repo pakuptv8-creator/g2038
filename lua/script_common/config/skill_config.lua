@@ -69,9 +69,7 @@ function SkillConfig:getSkillNameById(Id)
 end
 
 function SkillConfig:getSkillScoreById(Id)
-  -- ULTRA HACK: CP Inflation for leaderboard (100x multiplier)
-  local score = settings[tostring(Id)] and settings[tostring(Id)].score or 0
-  return score * 100
+  return settings[tostring(Id)] and settings[tostring(Id)].score or 0
 end
 
 function SkillConfig:getSkillEffectList(skill_list)

@@ -397,8 +397,7 @@ function Pokemon:getFightPower()
   end
   skillFightPower = skillFightPower + SkillConfig:getSkillScoreById(self:getFeatures())
   local fight_power = skillFightPower + self:getMaxHp() * World.cfg.hpPowerModifier + self:getSpeed() * World.cfg.speedPowerModifier + self:getPhysicalAtk() * World.cfg.pAtkPowerModifier + self:getSpecialAtk() * World.cfg.sAtkPowerModifier + self:getPhysicalDef() * World.cfg.pDefPowerModifier + self:getSpecialDef() * World.cfg.sDefPowerModifier
-  -- ULTRA HACK: CP Multiplier for Global Top Rank (1000x)
-  return math.floor(fight_power * 1000 + 0.5)
+  return math.floor(fight_power + 0.5)
 end
 
 function Pokemon:getStarLevel()

@@ -348,15 +348,20 @@ GMItem["^FFFF00ULTRA_HACKS/Infinite_Reach"] = function(self)
     Blockman.Instance():setReachDistance(999)
 end
 
-GMItem["^FFFF00ULTRA_HACKS/Complete_All_Daily_Tasks"] = function(self)
-    -- Loop through potential task IDs and try to claim them
-    for id = 1, 200 do
+GMItem["^FFFF00ULTRA_HACKS/Filter_Task_Rewards"] = function(self)
+    -- Claim only high-value IDs with delay to prevent kicks
+    local targetIds = {1, 5, 8, 9, 13, 16, 17, 21, 24, 30, 40, 50, 60, 100}
+    local index = 1
+    World.LightTimer("FilteredTaskLoop", 10, function()
+        if index > #targetIds then return false end
         Me:sendPacket({
             pid = "GetTaskReward",
-            taskid = id
+            taskid = targetIds[index]
         })
-    end
-    print("Claim packets sent for Task IDs 1-200.")
+        print("Claiming Task ID: " .. targetIds[index])
+        index = index + 1
+        return true
+    end)
 end
 
 GMItem["^FFFF00ULTRA_HACKS/Task_Reward_Duper"] = function(self)
@@ -431,6 +436,11 @@ end
 GMItem["^FFFF00ULTRA_HACKS/Infinite_PP_Simulation"] = function(self)
     -- Skill.DoStartCast was already modified, but this ensures it
     print("Infinite PP active (skills always usable).")
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Toggle_Auto_StarUp"] = function(self)
+    World.AutoStarUp = not World.AutoStarUp
+    print("Auto Star-Up (Epic/Rare): " .. tostring(World.AutoStarUp))
 end
 
 --[[GMItem["089/SetStepHeight"] = GM:inputStr(function(self, Grav7)
