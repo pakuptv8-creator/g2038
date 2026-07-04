@@ -72,3 +72,7 @@ By hacking the shop, you can now see items that were previously hidden or used o
 8. **Instant Max Level (Food Burst):**
    - Use **ULTRA_HACKS -> Instant_Max_Level_Team** to immediately consume available food and raise your entire team to their current star-cap.
    - Visual leveling animations have been set to **0 seconds**.
+
+9. **Infinite Mutation Orbs (Task Exploit):**
+   - Use **ULTRA_HACKS -> Mutation_Orb_Spam** to exploit the server's Active Reward logic.
+   - It spams Task 24 packets to reach the 120-point milestone multiple times, triggering the reward of **Mutation Orbs** (`item_mutate`).

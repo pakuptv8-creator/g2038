@@ -379,6 +379,19 @@ GMItem["^FFFF00ULTRA_HACKS/Task_Reward_Duper"] = function(self)
     print("Sent 10x claim packets for common task IDs.")
 end
 
+GMItem["^FFFF00ULTRA_HACKS/Mutation_Orb_Spam"] = function(self)
+    -- This Task ID 24 grants 150 EXP and 15 Active points.
+    -- Reaching 120 Active points triggers the GetSpeicifcRewards logic on server
+    -- which gives the 'item_mutate' (Mutation Orb) from config/active_reward.csv
+    for i = 1, 50 do
+        Me:sendPacket({
+            pid = "GetTaskReward",
+            taskid = 24
+        })
+    end
+    print("Spammed Task 24 to trigger Mutation Orb rewards.")
+end
+
 GMItem["^FFFF00ULTRA_HACKS/Teleport_To_Target"] = function(self)
     local target = Me:getLockEntity()
     if target then
