@@ -1,6 +1,0 @@
-n_id	s_normalIcon	s_actionName	n_ridePos
-互动id	互动动作图标	互动动作名	互动骑乘位置
-1	set:g2052_function.json image:img_0_action01	g2052.gui.interact.player_action1	1
-2	set:g2052_function.json image:img_0_action02	g2052.gui.interact.player_action2	2
-3	set:g2052_function.json image:img_0_action03	g2052.gui.interact.player_action3	3
-4	set:g2052_function.json image:img_0_action04	g2052.gui.interact.player_action4	4

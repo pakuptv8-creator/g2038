@@ -1,1 +1,0 @@
-Define.TIMING_TYPE = {TRIGGER = 1, SECTION = 2}

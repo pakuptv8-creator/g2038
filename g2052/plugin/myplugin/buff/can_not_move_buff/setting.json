@@ -1,7 +1,0 @@
-{
-    "gravity": -100,
-    "moveSpeed": -99,
-    "avoidBuff": [
-        "myplugin/can_not_move_buff"
-    ]
-}

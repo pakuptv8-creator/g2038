@@ -1,7 +1,0 @@
-n_id	n_activityId	n_needPoints	s_giftContent
-奖励id	所属的活动ID	所需积分	对应奖励列表 #隔开
-唯一key			对应limited_time_gift_item的awardId
-1	110001	20	1100011
-2	110001	40	1100012
-3	110001	70	1100013
-4	110001	100	1100014

@@ -1,9 +1,0 @@
-{
-  "skin": {
-    "gun": "g2052_prop_shouji"
-  },
-  "skill": "myplugin/hand_test_click_1",
-  "actionMap": {
-    "idle": "g2052_skill_phone1"
-  }
-}

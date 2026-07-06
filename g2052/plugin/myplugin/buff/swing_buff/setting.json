@@ -1,6 +1,0 @@
-{
-    "lockRotateBodyPitch": -1,
-	"avoidBuff": [
-    "myplugin/swing_buff"
-	]
-}

@@ -1,8 +1,0 @@
-{
-  "actionMap": {
-    "walk":"g2052_walk",
-    "run":"g2052_run",
-    "sprint":"g2052_sprint"
-  },
-  "actionPriority": 1
-}

@@ -1,9 +1,0 @@
-{
-  "flyModulus" : 0.17,
-  "actionMap": {
-    "fly": "run"
-  },
-  "avoidBuff": [
-    "myplugin/fly_buff"
-  ]
-}

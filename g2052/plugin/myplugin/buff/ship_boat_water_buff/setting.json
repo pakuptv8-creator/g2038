@@ -1,9 +1,0 @@
-{
-    "needSave": false,
-    "?moveSpeed" : "船只移动速度",
-    "moveSpeed": 0.5,
-    "replace" : true,
-    "removeBuff": [
-        "myplugin/ship_boat_land_buff"
-    ]
-}

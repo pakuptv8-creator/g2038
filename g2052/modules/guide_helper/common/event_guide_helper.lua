@@ -1,5 +1,0 @@
-if World.isClient then
-  Event.EVENT_TRIGGER_GUIDE_OPERATION = Event.register("EVENT_TRIGGER_GUIDE_OPERATION")
-  Event.EVENT_GUIDE_ACTIVE_CONDITION = Event.register("EVENT_GUIDE_ACTIVE_CONDITION")
-else
-end

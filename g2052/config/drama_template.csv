@@ -1,8 +1,0 @@
-n_id	n_sortId	s_remarks	s_templateName	s_templateDesc	s_img	s_smallImg	s_mutex	n_isCustom	n_isEmpty	s_adornPart	n_weather	n_openFog	n_priority
-序号	排序id，从小到大	备注	模板名(多语言)	模板描述多语言)	模板封面图	模板头像图	不能共存的模板(#隔开)	是否自定义选项 1 是	是否空模板选项 1 是	模板附加零件	固定天气	开启雾气	优先级
-1	4	洪水	g2052.gui.drama.template.name1	g2052.gui.drama.template.desc1	set:g2052_teaming.json image:img_0_background01	set:g2052_teaming.json image:icn_0_mode02				myplugin/party_hongshui	3		2
-2	3	迷雾	g2052.gui.drama.template.name2	g2052.gui.drama.template.desc2	set:g2052_teaming.json image:img_0_background02	set:g2052_teaming.json image:icn_0_mode03				myplugin/party_miwu	9	1	4
-3	2	失重	g2052.gui.drama.template.name3	g2052.gui.drama.template.desc3	set:g2052_teaming.json image:img_0_background03	set:g2052_teaming.json image:icn_0_mode01					10		3
-4	1	巨人	g2052.gui.drama.template.name4	g2052.gui.drama.template.desc4	set:g2052_teaming.json image:img_0_background05	set:g2052_teaming.json image:icn_0_mode05							1
-5	9999	自定义	g2052.gui.drama.template.name0	g2052.gui.drama.template.desc0		set:g2052_teaming.json image:icn_0_mode04		1					
-6	10000	空模板	g2052.gui.drama.template.name00						1				

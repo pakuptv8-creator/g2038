@@ -1,7 +1,0 @@
-{
-    "actorName": "empty.actor",
-    "collision": false,
-    "gravity": 0,
-    "disableShadow": true,
-    "fixBodyTurn": true
-}
