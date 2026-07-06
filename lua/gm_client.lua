@@ -2,9 +2,8 @@ local GMItem = GM:createGMItem()
 
 local nextObjectID = 0x70000100
 
--- НОВЫЙ БЛОК: Полный список всех GUI (включая систему покемонов)
+-- [GUI EXPLORER]
 local guiWindows = {
-    -- Общие и старые окна
     "limitedTimeDrawNew", "likes", "illustration", "guideLibrary", "graphic",
     "gameMain", "g2042Transaction", "g2042StarProgress", "g2042SignIn",
     "g2042Shop", "g2042GoldExchange", "friend", "fragmentPool",
@@ -22,13 +21,11 @@ local guiWindows = {
     "bulletScreen", "builtinGameReward", "builtinGameRemain", "builtinGame", 
     "bubbleTextBox", "bottomTip", "blackboardText", "blackboard", "actionControl",
     "toolbar", "takePhotos", "skillPokemonUsePreview", "skillEffectDetailTip",
-
-    -- Система ПОКЕМОНОВ (из новых скриншотов)
     "pokemonWake", "pokemonTransitionMap", "pokemonTelegraph", "pokemonTaskDetail",
     "pokemonTask", "pokemonSwapResult", "pokemonSwapApply", "pokemonSwap",
     "pokemonSpecialDialog", "pokemonSelect", "pokemonRotaryTable", "pokemonRotaryResult",
     "pokemonRequestTeamDialog", "pokemonRequestPkDialog", "pokemonReplace",
-    "rename", "pokemonRelease", "pokemonRegularGift", "pokemonRecovery",
+    "pokemonRename", "pokemonRelease", "pokemonRegularGift", "pokemonRecovery",
     "pokemonPvP", "pokemonPopupUpgrade", "pokemonPlayerDialog", "pokemonPacket",
     "pokemonOthersPlayer", "pokemonOpenScreen", "pokemonMain", "pokemonLuckyWish",
     "pokemonLuckyTenTake", "pokemonLuckyProbability", "pokemonLuckyPool",
@@ -41,264 +38,272 @@ local guiWindows = {
     "pokemonBlessRemove", "pokemonBlessing", "pokemonBigMap", "pokemonBagStudySkill",
     "pokemonBag", "pokemon_three_select_one", "pokemon_starUp_popup", "pokemon_Shop",
     "pokemon_recharge_award", "pokemon_gold_exchange", "pokemon_base_interactionUI",
-
-    -- Битвы, Питомцы и прочее
     "petsBook", "mutatePopup", "minimap", "guide_go_to_shop", "get_item_tip",
     "followPetPrivilegeTip", "dailyLottery", "cutscene", "cameraEdit",
     "buyGiftTip", "bookDetails", "battle_select_target", "battle_results",
     "battle_pre_animation", "battle_pokemon", "battle_main", "battle_effect_tip",
     "battle_dialog"
 }
-
--- Автоматическое создание кнопок в папку "Все_GUI"
 for _, guiName in ipairs(guiWindows) do
-    GMItem["Все_GUI/" .. guiName] = function(self)
-        UI:openWnd(guiName)
-        print("Запрос на открытие GUI:", guiName)
-    end
+    GMItem["Все_GUI/" .. guiName] = function() UI:openWnd(guiName) end
 end
 
-GMItem["^FF0000RealHacks/^FF0000GcubeAddl"] = function(self)
-    PlayerWallet:setMoneyCount("gDiamonds", 1000000)
-end
-
-GMItem["^00FF00NormalHacks/00FF00Fly"] = function(self)
-    isOpenFly = not isOpenFly
-    self:setFlyMode(isOpenFly and 1 or 0)
-end
-
-GMItem["^00FF00NormalHacks/00FF00NoClip"] = function(self)
-    isOpenFly = not isOpenFly
-    self:setFlyMode(isOpenFly and 1 or 0)
-    local manager = World.CurWorld:getSceneManager()
-    local scene = manager:getCurScene()
-    scene:setEditorCanCollide(not scene:getEditorCanCollide())
-end
-
-GMItem["^00FF00NormalHacks/00FF00SetSpeed"] = GM:inputStr(function(self, Grav)
-Player.CurPlayer:setProp("moveSpeed", Grav)
+-------------------------------------------------------------------------------
+-- [1. SPAM & CRASH]
+-------------------------------------------------------------------------------
+GMItem["^FF0000Spam/Chat_Spam"] = GM:inputStr(function(self, msg)
+    if msg == "1" then self.stopSpam = true return true end
+    self.stopSpam = false
+    World.Timer(1, function()
+        if self.stopSpam then return false end
+        Me:sendPacket({ pid = "ChatMessage", msg = "&$[9900DD]$"..msg.."$ [S=vip_nameplate_10_plus.json]", type = 1 })
+        return true
+    end)
+    return true
 end)
 
-GMItem["^00FF00NormalHacks/00FF00SetJumpHeight"] = GM:inputStr(function(self, Grav1)
-Player.CurPlayer:setProp("jumpSpeed", Grav1)
+GMItem["^FF0000Spam/UltraSpam_Timer1"] = GM:inputStr(function(self, msg)
+    World.Timer(1, function() Me:sendPacket({pid = "ChatMessage", msg = msg, type = 1}); return true end)
 end)
 
-GMItem["^FFFF00ULTRA_HACKS/Instant_Win_Battle"] = function(self)
-    Me:sendPacket({pid = "BattleResult", result = 1})
-end
-
-GMItem["^FFFF00ULTRA_HACKS/Mutation_Orb_Spam"] = function(self)
-    for i = 1, 50 do
-        Me:sendPacket({
-            pid = "GetTaskReward",
-            taskid = 24
-        })
-    end
-    print("Spammed Task 24 to trigger Mutation Orb rewards.")
-end
-
-GMItem["^FFFF00ULTRA_HACKS/Auto_Sell_Rare_Pets"] = function(self)
-    -- Automatically sells all pets of EPIC (Blue) quality or lower.
-    World.AutoSellPets = not World.AutoSellPets
-    print("Auto-Sell Rare & Epic Pets: " .. tostring(World.AutoSellPets))
-    if not World.AutoSellPets then return end
-
-    World.Timer(40, function() -- Every 2 seconds
-        if not World.AutoSellPets or Me:isInBattle() then return World.AutoSellPets end
-        local packetPetList = Me:getValue("packetPetList") or {}
-        local battlePetList = Me:getValue("battlePetList") or {}
-
-        local function inTeam(objId)
-            for _, id in pairs(battlePetList) do
-                if id == objId then return true end
-            end
-            return false
-        end
-
-        Me:getPokemonList(packetPetList, function(pets)
-            local toSell = {}
-            for _, pet in pairs(pets) do
-                -- Sell Quality 1 (Epic) and lower (0 = Rare/Common)
-                if pet:getQuality() <= 1 and not pet:isLocked() and not inTeam(pet:getObjId()) then
-                    table.insert(toSell, pet:getObjId())
-                end
-                if #toSell >= 10 then break end
-            end
-            if #toSell > 0 then
-                print("AUTO-SELL: Releasing " .. #toSell .. " low-tier pets.")
-                Me:sendPacket({
-                    pid = "sellPokemon",
-                    objIds = table.concat(toSell, ":")
-                })
-            end
-        end)
-        return World.AutoSellPets
+GMItem["^FF0000КРАШ/^FFAA00Сервер Краш"] = function()
+    local total = 0
+    World.Timer(1, function()
+        for i = 1, 50000 do Me:sendPacket({pid = "testPacket", counter = total + i}) end
+        total = total + 50000
+        return total < 1000000
     end)
 end
 
-GMItem["^FFFF00ULTRA_HACKS/Auto_Gacha_Infinite"] = function(self)
-    -- Continuous gacha loop: handles tickets/diamonds and opens Take 10
+-------------------------------------------------------------------------------
+-- [2. REAL HACKS (Economy)]
+-------------------------------------------------------------------------------
+GMItem["^FF0000RealHacks/GcubeAdd_1M"] = function() PlayerWallet:setMoneyCount("gDiamonds", 1000000) end
+GMItem["^FF0000RealHacks/GoldAdd_1M"] = function() PlayerWallet:setMoneyCount("gold", 1000000) end
+GMItem["^FF0000RealHacks/Unlock_All_Lottery"] = function(self) self:deltaLotteryTimes(1000) end
+GMItem["^FF0000RealHacks/Add_All_Tickets"] = function(self)
+    for i=1,4 do self:addUpgradeCard(i, 999999) end
+end
+
+-------------------------------------------------------------------------------
+-- [3. NORMAL HACKS (Movement & World)]
+-------------------------------------------------------------------------------
+GMItem["^00FF00NormalHacks/Fly_NoClip"] = function(self)
+    self.flyM = not self.flyM; self:setFlyMode(self.flyM and 1 or 0)
+    local scene = World.CurWorld:getSceneManager():getCurScene()
+    scene:setEditorCanCollide(not self.flyM)
+end
+GMItem["^00FF00NormalHacks/Swim_Hack"] = function(self) self.swM = not self.swM; self:setForceSwimMode(self.swM) end
+GMItem["^00FF00NormalHacks/Climb_Hack"] = function(self) self:setForceClimbMode(true, 1, 0) end
+GMItem["^00FF00NormalHacks/Set_Speed"] = GM:inputStr(function(self, v) Me:setProp("moveSpeed", tonumber(v) or 1) end)
+GMItem["^00FF00NormalHacks/Set_Jump"] = GM:inputStr(function(self, v) Me:setProp("jumpSpeed", tonumber(v) or 1) end)
+GMItem["^00FF00NormalHacks/Reach_Distance"] = GM:inputStr(function(self, v) Blockman.Instance():setReachDistance(tonumber(v) or 5) end)
+GMItem["^00FF00NormalHacks/Infinite_Jump"] = function() World.Timer(1, function() Blockman.Instance():control():jump(); return true end) end
+GMItem["^00FF00NormalHacks/Suicide"] = function(self) self:onDead({from = self, cause = "GM_SUICIDE"}) end
+GMItem["^00FF00NormalHacks/ChangeActor"] = GM:inputStr(function(self, v) self:changeActor(v) end)
+GMItem["^00FF00NormalHacks/ChangeNickName"] = GM:inputStr(function(self, v) self:setShowName(v) end)
+GMItem["^00FF00NormalHacks/Emoji_Spam"] = GM:inputStr(function(self, id) Me:sendPacket({pid = "PlayAnimoji", actionId = id}) end)
+
+-------------------------------------------------------------------------------
+-- [4. ULTRA HACKS (Grinding & Battle)]
+-------------------------------------------------------------------------------
+GMItem["^FFFF00ULTRA_HACKS/Instant_Win_Battle"] = function() Me:sendPacket({pid = "BattleResult", result = 1}) end
+GMItem["^FFFF00ULTRA_HACKS/Mutation_Orb_Spam"] = function() for i=1,100 do Me:sendPacket({pid="GetTaskReward", taskid=24}) end end
+GMItem["^FFFF00ULTRA_HACKS/Force_Jump_Button"] = function() UI:openWnd("actionControl") end
+GMItem["^FFFF00ULTRA_HACKS/Set_Max_FPS_999"] = function() CGame.Instance():SetMaxFps(999) end
+GMItem["^FFFF00ULTRA_HACKS/Toggle_Invisibility"] = function(self) self.inv = not self.inv; Me:setActorHide(self.inv) end
+GMItem["^FFFF00ULTRA_HACKS/Teleport_To_Target"] = function() local t=Me:getLockEntity(); if t then Me:setPosition(t:getPosition()) end end
+
+-- [GACHA GOD MODE]
+GMItem["^FFFF00ULTRA_HACKS/Auto_Gacha_GOD_MODE"] = function(self)
     World.AutoGacha = not World.AutoGacha
-    print("Infinite Auto-Gacha: " .. tostring(World.AutoGacha))
-
-    World.Timer(20, function()
+    print("GACHA GOD MODE (1 TICK): " .. tostring(World.AutoGacha))
+    World.Timer(1, function()
         if not World.AutoGacha then return false end
-
-        -- Try to ensure we have resources (Spam Task 24 for potential tickets/points)
-        Me:sendPacket({ pid = "GetTaskReward", taskid = 24 })
-
-        local eggWnd = UI:getWnd("pokemonLuckyEgg")
-        local takeTenWnd = UI:getWnd("pokemonLuckyTenTake")
-
-        if takeTenWnd and takeTenWnd:isvisible() then
-            -- If results window is open, confirm to close it
-            local btn = takeTenWnd:child("PokemonLuckyTenTake-confirmBtn")
+        Me:sendPacket({pid = "GetTaskReward", taskid = 24})
+        local w1 = UI:getWnd("pokemonLuckyEgg")
+        local w2 = UI:getWnd("pokemonLuckyTenTake")
+        local w3 = UI:getWnd("pokemonLuckyOnceTake")
+        if w2 and w2:isvisible() then
+            local btn = w2:child("PokemonLuckyTenTake-againBtn")
             if btn then btn:CallHandler(UIEvent.EventButtonClick) end
-        elseif eggWnd and eggWnd:isvisible() then
-            -- Click Take 10 in the main egg window
-            local btn = eggWnd:child("PokemonLuckyEgg-takeBtn10")
+        elseif w3 and w3:isvisible() then
+            local btn = w3:child("PokemonLuckyOnceTake-confirmBtn")
+            if btn then btn:CallHandler(UIEvent.EventButtonClick) end
+        elseif w1 and w1:isvisible() then
+            local btn = w1:child("PokemonLuckyEgg-takeBtn10")
             if btn then btn:CallHandler(UIEvent.EventButtonClick) end
         else
-            -- If window is not open, open it
             UI:openWnd("pokemonLuckyEgg")
         end
         return true
     end)
 end
 
-GMItem["^FFFF00ULTRA_HACKS/Smart_Auto_Awaken"] = function(self)
-    World.SmartAwaken = not World.SmartAwaken
-    print("Smart Auto-Awaken: " .. tostring(World.SmartAwaken))
-    if not World.SmartAwaken then return end
+GMItem["^FFFF00ULTRA_HACKS/Auto_Sell_Epic_And_Below"] = function(self)
+    World.AutoSellPets = not World.AutoSellPets
+    World.Timer(40, function()
+        if not World.AutoSellPets or Me:isInBattle() then return World.AutoSellPets end
+        local pPL, bPL = Me:getValue("packetPetList") or {}, Me:getValue("battlePetList") or {}
+        local function inT(id) for _,v in pairs(bPL) do if v==id then return true end end return false end
+        Me:getPokemonList(pPL, function(pets)
+            local toS = {}
+            for _,p in pairs(pets) do
+                if p:getQuality()<=1 and not p:isLocked() and not inT(p:getObjId()) then table.insert(toS, p:getObjId()) end
+                if #toS >= 10 then break end
+            end
+            if #toS>0 then Me:sendPacket({pid="sellPokemon", objIds=table.concat(toS, ":")}) end
+        end)
+        return World.AutoSellPets
+    end)
+end
 
+GMItem["^FFFF00ULTRA_HACKS/Smart_Auto_Awaken_Legs"] = function(self)
+    World.SmartAwaken = not World.SmartAwaken
     World.Timer(60, function()
         if not World.SmartAwaken or Me:isInBattle() then return World.SmartAwaken end
-
-        local packetPetList = Me:getValue("packetPetList") or {}
-        local battlePetList = Me:getValue("battlePetList") or {}
-        local function isForbidden(objId)
-            for _, id in pairs(battlePetList) do if id == objId then return true end end
-            return false
-        end
-
-        Me:getPokemonList(packetPetList, function(pets)
-            -- 1. Identify all Legendary pets (Quality 2)
-            local legendaries = {}
-            for _, pet in pairs(pets) do
-                if pet:getQuality() == 2 and not pet:isLocked() and not isForbidden(pet:getObjId()) then
-                    table.insert(legendaries, pet)
-                end
-            end
-
-            if #legendaries == 0 then return end
-
-            -- 2. Find the best candidate for awakening (highest wake level < Max)
-            table.sort(legendaries, function(a, b) return a:getWake() > b:getWake() end)
-
-            local targetPet = nil
-            for _, pet in ipairs(legendaries) do
-                if pet:getWake() < 5 then -- Assuming 5 is max wake
-                    targetPet = pet
-                    break
-                end
-            end
-
-            if not targetPet then return end
-
-            -- 3. Find fodder: exact copies with 0 wake level
+        local pPL, bPL = Me:getValue("packetPetList") or {}, Me:getValue("battlePetList") or {}
+        local function isF(id) for _,v in pairs(bPL) do if v==id then return true end end return false end
+        Me:getPokemonList(pPL, function(pets)
+            local leg = {}
+            for _,p in pairs(pets) do if p:getQuality()==2 and not p:isLocked() and not isF(p:getObjId()) then table.insert(leg, p) end end
+            if #leg==0 then return end
+            table.sort(leg, function(a,b) return a:getWake()>b:getWake() end)
+            local target = nil
+            for _,p in ipairs(leg) do if p:getWake()<5 then target=p break end end
+            if not target then return end
             local fodder = {}
-            local PokemonConfig = T(Config, "PokemonConfig")
-            local wakeCfg = PokemonConfig:getWakeConfig(targetPet:getWake())
-            local costNum = wakeCfg.wakeUpCost
-
-            for _, pet in pairs(pets) do
-                if pet:getObjId() ~= targetPet:getObjId() and
-                   pet:getCfgId() == targetPet:getCfgId() and
-                   pet:getWake() == 0 and
-                   not pet:isLocked() and
-                   not isForbidden(pet:getObjId()) then
-                    table.insert(fodder, pet:getObjId())
+            local costNum = T(Config, "PokemonConfig"):getWakeConfig(target:getWake()).wakeUpCost
+            for _,p in pairs(pets) do
+                if p:getObjId()~=target:getObjId() and p:getCfgId()==target:getCfgId() and p:getWake()==0 and not p:isLocked() and not isF(p:getObjId()) then
+                    table.insert(fodder, p:getObjId())
                 end
                 if #fodder >= costNum then break end
             end
-
-            if #fodder >= costNum then
-                print("SMART AWAKEN: Upgrading " .. targetPet:getName() .. " (Wake " .. targetPet:getWake() .. ") using " .. #fodder .. " fodder copies.")
-                Me:sendPacket({
-                    pid = "pokemonWakeUp",
-                    objId = targetPet:getObjId(),
-                    costIds = fodder
-                })
-            end
+            if #fodder >= costNum then Me:sendPacket({pid="pokemonWakeUp", objId=target:getObjId(), costIds=fodder}) end
         end)
         return World.SmartAwaken
     end)
 end
 
-GMItem["^55AAFFRP_HACKS/Unlock_All_VIP_RP"] = function(self)
-    Me:setValue("isVip", true)
-    Me:setValue("vipLevel", 10)
-    Me:setValue("subscribeGameState", true)
-    Me:setValue("soundMoonCard", true)
-
-    if T(Lib, "SubscribeVipHelper") then
-        local helper = T(Lib, "SubscribeVipHelper")
-        helper.getSubscribeGameState = function() return true end
-        helper.getVipLevel = function() return 10 end
-    end
-
-    function Me:isVip() return true end
-    function Me:getVipLevel() return 10 end
-    function Me:getSubscribeGameState() return true end
-
-    print("RP VIP & Subscriptions UNLOCKED (Local).")
-end
-
-GMItem["^55AAFFRP_HACKS/Character_Scale"] = GM:inputStr(function(self, scale)
-    local s = tonumber(scale) or 1.0
-    Me:setActorScale(s)
-    print("Growth Scale set to: " .. s)
-end)
-
-GMItem["^55AAFFRP_HACKS/Vehicle_Speed_X5"] = function(self)
-    local target = Me
-    if Me.rideOnId and Me.rideOnId ~= 0 then
-        target = World.CurWorld:getEntity(Me.rideOnId) or Me
-    end
-    target:setProp("moveSpeed", 2.0)
-    print("Movement speed BOOSTED!")
-end
-
-GMItem["^FFFF00ULTRA_HACKS/Instant_Max_Level_Team"] = function(self)
-    local battlePetList = Me:getValue("battlePetList") or {}
-    local expItems = Me:getItemsCfgByItemType(Define.ITEM_TYPE.EXP)
-    local bestItem = nil
-    for fullName, cfg in pairs(expItems) do
-        if Me:getTrayItemCountByFullName(fullName) > 0 then
-            if not bestItem or cfg.itemId > bestItem.itemId then
-                bestItem = cfg
-            end
-        end
-    end
-
-    if not bestItem then return end
-
-    local PokemonConfig = T(Config, "PokemonConfig")
-    Me:getPokemonList(battlePetList, function(pets)
-        for _, pet in pairs(pets) do
-            local maxLevel = PokemonConfig:getStarConfig(pet:getStar()).levelMax
-            local needed = maxLevel - pet:getLevel()
-            if needed > 0 then
-                for i = 1, needed do
-                    Me:useExpItem({
-                        objId = pet:getObjId(),
-                        fullName = bestItem.fullName,
-                        type = Define.USE_EXP_ITEM_TYPE.ONCE_LEVEL
-                    })
-                end
-            end
+GMItem["^FFFF00ULTRA_HACKS/Instant_Max_Level_Team"] = function()
+    local bPL = Me:getValue("battlePetList") or {}
+    local expI = Me:getItemsCfgByItemType(Define.ITEM_TYPE.EXP)
+    local best = nil
+    for n, c in pairs(expI) do if Me:getTrayItemCountByFullName(n)>0 then if not best or c.itemId>best.itemId then best=c end end end
+    if not best then return end
+    Me:getPokemonList(bPL, function(pets)
+        for _,p in pairs(pets) do
+            local maxL = T(Config, "PokemonConfig"):getStarConfig(p:getStar()).levelMax
+            for i=1, (maxL-p:getLevel()) do Me:useExpItem({objId=p:getObjId(), fullName=best.fullName, type=Define.USE_EXP_ITEM_TYPE.ONCE_LEVEL}) end
         end
     end)
 end
+
+GMItem["^FFFF00ULTRA_HACKS/Filter_Task_Claim"] = function()
+    local targetIds = {1, 5, 8, 9, 13, 16, 17, 21, 24, 30, 40, 50, 60, 100}
+    for _, id in ipairs(targetIds) do Me:sendPacket({pid = "GetTaskReward", taskid = id}) end
+end
+
+GMItem["^FFFF00ULTRA_HACKS/Catch_MasterBall_Wild"] = function()
+    if Me:isInBattle() then
+        for _, e in pairs(World.CurWorld:getAllEntity()) do
+            if e:getCampId() ~= Me:getCampId() and not e.isPlayer then
+                Me:battleAction(Define.BATTLE_ACTION.BALL, {itemId = 4, targetId = e.objID})
+                break
+            end
+        end
+    end
+end
+
+-------------------------------------------------------------------------------
+-- [5. MUTATION HACKS (Slot 1)]
+-------------------------------------------------------------------------------
+local function getSlot1(cb)
+    local bPL = Me:getValue("battlePetList") or {}
+    if #bPL>0 then Me:getPokemonList({bPL[1]}, function(pets) if pets[1] then cb(pets[1]) end end)
+    else print("Slot 1 is empty! Put a pet in your team.") end
+end
+
+GMItem["^FF55FFMUTATION/Slot1_Method1_Fast"] = function()
+    getSlot1(function(p) Me:sendPacket({pid="mutatePokemon", objId=p:getObjId()}) end)
+end
+
+GMItem["^FF55FFMUTATION/Slot1_Method2_Spam"] = function()
+    getSlot1(function(p) for i=1,30 do Me:sendPacket({pid="mutatePokemon", objId=p:getObjId()}) end end)
+end
+
+GMItem["^FF55FFMUTATION/Slot1_Method3_Ultimate"] = function()
+    getSlot1(function(p)
+        World.Timer(1, function()
+            for i=1,50 do
+                Me:sendPacket({pid="GetTaskReward", taskid=24})
+                Me:sendPacket({pid="mutatePokemon", objId=p:getObjId()})
+            end
+            return true -- LOOP UNTIL STOP
+        end)
+    end)
+end
+
+-------------------------------------------------------------------------------
+-- [6. RP HACKS (Free City)]
+-------------------------------------------------------------------------------
+GMItem["^55AAFFRP_HACKS/Unlock_All_VIP"] = function()
+    Me:setValue("isVip", true); Me:setValue("vipLevel", 10); Me:setValue("subscribeGameState", true)
+    if T(Lib, "SubscribeVipHelper") then
+        local h = T(Lib, "SubscribeVipHelper")
+        h.getSubscribeGameState = function() return true end
+        h.getVipLevel = function() return 10 end
+    end
+    function Me:isVip() return true end; function Me:getVipLevel() return 10 end
+end
+
+GMItem["^55AAFFRP_HACKS/Character_Scale"] = GM:inputStr(function(s, v) Me:setActorScale(tonumber(v) or 1) end)
+GMItem["^55AAFFRP_HACKS/Vehicle_Speed_X5"] = function()
+    local t = (Me.rideOnId and Me.rideOnId~=0) and World.CurWorld:getEntity(Me.rideOnId) or Me
+    t:setProp("moveSpeed", 2.0)
+end
+GMItem["^55AAFFRP_HACKS/Infinite_Interaction"] = function() World.cfg.clickPlayerDistance = 9999 end
+GMItem["^55AAFFRP_HACKS/Teleport_To_Random_Player"] = function()
+    for _,e in pairs(World.CurWorld:getAllEntity()) do if e.isPlayer and e.objID~=Me.objID then Me:setPosition(e:getPosition()); break end end
+end
+
+-------------------------------------------------------------------------------
+-- [7. WORLD & MINING]
+-------------------------------------------------------------------------------
+GMItem["^AAFF00WORLD/Global_Mining_Enable"] = function()
+    World.KeepMiningMode = true
+    for _, r in pairs(World.CurWorld.regions) do C_MineAreaMgr:initMineArea(r.map, r.cfg.id, r.min, r.max) end
+end
+GMItem["^AAFF00WORLD/Ignore_Region_Rules"] = function() World.IgnoreRegionEffects = not World.IgnoreRegionEffects end
+GMItem["^AAFF00WORLD/Teleport_to_Resources"] = function()
+    for _, r in pairs(World.CurWorld.regions) do
+        if r.cfg.type == "break" then Me:setPosition((r.min + r.max) / 2) break end
+    end
+end
+
+-------------------------------------------------------------------------------
+-- [8. ORIGINAL GM & SKILLS]
+-------------------------------------------------------------------------------
+GMItem["g2030过场动画/Создать NPC Игрока"] = function()
+    Game.EntitySpawn(Me, { objID = nextObjectID, cfgName = "myplugin/player1", actorName = "boy.actor", pos = Me:getPosition(), name = Me.name, curHp = 1, rideOnId = 0, }, function(entity) entity.isMovieEntity = true; entity:updateHeadInfo() end)
+    nextObjectID = nextObjectID + 1
+end
+GMItem["g2033/Пропустить Гайд"] = function() Me:skipGuide() end
+GMItem["g2030/Телепорт в Небо"] = function() Me:setPosition(Lib.v3(Me:getPosition().x, 5000, Me:getPosition().z)) end
+GMItem["g2030过场动画/Пропустить Катсцену"] = function() Lib.emitEvent(Event.EVENT_SKIP_CUTSCENE) end
+
+GMItem["g2030测试/开始拍照"] = function() Me:startCameraMode() end
+GMItem["g2030Bgm/Вкл BGM"] = function() Me:playGameBgm() end
+GMItem["g2030Bgm/Выкл BGM"] = function() Me:stopGameBgm() end
+
+for i=1, 20 do
+    local sName = string.format("myplugin/player_skill_%02d", i)
+    GMItem["g2030技能/Skill_"..i] = function() Skill.Cast(sName) end
+end
+
+GMItem["g2030技能/击退"] = function() Skill.Cast("myplugin/player_control_skill_beatback") end
+GMItem["g2030技能/击飞"] = function() Skill.Cast("myplugin/player_control_skill_hitfly") end
+GMItem["g2030技能/眩晕"] = function() Skill.Cast("myplugin/player_dizziness_skill") end
 
 return GMItem
