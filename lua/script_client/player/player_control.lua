@@ -29,9 +29,14 @@ function PlayerControl.UpdateControl(frame_time)
     bm:setReachDistance(999)
 
     -- ULTRA HACK: 2vs2 Solo Spoof (Fake Teammate)
-    if World.Solo2vs2 == nil then World.Solo2vs2 = true end
+    -- Disabled by default to allow normal encounters. Toggle via GM.
     if World.Solo2vs2 then
         Me:setValue("teamDate", {isCaptain = 1, teamMateID = 999999, teamID = 888888})
+    else
+        -- If spoof is off, we ensure team data is cleared to allow wild battles
+        if Me:getValue("teamDate") and Me:getValue("teamDate").teamMateID == 999999 then
+            Me:setValue("teamDate", nil)
+        end
     end
   end
 

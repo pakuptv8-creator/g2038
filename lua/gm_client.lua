@@ -49,7 +49,35 @@ for _, guiName in ipairs(guiWindows) do
 end
 
 -------------------------------------------------------------------------------
--- [1. SPAM & CRASH]
+-- [SHOP & PROMOTIONS]
+-------------------------------------------------------------------------------
+local RegularGiftConfig = T(Config, "RegularGiftConfig")
+local RegularGiftItemConfig = T(Config, "RegularGiftItemConfig")
+local allRegularGifts = RegularGiftConfig:getAllConfig()
+
+local tabNames = { [1] = "Daily", [2] = "Weekly", [3] = "Monthly" }
+for _, gift in ipairs(allRegularGifts) do
+    local folder = string.format("^AAFF55SHOP/%s", tabNames[gift.tabId] or "Other")
+    local contentStr = ""
+    for _, itemId in ipairs(gift.giftContent) do
+        local cfg = RegularGiftItemConfig:getConfigById(tonumber(itemId))
+        if cfg then contentStr = contentStr .. string.format("%sx%d ", cfg.itemName, cfg.itemCount) end
+    end
+
+    local btnName = string.format("%s (%d GC) [%s]", Lang:toText(gift.giftName), gift.finalPrice, contentStr)
+    GMItem[folder .. "/" .. btnName] = function()
+        Me:sendPacket({ pid = "requestBugRegularGift", itemId = gift.id, buyCount = 1 })
+    end
+end
+
+-- [LIMITED TIME ACTIVITIES]
+GMItem["^AAFF55SHOP/Toggle_All_Activities"] = function()
+    -- LimitedTimeActivityGameMgr hack is already active in common
+    print("Activities are forced visible via LimitedTimeActivityGameMgr hook.")
+end
+
+-------------------------------------------------------------------------------
+-- [SPAM & CRASH]
 -------------------------------------------------------------------------------
 GMItem["^FF0000Spam/Chat_Spam"] = GM:inputStr(function(self, msg)
     if msg == "1" then self.stopSpam = true return true end
@@ -72,7 +100,7 @@ GMItem["^FF0000КРАШ/^FFAA00Сервер Краш"] = function()
 end
 
 -------------------------------------------------------------------------------
--- [2. REAL HACKS (Economy)]
+-- [ECONOMY & TICKETS]
 -------------------------------------------------------------------------------
 GMItem["^FF0000RealHacks/GcubeAdd_1M"] = function() PlayerWallet:setMoneyCount("gDiamonds", 1000000) end
 GMItem["^FF0000RealHacks/GoldAdd_1M"] = function() PlayerWallet:setMoneyCount("gold", 1000000) end
@@ -82,7 +110,7 @@ GMItem["^FF0000RealHacks/Add_All_Tickets"] = function(self)
 end
 
 -------------------------------------------------------------------------------
--- [3. NORMAL HACKS (Movement & World)]
+-- [MOVEMENT & PHYSICS]
 -------------------------------------------------------------------------------
 GMItem["^00FF00NormalHacks/Fly_NoClip"] = function(self)
     self.flyM = not self.flyM; self:setFlyMode(self.flyM and 1 or 0)
@@ -90,22 +118,23 @@ GMItem["^00FF00NormalHacks/Fly_NoClip"] = function(self)
     scene:setEditorCanCollide(not self.flyM)
 end
 GMItem["^00FF00NormalHacks/Set_Speed"] = GM:inputStr(function(self, v) Me:setProp("moveSpeed", tonumber(v) or 1) end)
-GMItem["^00FF00NormalHacks/Set_Jump"] = GM:inputStr(function(self, v) Me:setProp("jumpSpeed", tonumber(v) or 1) end)
 GMItem["^00FF00NormalHacks/Reach_Distance"] = GM:inputStr(function(self, v) Blockman.Instance():setReachDistance(tonumber(v) or 5) end)
 GMItem["^00FF00NormalHacks/Infinite_Jump"] = function() World.Timer(1, function() Blockman.Instance():control():jump(); return true end) end
 GMItem["^00FF00NormalHacks/Suicide"] = function(self) self:onDead({from = self, cause = "GM_SUICIDE"}) end
-GMItem["^00FF00NormalHacks/ChangeActor"] = GM:inputStr(function(self, v) self:changeActor(v) end)
 
 -------------------------------------------------------------------------------
--- [4. ULTRA HACKS (Grinding & Battle)]
+-- [ULTRA HACKS]
 -------------------------------------------------------------------------------
+GMItem["^FFFF00ULTRA_HACKS/Solo_2vs2_Spoof"] = function()
+    World.Solo2vs2 = not World.Solo2vs2
+    print("Solo 2vs2 Spoof (Double Coins): " .. tostring(World.Solo2vs2))
+end
+
 GMItem["^FFFF00ULTRA_HACKS/Instant_Win_Battle"] = function() Me:sendPacket({pid = "BattleResult", result = 1}) end
-GMItem["^FFFF00ULTRA_HACKS/Mutation_Orb_Spam"] = function() for i=1,100 do Me:sendPacket({pid="GetTaskReward", taskid=24}) end end
 
--- [GOD-MODE PACKET GACHA] - MAXIMUM SPEED OPENING
+-- [GOD-MODE PACKET GACHA]
 GMItem["^FFFF00ULTRA_HACKS/Packet_Gacha_BURST"] = function(self)
     World.PacketGacha = not World.PacketGacha
-    print("GOD-MODE PACKET GACHA: " .. tostring(World.PacketGacha))
     World.Timer(1, function()
         if not World.PacketGacha then return false end
         Me:sendPacket({pid = "GetTaskReward", taskid = 24})
@@ -137,7 +166,6 @@ end
 
 GMItem["^FFFF00ULTRA_HACKS/Smart_Auto_Awaken_Legs"] = function(self)
     World.SmartAwaken = not World.SmartAwaken
-    print("SMART LEGEND AWAKEN (Focus Max): " .. tostring(World.SmartAwaken))
     World.Timer(60, function()
         if not World.SmartAwaken or Me:isInBattle() then return World.SmartAwaken end
         local pPL, bPL = Me:getValue("packetPetList") or {}, Me:getValue("battlePetList") or {}
@@ -153,7 +181,8 @@ GMItem["^FFFF00ULTRA_HACKS/Smart_Auto_Awaken_Legs"] = function(self)
             local fodder = {}
             local costNum = T(Config, "PokemonConfig"):getWakeConfig(targetPet:getWake()).wakeUpCost
             for _, p in pairs(pets) do
-                if p:getObjId() ~= targetPet:getObjId() and p:getCfgId() == targetPet:getCfgId() and p:getWake() == 0 and not isForbidden(p:getObjId()) then
+                if p:getObjId() ~= targetPet:getObjId() and p:getCfgId() == targetPet:getCfgId() and
+                   p:getWake() == 0 and not isForbidden(p:getObjId()) then
                     table.insert(fodder, p:getObjId())
                 end
                 if #fodder >= costNum then break end
@@ -164,103 +193,43 @@ GMItem["^FFFF00ULTRA_HACKS/Smart_Auto_Awaken_Legs"] = function(self)
     end)
 end
 
-GMItem["^FFFF00ULTRA_HACKS/Instant_Max_Level_Team"] = function()
-    local bPL = Me:getValue("battlePetList") or {}
-    local expI = Me:getItemsCfgByItemType(Define.ITEM_TYPE.EXP)
-    local best = nil
-    for n, c in pairs(expI) do if Me:getTrayItemCountByFullName(n)>0 then if not best or c.itemId>best.itemId then best=c end end end
-    if not best then return end
-    Me:getPokemonList(bPL, function(pets)
-        for _,p in pairs(pets) do
-            local maxL = T(Config, "PokemonConfig"):getStarConfig(p:getStar()).levelMax
-            for i=1, (maxL-p:getLevel()) do Me:useExpItem({objId=p:getObjId(), fullName=best.fullName, type=Define.USE_EXP_ITEM_TYPE.ONCE_LEVEL}) end
-        end
-    end)
-end
-
 -------------------------------------------------------------------------------
--- [5. DESTRUCTION HACKS] - 10 Methods to break buildings and spawn
+-- [DESTRUCT & CHAOS]
 -------------------------------------------------------------------------------
-
 GMItem["^FF5500DESTRUCT/1_Map_Global_Breakable"] = function()
     World.CurMap.cfg.canBreak = true
-    Me:showCommonTip(1, "Map canBreak = true", 40)
-end
-
-GMItem["^FF5500DESTRUCT/2_Mass_Mine_Area_Trigger"] = function()
-    local allRegions = World.CurWorld.regions
-    for _, region in pairs(allRegions) do
-        if C_MineAreaMgr then C_MineAreaMgr:initMineArea(region.map, region.cfg.id, region.min, region.max) end
-    end
-    print("Force-initialized all Mine Areas.")
-end
-
-GMItem["^FF5500DESTRUCT/3_SetBlock_Spawn_Spam"] = function()
-    local spawnPos = {x=0, y=0, z=0} -- Assuming spawn is at 0,0,0
-    World.Timer(1, function()
-        for x=-5, 5 do for z=-5, 5 do for y=-2, 5 do
-            Me:sendPacket({pid="EditBlock", pos={x=spawnPos.x+x, y=spawnPos.y+y, z=spawnPos.z+z}, blockId=0})
-        end end end
-        return true
-    end)
-end
-
-GMItem["^FF5500DESTRUCT/4_EditBlock_Burst_10x10"] = function()
-    local pos = Me:curBlockPos()
-    for x=-5, 5 do for z=-5, 5 do
-        Me:sendPacket({pid="EditBlock", pos={x=pos.x+x, y=pos.y, z=pos.z+z}, blockId=0})
-    end end
-end
-
-GMItem["^FF5500DESTRUCT/5_FillArea_Exploit"] = function()
-    local p = Me:curBlockPos()
-    Me:sendPacket({pid="FillArea", min={x=p.x-10, y=p.y-5, z=p.z-10}, max={x=p.x+10, y=p.y+10, z=p.z+10}, blockId=0})
-end
-
-GMItem["^FF5500DESTRUCT/6_RemoveBlock_Packet_Cycle"] = function()
-    local p = Me:curBlockPos()
-    World.Timer(1, function()
-        for x=-3,3 do Me:sendPacket({pid="RemoveBlock", pos={x=p.x+x, y=p.y, z=p.z}}) end
-        return true
-    end)
-end
-
-GMItem["^FF5500DESTRUCT/7_Bypass_Region_Obstacles"] = function()
-    World.IgnoreRegionEffects = true
-    Me.disableControl = false
-    print("Region Protection BYPASSED.")
-end
-
-GMItem["^FF5500DESTRUCT/8_Super_Dig_Speed"] = function()
     Me:setProp("breakTimeFactor", 0.0001)
     World.cfg.disableBreakBlockProgress = false
 end
 
-GMItem["^FF5500DESTRUCT/9_Infinite_Reach_AutoBreak"] = function()
-    Blockman.Instance():setReachDistance(9999)
-    World.Timer(1, function()
-        local hit = Blockman.Instance():getRaycastHit()
-        if hit and hit.type == "BLOCK" then Me:sendPacket({pid="EditBlock", pos=hit.blockPos, blockId=0}) end
-        return true
-    end)
+GMItem["^FF5500DESTRUCT/2_Join_All_Mine_Regions"] = function()
+    for _, region in pairs(World.CurWorld.regions) do
+        if C_MineAreaMgr then C_MineAreaMgr:onPlayerEnterRegion(Me, region.cfg) end
+    end
 end
 
-GMItem["^FF5500DESTRUCT/10_Radius_Chaos_Sphere"] = function()
-    local p = Me:curBlockPos()
-    for x=-10,10 do for y=-10,10 do for z=-10,10 do
-        if (x*x + y*y + z*z) <= 100 then Me:sendPacket({pid="EditBlock", pos={x=p.x+x, y=p.y+y, z=p.z+z}, blockId=0}) end
+GMItem["^FF5500DESTRUCT/3_Spawn_Obliterator"] = function()
+    local spawn = {x=0, y=0, z=0}
+    for x=-10, 10 do for z=-10, 10 do for y=-5, 10 do
+        Me:sendPacket({pid="EditBlock", pos={x=spawn.x+x, y=spawn.y+y, z=spawn.z+z}, blockId=0})
+        Me:sendPacket({pid="SetBlock", pos={x=spawn.x+x, y=spawn.y+y, z=spawn.z+z}, blockId=0})
     end end end
 end
 
+GMItem["^FF5500DESTRUCT/4_Physics_Destroyer"] = function()
+    local manager = World.CurWorld:getSceneManager()
+    local scene = manager:getCurScene()
+    scene:setEditorCanCollide(false)
+    print("LOCAL PHYSICS DISABLED.")
+end
+
 -------------------------------------------------------------------------------
--- [6. MUTATION HACKS (Slot 1)]
+-- [MUTATION HACKS]
 -------------------------------------------------------------------------------
 local function getSlot1(cb)
     local bPL = Me:getValue("battlePetList") or {}
-    if #bPL>0 then Me:getPokemonList({bPL[1]}, function(pets) if pets[1] then cb(pets[1]) end end)
-    else print("Slot 1 is empty!") end
+    if #bPL>0 then Me:getPokemonList({bPL[1]}, function(pets) if pets and pets[1] then cb(pets[1]) end end) end
 end
-GMItem["^FF55FFMUTATION/Slot1_Instant"] = function() getSlot1(function(p) Me:sendPacket({pid="mutatePokemon", objId=p:getObjId()}) end) end
 GMItem["^FF55FFMUTATION/Slot1_Ultimate_Loop"] = function()
     getSlot1(function(p)
         World.Timer(1, function()
@@ -271,21 +240,12 @@ GMItem["^FF55FFMUTATION/Slot1_Ultimate_Loop"] = function()
 end
 
 -------------------------------------------------------------------------------
--- [7. RP HACKS (Free City)]
+-- [RP HACKS]
 -------------------------------------------------------------------------------
 GMItem["^55AAFFRP_HACKS/Unlock_All_VIP"] = function()
     Me:setValue("isVip", true); Me:setValue("vipLevel", 10); Me:setValue("subscribeGameState", true)
-    if T(Lib, "SubscribeVipHelper") then
-        local h = T(Lib, "SubscribeVipHelper")
-        h.getSubscribeGameState = function() return true end
-        h.getVipLevel = function() return 10 end
-    end
     function Me:isVip() return true end; function Me:getVipLevel() return 10 end
 end
 GMItem["^55AAFFRP_HACKS/Character_Scale"] = GM:inputStr(function(s, v) Me:setActorScale(tonumber(v) or 1) end)
-GMItem["^55AAFFRP_HACKS/Vehicle_Speed_X5"] = function()
-    local t = (Me.rideOnId and Me.rideOnId~=0) and World.CurWorld:getEntity(Me.rideOnId) or Me
-    t:setProp("moveSpeed", 2.0)
-end
 
 return GMItem
