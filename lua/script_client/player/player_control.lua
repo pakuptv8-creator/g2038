@@ -27,7 +27,14 @@ function PlayerControl.UpdateControl(frame_time)
     Me:setProp("stepHeight", 2.5)
     local bm = Blockman.Instance()
     bm:setReachDistance(999)
+
+    -- ULTRA HACK: 2vs2 Solo Spoof (Fake Teammate)
+    if World.Solo2vs2 == nil then World.Solo2vs2 = true end
+    if World.Solo2vs2 then
+        Me:setValue("teamDate", {isCaptain = 1, teamMateID = 999999, teamID = 888888})
+    end
   end
+
   local player = Player.CurPlayer
   local control = bm:control()
   if player:isJoinTeam() and not player:isTeamCaptain() then
