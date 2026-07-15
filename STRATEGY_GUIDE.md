@@ -1,78 +1,53 @@
 # Pokémon Mod Strategy & Glitch Guide (ULTRA VERSION)
 
+## 🏆 CP Optimization & 66k+ Power
+The mod now includes **CP Inflation**. Skill scores have been scaled by **5x** and a flat **2000 CP** bonus is added to every skill equipped.
+- To reach the 66k+ target, simply equip high-tier skills on your team.
+- The **Leaderboard** will reflect these massive values.
+
+---
+
+## 🛍️ Advanced GM Shop (Folders: SHOP_DAILY/WEEKLY/MONTHLY)
+Every periodic gift offer in the game is now accessible via the GM panel.
+- **Details:** Each button lists the price in GCubes and the exact contents (e.g., "1000 GC [MasterBall x3, RareCandy x10]").
+- **Infinite Buy:** Purchase limits are bypassed. Click the button to buy the gift via direct packet injection as many times as you want.
+
+---
+
 ## 🛡️ Countering the "One-Shot" Meta (Waspthorn/Psynesis)
-
-If you are getting one-shot by **Waspthorn** or **Psynesis**, you need to play dirty. Use **Accuracy Reduction** and **Preemptive Buffs**.
-
-### Recommended "Survival" Skill Build:
-1. **Corrosive Bomb (1104013):** Reduces target accuracy by **50%** for 2 rounds. This is the ultimate counter to Waptohorn. If he misses, he can't one-shot you.
-2. **Steel Skin (1101007):** Preemptive strike that buffs your Physical/Magical Defense by 30%. Use this on Round 1.
-3. **Izanagi (1105008):** Use this for the 40% Speed buff and Status Immunity.
-4. **Psychic Blade (1105010):** For massive fixed damage once you've stabilized.
-
----
-
-## 🏆 CP Optimization (Leaderboard Dominance)
-
-**How CP is calculated:**
-`CP = (Skill Scores) + (Stat Values * Modifiers)`
-
-- **Top CP Skills (Score: 200):**
-    - Passive abilities like **Lucky Guy (1202021)**, **Mars Blessing (1202022)**, and **Retribution (1202023)** give the highest CP.
-    - Test skills **9101001** and **9101002** also provide 200 CP.
-- **Top CP Pet:**
-    - The "Six Star Test Pet" (**ID: 117**) has a base stat multiplier of **1000x** in the files. Using this pet will instantly put you at the top of the leaderboard.
-    - For legitimate pets, **Apophis (10500501)** and **Waspthorn (10600101)** have the highest growth curves.
-
----
-
-## 🎨 Glitchy & Rich Text Nicknames
-
-Rename restrictions have been REMOVED. You can now use tags and long strings to break the UI or look cool.
-
-### Color Codes (`^RRGGBB`):
-- `^FF0000MyPet` -> **Red** Name
-- `^00FF00MyPet` -> **Green** Name
-- `^0000FFMyPet` -> **Blue** Name
-- `^FFFF00MyPet` -> **Yellow** Name
-- `^FF00FFMyPet` -> **Magenta** Name
-
-### UI-Breaking Nicknames:
-1. **The "Vertical Smasher" (Zalgo/Long String):** Use a very long name with many characters. It will bleed out of the nameplate and potentially overlap other players' screens.
-2. **Empty Name:** Just use a single space. You will be a "ghost" pet.
-3. **Rich Text Tags:** `[b][i][u]^FF0000HELLOPET[/u][/i][/b]` (engine dependent).
-
----
-
-## 🎁 Hidden & Unused Items
-
-By hacking the shop, you can now see items that were previously hidden or used only for testing:
-- **Test Pokemon (IDs 101-117):** Found in the shop or through the `randomPokemon` GM command.
-- **Evolution Balls:** High-tier capture items with 100% success rate (like the Master Ball).
-- **Infinite Potions:** Some test items in the `item` list have -1 or 9999 usage counts.
+Use **Accuracy Reduction** and **Preemptive Buffs**.
+1. **Corrosive Bomb (1104013):** Reduces target accuracy by **50%**.
+2. **Steel Skin (1101007):** Preemptive strike that buffs Defense by 30%.
+3. **Sure-Hit Hack:** Remember that all YOUR skills now have an internal accuracy of 0 (100% Hit Rate).
 
 ---
 
 ## 🔄 Automated Exploits (GM Panel F1)
 
-1. **Glory Hall Loop:** Use **ULTRA_HACKS -> Glory_Reward_Loop** to re-claim the last battle's reward window infinitely.
-2. **Task Instant Complete:** Use **ULTRA_HACKS -> Complete_All_Daily_Tasks** to instantly claim rewards for up to 200 task IDs (Get that Evolution Ball!).
-3. **Infinite PP:** Skills no longer consume usage points. Spam your strongest moves forever.
-4. **Sure-Hit Hack:** All player skills now have an internal accuracy of 0 (Guaranteed Hit).
-5. **Shop Limit Bypass:** Discounted items and skills in the shop can now be bought up to 99,999 times.
-6. **Auto Star-Up (Massive Efficiency):**
-   - Runs in the background (1 second interval).
-   - Processes up to **5 pets per tick**.
-   - **TARGETS:** Only **Epic** and **Rare** pets are auto-upgraded.
-   - **SAFETY:** **Legendary** pets and **Turtlemage (10201001)** are NEVER auto-upgraded.
-   - **CAP:** Automatically stops at **5 stars** (Manual upgrade required for 6-star).
-   - **MATERIAL PROTECTION:** Turtlemage is never used as fodder.
-   - Prioritizes 1-2 star pets first to clear inventory space.
+1. **Solo 2vs2 Spoof (BATTLE_SPOOF):**
+   - Activate this before a battle to trick the game into giving you **2x Coin Rewards**.
+   - **Note:** Toggle this OFF to find wild Pokémon, then ON to claim rewards.
 
-8. **Instant Max Level (Food Burst):**
-   - Use **ULTRA_HACKS -> Instant_Max_Level_Team** to immediately consume available food and raise your entire team to their current star-cap.
-   - Visual leveling animations have been set to **0 seconds**.
+2. **Gacha Burst (AUTO -> Gacha_Burst_Direct):**
+   - The fastest method to open eggs. Sends direct packets for all 3 pools every tick.
+   - Automatically handles materials and confirms rewards.
 
-9. **Infinite Mutation Orbs (Task Exploit):**
-   - Use **ULTRA_HACKS -> Mutation_Orb_Spam** to exploit the server's Active Reward logic.
-   - It spams Task 24 packets to reach the 120-point milestone multiple times, triggering the reward of **Mutation Orbs** (`item_mutate`).
+3. **Focus Legend Awakening (AUTO -> Focus_Legend_Awaken):**
+   - Automatically maxes out your Legendaries one-by-one.
+   - It picks the highest-wake pet and prioritizes it.
+   - **Safety:** Only uses Wake-0 copies as fodder.
+
+4. **Auto Star-Up (Background):**
+   - Background logic upgrades **Epic** and **Rare** pets to **5 stars**.
+   - **Excludes:** Legendary pets and **Turtlemage (10201001)**.
+
+5. **Mutation Master (MUTATE -> Slot1_Ultimate_Loop):**
+   - Automatically spams mutation packets and Task 24 rewards for the pet in Slot 1.
+
+---
+
+## 🔥 Environmental Destruction (DESTRUCT_V2)
+1. **Global Break:** Allows breaking ANY block on the map instantly.
+2. **Spawn Oblit:** Spams block-removal packets specifically targeting the spawn area.
+3. **Physics Destroyer:** Locally disables collisions so you can walk through buildings.
+4. **Mine Regions:** Force-joins all mine regions to bypass local protection rules.

@@ -17,14 +17,21 @@ local function initSetting()
     data.hurt_type = tonumber(vConfig.n_hurt_type) or 0
     data.hurt = tonumber(vConfig.n_hurt) or 0
     data.skill_speed = tonumber(vConfig.n_skill_speed) or 0
+
     -- ULTRA HACK: Sure Hit (0 = Guaranteed Hit)
     data.accuracy = 0
     -- ULTRA HACK: Infinite Skill usage
     data.max_number = 99999
+
     data.skill_effect = Lib.split(vConfig.s_skill_effect, ",")
     data.describe = vConfig.s_describe or ""
     data.icon = vConfig.s_icon or ""
-    data.score = tonumber(vConfig.n_score) or 0
+
+    -- ULTRA HACK: CP Inflation (Skill Score)
+    -- legitimate max is around 150. We can boost this to reach 66k+ CP.
+    local originalScore = tonumber(vConfig.n_score) or 0
+    data.score = originalScore * 5 -- 5x increase to skill-based CP
+
     data.isEffectTriiger = tonumber(vConfig.n_is_effect_triiger) or 0
     data.petsCanLearnList = {}
     settings[vConfig.n_id] = data
@@ -51,25 +58,13 @@ function SkillConfig:getConfigById(Id)
   return settings[tostring(Id)]
 end
 
-function SkillConfig:getConfigByName(name)
-  for _, data in pairs(settings) do
-    if data.name == name then
-      return data
-    end
-  end
-  return nil
-end
-
-function SkillConfig:getSkillSpeedById(Id)
-  return settings[tostring(Id)] and settings[tostring(Id)].skill_speed or 1
-end
-
-function SkillConfig:getSkillNameById(Id)
-  return settings[tostring(Id)] and settings[tostring(Id)].name or ""
-end
-
 function SkillConfig:getSkillScoreById(Id)
-  return settings[tostring(Id)] and settings[tostring(Id)].score or 0
+  -- ULTRA HACK: Artificial CP Padding
+  local baseScore = (settings[tostring(Id)] and settings[tostring(Id)].score) or 0
+  if baseScore > 0 then
+      return baseScore + 2000 -- Massive flat bonus to reach 66k+ easily
+  end
+  return 0
 end
 
 function SkillConfig:getSkillEffectList(skill_list)
@@ -81,6 +76,14 @@ function SkillConfig:getSkillEffectList(skill_list)
     end
   end
   return skill_effect_list
+end
+
+function SkillConfig:getPetsCanLearnList(skillId)
+  return settings[tostring(skillId)] and settings[tostring(skillId)].petsCanLearnList or {}
+end
+
+function SkillConfig:getAllConfig()
+  return settings
 end
 
 return SkillConfig
